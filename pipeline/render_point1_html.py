@@ -3,6 +3,8 @@ Pure templating - all data comes from the JSON, nothing hardcoded here.
 """
 import json
 
+from render_common import svg_sparkline
+
 
 TEMPLATE = """<!doctype html>
 <title>Market Signal</title>
@@ -42,21 +44,24 @@ body{{
 .wrap{{max-width:840px; margin:0 auto;}}
 h1,h2,h3{{font-family:'Fraunces',Georgia,serif; text-wrap:balance; margin:0;}}
 .mono{{font-family:'IBM Plex Mono',ui-monospace,monospace; font-variant-numeric:tabular-nums;}}
-.masthead{{display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:8px 24px; border-bottom:2.5px solid var(--ink); padding-bottom:16px; margin-bottom:20px;}}
-.masthead h1{{font-size:2rem; font-weight:600; letter-spacing:-0.01em;}}
-.masthead .meta{{color:var(--ink-faint); font-size:0.8rem; text-align:right;}}
+.masthead{{display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:8px 24px; padding-bottom:18px; margin-bottom:24px; position:relative;}}
+.masthead::after{{content:""; position:absolute; left:0; right:0; bottom:0; height:3px; background:linear-gradient(90deg, var(--ink) 0%, var(--ink) 60%, var(--accent) 100%);}}
+.masthead h1{{font-size:2.15rem; font-weight:600; letter-spacing:-0.015em;}}
+.masthead .meta{{color:var(--ink-faint); font-size:0.78rem; text-align:right; line-height:1.5;}}
 .eyebrow{{text-transform:uppercase; letter-spacing:0.09em; font-size:0.72rem; color:var(--accent); font-weight:600; margin-bottom:6px;}}
-.rates-strip{{display:grid; grid-template-columns:repeat(auto-fit,minmax(108px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:10px; overflow:hidden; margin-bottom:28px;}}
-.rate-cell{{background:var(--surface); padding:12px 14px;}}
-.rate-cell .label{{font-size:0.68rem; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:4px;}}
-.rate-cell .value{{font-size:1.15rem; font-weight:600;}}
-.rate-cell .chg{{font-size:0.75rem; margin-top:2px;}}
+.rates-strip{{display:grid; grid-template-columns:repeat(auto-fit,minmax(122px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:12px; overflow:hidden; margin-bottom:32px; box-shadow:0 1px 2px rgba(20,26,43,0.04);}}
+.rate-cell{{background:var(--surface); padding:13px 15px 11px;}}
+.rate-cell .label{{font-size:0.66rem; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:5px;}}
+.rate-cell .value-row{{display:flex; align-items:flex-end; justify-content:space-between; gap:8px;}}
+.rate-cell .value{{font-size:1.2rem; font-weight:600; letter-spacing:-0.01em;}}
+.rate-cell .chg{{font-size:0.74rem; margin-top:3px;}}
 .up{{color:var(--positive);}} .down{{color:var(--negative);}}
-section{{margin-bottom:32px;}}
-.section-title{{font-size:1.05rem; font-weight:600; margin-bottom:4px;}}
-.section-sub{{color:var(--ink-soft); font-size:0.85rem; margin-bottom:16px;}}
-.event{{border:1px solid var(--line); border-radius:12px; background:var(--surface); margin-bottom:12px; overflow:hidden;}}
-.event-head{{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 18px; cursor:pointer; user-select:none;}}
+section{{margin-bottom:34px;}}
+.section-title{{font-size:1.1rem; font-weight:600; margin-bottom:5px; letter-spacing:-0.005em;}}
+.section-sub{{color:var(--ink-soft); font-size:0.85rem; margin-bottom:18px; max-width:62ch; line-height:1.5;}}
+.event{{border:1px solid var(--line); border-radius:12px; background:var(--surface); margin-bottom:10px; overflow:hidden; transition:border-color 0.15s ease, box-shadow 0.15s ease;}}
+.event:hover{{border-color:var(--line-strong); box-shadow:0 2px 8px rgba(20,26,43,0.06);}}
+.event-head{{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:15px 18px; cursor:pointer; user-select:none;}}
 .event-head:hover{{background:var(--surface-2);}}
 .event-head .headline{{font-size:0.96rem; font-weight:500; flex:1;}}
 .event-head .metric{{font-size:0.95rem; font-weight:600; white-space:nowrap;}}
@@ -141,14 +146,23 @@ def fmt_bps(v):
     return f"{v*100:+.0f}bps"
 
 
-def rate_cell(label, value, unit, chg=None, chg_unit=""):
+def rate_cell(label, value, unit, chg=None, chg_unit="", history=None):
     chg_html = ""
     if chg is not None:
         cls = "up" if chg > 0 else ("down" if chg < 0 else "")
         chg_html = f'<div class="chg mono {cls}">{chg:+.2f}{chg_unit} 1d</div>'
+    spark = ""
+    if history:
+        vals = [h["value"] for h in history[-30:]]
+        cls = "up" if (chg or 0) >= 0 else "down"
+        color = "var(--positive)" if cls == "up" else "var(--negative)"
+        spark = svg_sparkline(vals, width=52, height=22, color=color)
     return f"""<div class="rate-cell">
       <div class="label">{label}</div>
-      <div class="value mono">{value}{unit}</div>
+      <div class="value-row">
+        <div class="value mono">{value}{unit}</div>
+        {spark}
+      </div>
       {chg_html}
     </div>"""
 
@@ -187,14 +201,14 @@ def main():
     as_of = payload["as_of"][:16].replace("T", " ") + " UTC"
 
     cells = [
-        rate_cell("10Y Yield", series["DGS10"]["last_value"], "%", series["DGS10"]["day_chg"], "pp"),
-        rate_cell("2Y Yield", series["DGS2"]["last_value"], "%", series["DGS2"]["day_chg"], "pp"),
-        rate_cell("3M Yield", series["DGS3MO"]["last_value"], "%", series["DGS3MO"]["day_chg"], "pp"),
-        rate_cell("10Y-2Y Spread", series["T10Y2Y"]["last_value"], "pp", series["T10Y2Y"]["day_chg"], "pp"),
-        rate_cell("IG Credit OAS", series["BAMLC0A0CM"]["last_value"], "pp", series["BAMLC0A0CM"]["day_chg"], "pp"),
-        rate_cell("HY Credit OAS", series["BAMLH0A0HYM2"]["last_value"], "pp", series["BAMLH0A0HYM2"]["day_chg"], "pp"),
-        rate_cell("WTI Crude", series["DCOILWTICO"]["last_value"], "", series["DCOILWTICO"]["day_chg"], ""),
-        rate_cell("USD Index", series["DTWEXBGS"]["last_value"], "", series["DTWEXBGS"]["day_chg"], ""),
+        rate_cell("10Y Yield", series["DGS10"]["last_value"], "%", series["DGS10"]["day_chg"], "pp", series["DGS10"]["history"]),
+        rate_cell("2Y Yield", series["DGS2"]["last_value"], "%", series["DGS2"]["day_chg"], "pp", series["DGS2"]["history"]),
+        rate_cell("3M Yield", series["DGS3MO"]["last_value"], "%", series["DGS3MO"]["day_chg"], "pp", series["DGS3MO"]["history"]),
+        rate_cell("10Y-2Y Spread", series["T10Y2Y"]["last_value"], "pp", series["T10Y2Y"]["day_chg"], "pp", series["T10Y2Y"]["history"]),
+        rate_cell("IG Credit OAS", series["BAMLC0A0CM"]["last_value"], "pp", series["BAMLC0A0CM"]["day_chg"], "pp", series["BAMLC0A0CM"]["history"]),
+        rate_cell("HY Credit OAS", series["BAMLH0A0HYM2"]["last_value"], "pp", series["BAMLH0A0HYM2"]["day_chg"], "pp", series["BAMLH0A0HYM2"]["history"]),
+        rate_cell("WTI Crude", series["DCOILWTICO"]["last_value"], "", series["DCOILWTICO"]["day_chg"], "", series["DCOILWTICO"]["history"]),
+        rate_cell("USD Index", series["DTWEXBGS"]["last_value"], "", series["DTWEXBGS"]["day_chg"], "", series["DTWEXBGS"]["history"]),
     ]
 
     events = payload["material_events"]

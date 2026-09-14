@@ -97,6 +97,22 @@ def main():
         key=lambda r: r["five_day_chg_pct"],
     )
 
+    # --- market breadth (advancers/decliners across the full filtered universe) ---
+    advancers = sum(1 for r in merged if r["day_chg_pct"] > 0)
+    decliners = sum(1 for r in merged if r["day_chg_pct"] < 0)
+    unchanged = len(merged) - advancers - decliners
+    breadth = {"advancers": advancers, "decliners": decliners, "unchanged": unchanged, "total": len(merged)}
+
+    # --- flat ticker index: every filtered name, for drill-down lookups (index tiles, portfolio) ---
+    ticker_index = {
+        r["ticker"]: {
+            "name": r["name"], "sector": r["sector"], "price": r["price"],
+            "day_chg_pct": r["day_chg_pct"], "five_day_chg_pct": r.get("five_day_chg_pct"),
+            "market_cap": r["market_cap"],
+        }
+        for r in merged
+    }
+
     out = {
         "min_market_cap_filter": MIN_MARKET_CAP,
         "market_cap_cache_as_of": cap_cache["as_of"],
@@ -106,6 +122,8 @@ def main():
         "top_losers": losers,
         "volume_outliers": vol_outliers[:20],
         "bounce_candidates": bounce_candidates[:20],
+        "breadth": breadth,
+        "ticker_index": ticker_index,
     }
     with open("data/point3/aggregates.json", "w") as f:
         json.dump(out, f, indent=2)

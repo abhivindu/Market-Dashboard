@@ -69,6 +69,8 @@ def main():
                 r["verdict"] = ov.get("verdict", "not yet assessed")
                 r["bucket"] = bucket_name
 
+    macro_for_vol = load("data/point1/macro.json", {})
+
     point3_payload = {
         "as_of": indices["as_of"],
         "indices": indices["indices"],
@@ -76,6 +78,9 @@ def main():
         "top_gainers": aggregates["top_gainers"],
         "top_losers": aggregates["top_losers"],
         "volume_outliers": aggregates["volume_outliers"],
+        "breadth": aggregates.get("breadth", {}),
+        "ticker_index": aggregates.get("ticker_index", {}),
+        "vol_term_structure": macro_for_vol.get("vol_term_structure", {}),
         "earnings_calendar": earnings["entries"] if earnings else [],
         "recommendations": recs if recs else {"bounce": [], "value": [], "speculative": []},
         "min_market_cap_filter": aggregates["min_market_cap_filter"],
