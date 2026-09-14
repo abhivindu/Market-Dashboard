@@ -1,0 +1,180 @@
+{
+  "methodology_note": "See pipeline/build_recommendations.py docstring for full criteria. Value bucket uses a 52wk-discount proxy pending real fundamentals data (WISHLIST.md).",
+  "bounce": [
+    {
+      "ticker": "GWRE",
+      "sector": "Information Technology",
+      "name": "Guidewire Software",
+      "price": 140.92,
+      "day_chg_pct": 0.592,
+      "five_day_chg_pct": -30.533,
+      "market_cap": 11732486662.433044,
+      "volume": 1988600,
+      "avg_volume": 1544070,
+      "contribution_pct": 0.0003
+    },
+    {
+      "ticker": "TBBK",
+      "sector": "Financials",
+      "name": "The Bancorp, Inc.",
+      "price": 50.63,
+      "day_chg_pct": 0.656,
+      "five_day_chg_pct": -25.258,
+      "market_cap": 2065036183.235012,
+      "volume": 599700,
+      "avg_volume": 450288,
+      "contribution_pct": 0.0001
+    },
+    {
+      "ticker": "PATH",
+      "sector": "Information Technology",
+      "name": "UiPath",
+      "price": 13.75,
+      "day_chg_pct": -0.865,
+      "five_day_chg_pct": -24.533,
+      "market_cap": 7165886873.75,
+      "volume": 41749400,
+      "avg_volume": 70950258,
+      "contribution_pct": -0.0002
+    },
+    {
+      "ticker": "COO",
+      "sector": "Health Care",
+      "name": "Cooper Companies (The)",
+      "price": 53.91,
+      "day_chg_pct": -0.48,
+      "five_day_chg_pct": -23.683,
+      "market_cap": 10251271870.524605,
+      "volume": 6438900,
+      "avg_volume": 2671285,
+      "contribution_pct": -0.0007,
+      "volume_vs_avg_ratio": 2.41
+    },
+    {
+      "ticker": "CASY",
+      "sector": "Consumer Staples",
+      "name": "Casey's",
+      "price": 615.47,
+      "day_chg_pct": -1.939,
+      "five_day_chg_pct": -18.848,
+      "market_cap": 22747872900.672607,
+      "volume": 624300,
+      "avg_volume": 465086,
+      "contribution_pct": -0.0121
+    }
+  ],
+  "value": [
+    {
+      "ticker": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "market_cap": 12342318159.510529,
+      "pct_off_52wk_high": -65.87,
+      "five_day_chg_pct": -3.851,
+      "price": 30.46
+    },
+    {
+      "ticker": "KTOS",
+      "name": "Kratos Defense & Security Solutions",
+      "sector": "Industrials",
+      "market_cap": 8764708499.833988,
+      "pct_off_52wk_high": -64.28,
+      "five_day_chg_pct": -2.931,
+      "price": 46.69
+    },
+    {
+      "ticker": "FISV",
+      "name": "Fiserv",
+      "sector": "Financials",
+      "market_cap": 27428528442.873947,
+      "pct_off_52wk_high": -61.6,
+      "five_day_chg_pct": -2.181,
+      "price": 51.58
+    },
+    {
+      "ticker": "BSX",
+      "name": "Boston Scientific",
+      "sector": "Health Care",
+      "market_cap": 62287884364.07537,
+      "pct_off_52wk_high": -59.06,
+      "five_day_chg_pct": -8.456,
+      "price": 42.98
+    },
+    {
+      "ticker": "DUOL",
+      "name": "Duolingo",
+      "sector": "Consumer Discretionary",
+      "market_cap": 6694498709.301819,
+      "pct_off_52wk_high": -58.63,
+      "five_day_chg_pct": -9.533,
+      "price": 143.68
+    }
+  ],
+  "speculative": [
+    {
+      "ticker": "KHC",
+      "sector": "Consumer Staples",
+      "name": "Kraft Heinz",
+      "price": 24.6,
+      "day_chg_pct": 0.861,
+      "five_day_chg_pct": -3.226,
+      "market_cap": 29171264899.155865,
+      "volume": 123781300,
+      "avg_volume": 16889200,
+      "contribution_pct": 0.0069,
+      "volume_vs_avg_ratio": 7.33
+    },
+    {
+      "ticker": "RH",
+      "sector": "Consumer Discretionary",
+      "name": "RH",
+      "price": 134.07,
+      "day_chg_pct": 0.037,
+      "five_day_chg_pct": -8.553,
+      "market_cap": 2538368765.800598,
+      "volume": 2227800,
+      "avg_volume": 807811,
+      "contribution_pct": 0.0,
+      "volume_vs_avg_ratio": 2.76
+    },
+    {
+      "ticker": "SPSC",
+      "sector": "Information Technology",
+      "name": "SPS Commerce, Inc.",
+      "price": 82.68,
+      "day_chg_pct": 7.057,
+      "five_day_chg_pct": -1.817,
+      "market_cap": 2976494397.306381,
+      "volume": 1807100,
+      "avg_volume": 658125,
+      "contribution_pct": 0.0008,
+      "volume_vs_avg_ratio": 2.75
+    },
+    {
+      "ticker": "MTN",
+      "sector": "Consumer Discretionary",
+      "name": "Vail Resorts",
+      "price": 140.09,
+      "day_chg_pct": 5.07,
+      "five_day_chg_pct": 2.962,
+      "market_cap": 4991900526.84613,
+      "volume": 1630500,
+      "avg_volume": 697745,
+      "contribution_pct": 0.0035,
+      "volume_vs_avg_ratio": 2.34
+    },
+    {
+      "ticker": "AEO",
+      "sector": "Consumer Discretionary",
+      "name": "American Eagle Outfitters",
+      "price": 15.02,
+      "day_chg_pct": 3.372,
+      "five_day_chg_pct": -11.699,
+      "market_cap": 2516951538.368984,
+      "volume": 11362400,
+      "avg_volume": 5387046,
+      "contribution_pct": 0.0012,
+      "volume_vs_avg_ratio": 2.11
+    }
+  ]
+}

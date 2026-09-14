@@ -1,0 +1,79 @@
+<!doctype html>
+<title>Market Dashboard</title>
+<style>
+:root{
+  --paper:#EFF1EE; --surface:#FFFFFF; --surface-2:#F7F8F5;
+  --ink:#141A2B; --ink-soft:#535A6B; --ink-faint:#8991A3;
+  --accent:#A9762F; --accent-soft:#F0E4CE;
+  --positive:#1F7A5C; --line:rgba(20,26,43,0.13); --line-strong:rgba(20,26,43,0.24);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0D111C; --surface:#161C2B; --surface-2:#11162280;
+    --ink:#E9E6DC; --ink-soft:#AEB4C4; --ink-faint:#767D8E;
+    --accent:#D9A14A; --accent-soft:#3A2E17; --positive:#4FB897;
+    --line:rgba(233,230,220,0.14); --line-strong:rgba(233,230,220,0.26);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0D111C; --surface:#161C2B; --surface-2:#11162280;
+  --ink:#E9E6DC; --ink-soft:#AEB4C4; --ink-faint:#767D8E;
+  --accent:#D9A14A; --accent-soft:#3A2E17; --positive:#4FB897;
+  --line:rgba(233,230,220,0.14); --line-strong:rgba(233,230,220,0.26);
+}
+*{box-sizing:border-box;}
+body{margin:0; background:var(--paper); color:var(--ink); font-family:'Public Sans',system-ui,sans-serif; padding:0 20px; padding-block:40px;}
+.wrap{max-width:760px; margin:0 auto;}
+h1{font-family:'Fraunces',Georgia,serif; font-size:2.1rem; font-weight:600; margin:0 0 6px; text-wrap:balance;}
+.sub{color:var(--ink-faint); font-size:0.9rem; margin-bottom:36px;}
+.grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px;}
+a.card{display:block; border:1px solid var(--line); border-radius:14px; background:var(--surface); padding:22px; text-decoration:none; color:var(--ink); transition:transform 0.12s ease, border-color 0.12s ease;}
+a.card:hover{transform:translateY(-2px); border-color:var(--accent);}
+a.card.disabled{opacity:0.5; pointer-events:none;}
+.card .eyebrow{font-size:0.68rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--accent); font-weight:600; margin-bottom:8px;}
+.card h2{font-family:'Fraunces',Georgia,serif; font-size:1.25rem; font-weight:600; margin:0 0 8px;}
+.card p{font-size:0.85rem; color:var(--ink-soft); line-height:1.5; margin:0;}
+.status{display:inline-block; font-size:0.65rem; padding:3px 9px; border-radius:999px; background:var(--accent-soft); color:var(--accent); font-weight:600; margin-top:12px;}
+.status.pending{background:var(--surface-2); color:var(--ink-faint);}
+footer{margin-top:40px; color:var(--ink-faint); font-size:0.78rem; border-top:1px solid var(--line); padding-top:16px;}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Public+Sans:wght@400;500;600&display=swap">
+
+<div class="wrap">
+  <h1>Market Dashboard</h1>
+  <div class="sub">Four-part personal markets briefing &mdash; macro, frontier tech, equities, fixed income.</div>
+
+  <div class="grid">
+    <a class="card" href="https://claude.ai/code/artifact/6818c422-24bf-4bed-b914-28e7fc61bae2" target="_blank">
+      <div class="eyebrow">Point 1</div>
+      <h2>Market Signal</h2>
+      <p>Concise macro/rates one-pager &mdash; material events filtered by threshold, with driver, sources, and reaction assessment.</p>
+      <span class="status">Live</span>
+    </a>
+
+    <div class="card disabled">
+      <div class="eyebrow">Point 2</div>
+      <h2>Frontier Watch</h2>
+      <p>Emerging tech/sector trend monitor with drill-down into players, funding, and sentiment.</p>
+      <span class="status pending">Not yet built</span>
+    </div>
+
+    <a class="card" href="https://claude.ai/code/artifact/e1f164db-5c0e-4f08-b0c0-09099ef51017" target="_blank">
+      <div class="eyebrow">Point 3</div>
+      <h2>Equities Desk</h2>
+      <p>Indices, sector heatmap, movers, earnings calendar, volatility, daily recommendation memo, and portfolio tracker.</p>
+      <span class="status">Live</span>
+    </a>
+
+    <div class="card disabled">
+      <div class="eyebrow">Point 4</div>
+      <h2>Credit Desk</h2>
+      <p>Fixed income / structured product commentary &mdash; ABS, RMBS, CMBS, CLOs, private credit, esoteric.</p>
+      <span class="status pending">Not yet built</span>
+    </div>
+  </div>
+
+  <footer>
+    Refresh is on-demand &mdash; ask for an updated pull rather than expecting automatic daily updates. See WISHLIST.md in the project repo for planned upgrades (paid data sources, automated cron refresh, live drill-down).
+  </footer>
+</div>

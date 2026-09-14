@@ -1,0 +1,208 @@
+<!doctype html>
+<title>Market Signal</title>
+<style>
+:root{
+  --paper:#EFF1EE; --surface:#FFFFFF; --surface-2:#F7F8F5;
+  --ink:#141A2B; --ink-soft:#535A6B; --ink-faint:#8991A3;
+  --accent:#A9762F; --accent-soft:#F0E4CE;
+  --positive:#1F7A5C; --positive-soft:#E3F0EA;
+  --negative:#B3402F; --negative-soft:#F7E7E2;
+  --line:rgba(20,26,43,0.13); --line-strong:rgba(20,26,43,0.24);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0D111C; --surface:#161C2B; --surface-2:#11162280;
+    --ink:#E9E6DC; --ink-soft:#AEB4C4; --ink-faint:#767D8E;
+    --accent:#D9A14A; --accent-soft:#3A2E17;
+    --positive:#4FB897; --positive-soft:#12271F;
+    --negative:#E58176; --negative-soft:#2B1712;
+    --line:rgba(233,230,220,0.14); --line-strong:rgba(233,230,220,0.26);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0D111C; --surface:#161C2B; --surface-2:#11162280;
+  --ink:#E9E6DC; --ink-soft:#AEB4C4; --ink-faint:#767D8E;
+  --accent:#D9A14A; --accent-soft:#3A2E17;
+  --positive:#4FB897; --positive-soft:#12271F;
+  --negative:#E58176; --negative-soft:#2B1712;
+  --line:rgba(233,230,220,0.14); --line-strong:rgba(233,230,220,0.26);
+}
+*{box-sizing:border-box;}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:'Public Sans',system-ui,-apple-system,sans-serif;
+  padding:0 20px; padding-block:32px;
+}
+.wrap{max-width:840px; margin:0 auto;}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif; text-wrap:balance; margin:0;}
+.mono{font-family:'IBM Plex Mono',ui-monospace,monospace; font-variant-numeric:tabular-nums;}
+.masthead{display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:8px 24px; border-bottom:2.5px solid var(--ink); padding-bottom:16px; margin-bottom:20px;}
+.masthead h1{font-size:2rem; font-weight:600; letter-spacing:-0.01em;}
+.masthead .meta{color:var(--ink-faint); font-size:0.8rem; text-align:right;}
+.eyebrow{text-transform:uppercase; letter-spacing:0.09em; font-size:0.72rem; color:var(--accent); font-weight:600; margin-bottom:6px;}
+.rates-strip{display:grid; grid-template-columns:repeat(auto-fit,minmax(108px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:10px; overflow:hidden; margin-bottom:28px;}
+.rate-cell{background:var(--surface); padding:12px 14px;}
+.rate-cell .label{font-size:0.68rem; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:4px;}
+.rate-cell .value{font-size:1.15rem; font-weight:600;}
+.rate-cell .chg{font-size:0.75rem; margin-top:2px;}
+.up{color:var(--positive);} .down{color:var(--negative);}
+section{margin-bottom:32px;}
+.section-title{font-size:1.05rem; font-weight:600; margin-bottom:4px;}
+.section-sub{color:var(--ink-soft); font-size:0.85rem; margin-bottom:16px;}
+.event{border:1px solid var(--line); border-radius:12px; background:var(--surface); margin-bottom:12px; overflow:hidden;}
+.event-head{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 18px; cursor:pointer; user-select:none;}
+.event-head:hover{background:var(--surface-2);}
+.event-head .headline{font-size:0.96rem; font-weight:500; flex:1;}
+.event-head .metric{font-size:0.95rem; font-weight:600; white-space:nowrap;}
+.chevron{color:var(--ink-faint); transition:transform 0.18s ease; flex-shrink:0;}
+.event[open] .chevron{transform:rotate(90deg);}
+.event-body{padding:0 18px 18px; border-top:1px solid var(--line);}
+.event-body p{font-size:0.9rem; line-height:1.55; color:var(--ink-soft); margin:14px 0 10px;}
+.assessment{display:inline-block; font-size:0.72rem; padding:3px 10px; border-radius:999px; background:var(--accent-soft); color:var(--accent); font-weight:600; margin-bottom:10px;}
+.citations{display:flex; flex-direction:column; gap:6px; margin-top:10px;}
+.citations a{color:var(--ink); font-size:0.82rem; text-decoration:none; border-bottom:1px solid var(--line-strong);}
+.citations a:hover{color:var(--accent); border-color:var(--accent);}
+summary::-webkit-details-marker{display:none;}
+.vol-badge{display:flex; align-items:center; gap:14px; border:1px solid var(--line); border-radius:12px; background:var(--surface); padding:16px 18px;}
+.vol-badge .tag{font-size:0.72rem; padding:4px 12px; border-radius:999px; font-weight:600; text-transform:uppercase; letter-spacing:0.04em;}
+.tag.calm{background:var(--positive-soft); color:var(--positive);}
+.tag.stress{background:var(--negative-soft); color:var(--negative);}
+.vol-nums{display:flex; gap:20px; margin-left:auto;}
+.vol-nums div{text-align:right;}
+.vol-nums .l{font-size:0.68rem; color:var(--ink-faint); text-transform:uppercase;}
+.vol-nums .v{font-size:1rem; font-weight:600;}
+footer{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--line); padding-top:16px; margin-top:8px;}
+@media (max-width:480px){ .masthead{flex-direction:column;} .masthead .meta{text-align:left;} }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+
+<div class="wrap">
+  <div class="masthead">
+    <h1>Market Signal</h1>
+    <div class="meta">Macro &amp; rates one-pager<br>As of 2026-09-14 00:46 UTC</div>
+  </div>
+
+  <div class="rates-strip">
+    <div class="rate-cell">
+      <div class="label">10Y Yield</div>
+      <div class="value mono">4.95%</div>
+      <div class="chg mono up">+0.12pp 1d</div>
+    </div>
+<div class="rate-cell">
+      <div class="label">2Y Yield</div>
+      <div class="value mono">4.56%</div>
+      <div class="chg mono up">+0.13pp 1d</div>
+    </div>
+<div class="rate-cell">
+      <div class="label">3M Yield</div>
+      <div class="value mono">4.0%</div>
+      <div class="chg mono up">+0.05pp 1d</div>
+    </div>
+<div class="rate-cell">
+      <div class="label">10Y-2Y Spread</div>
+      <div class="value mono">0.33pp</div>
+      <div class="chg mono down">-0.06pp 1d</div>
+    </div>
+<div class="rate-cell">
+      <div class="label">IG Credit OAS</div>
+      <div class="value mono">0.8pp</div>
+      <div class="chg mono down">-0.01pp 1d</div>
+    </div>
+<div class="rate-cell">
+      <div class="label">HY Credit OAS</div>
+      <div class="value mono">2.7pp</div>
+      <div class="chg mono down">-0.01pp 1d</div>
+    </div>
+<div class="rate-cell">
+      <div class="label">WTI Crude</div>
+      <div class="value mono">97.26</div>
+      <div class="chg mono up">+3.05 1d</div>
+    </div>
+<div class="rate-cell">
+      <div class="label">USD Index</div>
+      <div class="value mono">118.0732</div>
+      <div class="chg mono down">-0.05 1d</div>
+    </div>
+  </div>
+
+  <section>
+    <div class="section-title">Material events</div>
+    <div class="section-sub">Filtered to moves that cleared threshold — index &gt;1% intraday / &gt;2% over 5 days, 10yr yield &gt;10bps, oil &gt;3%, credit spreads &gt;3bps (IG) / &gt;8bps (HY), or a live Fed/FOMC event. Click any event for driver, sources, and whether the reaction looks proportionate.</div>
+    
+<details class="event">
+  <summary class="event-head">
+    <span class="headline">DOW moved -2.07% over 5 days (threshold: >2%)</span>
+    <span class="metric mono down">-2.07%</span>
+    <span class="chevron">&#9656;</span>
+  </summary>
+  <div class="event-body">
+    <span class="assessment">proportionate - move is consistent with the rate/inflation/oil narrative, not a surprise dislocation</span>
+    <p>Broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.</p>
+    <div class="citations"><a href="https://www.bloomberg.com/news/articles/2026-09-11/global-bond-selloff-sends-10-year-treasury-yields-to-cusp-of-5" target="_blank" rel="noopener">Global Bond Selloff Sends 10-Year Treasury Yields to Cusp of 5%</a>
+<a href="https://businessnewsthisweek.com/business/markets-begin-cautiously-as-rising-crude-and-geopolitical-tensions-persist/" target="_blank" rel="noopener">Markets Begin Cautiously as Rising Crude and Geopolitical Tensions Persist</a></div>
+  </div>
+</details>
+
+
+<details class="event">
+  <summary class="event-head">
+    <span class="headline">RUSSELL2000 moved -2.17% over 5 days (threshold: >2%)</span>
+    <span class="metric mono down">-2.17%</span>
+    <span class="chevron">&#9656;</span>
+  </summary>
+  <div class="event-body">
+    <span class="assessment">proportionate - small-cap rate sensitivity is a well-known mechanism, not an anomaly</span>
+    <p>Small caps are more rate-sensitive than large caps (higher average leverage, more floating-rate debt), so the run-up in the 10yr yield toward 5% on hot inflation data and hawkish Fed signaling has hit the Russell 2000 harder than large-cap indices over the past week. The same Middle East-driven oil spike also raises input costs disproportionately for smaller, less diversified companies.</p>
+    <div class="citations"><a href="https://www.cnbc.com/2026/09/07/us-treasury-yields-markets-scott-bessent.html" target="_blank" rel="noopener">Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets</a></div>
+  </div>
+</details>
+
+
+<details class="event">
+  <summary class="event-head">
+    <span class="headline">10yr yield moved +12bps day/day (threshold: >10bps)</span>
+    <span class="metric mono up">+12bps</span>
+    <span class="chevron">&#9656;</span>
+  </summary>
+  <div class="event-body">
+    <span class="assessment">proportionate but notable - this is the single biggest macro driver of the week, with a live FOMC meeting (Sept 15-16) as the next catalyst</span>
+    <p>The 10-year Treasury yield's 12bp jump is the mechanical center of this week's story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from ~70% to ~90%, and a global bond selloff (fiscal deficit concerns, heavy Treasury issuance) is compounding the move. Yields are now at their highest level since 2023, approaching the highest since 2007.</p>
+    <div class="citations"><a href="https://www.bloomberg.com/news/articles/2026-09-11/global-bond-selloff-sends-10-year-treasury-yields-to-cusp-of-5" target="_blank" rel="noopener">Global Bond Selloff Sends 10-Year Treasury Yields to Cusp of 5%</a>
+<a href="https://www.tipranks.com/news/10-year-treasury-yield-leaps-to-3-week-high-on-promising-economic-data" target="_blank" rel="noopener">10 year treasury yield leaps to 3 week high on promising economic data</a></div>
+  </div>
+</details>
+
+
+<details class="event">
+  <summary class="event-head">
+    <span class="headline">WTI crude moved +3.24% (threshold: >3%)</span>
+    <span class="metric mono up">+3.24%</span>
+    <span class="chevron">&#9656;</span>
+  </summary>
+  <div class="event-body">
+    <span class="assessment">proportionate - directly tied to an active, escalating geopolitical conflict, not a one-off spike</span>
+    <p>WTI crude's jump reflects Middle East supply fears after Iran's attacks on commercial and U.S. Navy vessels, which the Iranian Foreign Ministry has framed as retaliatory. Brent has held above $90/bbl. Higher oil adds to the inflation picture the Fed is already responding to, reinforcing (not just coinciding with) this week's yield move.</p>
+    <div class="citations"><a href="https://businessnewsthisweek.com/business/markets-begin-cautiously-as-rising-crude-and-geopolitical-tensions-persist/" target="_blank" rel="noopener">Markets Begin Cautiously as Rising Crude and Geopolitical Tensions Persist</a>
+<a href="https://custommapposter.com/article/stock-market-update-futures-flat-oil-prices-soar-amid-geopolitical-tensions" target="_blank" rel="noopener">Stock Market Update: Futures Flat, Oil Prices Soar Amid Geopolitical Tensions</a></div>
+  </div>
+</details>
+
+  </section>
+
+  <section>
+    <div class="section-title">Volatility term structure</div>
+    <div class="section-sub">VIX vs. its 3-month forward (VIX3M) — contango means calm markets, backwardation means near-term fear is priced above longer-term fear.</div>
+    <div class="vol-badge">
+      <span class="tag calm">contango (calm)</span>
+      <div class="vol-nums">
+        <div><div class="l">VIX</div><div class="v mono">15.84</div></div>
+        <div><div class="l">VIX3M</div><div class="v mono">20.54</div></div>
+        <div><div class="l">Spread</div><div class="v mono">-4.7</div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Data: FRED (yields, credit spreads, oil, dollar index), CBOE via Yahoo Finance (VIX term structure). Free/unauthenticated sources — see WISHLIST.md for planned upgrades. Generated by pipeline/render_point1_html.py.
+  </footer>
+</div>
