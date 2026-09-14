@@ -17,6 +17,54 @@ def load(path, default=None):
     return default
 
 
+def diff_point1(previous, current_flags):
+    """Compare this pull's material-event flags against the prior pull's
+    (read from the final_payload.json that's about to be overwritten - it
+    naturally holds "last pull's" state until this run replaces it).
+    Returns a dict the template renders as a "since last pull" callout.
+    """
+    if previous is None:
+        return {
+            "has_previous": False,
+            "previous_as_of": None,
+            "newly_flagged": [],
+            "resolved": [],
+        }
+
+    def key(e):
+        return (e["type"], e["series"])
+
+    prev_events = {key(e): e for e in previous.get("material_events", [])}
+    current_keys = {key(e) for e in current_flags}
+
+    newly_flagged = [e for e in current_flags if key(e) not in prev_events]
+    resolved = [e for k, e in prev_events.items() if k not in current_keys]
+
+    return {
+        "has_previous": True,
+        "previous_as_of": previous.get("as_of"),
+        "newly_flagged": newly_flagged,
+        "resolved": resolved,
+    }
+
+
+def build_since_last_pull_blurb(diff, override_blurb):
+    """Mechanical fallback if no hand-authored override is set for this pull -
+    keeps the callout meaningful even before I've done the research pass."""
+    if override_blurb:
+        return override_blurb
+    if not diff["has_previous"]:
+        return "First pull recorded - nothing to compare against yet."
+    if not diff["newly_flagged"] and not diff["resolved"]:
+        return "No new material events since the last pull - today's read is materially the same as last time."
+    parts = []
+    if diff["newly_flagged"]:
+        parts.append("New: " + "; ".join(e["detail"] for e in diff["newly_flagged"]))
+    if diff["resolved"]:
+        parts.append("Faded below threshold: " + "; ".join(e["detail"] for e in diff["resolved"]))
+    return " ".join(parts)
+
+
 def main():
     overrides = load("data/content_overrides.json", {"macro_flags": {}, "movers": {}, "recommendations": {}})
 
@@ -30,16 +78,22 @@ def main():
         flag["citations"] = ov.get("citations", [])
         flag["reaction_assessment"] = ov.get("reaction_assessment", "not yet assessed")
 
+    previous_point1 = load("data/point1/final_payload.json")  # still holds last pull's data at this point
+    diff = diff_point1(previous_point1, materiality["flags"])
+    diff["blurb"] = build_since_last_pull_blurb(diff, overrides.get("point1_since_last_pull"))
+
     point1_payload = {
         "as_of": macro["as_of"],
         "synthesis": overrides.get("point1_synthesis", ""),
+        "since_last_pull": diff,
         "macro_series": macro["series"],
         "vol_term_structure": macro.get("vol_term_structure", {}),
         "material_events": materiality["flags"],
     }
     with open("data/point1/final_payload.json", "w", encoding="utf-8") as f:
         json.dump(point1_payload, f, indent=2)
-    print(f"Point 1 payload: {len(materiality['flags'])} material events")
+    print(f"Point 1 payload: {len(materiality['flags'])} material events "
+          f"({len(diff['newly_flagged'])} new, {len(diff['resolved'])} resolved since last pull)")
 
     # ---------- POINT 3 ----------
     indices = load("data/point3/indices.json")

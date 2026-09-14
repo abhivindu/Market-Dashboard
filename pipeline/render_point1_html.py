@@ -61,6 +61,13 @@ h1,h2,h3{{font-family:'Fraunces',Georgia,serif; text-wrap:balance; margin:0;}}
 .lede{{font-family:'Fraunces',Georgia,serif; font-size:1.15rem; font-weight:400; line-height:1.62; color:var(--ink); margin:0 0 36px; max-width:66ch;}}
 .lede strong{{font-weight:600;}}
 
+.since-pull{{border-left:3px solid var(--accent); background:var(--accent-soft); border-radius:0 10px 10px 0; padding:12px 16px; margin-bottom:24px; max-width:66ch;}}
+.since-pull.quiet{{border-left-color:var(--line-strong); background:var(--surface-2);}}
+.since-pull .eyebrow{{margin-bottom:5px; display:block;}}
+.since-pull.quiet .eyebrow{{color:var(--ink-faint);}}
+.since-pull p{{font-size:0.88rem; line-height:1.55; color:var(--ink-soft); margin:0;}}
+.since-pull .prev-date{{color:var(--ink-faint); font-size:0.74rem; margin-top:6px;}}
+
 .cluster-row{{display:grid; grid-template-columns:repeat(3, 1fr); gap:16px; margin-bottom:32px; align-items:start;}}
 @media (max-width:680px){{ .cluster-row{{grid-template-columns:1fr;}} }}
 .cluster{{border:1px solid var(--line); border-radius:12px; background:var(--surface); overflow:hidden; box-shadow:0 1px 2px rgba(20,26,43,0.04);}}
@@ -126,6 +133,12 @@ footer{{color:var(--ink-faint); font-size:0.74rem; border-top:1px solid var(--li
       <h1>Market Signal</h1>
     </div>
     <div class="meta">{event_count} material event{event_plural} flagged<br>As of {as_of_display}</div>
+  </div>
+
+  <div class="since-pull{since_pull_quiet_class}">
+    <span class="eyebrow">Since last pull</span>
+    <p>{since_pull_blurb}</p>
+    {since_pull_prev_date}
   </div>
 
   <p class="lede">{synthesis}</p>
@@ -370,9 +383,20 @@ def main():
     vol_tag_class = "stress" if "backwardation" in vol_structure else "calm"
 
     n_events = len(events)
+
+    since_pull = payload.get("since_last_pull", {"has_previous": False, "newly_flagged": [], "resolved": [], "blurb": ""})
+    is_quiet = since_pull["has_previous"] and not since_pull["newly_flagged"] and not since_pull["resolved"]
+    since_pull_prev_date = ""
+    if since_pull.get("previous_as_of"):
+        prev_display = since_pull["previous_as_of"][:16].replace("T", " ") + " UTC"
+        since_pull_prev_date = f'<div class="prev-date">Previous pull: {prev_display}</div>'
+
     html = TEMPLATE.format(
         as_of_display=as_of,
         synthesis=payload.get("synthesis") or "No synthesis available for this pull.",
+        since_pull_quiet_class=" quiet" if is_quiet else "",
+        since_pull_blurb=since_pull.get("blurb") or "No prior pull on record.",
+        since_pull_prev_date=since_pull_prev_date,
         event_count=n_events,
         event_plural="" if n_events == 1 else "s",
         rate_rows=rate_rows,

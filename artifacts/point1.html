@@ -47,6 +47,13 @@ h1,h2,h3{font-family:'Fraunces',Georgia,serif; text-wrap:balance; margin:0;}
 .lede{font-family:'Fraunces',Georgia,serif; font-size:1.15rem; font-weight:400; line-height:1.62; color:var(--ink); margin:0 0 36px; max-width:66ch;}
 .lede strong{font-weight:600;}
 
+.since-pull{border-left:3px solid var(--accent); background:var(--accent-soft); border-radius:0 10px 10px 0; padding:12px 16px; margin-bottom:24px; max-width:66ch;}
+.since-pull.quiet{border-left-color:var(--line-strong); background:var(--surface-2);}
+.since-pull .eyebrow{margin-bottom:5px; display:block;}
+.since-pull.quiet .eyebrow{color:var(--ink-faint);}
+.since-pull p{font-size:0.88rem; line-height:1.55; color:var(--ink-soft); margin:0;}
+.since-pull .prev-date{color:var(--ink-faint); font-size:0.74rem; margin-top:6px;}
+
 .cluster-row{display:grid; grid-template-columns:repeat(3, 1fr); gap:16px; margin-bottom:32px; align-items:start;}
 @media (max-width:680px){ .cluster-row{grid-template-columns:1fr;} }
 .cluster{border:1px solid var(--line); border-radius:12px; background:var(--surface); overflow:hidden; box-shadow:0 1px 2px rgba(20,26,43,0.04);}
@@ -112,6 +119,12 @@ footer{color:var(--ink-faint); font-size:0.74rem; border-top:1px solid var(--lin
       <h1>Market Signal</h1>
     </div>
     <div class="meta">4 material events flagged<br>As of 2026-09-14 04:16 UTC</div>
+  </div>
+
+  <div class="since-pull quiet">
+    <span class="eyebrow">Since last pull</span>
+    <p>No new material events since the last pull - today's read is materially the same as last time.</p>
+    <div class="prev-date">Previous pull: 2026-09-14 04:16 UTC</div>
   </div>
 
   <p class="lede">Markets this week are being driven by one interlocking story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from roughly 70% to 90%, sending the 10-year Treasury yield up 12bp to 4.95% — its highest level since 2023 and closing in on 2007 highs. Middle East tensions, including Iran's attacks on commercial and U.S. Navy vessels, are compounding the inflation picture by pushing WTI crude up 3.2% to $97. Credit markets aren't stressed — both IG and HY spreads tightened slightly on the week — and the VIX term structure remains in contango, meaning options markets aren't pricing panic despite small-caps (Russell 2000, -2.2% over 5 days) and the Dow (-2.1%) underperforming a Nasdaq held up by AI-infrastructure capex names. The FOMC decision on Sept 16 is the next clear catalyst for all of the above.</p>
