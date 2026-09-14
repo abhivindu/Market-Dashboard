@@ -10,11 +10,11 @@ TOP_N_MOVERS = 15
 
 
 def main():
-    with open("data/point3/universe.json") as f:
+    with open("data/point3/universe.json", encoding="utf-8") as f:
         universe = json.load(f)["universe"]
-    with open("data/point3/market_caps_cache.json") as f:
+    with open("data/point3/market_caps_cache.json", encoding="utf-8") as f:
         cap_cache = json.load(f)
-    with open("data/point3/price_history.json") as f:
+    with open("data/point3/price_history.json", encoding="utf-8") as f:
         prices = json.load(f)
 
     market_caps = cap_cache["market_caps"]
@@ -125,7 +125,7 @@ def main():
         "breadth": breadth,
         "ticker_index": ticker_index,
     }
-    with open("data/point3/aggregates.json", "w") as f:
+    with open("data/point3/aggregates.json", "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2)
     print("Wrote data/point3/aggregates.json", file=sys.stderr)
     print(

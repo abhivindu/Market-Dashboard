@@ -1,5 +1,11 @@
 """Render the Point 1 (macro one-pager) artifact HTML from final_payload.json.
 Pure templating - all data comes from the JSON, nothing hardcoded here.
+
+Layout: masthead -> lede synthesis paragraph -> three labeled stat clusters
+(Rates, Credit, Commodities & FX) -> volatility read -> material events ->
+footer. The lede is the thing that makes this read as a "concise report"
+rather than a stat dump - it's the one piece of hand-authored narrative per
+pull, carried in content_overrides.json under "point1_synthesis".
 """
 import json
 
@@ -39,73 +45,99 @@ TEMPLATE = """<!doctype html>
 body{{
   margin:0; background:var(--paper); color:var(--ink);
   font-family:'Public Sans',system-ui,-apple-system,sans-serif;
-  padding:0 20px; padding-block:32px;
+  padding:0 20px; padding-block:36px;
 }}
-.wrap{{max-width:840px; margin:0 auto;}}
+.wrap{{max-width:800px; margin:0 auto;}}
 h1,h2,h3{{font-family:'Fraunces',Georgia,serif; text-wrap:balance; margin:0;}}
 .mono{{font-family:'IBM Plex Mono',ui-monospace,monospace; font-variant-numeric:tabular-nums;}}
-.masthead{{display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:8px 24px; padding-bottom:18px; margin-bottom:24px; position:relative;}}
-.masthead::after{{content:""; position:absolute; left:0; right:0; bottom:0; height:3px; background:linear-gradient(90deg, var(--ink) 0%, var(--ink) 60%, var(--accent) 100%);}}
-.masthead h1{{font-size:2.15rem; font-weight:600; letter-spacing:-0.015em;}}
+
+.masthead{{display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:8px 24px; padding-bottom:16px; margin-bottom:22px; position:relative;}}
+.masthead::after{{content:""; position:absolute; left:0; right:0; bottom:0; height:3px; background:linear-gradient(90deg, var(--ink) 0%, var(--ink) 55%, var(--accent) 100%);}}
+.masthead-left{{display:flex; align-items:baseline; gap:12px;}}
+.masthead h1{{font-size:2.1rem; font-weight:600; letter-spacing:-0.015em;}}
+.masthead .kicker{{font-size:0.72rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--accent); font-weight:600;}}
 .masthead .meta{{color:var(--ink-faint); font-size:0.78rem; text-align:right; line-height:1.5;}}
-.eyebrow{{text-transform:uppercase; letter-spacing:0.09em; font-size:0.72rem; color:var(--accent); font-weight:600; margin-bottom:6px;}}
-.rates-strip{{display:grid; grid-template-columns:repeat(auto-fit,minmax(122px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:12px; overflow:hidden; margin-bottom:32px; box-shadow:0 1px 2px rgba(20,26,43,0.04);}}
-.rate-cell{{background:var(--surface); padding:13px 15px 11px;}}
-.rate-cell .label{{font-size:0.66rem; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:5px;}}
-.rate-cell .value-row{{display:flex; align-items:flex-end; justify-content:space-between; gap:8px;}}
-.rate-cell .value{{font-size:1.2rem; font-weight:600; letter-spacing:-0.01em;}}
-.rate-cell .chg{{font-size:0.74rem; margin-top:3px;}}
+
+.lede{{font-family:'Fraunces',Georgia,serif; font-size:1.15rem; font-weight:400; line-height:1.62; color:var(--ink); margin:0 0 36px; max-width:66ch;}}
+.lede strong{{font-weight:600;}}
+
+.cluster-row{{display:grid; grid-template-columns:repeat(3, 1fr); gap:16px; margin-bottom:32px;}}
+@media (max-width:680px){{ .cluster-row{{grid-template-columns:1fr;}} }}
+.cluster{{border:1px solid var(--line); border-radius:12px; background:var(--surface); overflow:hidden; box-shadow:0 1px 2px rgba(20,26,43,0.04);}}
+.cluster-head{{font-size:0.68rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--ink-faint); font-weight:600; padding:11px 15px 9px; border-bottom:1px solid var(--line);}}
+.rate-row{{display:flex; align-items:center; justify-content:space-between; gap:10px; padding:10px 15px; border-bottom:1px solid var(--line);}}
+.rate-row:last-child{{border-bottom:none;}}
+.rate-row .rlabel{{font-size:0.78rem; color:var(--ink-soft); flex-shrink:0;}}
+.rate-row .rspark{{flex-shrink:0;}}
+.rate-row .rval-wrap{{text-align:right; flex-shrink:0;}}
+.rate-row .value{{font-size:0.98rem; font-weight:600; letter-spacing:-0.005em;}}
+.rate-row .chg{{font-size:0.7rem; margin-top:1px;}}
 .up{{color:var(--positive);}} .down{{color:var(--negative);}}
-section{{margin-bottom:34px;}}
-.section-title{{font-size:1.1rem; font-weight:600; margin-bottom:5px; letter-spacing:-0.005em;}}
-.section-sub{{color:var(--ink-soft); font-size:0.85rem; margin-bottom:18px; max-width:62ch; line-height:1.5;}}
+
+section{{margin-bottom:32px;}}
+.section-title{{font-size:1.08rem; font-weight:600; margin-bottom:5px; letter-spacing:-0.005em;}}
+.section-sub{{color:var(--ink-soft); font-size:0.85rem; margin-bottom:16px; max-width:62ch; line-height:1.5;}}
+
 .event{{border:1px solid var(--line); border-radius:12px; background:var(--surface); margin-bottom:10px; overflow:hidden; transition:border-color 0.15s ease, box-shadow 0.15s ease;}}
 .event:hover{{border-color:var(--line-strong); box-shadow:0 2px 8px rgba(20,26,43,0.06);}}
-.event-head{{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:15px 18px; cursor:pointer; user-select:none;}}
+.event-head{{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 18px; cursor:pointer; user-select:none;}}
 .event-head:hover{{background:var(--surface-2);}}
-.event-head .headline{{font-size:0.96rem; font-weight:500; flex:1;}}
-.event-head .metric{{font-size:0.95rem; font-weight:600; white-space:nowrap;}}
+.event-head .headline{{font-size:0.94rem; font-weight:500; flex:1;}}
+.event-head .metric{{font-size:0.92rem; font-weight:600; white-space:nowrap;}}
 .chevron{{color:var(--ink-faint); transition:transform 0.18s ease; flex-shrink:0;}}
 .event[open] .chevron{{transform:rotate(90deg);}}
 .event-body{{padding:0 18px 18px; border-top:1px solid var(--line);}}
-.event-body p{{font-size:0.9rem; line-height:1.55; color:var(--ink-soft); margin:14px 0 10px;}}
-.assessment{{display:inline-block; font-size:0.72rem; padding:3px 10px; border-radius:999px; background:var(--accent-soft); color:var(--accent); font-weight:600; margin-bottom:10px;}}
+.event-body p{{font-size:0.88rem; line-height:1.55; color:var(--ink-soft); margin:14px 0 10px;}}
+.assessment{{display:inline-block; font-size:0.7rem; padding:3px 10px; border-radius:999px; background:var(--accent-soft); color:var(--accent); font-weight:600; margin-bottom:10px; margin-top:12px;}}
 .citations{{display:flex; flex-direction:column; gap:6px; margin-top:10px;}}
-.citations a{{color:var(--ink); font-size:0.82rem; text-decoration:none; border-bottom:1px solid var(--line-strong);}}
+.citations a{{color:var(--ink); font-size:0.8rem; text-decoration:none; border-bottom:1px solid var(--line-strong); width:fit-content;}}
 .citations a:hover{{color:var(--accent); border-color:var(--accent);}}
 summary::-webkit-details-marker{{display:none;}}
-.vol-badge{{display:flex; align-items:center; gap:14px; border:1px solid var(--line); border-radius:12px; background:var(--surface); padding:16px 18px;}}
-.vol-badge .tag{{font-size:0.72rem; padding:4px 12px; border-radius:999px; font-weight:600; text-transform:uppercase; letter-spacing:0.04em;}}
+summary{{list-style:none;}}
+summary::marker{{content:"";}}
+
+.vol-badge{{display:flex; align-items:center; gap:14px; border:1px solid var(--line); border-radius:12px; background:var(--surface); padding:15px 18px; flex-wrap:wrap; box-shadow:0 1px 2px rgba(20,26,43,0.04);}}
+.vol-badge .tag{{font-size:0.7rem; padding:4px 12px; border-radius:999px; font-weight:600; text-transform:uppercase; letter-spacing:0.04em;}}
 .tag.calm{{background:var(--positive-soft); color:var(--positive);}}
 .tag.stress{{background:var(--negative-soft); color:var(--negative);}}
-.vol-nums{{display:flex; gap:20px; margin-left:auto;}}
+.vol-nums{{display:flex; gap:22px; margin-left:auto;}}
 .vol-nums div{{text-align:right;}}
-.vol-nums .l{{font-size:0.68rem; color:var(--ink-faint); text-transform:uppercase;}}
-.vol-nums .v{{font-size:1rem; font-weight:600;}}
-footer{{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--line); padding-top:16px; margin-top:8px;}}
+.vol-nums .l{{font-size:0.66rem; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.04em;}}
+.vol-nums .v{{font-size:0.98rem; font-weight:600; margin-top:2px;}}
+
+footer{{color:var(--ink-faint); font-size:0.74rem; border-top:1px solid var(--line); padding-top:16px; margin-top:6px; line-height:1.6;}}
 @media (max-width:480px){{ .masthead{{flex-direction:column;}} .masthead .meta{{text-align:left;}} }}
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
 
 <div class="wrap">
   <div class="masthead">
-    <h1>Market Signal</h1>
-    <div class="meta">Macro &amp; rates one-pager<br>As of {as_of_display}</div>
+    <div class="masthead-left">
+      <h1>Market Signal</h1>
+    </div>
+    <div class="meta">{event_count} material event{event_plural} flagged<br>As of {as_of_display}</div>
   </div>
 
-  <div class="rates-strip">
-    {rate_cells}
-  </div>
+  <p class="lede">{synthesis}</p>
 
-  <section>
-    <div class="section-title">Material events</div>
-    <div class="section-sub">Filtered to moves that cleared threshold — index &gt;1% intraday / &gt;2% over 5 days, 10yr yield &gt;10bps, oil &gt;3%, credit spreads &gt;3bps (IG) / &gt;8bps (HY), or a live Fed/FOMC event. Click any event for driver, sources, and whether the reaction looks proportionate.</div>
-    {events_html}
-  </section>
+  <div class="cluster-row">
+    <div class="cluster">
+      <div class="cluster-head">Rates</div>
+      {rate_rows}
+    </div>
+    <div class="cluster">
+      <div class="cluster-head">Credit</div>
+      {credit_rows}
+    </div>
+    <div class="cluster">
+      <div class="cluster-head">Commodities &amp; FX</div>
+      {commodity_rows}
+    </div>
+  </div>
 
   <section>
     <div class="section-title">Volatility term structure</div>
-    <div class="section-sub">VIX vs. its 3-month forward (VIX3M) — contango means calm markets, backwardation means near-term fear is priced above longer-term fear.</div>
+    <div class="section-sub">VIX vs. its 3-month forward (VIX3M) &mdash; contango means calm markets, backwardation means near-term fear is priced above longer-term fear.</div>
     <div class="vol-badge">
       <span class="tag {vol_tag_class}">{vol_structure}</span>
       <div class="vol-nums">
@@ -116,8 +148,14 @@ footer{{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--li
     </div>
   </section>
 
+  <section>
+    <div class="section-title">Material events</div>
+    <div class="section-sub">Filtered to moves that cleared threshold &mdash; index &gt;1% intraday / &gt;2% over 5 days, 10yr yield &gt;10bps, oil &gt;3%, credit spreads &gt;3bps (IG) / &gt;8bps (HY), or a live Fed/FOMC event. Click any event for driver, sources, and whether the reaction looks proportionate.</div>
+    {events_html}
+  </section>
+
   <footer>
-    Data: FRED (yields, credit spreads, oil, dollar index), CBOE via Yahoo Finance (VIX term structure). Free/unauthenticated sources — see WISHLIST.md for planned upgrades. Generated by pipeline/render_point1_html.py.
+    Data: FRED (yields, credit spreads, oil, dollar index), CBOE via Yahoo Finance (VIX term structure). Free/unauthenticated sources &mdash; see WISHLIST.md for planned upgrades. Generated by pipeline/render_point1_html.py.
   </footer>
 </div>
 """
@@ -146,7 +184,7 @@ def fmt_bps(v):
     return f"{v*100:+.0f}bps"
 
 
-def rate_cell(label, value, unit, chg=None, chg_unit="", history=None):
+def rate_row(label, value, unit, chg=None, chg_unit="", history=None):
     chg_html = ""
     if chg is not None:
         cls = "up" if chg > 0 else ("down" if chg < 0 else "")
@@ -156,14 +194,14 @@ def rate_cell(label, value, unit, chg=None, chg_unit="", history=None):
         vals = [h["value"] for h in history[-30:]]
         cls = "up" if (chg or 0) >= 0 else "down"
         color = "var(--positive)" if cls == "up" else "var(--negative)"
-        spark = svg_sparkline(vals, width=52, height=22, color=color)
-    return f"""<div class="rate-cell">
-      <div class="label">{label}</div>
-      <div class="value-row">
+        spark = f'<span class="rspark">{svg_sparkline(vals, width=44, height=20, color=color)}</span>'
+    return f"""<div class="rate-row">
+      <span class="rlabel">{label}</span>
+      {spark}
+      <span class="rval-wrap">
         <div class="value mono">{value}{unit}</div>
-        {spark}
-      </div>
-      {chg_html}
+        {chg_html}
+      </span>
     </div>"""
 
 
@@ -194,22 +232,26 @@ def render_event(flag):
 
 
 def main():
-    with open("data/point1/final_payload.json") as f:
+    with open("data/point1/final_payload.json", encoding="utf-8") as f:
         payload = json.load(f)
 
     series = payload["macro_series"]
     as_of = payload["as_of"][:16].replace("T", " ") + " UTC"
 
-    cells = [
-        rate_cell("10Y Yield", series["DGS10"]["last_value"], "%", series["DGS10"]["day_chg"], "pp", series["DGS10"]["history"]),
-        rate_cell("2Y Yield", series["DGS2"]["last_value"], "%", series["DGS2"]["day_chg"], "pp", series["DGS2"]["history"]),
-        rate_cell("3M Yield", series["DGS3MO"]["last_value"], "%", series["DGS3MO"]["day_chg"], "pp", series["DGS3MO"]["history"]),
-        rate_cell("10Y-2Y Spread", series["T10Y2Y"]["last_value"], "pp", series["T10Y2Y"]["day_chg"], "pp", series["T10Y2Y"]["history"]),
-        rate_cell("IG Credit OAS", series["BAMLC0A0CM"]["last_value"], "pp", series["BAMLC0A0CM"]["day_chg"], "pp", series["BAMLC0A0CM"]["history"]),
-        rate_cell("HY Credit OAS", series["BAMLH0A0HYM2"]["last_value"], "pp", series["BAMLH0A0HYM2"]["day_chg"], "pp", series["BAMLH0A0HYM2"]["history"]),
-        rate_cell("WTI Crude", series["DCOILWTICO"]["last_value"], "", series["DCOILWTICO"]["day_chg"], "", series["DCOILWTICO"]["history"]),
-        rate_cell("USD Index", series["DTWEXBGS"]["last_value"], "", series["DTWEXBGS"]["day_chg"], "", series["DTWEXBGS"]["history"]),
-    ]
+    rate_rows = "\n".join([
+        rate_row("10Y", series["DGS10"]["last_value"], "%", series["DGS10"]["day_chg"], "pp", series["DGS10"]["history"]),
+        rate_row("2Y", series["DGS2"]["last_value"], "%", series["DGS2"]["day_chg"], "pp", series["DGS2"]["history"]),
+        rate_row("3M", series["DGS3MO"]["last_value"], "%", series["DGS3MO"]["day_chg"], "pp", series["DGS3MO"]["history"]),
+        rate_row("10Y-2Y", series["T10Y2Y"]["last_value"], "pp", series["T10Y2Y"]["day_chg"], "pp", series["T10Y2Y"]["history"]),
+    ])
+    credit_rows = "\n".join([
+        rate_row("IG OAS", series["BAMLC0A0CM"]["last_value"], "pp", series["BAMLC0A0CM"]["day_chg"], "pp", series["BAMLC0A0CM"]["history"]),
+        rate_row("HY OAS", series["BAMLH0A0HYM2"]["last_value"], "pp", series["BAMLH0A0HYM2"]["day_chg"], "pp", series["BAMLH0A0HYM2"]["history"]),
+    ])
+    commodity_rows = "\n".join([
+        rate_row("WTI Crude", series["DCOILWTICO"]["last_value"], "", series["DCOILWTICO"]["day_chg"], "", series["DCOILWTICO"]["history"]),
+        rate_row("USD Index", series["DTWEXBGS"]["last_value"], "", series["DTWEXBGS"]["day_chg"], "", series["DTWEXBGS"]["history"]),
+    ])
 
     events = payload["material_events"]
     events_html = "\n".join(render_event(e) for e in events) if events else '<div class="section-sub">No material moves cleared threshold on this pull.</div>'
@@ -218,9 +260,15 @@ def main():
     vol_structure = vol.get("structure", "n/a")
     vol_tag_class = "stress" if "backwardation" in vol_structure else "calm"
 
+    n_events = len(events)
     html = TEMPLATE.format(
         as_of_display=as_of,
-        rate_cells="\n".join(cells),
+        synthesis=payload.get("synthesis") or "No synthesis available for this pull.",
+        event_count=n_events,
+        event_plural="" if n_events == 1 else "s",
+        rate_rows=rate_rows,
+        credit_rows=credit_rows,
+        commodity_rows=commodity_rows,
         events_html=events_html,
         vol_structure=vol_structure,
         vol_tag_class=vol_tag_class,

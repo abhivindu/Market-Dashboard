@@ -20,9 +20,9 @@ def pct(a, b):
 
 
 def main():
-    with open("data/point1/macro.json") as f:
+    with open("data/point1/macro.json", encoding="utf-8") as f:
         macro = json.load(f)
-    with open("data/point3/indices.json") as f:
+    with open("data/point3/indices.json", encoding="utf-8") as f:
         indices = json.load(f)
 
     flags = []
@@ -94,7 +94,7 @@ def main():
             }
         )
 
-    with open("data/point1/materiality_flags.json", "w") as f:
+    with open("data/point1/materiality_flags.json", "w", encoding="utf-8") as f:
         json.dump({"flags": flags}, f, indent=2)
     print(f"Flagged {len(flags)} material moves")
     for fl in flags:

@@ -31,7 +31,7 @@ def fetch_day(date_str):
 
 
 def main():
-    with open("data/point3/universe.json") as f:
+    with open("data/point3/universe.json", encoding="utf-8") as f:
         universe = {u["ticker"] for u in json.load(f)["universe"]}
 
     today = datetime.now()
@@ -59,7 +59,7 @@ def main():
         time.sleep(0.5)
 
     print(f"Found {len(all_entries)} in-universe earnings entries over next {DAYS_AHEAD} days", file=sys.stderr)
-    with open("data/point3/earnings_calendar.json", "w") as f:
+    with open("data/point3/earnings_calendar.json", "w", encoding="utf-8") as f:
         json.dump({"as_of": today.isoformat(), "entries": all_entries}, f, indent=2)
     print("Wrote data/point3/earnings_calendar.json", file=sys.stderr)
 

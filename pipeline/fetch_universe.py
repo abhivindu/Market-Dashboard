@@ -45,7 +45,7 @@ def main():
     universe = fetch_constituents()
     print(f"Universe size: {len(universe)}", file=sys.stderr)
     out = {"universe": universe}
-    with open("data/point3/universe.json", "w") as f:
+    with open("data/point3/universe.json", "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2)
     print("Wrote data/point3/universe.json", file=sys.stderr)
 

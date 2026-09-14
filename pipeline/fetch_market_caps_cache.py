@@ -72,7 +72,7 @@ def fetch_via_yfinance(tickers):
 def main():
     from datetime import datetime, timezone
 
-    with open("data/point3/universe.json") as f:
+    with open("data/point3/universe.json", encoding="utf-8") as f:
         universe = json.load(f)["universe"]
     tickers = [u["ticker"] for u in universe]
     print(f"Fetching market caps for {len(tickers)} tickers...", file=sys.stderr)
@@ -81,7 +81,7 @@ def main():
 
     print(f"Got market caps for {len(results)}/{len(tickers)}", file=sys.stderr)
     out = {"as_of": datetime.now(timezone.utc).isoformat(), "market_caps": results}
-    with open("data/point3/market_caps_cache.json", "w") as f:
+    with open("data/point3/market_caps_cache.json", "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2)
     print("Wrote data/point3/market_caps_cache.json", file=sys.stderr)
 

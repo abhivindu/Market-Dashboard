@@ -32,13 +32,13 @@ TOP_N = 5
 
 
 def main():
-    with open("data/point3/aggregates.json") as f:
+    with open("data/point3/aggregates.json", encoding="utf-8") as f:
         agg = json.load(f)
-    with open("data/point3/price_history.json") as f:
+    with open("data/point3/price_history.json", encoding="utf-8") as f:
         prices = json.load(f)
-    with open("data/point3/universe.json") as f:
+    with open("data/point3/universe.json", encoding="utf-8") as f:
         universe = {u["ticker"]: u for u in json.load(f)["universe"]}
-    with open("data/point3/market_caps_cache.json") as f:
+    with open("data/point3/market_caps_cache.json", encoding="utf-8") as f:
         market_caps = json.load(f)["market_caps"]
 
     claimed = set()
@@ -108,7 +108,7 @@ def main():
         "value": value,
         "speculative": speculative,
     }
-    with open("data/point3/recommendations_shortlist.json", "w") as f:
+    with open("data/point3/recommendations_shortlist.json", "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2)
     print(f"Bounce: {len(bounce)}, Value: {len(value)}, Speculative: {len(speculative)}", file=sys.stderr)
     print("Wrote data/point3/recommendations_shortlist.json", file=sys.stderr)

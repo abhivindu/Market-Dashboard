@@ -110,7 +110,7 @@ def main():
     if vol:
         out["vol_term_structure"] = vol
 
-    with open("data/point1/macro.json", "w") as f:
+    with open("data/point1/macro.json", "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2)
     print("Wrote data/point1/macro.json", file=sys.stderr)
 

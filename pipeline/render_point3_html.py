@@ -159,8 +159,9 @@ HTML_SHELL = """<!doctype html>
     </div>
     <div id="mover-detail"></div>
     <div class="section-title" style="margin-top:28px;">Volume outliers</div>
-    <div class="section-sub">Volume &ge;2x the 3-month average &mdash; free-data proxy for unusual options/attention activity (see WISHLIST.md for the real-flow-data upgrade path).</div>
+    <div class="section-sub">Volume &ge;2x the 3-month average &mdash; free-data proxy for unusual options/attention activity (see WISHLIST.md for the real-flow-data upgrade path). Click a row for what's likely driving the activity.</div>
     <table><thead><tr><th>Ticker</th><th>Name</th><th>Day %</th><th>Vol / Avg</th></tr></thead><tbody>{vol_outlier_rows}</tbody></table>
+    <div id="vol-outlier-detail"></div>
   </div>
 
   <div class="tabpanel" id="tab-earnings">
@@ -299,6 +300,27 @@ document.querySelectorAll('.mover-row').forEach(row => {{
     const list = bucket === 'gainer' ? DATA.top_gainers : DATA.top_losers;
     const m = list.find(x => x.ticker === ticker);
     if (m) renderMoverDetail(m);
+  }});
+}});
+
+// ---- Volume outlier drill-down ----
+document.querySelectorAll('#tab-movers tr.clickable').forEach(row => {{
+  row.addEventListener('click', () => {{
+    document.querySelectorAll('#tab-movers tr.clickable').forEach(r => r.classList.remove('active-row'));
+    row.classList.add('active-row');
+    const ticker = row.dataset.ticker;
+    const m = DATA.volume_outliers.find(x => x.ticker === ticker);
+    if (!m) return;
+    const verdictClass = m.verdict === 'aligned' ? 'aligned' : (m.verdict === 'counter' ? 'counter' : 'pending');
+    const citations = (m.citations || []).map(c => `<a href="${{c.url}}" target="_blank" rel="noopener">${{c.title}}</a>`).join('') || '<span style="color:var(--ink-faint);font-size:0.8rem;">No sources attached yet.</span>';
+    document.getElementById('vol-outlier-detail').innerHTML = `
+      <div class="card" style="margin-top:14px;">
+        <h3 style="font-size:0.95rem;">${{m.ticker}} &mdash; ${{m.name || ''}}</h3>
+        <div class="section-sub">${{fmtPct(m.day_chg_pct)}} today on ${{m.volume_vs_avg_ratio.toFixed(1)}}x average volume &middot; ${{m.sector}}</div>
+        <span class="verdict ${{verdictClass}}">${{m.verdict || 'not yet assessed'}}</span>
+        <p style="font-size:0.88rem;color:var(--ink-soft);line-height:1.55;">${{m.narrative || 'Research pending.'}}</p>
+        <div class="citations">${{citations}}</div>
+      </div>`;
   }});
 }});
 
@@ -461,7 +483,7 @@ def mover_row(m, bucket):
 
 def vol_outlier_row(m):
     cls = "up" if m["day_chg_pct"] > 0 else "down"
-    return f"""<tr>
+    return f"""<tr class="clickable" data-ticker="{m['ticker']}">
       <td class="mono">{m['ticker']}</td><td>{m.get('name','')}</td>
       <td class="mono {cls}">{fmt_pct_py(m['day_chg_pct'])}</td>
       <td class="mono">{m['volume_vs_avg_ratio']:.1f}x</td>
@@ -531,7 +553,7 @@ def recommendation_card(r, bucket_label):
 
 
 def main():
-    with open("data/point3/final_payload.json") as f:
+    with open("data/point3/final_payload.json", encoding="utf-8") as f:
         payload = json.load(f)
 
     as_of = payload["as_of"][:16].replace("T", " ") + " UTC"

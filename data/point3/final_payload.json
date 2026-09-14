@@ -16437,9 +16437,14 @@
       "volume": 26522500,
       "avg_volume": 15753270,
       "contribution_pct": 0.0102,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "HP jumped to a 52-week high after RBC initiated coverage (Sector Perform), framing HP's \"hybrid AI at the edge\" strategy (PCs + print + device management) as a credible path to 2-4% long-term revenue growth, plus a $1B annualized cost-savings program by FY28. Same AI-capex enthusiasm lifting HPE/DELL/NTAP this week, applied to the PC maker.",
+      "citations": [
+        {
+          "title": "HP Surges 8% to 52-Week High on AI Infrastructure Push",
+          "url": "https://www.basisreport.com/news/hpq-hp-surges-8-to-52-week-high-on-ai-infrastructure-push"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "IESC",
@@ -16452,9 +16457,14 @@
       "volume": 225200,
       "avg_volume": 466316,
       "contribution_pct": 0.0168,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "IES Holdings surged after a blowout fiscal Q3: EPS beat estimates by $2.19, backlog hit $4.5B (+91% since FY2025 end) on data-center electrical demand, and data-center operations now drive 92% of segment profit with margins expanding to 20.8% from 17.2%. Debt-free with $310.6M in marketable securities.",
+      "citations": [
+        {
+          "title": "IES Holdings Stock Moves 30% as Q3 Earnings Crush Analyst Estimates",
+          "url": "https://www.tikr.com/blog/ies-holdings-stock-q3-earnings-beat-stock-split-2026"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "SYNA",
@@ -16467,9 +16477,14 @@
       "volume": 530200,
       "avg_volume": 951945,
       "contribution_pct": 0.0012,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "Synaptics rode a broad semiconductor sector rally (peers up 3.6-5.2%, Synaptics outpaced all of them at 6.3%), with added speculative fuel from a Bloomberg report that Synaptics rejected a takeover bid at a 70% premium from a Chinese state-owned investment group.",
+      "citations": [
+        {
+          "title": "Synaptics Jumps 6.3% Amid Sector-Wide Rally",
+          "url": "https://news.alphastreet.com/synaptics-jumps-6-3-amid-sector-wide-rally/"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "CDW",
@@ -16482,9 +16497,14 @@
       "volume": 1774600,
       "avg_volume": 1909263,
       "contribution_pct": 0.0057,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "CDW's move looks like sector beta rather than a company-specific catalyst - IT services/distribution peers rallied broadly this week. No fresh CDW-specific news found alongside the move.",
+      "citations": [
+        {
+          "title": "CDW Jumps 6.2% Amid Sector-Wide Rally",
+          "url": "https://news.alphastreet.com/cdw-jumps-6-2-amid-sector-wide-rally/"
+        }
+      ],
+      "verdict": "mixed"
     },
     {
       "ticker": "M",
@@ -16497,9 +16517,14 @@
       "volume": 10276100,
       "avg_volume": 5543325,
       "contribution_pct": 0.0061,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "Macy's beat Q2 estimates and raised full-year guidance across the board (sales, comps, EBITDA margin, EPS) - a genuine turnaround signal after a rocky initial reaction (shares briefly fell before recovering and then gaining 7.7% two days later as the market digested the raise).",
+      "citations": [
+        {
+          "title": "Macy's Q2 2026: Beat and Guidance Raise Keep the Turnaround Rally Intact",
+          "url": "https://www.alphapilot.tech/discover/macy-s-q2-2026-beat-and-guidance-raise-keep-the-turnaround-rally-intact"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "MXL",
@@ -16512,9 +16537,14 @@
       "volume": 2637500,
       "avg_volume": 3283100,
       "contribution_pct": 0.0019,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "MaxLinear continues riding AI-data-center and 5G-backhaul chip demand after a 43% y/y Q1 revenue jump, though the stock is well off its June all-time high ($128 vs ~$63 now) - today's move is a partial recovery within an already-volatile, hype-sensitive name.",
+      "citations": [
+        {
+          "title": "MaxLinear (MXL) Valuation Check After Q1 2026 AI Surge And Strong Revenue Growth",
+          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mxl/maxlinear/news/maxlinear-mxl-valuation-check-after-q1-2026-ai-surge-and-str"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "SMCI",
@@ -16527,9 +16557,14 @@
       "volume": 46402900,
       "avg_volume": 49764215,
       "contribution_pct": 0.0072,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "Supermicro is riding through-August momentum (Q4 revenue +91.7% y/y, margins nearly doubled to 17.5%, FY guidance of $65-72B vs $53B consensus) plus a cleared internal investigation into server diversion to China, and joined DELL/HPE in an AI-server-stock rally on Sept 11.",
+      "citations": [
+        {
+          "title": "Super Micro Computer (NASDAQ: SMCI) Stock Surges 31% As Margins Soar And Investigation Clears Management",
+          "url": "https://www.foreignpolicyjournal.com/2026/09/03/super-micro-computer-nasdaq-smci-stock-surges-31-as-margins-soar-and-investigation-clears-management/"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "FLEX",
@@ -16542,9 +16577,14 @@
       "volume": 3033300,
       "avg_volume": 5681280,
       "contribution_pct": 0.0116,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "Flex beat Q4 estimates (EPS $0.93 vs $0.87, revenue $7.48B vs $6.95B) and announced a $4.4B acquisition of EPC Power targeting AI data centers, grid support, and energy storage - guiding to 65-75% CPI revenue growth for FY27. A real, capital-committed bet on the AI-power buildout, not just sentiment.",
+      "citations": [
+        {
+          "title": "FLEX Jumps As Flex Ltd. Bets $4.4B On AI Power Spin-Off",
+          "url": "https://www.timothysykes.com/news/flexltd-flex-news-2026_09_11/"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "AVT",
@@ -16557,9 +16597,14 @@
       "volume": 1961200,
       "avg_volume": 1221490,
       "contribution_pct": 0.0022,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "Avnet's Q3 FY26 EPS beat by 13%, revenue beat by 11% ($7.1B, +34% y/y) with record Asia sales (7th straight quarter of regional growth), plus a 5.7% dividend hike. Clean earnings-driven move.",
+      "citations": [
+        {
+          "title": "Avnet Q4 Earnings Beat on Broad-Based Demand and Margin Gains",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/avnet-q4-earnings-beat-broad-150600117.html"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "INSP",
@@ -16572,9 +16617,14 @@
       "volume": 1399300,
       "avg_volume": 854095,
       "contribution_pct": 0.0023,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "Inspire Medical jumped on a Stifel price-target raise ($75 to $80, Buy maintained) as reimbursement headwinds ease: CMS finalized higher payment rates for sleep-apnea procedures (~$10,000 more per procedure) and prior-authorization friction is improving - removing the main overhang that had pressured the stock.",
+      "citations": [
+        {
+          "title": "Why Inspire Medical Systems (INSP) Stock Is Up Today",
+          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-11-why-inspire-medical-systems-insp-stock-is-up-today"
+        }
+      ],
+      "verdict": "aligned"
     }
   ],
   "top_losers": [
@@ -16691,9 +16741,14 @@
       "volume": 4918500,
       "avg_volume": 3124360,
       "contribution_pct": -0.0005,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "SolarEdge fell after CEO comments at investor day guided Q4 2026 results slightly below Q3 - the latest leg of a sustained decline (down ~39% over 1 month, ~50% over 3 months) as core inverter/optimizer sales decline and at least one analyst downgraded to Hold on rising downside risk.",
+      "citations": [
+        {
+          "title": "SolarEdge (SEDG) Stock Price Drops As Margin Recovery Faces Fresh Doubts",
+          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-sedg/solaredge-technologies/news/solaredge-sedg-stock-price-drops-as-margin-recovery-faces-fr/amp"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "PJT",
@@ -16706,9 +16761,9 @@
       "volume": 486800,
       "avg_volume": 465735,
       "contribution_pct": -0.0022,
-      "narrative": "Research pending.",
+      "narrative": "No clear company-specific catalyst found for PJT's drop - most likely tracking this week's broader rate-driven pullback in financials/M&A-advisory names (rising yields, hawkish Fed odds into the Sept 15-16 FOMC) rather than a name-specific event.",
       "citations": [],
-      "verdict": "not yet assessed"
+      "verdict": "mixed"
     },
     {
       "ticker": "APAM",
@@ -16721,9 +16776,14 @@
       "volume": 1156800,
       "avg_volume": 866476,
       "contribution_pct": -0.0013,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "No September-specific catalyst found; Artisan Partners has been on a weaker 2026 trend generally (down ~11% YTD, ~24% off its 52-week high) after a Q1 earnings miss ($0.87 vs $0.93 consensus EPS) despite revenue in line with expectations. Today's move likely extends that trend rather than a fresh shock.",
+      "citations": [
+        {
+          "title": "Why Artisan Partners (APAM) Stock Is Falling Today",
+          "url": "https://www.tradingview.com/news/stockstory:dce0962de094b:0-why-artisan-partners-apam-stock-is-falling-today/"
+        }
+      ],
+      "verdict": "mixed"
     },
     {
       "ticker": "CAR",
@@ -16736,9 +16796,14 @@
       "volume": 518300,
       "avg_volume": 508916,
       "contribution_pct": -0.0025,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "No September-specific news found; Avis has had a volatile 2026 (a 53.7% short-squeeze spike in April, a 6.9% earnings-driven drop in July on weak European international EBITDA and rising recall costs, leverage still around 7.4x). Today's move likely continues that leveraged, event-driven volatility pattern.",
+      "citations": [
+        {
+          "title": "Avis Budget Group (CAR) Stock Drops As Profit Rebound Meets Debt Scrutiny",
+          "url": "https://simplywall.st/stocks/us/transportation/nasdaq-car/avis-budget-group/news/avis-budget-group-car-stock-drops-as-profit-rebound-meets-de"
+        }
+      ],
+      "verdict": "mixed"
     },
     {
       "ticker": "AMR",
@@ -16751,9 +16816,14 @@
       "volume": 414700,
       "avg_volume": 306811,
       "contribution_pct": -0.0069,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "Alpha Metallurgical fell alongside a sector-wide coking-coal selloff (peers HCC -4.9%, SXC -3.9% the same session), compounded by a real earnings miss (Q2 EPS -$0.96, revenue $421M vs $522M consensus) that led analysts to cut price targets from $194 to $160.",
+      "citations": [
+        {
+          "title": "Alpha Metallurgical Resources Drops 6.5% Amid Sector-Wide Selling",
+          "url": "https://news.alphastreet.com/alpha-metallurgical-resources-drops-6-5-amid-sector-wide-selling/"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "HCC",
@@ -16766,9 +16836,14 @@
       "volume": 665900,
       "avg_volume": 655683,
       "contribution_pct": -0.0133,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "Warrior Met Coal fell in the same coking-coal sector selloff that hit AMR (-8.4%) and SXC (-4.7%) - sector-wide pressure, not a company-specific issue.",
+      "citations": [
+        {
+          "title": "Warrior Met Coal Drops 5.4% Amid Sector-Wide Selling",
+          "url": "https://news.alphastreet.com/warrior-met-coal-drops-5-4-amid-sector-wide-selling/"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "ALB",
@@ -16781,9 +16856,14 @@
       "volume": 2391500,
       "avg_volume": 2353776,
       "contribution_pct": -0.0353,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "Albemarle fell with the broader lithium sector (Chilean peer SQM also down) amid strike risk at its Chile lithium operations under a new CEO, despite beating EPS estimates last quarter ($3.75 vs $3.20). Down sharply in recent sessions but still up ~58% over the trailing year - sector/event-driven, not a demand collapse.",
+      "citations": [
+        {
+          "title": "Albemarle Corp. stock slips as lithium strike risk in Chile adds to recent volatility",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/albemarle-corp-stock-slips-as-lithium-strike-risk-in-chile-adds-to-recent/70074575"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "STX",
@@ -16796,9 +16876,14 @@
       "volume": 3843400,
       "avg_volume": 4790623,
       "contribution_pct": -0.0266,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "IMPORTANT CROSS-CURRENT: Seagate fell after DeepSeek's V4.1 Flash model demonstrated AI inference needs just 1/4 the memory and 1/8 the SSD storage of prior generations - a direct challenge to the \"AI needs ever-more storage/compute hardware\" thesis driving this week's HPE/DELL/NTAP/SMCI rally. Company fundamentals remain strong (revenue +48.5% y/y, record 52.7% gross margin) - this is a name-specific efficiency-scare reaction, not a sector-wide move (SPY/DRAM ETFs were flat to up the same session).",
+      "citations": [
+        {
+          "title": "Storage Stocks Slide as Profit Taking Follows Big Run: Seagate Falls 4%, SanDisk Drops 3%, Micron Holds Flat",
+          "url": "https://247wallst.com/investing/2026/09/11/storage-stocks-slide-as-profit-taking-follows-big-run-seagate-falls-4-sandisk-drops-3-micron-holds-flat/"
+        }
+      ],
+      "verdict": "counter"
     },
     {
       "ticker": "JEF",
@@ -16811,9 +16896,9 @@
       "volume": 2143600,
       "avg_volume": 2109140,
       "contribution_pct": -0.0046,
-      "narrative": "Research pending.",
+      "narrative": "No clear September-specific catalyst found. Jefferies has had a rough 2026 overall (weak jobs report reaction in February, a Q2 earnings-driven drop in June, lingering exposure concerns tied to the First Brands Group bankruptcy from 2025) - today's move likely continues that pattern or tracks the broader financials pullback into the FOMC meeting.",
       "citations": [],
-      "verdict": "not yet assessed"
+      "verdict": "mixed"
     },
     {
       "ticker": "SNDK",
@@ -16826,9 +16911,14 @@
       "volume": 9340000,
       "avg_volume": 14055058,
       "contribution_pct": -0.0316,
-      "narrative": "Research pending.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "Same DeepSeek V4.1 Flash AI-efficiency story hitting STX: SanDisk gave back a Citigroup-endorsement bounce as memory-sector peers (Micron, SK Hynix) also sold off pre-market. Still the best-performing S&P 500 component this year even after a ~35% pullback from its late-June highs; Citi maintained its buy rating and $2,100 target, citing an expected multi-year NAND shortage.",
+      "citations": [
+        {
+          "title": "Storage Stocks Slide as Profit Taking Follows Big Run: Seagate Falls 4%, SanDisk Drops 3%, Micron Holds Flat",
+          "url": "https://247wallst.com/investing/2026/09/11/storage-stocks-slide-as-profit-taking-follows-big-run-seagate-falls-4-sandisk-drops-3-micron-holds-flat/"
+        }
+      ],
+      "verdict": "counter"
     }
   ],
   "volume_outliers": [
@@ -16843,7 +16933,15 @@
       "volume": 123781300,
       "avg_volume": 16889200,
       "contribution_pct": 0.0069,
-      "volume_vs_avg_ratio": 7.33
+      "volume_vs_avg_ratio": 7.33,
+      "narrative": "Kraft Heinz's volume pickup looks more technical than thematic: the stock is simply transferring its exchange listing to the NYSE (effective Sept 14) alongside a routine $0.40 quarterly dividend declaration. No fresh operational catalyst - a 6.54% dividend yield makes it a income-oriented hold rather than a high-conviction momentum name. Lower-conviction pick in this bucket.",
+      "citations": [
+        {
+          "title": "Kraft Heinz to Transfer Stock Exchange Listing to NYSE",
+          "url": "https://news.kraftheinzcompany.com/press-releases-details/2026/Kraft-Heinz-to-Transfer-Stock-Exchange-Listing-to-NYSE/default.aspx"
+        }
+      ],
+      "verdict": "mixed"
     },
     {
       "ticker": "RCUS",
@@ -16856,7 +16954,15 @@
       "volume": 4276600,
       "avg_volume": 1373898,
       "contribution_pct": -0.0028,
-      "volume_vs_avg_ratio": 3.11
+      "volume_vs_avg_ratio": 3.11,
+      "narrative": "Arcus Biosciences' drop reflects genuine fundamental deterioration, not overreaction: the company scrapped its Phase 3 STAR-121 and Phase 2 EDGE-Lung trials for domvanalimab after a futility analysis showed no survival benefit, while H1 2026 revenue collapsed to $58M from $188M and net loss widened to $219M.",
+      "citations": [
+        {
+          "title": "Arcus Biosciences Stock Stumbles After Harsh Double Blow",
+          "url": "https://www.tipranks.com/news/catalyst/arcus-biosciences-stock-stumbles-after-harsh-double-blow"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "KIM",
@@ -16869,7 +16975,15 @@
       "volume": 13001400,
       "avg_volume": 4698086,
       "contribution_pct": -0.0043,
-      "volume_vs_avg_ratio": 2.77
+      "volume_vs_avg_ratio": 2.77,
+      "narrative": "Kimco raised FY26 guidance and hiked its dividend 12% after a solid Q2 (FFO +4.5% y/y, record 96.4% occupancy), but the stock has still drifted lower as rate-sensitive REITs broadly lag amid this week's yield spike - the volume looks driven by macro rate sensitivity more than the (positive) fundamentals.",
+      "citations": [
+        {
+          "title": "Kimco Realty Q2 Earnings: FFO $0.46, Outlook Up",
+          "url": "https://www.stocktitan.net/news/KIM/kimco-realty-announces-second-quarter-2026-f02ce6jikj4b.html"
+        }
+      ],
+      "verdict": "counter"
     },
     {
       "ticker": "RH",
@@ -16882,7 +16996,15 @@
       "volume": 2227800,
       "avg_volume": 807811,
       "contribution_pct": 0.0,
-      "volume_vs_avg_ratio": 2.76
+      "volume_vs_avg_ratio": 2.76,
+      "narrative": "RH beat Q2 FY26 revenue estimates ($922.2M vs $915.4M expected) on strong demand for its new higher-price-point RH Estates collection, and Telsey raised its price target to $155. Real momentum, though Q3 guidance came in below expectations and the Estates rollout to galleries slipped a few weeks - a partial offset worth watching, not disqualifying.",
+      "citations": [
+        {
+          "title": "Telsey raises Restoration Hardware stock price target on better results",
+          "url": "https://www.investing.com/news/analyst-ratings/telsey-raises-restoration-hardware-stock-price-target-on-better-results-93CH-4897499"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "SPSC",
@@ -16895,7 +17017,15 @@
       "volume": 1807100,
       "avg_volume": 658125,
       "contribution_pct": 0.0008,
-      "volume_vs_avg_ratio": 2.75
+      "volume_vs_avg_ratio": 2.75,
+      "narrative": "SPS Commerce jumped up to 15.8% on reports that private equity firm GTCR is in advanced talks to acquire the company, which had confirmed exploring a sale back in June. GuruFocus estimates the stock is worth $182.49 versus its $80.90 price - a real, event-driven catalyst with a clear (if binary) path to realizing that gap.",
+      "citations": [
+        {
+          "title": "Why SPS Commerce Rallied on Friday",
+          "url": "https://www.fool.com/investing/2026/09/11/why-sps-commerce-rallied-on-friday/"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "ORCL",
@@ -16908,7 +17038,15 @@
       "volume": 79522900,
       "avg_volume": 32794561,
       "contribution_pct": -0.0284,
-      "volume_vs_avg_ratio": 2.42
+      "volume_vs_avg_ratio": 2.42,
+      "narrative": "IMPORTANT CROSS-CURRENT: Oracle fell despite a Q1 \"beat and raise\" print, and separately dropped 5.4% on Sept 1 as the bond selloff punished it specifically for financing risk - Oracle has negative $23.7B free cash flow from building AI data centers, raised $43B in debt last year plus a planned $20B equity raise. Down 59% from last September's peak. This is the financing-risk mirror image of the HPE/DELL AI-capex bull case: same theme, opposite market verdict when the balance sheet is stretched.",
+      "citations": [
+        {
+          "title": "Oracle stock has worst week since 2001 dot-com bust as AI financing concerns escalate",
+          "url": "https://www.cnbc.com/2026/06/26/oracle-stock-ends-worst-week-since-2001-as-investors-dwell-on-finances.html"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "COO",
@@ -16921,7 +17059,15 @@
       "volume": 6438900,
       "avg_volume": 2671285,
       "contribution_pct": -0.0007,
-      "volume_vs_avg_ratio": 2.41
+      "volume_vs_avg_ratio": 2.41,
+      "narrative": "Cooper Companies fell 13.9% after Q4 guidance ($1.05-$1.09 EPS) missed the $1.19 consensus and management decided not to sell CooperSurgical after a strategic review - the market wanted a divestiture and didn't get one. Contact-lens distributor inventory drawdown is a real near-term drag but not a demand problem; bounce thesis depends on inventory normalizing in FY27.",
+      "citations": [
+        {
+          "title": "Why is CooperCompanies Stock Down 15% Today?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-coopercompanies-stock-down-15-183253788.html"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "AVAV",
@@ -16934,7 +17080,15 @@
       "volume": 4602300,
       "avg_volume": 1917873,
       "contribution_pct": -0.0003,
-      "volume_vs_avg_ratio": 2.4
+      "volume_vs_avg_ratio": 2.4,
+      "narrative": "AeroVironment jumped on a strong Q1 FY27 print: revenue $480.5M vs $456.1M consensus, book-to-bill of 1.4x, record $1.5B backlog (+37% y/y) driven by counter-UAS/ISR contract wins. Analyst reaction was mixed (JPMorgan raised its target to $210, BofA cut its target to $185 despite keeping a Buy) - real growth, but not unanimous enthusiasm on valuation.",
+      "citations": [
+        {
+          "title": "Why AeroVironment (AVAV) Stock Is Up Today",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-aerovironment-avav-stock-today-004104139.html"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "MTN",
@@ -16947,7 +17101,15 @@
       "volume": 1630500,
       "avg_volume": 697745,
       "contribution_pct": 0.0035,
-      "volume_vs_avg_ratio": 2.34
+      "volume_vs_avg_ratio": 2.34,
+      "narrative": "CAUTION - Vail Resorts' volume spike is momentum without a clean bullish story: free cash flow worsened to -$28.2M (-133% y/y) in Q3, pass sales growth decelerated to +1% (second straight year of declining unit pass sales), and Goldman Sachs initiated coverage with a Sell rating on Aug 17. Include with reduced conviction pending the Sept 28 fiscal Q4/year-end earnings report.",
+      "citations": [
+        {
+          "title": "Vail Resorts Announces Fiscal 2026 Fourth Quarter and Year-End Earnings Release Date",
+          "url": "https://investors.vailresorts.com/news-releases/news-release-details/vail-resorts-announces-fiscal-2026-fourth-quarter-and-year-end"
+        }
+      ],
+      "verdict": "mixed"
     },
     {
       "ticker": "CLX",
@@ -16960,7 +17122,15 @@
       "volume": 6205500,
       "avg_volume": 2730818,
       "contribution_pct": -0.0033,
-      "volume_vs_avg_ratio": 2.27
+      "volume_vs_avg_ratio": 2.27,
+      "narrative": "Clorox drifted lower after Citi and Barclays both trimmed price targets around a consumer-staples investor conference appearance, amid margin-pressure concerns even as the company guides to 13-14% sales growth for FY27. Down 28% over the trailing year - a continuation of an existing downtrend, not a new shock.",
+      "citations": [
+        {
+          "title": "Clorox's price target was lowered to $97 from $100 at Citi",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/clorox-co-stock-heads-into-the-open-after-a-0-95-percent-decline/70085524"
+        }
+      ],
+      "verdict": "aligned"
     },
     {
       "ticker": "KVUE",
@@ -16973,7 +17143,15 @@
       "volume": 47159300,
       "avg_volume": 22179358,
       "contribution_pct": -0.0005,
-      "volume_vs_avg_ratio": 2.13
+      "volume_vs_avg_ratio": 2.13,
+      "narrative": "No single clear catalyst found for today's volume spike specifically. Recent context: a Q2 EPS miss ($0.31 vs $0.32 consensus), a pending Kimberly-Clark acquisition of Kenvue nearing close (Australia cleared it pending a Carefree/Stayfree divestment), and a routine dividend declaration - any of these could be drawing attention.",
+      "citations": [
+        {
+          "title": "Kenvue's Kimberly-Clark deal is nearing closing with key risks still ahead",
+          "url": "https://finance.yahoo.com/quote/KVUE/news/"
+        }
+      ],
+      "verdict": "mixed"
     },
     {
       "ticker": "AEO",
@@ -16986,7 +17164,15 @@
       "volume": 11362400,
       "avg_volume": 5387046,
       "contribution_pct": 0.0012,
-      "volume_vs_avg_ratio": 2.11
+      "volume_vs_avg_ratio": 2.11,
+      "narrative": "American Eagle beat Q2 revenue and EPS estimates (sales +7.5% y/y) but still fell 15.8% on a 1% comp-sales decline at the namesake brand, with Barclays and Telsey cutting price targets. The volume/momentum signal here is actually a post-earnings selloff, not a rally - flagging as a speculative name to watch for stabilization rather than a clean momentum long.",
+      "citations": [
+        {
+          "title": "American Eagle (NYSE:AEO) Exceeds Q2 CY2026 Expectations But Stock Drops 12.1%",
+          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-9-american-eagle-nyseaeo-exceeds-q2-cy2026-expectations-but-stock-drops-121"
+        }
+      ],
+      "verdict": "counter"
     },
     {
       "ticker": "UNF",
@@ -16999,7 +17185,10 @@
       "volume": 413500,
       "avg_volume": 197290,
       "contribution_pct": 0.0011,
-      "volume_vs_avg_ratio": 2.1
+      "volume_vs_avg_ratio": 2.1,
+      "narrative": "No single clear catalyst found for today's volume spike. UniFirst beat Q3 EPS estimates by 13.6% ($2.17 vs $1.91) and declared a routine dividend - likely residual attention from that beat rather than fresh news.",
+      "citations": [],
+      "verdict": "mixed"
     },
     {
       "ticker": "JBTM",
@@ -17012,7 +17201,15 @@
       "volume": 1236400,
       "avg_volume": 608016,
       "contribution_pct": 0.0016,
-      "volume_vs_avg_ratio": 2.03
+      "volume_vs_avg_ratio": 2.03,
+      "narrative": "JBT Marel has been trending down (down 14% over the past month, 23% YTD) after a Q2 earnings miss ($1.95 vs $2.02 consensus EPS) and a cut to full-year guidance, despite pairing that report with a new buyback program and dividend. Today's volume likely reflects continued digestion of that guidance cut rather than fresh news.",
+      "citations": [
+        {
+          "title": "JBT Marel (JBTM) Updated Guidance And Backed Buybacks, Is The Stock Cheap?",
+          "url": "https://simplywall.st/stocks/us/capital-goods/nyse-jbtm/jbt-marel/news/jbt-marel-jbtm-updated-guidance-and-backed-buybacks-is-the-s"
+        }
+      ],
+      "verdict": "mixed"
     },
     {
       "ticker": "KAI",
@@ -17025,7 +17222,15 @@
       "volume": 280900,
       "avg_volume": 138363,
       "contribution_pct": -0.0033,
-      "volume_vs_avg_ratio": 2.03
+      "volume_vs_avg_ratio": 2.03,
+      "narrative": "Kadant's decline reflects a broader industrial-sector rotation (oil above $100, rising yields) plus a multi-year CEO succession announcement creating near-term uncertainty - not a results problem. The company just beat consensus EPS ($3.42 vs $2.94) and revenue estimates.",
+      "citations": [
+        {
+          "title": "Why Kadant (KAI) Shares Are Trading Lower Today",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-kadant-kai-shares-trading-052305221.html"
+        }
+      ],
+      "verdict": "aligned"
     }
   ],
   "breadth": {

@@ -18,7 +18,7 @@ def chunks(lst, n):
 
 
 def main():
-    with open("data/point3/universe.json") as f:
+    with open("data/point3/universe.json", encoding="utf-8") as f:
         universe = json.load(f)["universe"]
     tickers = [u["ticker"] for u in universe]
     print(f"Bulk price/volume pull for {len(tickers)} tickers...", file=sys.stderr)
@@ -64,7 +64,7 @@ def main():
                 print(f"  skip {t}: {e}", file=sys.stderr)
 
     print(f"Got price history for {len(results)}/{len(tickers)}", file=sys.stderr)
-    with open("data/point3/price_history.json", "w") as f:
+    with open("data/point3/price_history.json", "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2)
     print("Wrote data/point3/price_history.json", file=sys.stderr)
 
