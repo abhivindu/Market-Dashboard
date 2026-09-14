@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+pipeline_log.txt
+quote_fetch_log*.txt

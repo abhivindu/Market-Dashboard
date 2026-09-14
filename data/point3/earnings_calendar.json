@@ -1,0 +1,77 @@
+{
+  "as_of": "2026-09-13T20:46:43.543259",
+  "entries": [
+    {
+      "date": "2026-09-16",
+      "ticker": "LEN",
+      "company": "Lennar Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.30",
+      "last_year_eps": "$2",
+      "market_cap": "$18,765,731,800"
+    },
+    {
+      "date": "2026-09-17",
+      "ticker": "HUBG",
+      "company": "Hub Group, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "$0.52",
+      "last_year_eps": "$0.45",
+      "market_cap": "$2,181,345,790"
+    },
+    {
+      "date": "2026-09-22",
+      "ticker": "AZO",
+      "company": "AutoZone, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$54.97",
+      "last_year_eps": "$48.71",
+      "market_cap": "$47,041,020,000"
+    },
+    {
+      "date": "2026-09-22",
+      "ticker": "AIR",
+      "company": "AAR Corp.",
+      "time": "time-not-supplied",
+      "eps_forecast": "",
+      "last_year_eps": "$1.08",
+      "market_cap": "$5,011,017,700"
+    },
+    {
+      "date": "2026-09-22",
+      "ticker": "THO",
+      "company": "Thor Industries, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.95",
+      "last_year_eps": "N/A",
+      "market_cap": "$3,748,651,520"
+    },
+    {
+      "date": "2026-09-22",
+      "ticker": "KBH",
+      "company": "KB Home",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.88",
+      "last_year_eps": "N/A",
+      "market_cap": "$2,927,539,460"
+    },
+    {
+      "date": "2026-09-22",
+      "ticker": "WOR",
+      "company": "Worthington Enterprises, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.76",
+      "last_year_eps": "$0.74",
+      "market_cap": "$2,818,672,130"
+    },
+    {
+      "date": "2026-09-22",
+      "ticker": "MLKN",
+      "company": "MillerKnoll, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.35",
+      "last_year_eps": "$0.45",
+      "market_cap": "$1,429,647,740"
+    }
+  ]
+}
