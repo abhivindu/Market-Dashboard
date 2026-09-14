@@ -2,8 +2,8 @@
 Pure templating - all data comes from the JSON, nothing hardcoded here.
 
 Layout: masthead -> lede synthesis paragraph -> three labeled stat clusters
-(Rates, Credit, Commodities & FX) -> volatility read -> material events ->
-footer. The lede is the thing that makes this read as a "concise report"
+(Benchmark Rates, Spreads, Commodities & FX) -> volatility read -> material
+events -> footer. The lede is the thing that makes this read as a "concise report"
 rather than a stat dump - it's the one piece of hand-authored narrative per
 pull, carried in content_overrides.json under "point1_synthesis".
 """
@@ -61,7 +61,7 @@ h1,h2,h3{{font-family:'Fraunces',Georgia,serif; text-wrap:balance; margin:0;}}
 .lede{{font-family:'Fraunces',Georgia,serif; font-size:1.15rem; font-weight:400; line-height:1.62; color:var(--ink); margin:0 0 36px; max-width:66ch;}}
 .lede strong{{font-weight:600;}}
 
-.cluster-row{{display:grid; grid-template-columns:repeat(3, 1fr); gap:16px; margin-bottom:32px;}}
+.cluster-row{{display:grid; grid-template-columns:repeat(3, 1fr); gap:16px; margin-bottom:32px; align-items:start;}}
 @media (max-width:680px){{ .cluster-row{{grid-template-columns:1fr;}} }}
 .cluster{{border:1px solid var(--line); border-radius:12px; background:var(--surface); overflow:hidden; box-shadow:0 1px 2px rgba(20,26,43,0.04);}}
 .cluster-head{{font-size:0.68rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--ink-faint); font-weight:600; padding:11px 15px 9px; border-bottom:1px solid var(--line);}}
@@ -122,12 +122,12 @@ footer{{color:var(--ink-faint); font-size:0.74rem; border-top:1px solid var(--li
 
   <div class="cluster-row">
     <div class="cluster">
-      <div class="cluster-head">Rates</div>
+      <div class="cluster-head">Benchmark rates</div>
       {rate_rows}
     </div>
     <div class="cluster">
-      <div class="cluster-head">Credit</div>
-      {credit_rows}
+      <div class="cluster-head">Spreads</div>
+      {spread_rows}
     </div>
     <div class="cluster">
       <div class="cluster-head">Commodities &amp; FX</div>
@@ -239,17 +239,24 @@ def main():
     as_of = payload["as_of"][:16].replace("T", " ") + " UTC"
 
     rate_rows = "\n".join([
-        rate_row("10Y", series["DGS10"]["last_value"], "%", series["DGS10"]["day_chg"], "pp", series["DGS10"]["history"]),
-        rate_row("2Y", series["DGS2"]["last_value"], "%", series["DGS2"]["day_chg"], "pp", series["DGS2"]["history"]),
         rate_row("3M", series["DGS3MO"]["last_value"], "%", series["DGS3MO"]["day_chg"], "pp", series["DGS3MO"]["history"]),
-        rate_row("10Y-2Y", series["T10Y2Y"]["last_value"], "pp", series["T10Y2Y"]["day_chg"], "pp", series["T10Y2Y"]["history"]),
+        rate_row("2Y", series["DGS2"]["last_value"], "%", series["DGS2"]["day_chg"], "pp", series["DGS2"]["history"]),
+        rate_row("10Y", series["DGS10"]["last_value"], "%", series["DGS10"]["day_chg"], "pp", series["DGS10"]["history"]),
+        rate_row("30Y", series["DGS30"]["last_value"], "%", series["DGS30"]["day_chg"], "pp", series["DGS30"]["history"]),
+        rate_row("Fed Funds", series["DFF"]["last_value"], "%", series["DFF"]["day_chg"], "pp", series["DFF"]["history"]),
+        rate_row("SOFR", series["SOFR"]["last_value"], "%", series["SOFR"]["day_chg"], "pp", series["SOFR"]["history"]),
     ])
-    credit_rows = "\n".join([
+    spread_rows = "\n".join([
+        rate_row("10Y-2Y", series["T10Y2Y"]["last_value"], "pp", series["T10Y2Y"]["day_chg"], "pp", series["T10Y2Y"]["history"]),
+        rate_row("10Y-3M", series["T10Y3M"]["last_value"], "pp", series["T10Y3M"]["day_chg"], "pp", series["T10Y3M"]["history"]),
         rate_row("IG OAS", series["BAMLC0A0CM"]["last_value"], "pp", series["BAMLC0A0CM"]["day_chg"], "pp", series["BAMLC0A0CM"]["history"]),
+        rate_row("BBB OAS", series["BAMLC0A4CBBB"]["last_value"], "pp", series["BAMLC0A4CBBB"]["day_chg"], "pp", series["BAMLC0A4CBBB"]["history"]),
         rate_row("HY OAS", series["BAMLH0A0HYM2"]["last_value"], "pp", series["BAMLH0A0HYM2"]["day_chg"], "pp", series["BAMLH0A0HYM2"]["history"]),
     ])
     commodity_rows = "\n".join([
         rate_row("WTI Crude", series["DCOILWTICO"]["last_value"], "", series["DCOILWTICO"]["day_chg"], "", series["DCOILWTICO"]["history"]),
+        rate_row("Gold", series["GOLD"]["last_value"], "", series["GOLD"]["day_chg"], "", series["GOLD"]["history"]),
+        rate_row("Silver", series["SILVER"]["last_value"], "", series["SILVER"]["day_chg"], "", series["SILVER"]["history"]),
         rate_row("USD Index", series["DTWEXBGS"]["last_value"], "", series["DTWEXBGS"]["day_chg"], "", series["DTWEXBGS"]["history"]),
     ])
 
@@ -267,7 +274,7 @@ def main():
         event_count=n_events,
         event_plural="" if n_events == 1 else "s",
         rate_rows=rate_rows,
-        credit_rows=credit_rows,
+        spread_rows=spread_rows,
         commodity_rows=commodity_rows,
         events_html=events_html,
         vol_structure=vol_structure,

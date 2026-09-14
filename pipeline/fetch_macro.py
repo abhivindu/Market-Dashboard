@@ -13,14 +13,27 @@ import yfinance as yf
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 
 FRED_SERIES = {
-    "DGS10": "10-Year Treasury Yield",
-    "DGS2": "2-Year Treasury Yield",
+    # benchmark rates
     "DGS3MO": "3-Month Treasury Yield",
+    "DGS2": "2-Year Treasury Yield",
+    "DGS10": "10-Year Treasury Yield",
+    "DGS30": "30-Year Treasury Yield",
+    "DFF": "Effective Federal Funds Rate",
+    "SOFR": "Secured Overnight Financing Rate",
+    # spreads (yield-curve + credit)
     "T10Y2Y": "10Y-2Y Treasury Spread",
-    "BAMLC0A0CM": "ICE BofA US Corporate Index OAS (credit spread)",
+    "T10Y3M": "10Y-3M Treasury Spread",
+    "BAMLC0A0CM": "ICE BofA US Corporate Index OAS (IG credit spread)",
+    "BAMLC0A4CBBB": "ICE BofA BBB US Corporate Index OAS (credit spread)",
     "BAMLH0A0HYM2": "ICE BofA US High Yield Index OAS (credit spread)",
+    # commodities / FX (WTI here; gold/silver fetched separately via Yahoo)
     "DCOILWTICO": "WTI Crude Oil Price",
     "DTWEXBGS": "Trade-Weighted US Dollar Index",
+}
+
+YAHOO_COMMODITIES = {
+    "GOLD": ("GC=F", "Gold (COMEX front-month)"),
+    "SILVER": ("SI=F", "Silver (COMEX front-month)"),
 }
 
 
@@ -55,6 +68,32 @@ def series_summary(df, label, series_id):
         "history": [
             {"date": str(r["date"]), "value": round(float(r["value"]), 4)}
             for _, r in df.iterrows()
+        ],
+    }
+
+
+def fetch_yahoo_commodity(ticker, label):
+    """Gold/silver via Yahoo Finance futures (GC=F, SI=F) - FRED's free gold/silver
+    fixing series were discontinued, so this is the free/unauthenticated route."""
+    hist = yf.Ticker(ticker).history(period="3mo", interval="1d")
+    if hist.empty:
+        return None
+    closes = hist["Close"].dropna()
+    last_val = float(closes.iloc[-1])
+    prev_val = float(closes.iloc[-2]) if len(closes) > 1 else last_val
+    chg = last_val - prev_val
+    month_ago_val = float(closes.iloc[-22]) if len(closes) > 22 else float(closes.iloc[0])
+    month_chg = last_val - month_ago_val
+    return {
+        "series_id": ticker,
+        "label": label,
+        "last_value": round(last_val, 2),
+        "last_date": closes.index[-1].strftime("%Y-%m-%d"),
+        "day_chg": round(chg, 2),
+        "month_chg": round(month_chg, 2),
+        "history": [
+            {"date": d.strftime("%Y-%m-%d"), "value": round(float(c), 2)}
+            for d, c in closes.tail(60).items()
         ],
     }
 
@@ -104,6 +143,15 @@ def main():
                 out["series"][series_id] = summary
         except Exception as e:
             print(f"  WARNING: {series_id} failed: {e}", file=sys.stderr)
+
+    for key, (ticker, label) in YAHOO_COMMODITIES.items():
+        print(f"Fetching {label} ({ticker}) via Yahoo...", file=sys.stderr)
+        try:
+            summary = fetch_yahoo_commodity(ticker, label)
+            if summary:
+                out["series"][key] = summary
+        except Exception as e:
+            print(f"  WARNING: {key} failed: {e}", file=sys.stderr)
 
     print("Fetching VIX term structure...", file=sys.stderr)
     vol = fetch_vol_term_structure()
