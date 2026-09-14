@@ -78,7 +78,6 @@ def main():
                 r["bucket"] = bucket_name
 
     macro_for_vol = load("data/point1/macro.json", {})
-    featured_history = load("data/point3/featured_history.json", {})
 
     point3_payload = {
         "as_of": indices["as_of"],
@@ -89,7 +88,6 @@ def main():
         "volume_outliers": aggregates["volume_outliers"],
         "breadth": aggregates.get("breadth", {}),
         "ticker_index": aggregates.get("ticker_index", {}),
-        "featured_history": featured_history,
         "vol_term_structure": macro_for_vol.get("vol_term_structure", {}),
         "earnings_calendar": earnings["entries"] if earnings else [],
         "recommendations": recs if recs else {"bounce": [], "value": [], "speculative": []},

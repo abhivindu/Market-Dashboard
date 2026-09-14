@@ -115,19 +115,6 @@ tbody tr.clickable:hover{background:var(--surface-2);}
 .tag.stress{background:var(--negative-soft); color:var(--negative);}
 .empty-state{color:var(--ink-faint); font-size:0.85rem; padding:20px; text-align:center; border:1px dashed var(--line-strong); border-radius:10px;}
 footer{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--line); padding-top:16px; margin-top:8px;}
-
-.chart-btn{font:inherit; font-size:0.72rem; font-weight:600; padding:4px 11px; border-radius:6px; border:1px solid var(--line-strong); background:var(--surface); color:var(--accent); cursor:pointer; display:inline-flex; align-items:center; gap:5px;}
-.chart-btn:hover{background:var(--accent-soft);}
-.chart-btn::before{content:"\\1F4C8"; font-size:0.85em;}
-.chart-overlay{position:fixed; inset:0; background:rgba(10,12,20,0.5); display:flex; align-items:center; justify-content:center; padding:20px; z-index:100;}
-.chart-overlay[hidden]{display:none;}
-.chart-modal{background:var(--surface); border-radius:14px; border:1px solid var(--line-strong); width:100%; max-width:640px; padding:20px 22px 16px; box-shadow:0 12px 40px rgba(10,12,20,0.25);}
-.chart-modal-head{display:flex; justify-content:space-between; align-items:baseline; margin-bottom:14px;}
-.chart-modal-head h3{font-size:1.05rem; font-weight:600;}
-.chart-modal-close{background:none; border:none; font:inherit; font-size:0.85rem; color:var(--ink-faint); cursor:pointer; padding:4px 8px;}
-.chart-modal-close:hover{color:var(--ink);}
-.chart-canvas-wrap{position:relative; height:280px;}
-.chart-modal-note{color:var(--ink-faint); font-size:0.82rem; text-align:center; padding:40px 10px;}
 """
 
 HTML_SHELL = """<!doctype html>
@@ -217,92 +204,8 @@ HTML_SHELL = """<!doctype html>
   </footer>
 </div>
 
-<div class="chart-overlay" id="chart-overlay" hidden>
-  <div class="chart-modal">
-    <div class="chart-modal-head">
-      <h3 id="chart-modal-title">Chart</h3>
-      <button class="chart-modal-close" id="chart-modal-close">Close &times;</button>
-    </div>
-    <div id="chart-modal-body"><div class="chart-canvas-wrap"><canvas id="chart-canvas"></canvas></div></div>
-  </div>
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
 <script>
 const DATA = {data_json};
-
-let activeChart = null;
-function cssVar(name) {{
-  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
-}}
-
-function openChart(ticker) {{
-  document.getElementById('chart-overlay').hidden = false;
-  const bodyEl = document.getElementById('chart-modal-body');
-  bodyEl.innerHTML = '<div class="chart-canvas-wrap"><canvas id="chart-canvas"></canvas></div>';
-
-  let history, label, unit = '';
-  if (DATA.indices[ticker]) {{
-    history = DATA.indices[ticker].history.map(h => ({{date: h.date, value: h.close}}));
-    label = ticker + ' (index level)';
-  }} else if (DATA.featured_history && DATA.featured_history[ticker]) {{
-    history = DATA.featured_history[ticker].map(h => ({{date: h.date, value: h.close}}));
-    const t = DATA.ticker_index && DATA.ticker_index[ticker];
-    label = ticker + (t ? ' — ' + t.name : '') + ' (close, $)';
-    unit = '$';
-  }}
-  document.getElementById('chart-modal-title').textContent = ticker;
-
-  if (!history || history.length < 2) {{
-    bodyEl.innerHTML = '<div class="chart-modal-note">No chart history available for ' + ticker + ' yet — charts are only built for names that have appeared in a gainers/losers/recommendations pull. It will get one the next time it shows up in a refresh.</div>';
-    return;
-  }}
-
-  const ctx = document.getElementById('chart-canvas').getContext('2d');
-  const inkFaint = cssVar('--ink-faint'), line = cssVar('--line'), accent = cssVar('--accent');
-  if (activeChart) activeChart.destroy();
-  activeChart = new Chart(ctx, {{
-    type: 'line',
-    data: {{
-      labels: history.map(h => h.date),
-      datasets: [{{
-        label: label,
-        data: history.map(h => h.value),
-        borderColor: accent,
-        backgroundColor: accent + '22',
-        fill: true,
-        tension: 0.15,
-        pointRadius: 0,
-        pointHoverRadius: 4,
-        borderWidth: 2,
-      }}]
-    }},
-    options: {{
-      responsive: true,
-      maintainAspectRatio: false,
-      interaction: {{ mode: 'index', intersect: false }},
-      plugins: {{
-        legend: {{ display: false }},
-        tooltip: {{ callbacks: {{ label: (c) => `${{label}}: ${{unit}}${{c.parsed.y}}` }} }}
-      }},
-      scales: {{
-        x: {{ ticks: {{ color: inkFaint, maxTicksLimit: 8 }}, grid: {{ color: line }} }},
-        y: {{ ticks: {{ color: inkFaint, callback: (v) => unit + v }}, grid: {{ color: line }} }}
-      }}
-    }}
-  }});
-}}
-
-document.body.addEventListener('click', (e) => {{
-  const btn = e.target.closest('.chart-btn');
-  if (btn) openChart(btn.dataset.ticker);
-}});
-document.getElementById('chart-modal-close').addEventListener('click', () => {{
-  document.getElementById('chart-overlay').hidden = true;
-}});
-document.getElementById('chart-overlay').addEventListener('click', (e) => {{
-  if (e.target.id === 'chart-overlay') document.getElementById('chart-overlay').hidden = true;
-}});
 
 document.querySelectorAll('.tab-btn').forEach(btn => {{
   btn.addEventListener('click', () => {{
@@ -337,10 +240,7 @@ function renderIndexDetail(name) {{
   const breadth = DATA.breadth || {{}};
   document.getElementById('index-detail').innerHTML = `
     <div class="card">
-      <div style="display:flex; justify-content:space-between; align-items:baseline; gap:12px; margin-bottom:4px;">
-        <h3 style="font-size:0.95rem;">${{name}} &mdash; ${{idx.last.toLocaleString()}} (${{fmtPct(idx.day_chg_pct)}} today)</h3>
-        <button class="chart-btn" data-ticker="${{name}}">Chart</button>
-      </div>
+      <h3 style="font-size:0.95rem;margin-bottom:4px;">${{name}} &mdash; ${{idx.last.toLocaleString()}} (${{fmtPct(idx.day_chg_pct)}} today)</h3>
       <div class="stat-row">
         <div class="stat"><div class="l">5-day</div><div class="v mono ${{idx.five_day_chg_pct >= 0 ? 'up' : 'down'}}">${{fmtPct(idx.five_day_chg_pct)}}</div></div>
         <div class="stat"><div class="l">1-month</div><div class="v mono ${{idx.month_chg_pct >= 0 ? 'up' : 'down'}}">${{fmtPct(idx.month_chg_pct)}}</div></div>
@@ -368,13 +268,12 @@ document.querySelectorAll('.sector-tile').forEach(tile => {{
         <td class="mono ${{m.day_chg_pct > 0 ? 'up' : 'down'}}">${{fmtPct(m.day_chg_pct)}}</td>
         <td class="mono">${{fmtCap(m.market_cap)}}</td>
         <td class="mono ${{m.contribution_pct > 0 ? 'up' : 'down'}}">${{m.contribution_pct.toFixed(3)}}pp</td>
-        <td><button class="chart-btn" data-ticker="${{m.ticker}}" style="padding:2px 8px; font-size:0.68rem;">Chart</button></td>
       </tr>`).join('');
     document.getElementById('sector-detail').innerHTML = `
       <div class="card">
         <h3 style="font-size:0.95rem;margin-bottom:4px;">${{sector}} &mdash; constituents ranked by contribution to the sector's move</h3>
-        <div class="section-sub" style="margin-bottom:12px;">${{s.member_count}} names, ${{fmtCap(s.total_market_cap)}} combined cap, ${{fmtPct(s.day_chg_pct_weighted)}} weighted average. Chart only available for names that have appeared in a gainers/losers/recommendations pull (see WISHLIST.md).</div>
-        <div class="member-table-wrap"><table><thead><tr><th>Ticker</th><th>Name</th><th>Day %</th><th>Mkt Cap</th><th>Contribution</th><th></th></tr></thead><tbody>${{rows}}</tbody></table></div>
+        <div class="section-sub" style="margin-bottom:12px;">${{s.member_count}} names, ${{fmtCap(s.total_market_cap)}} combined cap, ${{fmtPct(s.day_chg_pct_weighted)}} weighted average.</div>
+        <div class="member-table-wrap"><table><thead><tr><th>Ticker</th><th>Name</th><th>Day %</th><th>Mkt Cap</th><th>Contribution</th></tr></thead><tbody>${{rows}}</tbody></table></div>
       </div>`;
   }});
 }});
@@ -385,10 +284,7 @@ function renderMoverDetail(m) {{
   const citations = (m.citations || []).map(c => `<a href="${{c.url}}" target="_blank" rel="noopener">${{c.title}}</a>`).join('') || '<span style="color:var(--ink-faint);font-size:0.8rem;">No sources attached yet.</span>';
   document.getElementById('mover-detail').innerHTML = `
     <div class="card">
-      <div style="display:flex; justify-content:space-between; align-items:baseline; gap:12px;">
-        <h3 style="font-size:0.95rem;">${{m.ticker}} &mdash; ${{m.name || ''}}</h3>
-        <button class="chart-btn" data-ticker="${{m.ticker}}">Chart</button>
-      </div>
+      <h3 style="font-size:0.95rem;">${{m.ticker}} &mdash; ${{m.name || ''}}</h3>
       <div class="section-sub">${{fmtPct(m.day_chg_pct)}} today &middot; ${{fmtCap(m.market_cap)}} cap &middot; ${{m.sector}}</div>
       <span class="verdict ${{verdictClass}}">${{m.verdict || 'not yet assessed'}}</span>
       <p style="font-size:0.88rem;color:var(--ink-soft);line-height:1.55;">${{m.narrative || 'Research pending.'}}</p>
@@ -419,10 +315,7 @@ document.querySelectorAll('#tab-movers tr.clickable').forEach(row => {{
     const citations = (m.citations || []).map(c => `<a href="${{c.url}}" target="_blank" rel="noopener">${{c.title}}</a>`).join('') || '<span style="color:var(--ink-faint);font-size:0.8rem;">No sources attached yet.</span>';
     document.getElementById('vol-outlier-detail').innerHTML = `
       <div class="card" style="margin-top:14px;">
-        <div style="display:flex; justify-content:space-between; align-items:baseline; gap:12px;">
-          <h3 style="font-size:0.95rem;">${{m.ticker}} &mdash; ${{m.name || ''}}</h3>
-          <button class="chart-btn" data-ticker="${{m.ticker}}">Chart</button>
-        </div>
+        <h3 style="font-size:0.95rem;">${{m.ticker}} &mdash; ${{m.name || ''}}</h3>
         <div class="section-sub">${{fmtPct(m.day_chg_pct)}} today on ${{m.volume_vs_avg_ratio.toFixed(1)}}x average volume &middot; ${{m.sector}}</div>
         <span class="verdict ${{verdictClass}}">${{m.verdict || 'not yet assessed'}}</span>
         <p style="font-size:0.88rem;color:var(--ink-soft);line-height:1.55;">${{m.narrative || 'Research pending.'}}</p>
@@ -461,10 +354,7 @@ function renderPortfolioDetail(ticker) {{
   const thesisBlock = rec ? `<p style="margin-top:10px;">${{rec.thesis}}</p>` : '';
   document.getElementById('portfolio-detail').innerHTML = `
     <div class="card">
-      <div style="display:flex; justify-content:space-between; align-items:baseline; gap:12px;">
-        <h3 style="font-size:0.95rem;">${{ticker}}${{t ? ' &mdash; ' + t.name : ''}}</h3>
-        <button class="chart-btn" data-ticker="${{ticker}}">Chart</button>
-      </div>
+      <h3 style="font-size:0.95rem;">${{ticker}}${{t ? ' &mdash; ' + t.name : ''}}</h3>
       ${{body}}
       ${{thesisBlock}}
     </div>`;
@@ -636,7 +526,6 @@ def earnings_card(e):
           <div class="stat"><div class="l">Report timing</div><div class="v" style="text-transform:capitalize;">{time_label}</div></div>
         </div>
         <p style="margin:8px 0 0;">Forward-looking only &mdash; no driver or verdict yet since the print hasn't happened. Historical earnings-day move stats need a paid data source (see WISHLIST.md); watch this name's options-implied move and recent trend into the print once that's available.</p>
-        <button class="chart-btn" data-ticker="{e['ticker']}" style="margin-top:8px;">Chart</button>
       </div>
     </div>"""
 
@@ -659,7 +548,6 @@ def recommendation_card(r, bucket_label):
         <span class="verdict {vclass}">{verdict}</span>
         <p>{r.get('thesis', 'Research pending.')}</p>
         <div class="citations">{citations}</div>
-        <button class="chart-btn" data-ticker="{r['ticker']}" style="margin-top:8px;">Chart</button>
       </div>
     </div>"""
 
