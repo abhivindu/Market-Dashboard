@@ -521,6 +521,75 @@
           "citations": [{"title": "Amazon's Project Kuiper partners with L3Harris to develop military communication solutions", "url": "https://spacenews.com/amazons-project-kuiper-partners-with-l3harris-to-develop-military-communication-solutions/"}]
         }
       ]
+    },
+    {
+      "id": "fusion-energy",
+      "name": "Fusion Energy",
+      "eyebrow": "Deep tech · pre-commercial, capital-intensive",
+      "how_it_works": "Fuses light atomic nuclei (typically hydrogen isotopes) together under extreme heat and pressure to release energy - the same reaction that powers the sun - rather than splitting heavy atoms like conventional fission. Competing confinement approaches: magnetic confinement using high-temperature superconducting (HTS) magnets to contain plasma in a tokamak (Commonwealth Fusion, Tokamak Energy), field-reversed configuration using pulsed magnetic compression (Helion), and other proprietary approaches (TAE's hydrogen-boron aneutronic fuel cycle).",
+      "maturity": "Pre-commercial but moving faster than historical fusion timelines suggested - global private investment surged past $13B in 2026, driven substantially by Big Tech's AI-data-center power demand rather than climate policy alone. Commonwealth Fusion installed the first of 18 planned HTS magnets in its SPARC reactor in January 2026 (each magnet: 24 tons, 20-tesla field). Multiple companies claim to be within 18-24 months of demonstrating net energy gain, though under specific experimental definitions, not continuous grid electricity. First commercial plants are projected 2030-2035; Japan has moved its national commercialization target up to the 2030s from the 2040s.",
+      "applications": [
+        "Grid-scale baseload power (the primary long-term target)",
+        "Direct AI-data-center power offtake (Helion's Microsoft deal is the first concrete example)",
+        "Hydrogen production and industrial process heat (post-grid-scale maturity)"
+      ],
+      "investors_lenders": "A mix of Big Tech strategics now investing directly in fusion for the first time (Nvidia joined Commonwealth Fusion's $863M Series B2 alongside Google and Bill Gates's Breakthrough Energy Ventures; OpenAI's Sam Altman personally led Helion's earlier $425M round), plus traditional energy/VC capital (Chevron and Google in TAE's latest round) and - unusually for this sector - a direct merger with a public media company (TAE's all-stock deal with Trump Media & Technology Group, valued above $6B).",
+      "roadblocks": "Grid connection is a hidden, multi-year bottleneck separate from the physics: an April 2026 grid-connection application was described as just the first step in a process that will take 4-6 years for approval - meaning even a company that solves net energy gain tomorrow can't sell power for years afterward. More broadly, the engineering, materials science, and component durability/economics required after a 'breakthrough' net-energy-gain headline are consistently underestimated relative to the physics milestone itself. Helion's 2028 Microsoft-offtake timeline is described as 'extremely aggressive' even by people sympathetic to its approach.",
+      "sentiment": "Genuine institutional conviction, not pure hype - the presence of Nvidia, Google, Microsoft (as a customer), and Chevron as direct investors/counterparties signals this is being treated as a real infrastructure bet by sophisticated capital, not a speculative retail trade (none of these companies are yet public, so there's no meaningful retail-sentiment signal to track the way there is for quantum or space stocks). The TAE/Trump Media merger is a notable exception - it's the first channel for public-market investors to gain fusion exposure directly, worth watching for how the market prices it once trading begins.",
+      "primary_companies": [
+        {
+          "name": "Commonwealth Fusion Systems",
+          "type": "private",
+          "description": "Tokamak (magnetic confinement) developer using HTS magnets; the most heavily capitalized private fusion company globally.",
+          "investors": "Nvidia (first-time fusion investor), Google, Khosla Ventures, Bill Gates's Breakthrough Energy Ventures, among others.",
+          "performance": "Closed a $3.85B round in May 2026, bringing total funding to ~$6.85B since 2018 - more than any other private fusion company. Installed the first of 18 planned HTS magnets in its SPARC reactor (Devens, MA) in January 2026.",
+          "citations": [{"title": "Commercial Fusion Energy Funding Status: Mid-Year 2026", "url": "https://thefusionreport.substack.com/p/commercial-fusion-energy-funding"}]
+        },
+        {
+          "name": "Helion Energy",
+          "type": "private",
+          "description": "Field-reversed-configuration (pulsed magnetic compression) approach; has the most concrete near-term commercial offtake commitment in the sector.",
+          "investors": "Thrive Capital (led the $465M Series G), OpenAI CEO Sam Altman (personally led an earlier $425M round) - an unusually direct AI-industry-to-fusion capital pipeline.",
+          "performance": "Raised $465M in June 2026 at a $15.5B post-money valuation - nearly 3x its January 2025 valuation and now the single most valuable private fusion company. Began construction of its Orion plant in Washington state, targeting 50MW delivered to Microsoft data centers by 2028 (a timeline widely viewed as aggressive even by sympathetic observers).",
+          "citations": [{"title": "Helion hits $15.5B valuation with $465M in new cash as it aims to commercialize fusion this decade", "url": "https://www.geekwire.com/2026/helion-hits-15-5b-valuation-with-465m-in-new-cash-to-commercialize-fusion-this-decade/"}]
+        },
+        {
+          "name": "TAE Technologies",
+          "type": "private (merging with public co.)",
+          "description": "Hydrogen-boron aneutronic fusion approach (avoids producing damaging neutrons, a materials-science advantage over deuterium-tritium designs) - now the sector's one path to public-market trading.",
+          "investors": "Chevron, Google, NEA, among others; total private funding of $1.32B over 11 rounds.",
+          "performance": "Announced an all-stock merger with Trump Media & Technology Group (December 2025) valued above $6B - the first mechanism for public investors to gain direct fusion-sector exposure. Separately raised $150M+ in its latest round and began U.S. site visits for its first fusion power plant in March 2026; its UK joint venture with the Atomic Energy Authority became fully funded and formally established in May 2026.",
+          "citations": [{"title": "Top 10 Fusion Energy Startups to Watch in 2026", "url": "https://www.naturetechmemos.com/p/top-10-fusion-energy-startups-to-watch-in-2026"}]
+        },
+        {
+          "name": "Tokamak Energy",
+          "type": "private",
+          "description": "UK-based spherical tokamak developer - a more compact magnetic-confinement design than Commonwealth Fusion's conventional tokamak geometry.",
+          "investors": "Undisclosed round backers; $335M total funding since 2009 (most recently a $125M round).",
+          "performance": "Smallest-funded of the four primary names tracked here by total capital raised, reflecting a lower-profile, UK-centered funding base versus the US Big Tech-heavy rounds at Commonwealth Fusion and Helion.",
+          "citations": [{"title": "Tokamak Energy Nabs $125M, Total New Fusion Energy Funding Over $1.5B in 2024", "url": "https://thefusionreport.substack.com/p/tokamak-energy-nabs-125m-total-new"}]
+        }
+      ],
+      "adjacent_companies": [
+        {
+          "name": "American Superconductor (AMSC)",
+          "type": "public",
+          "ticker": "AMSC",
+          "relationship": "The only U.S.-listed pure-play high-temperature-superconductor (HTS) stock - the direct 'picks and shovels' way to invest in the magnet technology every major magnetic-confinement fusion company (Commonwealth Fusion, Tokamak Energy) depends on, without taking single-company fusion-timeline risk. Also supplies HTS technology to the U.S. Navy (ship protection) and has exposure to a second growth vector: HTS cables for zero-resistive-loss power transmission inside AI data centers.",
+          "investors": "Public markets (Nasdaq-listed).",
+          "performance": "Global HTS wire market valued at ~$815M in 2026, projected to reach $1.6B by 2034 - a forecast that predates and likely understates fusion-specific demand acceleration given Commonwealth Fusion's SPARC magnet installation alone required ~$3B in associated funding.",
+          "citations": [{"title": "What Is a High-Temperature Superconducting Magnet? The $3B Tech Inside Every Fusion Reactor That Investors Keep Missing", "url": "https://techticker.fyi/what-is-a-high-temperature-superconducting-magnet-the-3b-tech-inside-every-fusion-reactor-that-investors-keep-missing/"}]
+        },
+        {
+          "name": "Microsoft",
+          "type": "public",
+          "ticker": "MSFT",
+          "relationship": "The first hyperscaler with a concrete fusion power-purchase commitment (Helion's Orion plant, targeting 50MW by 2028) - demand-side validation that a Big Tech company is willing to underwrite fusion timeline risk directly, similar to its role as a demand driver in this report's Nuclear SMR section.",
+          "investors": "Public markets - already extensively covered in the Equities Desk (Point 3) and this report's Nuclear SMR section, not duplicated here.",
+          "performance": "Fusion offtake is a small, forward-looking commitment relative to Microsoft's total power procurement, but strategically notable as the most concrete fusion-specific customer commitment in the sector to date.",
+          "citations": [{"title": "State of Fusion Energy: 2026 Report", "url": "https://grandpasai.com/research/state-of-fusion-energy-2026.html"}]
+        }
+      ]
     }
   ]
 }
