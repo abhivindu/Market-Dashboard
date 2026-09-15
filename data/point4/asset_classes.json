@@ -1,0 +1,49 @@
+{
+  "as_of": "2026-09-14",
+  "freshness_note": "Every citation below carries the actual publish date of its source, separate from this page's pull date above. On refresh, an item is only rewritten if genuinely newer reporting was found for it — otherwise this page will say so explicitly rather than re-presenting the same information under a fresher-looking timestamp.",
+  "data_gap_note": "No free source publishes current CMBS/RMBS/ABS/CLO spread levels (confirmed via research — FRED's one CMBS series was discontinued in 2016; CMBX/CDX pricing is Bloomberg-only). Performance/spread commentary below is sourced from actual bank and rating-agency statements where they cite a figure, SIFMA issuance-volume trends as an explicitly-labeled proxy for demand/spread direction, and Point 1's corporate IG/HY spreads referenced only as general credit-market backdrop — never presented as this asset class's own spread reading.",
+  "asset_classes": [
+    {
+      "id": "agency-rmbs",
+      "name": "Agency RMBS",
+      "eyebrow": "Government-guaranteed · liquid · rate-sensitive",
+      "how_it_works": "Pass-through securities backed by residential mortgages that carry a government or GSE guarantee (Ginnie Mae, Fannie Mae, Freddie Mac) against default risk - so unlike every other asset class in this report, credit risk is essentially not the story here. The entire investment case is interest-rate and prepayment risk: when rates fall, homeowners refinance and return principal early (reinvestment risk at lower yields); when rates rise, prepayments slow and duration extends just as rates are moving against you (negative convexity, the defining technical feature of this asset class).",
+      "market_size_issuance": "MBS issuance reached $337.7B year-to-date through February 2026, up 16.2% y/y; agency MBS trading volume averaged $396.8B daily, up 7.2% y/y - both signal healthy market liquidity and demand.",
+      "performance_commentary": "Mixed across 2026 so far: the Bloomberg U.S. MBS Index returned +0.07% in April (+0.24% excess return to Treasuries) but -1.42% in July, when sector option-adjusted spread (OAS) widened 7bp to +31bp - a real, sourced spread move, not a proxy. Agency MBS is coming off its best year since 2002 (+8.5% in 2025), and PIMCO's lead portfolio manager describes 2026 valuations as still 'cheap on average' even after that rally.",
+      "institutional_commentary": "PIMCO (Dan Hyman, managing director): 'We continue to see good opportunities in the agency mortgage in 2026, with valuations on average looking cheap and differentiation of bonds within the market creating good relative value opportunities for active managers' (2026). Separately, PIMCO frames agency MBS as 'an important defensive anchor in the portfolio' given tight corporate spreads elsewhere - a relative-value argument, not an absolute one.",
+      "institutional_investment_activity": "PIMCO's Total Return Fund and Income Fund both hold ~18% in agency MBS as of June 30, 2026. PIMCO's actively-managed MBS ETF (PMBS, $1.3B AUM) drew over $800M in inflows over the trailing year - a clear signal of institutional/advisor rotation into active MBS management specifically, not just passive exposure.",
+      "fed_sensitivity": "High and structurally amplified by negative convexity. Agency MBS effective duration runs roughly 5-6 years currently, so a 25bp Fed-driven rate move implies a rough 1.25-1.5% price impact before convexity - but because prepayments slow when rates rise, duration extends further right when you don't want it to, meaning realized losses in a selloff tend to exceed the simple duration math, while gains in a rally are capped by refinancing. The Fed's own balance sheet actions matter directly here too: the Fed cut its Reserve Management Purchases to zero starting August 14, 2026, removing a buyer from the market at the margin.",
+      "headwinds_tailwinds": "Tailwind: the Trump administration's GSE MBS purchase program (Fannie Mae/Freddie Mac authorized to buy $200B of agency MBS, announced January 8, 2026) tightened spreads and boosted 2026 performance, though PIMCO notes conviction has 'moderated a bit' now that spreads are narrower post-rally. Headwind: continued Fed MBS runoff (holdings fell below $2 trillion by end of Q1 2026) keeps a structural seller/non-buyer in the market with banks 'comparatively inactive,' which is why spreads remain unusually wide by historical standards even with the GSE program's support.",
+      "sentiment_outlook": "Constructive but not uncomplicated - PIMCO's own framing captures the tension well: cheap on an absolute/relative basis and a genuine defensive anchor, but the spread-widening episode in July 2026 shows the asset class is still exposed to real volatility when technicals (Fed runoff, bank demand) turn unfavorable even without any credit-quality story at all.",
+      "citations": [
+        {"title": "Trends for Agency MBS Investors 2026", "url": "https://www.accio.com/business/trends-for-agency-mbs-investors-2026", "date": "2026"},
+        {"title": "Agency Mortgage-Backed Securities (MBS) Market - July 2026", "url": "https://insuranceaum.com/agency-mortgage-backed-securities-mbs-market-july-2026", "date": "2026-07"},
+        {"title": "The Fed Cuts its Reserve Management Purchases (RMPs) to Zero, Starting August 14", "url": "https://wolfstreet.com/2026/08/13/fed-cuts-reserve-management-purchases-rmps-to-zero-starting-august-14/", "date": "2026-08-13"},
+        {"title": "Three Questions on GSEs' $200 Billion Agency MBS Purchase Program", "url": "https://www.loomissayles.com/insights/three-questions-on-gses-200-billion-agency-mbs-purchase-program/", "date": "2026-01"},
+        {"title": "What Will the Fed's Balance Sheet Changes Mean for Agency MBS?", "url": "https://www.loomissayles.com/insights/what-will-the-feds-balance-sheet-changes-mean-for-agency-mbs/", "date": "2026"}
+      ],
+      "investable_exposure": {
+        "public": [
+          {
+            "name": "PIMCO Mortgage-Backed Securities Active ETF", "ticker": "PMBS", "type": "Active ETF",
+            "performance": "$1.3B AUM with over $800M in inflows over the trailing year - the clearest signal of active-management demand specifically within agency MBS, not just passive index exposure.",
+            "citations": [{"title": "After Record-Setting Year, Rally Rolls on for MBS ETFs", "url": "https://etfdb.com/fixed-income-content-hub/after-record-setting-year-rally-rolls-on-for-mbs-etfs/", "date": "2026"}]
+          },
+          {
+            "name": "AGNC Investment Corp.", "ticker": "AGNC", "type": "Mortgage REIT",
+            "performance": "34.8% total stock return in 2025 (dividends reinvested), nearly double the S&P 500. Q2 2026: net spread and dollar roll income of $0.40/share beat the $0.38 consensus, but revenue of $1.01B missed the $1.06B estimate; net interest spread compressed to 2.00% from 2.06% as asset yields fell faster than funding costs. 7.4x tangible book value leverage as of Q1 2026 - a levered way to play the same agency MBS spread, with REIT-specific leverage and book-value risk layered on top.",
+            "citations": [{"title": "AGNC Q2 2026 slides: book value rises as MBS portfolio expands", "url": "https://in.investing.com/news/company-news/agnc-q2-2026-slides-book-value-rises-as-mbs-portfolio-expands-93CH-5505997", "date": "2026-08"}]
+          }
+        ],
+        "private": [
+          {
+            "name": "PIMCO Income Fund (Institutional share class)",
+            "description": "Flagship PIMCO multi-sector bond fund carrying a large, actively-managed agency MBS allocation rather than a single-purpose vehicle - a way to access PIMCO's MBS view alongside broader fixed-income positioning in one institutional-class fund.",
+            "news": "Held approximately 18% in agency MBS as of the June 30, 2026 fact sheet, alongside PIMCO's Total Return Fund at a similar allocation - both funds' portfolio managers have been publicly vocal (see institutional commentary above) about agency MBS being a preferred relative-value trade in 2026.",
+            "citations": [{"title": "Fact sheet | June 30, 2026 Vanguard® PIMCO Income Fund", "url": "https://workplace.vanguard.com/assets/corp/fund_communications/pdf_publish/us-products/fact-sheet/F3926.pdf", "date": "2026-06-30"}]
+          }
+        ]
+      }
+    }
+  ]
+}

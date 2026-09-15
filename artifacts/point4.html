@@ -1,0 +1,151 @@
+<!doctype html>
+<title>Credit Desk</title>
+<style>
+:root{
+  --paper:#EFF1EE; --surface:#FFFFFF; --surface-2:#F7F8F5;
+  --ink:#141A2B; --ink-soft:#535A6B; --ink-faint:#8991A3;
+  --accent:#A9762F; --accent-soft:#F0E4CE;
+  --positive:#1F7A5C; --positive-soft:#E3F0EA;
+  --negative:#B3402F; --negative-soft:#F7E7E2;
+  --line:rgba(20,26,43,0.13); --line-strong:rgba(20,26,43,0.24);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0D111C; --surface:#161C2B; --surface-2:#11162280;
+    --ink:#E9E6DC; --ink-soft:#AEB4C4; --ink-faint:#767D8E;
+    --accent:#D9A14A; --accent-soft:#3A2E17;
+    --positive:#4FB897; --positive-soft:#12271F;
+    --negative:#E58176; --negative-soft:#2B1712;
+    --line:rgba(233,230,220,0.14); --line-strong:rgba(233,230,220,0.26);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0D111C; --surface:#161C2B; --surface-2:#11162280;
+  --ink:#E9E6DC; --ink-soft:#AEB4C4; --ink-faint:#767D8E;
+  --accent:#D9A14A; --accent-soft:#3A2E17;
+  --positive:#4FB897; --positive-soft:#12271F;
+  --negative:#E58176; --negative-soft:#2B1712;
+  --line:rgba(233,230,220,0.14); --line-strong:rgba(233,230,220,0.26);
+}
+*{box-sizing:border-box;}
+body{margin:0; background:var(--paper); color:var(--ink); font-family:'Public Sans',system-ui,-apple-system,sans-serif; padding:0 20px; padding-block:36px;}
+.wrap{max-width:920px; margin:0 auto;}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif; text-wrap:balance; margin:0;}
+.mono{font-family:'IBM Plex Mono',ui-monospace,monospace; font-variant-numeric:tabular-nums;}
+
+.masthead{display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:8px 24px; padding-bottom:16px; margin-bottom:22px; position:relative;}
+.masthead::after{content:""; position:absolute; left:0; right:0; bottom:0; height:3px; background:linear-gradient(90deg, var(--ink) 0%, var(--ink) 55%, var(--accent) 100%);}
+.masthead h1{font-size:2.1rem; font-weight:600; letter-spacing:-0.015em;}
+.masthead .meta{color:var(--ink-faint); font-size:0.78rem; text-align:right; line-height:1.5;}
+
+.freshness{border-left:3px solid var(--accent); background:var(--accent-soft); border-radius:0 10px 10px 0; padding:12px 16px; margin-bottom:14px;}
+.freshness p{font-size:0.85rem; line-height:1.55; color:var(--ink-soft); margin:0;}
+.gap-note{border:1px dashed var(--line-strong); border-radius:10px; padding:12px 16px; margin-bottom:28px; background:var(--surface-2);}
+.gap-note p{font-size:0.82rem; line-height:1.55; color:var(--ink-faint); margin:0;}
+
+.eyebrow{text-transform:uppercase; letter-spacing:0.08em; font-size:0.7rem; color:var(--accent); font-weight:600;}
+.section-sub{color:var(--ink-soft); font-size:0.85rem; margin-bottom:20px; max-width:70ch; line-height:1.5;}
+
+.assetclass{border:1px solid var(--line); border-radius:14px; background:var(--surface); margin-bottom:14px; overflow:hidden; transition:border-color 0.15s ease, box-shadow 0.15s ease;}
+.assetclass:hover{border-color:var(--line-strong); box-shadow:0 2px 10px rgba(20,26,43,0.06);}
+.ac-head{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:18px 20px; cursor:pointer; user-select:none;}
+.ac-head:hover{background:var(--surface-2);}
+.ac-head-left{display:flex; flex-direction:column; gap:3px;}
+.ac-head h2{font-size:1.15rem; font-weight:600;}
+.ac-chevron{color:var(--ink-faint); transition:transform 0.18s ease; flex-shrink:0; font-size:1.1rem;}
+.assetclass[open] .ac-chevron{transform:rotate(90deg);}
+summary::-webkit-details-marker{display:none;}
+summary{list-style:none;}
+summary::marker{content:"";}
+
+.ac-body{padding:2px 20px 24px; border-top:1px solid var(--line);}
+.field-grid{display:grid; grid-template-columns:1fr 1fr; gap:18px; margin:18px 0;}
+@media (max-width:640px){ .field-grid{grid-template-columns:1fr;} }
+.field .flabel{font-size:0.68rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--ink-faint); font-weight:600; margin-bottom:5px;}
+.field p{font-size:0.86rem; line-height:1.55; color:var(--ink-soft); margin:0;}
+.field-full{grid-column:1/-1;}
+
+.cite-list{display:flex; flex-direction:column; gap:5px; margin-top:14px; padding-top:12px; border-top:1px solid var(--line);}
+.cite-row{display:flex; align-items:baseline; gap:8px; font-size:0.78rem;}
+.cite-row a{color:var(--ink); text-decoration:none; border-bottom:1px solid var(--line-strong); flex:1; min-width:0;}
+.cite-row a:hover{color:var(--accent); border-color:var(--accent);}
+.cite-date{color:var(--ink-faint); font-size:0.72rem; white-space:nowrap; font-family:'IBM Plex Mono',ui-monospace,monospace;}
+
+.invest-section-title{font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--accent); font-weight:600; margin:22px 0 10px; padding-top:16px; border-top:2px solid var(--accent-soft);}
+.invest-subhead{font-size:0.66rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--ink-faint); font-weight:600; margin:14px 0 8px;}
+.company-grid{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+@media (max-width:640px){ .company-grid{grid-template-columns:1fr;} }
+.invest-card{border:1px solid var(--line); border-radius:10px; background:var(--surface-2); padding:14px 16px;}
+.invest-card .chead{display:flex; justify-content:space-between; align-items:baseline; gap:8px; margin-bottom:6px;}
+.invest-card h3{font-size:0.9rem; font-weight:600;}
+.type-tag{font-size:0.62rem; padding:2px 8px; border-radius:999px; font-weight:600; text-transform:uppercase; letter-spacing:0.03em; white-space:nowrap; background:var(--positive-soft); color:var(--positive);}
+.invest-card .cdesc{font-size:0.82rem; color:var(--ink-soft); line-height:1.5; margin-bottom:6px;}
+
+footer{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--line); padding-top:16px; margin-top:24px; line-height:1.6;}
+@media (max-width:480px){ .masthead{flex-direction:column;} .masthead .meta{text-align:left;} }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+
+<div class="wrap">
+  <div class="masthead">
+    <h1>Credit Desk</h1>
+    <div class="meta">Fixed income &amp; structured credit commentary<br>As of 2026-09-14</div>
+  </div>
+
+  <div class="freshness">
+    <p>Every citation below carries the actual publish date of its source, separate from this page's pull date above. On refresh, an item is only rewritten if genuinely newer reporting was found for it — otherwise this page will say so explicitly rather than re-presenting the same information under a fresher-looking timestamp.</p>
+  </div>
+  <div class="gap-note">
+    <p><strong>Data availability:</strong> No free source publishes current CMBS/RMBS/ABS/CLO spread levels (confirmed via research — FRED's one CMBS series was discontinued in 2016; CMBX/CDX pricing is Bloomberg-only). Performance/spread commentary below is sourced from actual bank and rating-agency statements where they cite a figure, SIFMA issuance-volume trends as an explicitly-labeled proxy for demand/spread direction, and Point 1's corporate IG/HY spreads referenced only as general credit-market backdrop — never presented as this asset class's own spread reading.</p>
+  </div>
+
+  <div class="section-sub">1 structured product types tracked. Click any one for the full one-pager. Every citation shows its own source date &mdash; check it, not just the page timestamp above.</div>
+
+  <details class="assetclass">
+  <summary class="ac-head">
+    <div class="ac-head-left">
+      <span class="eyebrow">Government-guaranteed · liquid · rate-sensitive</span>
+      <h2>Agency RMBS</h2>
+    </div>
+    <span class="ac-chevron">&#9656;</span>
+  </summary>
+  <div class="ac-body">
+    <div class="field-grid"><div class="field field-full"><div class="flabel">How it works</div><p>Pass-through securities backed by residential mortgages that carry a government or GSE guarantee (Ginnie Mae, Fannie Mae, Freddie Mac) against default risk - so unlike every other asset class in this report, credit risk is essentially not the story here. The entire investment case is interest-rate and prepayment risk: when rates fall, homeowners refinance and return principal early (reinvestment risk at lower yields); when rates rise, prepayments slow and duration extends just as rates are moving against you (negative convexity, the defining technical feature of this asset class).</p></div><div class="field"><div class="flabel">Market size &amp; issuance</div><p>MBS issuance reached $337.7B year-to-date through February 2026, up 16.2% y/y; agency MBS trading volume averaged $396.8B daily, up 7.2% y/y - both signal healthy market liquidity and demand.</p></div><div class="field"><div class="flabel">Performance &amp; spread commentary</div><p>Mixed across 2026 so far: the Bloomberg U.S. MBS Index returned +0.07% in April (+0.24% excess return to Treasuries) but -1.42% in July, when sector option-adjusted spread (OAS) widened 7bp to +31bp - a real, sourced spread move, not a proxy. Agency MBS is coming off its best year since 2002 (+8.5% in 2025), and PIMCO's lead portfolio manager describes 2026 valuations as still 'cheap on average' even after that rally.</p></div><div class="field"><div class="flabel">Institutional commentary</div><p>PIMCO (Dan Hyman, managing director): 'We continue to see good opportunities in the agency mortgage in 2026, with valuations on average looking cheap and differentiation of bonds within the market creating good relative value opportunities for active managers' (2026). Separately, PIMCO frames agency MBS as 'an important defensive anchor in the portfolio' given tight corporate spreads elsewhere - a relative-value argument, not an absolute one.</p></div><div class="field"><div class="flabel">Institutional investment activity</div><p>PIMCO's Total Return Fund and Income Fund both hold ~18% in agency MBS as of June 30, 2026. PIMCO's actively-managed MBS ETF (PMBS, $1.3B AUM) drew over $800M in inflows over the trailing year - a clear signal of institutional/advisor rotation into active MBS management specifically, not just passive exposure.</p></div><div class="field"><div class="flabel">Fed-decision sensitivity</div><p>High and structurally amplified by negative convexity. Agency MBS effective duration runs roughly 5-6 years currently, so a 25bp Fed-driven rate move implies a rough 1.25-1.5% price impact before convexity - but because prepayments slow when rates rise, duration extends further right when you don't want it to, meaning realized losses in a selloff tend to exceed the simple duration math, while gains in a rally are capped by refinancing. The Fed's own balance sheet actions matter directly here too: the Fed cut its Reserve Management Purchases to zero starting August 14, 2026, removing a buyer from the market at the margin.</p></div><div class="field"><div class="flabel">Headwinds &amp; tailwinds</div><p>Tailwind: the Trump administration's GSE MBS purchase program (Fannie Mae/Freddie Mac authorized to buy $200B of agency MBS, announced January 8, 2026) tightened spreads and boosted 2026 performance, though PIMCO notes conviction has 'moderated a bit' now that spreads are narrower post-rally. Headwind: continued Fed MBS runoff (holdings fell below $2 trillion by end of Q1 2026) keeps a structural seller/non-buyer in the market with banks 'comparatively inactive,' which is why spreads remain unusually wide by historical standards even with the GSE program's support.</p></div><div class="field field-full"><div class="flabel">Sentiment &amp; outlook</div><p>Constructive but not uncomplicated - PIMCO's own framing captures the tension well: cheap on an absolute/relative basis and a genuine defensive anchor, but the spread-widening episode in July 2026 shows the asset class is still exposed to real volatility when technicals (Fed runoff, bank demand) turn unfavorable even without any credit-quality story at all.</p></div></div>
+    <div class="invest-section-title" style="border-top-color:var(--line); color:var(--ink-faint);">Sources for this one-pager</div>
+    <div class="cite-list"><div class="cite-row"><a href="https://www.accio.com/business/trends-for-agency-mbs-investors-2026" target="_blank" rel="noopener">Trends for Agency MBS Investors 2026</a><span class="cite-date">2026</span></div><div class="cite-row"><a href="https://insuranceaum.com/agency-mortgage-backed-securities-mbs-market-july-2026" target="_blank" rel="noopener">Agency Mortgage-Backed Securities (MBS) Market - July 2026</a><span class="cite-date">2026-07</span></div><div class="cite-row"><a href="https://wolfstreet.com/2026/08/13/fed-cuts-reserve-management-purchases-rmps-to-zero-starting-august-14/" target="_blank" rel="noopener">The Fed Cuts its Reserve Management Purchases (RMPs) to Zero, Starting August 14</a><span class="cite-date">2026-08-13</span></div><div class="cite-row"><a href="https://www.loomissayles.com/insights/three-questions-on-gses-200-billion-agency-mbs-purchase-program/" target="_blank" rel="noopener">Three Questions on GSEs' $200 Billion Agency MBS Purchase Program</a><span class="cite-date">2026-01</span></div><div class="cite-row"><a href="https://www.loomissayles.com/insights/what-will-the-feds-balance-sheet-changes-mean-for-agency-mbs/" target="_blank" rel="noopener">What Will the Fed's Balance Sheet Changes Mean for Agency MBS?</a><span class="cite-date">2026</span></div></div>
+    <div class="invest-section-title">Investable exposure</div>
+    <div class="invest-subhead">Public (ETF / REIT / BDC / CEF)</div>
+    <div class="company-grid"><div class="invest-card">
+      <div class="chead">
+        <h3>PIMCO Mortgage-Backed Securities Active ETF <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">PMBS</span></h3>
+        <span class="type-tag">Active ETF</span>
+      </div>
+      <p class="cdesc">$1.3B AUM with over $800M in inflows over the trailing year - the clearest signal of active-management demand specifically within agency MBS, not just passive index exposure.</p>
+      
+      <div class="cite-list"><div class="cite-row"><a href="https://etfdb.com/fixed-income-content-hub/after-record-setting-year-rally-rolls-on-for-mbs-etfs/" target="_blank" rel="noopener">After Record-Setting Year, Rally Rolls on for MBS ETFs</a><span class="cite-date">2026</span></div></div>
+    </div><div class="invest-card">
+      <div class="chead">
+        <h3>AGNC Investment Corp. <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">AGNC</span></h3>
+        <span class="type-tag">Mortgage REIT</span>
+      </div>
+      <p class="cdesc">34.8% total stock return in 2025 (dividends reinvested), nearly double the S&P 500. Q2 2026: net spread and dollar roll income of $0.40/share beat the $0.38 consensus, but revenue of $1.01B missed the $1.06B estimate; net interest spread compressed to 2.00% from 2.06% as asset yields fell faster than funding costs. 7.4x tangible book value leverage as of Q1 2026 - a levered way to play the same agency MBS spread, with REIT-specific leverage and book-value risk layered on top.</p>
+      
+      <div class="cite-list"><div class="cite-row"><a href="https://in.investing.com/news/company-news/agnc-q2-2026-slides-book-value-rises-as-mbs-portfolio-expands-93CH-5505997" target="_blank" rel="noopener">AGNC Q2 2026 slides: book value rises as MBS portfolio expands</a><span class="cite-date">2026-08</span></div></div>
+    </div></div>
+    <div class="invest-subhead">Private / institutional funds</div>
+    <div class="company-grid"><div class="invest-card">
+      <div class="chead">
+        <h3>PIMCO Income Fund (Institutional share class)</h3>
+        
+      </div>
+      <p class="cdesc">Flagship PIMCO multi-sector bond fund carrying a large, actively-managed agency MBS allocation rather than a single-purpose vehicle - a way to access PIMCO's MBS view alongside broader fixed-income positioning in one institutional-class fund.</p>
+      <p class="cdesc">Held approximately 18% in agency MBS as of the June 30, 2026 fact sheet, alongside PIMCO's Total Return Fund at a similar allocation - both funds' portfolio managers have been publicly vocal (see institutional commentary above) about agency MBS being a preferred relative-value trade in 2026.</p>
+      <div class="cite-list"><div class="cite-row"><a href="https://workplace.vanguard.com/assets/corp/fund_communications/pdf_publish/us-products/fact-sheet/F3926.pdf" target="_blank" rel="noopener">Fact sheet | June 30, 2026 Vanguard® PIMCO Income Fund</a><span class="cite-date">2026-06-30</span></div></div>
+    </div></div>
+  </div>
+</details>
+
+  <footer>
+    Sources: bank/asset-manager research notes, rating agencies, SIFMA issuance statistics, Federal Reserve communications, SEC filings. Free/unauthenticated sources throughout &mdash; see WISHLIST.md for the structured-credit spread-data gap. Generated by pipeline/render_point4_html.py.
+  </footer>
+</div>
