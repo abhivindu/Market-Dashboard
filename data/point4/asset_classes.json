@@ -85,6 +85,48 @@
           }
         ]
       }
+    },
+    {
+      "id": "cmbs-conduit",
+      "name": "CMBS Conduit / Multi-Borrower",
+      "eyebrow": "Commercial real estate · tightening spreads, rising distress",
+      "how_it_works": "Multiple commercial mortgage loans (office, retail, multifamily, hotel, industrial - diversified property types and sponsors) pooled into one securitization, structured into senior-subordinate tranches by credit rating. Diversification across many loans/borrowers is the core structural difference from single-asset/single-borrower (SASB) deals - a conduit deal's senior tranches are insulated as long as losses stay concentrated in a minority of the underlying loans.",
+      "market_size_issuance": "YTD 2026 private-label CMBS and CRE CLO issuance totaled $103.9B, up 21% from $85.7B in the same period last year; total CMBS issuance (conduit + SASB + CRE CLO) is on track to exceed $70B by mid-year and Q1 2026 alone came in at ~$22B, +25% y/y - a clear rebound narrative on the volume side.",
+      "performance_commentary": "A genuine tension worth naming directly: spreads have tightened sharply even as delinquencies hit a post-COVID high. AAA conduit spreads compressed to T+100-115bp in Q1 2026 (from T+125-140bp in late 2025), with some reporting citing spreads as tight as T+70bp more recently - real, sourced spread levels. At the same time, the overall CMBS delinquency rate reached 7.55% in May 2026, the highest since the pandemic, and the distress rate (delinquencies + specially-serviced, non-current loans) hit 12.07% in March 2026, a new cycle high. Office is the clear outlier: delinquencies there hit an all-time high of 12.34% in January before dipping only slightly to 11.4% in February.",
+      "institutional_commentary": "CRE Finance Council (CREFC), the industry's primary trade association, publishes monthly loan-performance updates (cited throughout this section) that are the closest thing to an institutional consensus read on conduit CMBS health. Their data underpins the widely-cited finding that debt yields - not missed payments - are the dominant risk signal: roughly 36% of 2026's hard maturities (~$27.3B) carry debt yields of 8% or below, the threshold research identifies as the highest-risk refinancing zone, meaning many distressed loans are still current on payments even as they face near-certain maturity default.",
+      "institutional_investment_activity": "Blackstone's Real Estate Debt Strategies V (BREDS V) closed at $8B in March 2026 - matching Blackstone's 2020 record - with CalPERS committing $1.5B and Illinois, New Mexico, and Ohio public pension funds also participating. The fund is explicitly targeting the $1.5 trillion wave of CRE debt maturities, providing bridge/mezzanine financing and buying distressed loan portfolios from banks/insurers reducing CRE exposure - institutional capital positioning to be the liquidity provider for exactly the maturity-wall stress described above.",
+      "fed_sensitivity": "High and two-directional: CMBS loan coupons at origination and floating-rate CMBS/CRE-CLO tranches both move directly with Fed policy, while fixed-rate conduit bond prices carry meaningful duration risk (typical conduit deal duration runs roughly 4-7 years depending on tranche). The more acute Fed-linked risk in 2026 specifically is refinancing math, not duration: with ~39% of this year's $76.6-100B+ hard maturities concentrated in Q4 2026, any Fed move that keeps refinancing rates elevated directly worsens the ~$57.7B in loans already estimated likely to default at maturity simply because sponsors can't refinance cash-flowing properties at current rates against depressed appraised values (office values down 55.8% since issuance in some appraisals).",
+      "headwinds_tailwinds": "Tailwind: institutional capital (Blackstone's $8B BREDS V, tightening AAA spreads, rebounding issuance) is clearly underwriting a recovery thesis and stepping in as a liquidity provider ahead of the maturity wall. Headwind: the maturity wall itself is real and imminent - over $100B in CMBS loans mature in 2026, more than half by dollar volume ($57.7B) estimated likely to default at maturity given depressed office valuations, and nearly 39% of that maturity volume lands in Q4 2026, concentrating the risk window rather than spreading it out.",
+      "sentiment_outlook": "Bifurcated by property type more than by the market as a whole - broad issuance/spread technicals look genuinely healthy (rebounding volume, tightening AAA spreads, institutional capital raising at record pace), but that headline strength is coexisting with, not resolving, acute office-sector distress. Multifamily delinquencies actually improved in February even as they later ticked up 30bp in March per Trepp, underscoring how property-type-specific this cycle is rather than a uniform CMBS story.",
+      "citations": [
+        {"title": "CMBS Issuance Rebounds, Spreads Tighten Amid Risk Reassessment", "url": "https://radcre.com/blog/market-updates/cmbs-issuance-rebounds-spreads-tighten-amid-risk-reassessment", "date": "2026"},
+        {"title": "CMBS Loans Face $100B Maturity Wall in 2026", "url": "https://www.credaily.com/briefs/cmbs-loans-face-100b-maturity-wall-in-2026/", "date": "2026"},
+        {"title": "CMBS Distress Rate Climbs to 12.07% in March 2026", "url": "https://cred-iq.com/blog/2026/04/03/cmbs-distress-rate-climbs-to-12-07-in-march-2026-delinquencies-hit-a-new-cycle-high/", "date": "2026-04-03"},
+        {"title": "Multifamily delinquencies jumped 30 bps in March", "url": "https://www.multifamilydive.com/news/multifamily-cmbs-delinquency-apartment-loan-default/816842/", "date": "2026-03"},
+        {"title": "CREFC Update on CMBS Loan Performance July 2026", "url": "https://assets.informz.net/cmbs/data/images/CREFC%20Update%20on%20CMBS%20Loan%20Performance_July%202026.pdf", "date": "2026-07"}
+      ],
+      "investable_exposure": {
+        "public": [
+          {
+            "name": "First Trust AAA CMBS ETF", "ticker": "CAAA", "type": "ETF",
+            "performance": "+0.26% YTD through September 2026, 52-week range $19.94-$20.85 - a low-volatility, senior-tranche-only way to access the tightening-spreads side of the story without office-loan credit risk (the fund holds AAA-rated CMBS, which sit above the losses hitting specially-serviced office loans).",
+            "citations": [{"title": "First Trust AAA CMBS ETF (CAAA) Stock Price, News, Quote & History", "url": "https://finance.yahoo.com/quote/CAAA/", "date": "2026-09"}]
+          },
+          {
+            "name": "Ladder Capital Corp", "ticker": "LADR", "type": "Commercial Mortgage REIT",
+            "performance": "Public commercial real estate finance REIT that originates and holds CMBS-eligible conduit loans directly - a levered, credit-risk-bearing way to play the same maturity-wall refinancing opportunity Blackstone's BREDS V is targeting, at public-market liquidity.",
+            "citations": [{"title": "Ladder Capital Corp - Form 10-Q - FY2026", "url": "https://www.sec.gov/Archives/edgar/data/0001577670/000157767026000040/ladr-20260630.htm", "date": "2026-Q2"}]
+          }
+        ],
+        "private": [
+          {
+            "name": "Blackstone Real Estate Debt Strategies (BREDS)",
+            "description": "The largest alternative asset manager of real estate credit globally, with $78B of invested assets - explicitly positioned to provide bridge/mezzanine financing and buy distressed CRE debt through the 2026 maturity wall.",
+            "news": "BREDS V closed at $8B in March 2026, matching Blackstone's 2020 fundraising record, with CalPERS ($1.5B) and Illinois/New Mexico/Ohio public pension funds among the backers - institutional capital explicitly underwriting the CRE-debt-distress thesis this asset class's headwinds section describes.",
+            "citations": [{"title": "Blackstone Announces $8 Billion Final Close for Latest Real Estate Debt Strategies Fund", "url": "https://www.blackstone.com/news/press/blackstone-announces-8-billion-final-close-for-latest-real-estate-debt-strategies-fund/", "date": "2026-03"}]
+          }
+        ]
+      }
     }
   ]
 }
