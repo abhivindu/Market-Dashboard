@@ -370,6 +370,47 @@
           }
         ]
       }
+    },
+    {
+      "id": "direct-lending",
+      "name": "Private Credit — Direct Lending",
+      "eyebrow": "Unitranche · upper-middle-market · $220B+ platforms",
+      "how_it_works": "Non-bank lenders (BDCs, private credit funds, insurance-affiliated platforms) originate senior secured loans directly to companies, most often to finance private-equity buyouts, frequently as a single 'unitranche' facility that combines what would otherwise be separate senior and subordinated tranches at one blended rate. Distinct from the MM/private credit CLO asset class covered separately in this report: CLOs are a financing wrapper that pools and securitizes these loans after origination, while this entry covers the underlying lending activity and fund vehicles themselves.",
+      "market_size_issuance": "The platform scale in this market has consolidated sharply: Blue Owl's Credit platform alone managed $159.2B as of March 31, 2026, with $115.1B specifically in direct lending strategies, out of roughly $200B firm-wide. BlackRock's July 2025 acquisition of HPS Investment Partners pushed its private credit AUM to roughly $220B, putting it in direct competition with Apollo, Blackstone (~$350B credit platform), and Blue Owl for upper-middle-market and large-cap direct lending mandates.",
+      "performance_commentary": "Yields have come down materially from the 2023 peak but stabilized in 2026: unitranche all-in yields now run roughly 9.00-9.75%, down ~250bp from ~11.5% at the late-2023 peak, with median new-issue yields falling from 11.9% in Q4 2025 to 10.6% in Q1 2026 before flattening. The yield premium over public leveraged loans has compressed alongside it - the gap between direct-lender all-in yields and B-rated syndicated loan yields narrowed from roughly 380bp (Q3 2024) to about 210bp by end of March 2026, echoing the same spread-compression theme flagged in the MM-CLO entry above.",
+      "institutional_commentary": "Morgan Stanley's Global Investment Office response to that compression: as competitive pressure tightens unitranche and upper-middle-market spreads and terms, some allocators are tilting toward areas 'where underwriting complexity and collateral specificity can support excess return' - i.e., asset-based finance and opportunistic credit (see that entry) rather than plain-vanilla direct lending. Direct lending is still described as an 'all-weather asset class... well positioned to build on current momentum' through 2026 by platform managers themselves, a more upbeat framing than the credit-quality data below fully supports.",
+      "institutional_investment_activity": "Despite record fundraising, credit quality has genuinely deteriorated at scale: new data cited across multiple platforms shows private credit defaults hitting five-year highs, with Ares, Blackstone, Blue Owl, and Golub all reporting default activity at its worst level since 2021. This is a fund-manager-level, not fund-vehicle-level, disclosure - the same managers competing hardest for new origination volume are simultaneously working through their worst default cycle in years.",
+      "fed_sensitivity": "High relative to BSL/MM CLOs on the income side even though loans are floating-rate, because direct lending yields move roughly one-for-one with SOFR resets (three-month Term SOFR at 3.69% in June 2026) while spreads have stayed comparatively sticky - meaning income to lenders tracks Fed policy closely. The 2026 rate outlook itself has become more uncertain: after 2025's easing, some forecasters now flag risk of rates staying higher for longer into late 2026 on inflation/energy concerns, which would support direct-lending income but also prolong the borrower-side stress driving the default increase above.",
+      "headwinds_tailwinds": "Tailwind: platform scale and fundraising remain enormous ($220B+ single-manager AUM is now common), giving the largest lenders origination advantages and diversification that smaller managers lack. Headwind: spread compression (380bp premium to syndicated loans down to ~210bp) is squeezing the return-for-risk that justified private credit's illiquidity premium in the first place, at the same moment defaults are rising to five-year highs - a genuine 'less paid to take more risk' setup that Morgan Stanley's own pivot toward asset-based finance implicitly acknowledges.",
+      "sentiment_outlook": "Mixed and worth taking at face value rather than at the industry's own framing. Platform managers describe direct lending as all-weather and well-positioned; the underlying data - compressing spreads, five-year-high defaults across the largest managers, rising BDC PIK income (noted in the MM-CLO entry) - describes a market where the risk/reward has worsened even as assets under management keep growing. Both things are true simultaneously and the gap between them is the thing worth monitoring into 2027.",
+      "citations": [
+        {"title": "Private Markets Trends: Q2 2026 Private Equity & Credit Update", "url": "https://www.valuationresearch.com/insights/private-markets-trends-q2-2026/", "date": "2026"},
+        {"title": "Recent trends in corporate direct lending 2H25", "url": "https://go.stepstonegroup.com/rs/664-QRQ-541/images/Recent_trends_in_corporate_direct_lending_2H25.pdf", "date": "2026-02"},
+        {"title": "BlackRock targets Apollo, Blackstone, and Blue Owl in private credit with $220B war chest", "url": "https://cryptobriefing.com/blackrock-private-credit-apollo-blackstone/", "date": "2026"},
+        {"title": "Private Credit Meltdown: Why the $265B Market Is Freezing Investors Out", "url": "https://kevincrowther.com/news/265-billion-private-credit-meltdown-blackrock-blue-owl-and-morgan-stanley-gate-redemptions/", "date": "2026"}
+      ],
+      "investable_exposure": {
+        "public": [
+          {
+            "name": "Blue Owl Capital", "ticker": "OWL", "type": "Publicly Traded Alternative Asset Manager",
+            "performance": "Manager-level public equity for one of the largest direct lending platforms ($159.2B credit AUM, $115.1B direct lending as of March 2026) - exposure to fee/AUM growth across the platform rather than to any single loan portfolio's credit performance.",
+            "citations": [{"title": "In Focus: Our lens on the private markets", "url": "https://www.blueowl.com/insights/focus-our-lens-private-markets", "date": "2026"}]
+          },
+          {
+            "name": "Blue Owl Technology Finance Corp.", "ticker": "OTF", "type": "Tech-Focused BDC",
+            "performance": "Publicly registered BDC vehicle within the Blue Owl direct lending platform, filing active debt offerings through mid-2026 - a fund-level (not manager-level) way to access the platform's actual loan portfolio and its income/loss experience.",
+            "citations": [{"title": "Blue Owl Technology Finance Corp. - Form 424B2", "url": "https://www.sec.gov/Archives/edgar/data/0001747777/000162828026040372/otf-424b2june2026.htm", "date": "2026-06"}]
+          }
+        ],
+        "private": [
+          {
+            "name": "HPS Investment Partners (via BlackRock Private Financing Solutions)", "appeal": "Newly Consolidated $220B Platform",
+            "description": "Formerly independent direct lender acquired by BlackRock in July 2025, now anchoring BlackRock's ~$220B private credit push against Apollo, Blackstone, and Blue Owl - institutional access typically runs through BlackRock's private credit fund vehicles built around the combined platform.",
+            "news": "BlackRock completed HPS acquisition July 2025; platform positioned as direct competitor to the three largest incumbents through 2026.",
+            "citations": [{"title": "BlackRock $220B Private Credit: HPS Deal Impact on Direct Lending", "url": "https://angelinvestorsnetwork.com/alternative-investments/blackrock-hps-220-billion-private-credit-vs-apollo-blackstone-2026", "date": "2026"}]
+          }
+        ]
+      }
     }
   ]
 }
