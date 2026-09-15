@@ -94,6 +94,21 @@ summary::marker{{content:"";}}
 .company-card a{{color:var(--accent); font-size:0.78rem; text-decoration:none; border-bottom:1px solid var(--line-strong); display:inline-block; margin-top:4px;}}
 .company-card a:hover{{border-color:var(--accent);}}
 
+.invest-section-title{{font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--accent); font-weight:600; margin:24px 0 4px; padding-top:18px; border-top:2px solid var(--accent-soft);}}
+.invest-caption{{font-size:0.8rem; color:var(--ink-soft); margin-bottom:12px; line-height:1.5;}}
+.invest-note{{font-size:0.78rem; color:var(--ink-faint); font-style:italic; margin-bottom:14px; line-height:1.5; padding:10px 12px; background:var(--surface-2); border-radius:8px;}}
+.invest-subhead{{font-size:0.66rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--ink-faint); font-weight:600; margin:14px 0 8px;}}
+.bucket-badge{{display:inline-block; font-size:0.62rem; padding:2px 9px; border-radius:999px; font-weight:600; text-transform:uppercase; letter-spacing:0.03em; margin-bottom:8px;}}
+.bucket-badge.pullback{{background:var(--negative-soft); color:var(--negative);}}
+.bucket-badge.undervalued{{background:var(--positive-soft); color:var(--positive);}}
+.appeal-badge{{display:inline-block; font-size:0.62rem; padding:2px 9px; border-radius:999px; font-weight:600; background:var(--accent-soft); color:var(--accent); margin-bottom:8px;}}
+.invest-card{{border:1px solid var(--line); border-radius:10px; background:var(--surface-2); padding:14px 16px;}}
+.invest-card h3{{font-size:0.9rem; font-weight:600; margin-bottom:2px;}}
+.invest-card .invest-thesis{{font-size:0.82rem; color:var(--ink-soft); line-height:1.55; margin:6px 0 8px;}}
+.invest-card .invest-investors{{font-size:0.76rem; color:var(--ink-faint); margin-bottom:6px;}}
+.invest-card a{{color:var(--accent); font-size:0.78rem; text-decoration:none; border-bottom:1px solid var(--line-strong); display:inline-block;}}
+.invest-card a:hover{{border-color:var(--accent);}}
+
 footer{{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--line); padding-top:16px; margin-top:24px; line-height:1.6;}}
 @media (max-width:480px){{ .masthead{{flex-direction:column;}} .masthead .meta{{text-align:left;}} }}
 </style>
@@ -170,6 +185,49 @@ def company_card(c):
     )
 
 
+def public_pick_card(p):
+    ticker_suffix = f' <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">{p["ticker"]}</span>' if p.get("ticker") else ""
+    citation = ""
+    if p.get("citations"):
+        c = p["citations"][0]
+        citation = f'<a href="{c["url"]}" target="_blank" rel="noopener">{c["title"]}</a>'
+    return f"""<div class="invest-card">
+      <h3>{p['name']}{ticker_suffix}</h3>
+      <span class="bucket-badge {p['bucket']}">{p['bucket']}</span>
+      <p class="invest-thesis">{p['thesis']}</p>
+      {citation}
+    </div>"""
+
+
+def private_pick_card(p):
+    citation = ""
+    if p.get("citations"):
+        c = p["citations"][0]
+        citation = f'<a href="{c["url"]}" target="_blank" rel="noopener">{c["title"]}</a>'
+    return f"""<div class="invest-card">
+      <h3>{p['name']}</h3>
+      <span class="appeal-badge">{p['appeal']}</span>
+      <p class="invest-thesis">{p['thesis']}</p>
+      <div class="invest-investors"><strong>Investors:</strong> {p.get('investors', 'n/a')}</div>
+      {citation}
+    </div>"""
+
+
+def investment_potential_section(ip):
+    if not ip:
+        return ""
+    note_html = f'<div class="invest-note">{ip["note"]}</div>' if ip.get("note") else ""
+    public_cards = "".join(public_pick_card(p) for p in ip.get("public", []))
+    private_cards = "".join(private_pick_card(p) for p in ip.get("private", []))
+    return f"""<div class="invest-section-title">Investment potential</div>
+    <div class="invest-caption">Two public names that fit Point 3's pullback/undervalued framing, and two private names with investment appeal (rising valuation, sticky revenue, strong institutional backers, or low dilution risk).</div>
+    {note_html}
+    <div class="invest-subhead">Public</div>
+    <div class="company-grid">{public_cards}</div>
+    <div class="invest-subhead">Private</div>
+    <div class="company-grid">{private_cards}</div>"""
+
+
 def sector_card(s):
     fields_html = "".join([
         field_p("How it works", s["how_it_works"], full=True),
@@ -181,6 +239,7 @@ def sector_card(s):
     ])
     primary_cards = "".join(company_card(c) for c in s["primary_companies"])
     adjacent_cards = "".join(company_card(c) for c in s["adjacent_companies"])
+    invest_html = investment_potential_section(s.get("investment_potential"))
     return f"""<details class="sector">
   <summary class="sector-head">
     <div class="sector-head-left">
@@ -195,6 +254,7 @@ def sector_card(s):
     <div class="company-grid">{primary_cards}</div>
     <div class="company-section-title">Adjacent &amp; complementary companies</div>
     <div class="company-grid">{adjacent_cards}</div>
+    {invest_html}
   </div>
 </details>"""
 

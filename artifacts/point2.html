@@ -83,6 +83,21 @@ summary::marker{content:"";}
 .company-card a{color:var(--accent); font-size:0.78rem; text-decoration:none; border-bottom:1px solid var(--line-strong); display:inline-block; margin-top:4px;}
 .company-card a:hover{border-color:var(--accent);}
 
+.invest-section-title{font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--accent); font-weight:600; margin:24px 0 4px; padding-top:18px; border-top:2px solid var(--accent-soft);}
+.invest-caption{font-size:0.8rem; color:var(--ink-soft); margin-bottom:12px; line-height:1.5;}
+.invest-note{font-size:0.78rem; color:var(--ink-faint); font-style:italic; margin-bottom:14px; line-height:1.5; padding:10px 12px; background:var(--surface-2); border-radius:8px;}
+.invest-subhead{font-size:0.66rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--ink-faint); font-weight:600; margin:14px 0 8px;}
+.bucket-badge{display:inline-block; font-size:0.62rem; padding:2px 9px; border-radius:999px; font-weight:600; text-transform:uppercase; letter-spacing:0.03em; margin-bottom:8px;}
+.bucket-badge.pullback{background:var(--negative-soft); color:var(--negative);}
+.bucket-badge.undervalued{background:var(--positive-soft); color:var(--positive);}
+.appeal-badge{display:inline-block; font-size:0.62rem; padding:2px 9px; border-radius:999px; font-weight:600; background:var(--accent-soft); color:var(--accent); margin-bottom:8px;}
+.invest-card{border:1px solid var(--line); border-radius:10px; background:var(--surface-2); padding:14px 16px;}
+.invest-card h3{font-size:0.9rem; font-weight:600; margin-bottom:2px;}
+.invest-card .invest-thesis{font-size:0.82rem; color:var(--ink-soft); line-height:1.55; margin:6px 0 8px;}
+.invest-card .invest-investors{font-size:0.76rem; color:var(--ink-faint); margin-bottom:6px;}
+.invest-card a{color:var(--accent); font-size:0.78rem; text-decoration:none; border-bottom:1px solid var(--line-strong); display:inline-block;}
+.invest-card a:hover{border-color:var(--accent);}
+
 footer{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--line); padding-top:16px; margin-top:24px; line-height:1.6;}
 @media (max-width:480px){ .masthead{flex-direction:column;} .masthead .meta{text-align:left;} }
 </style>
@@ -187,6 +202,35 @@ footer{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--lin
   <div class="cstat"><span class="l">Performance / funding history</span><span class="v">FY2026 revenue £423.2M (-4.6% y/y) but earnings +85.4% after divesting its NanoScience business in January 2026 to sharpen focus. Stock fell 6.9% on the earnings reaction despite the margin improvement; analyst views split (Peel Hunt upgraded to Buy, JPMorgan raised its price target).</span></div>
   <a href="https://www.investing.com/news/transcripts/earnings-call-transcript-oxford-instruments-q2-2026-sees-mixed-results-stock-drops-93CH-4732215" target="_blank" rel="noopener">Earnings call transcript: Oxford Instruments Q2 2026 sees mixed results, stock drops</a>
 </div></div>
+    <div class="invest-section-title">Investment potential</div>
+    <div class="invest-caption">Two public names that fit Point 3's pullback/undervalued framing, and two private names with investment appeal (rising valuation, sticky revenue, strong institutional backers, or low dilution risk).</div>
+    
+    <div class="invest-subhead">Public</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>IonQ <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">IONQ</span></h3>
+      <span class="bucket-badge pullback">pullback</span>
+      <p class="invest-thesis">Down ~39% over the trailing month despite raising FY26 revenue guidance to $280-290M and posting 287% y/y quarterly revenue growth - the strongest fundamentals of the three major public pure-plays, punished alongside weaker peers in an indiscriminate sector selloff rather than for company-specific news.</p>
+      <a href="https://finance.yahoo.com/markets/stocks/articles/ionq-rigetti-d-wave-quantum-190437159.html" target="_blank" rel="noopener">IonQ, Rigetti, and D-Wave Quantum Are Down 30% in a Month</a>
+    </div><div class="invest-card">
+      <h3>D-Wave Quantum <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">QBTS</span></h3>
+      <span class="bucket-badge undervalued">undervalued</span>
+      <p class="invest-thesis">The only one of the three major public pure-plays already earning recurring, non-government revenue - a real differentiator that isn't obviously reflected in a stock trading at similarly depressed levels to Rigetti, whose business remains almost entirely government-dependent.</p>
+      <a href="https://247wallst.com/investing/2026/05/06/which-quantum-computing-stock-has-dominated-in-2026-ionq-rigetti-or-d-wave/" target="_blank" rel="noopener">Which Quantum Computing Stock Has Dominated in 2026: IonQ, Rigetti, or D-Wave?</a>
+    </div></div>
+    <div class="invest-subhead">Private</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>PsiQuantum</h3>
+      <span class="appeal-badge">Rapidly rising valuation with top-tier institutional backing</span>
+      <p class="invest-thesis">Valuation stepped up ~50% in under a year ($7B to $10.5B) with BlackRock, Temasek, Baillie Gifford, and Nvidia's venture arm all participating - sustained conviction from some of the most selective institutional capital in the market, even as public pure-plays sold off over the same period.</p>
+      <div class="invest-investors"><strong>Investors:</strong> BlackRock, Temasek, Baillie Gifford, Nvidia (NVentures), Microsoft.</div>
+      <a href="https://sacra.com/c/psiquantum/" target="_blank" rel="noopener">PsiQuantum valuation, funding & news</a>
+    </div><div class="invest-card">
+      <h3>Quantinuum</h3>
+      <span class="appeal-badge">Low dilution risk via majority strategic ownership, near-term liquidity catalyst</span>
+      <p class="invest-thesis">Honeywell's ~54% controlling stake means the parent company absorbs most primary capital needs rather than relying purely on dilutive venture rounds, and a pending Nasdaq IPO (implied valuation above $14B) gives this one a concrete near-term path to public liquidity that most sector peers lack.</p>
+      <div class="invest-investors"><strong>Investors:</strong> Honeywell (controlling stake), Nvidia, JPMorgan Chase, Mitsui, Amgen; tentative $100M U.S. Commerce Department funding agreement.</div>
+      <a href="https://thequantuminsider.com/2026/06/02/quantinuum-expands-ipo-as-valuation-climbs-above-14-billion/" target="_blank" rel="noopener">Quantinuum Expands IPO as Valuation Climbs Above $14 Billion</a>
+    </div></div>
   </div>
 </details>
 <details class="sector">
@@ -275,6 +319,35 @@ footer{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--lin
   <div class="cstat"><span class="l">Performance / funding history</span><span class="v">Robotics is a small but strategically-positioned slice of Nvidia's broader AI-infrastructure franchise.</span></div>
   <a href="https://www.cnbc.com/2026/06/03/humanoid-robots-trillion-dollar-ai-market.html" target="_blank" rel="noopener">Investors bet humanoid robots will transform industry and homes over the next decade</a>
 </div></div>
+    <div class="invest-section-title">Investment potential</div>
+    <div class="invest-caption">Two public names that fit Point 3's pullback/undervalued framing, and two private names with investment appeal (rising valuation, sticky revenue, strong institutional backers, or low dilution risk).</div>
+    
+    <div class="invest-subhead">Public</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>Unitree Robotics <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">SSE: 688xxx</span></h3>
+      <span class="bucket-badge pullback">pullback</span>
+      <p class="invest-thesis">Roughly halved from its post-IPO peak by early September 2026, despite being the rare profitable name in the category (5,500+ humanoids shipped in 2025, ~18,000 by mid-2026) - a case where an initial 460%+ debut pop mean-reverted hard, but the underlying commercial traction hasn't disappeared.</p>
+      <a href="https://www.bloomberg.com/news/articles/2026-08-18/unitree-robotics-set-to-debut-after-904-million-shanghai-ipo" target="_blank" rel="noopener">Unitree Robotics Surges 460% After $904 Million Shanghai IPO</a>
+    </div><div class="invest-card">
+      <h3>Harmonic Drive Systems <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">JP: 6324</span></h3>
+      <span class="bucket-badge undervalued">undervalued</span>
+      <p class="invest-thesis">Default Tier-1 actuator supplier across nearly every Western and Japanese humanoid build, with components representing 30-50%+ of the motion-system bill of materials in premium platforms - yet the stock is only up ~16% YTD even as humanoid shipment volumes are projected to jump ~700% in 2026, suggesting the market hasn't fully priced the component-supplier leverage to unit growth.</p>
+      <a href="https://www.dividendjapan.com/p/humanoids-growth-market-japan-stocks" target="_blank" rel="noopener">Humanoid Robots: A High-Growth AI Market — And Why Harmonic Drive and FANUC Matter</a>
+    </div></div>
+    <div class="invest-subhead">Private</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>Figure AI</h3>
+      <span class="appeal-badge">Sticky enterprise revenue, blue-chip strategic backers</span>
+      <p class="invest-thesis">Already in live external commercial production (ahead of Tesla) with a real, renewing BMW deployment (30,000+ vehicles built with Figure 02's help) rather than a pilot - backed by Microsoft, Nvidia, and Jeff Bezos personally.</p>
+      <div class="invest-investors"><strong>Investors:</strong> Microsoft, Nvidia, Jeff Bezos.</div>
+      <a href="https://www.aimagicx.com/blog/humanoid-robots-workplace-tesla-optimus-atlas-2026" target="_blank" rel="noopener">Humanoid Robots in the Workplace: The 2026 Business Leader's Reality Check</a>
+    </div><div class="invest-card">
+      <h3>Apptronik</h3>
+      <span class="appeal-badge">Quickly rising valuation, diversified strategic investor base</span>
+      <p class="invest-thesis">Tripled its valuation to $5.5B in one year via a $520M raise, with backers spanning tech (Google), automotive (Mercedes-Benz), logistics (GXO Logistics as a deployment partner), and even industrial equipment (John Deere) - a broader strategic investor base than most single-vertical peers, plus a direct Google DeepMind tie-up (Gemini Robotics) for its AI stack.</p>
+      <div class="invest-investors"><strong>Investors:</strong> Google, Mercedes-Benz, B Capital, AT&T Ventures, John Deere, Qatar Investment Authority.</div>
+      <a href="https://www.cnbc.com/2026/02/11/apptronik-raises-520-million-at-5-billion-valuation-for-apollo-robot.html" target="_blank" rel="noopener">Apptronik raises $520 million to beat Chinese humanoids, Tesla Optimus to market</a>
+    </div></div>
   </div>
 </details>
 <details class="sector">
@@ -354,6 +427,35 @@ footer{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--lin
   <div class="cstat"><span class="l">Performance / funding history</span><span class="v">Nuclear power procurement is a small line item relative to Microsoft's total capex, but a strategically important one for long-term data center power reliability.</span></div>
   <a href="https://enkiai.com/nuclear/data4-smr-data-centers/" target="_blank" rel="noopener">Data 4 Nuclear 2026, 837 MW Microsoft Deal</a>
 </div></div>
+    <div class="invest-section-title">Investment potential</div>
+    <div class="invest-caption">Two public names that fit Point 3's pullback/undervalued framing, and two private names with investment appeal (rising valuation, sticky revenue, strong institutional backers, or low dilution risk).</div>
+    
+    <div class="invest-subhead">Public</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>Oklo <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">OKLO</span></h3>
+      <span class="bucket-badge pullback">pullback</span>
+      <p class="invest-thesis">Down alongside NuScale (combined -85.3% YTD as of late August) despite a stronger balance sheet and less near-term dilution risk than NuScale per analyst comparisons, plus a signed HALEU fuel-supply agreement with Centrus Energy - the kind of broad sector de-rating that can catch a comparatively better-positioned name in the downdraft.</p>
+      <a href="https://www.fool.com/investing/2026/08/27/oklo-and-nuscale-power-have-shed-a-combined-853-th/" target="_blank" rel="noopener">Oklo and NuScale Power Have Shed a Combined 85.3% This Year. Why Are Nuclear Stocks Falling?</a>
+    </div><div class="invest-card">
+      <h3>X-energy <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">XE</span></h3>
+      <span class="bucket-badge undervalued">undervalued</span>
+      <p class="invest-thesis">Trading around $15.66/share (~$4.5B market cap as of July 2026) - below the $6.9B private valuation its own March 2026 Series D commanded just before IPO, a fairly direct case of a post-IPO price sitting under the private-market's own most recent mark for the same company.</p>
+      <a href="https://x-energy.com/news/x-energy-announces-pricing-of-upsized-initial-public-offering/" target="_blank" rel="noopener">X-energy Announces Pricing of Upsized Initial Public Offering</a>
+    </div></div>
+    <div class="invest-subhead">Private</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>TerraPower</h3>
+      <span class="appeal-badge">Long-horizon patient capital, low near-term dilution pressure</span>
+      <p class="invest-thesis">Bill Gates's sustained personal backing plus DOE cost-share support gives this one an unusually patient capital base for a pre-revenue nuclear developer - less exposed to the quarter-to-quarter dilution pressure that hits venture-funded peers needing to keep raising on a market's timeline rather than the technology's.</p>
+      <div class="invest-investors"><strong>Investors:</strong> Bill Gates, U.S. DOE (cost-share), 11 investors across 8 rounds.</div>
+      <a href="https://www.ans.org/news/article-8297/xenergy-terrapower-share-updates-on-advanced-reactor-projects/" target="_blank" rel="noopener">X-energy, TerraPower share updates on advanced reactor projects</a>
+    </div><div class="invest-card">
+      <h3>Kairos Power</h3>
+      <span class="appeal-badge">Sticky revenue via signed power-purchase agreement, strong strategic backer</span>
+      <p class="invest-thesis">Has an actual power purchase agreement with Google (via the Tennessee Valley Authority) for its Hermes II reactor - a contracted, sticky revenue commitment most SMR developers at this stage don't yet have - plus $303M in DOE risk-reduction funding and a $27M Oak Ridge National Lab partnership.</p>
+      <div class="invest-investors"><strong>Investors:</strong> Google (PPA counterparty), U.S. DOE.</div>
+      <a href="https://blog.google/company-news/outreach-and-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement/" target="_blank" rel="noopener">Google signs advanced nuclear clean energy agreement with Kairos Power</a>
+    </div></div>
   </div>
 </details>
 <details class="sector">
@@ -434,14 +536,43 @@ footer{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--lin
   <a href="https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Rivian-Partner-to-Deploy-up-to-50000-Fully-Autonomous-Robotaxis-2026-TViR4R05gi/default.aspx" target="_blank" rel="noopener">Uber and Rivian Partner to Deploy up to 50,000 Fully Autonomous Robotaxis</a>
 </div><div class="company-card">
   <div class="chead">
-    <h3>Luminar Technologies <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">LAZR</span></h3>
-    <span class="type-tag public">public</span>
+    <h3>Luminar Technologies <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">LAZR (cancelled)</span></h3>
+    <span class="type-tag private">defunct (bankruptcy/liquidation)</span>
   </div>
-  <div class="cdesc">Lidar sensor supplier - locked in a design-win supply agreement with Mobileye's Level 4 robotaxi pilot (Tel Aviv, Paris, Dubai, Daegu City) and separately supplies Volvo's production vehicles, giving it exposure across both the robotaxi and driver-assist segments of the sensor stack.</div>
-  <div class="cstat"><span class="l">Investors</span><span class="v">Public markets (Nasdaq-listed); customer/partner relationships with Volvo, Mercedes-Benz, Nvidia, and Mobileye.</span></div>
-  <div class="cstat"><span class="l">Performance / funding history</span><span class="v">Next-gen lidar now powering the Volvo ES90 (2026 production), its second Volvo design win after the EX90 - a proof point that the sensor business extends beyond speculative robotaxi contracts into shipping consumer vehicles today.</span></div>
-  <a href="https://www.luminartech.com/updates/luminar-accelerates-commercial-momentum-with-mobileye-design-win" target="_blank" rel="noopener">Luminar Accelerates Commercial Momentum with Mobileye Design Win</a>
+  <div class="cdesc">CORRECTION (this pull): previously listed here as an active lidar supplier to Mobileye and Volvo - that entry was stale. Luminar filed Chapter 11 in December 2025; the Bankruptcy Court confirmed a liquidation plan effective April 6, 2026, cancelling all existing equity with no shareholder recovery. Kept in this report as a cautionary real-world example of the sensor-supplier roadblock risk flagged in this sector's overview, not as an investable name.</div>
+  <div class="cstat"><span class="l">Investors</span><span class="v">N/A - equity cancelled in liquidation.</span></div>
+  <div class="cstat"><span class="l">Performance / funding history</span><span class="v">Stock fell 99.6% over the trailing year to ~$0.02 before cancellation; market cap collapsed to ~$1.5M. Root cause: 2025 revenue fell to $66M against a $366.3M net loss, a default on $488M in funded debt, and anchor customer Volvo cutting its Iris sensor volume projections by 90% as automotive enthusiasm for high-cost lidar cooled.</span></div>
+  <a href="https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/1194361/luminar-technologies-confirms-liquidation-plan-and-ends-operations/" target="_blank" rel="noopener">Luminar Technologies Confirms Liquidation Plan and Ends Operations</a>
 </div></div>
+    <div class="invest-section-title">Investment potential</div>
+    <div class="invest-caption">Two public names that fit Point 3's pullback/undervalued framing, and two private names with investment appeal (rising valuation, sticky revenue, strong institutional backers, or low dilution risk).</div>
+    
+    <div class="invest-subhead">Public</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>Mobileye <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">MBLY</span></h3>
+      <span class="bucket-badge pullback">pullback</span>
+      <p class="invest-thesis">Down ~35% over the trailing year, yet running an active Level 4 robotaxi pilot across four cities (Tel Aviv, Paris, Dubai, Daegu) with a locked-in Luminar-era lidar supply relationship (now needing a replacement sensor partner post-Luminar's collapse) - a name whose commercial AV progress hasn't been reflected in the stock, though the lidar-supplier disruption is a genuine near-term risk to watch, not just noise.</p>
+      <a href="https://www.theglobeandmail.com/investing/markets/stocks/MBLY/pressreleases/31331929/this-self-driving-car-stock-just-got-a-major-vote-of-confidence/" target="_blank" rel="noopener">This Self-Driving Car Stock Just Got a Major Vote of Confidence</a>
+    </div><div class="invest-card">
+      <h3>Baidu <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">BIDU</span></h3>
+      <span class="bucket-badge undervalued">undervalued</span>
+      <p class="invest-thesis">Apollo Go is the only robotaxi operator with a publicly disclosed unit-level breakeven (Wuhan, Q2 2025) and runs in 10+ Chinese cities - real, profitable-at-the-unit-level commercial scale that isn't separately valued within Baidu's diversified search/cloud/AI conglomerate structure, unlike Waymo's or Tesla's more directly-priced robotaxi optionality.</p>
+      <a href="https://nextcurious.com/electric-vehicles/robotaxi-market-global-players-guide/" target="_blank" rel="noopener">Robotaxi Market 2026: Complete Guide to Global Players & Market Size</a>
+    </div></div>
+    <div class="invest-subhead">Private</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>Wayve</h3>
+      <span class="appeal-badge">Diversified strategic investor base, platform-licensing model reduces single-fleet capital intensity</span>
+      <p class="invest-thesis">Backed by Microsoft, Nvidia, Uber, and three separate automakers (Mercedes-Benz, Nissan, Stellantis) simultaneously - a broader strategic coalition than any single-fleet competitor, and its licensing model (versus owning/operating vehicles) is structurally less capital-intensive than Waymo's or Zoox's approach.</p>
+      <div class="invest-investors"><strong>Investors:</strong> Eclipse, Balderton, SoftBank Vision Fund 2, Microsoft, Nvidia, Uber, Mercedes-Benz, Nissan, Stellantis.</div>
+      <a href="https://tech.eu/2026/02/25/wayve-raises-12b-at-86b-valuation-to-scale-embodied-ai-for-autonomous-driving/" target="_blank" rel="noopener">Wayve raises $1.2B at $8.6B valuation to scale embodied AI for autonomous driving</a>
+    </div><div class="invest-card">
+      <h3>Zoox</h3>
+      <span class="appeal-badge">Zero external-dilution risk - fully backed by Amazon's balance sheet</span>
+      <p class="invest-thesis">No longer needs to raise independent capital at all, having been acquired outright by Amazon - the cleanest possible answer to dilution risk in this sector, though it also means there's no path for outside investors to gain direct exposure to Zoox specifically (only through Amazon shares).</p>
+      <div class="invest-investors"><strong>Investors:</strong> Amazon (sole owner).</div>
+      <a href="https://tracxn.com/d/companies/zoox/__RYbwq3YHmba9I-rAIGvFuCxg1RwDbrr32y2T3AuUE3o" target="_blank" rel="noopener">Zoox - 2026 Company Profile, Team, Funding & Competitors</a>
+    </div></div>
   </div>
 </details>
 <details class="sector">
@@ -530,6 +661,35 @@ footer{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--lin
   <div class="cstat"><span class="l">Performance / funding history</span><span class="v">Not sector-specific in its own reporting; included here as a structural beneficiary of rising biomanufacturing capex across both GLP-1 and gene-editing pipelines rather than for a name-specific 2026 catalyst.</span></div>
   
 </div></div>
+    <div class="invest-section-title">Investment potential</div>
+    <div class="invest-caption">Two public names that fit Point 3's pullback/undervalued framing, and two private names with investment appeal (rising valuation, sticky revenue, strong institutional backers, or low dilution risk).</div>
+    
+    <div class="invest-subhead">Public</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>Intellia Therapeutics <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">NTLA</span></h3>
+      <span class="bucket-badge pullback">pullback</span>
+      <p class="invest-thesis">Down 55.2% over 3 months (-28% over the year vs. the industry's +15.2%) following a regulatory setback on lead candidate nex-z - a real setback, not noise, but notable that ARK's Cathie Wood kept buying through the decline; 52-week range of $7.95-$28.25 shows how far sentiment has swung on binary trial/regulatory news rather than a steady fundamental deterioration.</p>
+      <a href="https://www.barchart.com/story/news/1718399/intellia-therapeutics-stock-is-down-nearly-95-from-its-record-highs-but-cathie-wood-keeps-buying" target="_blank" rel="noopener">Intellia Therapeutics Stock Is Down Nearly 95% From Its Record Highs but Cathie Wood Keeps Buying</a>
+    </div><div class="invest-card">
+      <h3>Viking Therapeutics <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">VKTX</span></h3>
+      <span class="bucket-badge undervalued">undervalued</span>
+      <p class="invest-thesis">Strong bullish analyst consensus on its obesity-drug pipeline hasn't translated to stock performance, which has lagged the broader market - a case where pre-revenue biotech caution (no revenue in 2025 or 2026) appears to be suppressing the price below what the pipeline's own analyst ratings would imply.</p>
+      <a href="https://finance.yahoo.com/healthcare/articles/crispr-therapeutics-vs-viking-therapeutics-115501174.html" target="_blank" rel="noopener">CRISPR Therapeutics vs. Viking Therapeutics: Which Healthcare Stock Is a Better Buy in 2026?</a>
+    </div></div>
+    <div class="invest-subhead">Private</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>Moonwalk Biosciences</h3>
+      <span class="appeal-badge">Strategic pharma investor, differentiated modality reduces direct competition risk</span>
+      <p class="invest-thesis">Eli Lilly itself participated in Moonwalk's $70M Series B for RNAi (RNA interference) obesity drugs - a differentiated modality from the GLP-1 mainstream that gives it a distinct competitive lane, plus the unusual signal of a category leader (Lilly) directly backing a potential future competitor/partner rather than only competing against it.</p>
+      <div class="invest-investors"><strong>Investors:</strong> Alpha Wave, YK Bioventures, Eli Lilly, ARCH Venture Partners, Khosla Ventures.</div>
+      <a href="https://fundraiseinsider.com/blog/moonwalk-biosciences-raises-70m-series-b-for-rnai-obesity-drugs/" target="_blank" rel="noopener">Moonwalk Biosciences Raises $70M Series B for RNAi Obesity Drugs</a>
+    </div><div class="invest-card">
+      <h3>Kailera Therapeutics</h3>
+      <span class="appeal-badge">Large institutional round, de-risked late-stage asset</span>
+      <p class="invest-thesis">Raised $600M in a single Series B led by Bain Capital Private Equity to fund global late-stage testing of a Zepbound-like injectable - both the round size and the private-equity (not just venture) lead investor signal a later-stage, more de-risked bet than most Series B biotech financings, backing an asset with a known-successful mechanism rather than a novel unproven one.</p>
+      <div class="invest-investors"><strong>Investors:</strong> Bain Capital Private Equity.</div>
+      <a href="https://www.biopharmadive.com/news/kailera-Series-B-bain-obesity-drugs-hengrui-GLP-1-GIP/802689/" target="_blank" rel="noopener">Kailera nets $600M more to advance Zepbound-like obesity drug</a>
+    </div></div>
   </div>
 </details>
 <details class="sector">
@@ -609,6 +769,35 @@ footer{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--lin
   <div class="cstat"><span class="l">Performance / funding history</span><span class="v">2023 acquisition of Aerojet Rocketdyne added rocket and in-space propulsion to its portfolio, broadening its space exposure beyond payloads/sensors into propulsion - a diversified, lower-volatility way to play the sector versus the pure-play commercial names above.</span></div>
   <a href="https://spacenews.com/amazons-project-kuiper-partners-with-l3harris-to-develop-military-communication-solutions/" target="_blank" rel="noopener">Amazon's Project Kuiper partners with L3Harris to develop military communication solutions</a>
 </div></div>
+    <div class="invest-section-title">Investment potential</div>
+    <div class="invest-caption">Two public names that fit Point 3's pullback/undervalued framing, and two private names with investment appeal (rising valuation, sticky revenue, strong institutional backers, or low dilution risk).</div>
+    
+    <div class="invest-subhead">Public</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>Planet Labs <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">PL</span></h3>
+      <span class="bucket-badge pullback">pullback</span>
+      <p class="invest-thesis">Fell over 60% from its late-May 2026 high even as remaining performance obligations jumped 361% to $672.47M on real defense/intelligence contracts (NGA, NRO, NASA, U.S. Navy, NATO) - a stark disconnect between a genuinely strengthening order book and a price move that looks driven more by basket-wide space-sector sentiment than by anything specific to Planet.</p>
+      <a href="https://finance.yahoo.com/markets/stocks/articles/planet-labs-sinks-8-despite-150706793.html" target="_blank" rel="noopener">Planet Labs Sinks 8% Despite New Defense Contract, Intuitive Machines Pulls Back, AST SpaceMobile Sits Out Broad-Market Rally</a>
+    </div><div class="invest-card">
+      <h3>Rocket Lab <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">RKLB</span></h3>
+      <span class="bucket-badge undervalued">undervalued</span>
+      <p class="invest-thesis">Q1 2026 revenue +64% y/y with a record $2.2B backlog and a full commercial launch cadence (16 Electron missions by September), yet the stock sits 9.2% below its 20-day and ~30% below its 100-day moving average - fundamentals accelerating while price momentum lags, the textbook setup for a value case rather than a growth-momentum one.</p>
+      <a href="https://www.tradingkey.com/analysis/stocks/us-stocks/261948979-rocket-lab-1-1-billion-backlog-50-successful-launches-neutron-2026-is-rklb-a-buy-at-117-tradingkey" target="_blank" rel="noopener">Rocket Lab Has a $1.1 Billion Backlog, 50+ Successful Launches, and Neutron Due in 2026</a>
+    </div></div>
+    <div class="invest-subhead">Private</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>Blue Origin</h3>
+      <span class="appeal-badge">Founder-level patient capital reduces near-term dilution urgency</span>
+      <p class="invest-thesis">Jeff Bezos personally committing $2B of the $10B first-ever external round signals a willingness to fund the company through operational setbacks (the May 2026 New Glenn launchpad explosion among them) without needing to lean on external capital markets on their timeline - a different risk profile than a purely venture-funded competitor facing the same setback.</p>
+      <div class="invest-investors"><strong>Investors:</strong> Coatue (~$4B), Jeff Bezos (~$2B).</div>
+      <a href="https://www.kavout.com/market-lens/blue-origin-s-130-billion-valuation-a-high-stakes-bet-on-future-potential-not-current-performance" target="_blank" rel="noopener">Blue Origin's $130 Billion Valuation: A High-Stakes Bet on Future Potential, Not Current Performance</a>
+    </div><div class="invest-card">
+      <h3>Varda Space Industries</h3>
+      <span class="appeal-badge">Differentiated niche (in-space manufacturing) with a lower valuation entry point than the mega-cap names</span>
+      <p class="invest-thesis">At a $1.58B valuation (February 2026 Series D), Varda offers exposure to a genuinely different part of the space value chain - in-space manufacturing rather than launch or connectivity - at a fraction of the capital commitment required to access Blue Origin or SpaceX at this stage.</p>
+      <div class="invest-investors"><strong>Investors:</strong> Not fully disclosed; $578M raised in total funding to date.</div>
+      <a href="https://pitchbook.com/profiles/company/454881-61" target="_blank" rel="noopener">Varda Space Industries 2026 Company Profile: Valuation, Funding & Investors</a>
+    </div></div>
   </div>
 </details>
 <details class="sector">
@@ -679,6 +868,35 @@ footer{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--lin
   <div class="cstat"><span class="l">Performance / funding history</span><span class="v">Fusion offtake is a small, forward-looking commitment relative to Microsoft's total power procurement, but strategically notable as the most concrete fusion-specific customer commitment in the sector to date.</span></div>
   <a href="https://grandpasai.com/research/state-of-fusion-energy-2026.html" target="_blank" rel="noopener">State of Fusion Energy: 2026 Report</a>
 </div></div>
+    <div class="invest-section-title">Investment potential</div>
+    <div class="invest-caption">Two public names that fit Point 3's pullback/undervalued framing, and two private names with investment appeal (rising valuation, sticky revenue, strong institutional backers, or low dilution risk).</div>
+    <div class="invest-note">Honest gap: fusion has no established public pure-play with a real trading history yet - unlike every other sector in this report, there's no clean 'stock that pulled back' or 'stock that's undervalued' to point to, because the primary names are all still private. The two public entries below are the closest real fits: one pre-listing, one an indirect infrastructure play.</div>
+    <div class="invest-subhead">Public</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>General Fusion <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">GFUZ (pending)</span></h3>
+      <span class="bucket-badge undervalued">undervalued</span>
+      <p class="invest-thesis">Set to become the first pure-play fusion company on a major exchange (Nasdaq, mid-2026 SPAC combination with Spring Valley Acquisition Corp. III) at an implied ~$1B pro-forma equity value - a fraction of Helion's $15.5B or Commonwealth Fusion's implied value off its funding history, for a company whose Lawson Machine 26 has already achieved first plasma and first plasma compression. Worth watching once it actually starts trading rather than treating as a live pick today.</p>
+      <a href="https://generalfusion.com/post/general-fusion-business-combination-announcement/" target="_blank" rel="noopener">GENERAL FUSION TO BECOME FIRST PUBLICLY TRADED PURE-PLAY FUSION COMPANY</a>
+    </div><div class="invest-card">
+      <h3>American Superconductor (AMSC) <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">AMSC</span></h3>
+      <span class="bucket-badge undervalued">undervalued</span>
+      <p class="invest-thesis">Reused from this sector's adjacent-companies list: the only U.S.-listed pure-play HTS magnet stock, direct exposure to the technology every major magnetic-confinement fusion company depends on, in a global HTS wire market (~$815M in 2026) that predates and likely understates fusion-specific demand given Commonwealth Fusion's SPARC magnet program alone required ~$3B in associated funding - an indirect but genuine way to size fusion exposure through an already-profitable, diversified business (also serving the US Navy and AI-data-center power transmission) rather than a single-fusion-company bet.</p>
+      <a href="https://techticker.fyi/what-is-a-high-temperature-superconducting-magnet-the-3b-tech-inside-every-fusion-reactor-that-investors-keep-missing/" target="_blank" rel="noopener">What Is a High-Temperature Superconducting Magnet? The $3B Tech Inside Every Fusion Reactor That Investors Keep Missing</a>
+    </div></div>
+    <div class="invest-subhead">Private</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>Commonwealth Fusion Systems</h3>
+      <span class="appeal-badge">Most institutional capital of any private fusion company, Nvidia's first-ever fusion investment</span>
+      <p class="invest-thesis">Raised more total capital ($6.85B) than any other private fusion company, with Nvidia joining as a first-time fusion investor alongside Google and Bill Gates's Breakthrough Energy Ventures in its $863M Series B2 - the depth and quality of the cap table is itself a signal, distinct from and in addition to its technical lead (first HTS magnet installed in SPARC, January 2026).</p>
+      <div class="invest-investors"><strong>Investors:</strong> Nvidia, Google, Khosla Ventures, Bill Gates's Breakthrough Energy Ventures.</div>
+      <a href="https://thefusionreport.substack.com/p/commercial-fusion-energy-funding" target="_blank" rel="noopener">Commercial Fusion Energy Funding Status: Mid-Year 2026</a>
+    </div><div class="invest-card">
+      <h3>Helion Energy</h3>
+      <span class="appeal-badge">Concrete near-term revenue catalyst via signed offtake, rapidly rising valuation</span>
+      <p class="invest-thesis">The only fusion company with a specific, named commercial customer commitment (Microsoft, 50MW by 2028) rather than a purely technical roadmap - and its valuation nearly tripled in a year ($5.4B to $15.5B) on that offtake plus continued AI-industry capital (Sam Altman personally led an earlier round), though the 2028 timeline is explicitly described as aggressive even by sympathetic observers.</p>
+      <div class="invest-investors"><strong>Investors:</strong> Thrive Capital, Sam Altman (OpenAI CEO, personal investment).</div>
+      <a href="https://www.geekwire.com/2026/helion-hits-15-5b-valuation-with-465m-in-new-cash-to-commercialize-fusion-this-decade/" target="_blank" rel="noopener">Helion hits $15.5B valuation with $465M in new cash as it aims to commercialize fusion this decade</a>
+    </div></div>
   </div>
 </details>
 <details class="sector">
@@ -758,6 +976,35 @@ footer{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--lin
   <div class="cstat"><span class="l">Performance / funding history</span><span class="v">BCI is a small, emerging slice of Nvidia's broader AI-infrastructure franchise rather than a standalone catalyst.</span></div>
   
 </div></div>
+    <div class="invest-section-title">Investment potential</div>
+    <div class="invest-caption">Two public names that fit Point 3's pullback/undervalued framing, and two private names with investment appeal (rising valuation, sticky revenue, strong institutional backers, or low dilution risk).</div>
+    <div class="invest-note">Honest gap: neither Neuralink, Synchron, Precision Neuroscience, Blackrock Neurotech, Paradromics, nor Emotiv are publicly listed - this is the earliest-stage sector in the report by that measure, and no true implanted-BCI public pure-play exists to screen for a pullback or value case. The two public entries below are the closest real fits.</div>
+    <div class="invest-subhead">Public</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>Medtronic <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">MDT</span></h3>
+      <span class="bucket-badge undervalued">undervalued</span>
+      <p class="invest-thesis">Already running what this report's sourcing calls 'one of the largest commercial deployments of brain-computer interface technology to date' via its FDA-approved Adaptive DBS/BrainSense system - a real, reimbursed, at-scale BCI-adjacent product folded into a large diversified medtech company's stock, arguably underappreciated as a BCI holding specifically because it's such a small piece of a much bigger business.</p>
+      <a href="https://news.medtronic.com/2025-02-24-Medtronic-earns-U-S-FDA-approval-for-the-worlds-first-Adaptive-deep-brain-stimulation-system-for-people-with-Parkinsons" target="_blank" rel="noopener">Medtronic earns U.S. FDA approval for the world's first Adaptive deep brain stimulation system</a>
+    </div><div class="invest-card">
+      <h3>iRhythm Technologies <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">IRTC</span></h3>
+      <span class="bucket-badge pullback">pullback</span>
+      <p class="invest-thesis">Not a BCI company itself (it's a cardiac-monitoring wearable-biosensor maker) but the closest public proxy for the neuro-adjacent wearable-biosensor category - down 26.9% YTD despite guiding to $870-880M FY2026 revenue, included here as the most honest available pullback candidate rather than forcing a weaker BCI-specific fit.</p>
+      <a href="https://simplywall.st/stocks/us/healthcare/nasdaq-irtc/irhythm-holdings" target="_blank" rel="noopener">iRhythm Holdings (Nasdaq:IRTC) - Stock Analysis</a>
+    </div></div>
+    <div class="invest-subhead">Private</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>Neuralink</h3>
+      <span class="appeal-badge">Highest-profile name, largest disclosed patient cohort</span>
+      <p class="invest-thesis">Most patients implanted and using the device for real tasks (computer control, video editing, CAD, robotic-arm operation) of any BCI company tracked here, with plans for high-volume automated-surgery production starting 2026 - the clearest evidence of near-term scaling intent, even as the wide gap between its $9-9.7B disclosed valuation and ~$40B rumored secondary pricing shows how unsettled the actual number is.</p>
+      <div class="invest-investors"><strong>Investors:</strong> Multiple venture rounds; ~$1.85B total primary funding since 2016.</div>
+      <a href="https://public.com/company/neuralink-neul" target="_blank" rel="noopener">Neuralink Valuation, Share Price Estimates & Funding History</a>
+    </div><div class="invest-card">
+      <h3>Synchron</h3>
+      <span class="appeal-badge">Most regulatory-advanced traditional implant, sovereign and strategic institutional backing</span>
+      <p class="invest-thesis">Holds the first FDA Investigational Device Exemption ever granted for a permanently implanted BCI - a genuine regulatory lead over Neuralink on the traditional-implant pathway - backed by a notably institutional-heavy cap table including a sovereign wealth fund and a national government fund, less purely venture-dependent than most peers at this stage.</p>
+      <div class="invest-investors"><strong>Investors:</strong> Double Point Ventures, ARCH Ventures, Khosla Ventures, Bezos Expeditions, Qatar Investment Authority, Australia's National Reconstruction Fund.</div>
+      <a href="https://www.medtechdive.com/news/synchron-funding-bci-200m/804977/" target="_blank" rel="noopener">Synchron raises $200M to prepare for brain computer interface launch</a>
+    </div></div>
   </div>
 </details>
 <details class="sector">
@@ -828,6 +1075,35 @@ footer{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--lin
   <div class="cstat"><span class="l">Performance / funding history</span><span class="v">EPS consensus implies 8.09% growth in 2026 and 8.7% in 2027; management guides to 8%+ adjusted EPS CAGR through 2032, with battery storage explicitly cited as a growth driver supporting that trajectory rather than a speculative side bet.</span></div>
   <a href="https://finance.yahoo.com/energy/articles/nexteras-battery-storage-boost-clean-145600264.html" target="_blank" rel="noopener">Can NextEra's Battery Storage Boost the Clean Energy Transition?</a>
 </div></div>
+    <div class="invest-section-title">Investment potential</div>
+    <div class="invest-caption">Two public names that fit Point 3's pullback/undervalued framing, and two private names with investment appeal (rising valuation, sticky revenue, strong institutional backers, or low dilution risk).</div>
+    
+    <div class="invest-subhead">Public</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>QuantumScape <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">QS</span></h3>
+      <span class="bucket-badge pullback">pullback</span>
+      <p class="invest-thesis">Down 44% YTD as of July 2026, trading around $6 versus a $24.80 opening price - but first-ever ecosystem-partner billings ($11M this quarter) and a reaffirmed (not widened) full-year loss guide suggest the company is still executing to its own plan even as the stock has been repriced hard on the broader solid-state timeline disappointment across the category.</p>
+      <a href="https://www.fool.com/investing/2026/08/11/quantumscape-has-promised-a-battery-breakthrough-f/" target="_blank" rel="noopener">QuantumScape Has Promised a Battery Breakthrough for Years. Is 2026 Finally The Year?</a>
+    </div><div class="invest-card">
+      <h3>Solid Power <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">SLDP</span></h3>
+      <span class="bucket-badge undervalued">undervalued</span>
+      <p class="invest-thesis">Moves in near-lockstep with QuantumScape and SES AI on negative sentiment days despite a different (and arguably de-risked) strategy: automaker-backed partnerships (BMW, Ford, Hyundai) rather than building its own vehicle integration - the market appears to be pricing the whole solid-state basket as one correlated trade rather than crediting Solid Power's lower-execution-risk model specifically.</p>
+      <a href="https://finance.yahoo.com/markets/stocks/articles/quantumscape-sinks-14-solid-power-153732477.html" target="_blank" rel="noopener">QuantumScape Sinks 14%, Solid Power and SES AI Fall as Solid-State Battery Stocks Slide</a>
+    </div></div>
+    <div class="invest-subhead">Private</div>
+    <div class="company-grid"><div class="invest-card">
+      <h3>Form Energy</h3>
+      <span class="appeal-badge">Sticky contracted revenue, blue-chip institutional round, clear path to liquidity</span>
+      <p class="invest-thesis">Google and Crusoe have already ordered 42GWh against an 80GWh total pipeline - real contracted demand, not speculative interest - and its $750M Series G was led by T. Rowe Price with Sequoia, Janus Henderson, and Franklin Templeton joining, a public-market-grade investor roster for a still-private company that's explicitly planning a 2027 IPO after one more late-2026 round.</p>
+      <div class="invest-investors"><strong>Investors:</strong> T. Rowe Price, Sequoia Capital, Janus Henderson, Franklin Templeton, PEAK6, Google (customer).</div>
+      <a href="https://formenergy.com/form-energy-secures-750m-in-series-g-financing/" target="_blank" rel="noopener">Form Energy Secures $750M in Series G Financing to Scale Iron-Air Battery Manufacturing</a>
+    </div><div class="invest-card">
+      <h3>Redwood Materials</h3>
+      <span class="appeal-badge">Founder pedigree, diversifying revenue base, strong strategic-plus-financial investor mix</span>
+      <p class="invest-thesis">Founded by Tesla co-founder JB Straubel; crossed a $6B valuation on a $425M round that added Nvidia's venture arm (NVentures) and Google as new investors alongside existing backers Capricorn and Goldman Sachs Alternatives - and the business itself is diversifying beyond pure recycling into cathode manufacturing and energy storage, reducing single-revenue-line dependency as it scales toward its own eventual public listing.</p>
+      <div class="invest-investors"><strong>Investors:</strong> Eclipse (led), Capricorn, Goldman Sachs Alternatives, Nvidia (NVentures), Google.</div>
+      <a href="https://www.bloomberg.com/news/articles/2025-10-23/redwood-materials-tops-6-billion-valuation-in-new-funding-round" target="_blank" rel="noopener">Redwood Materials Tops $6 Billion Valuation in Funding Round</a>
+    </div></div>
   </div>
 </details>
 
