@@ -205,6 +205,47 @@
           }
         ]
       }
+    },
+    {
+      "id": "credit-card-abs",
+      "name": "Credit Card ABS",
+      "eyebrow": "Consumer credit · record issuance · late-stage delinquency rising",
+      "how_it_works": "Securitizes credit card receivables (revolving balances) through master trusts that continuously add new receivables as old ones pay down - structurally different from auto/RMBS deals, which are static pools that amortize down to zero. This revolving structure plus typically short weighted-average life makes credit card ABS one of the most liquid, shortest-duration structured products, and issuer underwriting standards vary meaningfully (prime bank issuers like Amex/Capital One vs. private-label issuers like Synchrony, which serves more subprime-adjacent retail-card programs).",
+      "market_size_issuance": "New issuance running at a record pace: $201B issued year-to-date through the end of June 2026, ahead of $171.5B over the same period in 2025.",
+      "performance_commentary": "AAA credit card ABS spreads have been stable and tight - around 32bp over Treasuries, roughly flat over the prior two months, with spreads across the curve only marginally above year-end 2019 levels. But there's a real, worth-flagging divergence beneath the surface-calm headline: 30-day delinquency has actually improved for eight straight quarters (2.85% in Q2 2026), while late-stage delinquency (90+ days past due) jumped sharply to 12.8% of balances from 7.6% in the same quarter - a genuine deterioration in the tail of the distribution that a simple 30-day delinquency read would miss entirely. Senior/mezzanine tranche spreads have tightened while D/E (deep subordinate) tranche spreads remain elevated, suggesting the market itself is already pricing this tail risk more cautiously than the headline AAA spread implies.",
+      "institutional_commentary": "Capital Advisors Group ('The $1.25 Trillion Credit Card Question'): frames the core tension directly - whether rising delinquencies spell trouble for ABS investors specifically, versus just for card issuers' unsecured income statements, given trust structures' credit enhancement. Their answer, echoed by trust-level data: higher card interest rates simultaneously increase receivable yields, which strengthens 'excess spread' (the trust's first line of defense) even as underlying borrower credit quality weakens - a genuine structural buffer, not just optimistic framing.",
+      "institutional_investment_activity": "Issuer-level dispersion is the story: May 2026 30+ day delinquencies ranged from just 0.67% at American Express to 1.6% at Capital One (both down y/y), while private-label lender Synchrony's annualized charge-off rate ran as high as 4.17% versus 1.24-2.28% across prime bank master trusts - a roughly 2-3x gap in credit quality between the primest and most credit-sensitive major issuers. New York Fed data shows total credit card debt at $1.263 trillion (Q2 2026) with what researchers describe as a 'K-shaped divide' - some consumers managing debt better, lower-income borrowers under continued strain.",
+      "fed_sensitivity": "High and fast-transmitting given the asset class's short duration and revolving structure - most credit cards carry variable APRs tied directly to the prime rate, so Fed moves show up in receivable yields almost immediately (unlike the multi-year lag in fixed-rate mortgage-backed structures). This cuts both ways for ABS investors: higher rates raise the excess-spread buffer (per the institutional commentary above) but simultaneously strain the borrowers generating that yield - a genuine two-sided sensitivity rather than a clean tailwind or headwind.",
+      "headwinds_tailwinds": "Tailwind: record issuance and stable, tight AAA spreads indicate strong institutional demand and structural confidence in senior-tranche protection. Tailwind: rising rates mechanically strengthen excess spread even during borrower stress. Headwind: the 7.6%→12.8% late-stage delinquency jump is a real, specific data point that a surface read of 'delinquency is improving' (based on the 30-day number alone) would miss - exactly the kind of divergence worth tracking each refresh rather than defaulting to the headline metric.",
+      "sentiment_outlook": "Broadly calm on the surface (tight spreads, record issuance, senior-tranche protection intact) but with a real, specific crack in the data - late-stage delinquency more than doubling in one quarter is not something to dismiss just because 30-day delinquency looks fine. Worth watching whether the late-stage number continues climbing or was a one-quarter anomaly on the next refresh.",
+      "citations": [
+        {"title": "The $1.25 Trillion Credit Card Question: Do Rising Delinquencies Spell Trouble for Credit Card ABS Investors?", "url": "https://www.capitaladvisors.com/research/the-1-25-trillion-credit-card-question/", "date": "2026"},
+        {"title": "NY Fed: Credit card debt hits $1.26 trillion, K-shaped divide persists", "url": "https://www.cnbc.com/2026/08/11/ny-fed-credit-card-debt-hits-1point26-trillion-k-shaped-divide-persists/", "date": "2026-08-11"},
+        {"title": "Household Debt Balances Decreased Slightly; Credit Card Delinquency Transition Rates Remained Steady", "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260811", "date": "2026-08-11"},
+        {"title": "2026 Credit Card Risk: Happy Days are Here Again (For Top Issuers)", "url": "https://javelinstrategy.com/research/2026-credit-card-risk-happy-days-are-here-again-top-issuers", "date": "2026"}
+      ],
+      "investable_exposure": {
+        "public": [
+          {
+            "name": "Capital One Financial", "ticker": "COF", "type": "Prime Card Issuer",
+            "performance": "30+ day delinquency of 1.6% (May 2026, down y/y) - among the better-performing major prime issuers, though notably higher than American Express's 0.67%, illustrating real underwriting-quality dispersion even within the 'prime' issuer tier.",
+            "citations": [{"title": "The $1.25 Trillion Credit Card Question", "url": "https://www.capitaladvisors.com/research/the-1-25-trillion-credit-card-question/", "date": "2026"}]
+          },
+          {
+            "name": "Synchrony Financial", "ticker": "SYF", "type": "Private-Label Card Issuer",
+            "performance": "4.17% annualized charge-off rate - meaningfully higher than prime bank trusts (1.24-2.28%), reflecting its more credit-sensitive private-label retail-card book. Actively issuing in 2026 (Synchrony Card Issuance Trust Class A(2026-1) priced March 2026, Class A(2026-2) proposed August 2026) - a direct, real-time read on how the most credit-sensitive major issuer is being funded through this cycle.",
+            "citations": [{"title": "Synchrony Card Funding, LLC - Form 8-K - FY2026", "url": "https://www.sec.gov/Archives/edgar/data/0001724786/000110465926092750/tm2622401d1_ex1-1.htm", "date": "2026-08"}]
+          }
+        ],
+        "private": [
+          {
+            "name": "Castlelake Asset-Based Private Credit III",
+            "description": "Reused from this report's Auto ABS section: Castlelake's asset-based private credit strategy spans consumer receivables broadly (not a card-specific vehicle) - the honest picture is that institutional investors mostly access credit-card-receivable exposure through diversified consumer asset-based finance funds like this one, or directly via ABS, rather than card-specific private funds.",
+            "news": "See Auto ABS section for the fund's $2.3B close and Upstart forward-flow deal details - not duplicated here.",
+            "citations": []
+          }
+        ]
+      }
     }
   ]
 }
