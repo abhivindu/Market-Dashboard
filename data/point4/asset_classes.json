@@ -44,6 +44,47 @@
           }
         ]
       }
+    },
+    {
+      "id": "non-agency-rmbs",
+      "name": "Non-Agency RMBS",
+      "eyebrow": "Credit-sensitive · record non-QM issuance",
+      "how_it_works": "Residential mortgage pools without a government/GSE guarantee - real credit risk, unlike agency RMBS. Deals pool 500-2,000 mortgage loans into senior-subordinate structures, where subordination (junior tranches absorb losses first) and performance triggers insulate senior bondholders from collateral volatility. The largest growth segment is non-QM (non-Qualified Mortgage) - loans to borrowers who don't fit conventional agency underwriting boxes (self-employed, investor property, bank-statement income) but aren't necessarily lower credit quality.",
+      "market_size_issuance": "Non-agency RMBS volume hit $192B through September 11, 2026, with $83B of that in non-QM - already a record for the category, beating all of 2025's $80B in just over 8 months. Non-QM has grown from a niche post-crisis product into a ~$200B market, with ~$100B of issuance expected this year, equivalent to roughly 7% of GSE gross issuance.",
+      "performance_commentary": "Spreads have tightened materially: non-QM AAA tranches tightened to 123bp and AA to 140bp as of mid-September 2026 - real, sourced spread levels, not a proxy. Credit performance has also improved sharply year over year: 2026 YTD delinquency rates of 0.37% (prime) and 1.62% (non-QM) compare favorably to the stressed 2023 vintage, which saw 3.01% (prime) and 10.29% (non-QM) delinquencies surpass pre-pandemic highs.",
+      "institutional_commentary": "Guggenheim Investments (Q3 2026 Structured Credit Outlook): non-agency RMBS borrowers 'skew toward the higher income cohort of the population with better credit scores' and are 'less sensitive to the stresses emerging in consumer credit' among lower-income borrowers - a favorable relative-credit-quality argument. Guggenheim's institutional positioning explicitly favors 'senior non-Agency RMBS securities' for income generation given 'favorable credit fundamentals, reduced interest-rate sensitivity, and appealing valuations.'",
+      "institutional_investment_activity": "Guggenheim's Securitized Income ETF (GISC) and broader securitized-credit strategies carry active non-agency RMBS positioning per its Q2/Q3 2026 sector views. Angel Oak Mortgage Solutions - the leading non-QM originator - is targeting 50% year-over-year origination growth in 2026, funding continued record securitization volume (its Angel Oak Mortgage Trust program priced deals like AOMT 2026-3, a $279.6M non-prime RMBS, and AOMT 2026-5 at $228.2M in 2026 alone).",
+      "fed_sensitivity": "Lower direct rate sensitivity than agency RMBS - Guggenheim specifically cites 'reduced interest-rate sensitivity' as part of the sector's appeal, partly because non-QM borrowers face 'structural disincentives to prepay' (many carry prepayment penalties or non-conforming rates that don't benefit as much from refinancing waves). The bigger Fed-linked risk runs through credit, not duration: if Fed policy tightens financial conditions enough to push unemployment higher, that's the historically dominant driver of RMBS delinquency spikes (the 2023 vintage stress was linked to 'an upward shift in the jobless rate'), not rate moves directly.",
+      "headwinds_tailwinds": "Tailwind: record investor demand has tightened non-QM spreads meaningfully while credit performance has actually improved year over year - an unusually clean combination of rising volume, tightening spreads, and better fundamentals simultaneously. Headwind: 'fragmented non-QM origination and elevated 2026 supply could strain syndication capacity' - the same record issuance that signals strength could eventually outrun dealer/investor capacity to absorb it if the pace continues.",
+      "sentiment_outlook": "Constructive and credit-differentiated from consumer credit broadly - the Guggenheim thesis (better-credit-quality borrowers, less exposed to the stress hitting lower-income consumers elsewhere) is a specific, falsifiable claim worth checking against future delinquency prints rather than a generic bullish view, and the current 0.37%/1.62% delinquency data supports it for now.",
+      "citations": [
+        {"title": "Non-QM RMBS reaches $78B despite rising impairments", "url": "https://www.nationalmortgagenews.com/news/non-qm-rmbs-reaches-78b-despite-rising-impairments", "date": "2026-09"},
+        {"title": "Non-Agency RMBS: Income, Convexity, and a Rebuilt Market", "url": "https://www.guggenheiminvestments.com/perspectives/sector-views/third-quarter-2026-structured-credit-outlook/", "date": "2026-Q3"},
+        {"title": "Why delinquencies from one particular year stand out", "url": "https://www.nationalmortgagenews.com/news/why-delinquencies-from-one-particular-year-stand-out", "date": "2026-09"},
+        {"title": "What 2026 may be like for non QM issuers, originators", "url": "https://www.nationalmortgagenews.com/news/what-2026-may-be-like-for-non-qm-issuers-originators", "date": "2026"}
+      ],
+      "investable_exposure": {
+        "public": [
+          {
+            "name": "Guggenheim Securitized Income ETF", "ticker": "GISC", "type": "Active ETF",
+            "performance": "Quarterly commentary through Q2 2026 confirms active positioning across securitized credit including non-agency RMBS, reflecting the same senior-tranche income thesis Guggenheim publishes in its institutional sector views.",
+            "citations": [{"title": "Guggenheim Securitized Income ETF (GISC) Quarterly Commentary Q2 2026", "url": "https://etfdb.com/fixed-income-content-hub/q2-2026-guggenheim-securitized-income-etf-gisc/", "date": "2026-Q2"}]
+          },
+          {
+            "name": "Angel Oak Mortgage REIT", "ticker": "AOMR", "type": "Mortgage REIT",
+            "performance": "Directly tied to Angel Oak's non-QM origination and securitization program (AOMT deals); raised $228.2M from mostly non-QM assets in one 2026 deal alone - a levered, REIT-wrapped way to access the same record non-QM volume driving this sector's growth.",
+            "citations": [{"title": "Angel Oak Mortgage raises $228.2 million from mostly non-QM assets", "url": "https://www.nationalmortgagenews.com/news/angel-oak-mortgage-raises-228-2-million-from-mostly-non-qm-assets", "date": "2026"}]
+          }
+        ],
+        "private": [
+          {
+            "name": "Angel Oak Mortgage Solutions",
+            "description": "The leading non-QM originator, lending through third-party channels and directly funding the securitization pipeline that's driving this sector's record 2026 issuance.",
+            "news": "Targeting 50% year-over-year origination growth in 2026, and separately expanding into HELOCs to broaden its non-QM product set beyond first-lien purchase/refi loans.",
+            "citations": [{"title": "Angel Oak targets HELOCs to broaden non-QM lending", "url": "https://www.housingwire.com/articles/angel-oak-non-qm-growth/", "date": "2026"}]
+          }
+        ]
+      }
     }
   ]
 }
