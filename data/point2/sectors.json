@@ -1,6 +1,6 @@
 {
   "as_of": "2026-09-14",
-  "radar": "",
+  "radar": "Defense tech is the clearest candidate for a 10th sector: over $14.6B has been deployed into military/national-security startups in 2026 already, surpassing all of 2025's $9.6B before mid-year. Anduril doubled its valuation to $61B in a $5B round (Thrive Capital, Andreessen Horowitz) and is reportedly in talks targeting $100B; Palantir's market cap crossed $325B; Shield AI ($12.7B) and Saronic ($4B) round out a group of 60+ funded startups totaling $33B+ raised. Geopolitical tension has made this 'fundable almost overnight' per one VC assessment - worth adding once there's room to research it properly.",
   "sectors": [
     {
       "id": "quantum-computing",
@@ -666,6 +666,80 @@
           "investors": "Public markets - already extensively covered in the Equities Desk (Point 3) and this report's Quantum Computing, Humanoid Robotics, and Fusion Energy sections, not duplicated here.",
           "performance": "BCI is a small, emerging slice of Nvidia's broader AI-infrastructure franchise rather than a standalone catalyst.",
           "citations": []
+        }
+      ]
+    },
+    {
+      "id": "next-gen-batteries",
+      "name": "Next-Gen Batteries & Energy Storage",
+      "eyebrow": "Materials/energy · commercial (grid) + pre-commercial (solid-state)",
+      "how_it_works": "Two distinct threads. Solid-state batteries replace a lithium-ion cell's liquid electrolyte with a solid one, promising higher energy density, faster charging, and better safety (no flammable liquid) for EVs - but solid-solid material interfaces degrade mechanically in ways liquid interfaces don't, which is the core unsolved manufacturing problem. Separately, grid-scale storage increasingly uses sodium-ion chemistry (no lithium, cheaper, longer cycle life - CATL cites 15,000 cycles) or lithium-ion in large integrated systems (Fluence), sited behind-the-meter alongside data centers and renewables to solve grid-congestion and interconnection-delay problems that transmission lines can't fix fast enough.",
+      "maturity": "Sharply bifurcated, similar to fusion. Solid-state EV batteries remain in pilot-scale purgatory - BYD's sulfide-based pilot plant (Feb 2026, 2GWh) runs below 70% assembly yield versus the 95%+ needed for viability, and true all-solid-state volume production isn't expected before 2028-2030 even by the most aggressive automaker timelines (Toyota 2028, BYD 2030). Grid-scale storage, by contrast, is fully commercial and scaling fast: US utilities plan 24GW of new battery storage in 2026 alone, and CATL's sodium-ion is explicitly declared 'mainstream-ready' with a 60GWh supply agreement already signed.",
+      "applications": [
+        "EV batteries (the solid-state target application, still pre-commercial at scale)",
+        "Grid-scale storage / renewables firming (fully commercial today)",
+        "Behind-the-meter data center power (the fastest-growing 2026 use case)",
+        "Two-wheeler/niche EVs (the only segment with real solid-state product shipping today)"
+      ],
+      "investors_lenders": "Grid-storage capital has matured into a selective, execution-focused market - investors now reward de-risked, late-stage/operational projects and price speculative ones accordingly, a meaningful shift from earlier hype-driven allocation. Solid-state EV battery makers remain dependent on automaker partnerships and public-market capital (QuantumScape, Solid Power both went public via SPAC/IPO specifically to fund years of pre-revenue R&D) rather than platform-scale venture rounds like fusion or BCI see.",
+      "roadblocks": "For solid-state: the mechanical interface degradation problem has proven far harder to solve at scale than lab demonstrations suggested, and the 3-5x production cost premium versus conventional lithium-ion makes near-term commercial viability difficult even once the yield problem improves. For grid storage: grid interconnection queues and congestion are now the binding constraint on deployment speed, not battery technology or cost - pushing the industry toward behind-the-meter architectures (up to 30% of planned US data center capacity now includes on-site generation/storage) precisely because waiting for traditional grid upgrades takes too long.",
+      "sentiment": "Split much like fusion and BCI: grid storage sentiment is strong and improving on real execution (Fluence shares jumped 29% in a single session on backlog/margin news), while solid-state EV battery sentiment has soured on repeated timeline slippage - QuantumScape is down 44% YTD as of mid-2026 and trades around $6 versus its $24.80 IPO-era price, with investors now described as watching manufacturing execution rather than revenue, since there essentially isn't any yet.",
+      "primary_companies": [
+        {
+          "name": "QuantumScape",
+          "type": "public",
+          "ticker": "QS",
+          "description": "Solid-state lithium-metal EV battery developer; the most closely watched (and most disappointing, by stock performance) pure-play in the space.",
+          "investors": "Public markets (NYSE-listed); Volkswagen is a key strategic partner/investor.",
+          "performance": "Down 44% YTD as of July 2026, trading around $6 versus a $24.80 opening price. Q2 2026 net loss ~$98M; reaffirmed full-year adjusted EBITDA loss guidance of $250-275M. First-ever ecosystem-partner billings reached just $11M in the quarter - a real but still trivial revenue signal after years of pre-revenue development.",
+          "citations": [{"title": "QuantumScape Has Promised a Battery Breakthrough for Years. Is 2026 Finally The Year?", "url": "https://www.fool.com/investing/2026/08/11/quantumscape-has-promised-a-battery-breakthrough-f/"}]
+        },
+        {
+          "name": "CATL",
+          "type": "public",
+          "ticker": "HK: 300750 / 3750",
+          "description": "The world's dominant battery maker by volume, now leading the sodium-ion pivot for grid storage while also co-leading China's national solid-state EV battery push.",
+          "investors": "Public markets (Shenzhen/Hong Kong-listed).",
+          "performance": "Signed a 60GWh sodium-ion supply agreement with HyperStrong (April 2026) - the largest sodium order ever placed - and secured 5.4GWh in storage orders in just the first two weeks of June 2026. Also founding member of China's CASIP solid-state battery collaborative platform alongside BYD, CALB, Nio, and SAIC, formed January 2026 under government direction.",
+          "citations": [{"title": "CATL's 30-year sodium-ion battery takes over grid storage", "url": "https://electrek.co/2026/07/16/catl-sodium-ion-15000-cycle-grid-storage/"}]
+        },
+        {
+          "name": "Solid Power",
+          "type": "public",
+          "ticker": "SLDP",
+          "description": "Solid-state sulfide-electrolyte developer, automaker-backed (BMW, Ford, Hyundai relationships) rather than pursuing its own vehicle integration.",
+          "investors": "Public markets (Nasdaq-listed); strategic automaker partners.",
+          "performance": "Sector-wide solid-state stock weakness (QuantumScape, Solid Power, and SES AI have moved together on negative sentiment days) suggests the market treats these names as a correlated basket rather than differentiating much on individual execution progress at this stage.",
+          "citations": [{"title": "QuantumScape Sinks 14%, Solid Power and SES AI Fall as Solid-State Battery Stocks Slide", "url": "https://finance.yahoo.com/markets/stocks/articles/quantumscape-sinks-14-solid-power-153732477.html"}]
+        },
+        {
+          "name": "Fluence Energy",
+          "type": "public",
+          "ticker": "FLNC",
+          "description": "Global leader in grid-scale battery storage integration (not a cell manufacturer - designs and deploys full storage systems); born from a Siemens/AES joint venture, now independent.",
+          "investors": "Public markets (Nasdaq-listed); Siemens and AES remain major shareholders post-spinoff.",
+          "performance": "FY2025 revenue $2.3B, guiding $3.2-3.6B for FY2026 with ~85% already in backlog; $30B project pipeline growing 30% per quarter. Shares jumped 29.5% in a single session (June 1, 2026) on improving margins and successful project execution easing earlier profitability concerns. Signed a 300MW/1,200MWh storage deal with BrightNight/Cordelio Power in Arizona.",
+          "citations": [{"title": "Fluence Energy Shares Surge 29% to $24.44 as Battery Storage Demand Fuels Strong Investor Optimism", "url": "https://www.ibtimes.com.au/fluence-energy-shares-surge-battery-storage-demand-1869890"}]
+        }
+      ],
+      "adjacent_companies": [
+        {
+          "name": "Albemarle",
+          "type": "public",
+          "ticker": "ALB",
+          "relationship": "Major lithium producer - direct input supplier to conventional and solid-state lithium battery manufacturing alike, though the sodium-ion shift at CATL and others represents a long-term demand risk to lithium's grid-storage share specifically (even as EV battery demand for lithium continues). Already covered in this report's Nuclear SMR section (lithium strike risk in Chile) - not duplicated in full here.",
+          "investors": "Public markets - see Nuclear SMR section for detail.",
+          "performance": "See this report's Nuclear SMR section for current performance detail; included here for its direct raw-material relationship to the battery sector.",
+          "citations": []
+        },
+        {
+          "name": "NextEra Energy",
+          "type": "public",
+          "ticker": "NEE",
+          "relationship": "The largest utility deployer of battery storage in the US - demand-side validation at massive scale (6,168MW operating as of end-2025, plans for 32-42GW more through 2032, $5.5B earmarked for 2025-2029 storage buildout) driven explicitly by AI-data-center electricity demand.",
+          "investors": "Public markets - not otherwise covered in this dashboard's equities coverage to date.",
+          "performance": "EPS consensus implies 8.09% growth in 2026 and 8.7% in 2027; management guides to 8%+ adjusted EPS CAGR through 2032, with battery storage explicitly cited as a growth driver supporting that trajectory rather than a speculative side bet.",
+          "citations": [{"title": "Can NextEra's Battery Storage Boost the Clean Energy Transition?", "url": "https://finance.yahoo.com/energy/articles/nexteras-battery-storage-boost-clean-145600264.html"}]
         }
       ]
     }
