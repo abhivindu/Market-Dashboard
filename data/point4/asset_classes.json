@@ -411,6 +411,47 @@
           }
         ]
       }
+    },
+    {
+      "id": "opportunistic-credit",
+      "name": "Private Credit — Opportunistic / Special Situations",
+      "eyebrow": "Distressed & dislocation-focused · war-chest fundraising",
+      "how_it_works": "Funds that target stressed, distressed, or complex-situation credit - rescue financing, post-default restructurings, non-standard capital solutions for companies that can't access conventional direct lending or syndicated markets - rather than plain-vanilla performing-company loans. These strategies are built to deploy capital when other credit channels seize up, so fundraising and deployment often run counter-cyclically to the direct lending market covered in the prior entry.",
+      "market_size_issuance": "Opportunistic, special situations, and distressed debt funds collectively raised $100B over the past two years, with the ten largest funds currently in market targeting almost $50B combined - a genuine 'war chest' build reflecting manager expectations of coming dislocation. The broader private debt fundraising mix has shifted toward this and adjacent strategies: direct lending's share of private debt fundraising fell from 58.4% in 2024 to 31% by Q1 2026, with capital rotating into infrastructure debt, real estate credit, and special situations instead.",
+      "performance_commentary": "No public spread or return index exists for this strategy (it is almost entirely privately negotiated, deal-by-deal pricing), so performance here is read through fundraising success and individual fund closes rather than a market-level yield figure. Oaktree's Special Situations Fund IV closed a record $2.4B first close in February 2026 against an original ~$4B target, and the firm now expects to raise as much as $5B by final close - a strong investor-demand signal even without a public return series.",
+      "institutional_commentary": "Cleary Gottlieb's 2026 private credit outlook frames the sector as entering 'its most challenging environment since the 2008 financial crisis,' citing a run of high-profile leveraged loan defaults in late 2025 and rising PIK-toggle usage in direct lending - precisely the stress opportunistic/special situations funds are designed to capitalize on. Macfarlanes' 2026 note on the strategy is titled around 'capitalising on dislocation and complexity,' framing the segment's growth explicitly as a bet on more, not less, credit stress ahead.",
+      "institutional_investment_activity": "Oaktree's $2.4B first close (against a $4B target, now guiding to $5B by final close) is the largest single data point in this space for 2026 and sets a firm record for the strategy specifically. Specialty finance and adjacent opportunistic strategies broadly raised $37B in 2025, second only to direct lending's $79B - meaning the capital rotation described above is already showing up at scale, not just in manager commentary.",
+      "fed_sensitivity": "Indirect and counter-cyclical rather than mechanically linked: this strategy's opportunity set expands when tighter-for-longer or volatile Fed policy stresses over-levered borrowers into default or restructuring, meaning a hawkish surprise that hurts direct lending credit quality (see prior entry) can simultaneously improve the deal pipeline for opportunistic/special situations managers - the two private credit strategies in this report sit on opposite sides of the same credit-stress cycle.",
+      "headwinds_tailwinds": "Tailwind: the same late-2025 default wave and PIK-toggle stress cited as a headwind for direct lending is a direct tailwind here, feeding the record fundraising and 'war chest' positioning described above. Headwind: capital is crowding in ahead of the dislocation it's meant to exploit - $50B targeted by just the ten largest funds in market risks bidding down returns on the eventual distressed deal flow if the anticipated wave of restructurings doesn't arrive on the timeline managers are underwriting to.",
+      "sentiment_outlook": "Constructive and explicitly counter-cyclical - managers are positioning for more credit stress, not less, and record fundraising (Oaktree's $2.4B first close) suggests LPs agree with that read. The open question flagged by macfarlanes and Cleary Gottlieb alike is timing: this is capital raised in anticipation of a dislocation that, per the direct-lending entry's default data, may already be arriving - making 2026-2027 vintage funds a real test of whether the war chest gets deployed at attractive prices or sits waiting.",
+      "citations": [
+        {"title": "Private Credit Outlook 2026: Market Faces First Big Test", "url": "https://www.withintelligence.com/insights/private-credit-outlook-2026/", "date": "2026"},
+        {"title": "Capitalising on dislocation and complexity - Opportunistic credit in 2026", "url": "https://www.macfarlanes.com/insights/102mqsg/capitalising-on-dislocation-and-complexity-opportunistic-credit-in-2026/", "date": "2026"},
+        {"title": "Outlook for Private Credit in 2026", "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/outlook-for-private-credit-in-2026", "date": "2026"},
+        {"title": "Oaktree Raises Record $2.4 Billion at First Close for Special Situations Fund", "url": "https://www.bloomberg.com/news/articles/2026-02-11/oaktree-raises-record-2-4-billion-for-special-situations-fund", "date": "2026-02-11"}
+      ],
+      "investable_exposure": {
+        "public": [
+          {
+            "name": "Brookfield Corporation", "ticker": "BN", "type": "Parent of Oaktree Capital Management",
+            "performance": "Public parent of Oaktree, the manager behind the record $2.4B Special Situations Fund IV first close - the closest public-equity proxy to this strategy's fee and carry economics, alongside Brookfield's broader alternative-asset platform.",
+            "citations": [{"title": "Oaktree Raises Record $2.4 Billion at First Close for Special Situations Fund", "url": "https://www.bloomberg.com/news/articles/2026-02-11/oaktree-raises-record-2-4-billion-for-special-situations-fund", "date": "2026-02"}]
+          },
+          {
+            "name": "Oaktree Specialty Lending Corp.", "ticker": "OCSL", "type": "Oaktree-Affiliated BDC",
+            "performance": "Publicly traded BDC affiliated with Oaktree's broader credit platform - a fund-level vehicle for investors seeking listed exposure to Oaktree's credit underwriting without accessing the institutional-only Special Situations Fund IV directly.",
+            "citations": [{"title": "Oaktree Strategic Credit Fund - SEC Filing", "url": "https://www.sec.gov/Archives/edgar/data/0001872371/000119312526231657/d228029dex991.htm", "date": "2026"}]
+          }
+        ],
+        "private": [
+          {
+            "name": "Oaktree Special Situations Fund IV", "appeal": "Record Fundraise / Rescue-Financing Specialist",
+            "description": "Closed a record $2.4B first close in February 2026 against a ~$4B original target and is now guiding to as much as $5B by final close - the single largest and most current institutional commitment data point in the opportunistic/distressed private credit space this year.",
+            "news": "First close $2.4B, Feb 11 2026; firm now targeting up to $5B by final close.",
+            "citations": [{"title": "Oaktree raises $2.4bn for latest special situations fund", "url": "https://alternativecreditinvestor.com/2026/02/13/oaktree-raises-2-4bn-for-latest-special-situations-fund/", "date": "2026-02-13"}]
+          }
+        ]
+      }
     }
   ]
 }
