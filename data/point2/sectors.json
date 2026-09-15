@@ -1,0 +1,265 @@
+{
+  "as_of": "2026-09-14",
+  "radar": "",
+  "sectors": [
+    {
+      "id": "quantum-computing",
+      "name": "Quantum Computing",
+      "eyebrow": "Deep tech · pre-commercial",
+      "how_it_works": "Uses qubits exploiting superposition and entanglement to explore many computational states at once, in principle solving certain optimization, simulation, and cryptography problems exponentially faster than classical computers. Competing hardware approaches (trapped-ion, superconducting, photonic, neutral-atom) trade off qubit count, error rates, and operating conditions differently.",
+      "maturity": "Early commercial, not yet fault-tolerant. 2026 is the first year global quantum-computing revenue crosses $1B (up from $650-750M in 2024), per McKinsey - but this is R&D/access revenue, not mass-market deployment. IBM targets 'practical quantum advantage' by end of 2026 and fault-tolerant computing by 2029; most analysts place widespread commercial applications 5-10 years out.",
+      "applications": [
+        "Portfolio optimization (finance)",
+        "Molecular/drug-discovery simulation (pharma, chemicals)",
+        "Post-quantum cryptography migration (cybersecurity)",
+        "Materials science simulation"
+      ],
+      "investors_lenders": "Mega-cap strategics (Nvidia's NVentures, Honeywell, Microsoft, JPMorgan, Amgen), sovereign/institutional capital (BlackRock, Temasek, Baillie Gifford), plus the U.S. Commerce Department (direct funding agreements, e.g. Quantinuum's trapped-ion program).",
+      "roadblocks": "Error correction at scale is the primary unsolved technical barrier - decoherence limits computation to microseconds/milliseconds, and most systems need near-absolute-zero cooling. Real progress exists (Google's Willow chip reached 'below-threshold' error correction; AWS's Ocelot chip targets a 90% cut in error-correction overhead) but the gap between lab demonstrations and deployable systems remains wide. Prediction markets give low odds to IBM's end-2026 advantage claim.",
+      "sentiment": "Volatile and bifurcated. Pure-play quantum stocks (IonQ, Rigetti, D-Wave) surged on 2025 hype, then fell 60-76% off 52-week highs in mid-2026 as investors reassessed the gap between technical milestones and near-term revenue - IonQ, Rigetti and D-Wave were all down ~30% in a single month as of late July 2026. At the same time, private funding accelerated (PsiQuantum's $1.5B round in May 2026 at a $10.5B valuation; Quantinuum's IPO pricing above a $14B valuation), showing institutional conviction hasn't left even as public-market sentiment on pure-plays has soured.",
+      "primary_companies": [
+        {
+          "name": "IonQ",
+          "type": "public",
+          "ticker": "IONQ",
+          "description": "Trapped-ion quantum computing, publicly listed pure-play with the strongest balance sheet in the group.",
+          "investors": "Public markets (NYSE-listed); early backers included GV, Samsung Catalyst Fund, Mubadala.",
+          "performance": "Q2 2026 revenue $80.1M (+287% y/y), FY26 guidance raised to $280-290M. Stock still up sharply over the trailing year (reported 712% 12-month gain earlier in 2026) but down ~39% over the trailing month amid the sector-wide de-rating. Adjusted EBITDA loss guided at -$310M to -$330M for the year - still deeply unprofitable despite revenue growth.",
+          "citations": [{"title": "IonQ, Rigetti, and D-Wave Quantum Are Down 30% in a Month", "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-rigetti-d-wave-quantum-190437159.html"}]
+        },
+        {
+          "name": "Rigetti Computing",
+          "type": "public",
+          "ticker": "RGTI",
+          "description": "Superconducting-qubit pure-play, the most government-revenue-dependent of the three major public names.",
+          "investors": "Public markets (Nasdaq-listed).",
+          "performance": "Down ~30% over the trailing month alongside IonQ and D-Wave. Ranked third of the three major pure-plays by most analysts - safest balance sheet, but core business leans most heavily on government contracts rather than diversifying commercial revenue.",
+          "citations": [{"title": "Rigetti vs. IonQ vs. D-Wave: Ranking the Quantum Computing Trade Heading Into H2 2026", "url": "https://www.fool.com/investing/2026/07/30/rigetti-vs-ionq-vs-d-wave-ranking-the-quantum-comp/"}]
+        },
+        {
+          "name": "D-Wave Quantum",
+          "type": "public",
+          "ticker": "QBTS",
+          "description": "Quantum annealing specialist (a different approach than gate-model competitors), focused on optimization problems.",
+          "investors": "Public markets (NYSE-listed).",
+          "performance": "Down ~30% over the trailing month with the rest of the group. Ranked second by analysts - the only one of the three already earning some recurring, non-government revenue, which differentiates it from Rigetti.",
+          "citations": [{"title": "Which Quantum Computing Stock Has Dominated in 2026: IonQ, Rigetti, or D-Wave?", "url": "https://247wallst.com/investing/2026/05/06/which-quantum-computing-stock-has-dominated-in-2026-ionq-rigetti-or-d-wave/"}]
+        },
+        {
+          "name": "PsiQuantum",
+          "type": "private",
+          "description": "Photonic quantum computing, targeting a million-qubit fault-tolerant machine - the most capital-intensive, longest-horizon bet in the sector.",
+          "investors": "BlackRock, Temasek, Baillie Gifford, Nvidia's venture arm (NVentures), Microsoft (earlier round).",
+          "performance": "Raised $1.5B in May 2026 at a $10.5B valuation, up from a $7B valuation on a $1B round in September 2025 - roughly 50% valuation step-up in under a year, signaling sustained institutional conviction despite the public pure-plays' selloff.",
+          "citations": [{"title": "PsiQuantum valuation, funding & news", "url": "https://sacra.com/c/psiquantum/"}]
+        },
+        {
+          "name": "Quantinuum",
+          "type": "private (IPO pending)",
+          "description": "Trapped-ion quantum computing, majority-owned by Honeywell (~54% stake); pursuing a Nasdaq IPO under ticker 'QNT'.",
+          "investors": "Honeywell (controlling stake), Nvidia (NVentures), Quanta Computer, JPMorgan Chase, Mitsui, Amgen; also a tentative $100M U.S. Commerce Department funding agreement.",
+          "performance": "Pre-money valuation doubled from $5B (Jan 2024) to $10B after an April 2026 $600M raise; IPO pricing has since pushed the potential valuation above $14B, with plans to raise up to $1.46B in the offering.",
+          "citations": [{"title": "Quantinuum Expands IPO as Valuation Climbs Above $14 Billion", "url": "https://thequantuminsider.com/2026/06/02/quantinuum-expands-ipo-as-valuation-climbs-above-14-billion/"}]
+        }
+      ],
+      "adjacent_companies": [
+        {
+          "name": "NVIDIA",
+          "type": "public",
+          "ticker": "NVDA",
+          "relationship": "Supplies the classical GPU compute that pairs with quantum processors in hybrid quantum-classical workflows; NVQLink (announced 2026) is an open architecture connecting GPU and quantum computing for 17 quantum hardware builders and 9 scientific labs, positioning Nvidia as an infrastructure layer across nearly the whole industry regardless of which qubit approach wins.",
+          "performance": "Already extensively covered in the Equities Desk (Point 3) - not duplicated here; quantum is a small but strategically-positioned slice of Nvidia's broader AI-infrastructure franchise.",
+          "citations": [{"title": "NVIDIA Introduces NVQLink", "url": "https://nvidianews.nvidia.com/news/nvidia-nvqlink-quantum-gpu-computing"}]
+        },
+        {
+          "name": "Bluefors",
+          "type": "private",
+          "description": "Finnish manufacturer of dilution refrigerators and cryogenic measurement infrastructure - the near-absolute-zero cooling systems nearly every superconducting/trapped-ion quantum computer depends on.",
+          "investors": "Limited disclosed external funding (grant-stage backing including the EU); largely self-funded on FY2025 revenue of approximately €217M, suggesting a profitable, demand-driven business rather than one reliant on speculative capital.",
+          "performance": "Private, revenue disclosed (~€217M FY2025) but no market valuation available.",
+          "citations": [{"title": "Following Bluefors and Oxford Instruments' Expansion of Millikelvin Dilution Refrigerators", "url": "https://www.globenewswire.com/news-release/2026/08/17/3345908/28124/en/following-bluefors-and-oxford-instruments-expansion-of-millikelvin-dilution-refrigerators-new-study-maps-growth-vectors-in-quantum-cryogenic-infrastructure.html"}]
+        },
+        {
+          "name": "Oxford Instruments",
+          "type": "public",
+          "ticker": "OXIG (LSE)",
+          "description": "UK-listed scientific instrument maker, Bluefors's main competitor in cryogenic/dilution-refrigerator systems for quantum research.",
+          "investors": "Public markets (London Stock Exchange).",
+          "performance": "FY2026 revenue £423.2M (-4.6% y/y) but earnings +85.4% after divesting its NanoScience business in January 2026 to sharpen focus. Stock fell 6.9% on the earnings reaction despite the margin improvement; analyst views split (Peel Hunt upgraded to Buy, JPMorgan raised its price target).",
+          "citations": [{"title": "Earnings call transcript: Oxford Instruments Q2 2026 sees mixed results, stock drops", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-oxford-instruments-q2-2026-sees-mixed-results-stock-drops-93CH-4732215"}]
+        }
+      ]
+    },
+    {
+      "id": "humanoid-robotics",
+      "name": "Humanoid & Industrial Robotics",
+      "eyebrow": "Physical AI · early commercial",
+      "how_it_works": "Bipedal or wheeled general-purpose robots combining vision-language-action (VLA) AI models with precision actuators (often strain-wave/harmonic gears) to perform manipulation and locomotion tasks originally designed for human workspaces - warehouses, factories, eventually homes. The bet is that a human-shaped form factor lets one robot work in infrastructure built for humans without redesigning the environment.",
+      "maturity": "Early commercial, moving from staged demos to real pilots. Twelve commercial humanoid platforms became available for purchase or lease in 2026, backed by over $6B in cumulative venture investment; humanoid startups alone raised $8.7B through July 2026, already nearly double all of 2025. Real deployments exist (Figure AI's BMW plant pilot, Agility's Digit in Amazon fulfillment centers, Tesla's internal Optimus use) but are narrow - material handling and parts transfer, not high-speed precision assembly. Broader production-level availability is expected 2027-2028, mass-market comparable to industrial robots today by 2029-2030.",
+      "applications": [
+        "Warehouse/logistics material handling (Amazon, others)",
+        "Automotive parts transfer and assembly support (BMW)",
+        "Internal manufacturing use (Tesla's own factories)",
+        "Future: home/consumer tasks (unproven, furthest out)"
+      ],
+      "investors_lenders": "Mega-cap strategics (Microsoft, Nvidia, Amazon's Industrial Innovation Fund), SoftBank (Masayoshi Son has called robotics the source of the next trillion-dollar company), Jeff Bezos personally, automakers (Hyundai acquired Boston Dynamics outright), and public markets increasingly via IPO/SPAC routes (Unitree's Shanghai IPO, Agility's Churchill Capital SPAC merger).",
+      "roadblocks": "Investor optimism is outpacing real-world progress - Unitree listed at roughly 210x its 2025 revenue. The harder test now is proving two-legged machines do useful work reliably and cheaply at scale: intervention rates, cost-per-completed-task versus other automation, safety, regulation, and social acceptance remain open questions. Tesla itself tempered expectations in January 2026, acknowledging early Optimus units weren't yet 'doing useful work.'",
+      "sentiment": "Euphoric and clearly ahead of fundamentals in places, but with real differentiation opening up between names. Unitree's Shanghai IPO debut surged as much as 629% (closing +460%) - notable partly because Unitree is actually profitable, a genuine outlier in the category. Boston Dynamics went the acquisition route (Hyundai) rather than a speculative IPO. Agility chose a SPAC at a comparatively modest $2.5B implied valuation - Forbes noted Unitree's pop makes Agility 'look super cheap' by comparison, illustrating how unsettled public-market pricing for the category still is.",
+      "primary_companies": [
+        {
+          "name": "Figure AI",
+          "type": "private",
+          "description": "General-purpose humanoid robot developer, already in live external commercial production (ahead of Tesla on that front) via its BMW deployment.",
+          "investors": "Over $1B in funding from Microsoft, Nvidia, and Jeff Bezos personally, among others.",
+          "performance": "Surpassed 10,000 deployments across partner warehouses by 2026; Figure 02 helped BMW build over 30,000 X3 vehicles during a 10-month deployment at Plant Spartanburg.",
+          "citations": [{"title": "Humanoid Robots in the Workplace: The 2026 Business Leader's Reality Check", "url": "https://www.aimagicx.com/blog/humanoid-robots-workplace-tesla-optimus-atlas-2026"}]
+        },
+        {
+          "name": "Unitree Robotics",
+          "type": "public",
+          "ticker": "SSE: 688xxx (Shanghai)",
+          "description": "Chinese humanoid and quadruped robot maker; the first pure-play humanoid to price a real public-market IPO, and notably already profitable.",
+          "investors": "Public markets (Shanghai STAR Market listing, August 2026).",
+          "performance": "Priced its IPO at a $9.04B valuation, raising ~$904M; shares surged as much as 629% and closed +460% on debut, valuing the company near $50B at the close. Shipped 5,500+ humanoids in 2025 and ~18,000 units across its full range by July 2026.",
+          "citations": [{"title": "Unitree Robotics Surges 460% After $904 Million Shanghai IPO", "url": "https://www.bloomberg.com/news/articles/2026-08-18/unitree-robotics-set-to-debut-after-904-million-shanghai-ipo"}]
+        },
+        {
+          "name": "Agility Robotics",
+          "type": "public (SPAC pending)",
+          "description": "Maker of Digit, the bipedal warehouse robot already deployed in Amazon fulfillment centers doing tote handling; pursuing a public listing via SPAC rather than a traditional IPO.",
+          "investors": "SoftBank, Amazon's Industrial Innovation Fund, DCVC, Playground Global, WP Global Partners (led the $400M Series C).",
+          "performance": "Definitive agreement (June 2026) to merge with Churchill Capital Corp XI at an implied $2.5B valuation - a step up from the ~$2.1B post-money valuation on its March 2025 Series C, but modest next to Unitree's public pop, which Forbes noted makes Agility 'look super cheap' by comparison.",
+          "citations": [{"title": "Unitree IPO's Massive 629% Pop Makes Agility Robotics Look Super Cheap", "url": "https://www.forbes.com/sites/johnkoetsier/2026/08/19/unitree-ipos-massive-629-pop-makes-agility-robotics-look-super-cheap/"}]
+        },
+        {
+          "name": "Boston Dynamics",
+          "type": "private (Hyundai subsidiary)",
+          "description": "Pioneer in dynamic legged robotics (Atlas, Spot); the most technically renowned name in the category, now fully owned by an automaker rather than pursuing independent public markets.",
+          "investors": "Hyundai Motor Group (acquired outright, deal closed July 16, 2026).",
+          "performance": "Valuation had climbed from $1.1B toward an implied $21-28B (per Korean securities firms) following its CES 2025 Atlas demonstration, with some IPO-scenario estimates as high as $85B+ before the Hyundai acquisition took it off any public-listing path.",
+          "citations": [{"title": "Boston Dynamics IPO and $100B Valuation: How It Compares to Tesla Optimus, Figure AI and Humanoid Rivals", "url": "https://robottoday.com/article/boston-dynamics-ipo-and-100-b-valuation-how-it-compares-to-tesla-optimus-figure-ai-and-humanoid-rivals"}]
+        },
+        {
+          "name": "Tesla (Optimus)",
+          "type": "public",
+          "ticker": "TSLA",
+          "description": "Building Optimus as an internal-manufacturing and eventually external-sale humanoid; the highest-capex bet in the category, though currently the furthest from external commercial deployment of the major players.",
+          "investors": "Public markets - already extensively covered in the Equities Desk (Point 3), not duplicated here.",
+          "performance": "Cumulative Optimus production surpassed 50,000 units in early 2026; Gen 3 Optimus began production summer 2026. 2026 capex more than doubled to $20B, a significant portion directed at Optimus manufacturing buildout. Management tempered expectations in January 2026, acknowledging early units weren't yet 'doing useful work.'",
+          "citations": [{"title": "Tesla Optimus Price & Availability (2026): Confirmed Facts vs Estimates", "url": "https://www.roboticscenter.ai/blog/tesla-optimus-price-availability"}]
+        }
+      ],
+      "adjacent_companies": [
+        {
+          "name": "Harmonic Drive Systems",
+          "type": "public",
+          "ticker": "JP: 6324 (Tokyo)",
+          "description": "Makes the precision strain-wave gears inside high-spec robot joint actuators - a single humanoid needs 20-40+ actuators, and Harmonic's components can represent 30-50%+ of the motion-system bill of materials in premium platforms. The default Tier-1 supplier for Western and Japanese builds.",
+          "investors": "Public markets (Tokyo Stock Exchange).",
+          "performance": "Underperformed through 2024-2025 but rediscovered by investors in 2026, up roughly 16% year-to-date as mass production ramps with several humanoid customers, with volumes expected to ramp significantly starting FY2027.",
+          "citations": [{"title": "Humanoid Robots: A High-Growth AI Market — And Why Harmonic Drive and FANUC Matter", "url": "https://www.dividendjapan.com/p/humanoids-growth-market-japan-stocks"}]
+        },
+        {
+          "name": "Amazon",
+          "type": "public",
+          "ticker": "AMZN",
+          "relationship": "The largest disclosed commercial customer for humanoid robotics (Agility's Digit in fulfillment centers) and a direct investor (Industrial Innovation Fund backs Agility) - stands to gain materially on the labor-cost/throughput side if the category delivers on its promise.",
+          "investors": "Public markets - already extensively covered in the Equities Desk (Point 3), not duplicated here.",
+          "performance": "Robotics deployment is a small operational input relative to Amazon's total business; watch this as a cost/margin lever in fulfillment rather than a standalone catalyst.",
+          "citations": [{"title": "Humanoid Robots in the Workplace: The 2026 Business Leader's Reality Check", "url": "https://www.aimagicx.com/blog/humanoid-robots-workplace-tesla-optimus-atlas-2026"}]
+        },
+        {
+          "name": "NVIDIA",
+          "type": "public",
+          "ticker": "NVDA",
+          "relationship": "Supplies the simulation (Isaac platform) and edge-compute (Jetson) infrastructure most humanoid developers train and run on - a picks-and-shovels position across the category regardless of which robot maker wins.",
+          "investors": "Public markets - already extensively covered in the Equities Desk (Point 3) and in this report's Quantum Computing section, not duplicated here.",
+          "performance": "Robotics is a small but strategically-positioned slice of Nvidia's broader AI-infrastructure franchise.",
+          "citations": [{"title": "Investors bet humanoid robots will transform industry and homes over the next decade", "url": "https://www.cnbc.com/2026/06/03/humanoid-robots-trillion-dollar-ai-market.html"}]
+        }
+      ]
+    },
+    {
+      "id": "nuclear-smr",
+      "name": "Nuclear SMRs",
+      "eyebrow": "Energy infrastructure · pre-commercial",
+      "how_it_works": "Small Modular Reactors are factory-fabricated nuclear reactors (typically under 300MW, versus 1,000MW+ for traditional plants) designed to be built in a controlled factory setting and shipped to site, compressing construction timelines from 6-10 years to a targeted 3-5 years. Designs vary (light-water like NuScale/BWRX-300, high-temperature gas-cooled like X-energy, sodium-cooled fast reactors like TerraPower's Natrium), each trading off fuel type, cooling approach, and licensing pathway differently.",
+      "maturity": "Pre-commercial in the West. Only four SMR units operate commercially worldwide as of early 2026 (Russia's floating Akademik Lomonosov plant and China's Linglong One demonstration reactor, the latter targeting H1 2026 as the first land-based commercial SMR). In North America, Ontario Power Generation's BWRX-300 is under construction at Darlington targeting 2029 commercial operation - the likely first grid-scale SMR in the region. TerraPower's Natrium in Wyoming targets the early 2030s. A new technology-inclusive NRC licensing framework (Part 53) was finalized in March 2026, but licensing remains slow in practice.",
+      "applications": [
+        "AI data center power (the dominant near-term demand driver)",
+        "Grid-scale baseload power replacing aging coal/gas plants",
+        "Industrial process heat",
+        "Remote/off-grid power (military, mining)"
+      ],
+      "investors_lenders": "Every major US hyperscaler has signed at least one nuclear offtake deal (Microsoft's 837MW deal among them); the pipeline of conditional offtake agreements grew from 25GW (end of 2024) to 45GW (April 2026). The U.S. DOE is a direct funder (X-energy received an additional $1B in cost-shared funding on top of prior support; TerraPower and others have federal backing too). Private capital includes Bill Gates (TerraPower founder/backer) and specialist energy-transition funds.",
+      "roadblocks": "Cost is the central problem: Lux Research estimates first-of-a-kind SMRs could run ~$331/MWh versus $124/MWh for natural gas once overruns and delays are factored in. Regulatory/licensing delays are real (an X-energy Texas project recently faced formal opposition on financial-qualification grounds before the NRC's licensing board). HALEU fuel supply is a bottleneck - only one Western producer currently licensed (see Centrus Energy, adjacent). The timeline mismatch is stark: hyperscalers need power now, but even optimistic SMR projections don't see broad deployment before the early 2030s.",
+      "sentiment": "Split between public-market skepticism and continued private/strategic conviction. Oklo and NuScale - the two most-followed public pure-plays - have shed a combined 85.3% in 2026 as investors confront the reality that neither has a revenue-generating project yet, and Bank of America doesn't see real-world adoption meaningfully picking up until 2035-2040. Yet Oklo separately pursued a public listing targeting a $10B+ valuation in February 2026, and hyperscaler offtake commitments keep growing - suggesting strategic/infrastructure investors are underwriting a much longer timeline than public equity holders are currently willing to.",
+      "primary_companies": [
+        {
+          "name": "NuScale Power",
+          "type": "public",
+          "ticker": "SMR",
+          "description": "Light-water SMR designer, the most established of the Western public pure-plays by regulatory track record.",
+          "investors": "Public markets (NYSE-listed).",
+          "performance": "Down nearly 27% in 2026 as of May, with losses deepening later in the year (combined with Oklo, down 85.3% by late August). $766.5M cash vs $824.4M total debt as of Q2 2026 - a tighter balance sheet than Oklo's, per analyst comparisons.",
+          "citations": [{"title": "Oklo and NuScale Power Have Shed a Combined 85.3% This Year. Why Are Nuclear Stocks Falling?", "url": "https://www.fool.com/investing/2026/08/27/oklo-and-nuscale-power-have-shed-a-combined-853-th/"}]
+        },
+        {
+          "name": "Oklo",
+          "type": "public",
+          "ticker": "OKLO",
+          "description": "Fast-reactor (Aurora powerhouse) designer targeting smaller, distributed deployments; has a signed fuel-supply agreement with Centrus Energy for HALEU delivery starting 2029.",
+          "investors": "Public markets (NYSE-listed); backed earlier by Sam Altman as chairman.",
+          "performance": "Down about 11% on the year as of May 2026, worsening alongside NuScale later in the year. Filed for an IPO-adjacent public listing in February 2026 targeting a $10B+ valuation. Analysts see a stronger financial position than NuScale, with less near-term dilution risk.",
+          "citations": [{"title": "Oklo vs. NuScale Power: Both Are Falling in 2026, but Only One Is Worth Buying Now", "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-vs-nuscale-power-both-082500055.html"}]
+        },
+        {
+          "name": "X-energy",
+          "type": "public",
+          "ticker": "XE",
+          "description": "High-temperature gas-cooled reactor (Xe-100) and TRISO fuel developer; among the most recent SMR names to go public.",
+          "investors": "Amazon (strategic investor pre-IPO), the U.S. DOE (~$1B in cost-shared funding); public markets since its April 2026 Nasdaq debut.",
+          "performance": "Closed an oversubscribed $700M Series D at a $6.9B valuation (March 2026), then completed an upsized IPO at $23/share on Nasdaq (April 24, 2026). Market cap was around $4.5B as of July 2026 with shares near $15.66 - trading below the private-round valuation implied, a common post-IPO pattern for capital-intensive pre-revenue names.",
+          "citations": [{"title": "X-energy Announces Pricing of Upsized Initial Public Offering", "url": "https://x-energy.com/news/x-energy-announces-pricing-of-upsized-initial-public-offering/"}]
+        },
+        {
+          "name": "TerraPower",
+          "type": "private",
+          "description": "Sodium-cooled fast reactor (Natrium) developer, founded by Bill Gates; building its first commercial demonstration in Kemmerer, Wyoming.",
+          "investors": "Bill Gates, plus roughly $1.66B raised across 8 rounds from 11 investors total; significant U.S. DOE cost-share support.",
+          "performance": "Natrium project in Kemmerer, WY advancing toward an early-2030s commercial operation target - one of the more credible non-public timelines in the sector given Gates's long-term capital commitment and DOE backing.",
+          "citations": [{"title": "X-energy, TerraPower share updates on advanced reactor projects", "url": "https://www.ans.org/news/article-8297/xenergy-terrapower-share-updates-on-advanced-reactor-projects/"}]
+        }
+      ],
+      "adjacent_companies": [
+        {
+          "name": "Centrus Energy",
+          "type": "public",
+          "ticker": "LEU",
+          "relationship": "The only licensed HALEU (High-Assay Low-Enriched Uranium) producer in the Western world - a strategic monopoly on the fuel most advanced SMR designs require. Already covered in the Equities Desk (Point 3) as a top loser this pull on a dilutive stock offering; here the relevant angle is its fuel-supply agreement with Oklo (deliveries starting 2029) and $3.8B revenue backlog through 2040.",
+          "investors": "Public markets (NYSE American-listed).",
+          "performance": "Stock recently around $162, well below its 52-week high of $464.25. Q1 2026 revenue $76.7M (+5% y/y), but 2026 EPS consensus implies a ~29.7% y/y decline.",
+          "citations": [{"title": "Centrus Energy vs Cameco: Which Uranium Stock Has an Edge Right Now?", "url": "https://finance.yahoo.com/news/centrus-energy-vs-cameco-uranium-171800852.html"}]
+        },
+        {
+          "name": "Cameco",
+          "type": "public",
+          "ticker": "CCJ",
+          "relationship": "Diversified across the full uranium value chain (mining, refining, enrichment, reactor design/services) rather than a single-point HALEU bet like Centrus - a broader way to play rising uranium demand from the SMR buildout without single-supplier concentration risk.",
+          "investors": "Public markets (NYSE/TSX-listed).",
+          "performance": "~230 million pounds of uranium committed under long-term agreements; expanding its Piketon, OH enrichment plant to boost LEU and HALEU production capacity.",
+          "citations": [{"title": "Cameco vs. Centrus Energy: Which Uranium Stock is the Better Buy Now?", "url": "https://finance.yahoo.com/energy/articles/cameco-vs-centrus-energy-uranium-164100386.html"}]
+        },
+        {
+          "name": "Microsoft",
+          "type": "public",
+          "ticker": "MSFT",
+          "relationship": "Signed an 837MW nuclear offtake deal as part of the hyperscaler demand wave driving the entire SMR investment case - the demand side of the equation, stands to gain from reliable carbon-free power for AI data centers if SMRs deliver on cost/timeline.",
+          "investors": "Public markets - not otherwise covered in this dashboard's equities coverage to date.",
+          "performance": "Nuclear power procurement is a small line item relative to Microsoft's total capex, but a strategically important one for long-term data center power reliability.",
+          "citations": [{"title": "Data 4 Nuclear 2026, 837 MW Microsoft Deal", "url": "https://enkiai.com/nuclear/data4-smr-data-centers/"}]
+        }
+      ]
+    }
+  ]
+}
