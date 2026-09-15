@@ -1,5 +1,6 @@
 {
   "as_of": "2026-09-14T00:44:08.002004+00:00",
+  "freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp.",
   "indices": {
     "SP500": {
       "name": "SP500",
@@ -16341,7 +16342,8 @@
       "citations": [
         {
           "title": "HPE Surges As Record Q3 And Oracle AI Deals Reset Outlook",
-          "url": "https://www.timothysykes.com/news/hewlettpackardenterprisecompany-hpe-news-2026_09_13-2/"
+          "url": "https://www.timothysykes.com/news/hewlettpackardenterprisecompany-hpe-news-2026_09_13-2/",
+          "date": "2026-09-13"
         }
       ],
       "verdict": "aligned"
@@ -16361,7 +16363,8 @@
       "citations": [
         {
           "title": "Dell stock surges on record orders for AI servers",
-          "url": "https://finance.yahoo.com/markets/article/dell-stock-surges-on-record-orders-for-ai-servers-205629050.html"
+          "url": "https://finance.yahoo.com/markets/article/dell-stock-surges-on-record-orders-for-ai-servers-205629050.html",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16381,7 +16384,8 @@
       "citations": [
         {
           "title": "Vicor Stock Climbs with Backlog Up 145%, More Capacity Coming",
-          "url": "https://www.benzinga.com/markets/tech/26/09/61746170/vicor-stock-climbs-with-backlog-up-145-more-capacity-coming"
+          "url": "https://www.benzinga.com/markets/tech/26/09/61746170/vicor-stock-climbs-with-backlog-up-145-more-capacity-coming",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16401,7 +16405,8 @@
       "citations": [
         {
           "title": "NetApp NTAP Stock Jumps After Blowout Q1 And Raised 2027 Outlook",
-          "url": "https://www.timothysykes.com/news/netapp-inc-ntap-news-2026_09_11/"
+          "url": "https://www.timothysykes.com/news/netapp-inc-ntap-news-2026_09_11/",
+          "date": "2026-09-11"
         }
       ],
       "verdict": "aligned"
@@ -16421,7 +16426,8 @@
       "citations": [
         {
           "title": "ON Semiconductor Stock Jumped Nearly 9% in a Day",
-          "url": "https://www.tikr.com/blog/on-semiconductor-stock-jumped-nearly-9-in-a-day-heres-where-the-stock-could-go-in-2026"
+          "url": "https://www.tikr.com/blog/on-semiconductor-stock-jumped-nearly-9-in-a-day-heres-where-the-stock-could-go-in-2026",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16441,7 +16447,8 @@
       "citations": [
         {
           "title": "HP Surges 8% to 52-Week High on AI Infrastructure Push",
-          "url": "https://www.basisreport.com/news/hpq-hp-surges-8-to-52-week-high-on-ai-infrastructure-push"
+          "url": "https://www.basisreport.com/news/hpq-hp-surges-8-to-52-week-high-on-ai-infrastructure-push",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16461,7 +16468,8 @@
       "citations": [
         {
           "title": "IES Holdings Stock Moves 30% as Q3 Earnings Crush Analyst Estimates",
-          "url": "https://www.tikr.com/blog/ies-holdings-stock-q3-earnings-beat-stock-split-2026"
+          "url": "https://www.tikr.com/blog/ies-holdings-stock-q3-earnings-beat-stock-split-2026",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16481,7 +16489,8 @@
       "citations": [
         {
           "title": "Synaptics Jumps 6.3% Amid Sector-Wide Rally",
-          "url": "https://news.alphastreet.com/synaptics-jumps-6-3-amid-sector-wide-rally/"
+          "url": "https://news.alphastreet.com/synaptics-jumps-6-3-amid-sector-wide-rally/",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16501,7 +16510,8 @@
       "citations": [
         {
           "title": "CDW Jumps 6.2% Amid Sector-Wide Rally",
-          "url": "https://news.alphastreet.com/cdw-jumps-6-2-amid-sector-wide-rally/"
+          "url": "https://news.alphastreet.com/cdw-jumps-6-2-amid-sector-wide-rally/",
+          "date": "2026-09"
         }
       ],
       "verdict": "mixed"
@@ -16521,7 +16531,8 @@
       "citations": [
         {
           "title": "Macy's Q2 2026: Beat and Guidance Raise Keep the Turnaround Rally Intact",
-          "url": "https://www.alphapilot.tech/discover/macy-s-q2-2026-beat-and-guidance-raise-keep-the-turnaround-rally-intact"
+          "url": "https://www.alphapilot.tech/discover/macy-s-q2-2026-beat-and-guidance-raise-keep-the-turnaround-rally-intact",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16541,7 +16552,8 @@
       "citations": [
         {
           "title": "MaxLinear (MXL) Valuation Check After Q1 2026 AI Surge And Strong Revenue Growth",
-          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mxl/maxlinear/news/maxlinear-mxl-valuation-check-after-q1-2026-ai-surge-and-str"
+          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mxl/maxlinear/news/maxlinear-mxl-valuation-check-after-q1-2026-ai-surge-and-str",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16561,7 +16573,8 @@
       "citations": [
         {
           "title": "Super Micro Computer (NASDAQ: SMCI) Stock Surges 31% As Margins Soar And Investigation Clears Management",
-          "url": "https://www.foreignpolicyjournal.com/2026/09/03/super-micro-computer-nasdaq-smci-stock-surges-31-as-margins-soar-and-investigation-clears-management/"
+          "url": "https://www.foreignpolicyjournal.com/2026/09/03/super-micro-computer-nasdaq-smci-stock-surges-31-as-margins-soar-and-investigation-clears-management/",
+          "date": "2026-09-03"
         }
       ],
       "verdict": "aligned"
@@ -16581,7 +16594,8 @@
       "citations": [
         {
           "title": "FLEX Jumps As Flex Ltd. Bets $4.4B On AI Power Spin-Off",
-          "url": "https://www.timothysykes.com/news/flexltd-flex-news-2026_09_11/"
+          "url": "https://www.timothysykes.com/news/flexltd-flex-news-2026_09_11/",
+          "date": "2026-09-11"
         }
       ],
       "verdict": "aligned"
@@ -16601,7 +16615,8 @@
       "citations": [
         {
           "title": "Avnet Q4 Earnings Beat on Broad-Based Demand and Margin Gains",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/avnet-q4-earnings-beat-broad-150600117.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/avnet-q4-earnings-beat-broad-150600117.html",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16621,7 +16636,8 @@
       "citations": [
         {
           "title": "Why Inspire Medical Systems (INSP) Stock Is Up Today",
-          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-11-why-inspire-medical-systems-insp-stock-is-up-today"
+          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-11-why-inspire-medical-systems-insp-stock-is-up-today",
+          "date": "2026-09-11"
         }
       ],
       "verdict": "aligned"
@@ -16643,7 +16659,8 @@
       "citations": [
         {
           "title": "Centrus Energy (LEU) Stock Trades Down, Here Is Why",
-          "url": "https://ca.finance.yahoo.com/news/centrus-energy-leu-stock-trades-024904901.html"
+          "url": "https://ca.finance.yahoo.com/news/centrus-energy-leu-stock-trades-024904901.html",
+          "date": "2026-09-11"
         }
       ],
       "verdict": "aligned"
@@ -16663,7 +16680,8 @@
       "citations": [
         {
           "title": "Qualys (NASDAQ:QLYS) Stock Price Down 3.9% - Time to Sell?",
-          "url": "https://www.marketbeat.com/instant-alerts/price-qualys-nasdaq-qlys-stock-price-down-39-time-to-sell-2026-09-11/"
+          "url": "https://www.marketbeat.com/instant-alerts/price-qualys-nasdaq-qlys-stock-price-down-39-time-to-sell-2026-09-11/",
+          "date": "2026-09-11"
         }
       ],
       "verdict": "aligned"
@@ -16684,7 +16702,8 @@
       "citations": [
         {
           "title": "Why Kadant (KAI) Shares Are Trading Lower Today",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-kadant-kai-shares-trading-052305221.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-kadant-kai-shares-trading-052305221.html",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16704,7 +16723,8 @@
       "citations": [
         {
           "title": "DigitalOcean Holdings Inc (DOCN) Shares Fall 3.5% -- What GF Score of 67 Tells Investors",
-          "url": "https://www.gurufocus.com/news/9050389/digitalocean-holdings-inc-docn-shares-fall-35-what-gf-score-of-67-tells-investors"
+          "url": "https://www.gurufocus.com/news/9050389/digitalocean-holdings-inc-docn-shares-fall-35-what-gf-score-of-67-tells-investors",
+          "date": "2026-09"
         }
       ],
       "verdict": "mixed"
@@ -16725,7 +16745,8 @@
       "citations": [
         {
           "title": "Arcus Biosciences Stock Stumbles After Harsh Double Blow",
-          "url": "https://www.tipranks.com/news/catalyst/arcus-biosciences-stock-stumbles-after-harsh-double-blow"
+          "url": "https://www.tipranks.com/news/catalyst/arcus-biosciences-stock-stumbles-after-harsh-double-blow",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16745,7 +16766,8 @@
       "citations": [
         {
           "title": "SolarEdge (SEDG) Stock Price Drops As Margin Recovery Faces Fresh Doubts",
-          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-sedg/solaredge-technologies/news/solaredge-sedg-stock-price-drops-as-margin-recovery-faces-fr/amp"
+          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-sedg/solaredge-technologies/news/solaredge-sedg-stock-price-drops-as-margin-recovery-faces-fr/amp",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16780,7 +16802,8 @@
       "citations": [
         {
           "title": "Why Artisan Partners (APAM) Stock Is Falling Today",
-          "url": "https://www.tradingview.com/news/stockstory:dce0962de094b:0-why-artisan-partners-apam-stock-is-falling-today/"
+          "url": "https://www.tradingview.com/news/stockstory:dce0962de094b:0-why-artisan-partners-apam-stock-is-falling-today/",
+          "date": "2026-09"
         }
       ],
       "verdict": "mixed"
@@ -16800,7 +16823,8 @@
       "citations": [
         {
           "title": "Avis Budget Group (CAR) Stock Drops As Profit Rebound Meets Debt Scrutiny",
-          "url": "https://simplywall.st/stocks/us/transportation/nasdaq-car/avis-budget-group/news/avis-budget-group-car-stock-drops-as-profit-rebound-meets-de"
+          "url": "https://simplywall.st/stocks/us/transportation/nasdaq-car/avis-budget-group/news/avis-budget-group-car-stock-drops-as-profit-rebound-meets-de",
+          "date": "2026-09"
         }
       ],
       "verdict": "mixed"
@@ -16820,7 +16844,8 @@
       "citations": [
         {
           "title": "Alpha Metallurgical Resources Drops 6.5% Amid Sector-Wide Selling",
-          "url": "https://news.alphastreet.com/alpha-metallurgical-resources-drops-6-5-amid-sector-wide-selling/"
+          "url": "https://news.alphastreet.com/alpha-metallurgical-resources-drops-6-5-amid-sector-wide-selling/",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16840,7 +16865,8 @@
       "citations": [
         {
           "title": "Warrior Met Coal Drops 5.4% Amid Sector-Wide Selling",
-          "url": "https://news.alphastreet.com/warrior-met-coal-drops-5-4-amid-sector-wide-selling/"
+          "url": "https://news.alphastreet.com/warrior-met-coal-drops-5-4-amid-sector-wide-selling/",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16860,7 +16886,8 @@
       "citations": [
         {
           "title": "Albemarle Corp. stock slips as lithium strike risk in Chile adds to recent volatility",
-          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/albemarle-corp-stock-slips-as-lithium-strike-risk-in-chile-adds-to-recent/70074575"
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/albemarle-corp-stock-slips-as-lithium-strike-risk-in-chile-adds-to-recent/70074575",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16880,7 +16907,8 @@
       "citations": [
         {
           "title": "Storage Stocks Slide as Profit Taking Follows Big Run: Seagate Falls 4%, SanDisk Drops 3%, Micron Holds Flat",
-          "url": "https://247wallst.com/investing/2026/09/11/storage-stocks-slide-as-profit-taking-follows-big-run-seagate-falls-4-sandisk-drops-3-micron-holds-flat/"
+          "url": "https://247wallst.com/investing/2026/09/11/storage-stocks-slide-as-profit-taking-follows-big-run-seagate-falls-4-sandisk-drops-3-micron-holds-flat/",
+          "date": "2026-09-11"
         }
       ],
       "verdict": "counter"
@@ -16915,7 +16943,8 @@
       "citations": [
         {
           "title": "Storage Stocks Slide as Profit Taking Follows Big Run: Seagate Falls 4%, SanDisk Drops 3%, Micron Holds Flat",
-          "url": "https://247wallst.com/investing/2026/09/11/storage-stocks-slide-as-profit-taking-follows-big-run-seagate-falls-4-sandisk-drops-3-micron-holds-flat/"
+          "url": "https://247wallst.com/investing/2026/09/11/storage-stocks-slide-as-profit-taking-follows-big-run-seagate-falls-4-sandisk-drops-3-micron-holds-flat/",
+          "date": "2026-09-11"
         }
       ],
       "verdict": "counter"
@@ -16938,7 +16967,8 @@
       "citations": [
         {
           "title": "Kraft Heinz to Transfer Stock Exchange Listing to NYSE",
-          "url": "https://news.kraftheinzcompany.com/press-releases-details/2026/Kraft-Heinz-to-Transfer-Stock-Exchange-Listing-to-NYSE/default.aspx"
+          "url": "https://news.kraftheinzcompany.com/press-releases-details/2026/Kraft-Heinz-to-Transfer-Stock-Exchange-Listing-to-NYSE/default.aspx",
+          "date": "2026-09"
         }
       ],
       "verdict": "mixed"
@@ -16959,7 +16989,8 @@
       "citations": [
         {
           "title": "Arcus Biosciences Stock Stumbles After Harsh Double Blow",
-          "url": "https://www.tipranks.com/news/catalyst/arcus-biosciences-stock-stumbles-after-harsh-double-blow"
+          "url": "https://www.tipranks.com/news/catalyst/arcus-biosciences-stock-stumbles-after-harsh-double-blow",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -16980,7 +17011,8 @@
       "citations": [
         {
           "title": "Kimco Realty Q2 Earnings: FFO $0.46, Outlook Up",
-          "url": "https://www.stocktitan.net/news/KIM/kimco-realty-announces-second-quarter-2026-f02ce6jikj4b.html"
+          "url": "https://www.stocktitan.net/news/KIM/kimco-realty-announces-second-quarter-2026-f02ce6jikj4b.html",
+          "date": "2026-09"
         }
       ],
       "verdict": "counter"
@@ -17001,7 +17033,8 @@
       "citations": [
         {
           "title": "Telsey raises Restoration Hardware stock price target on better results",
-          "url": "https://www.investing.com/news/analyst-ratings/telsey-raises-restoration-hardware-stock-price-target-on-better-results-93CH-4897499"
+          "url": "https://www.investing.com/news/analyst-ratings/telsey-raises-restoration-hardware-stock-price-target-on-better-results-93CH-4897499",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -17022,7 +17055,8 @@
       "citations": [
         {
           "title": "Why SPS Commerce Rallied on Friday",
-          "url": "https://www.fool.com/investing/2026/09/11/why-sps-commerce-rallied-on-friday/"
+          "url": "https://www.fool.com/investing/2026/09/11/why-sps-commerce-rallied-on-friday/",
+          "date": "2026-09-11"
         }
       ],
       "verdict": "aligned"
@@ -17039,11 +17073,17 @@
       "avg_volume": 32794561,
       "contribution_pct": -0.0284,
       "volume_vs_avg_ratio": 2.42,
-      "narrative": "IMPORTANT CROSS-CURRENT: Oracle fell despite a Q1 \"beat and raise\" print, and separately dropped 5.4% on Sept 1 as the bond selloff punished it specifically for financing risk - Oracle has negative $23.7B free cash flow from building AI data centers, raised $43B in debt last year plus a planned $20B equity raise. Down 59% from last September's peak. This is the financing-risk mirror image of the HPE/DELL AI-capex bull case: same theme, opposite market verdict when the balance sheet is stretched.",
+      "narrative": "IMPORTANT CROSS-CURRENT: Oracle fell despite a Q1 \"beat and raise\" print, and separately dropped 5.4% on Sept 1 as the bond selloff punished it specifically for financing risk - Oracle has negative $23.7B free cash flow from building AI data centers, raised $43B in debt last year plus a planned $20B equity raise. Down 59% from last September's peak. This is the financing-risk mirror image of the HPE/DELL AI-capex bull case: same theme, opposite market verdict when the balance sheet is stretched. UPDATE (2026-09-14, same-day as this pull): Oracle fell another ~4.8% to a near-two-week low after expanding its 2026 restructuring plan by $700M (total charges now $2.8B) to cover layoff severance, even as Larry Ellison canceled a planned $7.5B stock sale - a move that would normally read as a bullish insider signal but was overshadowed by broader AI-stock selling and rising Fed-hike odds. Revenue still grew 30% last quarter; interest expense up 55% y/y keeps the financing-risk thesis intact.",
       "citations": [
         {
           "title": "Oracle stock has worst week since 2001 dot-com bust as AI financing concerns escalate",
-          "url": "https://www.cnbc.com/2026/06/26/oracle-stock-ends-worst-week-since-2001-as-investors-dwell-on-finances.html"
+          "url": "https://www.cnbc.com/2026/06/26/oracle-stock-ends-worst-week-since-2001-as-investors-dwell-on-finances.html",
+          "date": "2026-06-26"
+        },
+        {
+          "title": "Oracle Slides 5% as Layoff Costs Outweigh Ellison's Canceled $7.5B Stock Sale",
+          "url": "https://247wallst.com/investing/2026/09/14/oracle-slides-5-as-layoff-costs-outweigh-ellisons-canceled-7-5b-stock-sale-nebius-and-coreweave-fall-5/",
+          "date": "2026-09-14"
         }
       ],
       "verdict": "aligned"
@@ -17064,7 +17104,8 @@
       "citations": [
         {
           "title": "Why is CooperCompanies Stock Down 15% Today?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-coopercompanies-stock-down-15-183253788.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-coopercompanies-stock-down-15-183253788.html",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -17085,7 +17126,8 @@
       "citations": [
         {
           "title": "Why AeroVironment (AVAV) Stock Is Up Today",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-aerovironment-avav-stock-today-004104139.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-aerovironment-avav-stock-today-004104139.html",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -17106,7 +17148,8 @@
       "citations": [
         {
           "title": "Vail Resorts Announces Fiscal 2026 Fourth Quarter and Year-End Earnings Release Date",
-          "url": "https://investors.vailresorts.com/news-releases/news-release-details/vail-resorts-announces-fiscal-2026-fourth-quarter-and-year-end"
+          "url": "https://investors.vailresorts.com/news-releases/news-release-details/vail-resorts-announces-fiscal-2026-fourth-quarter-and-year-end",
+          "date": "2026-09"
         }
       ],
       "verdict": "mixed"
@@ -17127,7 +17170,8 @@
       "citations": [
         {
           "title": "Clorox's price target was lowered to $97 from $100 at Citi",
-          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/clorox-co-stock-heads-into-the-open-after-a-0-95-percent-decline/70085524"
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/clorox-co-stock-heads-into-the-open-after-a-0-95-percent-decline/70085524",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -17148,7 +17192,8 @@
       "citations": [
         {
           "title": "Kenvue's Kimberly-Clark deal is nearing closing with key risks still ahead",
-          "url": "https://finance.yahoo.com/quote/KVUE/news/"
+          "url": "https://finance.yahoo.com/quote/KVUE/news/",
+          "date": "2026-09"
         }
       ],
       "verdict": "mixed"
@@ -17169,7 +17214,8 @@
       "citations": [
         {
           "title": "American Eagle (NYSE:AEO) Exceeds Q2 CY2026 Expectations But Stock Drops 12.1%",
-          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-9-american-eagle-nyseaeo-exceeds-q2-cy2026-expectations-but-stock-drops-121"
+          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-9-american-eagle-nyseaeo-exceeds-q2-cy2026-expectations-but-stock-drops-121",
+          "date": "2026-09-09"
         }
       ],
       "verdict": "counter"
@@ -17206,7 +17252,8 @@
       "citations": [
         {
           "title": "JBT Marel (JBTM) Updated Guidance And Backed Buybacks, Is The Stock Cheap?",
-          "url": "https://simplywall.st/stocks/us/capital-goods/nyse-jbtm/jbt-marel/news/jbt-marel-jbtm-updated-guidance-and-backed-buybacks-is-the-s"
+          "url": "https://simplywall.st/stocks/us/capital-goods/nyse-jbtm/jbt-marel/news/jbt-marel-jbtm-updated-guidance-and-backed-buybacks-is-the-s",
+          "date": "2026-09"
         }
       ],
       "verdict": "mixed"
@@ -17227,7 +17274,8 @@
       "citations": [
         {
           "title": "Why Kadant (KAI) Shares Are Trading Lower Today",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-kadant-kai-shares-trading-052305221.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-kadant-kai-shares-trading-052305221.html",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -28264,7 +28312,8 @@
         "citations": [
           {
             "title": "Guidewire Software (GWRE) Is Down 21.1% After Tempered Fiscal 2027 Outlook Despite Solid ARR Trends",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/guidewire-software-gwre-down-21-010651597.html"
+            "url": "https://finance.yahoo.com/markets/stocks/articles/guidewire-software-gwre-down-21-010651597.html",
+            "date": "2026-09-04"
           }
         ],
         "verdict": "aligned",
@@ -28285,7 +28334,8 @@
         "citations": [
           {
             "title": "Why Is The Bancorp Stock Down 21% Today?",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/why-bancorp-stock-down-21-193249121.html"
+            "url": "https://finance.yahoo.com/markets/stocks/articles/why-bancorp-stock-down-21-193249121.html",
+            "date": "2026-09"
           }
         ],
         "verdict": "aligned",
@@ -28306,7 +28356,8 @@
         "citations": [
           {
             "title": "Dips In UiPath Stock Have Mostly Kept Falling, Will This One Too?",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/dips-uipath-stock-mostly-kept-falling-014308637.html"
+            "url": "https://finance.yahoo.com/markets/stocks/articles/dips-uipath-stock-mostly-kept-falling-014308637.html",
+            "date": "2026-09"
           }
         ],
         "verdict": "aligned",
@@ -28328,7 +28379,8 @@
         "citations": [
           {
             "title": "Why is CooperCompanies Stock Down 15% Today?",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/why-coopercompanies-stock-down-15-183253788.html"
+            "url": "https://finance.yahoo.com/markets/stocks/articles/why-coopercompanies-stock-down-15-183253788.html",
+            "date": "2026-09"
           }
         ],
         "verdict": "aligned",
@@ -28349,7 +28401,8 @@
         "citations": [
           {
             "title": "Why Did Casey's General Stores Stock Tank This Week?",
-            "url": "https://www.fool.com/investing/2026/09/11/why-did-caseys-general-stores-stock-tank-this-week/"
+            "url": "https://www.fool.com/investing/2026/09/11/why-did-caseys-general-stores-stock-tank-this-week/",
+            "date": "2026-09-11"
           }
         ],
         "verdict": "aligned",
@@ -28369,7 +28422,8 @@
         "citations": [
           {
             "title": "CoStar Group (NASDAQ:CSGP) Sets New 52-Week Low - Time to Sell?",
-            "url": "https://www.marketbeat.com/instant-alerts/costar-group-nasdaqcsgp-sets-new-52-week-low-time-to-sell-2026-05-08/"
+            "url": "https://www.marketbeat.com/instant-alerts/costar-group-nasdaqcsgp-sets-new-52-week-low-time-to-sell-2026-05-08/",
+            "date": "2026-05-08"
           }
         ],
         "verdict": "aligned",
@@ -28387,7 +28441,8 @@
         "citations": [
           {
             "title": "Kratos Defense & Security Solutions, Inc. (KTOS) Stock Price & News - Google Finance",
-            "url": "https://www.google.com/finance/quote/KTOS:NASDAQ"
+            "url": "https://www.google.com/finance/quote/KTOS:NASDAQ",
+            "date": "n/d"
           }
         ],
         "verdict": "aligned",
@@ -28405,7 +28460,8 @@
         "citations": [
           {
             "title": "Fiserv stock tumbles after cutting 2026 guidance",
-            "url": "https://ca.investing.com/news/stock-market-news/fiserv-stock-tumbles-after-cutting-2026-guidance-93CH-4781377"
+            "url": "https://ca.investing.com/news/stock-market-news/fiserv-stock-tumbles-after-cutting-2026-guidance-93CH-4781377",
+            "date": "2026-09"
           }
         ],
         "verdict": "aligned",
@@ -28423,7 +28479,8 @@
         "citations": [
           {
             "title": "Has BSX Stock Fallen Far Enough To Buy?",
-            "url": "https://www.trefis.com/articles-v3/613349/has-bsx-stock-fallen-far-enough-to-buy/2026-08-27"
+            "url": "https://www.trefis.com/articles-v3/613349/has-bsx-stock-fallen-far-enough-to-buy/2026-08-27",
+            "date": "2026-08-27"
           }
         ],
         "verdict": "aligned",
@@ -28441,7 +28498,8 @@
         "citations": [
           {
             "title": "Duolingo Stock Is Down 41% in 2026. Here's Why Investors Are Repricing Growth",
-            "url": "https://www.tikr.com/blog/duolingo-stock-is-down-41-in-2026-heres-why-investors-are-repricing-growth"
+            "url": "https://www.tikr.com/blog/duolingo-stock-is-down-41-in-2026-heres-why-investors-are-repricing-growth",
+            "date": "2026-09"
           }
         ],
         "verdict": "aligned",
@@ -28465,7 +28523,8 @@
         "citations": [
           {
             "title": "Kraft Heinz to Transfer Stock Exchange Listing to NYSE",
-            "url": "https://news.kraftheinzcompany.com/press-releases-details/2026/Kraft-Heinz-to-Transfer-Stock-Exchange-Listing-to-NYSE/default.aspx"
+            "url": "https://news.kraftheinzcompany.com/press-releases-details/2026/Kraft-Heinz-to-Transfer-Stock-Exchange-Listing-to-NYSE/default.aspx",
+            "date": "2026-09"
           }
         ],
         "verdict": "mixed",
@@ -28487,7 +28546,8 @@
         "citations": [
           {
             "title": "Telsey raises Restoration Hardware stock price target on better results",
-            "url": "https://www.investing.com/news/analyst-ratings/telsey-raises-restoration-hardware-stock-price-target-on-better-results-93CH-4897499"
+            "url": "https://www.investing.com/news/analyst-ratings/telsey-raises-restoration-hardware-stock-price-target-on-better-results-93CH-4897499",
+            "date": "2026-09"
           }
         ],
         "verdict": "aligned",
@@ -28509,7 +28569,8 @@
         "citations": [
           {
             "title": "Why SPS Commerce Rallied on Friday",
-            "url": "https://www.fool.com/investing/2026/09/11/why-sps-commerce-rallied-on-friday/"
+            "url": "https://www.fool.com/investing/2026/09/11/why-sps-commerce-rallied-on-friday/",
+            "date": "2026-09-11"
           }
         ],
         "verdict": "aligned",
@@ -28531,7 +28592,8 @@
         "citations": [
           {
             "title": "Vail Resorts Announces Fiscal 2026 Fourth Quarter and Year-End Earnings Release Date",
-            "url": "https://investors.vailresorts.com/news-releases/news-release-details/vail-resorts-announces-fiscal-2026-fourth-quarter-and-year-end"
+            "url": "https://investors.vailresorts.com/news-releases/news-release-details/vail-resorts-announces-fiscal-2026-fourth-quarter-and-year-end",
+            "date": "2026-09"
           }
         ],
         "verdict": "mixed",
@@ -28553,7 +28615,8 @@
         "citations": [
           {
             "title": "American Eagle (NYSE:AEO) Exceeds Q2 CY2026 Expectations But Stock Drops 12.1%",
-            "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-9-american-eagle-nyseaeo-exceeds-q2-cy2026-expectations-but-stock-drops-121"
+            "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-9-american-eagle-nyseaeo-exceeds-q2-cy2026-expectations-but-stock-drops-121",
+            "date": "2026-09-09"
           }
         ],
         "verdict": "counter",

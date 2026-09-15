@@ -54,6 +54,7 @@ h1,h2,h3{{font-family:'Fraunces',Georgia,serif; text-wrap:balance; margin:0;}}
 .radar .eyebrow{{margin-bottom:5px; display:block;}}
 .radar.quiet .eyebrow{{color:var(--ink-faint);}}
 .radar p{{font-size:0.88rem; line-height:1.55; color:var(--ink-soft); margin:0;}}
+.freshness{{border-left:3px solid var(--line-strong); background:var(--surface-2); border-radius:0 10px 10px 0; padding:12px 16px; margin-bottom:20px; font-size:0.82rem; line-height:1.55; color:var(--ink-faint);}}
 
 .eyebrow{{text-transform:uppercase; letter-spacing:0.08em; font-size:0.7rem; color:var(--accent); font-weight:600;}}
 .section-sub{{color:var(--ink-soft); font-size:0.85rem; margin-bottom:20px; max-width:70ch; line-height:1.5;}}
@@ -92,6 +93,8 @@ summary::marker{{content:"";}}
 .company-card .cstat .l{{color:var(--ink-faint); font-weight:600; text-transform:uppercase; font-size:0.65rem; letter-spacing:0.04em; display:block; margin-bottom:2px;}}
 .company-card .cstat .v{{color:var(--ink-soft); line-height:1.5;}}
 .company-card a{{color:var(--accent); font-size:0.78rem; text-decoration:none; border-bottom:1px solid var(--line-strong); display:inline-block; margin-top:4px;}}
+.cite-row{{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; margin-top:4px;}}
+.cite-date{{font-family:'IBM Plex Mono',monospace; font-size:0.68rem; color:var(--ink-faint);}}
 .company-card a:hover{{border-color:var(--accent);}}
 
 .invest-section-title{{font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--accent); font-weight:600; margin:24px 0 4px; padding-top:18px; border-top:2px solid var(--accent-soft);}}
@@ -119,6 +122,8 @@ footer{{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--li
     <h1>Frontier Watch</h1>
     <div class="meta">Emerging tech &amp; sector trend monitor<br>As of {as_of_display}</div>
   </div>
+
+  <div class="freshness">{freshness_note}</div>
 
   <div class="radar{radar_quiet_class}">
     <span class="eyebrow">Radar</span>
@@ -171,7 +176,8 @@ def company_card(c):
     citation_link = ""
     if citations:
         citation_link = "".join(
-            f'<a href="{cit["url"]}" target="_blank" rel="noopener">{cit["title"]}</a>' for cit in citations
+            f'<div class="cite-row"><a href="{cit["url"]}" target="_blank" rel="noopener">{cit["title"]}</a>'
+            f'<span class="cite-date">{cit.get("date", "n/d")}</span></div>' for cit in citations
         )
     return COMPANY_CARD.format(
         name=c["name"],
@@ -190,7 +196,7 @@ def public_pick_card(p):
     citation = ""
     if p.get("citations"):
         c = p["citations"][0]
-        citation = f'<a href="{c["url"]}" target="_blank" rel="noopener">{c["title"]}</a>'
+        citation = f'<div class="cite-row"><a href="{c["url"]}" target="_blank" rel="noopener">{c["title"]}</a><span class="cite-date">{c.get("date", "n/d")}</span></div>'
     return f"""<div class="invest-card">
       <h3>{p['name']}{ticker_suffix}</h3>
       <span class="bucket-badge {p['bucket']}">{p['bucket']}</span>
@@ -203,7 +209,7 @@ def private_pick_card(p):
     citation = ""
     if p.get("citations"):
         c = p["citations"][0]
-        citation = f'<a href="{c["url"]}" target="_blank" rel="noopener">{c["title"]}</a>'
+        citation = f'<div class="cite-row"><a href="{c["url"]}" target="_blank" rel="noopener">{c["title"]}</a><span class="cite-date">{c.get("date", "n/d")}</span></div>'
     return f"""<div class="invest-card">
       <h3>{p['name']}</h3>
       <span class="appeal-badge">{p['appeal']}</span>
@@ -269,6 +275,7 @@ def main():
 
     html = TEMPLATE.format(
         as_of_display=data["as_of"],
+        freshness_note=data.get("freshness_note", ""),
         radar_quiet_class=" quiet" if is_quiet else "",
         radar_text=radar_text,
         sector_count=len(data["sectors"]),

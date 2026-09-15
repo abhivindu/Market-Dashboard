@@ -1,11 +1,12 @@
 {
   "as_of": "2026-09-14",
-  "radar": "Defense tech is the clearest candidate for a 10th sector: over $14.6B has been deployed into military/national-security startups in 2026 already, surpassing all of 2025's $9.6B before mid-year. Anduril doubled its valuation to $61B in a $5B round (Thrive Capital, Andreessen Horowitz) and is reportedly in talks targeting $100B; Palantir's market cap crossed $325B; Shield AI ($12.7B) and Saronic ($4B) round out a group of 60+ funded startups totaling $33B+ raised. Geopolitical tension has made this 'fundable almost overnight' per one VC assessment - worth adding once there's room to research it properly.",
+  "radar": "Defense tech is the clearest candidate for a 10th sector: over $14.6B has been deployed into military/national-security startups in 2026 already, surpassing all of 2025's $9.6B before mid-year. Anduril doubled its valuation to $61B in a $5B round (Thrive Capital, Andreessen Horowitz) and is reportedly in talks targeting $100B; Palantir's market cap crossed $325B; Shield AI ($12.7B) and Saronic ($4B) round out a group of 60+ funded startups totaling $33B+ raised. UPDATE (this pull, early September 2026): the Army moved its TITAN targeting system from prototyping to production with a $192M award split between Palantir ($127M) and Anduril, alongside partners L3Harris, Sierra Nevada, and World Wide Technology - a concrete production contract, not just funding-round valuation talk, cementing Palantir-Anduril as the Army's preferred AI-sensor-fusion team. Geopolitical tension has made this sector 'fundable almost overnight' per one VC assessment - worth adding once there's room to research it properly.",
+  "freshness_note": "Every citation below carries the actual publish date of its source, separate from this page's pull date above. On refresh, a sector or company is only rewritten if genuinely newer reporting was found for it (marked \"UPDATE (this pull)\") - otherwise the existing entry stands as-is rather than being re-presented under a fresher-looking timestamp. This pull (2026-09-14) spot-checked the fastest-moving names (quantum pure-plays, defense tech) and found real updates in both; the remaining 8 sectors' entries were reviewed and, aside from the date retrofit itself, had no material developments to report beyond what was already captured.",
   "sectors": [
     {
       "id": "quantum-computing",
       "name": "Quantum Computing",
-      "eyebrow": "Deep tech · pre-commercial",
+      "eyebrow": "Deep tech \u00b7 pre-commercial",
       "how_it_works": "Uses qubits exploiting superposition and entanglement to explore many computational states at once, in principle solving certain optimization, simulation, and cryptography problems exponentially faster than classical computers. Competing hardware approaches (trapped-ion, superconducting, photonic, neutral-atom) trade off qubit count, error rates, and operating conditions differently.",
       "maturity": "Early commercial, not yet fault-tolerant. 2026 is the first year global quantum-computing revenue crosses $1B (up from $650-750M in 2024), per McKinsey - but this is R&D/access revenue, not mass-market deployment. IBM targets 'practical quantum advantage' by end of 2026 and fault-tolerant computing by 2029; most analysts place widespread commercial applications 5-10 years out.",
       "applications": [
@@ -16,7 +17,7 @@
       ],
       "investors_lenders": "Mega-cap strategics (Nvidia's NVentures, Honeywell, Microsoft, JPMorgan, Amgen), sovereign/institutional capital (BlackRock, Temasek, Baillie Gifford), plus the U.S. Commerce Department (direct funding agreements, e.g. Quantinuum's trapped-ion program).",
       "roadblocks": "Error correction at scale is the primary unsolved technical barrier - decoherence limits computation to microseconds/milliseconds, and most systems need near-absolute-zero cooling. Real progress exists (Google's Willow chip reached 'below-threshold' error correction; AWS's Ocelot chip targets a 90% cut in error-correction overhead) but the gap between lab demonstrations and deployable systems remains wide. Prediction markets give low odds to IBM's end-2026 advantage claim.",
-      "sentiment": "Volatile and bifurcated. Pure-play quantum stocks (IonQ, Rigetti, D-Wave) surged on 2025 hype, then fell 60-76% off 52-week highs in mid-2026 as investors reassessed the gap between technical milestones and near-term revenue - IonQ, Rigetti and D-Wave were all down ~30% in a single month as of late July 2026. At the same time, private funding accelerated (PsiQuantum's $1.5B round in May 2026 at a $10.5B valuation; Quantinuum's IPO pricing above a $14B valuation), showing institutional conviction hasn't left even as public-market sentiment on pure-plays has soured.",
+      "sentiment": "Volatile and bifurcated, though the public pure-plays have partly rebounded since the late-July trough. UPDATE (this pull): Rigetti and D-Wave each secured $100M in CHIPS Act funding in early September 2026, with the U.S. government taking minority equity stakes in both - shares jumped 8% (RGTI) and 5% (QBTS) on the news, though RGTI and QBTS remain down 26% and 33% year-to-date with the government stakes adding dilution risk. IonQ closed its SkyWater acquisition and raised 2026 revenue guidance to $280-290M, with Remaining Performance Obligations reaching $485M. Private funding remains strong in parallel (PsiQuantum's $1.5B round in May 2026 at a $10.5B valuation; Quantinuum's IPO pricing above a $14B valuation) - institutional conviction hasn't left even as public-market sentiment swings on government-policy headlines as much as fundamentals now.",
       "primary_companies": [
         {
           "name": "IonQ",
@@ -24,8 +25,19 @@
           "ticker": "IONQ",
           "description": "Trapped-ion quantum computing, publicly listed pure-play with the strongest balance sheet in the group.",
           "investors": "Public markets (NYSE-listed); early backers included GV, Samsung Catalyst Fund, Mubadala.",
-          "performance": "Q2 2026 revenue $80.1M (+287% y/y), FY26 guidance raised to $280-290M. Stock still up sharply over the trailing year (reported 712% 12-month gain earlier in 2026) but down ~39% over the trailing month amid the sector-wide de-rating. Adjusted EBITDA loss guided at -$310M to -$330M for the year - still deeply unprofitable despite revenue growth.",
-          "citations": [{"title": "IonQ, Rigetti, and D-Wave Quantum Are Down 30% in a Month", "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-rigetti-d-wave-quantum-190437159.html"}]
+          "performance": "Q2 2026 revenue $80.1M (+287% y/y), FY26 guidance raised to $280-290M. UPDATE (this pull, early September 2026): closed its SkyWater acquisition and Remaining Performance Obligations reached $485M, giving stronger multi-year revenue visibility than the two smaller pure-plays; consensus rating Strong Buy with an average price target of $69.44 (~57% implied upside at the time of that read). Adjusted EBITDA loss guided at -$310M to -$330M for the year - still deeply unprofitable despite revenue growth.",
+          "citations": [
+            {
+              "title": "IonQ, Rigetti, and D-Wave Quantum Are Down 30% in a Month",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-rigetti-d-wave-quantum-190437159.html",
+              "date": "2026"
+            },
+            {
+              "title": "IonQ, Rigetti, D-Wave Stocks Are Rebounding — Here's How High Wall Street Sees Them Going",
+              "url": "https://www.tipranks.com/news/ionq-rigetti-d-wave-stocks-are-rebounding-heres-how-high-wall-street-sees-them-going",
+              "date": "2026-09"
+            }
+          ]
         },
         {
           "name": "Rigetti Computing",
@@ -33,8 +45,15 @@
           "ticker": "RGTI",
           "description": "Superconducting-qubit pure-play, the most government-revenue-dependent of the three major public names.",
           "investors": "Public markets (Nasdaq-listed).",
-          "performance": "Down ~30% over the trailing month alongside IonQ and D-Wave. Ranked third of the three major pure-plays by most analysts - safest balance sheet, but core business leans most heavily on government contracts rather than diversifying commercial revenue.",
-          "citations": [{"title": "Rigetti vs. IonQ vs. D-Wave: Ranking the Quantum Computing Trade Heading Into H2 2026", "url": "https://www.fool.com/investing/2026/07/30/rigetti-vs-ionq-vs-d-wave-ranking-the-quantum-comp/"}]
+          "performance": "UPDATE (this pull): jumped 8% in early September 2026 after securing $100M in CHIPS Act funding, with the U.S. government taking a minority equity stake - still down 26% YTD despite the pop, with the equity stake adding dilution risk alongside the direct funding tailwind. Core business leans most heavily on government contracts of the three major pure-plays.",
+          "citations": [
+            {"title": "Quantum Stocks Rally as Commerce Department Takes Equity Stakes: Rigetti Surges 6%, D-Wave Climbs 5%", "url": "https://247wallst.com/investing/2026/09/08/quantum-stocks-rally-as-commerce-department-takes-equity-stakes-rigetti-surges-6-d-wave-climbs-5/", "date": "2026-09-08"},
+            {
+              "title": "Rigetti vs. IonQ vs. D-Wave: Ranking the Quantum Computing Trade Heading Into H2 2026",
+              "url": "https://www.fool.com/investing/2026/07/30/rigetti-vs-ionq-vs-d-wave-ranking-the-quantum-comp/",
+              "date": "2026-07-30"
+            }
+          ]
         },
         {
           "name": "D-Wave Quantum",
@@ -42,8 +61,15 @@
           "ticker": "QBTS",
           "description": "Quantum annealing specialist (a different approach than gate-model competitors), focused on optimization problems.",
           "investors": "Public markets (NYSE-listed).",
-          "performance": "Down ~30% over the trailing month with the rest of the group. Ranked second by analysts - the only one of the three already earning some recurring, non-government revenue, which differentiates it from Rigetti.",
-          "citations": [{"title": "Which Quantum Computing Stock Has Dominated in 2026: IonQ, Rigetti, or D-Wave?", "url": "https://247wallst.com/investing/2026/05/06/which-quantum-computing-stock-has-dominated-in-2026-ionq-rigetti-or-d-wave/"}]
+          "performance": "UPDATE (this pull): rose 5% in early September 2026 on the same $100M CHIPS Act funding/government-equity-stake news lifting RGTI - still down 33% YTD, with H1 2026 bookings up 1,120% y/y and production applications now 37.3% of H1 QCaaS revenue, the strongest non-government commercial traction of the three pure-plays.",
+          "citations": [
+            {"title": "Quantum Stocks Rally as Commerce Department Takes Equity Stakes: Rigetti Surges 6%, D-Wave Climbs 5%", "url": "https://247wallst.com/investing/2026/09/08/quantum-stocks-rally-as-commerce-department-takes-equity-stakes-rigetti-surges-6-d-wave-climbs-5/", "date": "2026-09-08"},
+            {
+              "title": "Which Quantum Computing Stock Has Dominated in 2026: IonQ, Rigetti, or D-Wave?",
+              "url": "https://247wallst.com/investing/2026/05/06/which-quantum-computing-stock-has-dominated-in-2026-ionq-rigetti-or-d-wave/",
+              "date": "2026-05-06"
+            }
+          ]
         },
         {
           "name": "PsiQuantum",
@@ -51,7 +77,13 @@
           "description": "Photonic quantum computing, targeting a million-qubit fault-tolerant machine - the most capital-intensive, longest-horizon bet in the sector.",
           "investors": "BlackRock, Temasek, Baillie Gifford, Nvidia's venture arm (NVentures), Microsoft (earlier round).",
           "performance": "Raised $1.5B in May 2026 at a $10.5B valuation, up from a $7B valuation on a $1B round in September 2025 - roughly 50% valuation step-up in under a year, signaling sustained institutional conviction despite the public pure-plays' selloff.",
-          "citations": [{"title": "PsiQuantum valuation, funding & news", "url": "https://sacra.com/c/psiquantum/"}]
+          "citations": [
+            {
+              "title": "PsiQuantum valuation, funding & news",
+              "url": "https://sacra.com/c/psiquantum/",
+              "date": "2026-05"
+            }
+          ]
         },
         {
           "name": "Quantinuum",
@@ -59,7 +91,13 @@
           "description": "Trapped-ion quantum computing, majority-owned by Honeywell (~54% stake); pursuing a Nasdaq IPO under ticker 'QNT'.",
           "investors": "Honeywell (controlling stake), Nvidia (NVentures), Quanta Computer, JPMorgan Chase, Mitsui, Amgen; also a tentative $100M U.S. Commerce Department funding agreement.",
           "performance": "Pre-money valuation doubled from $5B (Jan 2024) to $10B after an April 2026 $600M raise; IPO pricing has since pushed the potential valuation above $14B, with plans to raise up to $1.46B in the offering.",
-          "citations": [{"title": "Quantinuum Expands IPO as Valuation Climbs Above $14 Billion", "url": "https://thequantuminsider.com/2026/06/02/quantinuum-expands-ipo-as-valuation-climbs-above-14-billion/"}]
+          "citations": [
+            {
+              "title": "Quantinuum Expands IPO as Valuation Climbs Above $14 Billion",
+              "url": "https://thequantuminsider.com/2026/06/02/quantinuum-expands-ipo-as-valuation-climbs-above-14-billion/",
+              "date": "2026-06-02"
+            }
+          ]
         }
       ],
       "adjacent_companies": [
@@ -69,15 +107,27 @@
           "ticker": "NVDA",
           "relationship": "Supplies the classical GPU compute that pairs with quantum processors in hybrid quantum-classical workflows; NVQLink (announced 2026) is an open architecture connecting GPU and quantum computing for 17 quantum hardware builders and 9 scientific labs, positioning Nvidia as an infrastructure layer across nearly the whole industry regardless of which qubit approach wins.",
           "performance": "Already extensively covered in the Equities Desk (Point 3) - not duplicated here; quantum is a small but strategically-positioned slice of Nvidia's broader AI-infrastructure franchise.",
-          "citations": [{"title": "NVIDIA Introduces NVQLink", "url": "https://nvidianews.nvidia.com/news/nvidia-nvqlink-quantum-gpu-computing"}]
+          "citations": [
+            {
+              "title": "NVIDIA Introduces NVQLink",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-nvqlink-quantum-gpu-computing",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Bluefors",
           "type": "private",
           "description": "Finnish manufacturer of dilution refrigerators and cryogenic measurement infrastructure - the near-absolute-zero cooling systems nearly every superconducting/trapped-ion quantum computer depends on.",
-          "investors": "Limited disclosed external funding (grant-stage backing including the EU); largely self-funded on FY2025 revenue of approximately €217M, suggesting a profitable, demand-driven business rather than one reliant on speculative capital.",
-          "performance": "Private, revenue disclosed (~€217M FY2025) but no market valuation available.",
-          "citations": [{"title": "Following Bluefors and Oxford Instruments' Expansion of Millikelvin Dilution Refrigerators", "url": "https://www.globenewswire.com/news-release/2026/08/17/3345908/28124/en/following-bluefors-and-oxford-instruments-expansion-of-millikelvin-dilution-refrigerators-new-study-maps-growth-vectors-in-quantum-cryogenic-infrastructure.html"}]
+          "investors": "Limited disclosed external funding (grant-stage backing including the EU); largely self-funded on FY2025 revenue of approximately \u20ac217M, suggesting a profitable, demand-driven business rather than one reliant on speculative capital.",
+          "performance": "Private, revenue disclosed (~\u20ac217M FY2025) but no market valuation available.",
+          "citations": [
+            {
+              "title": "Following Bluefors and Oxford Instruments' Expansion of Millikelvin Dilution Refrigerators",
+              "url": "https://www.globenewswire.com/news-release/2026/08/17/3345908/28124/en/following-bluefors-and-oxford-instruments-expansion-of-millikelvin-dilution-refrigerators-new-study-maps-growth-vectors-in-quantum-cryogenic-infrastructure.html",
+              "date": "2026-08-17"
+            }
+          ]
         },
         {
           "name": "Oxford Instruments",
@@ -85,21 +135,43 @@
           "ticker": "OXIG (LSE)",
           "description": "UK-listed scientific instrument maker, Bluefors's main competitor in cryogenic/dilution-refrigerator systems for quantum research.",
           "investors": "Public markets (London Stock Exchange).",
-          "performance": "FY2026 revenue £423.2M (-4.6% y/y) but earnings +85.4% after divesting its NanoScience business in January 2026 to sharpen focus. Stock fell 6.9% on the earnings reaction despite the margin improvement; analyst views split (Peel Hunt upgraded to Buy, JPMorgan raised its price target).",
-          "citations": [{"title": "Earnings call transcript: Oxford Instruments Q2 2026 sees mixed results, stock drops", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-oxford-instruments-q2-2026-sees-mixed-results-stock-drops-93CH-4732215"}]
+          "performance": "FY2026 revenue \u00a3423.2M (-4.6% y/y) but earnings +85.4% after divesting its NanoScience business in January 2026 to sharpen focus. Stock fell 6.9% on the earnings reaction despite the margin improvement; analyst views split (Peel Hunt upgraded to Buy, JPMorgan raised its price target).",
+          "citations": [
+            {
+              "title": "Earnings call transcript: Oxford Instruments Q2 2026 sees mixed results, stock drops",
+              "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-oxford-instruments-q2-2026-sees-mixed-results-stock-drops-93CH-4732215",
+              "date": "2026-08"
+            }
+          ]
         }
       ],
       "investment_potential": {
         "public": [
           {
-            "name": "IonQ", "ticker": "IONQ", "bucket": "pullback",
+            "name": "IonQ",
+            "ticker": "IONQ",
+            "bucket": "pullback",
             "thesis": "Down ~39% over the trailing month despite raising FY26 revenue guidance to $280-290M and posting 287% y/y quarterly revenue growth - the strongest fundamentals of the three major public pure-plays, punished alongside weaker peers in an indiscriminate sector selloff rather than for company-specific news.",
-            "citations": [{"title": "IonQ, Rigetti, and D-Wave Quantum Are Down 30% in a Month", "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-rigetti-d-wave-quantum-190437159.html"}]
+            "citations": [
+              {
+                "title": "IonQ, Rigetti, and D-Wave Quantum Are Down 30% in a Month",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-rigetti-d-wave-quantum-190437159.html",
+                "date": "2026"
+              }
+            ]
           },
           {
-            "name": "D-Wave Quantum", "ticker": "QBTS", "bucket": "undervalued",
+            "name": "D-Wave Quantum",
+            "ticker": "QBTS",
+            "bucket": "undervalued",
             "thesis": "The only one of the three major public pure-plays already earning recurring, non-government revenue - a real differentiator that isn't obviously reflected in a stock trading at similarly depressed levels to Rigetti, whose business remains almost entirely government-dependent.",
-            "citations": [{"title": "Which Quantum Computing Stock Has Dominated in 2026: IonQ, Rigetti, or D-Wave?", "url": "https://247wallst.com/investing/2026/05/06/which-quantum-computing-stock-has-dominated-in-2026-ionq-rigetti-or-d-wave/"}]
+            "citations": [
+              {
+                "title": "Which Quantum Computing Stock Has Dominated in 2026: IonQ, Rigetti, or D-Wave?",
+                "url": "https://247wallst.com/investing/2026/05/06/which-quantum-computing-stock-has-dominated-in-2026-ionq-rigetti-or-d-wave/",
+                "date": "2026-05-06"
+              }
+            ]
           }
         ],
         "private": [
@@ -108,14 +180,26 @@
             "appeal": "Rapidly rising valuation with top-tier institutional backing",
             "thesis": "Valuation stepped up ~50% in under a year ($7B to $10.5B) with BlackRock, Temasek, Baillie Gifford, and Nvidia's venture arm all participating - sustained conviction from some of the most selective institutional capital in the market, even as public pure-plays sold off over the same period.",
             "investors": "BlackRock, Temasek, Baillie Gifford, Nvidia (NVentures), Microsoft.",
-            "citations": [{"title": "PsiQuantum valuation, funding & news", "url": "https://sacra.com/c/psiquantum/"}]
+            "citations": [
+              {
+                "title": "PsiQuantum valuation, funding & news",
+                "url": "https://sacra.com/c/psiquantum/",
+                "date": "2026-05"
+              }
+            ]
           },
           {
             "name": "Quantinuum",
             "appeal": "Low dilution risk via majority strategic ownership, near-term liquidity catalyst",
             "thesis": "Honeywell's ~54% controlling stake means the parent company absorbs most primary capital needs rather than relying purely on dilutive venture rounds, and a pending Nasdaq IPO (implied valuation above $14B) gives this one a concrete near-term path to public liquidity that most sector peers lack.",
             "investors": "Honeywell (controlling stake), Nvidia, JPMorgan Chase, Mitsui, Amgen; tentative $100M U.S. Commerce Department funding agreement.",
-            "citations": [{"title": "Quantinuum Expands IPO as Valuation Climbs Above $14 Billion", "url": "https://thequantuminsider.com/2026/06/02/quantinuum-expands-ipo-as-valuation-climbs-above-14-billion/"}]
+            "citations": [
+              {
+                "title": "Quantinuum Expands IPO as Valuation Climbs Above $14 Billion",
+                "url": "https://thequantuminsider.com/2026/06/02/quantinuum-expands-ipo-as-valuation-climbs-above-14-billion/",
+                "date": "2026-06-02"
+              }
+            ]
           }
         ]
       }
@@ -123,7 +207,7 @@
     {
       "id": "humanoid-robotics",
       "name": "Humanoid & Industrial Robotics",
-      "eyebrow": "Physical AI · early commercial",
+      "eyebrow": "Physical AI \u00b7 early commercial",
       "how_it_works": "Bipedal or wheeled general-purpose robots combining vision-language-action (VLA) AI models with precision actuators (often strain-wave/harmonic gears) to perform manipulation and locomotion tasks originally designed for human workspaces - warehouses, factories, eventually homes. The bet is that a human-shaped form factor lets one robot work in infrastructure built for humans without redesigning the environment.",
       "maturity": "Early commercial, moving from staged demos to real pilots. Twelve commercial humanoid platforms became available for purchase or lease in 2026, backed by over $6B in cumulative venture investment; humanoid startups alone raised $8.7B through July 2026, already nearly double all of 2025. Real deployments exist (Figure AI's BMW plant pilot, Agility's Digit in Amazon fulfillment centers, Tesla's internal Optimus use) but are narrow - material handling and parts transfer, not high-speed precision assembly. Broader production-level availability is expected 2027-2028, mass-market comparable to industrial robots today by 2029-2030.",
       "applications": [
@@ -142,7 +226,13 @@
           "description": "General-purpose humanoid robot developer, already in live external commercial production (ahead of Tesla on that front) via its BMW deployment.",
           "investors": "Over $1B in funding from Microsoft, Nvidia, and Jeff Bezos personally, among others.",
           "performance": "Surpassed 10,000 deployments across partner warehouses by 2026; Figure 02 helped BMW build over 30,000 X3 vehicles during a 10-month deployment at Plant Spartanburg.",
-          "citations": [{"title": "Humanoid Robots in the Workplace: The 2026 Business Leader's Reality Check", "url": "https://www.aimagicx.com/blog/humanoid-robots-workplace-tesla-optimus-atlas-2026"}]
+          "citations": [
+            {
+              "title": "Humanoid Robots in the Workplace: The 2026 Business Leader's Reality Check",
+              "url": "https://www.aimagicx.com/blog/humanoid-robots-workplace-tesla-optimus-atlas-2026",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Unitree Robotics",
@@ -151,7 +241,13 @@
           "description": "Chinese humanoid and quadruped robot maker; the first pure-play humanoid to price a real public-market IPO, and notably already profitable.",
           "investors": "Public markets (Shanghai STAR Market listing, August 2026).",
           "performance": "Priced its IPO at a $9.04B valuation, raising ~$904M; shares surged as much as 629% and closed +460% on debut, valuing the company near $50B at the close. Shipped 5,500+ humanoids in 2025 and ~18,000 units across its full range by July 2026.",
-          "citations": [{"title": "Unitree Robotics Surges 460% After $904 Million Shanghai IPO", "url": "https://www.bloomberg.com/news/articles/2026-08-18/unitree-robotics-set-to-debut-after-904-million-shanghai-ipo"}]
+          "citations": [
+            {
+              "title": "Unitree Robotics Surges 460% After $904 Million Shanghai IPO",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-18/unitree-robotics-set-to-debut-after-904-million-shanghai-ipo",
+              "date": "2026-08-18"
+            }
+          ]
         },
         {
           "name": "Agility Robotics",
@@ -159,7 +255,13 @@
           "description": "Maker of Digit, the bipedal warehouse robot already deployed in Amazon fulfillment centers doing tote handling; pursuing a public listing via SPAC rather than a traditional IPO.",
           "investors": "SoftBank, Amazon's Industrial Innovation Fund, DCVC, Playground Global, WP Global Partners (led the $400M Series C).",
           "performance": "Definitive agreement (June 2026) to merge with Churchill Capital Corp XI at an implied $2.5B valuation - a step up from the ~$2.1B post-money valuation on its March 2025 Series C, but modest next to Unitree's public pop, which Forbes noted makes Agility 'look super cheap' by comparison.",
-          "citations": [{"title": "Unitree IPO's Massive 629% Pop Makes Agility Robotics Look Super Cheap", "url": "https://www.forbes.com/sites/johnkoetsier/2026/08/19/unitree-ipos-massive-629-pop-makes-agility-robotics-look-super-cheap/"}]
+          "citations": [
+            {
+              "title": "Unitree IPO's Massive 629% Pop Makes Agility Robotics Look Super Cheap",
+              "url": "https://www.forbes.com/sites/johnkoetsier/2026/08/19/unitree-ipos-massive-629-pop-makes-agility-robotics-look-super-cheap/",
+              "date": "2026-08-19"
+            }
+          ]
         },
         {
           "name": "Boston Dynamics",
@@ -167,7 +269,13 @@
           "description": "Pioneer in dynamic legged robotics (Atlas, Spot); the most technically renowned name in the category, now fully owned by an automaker rather than pursuing independent public markets.",
           "investors": "Hyundai Motor Group (acquired outright, deal closed July 16, 2026).",
           "performance": "Valuation had climbed from $1.1B toward an implied $21-28B (per Korean securities firms) following its CES 2025 Atlas demonstration, with some IPO-scenario estimates as high as $85B+ before the Hyundai acquisition took it off any public-listing path.",
-          "citations": [{"title": "Boston Dynamics IPO and $100B Valuation: How It Compares to Tesla Optimus, Figure AI and Humanoid Rivals", "url": "https://robottoday.com/article/boston-dynamics-ipo-and-100-b-valuation-how-it-compares-to-tesla-optimus-figure-ai-and-humanoid-rivals"}]
+          "citations": [
+            {
+              "title": "Boston Dynamics IPO and $100B Valuation: How It Compares to Tesla Optimus, Figure AI and Humanoid Rivals",
+              "url": "https://robottoday.com/article/boston-dynamics-ipo-and-100-b-valuation-how-it-compares-to-tesla-optimus-figure-ai-and-humanoid-rivals",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Tesla (Optimus)",
@@ -176,7 +284,13 @@
           "description": "Building Optimus as an internal-manufacturing and eventually external-sale humanoid; the highest-capex bet in the category, though currently the furthest from external commercial deployment of the major players.",
           "investors": "Public markets - already extensively covered in the Equities Desk (Point 3), not duplicated here.",
           "performance": "Cumulative Optimus production surpassed 50,000 units in early 2026; Gen 3 Optimus began production summer 2026. 2026 capex more than doubled to $20B, a significant portion directed at Optimus manufacturing buildout. Management tempered expectations in January 2026, acknowledging early units weren't yet 'doing useful work.'",
-          "citations": [{"title": "Tesla Optimus Price & Availability (2026): Confirmed Facts vs Estimates", "url": "https://www.roboticscenter.ai/blog/tesla-optimus-price-availability"}]
+          "citations": [
+            {
+              "title": "Tesla Optimus Price & Availability (2026): Confirmed Facts vs Estimates",
+              "url": "https://www.roboticscenter.ai/blog/tesla-optimus-price-availability",
+              "date": "2026"
+            }
+          ]
         }
       ],
       "adjacent_companies": [
@@ -187,7 +301,13 @@
           "description": "Makes the precision strain-wave gears inside high-spec robot joint actuators - a single humanoid needs 20-40+ actuators, and Harmonic's components can represent 30-50%+ of the motion-system bill of materials in premium platforms. The default Tier-1 supplier for Western and Japanese builds.",
           "investors": "Public markets (Tokyo Stock Exchange).",
           "performance": "Underperformed through 2024-2025 but rediscovered by investors in 2026, up roughly 16% year-to-date as mass production ramps with several humanoid customers, with volumes expected to ramp significantly starting FY2027.",
-          "citations": [{"title": "Humanoid Robots: A High-Growth AI Market — And Why Harmonic Drive and FANUC Matter", "url": "https://www.dividendjapan.com/p/humanoids-growth-market-japan-stocks"}]
+          "citations": [
+            {
+              "title": "Humanoid Robots: A High-Growth AI Market \u2014 And Why Harmonic Drive and FANUC Matter",
+              "url": "https://www.dividendjapan.com/p/humanoids-growth-market-japan-stocks",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Amazon",
@@ -196,7 +316,13 @@
           "relationship": "The largest disclosed commercial customer for humanoid robotics (Agility's Digit in fulfillment centers) and a direct investor (Industrial Innovation Fund backs Agility) - stands to gain materially on the labor-cost/throughput side if the category delivers on its promise.",
           "investors": "Public markets - already extensively covered in the Equities Desk (Point 3), not duplicated here.",
           "performance": "Robotics deployment is a small operational input relative to Amazon's total business; watch this as a cost/margin lever in fulfillment rather than a standalone catalyst.",
-          "citations": [{"title": "Humanoid Robots in the Workplace: The 2026 Business Leader's Reality Check", "url": "https://www.aimagicx.com/blog/humanoid-robots-workplace-tesla-optimus-atlas-2026"}]
+          "citations": [
+            {
+              "title": "Humanoid Robots in the Workplace: The 2026 Business Leader's Reality Check",
+              "url": "https://www.aimagicx.com/blog/humanoid-robots-workplace-tesla-optimus-atlas-2026",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "NVIDIA",
@@ -205,20 +331,42 @@
           "relationship": "Supplies the simulation (Isaac platform) and edge-compute (Jetson) infrastructure most humanoid developers train and run on - a picks-and-shovels position across the category regardless of which robot maker wins.",
           "investors": "Public markets - already extensively covered in the Equities Desk (Point 3) and in this report's Quantum Computing section, not duplicated here.",
           "performance": "Robotics is a small but strategically-positioned slice of Nvidia's broader AI-infrastructure franchise.",
-          "citations": [{"title": "Investors bet humanoid robots will transform industry and homes over the next decade", "url": "https://www.cnbc.com/2026/06/03/humanoid-robots-trillion-dollar-ai-market.html"}]
+          "citations": [
+            {
+              "title": "Investors bet humanoid robots will transform industry and homes over the next decade",
+              "url": "https://www.cnbc.com/2026/06/03/humanoid-robots-trillion-dollar-ai-market.html",
+              "date": "2026-06-03"
+            }
+          ]
         }
       ],
       "investment_potential": {
         "public": [
           {
-            "name": "Unitree Robotics", "ticker": "SSE: 688xxx", "bucket": "pullback",
+            "name": "Unitree Robotics",
+            "ticker": "SSE: 688xxx",
+            "bucket": "pullback",
             "thesis": "Roughly halved from its post-IPO peak by early September 2026, despite being the rare profitable name in the category (5,500+ humanoids shipped in 2025, ~18,000 by mid-2026) - a case where an initial 460%+ debut pop mean-reverted hard, but the underlying commercial traction hasn't disappeared.",
-            "citations": [{"title": "Unitree Robotics Surges 460% After $904 Million Shanghai IPO", "url": "https://www.bloomberg.com/news/articles/2026-08-18/unitree-robotics-set-to-debut-after-904-million-shanghai-ipo"}]
+            "citations": [
+              {
+                "title": "Unitree Robotics Surges 460% After $904 Million Shanghai IPO",
+                "url": "https://www.bloomberg.com/news/articles/2026-08-18/unitree-robotics-set-to-debut-after-904-million-shanghai-ipo",
+                "date": "2026-08-18"
+              }
+            ]
           },
           {
-            "name": "Harmonic Drive Systems", "ticker": "JP: 6324", "bucket": "undervalued",
+            "name": "Harmonic Drive Systems",
+            "ticker": "JP: 6324",
+            "bucket": "undervalued",
             "thesis": "Default Tier-1 actuator supplier across nearly every Western and Japanese humanoid build, with components representing 30-50%+ of the motion-system bill of materials in premium platforms - yet the stock is only up ~16% YTD even as humanoid shipment volumes are projected to jump ~700% in 2026, suggesting the market hasn't fully priced the component-supplier leverage to unit growth.",
-            "citations": [{"title": "Humanoid Robots: A High-Growth AI Market — And Why Harmonic Drive and FANUC Matter", "url": "https://www.dividendjapan.com/p/humanoids-growth-market-japan-stocks"}]
+            "citations": [
+              {
+                "title": "Humanoid Robots: A High-Growth AI Market \u2014 And Why Harmonic Drive and FANUC Matter",
+                "url": "https://www.dividendjapan.com/p/humanoids-growth-market-japan-stocks",
+                "date": "2026"
+              }
+            ]
           }
         ],
         "private": [
@@ -227,14 +375,26 @@
             "appeal": "Sticky enterprise revenue, blue-chip strategic backers",
             "thesis": "Already in live external commercial production (ahead of Tesla) with a real, renewing BMW deployment (30,000+ vehicles built with Figure 02's help) rather than a pilot - backed by Microsoft, Nvidia, and Jeff Bezos personally.",
             "investors": "Microsoft, Nvidia, Jeff Bezos.",
-            "citations": [{"title": "Humanoid Robots in the Workplace: The 2026 Business Leader's Reality Check", "url": "https://www.aimagicx.com/blog/humanoid-robots-workplace-tesla-optimus-atlas-2026"}]
+            "citations": [
+              {
+                "title": "Humanoid Robots in the Workplace: The 2026 Business Leader's Reality Check",
+                "url": "https://www.aimagicx.com/blog/humanoid-robots-workplace-tesla-optimus-atlas-2026",
+                "date": "2026"
+              }
+            ]
           },
           {
             "name": "Apptronik",
             "appeal": "Quickly rising valuation, diversified strategic investor base",
             "thesis": "Tripled its valuation to $5.5B in one year via a $520M raise, with backers spanning tech (Google), automotive (Mercedes-Benz), logistics (GXO Logistics as a deployment partner), and even industrial equipment (John Deere) - a broader strategic investor base than most single-vertical peers, plus a direct Google DeepMind tie-up (Gemini Robotics) for its AI stack.",
             "investors": "Google, Mercedes-Benz, B Capital, AT&T Ventures, John Deere, Qatar Investment Authority.",
-            "citations": [{"title": "Apptronik raises $520 million to beat Chinese humanoids, Tesla Optimus to market", "url": "https://www.cnbc.com/2026/02/11/apptronik-raises-520-million-at-5-billion-valuation-for-apollo-robot.html"}]
+            "citations": [
+              {
+                "title": "Apptronik raises $520 million to beat Chinese humanoids, Tesla Optimus to market",
+                "url": "https://www.cnbc.com/2026/02/11/apptronik-raises-520-million-at-5-billion-valuation-for-apollo-robot.html",
+                "date": "2026-02-11"
+              }
+            ]
           }
         ]
       }
@@ -242,7 +402,7 @@
     {
       "id": "nuclear-smr",
       "name": "Nuclear SMRs",
-      "eyebrow": "Energy infrastructure · pre-commercial",
+      "eyebrow": "Energy infrastructure \u00b7 pre-commercial",
       "how_it_works": "Small Modular Reactors are factory-fabricated nuclear reactors (typically under 300MW, versus 1,000MW+ for traditional plants) designed to be built in a controlled factory setting and shipped to site, compressing construction timelines from 6-10 years to a targeted 3-5 years. Designs vary (light-water like NuScale/BWRX-300, high-temperature gas-cooled like X-energy, sodium-cooled fast reactors like TerraPower's Natrium), each trading off fuel type, cooling approach, and licensing pathway differently.",
       "maturity": "Pre-commercial in the West. Only four SMR units operate commercially worldwide as of early 2026 (Russia's floating Akademik Lomonosov plant and China's Linglong One demonstration reactor, the latter targeting H1 2026 as the first land-based commercial SMR). In North America, Ontario Power Generation's BWRX-300 is under construction at Darlington targeting 2029 commercial operation - the likely first grid-scale SMR in the region. TerraPower's Natrium in Wyoming targets the early 2030s. A new technology-inclusive NRC licensing framework (Part 53) was finalized in March 2026, but licensing remains slow in practice.",
       "applications": [
@@ -262,7 +422,13 @@
           "description": "Light-water SMR designer, the most established of the Western public pure-plays by regulatory track record.",
           "investors": "Public markets (NYSE-listed).",
           "performance": "Down nearly 27% in 2026 as of May, with losses deepening later in the year (combined with Oklo, down 85.3% by late August). $766.5M cash vs $824.4M total debt as of Q2 2026 - a tighter balance sheet than Oklo's, per analyst comparisons.",
-          "citations": [{"title": "Oklo and NuScale Power Have Shed a Combined 85.3% This Year. Why Are Nuclear Stocks Falling?", "url": "https://www.fool.com/investing/2026/08/27/oklo-and-nuscale-power-have-shed-a-combined-853-th/"}]
+          "citations": [
+            {
+              "title": "Oklo and NuScale Power Have Shed a Combined 85.3% This Year. Why Are Nuclear Stocks Falling?",
+              "url": "https://www.fool.com/investing/2026/08/27/oklo-and-nuscale-power-have-shed-a-combined-853-th/",
+              "date": "2026-08-27"
+            }
+          ]
         },
         {
           "name": "Oklo",
@@ -271,7 +437,13 @@
           "description": "Fast-reactor (Aurora powerhouse) designer targeting smaller, distributed deployments; has a signed fuel-supply agreement with Centrus Energy for HALEU delivery starting 2029.",
           "investors": "Public markets (NYSE-listed); backed earlier by Sam Altman as chairman.",
           "performance": "Down about 11% on the year as of May 2026, worsening alongside NuScale later in the year. Filed for an IPO-adjacent public listing in February 2026 targeting a $10B+ valuation. Analysts see a stronger financial position than NuScale, with less near-term dilution risk.",
-          "citations": [{"title": "Oklo vs. NuScale Power: Both Are Falling in 2026, but Only One Is Worth Buying Now", "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-vs-nuscale-power-both-082500055.html"}]
+          "citations": [
+            {
+              "title": "Oklo vs. NuScale Power: Both Are Falling in 2026, but Only One Is Worth Buying Now",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-vs-nuscale-power-both-082500055.html",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "X-energy",
@@ -280,7 +452,13 @@
           "description": "High-temperature gas-cooled reactor (Xe-100) and TRISO fuel developer; among the most recent SMR names to go public.",
           "investors": "Amazon (strategic investor pre-IPO), the U.S. DOE (~$1B in cost-shared funding); public markets since its April 2026 Nasdaq debut.",
           "performance": "Closed an oversubscribed $700M Series D at a $6.9B valuation (March 2026), then completed an upsized IPO at $23/share on Nasdaq (April 24, 2026). Market cap was around $4.5B as of July 2026 with shares near $15.66 - trading below the private-round valuation implied, a common post-IPO pattern for capital-intensive pre-revenue names.",
-          "citations": [{"title": "X-energy Announces Pricing of Upsized Initial Public Offering", "url": "https://x-energy.com/news/x-energy-announces-pricing-of-upsized-initial-public-offering/"}]
+          "citations": [
+            {
+              "title": "X-energy Announces Pricing of Upsized Initial Public Offering",
+              "url": "https://x-energy.com/news/x-energy-announces-pricing-of-upsized-initial-public-offering/",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "TerraPower",
@@ -288,7 +466,13 @@
           "description": "Sodium-cooled fast reactor (Natrium) developer, founded by Bill Gates; building its first commercial demonstration in Kemmerer, Wyoming.",
           "investors": "Bill Gates, plus roughly $1.66B raised across 8 rounds from 11 investors total; significant U.S. DOE cost-share support.",
           "performance": "Natrium project in Kemmerer, WY advancing toward an early-2030s commercial operation target - one of the more credible non-public timelines in the sector given Gates's long-term capital commitment and DOE backing.",
-          "citations": [{"title": "X-energy, TerraPower share updates on advanced reactor projects", "url": "https://www.ans.org/news/article-8297/xenergy-terrapower-share-updates-on-advanced-reactor-projects/"}]
+          "citations": [
+            {
+              "title": "X-energy, TerraPower share updates on advanced reactor projects",
+              "url": "https://www.ans.org/news/article-8297/xenergy-terrapower-share-updates-on-advanced-reactor-projects/",
+              "date": "2026"
+            }
+          ]
         }
       ],
       "adjacent_companies": [
@@ -299,7 +483,13 @@
           "relationship": "The only licensed HALEU (High-Assay Low-Enriched Uranium) producer in the Western world - a strategic monopoly on the fuel most advanced SMR designs require. Already covered in the Equities Desk (Point 3) as a top loser this pull on a dilutive stock offering; here the relevant angle is its fuel-supply agreement with Oklo (deliveries starting 2029) and $3.8B revenue backlog through 2040.",
           "investors": "Public markets (NYSE American-listed).",
           "performance": "Stock recently around $162, well below its 52-week high of $464.25. Q1 2026 revenue $76.7M (+5% y/y), but 2026 EPS consensus implies a ~29.7% y/y decline.",
-          "citations": [{"title": "Centrus Energy vs Cameco: Which Uranium Stock Has an Edge Right Now?", "url": "https://finance.yahoo.com/news/centrus-energy-vs-cameco-uranium-171800852.html"}]
+          "citations": [
+            {
+              "title": "Centrus Energy vs Cameco: Which Uranium Stock Has an Edge Right Now?",
+              "url": "https://finance.yahoo.com/news/centrus-energy-vs-cameco-uranium-171800852.html",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Cameco",
@@ -308,7 +498,13 @@
           "relationship": "Diversified across the full uranium value chain (mining, refining, enrichment, reactor design/services) rather than a single-point HALEU bet like Centrus - a broader way to play rising uranium demand from the SMR buildout without single-supplier concentration risk.",
           "investors": "Public markets (NYSE/TSX-listed).",
           "performance": "~230 million pounds of uranium committed under long-term agreements; expanding its Piketon, OH enrichment plant to boost LEU and HALEU production capacity.",
-          "citations": [{"title": "Cameco vs. Centrus Energy: Which Uranium Stock is the Better Buy Now?", "url": "https://finance.yahoo.com/energy/articles/cameco-vs-centrus-energy-uranium-164100386.html"}]
+          "citations": [
+            {
+              "title": "Cameco vs. Centrus Energy: Which Uranium Stock is the Better Buy Now?",
+              "url": "https://finance.yahoo.com/energy/articles/cameco-vs-centrus-energy-uranium-164100386.html",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Microsoft",
@@ -317,20 +513,42 @@
           "relationship": "Signed an 837MW nuclear offtake deal as part of the hyperscaler demand wave driving the entire SMR investment case - the demand side of the equation, stands to gain from reliable carbon-free power for AI data centers if SMRs deliver on cost/timeline.",
           "investors": "Public markets - not otherwise covered in this dashboard's equities coverage to date.",
           "performance": "Nuclear power procurement is a small line item relative to Microsoft's total capex, but a strategically important one for long-term data center power reliability.",
-          "citations": [{"title": "Data 4 Nuclear 2026, 837 MW Microsoft Deal", "url": "https://enkiai.com/nuclear/data4-smr-data-centers/"}]
+          "citations": [
+            {
+              "title": "Data 4 Nuclear 2026, 837 MW Microsoft Deal",
+              "url": "https://enkiai.com/nuclear/data4-smr-data-centers/",
+              "date": "2026"
+            }
+          ]
         }
       ],
       "investment_potential": {
         "public": [
           {
-            "name": "Oklo", "ticker": "OKLO", "bucket": "pullback",
+            "name": "Oklo",
+            "ticker": "OKLO",
+            "bucket": "pullback",
             "thesis": "Down alongside NuScale (combined -85.3% YTD as of late August) despite a stronger balance sheet and less near-term dilution risk than NuScale per analyst comparisons, plus a signed HALEU fuel-supply agreement with Centrus Energy - the kind of broad sector de-rating that can catch a comparatively better-positioned name in the downdraft.",
-            "citations": [{"title": "Oklo and NuScale Power Have Shed a Combined 85.3% This Year. Why Are Nuclear Stocks Falling?", "url": "https://www.fool.com/investing/2026/08/27/oklo-and-nuscale-power-have-shed-a-combined-853-th/"}]
+            "citations": [
+              {
+                "title": "Oklo and NuScale Power Have Shed a Combined 85.3% This Year. Why Are Nuclear Stocks Falling?",
+                "url": "https://www.fool.com/investing/2026/08/27/oklo-and-nuscale-power-have-shed-a-combined-853-th/",
+                "date": "2026-08-27"
+              }
+            ]
           },
           {
-            "name": "X-energy", "ticker": "XE", "bucket": "undervalued",
+            "name": "X-energy",
+            "ticker": "XE",
+            "bucket": "undervalued",
             "thesis": "Trading around $15.66/share (~$4.5B market cap as of July 2026) - below the $6.9B private valuation its own March 2026 Series D commanded just before IPO, a fairly direct case of a post-IPO price sitting under the private-market's own most recent mark for the same company.",
-            "citations": [{"title": "X-energy Announces Pricing of Upsized Initial Public Offering", "url": "https://x-energy.com/news/x-energy-announces-pricing-of-upsized-initial-public-offering/"}]
+            "citations": [
+              {
+                "title": "X-energy Announces Pricing of Upsized Initial Public Offering",
+                "url": "https://x-energy.com/news/x-energy-announces-pricing-of-upsized-initial-public-offering/",
+                "date": "2026"
+              }
+            ]
           }
         ],
         "private": [
@@ -339,14 +557,26 @@
             "appeal": "Long-horizon patient capital, low near-term dilution pressure",
             "thesis": "Bill Gates's sustained personal backing plus DOE cost-share support gives this one an unusually patient capital base for a pre-revenue nuclear developer - less exposed to the quarter-to-quarter dilution pressure that hits venture-funded peers needing to keep raising on a market's timeline rather than the technology's.",
             "investors": "Bill Gates, U.S. DOE (cost-share), 11 investors across 8 rounds.",
-            "citations": [{"title": "X-energy, TerraPower share updates on advanced reactor projects", "url": "https://www.ans.org/news/article-8297/xenergy-terrapower-share-updates-on-advanced-reactor-projects/"}]
+            "citations": [
+              {
+                "title": "X-energy, TerraPower share updates on advanced reactor projects",
+                "url": "https://www.ans.org/news/article-8297/xenergy-terrapower-share-updates-on-advanced-reactor-projects/",
+                "date": "2026"
+              }
+            ]
           },
           {
             "name": "Kairos Power",
             "appeal": "Sticky revenue via signed power-purchase agreement, strong strategic backer",
             "thesis": "Has an actual power purchase agreement with Google (via the Tennessee Valley Authority) for its Hermes II reactor - a contracted, sticky revenue commitment most SMR developers at this stage don't yet have - plus $303M in DOE risk-reduction funding and a $27M Oak Ridge National Lab partnership.",
             "investors": "Google (PPA counterparty), U.S. DOE.",
-            "citations": [{"title": "Google signs advanced nuclear clean energy agreement with Kairos Power", "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement/"}]
+            "citations": [
+              {
+                "title": "Google signs advanced nuclear clean energy agreement with Kairos Power",
+                "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement/",
+                "date": "2026"
+              }
+            ]
           }
         ]
       }
@@ -354,7 +584,7 @@
     {
       "id": "autonomous-vehicles",
       "name": "Autonomous Vehicles & Robotaxis",
-      "eyebrow": "Physical AI · early commercial, bifurcated by operator",
+      "eyebrow": "Physical AI \u00b7 early commercial, bifurcated by operator",
       "how_it_works": "Level 4 autonomous vehicles combine lidar/camera/radar sensor fusion with AI driving models to navigate without a human safety driver within a defined operating domain. Approaches diverge sharply: Waymo and Baidu use dedicated sensor-heavy hardware with geofenced city-by-city rollout; Tesla bets on camera-only ('vision-only') perception aiming for eventual anywhere-capability; Wayve pursues an end-to-end AI 'plug-and-play' platform designed to be licensed across different automakers' vehicles rather than building its own fleet.",
       "maturity": "The most commercially advanced of the frontier sectors tracked here - real fully-driverless paid rides are happening at scale today, not just pilots. Waymo operates ~3,000 robotaxis across 1,400 square miles in 11 U.S. cities, targeting ~1 million paid rides/week by end of 2026. Baidu's Apollo Go runs in 10+ Chinese cities and claimed the first publicly disclosed unit-level breakeven (Wuhan, Q2 2025). Tesla is far behind on commercial deployment despite the most aggressive public messaging - no commercial robotaxi permits in any major U.S. market as of 2026, and is in active legal conflict with regulators.",
       "applications": [
@@ -373,7 +603,13 @@
           "description": "Sensor-heavy, geofenced Level 4 robotaxi operator; the clear commercial and valuation leader in the U.S. market.",
           "investors": "Alphabet (parent), plus outside institutional capital in its February 2026 raise.",
           "performance": "Raised $16B in February 2026 at a ~$126B valuation - reportedly the largest investment ever in an AV company. ~3,000 vehicles live across 11 U.S. cities, annualized revenue run-rate exceeding $350M, targeting 1M+ paid rides/week by end of 2026 and 20 more cities added during the year.",
-          "citations": [{"title": "Is Waymo's $100B valuation defensible?", "url": "https://avmarketstrategist.substack.com/p/is-waymos-100b-valuation-defensible"}]
+          "citations": [
+            {
+              "title": "Is Waymo's $100B valuation defensible?",
+              "url": "https://avmarketstrategist.substack.com/p/is-waymos-100b-valuation-defensible",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Tesla (Robotaxi)",
@@ -382,7 +618,13 @@
           "description": "Vision-only (camera-based, no lidar) approach aiming for an eventually-anywhere-capable system rather than Waymo's geofenced model.",
           "investors": "Public markets - already extensively covered in the Equities Desk (Point 3) and this report's Humanoid Robotics section, not duplicated here.",
           "performance": "No commercial robotaxi permits in any major U.S. market and no disclosed commercial miles-logged data as of this pull; now targeting a rollout across roughly a dozen states by end of 2026, a more cautious timeline than Musk's earlier public statements. Stock still moves on rollout headlines (+4% on one progress update) despite the permit gap; S&P Global projects $75B in robotaxi revenue by 2030 if the technology and regulatory path both come together.",
-          "citations": [{"title": "Tesla's Robotaxi Promises Are Empty: Zero Miles Logged, No Permits, Now Suing Regulators", "url": "https://247wallst.com/investing/2026/02/27/teslas-robotaxi-promises-are-empty-zero-miles-logged-no-permits-now-suing-regulators/"}]
+          "citations": [
+            {
+              "title": "Tesla's Robotaxi Promises Are Empty: Zero Miles Logged, No Permits, Now Suing Regulators",
+              "url": "https://247wallst.com/investing/2026/02/27/teslas-robotaxi-promises-are-empty-zero-miles-logged-no-permits-now-suing-regulators/",
+              "date": "2026-02-27"
+            }
+          ]
         },
         {
           "name": "Baidu (Apollo Go)",
@@ -391,7 +633,13 @@
           "description": "China's leading robotaxi operator, running the most geographically extensive commercial fleet of any AV operator globally.",
           "investors": "Public markets (Nasdaq/HKEX-listed).",
           "performance": "Operational in 10+ Chinese cities (Wuhan, Beijing, Shanghai, Shenzhen, Chongqing, Guangzhou); claimed the first publicly disclosed unit-level breakeven of any commercial robotaxi operator in Wuhan, Q2 2025 - a notable real-economics milestone none of the Western operators have matched.",
-          "citations": [{"title": "Robotaxi Market 2026: Complete Guide to Global Players & Market Size", "url": "https://nextcurious.com/electric-vehicles/robotaxi-market-global-players-guide/"}]
+          "citations": [
+            {
+              "title": "Robotaxi Market 2026: Complete Guide to Global Players & Market Size",
+              "url": "https://nextcurious.com/electric-vehicles/robotaxi-market-global-players-guide/",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Zoox",
@@ -399,7 +647,13 @@
           "description": "Purpose-built robotaxi (no steering wheel, symmetric bidirectional design) rather than a retrofitted consumer car.",
           "investors": "Amazon (acquired outright); raised $990M across 6 rounds from 23 investors prior to acquisition.",
           "performance": "Now fully backed by Amazon's balance sheet rather than raising independent capital - insulated from public/private AV-market sentiment swings but also less transparent on standalone unit economics.",
-          "citations": [{"title": "Zoox - 2026 Company Profile, Team, Funding & Competitors", "url": "https://tracxn.com/d/companies/zoox/__RYbwq3YHmba9I-rAIGvFuCxg1RwDbrr32y2T3AuUE3o"}]
+          "citations": [
+            {
+              "title": "Zoox - 2026 Company Profile, Team, Funding & Competitors",
+              "url": "https://tracxn.com/d/companies/zoox/__RYbwq3YHmba9I-rAIGvFuCxg1RwDbrr32y2T3AuUE3o",
+              "date": "n/d"
+            }
+          ]
         },
         {
           "name": "Wayve",
@@ -407,7 +661,13 @@
           "description": "UK-based end-to-end AI driving platform, designed to be licensed across multiple automakers' vehicles rather than operating its own fleet - the 'Android of autonomous driving' positioning versus Waymo/Zoox's vertically-integrated model.",
           "investors": "Eclipse, Balderton, SoftBank Vision Fund 2 (round leads); Microsoft, Nvidia, Uber, and automakers Mercedes-Benz, Nissan, and Stellantis all participated.",
           "performance": "Raised $1.2-1.5B Series D in February 2026 at an $8.6B valuation. Commercial trials with Uber-branded robotaxis begin in 2026 - the platform's first real test of the licensing model against vertically-integrated competitors.",
-          "citations": [{"title": "Wayve raises $1.2B at $8.6B valuation to scale embodied AI for autonomous driving", "url": "https://tech.eu/2026/02/25/wayve-raises-12b-at-86b-valuation-to-scale-embodied-ai-for-autonomous-driving/"}]
+          "citations": [
+            {
+              "title": "Wayve raises $1.2B at $8.6B valuation to scale embodied AI for autonomous driving",
+              "url": "https://tech.eu/2026/02/25/wayve-raises-12b-at-86b-valuation-to-scale-embodied-ai-for-autonomous-driving/",
+              "date": "2026-02-25"
+            }
+          ]
         }
       ],
       "adjacent_companies": [
@@ -418,7 +678,13 @@
           "relationship": "Capital-light aggregator strategy: rather than building its own AV stack, Uber has signed ~30 autonomous partners (Wayve, Momenta, Nuro and others) and is targeting driverless service in up to 15 cities by end of 2026 - positioning itself to win regardless of which underlying AV technology wins, by owning the demand-side platform.",
           "investors": "Public markets - not otherwise covered in this dashboard's equities coverage to date.",
           "performance": "Stock rose on robotaxi-partnership headlines (+7.6% in one week on the Momenta/Europe announcement) even as the company's own profit forecast came in weak - the market is pricing robotaxi optionality separately from near-term core-business economics.",
-          "citations": [{"title": "Uber Technologies Is the Robotaxi Winner of 2026", "url": "https://247wallst.com/investing/2026/01/06/uber-technologies-is-the-robotaxi-winner-of-2026/"}]
+          "citations": [
+            {
+              "title": "Uber Technologies Is the Robotaxi Winner of 2026",
+              "url": "https://247wallst.com/investing/2026/01/06/uber-technologies-is-the-robotaxi-winner-of-2026/",
+              "date": "2026-01-06"
+            }
+          ]
         },
         {
           "name": "Rivian",
@@ -427,7 +693,13 @@
           "relationship": "EV manufacturer building the physical R2 vehicle for Uber's robotaxi fleet - a direct beneficiary of robotaxi platform demand without needing to develop its own autonomy stack.",
           "investors": "Public markets; Uber itself is investing up to $1.25B in Rivian through 2031, contingent on autonomous-deployment milestones.",
           "performance": "Uber-Rivian partnership targets 10,000 fully autonomous R2 robotaxis in its first deployment phase, initially in San Francisco and Miami starting 2028 - a multi-year-out revenue driver rather than a near-term catalyst.",
-          "citations": [{"title": "Uber and Rivian Partner to Deploy up to 50,000 Fully Autonomous Robotaxis", "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Rivian-Partner-to-Deploy-up-to-50000-Fully-Autonomous-Robotaxis-2026-TViR4R05gi/default.aspx"}]
+          "citations": [
+            {
+              "title": "Uber and Rivian Partner to Deploy up to 50,000 Fully Autonomous Robotaxis",
+              "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Rivian-Partner-to-Deploy-up-to-50000-Fully-Autonomous-Robotaxis-2026-TViR4R05gi/default.aspx",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Luminar Technologies",
@@ -436,20 +708,42 @@
           "relationship": "CORRECTION (this pull): previously listed here as an active lidar supplier to Mobileye and Volvo - that entry was stale. Luminar filed Chapter 11 in December 2025; the Bankruptcy Court confirmed a liquidation plan effective April 6, 2026, cancelling all existing equity with no shareholder recovery. Kept in this report as a cautionary real-world example of the sensor-supplier roadblock risk flagged in this sector's overview, not as an investable name.",
           "investors": "N/A - equity cancelled in liquidation.",
           "performance": "Stock fell 99.6% over the trailing year to ~$0.02 before cancellation; market cap collapsed to ~$1.5M. Root cause: 2025 revenue fell to $66M against a $366.3M net loss, a default on $488M in funded debt, and anchor customer Volvo cutting its Iris sensor volume projections by 90% as automotive enthusiasm for high-cost lidar cooled.",
-          "citations": [{"title": "Luminar Technologies Confirms Liquidation Plan and Ends Operations", "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/1194361/luminar-technologies-confirms-liquidation-plan-and-ends-operations/"}]
+          "citations": [
+            {
+              "title": "Luminar Technologies Confirms Liquidation Plan and Ends Operations",
+              "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/1194361/luminar-technologies-confirms-liquidation-plan-and-ends-operations/",
+              "date": "2026-04"
+            }
+          ]
         }
       ],
       "investment_potential": {
         "public": [
           {
-            "name": "Mobileye", "ticker": "MBLY", "bucket": "pullback",
+            "name": "Mobileye",
+            "ticker": "MBLY",
+            "bucket": "pullback",
             "thesis": "Down ~35% over the trailing year, yet running an active Level 4 robotaxi pilot across four cities (Tel Aviv, Paris, Dubai, Daegu) with a locked-in Luminar-era lidar supply relationship (now needing a replacement sensor partner post-Luminar's collapse) - a name whose commercial AV progress hasn't been reflected in the stock, though the lidar-supplier disruption is a genuine near-term risk to watch, not just noise.",
-            "citations": [{"title": "This Self-Driving Car Stock Just Got a Major Vote of Confidence", "url": "https://www.theglobeandmail.com/investing/markets/stocks/MBLY/pressreleases/31331929/this-self-driving-car-stock-just-got-a-major-vote-of-confidence/"}]
+            "citations": [
+              {
+                "title": "This Self-Driving Car Stock Just Got a Major Vote of Confidence",
+                "url": "https://www.theglobeandmail.com/investing/markets/stocks/MBLY/pressreleases/31331929/this-self-driving-car-stock-just-got-a-major-vote-of-confidence/",
+                "date": "2026"
+              }
+            ]
           },
           {
-            "name": "Baidu", "ticker": "BIDU", "bucket": "undervalued",
+            "name": "Baidu",
+            "ticker": "BIDU",
+            "bucket": "undervalued",
             "thesis": "Apollo Go is the only robotaxi operator with a publicly disclosed unit-level breakeven (Wuhan, Q2 2025) and runs in 10+ Chinese cities - real, profitable-at-the-unit-level commercial scale that isn't separately valued within Baidu's diversified search/cloud/AI conglomerate structure, unlike Waymo's or Tesla's more directly-priced robotaxi optionality.",
-            "citations": [{"title": "Robotaxi Market 2026: Complete Guide to Global Players & Market Size", "url": "https://nextcurious.com/electric-vehicles/robotaxi-market-global-players-guide/"}]
+            "citations": [
+              {
+                "title": "Robotaxi Market 2026: Complete Guide to Global Players & Market Size",
+                "url": "https://nextcurious.com/electric-vehicles/robotaxi-market-global-players-guide/",
+                "date": "2026"
+              }
+            ]
           }
         ],
         "private": [
@@ -458,14 +752,26 @@
             "appeal": "Diversified strategic investor base, platform-licensing model reduces single-fleet capital intensity",
             "thesis": "Backed by Microsoft, Nvidia, Uber, and three separate automakers (Mercedes-Benz, Nissan, Stellantis) simultaneously - a broader strategic coalition than any single-fleet competitor, and its licensing model (versus owning/operating vehicles) is structurally less capital-intensive than Waymo's or Zoox's approach.",
             "investors": "Eclipse, Balderton, SoftBank Vision Fund 2, Microsoft, Nvidia, Uber, Mercedes-Benz, Nissan, Stellantis.",
-            "citations": [{"title": "Wayve raises $1.2B at $8.6B valuation to scale embodied AI for autonomous driving", "url": "https://tech.eu/2026/02/25/wayve-raises-12b-at-86b-valuation-to-scale-embodied-ai-for-autonomous-driving/"}]
+            "citations": [
+              {
+                "title": "Wayve raises $1.2B at $8.6B valuation to scale embodied AI for autonomous driving",
+                "url": "https://tech.eu/2026/02/25/wayve-raises-12b-at-86b-valuation-to-scale-embodied-ai-for-autonomous-driving/",
+                "date": "2026-02-25"
+              }
+            ]
           },
           {
             "name": "Zoox",
             "appeal": "Zero external-dilution risk - fully backed by Amazon's balance sheet",
             "thesis": "No longer needs to raise independent capital at all, having been acquired outright by Amazon - the cleanest possible answer to dilution risk in this sector, though it also means there's no path for outside investors to gain direct exposure to Zoox specifically (only through Amazon shares).",
             "investors": "Amazon (sole owner).",
-            "citations": [{"title": "Zoox - 2026 Company Profile, Team, Funding & Competitors", "url": "https://tracxn.com/d/companies/zoox/__RYbwq3YHmba9I-rAIGvFuCxg1RwDbrr32y2T3AuUE3o"}]
+            "citations": [
+              {
+                "title": "Zoox - 2026 Company Profile, Team, Funding & Competitors",
+                "url": "https://tracxn.com/d/companies/zoox/__RYbwq3YHmba9I-rAIGvFuCxg1RwDbrr32y2T3AuUE3o",
+                "date": "n/d"
+              }
+            ]
           }
         ]
       }
@@ -473,7 +779,7 @@
     {
       "id": "biotech-glp1-gene-editing",
       "name": "Biotech: GLP-1 Successors & Gene Editing",
-      "eyebrow": "Biotech · commercial (GLP-1) + early clinical (gene editing)",
+      "eyebrow": "Biotech \u00b7 commercial (GLP-1) + early clinical (gene editing)",
       "how_it_works": "Two distinct but adjacent frontiers bundled here. GLP-1 successors work by targeting multiple metabolic hormone receptors at once (dual/triple agonists combining GLP-1, GIP, and amylin pathways) or by reformulating existing peptides as oral small molecules instead of injectables, chasing greater efficacy and convenience than first-generation semaglutide/tirzepatide. Gene editing (CRISPR-Cas9, base editing) directly rewrites disease-causing DNA sequences - Cas9 makes a double-strand cut to disable or replace a gene, while base editing (Beam's approach) rewrites a single genetic letter without cutting the DNA strand, aiming for higher precision.",
       "maturity": "Split maturity within one sector. GLP-1 is fully commercial and already the fourth-largest drug category (~$42B, ~4.6% share), with $132B in 2025 sales (+33.5% y/y) - 2026 is described as the 'year of acceleration' with oral formulations (Lilly's Foundayo, Novo's oral Wegovy) newly launched and triple agonists (retatrutide, 28%+ body weight reduction in trials) in late-stage trials. Gene editing is much earlier: CRISPR Therapeutics' Casgevy is the first FDA-approved CRISPR therapy, but the field overall remains binary-outcome, trial-readout-driven investing - Intellia's lead program isn't expected to launch until 1H 2027 even with FDA priority review.",
       "applications": [
@@ -493,7 +799,13 @@
           "description": "Current GLP-1 category leader with Mounjaro/Zepbound (tirzepatide) and the newly-approved oral Foundayo (orforglipron); developing triple-agonist retatrutide.",
           "investors": "Public markets (NYSE-listed).",
           "performance": "Mounjaro sales +125% y/y in Q1 2026, Zepbound +80%. Retatrutide has shown 28%+ body weight reduction in mid-to-late-stage trials - a clinical efficacy record for the class. Stock trades at a rich 35x earnings.",
-          "citations": [{"title": "GLP-1s: Lilly, Novo, Pfizer look to new weight loss drugs", "url": "https://www.cnbc.com/2026/06/13/glp-1s-lilly-novo-pfizer-look-to-new-weight-loss-drugs.html"}]
+          "citations": [
+            {
+              "title": "GLP-1s: Lilly, Novo, Pfizer look to new weight loss drugs",
+              "url": "https://www.cnbc.com/2026/06/13/glp-1s-lilly-novo-pfizer-look-to-new-weight-loss-drugs.html",
+              "date": "2026-06-13"
+            }
+          ]
         },
         {
           "name": "Novo Nordisk",
@@ -502,7 +814,13 @@
           "description": "Original GLP-1 franchise owner (Ozempic/Wegovy/semaglutide), now defending share against Lilly with oral Wegovy and next-gen candidates CagriSema and Amycretin.",
           "investors": "Public markets (NYSE/Copenhagen-listed); parent Novo Holdings just spent $16.5B acquiring CDMO Catalent for manufacturing capacity.",
           "performance": "Launched the first oral GLP-1 approved for obesity (Wegovy pill, January 2026). CagriSema (semaglutide + cagrilintide combo) showed stronger weight loss and blood sugar control than Wegovy alone in trials; Amycretin has a broad Phase 3 program guided for 2026 across obesity and diabetes.",
-          "citations": [{"title": "GLP-1 Pipeline Update: May 2026", "url": "https://www.primetherapeutics.com/glp-1-pipeline-update-may-2026"}]
+          "citations": [
+            {
+              "title": "GLP-1 Pipeline Update: May 2026",
+              "url": "https://www.primetherapeutics.com/glp-1-pipeline-update-may-2026",
+              "date": "2026-05"
+            }
+          ]
         },
         {
           "name": "Viking Therapeutics",
@@ -511,7 +829,13 @@
           "description": "Development-stage obesity-drug challenger - one of the more credible non-Lilly/Novo names in the GLP-1 race.",
           "investors": "Public markets (Nasdaq-listed).",
           "performance": "No revenue in 2025 or projected for 2026 - purely pipeline-value investing. Strong bullish analyst consensus, but recent stock performance has lagged broader market trends, reflecting cautious investor sentiment on pre-revenue biotech generally even with a promising pipeline.",
-          "citations": [{"title": "CRISPR Therapeutics vs. Viking Therapeutics: Which Healthcare Stock Is a Better Buy in 2026?", "url": "https://finance.yahoo.com/healthcare/articles/crispr-therapeutics-vs-viking-therapeutics-115501174.html"}]
+          "citations": [
+            {
+              "title": "CRISPR Therapeutics vs. Viking Therapeutics: Which Healthcare Stock Is a Better Buy in 2026?",
+              "url": "https://finance.yahoo.com/healthcare/articles/crispr-therapeutics-vs-viking-therapeutics-115501174.html",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Intellia Therapeutics",
@@ -520,7 +844,13 @@
           "description": "CRISPR-Cas9 in-vivo gene editing pure-play; lead program lonvo-z has FDA priority review.",
           "investors": "Public markets (Nasdaq-listed); secured a $400M credit facility to support lonvo-z development.",
           "performance": "FDA BLA acceptance for lonvo-z expected 2H 2026, U.S. launch targeted 1H 2027. Key 2026 catalysts include the MAGNITUDE clinical hold decision (ATTR-CM) and Phase 3 lonvo-z data (hereditary angioedema) - both described as having significant valuation impact either direction.",
-          "citations": [{"title": "Press Releases - Intellia Therapeutics", "url": "https://ir.intelliatx.com/press-releases"}]
+          "citations": [
+            {
+              "title": "Press Releases - Intellia Therapeutics",
+              "url": "https://ir.intelliatx.com/press-releases",
+              "date": "n/d"
+            }
+          ]
         },
         {
           "name": "Beam Therapeutics",
@@ -529,7 +859,13 @@
           "description": "Base-editing pure-play - a more precise alternative to CRISPR-Cas9's double-strand cut approach, rewriting single genetic letters instead.",
           "investors": "Public markets (Nasdaq-listed).",
           "performance": "BEAM-302 (alpha-1 antitrypsin deficiency) reported positive updated Phase 1/2 data in March 2026 and is advancing to pivotal testing in 2H 2026. Sickle cell program risto-cel could see a U.S. approval filing as early as late 2026.",
-          "citations": [{"title": "Best Gene-Editing Stocks for 2026 and How to Invest", "url": "https://www.fool.com/investing/stock-market/market-sectors/healthcare/genomics-stocks/gene-editing-stocks/"}]
+          "citations": [
+            {
+              "title": "Best Gene-Editing Stocks for 2026 and How to Invest",
+              "url": "https://www.fool.com/investing/stock-market/market-sectors/healthcare/genomics-stocks/gene-editing-stocks/",
+              "date": "n/d"
+            }
+          ]
         }
       ],
       "adjacent_companies": [
@@ -539,7 +875,13 @@
           "description": "Contract drug manufacturer (CDMO) acquired by Novo Holdings for $16.5B specifically to secure fill-finish manufacturing capacity for GLP-1 drugs - a direct bet that manufacturing capacity, not demand, is the binding constraint on the entire category's growth.",
           "investors": "Novo Holdings (acquired outright; deal cleared FTC and EU antitrust review).",
           "performance": "Three of its manufacturing sites (Italy, Belgium, Indiana) now dedicated to Novo Nordisk's GLP-1 supply chain, gradually boosting fill capacity from 2026 onward - directly addressing the supply shortage that has constrained Ozempic/Wegovy availability.",
-          "citations": [{"title": "Novo Holdings Bolsters GLP-1 Production Capacity With $16.5B Catalent Buyout", "url": "https://medcitynews.com/2024/02/novo-holdings-catalent-acquisition-novo-nordisk-glp1/"}]
+          "citations": [
+            {
+              "title": "Novo Holdings Bolsters GLP-1 Production Capacity With $16.5B Catalent Buyout",
+              "url": "https://medcitynews.com/2024/02/novo-holdings-catalent-acquisition-novo-nordisk-glp1/",
+              "date": "2024-02"
+            }
+          ]
         },
         {
           "name": "Lonza",
@@ -548,7 +890,13 @@
           "relationship": "Independent Swiss CDMO (not tied to a single pharma parent like Catalent now is) - a diversified way to play the broader biomanufacturing capacity crunch across both GLP-1 and gene-editing/cell-therapy production, without single-customer concentration risk.",
           "investors": "Public markets (Swiss-listed).",
           "performance": "Positioned as a beneficiary of biomanufacturing capacity demand across multiple biotech sub-sectors rather than a single drug class - a lower-conviction, more diversified adjacent play than Catalent's direct GLP-1 tie.",
-          "citations": [{"title": "GLP-1 Drug Manufacturing: Expansion & Tech Transfer", "url": "https://intuitionlabs.ai/articles/glp-1-drug-manufacturing-cdmo-tech-transfer"}]
+          "citations": [
+            {
+              "title": "GLP-1 Drug Manufacturing: Expansion & Tech Transfer",
+              "url": "https://intuitionlabs.ai/articles/glp-1-drug-manufacturing-cdmo-tech-transfer",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Thermo Fisher Scientific",
@@ -563,14 +911,30 @@
       "investment_potential": {
         "public": [
           {
-            "name": "Intellia Therapeutics", "ticker": "NTLA", "bucket": "pullback",
+            "name": "Intellia Therapeutics",
+            "ticker": "NTLA",
+            "bucket": "pullback",
             "thesis": "Down 55.2% over 3 months (-28% over the year vs. the industry's +15.2%) following a regulatory setback on lead candidate nex-z - a real setback, not noise, but notable that ARK's Cathie Wood kept buying through the decline; 52-week range of $7.95-$28.25 shows how far sentiment has swung on binary trial/regulatory news rather than a steady fundamental deterioration.",
-            "citations": [{"title": "Intellia Therapeutics Stock Is Down Nearly 95% From Its Record Highs but Cathie Wood Keeps Buying", "url": "https://www.barchart.com/story/news/1718399/intellia-therapeutics-stock-is-down-nearly-95-from-its-record-highs-but-cathie-wood-keeps-buying"}]
+            "citations": [
+              {
+                "title": "Intellia Therapeutics Stock Is Down Nearly 95% From Its Record Highs but Cathie Wood Keeps Buying",
+                "url": "https://www.barchart.com/story/news/1718399/intellia-therapeutics-stock-is-down-nearly-95-from-its-record-highs-but-cathie-wood-keeps-buying",
+                "date": "2026"
+              }
+            ]
           },
           {
-            "name": "Viking Therapeutics", "ticker": "VKTX", "bucket": "undervalued",
+            "name": "Viking Therapeutics",
+            "ticker": "VKTX",
+            "bucket": "undervalued",
             "thesis": "Strong bullish analyst consensus on its obesity-drug pipeline hasn't translated to stock performance, which has lagged the broader market - a case where pre-revenue biotech caution (no revenue in 2025 or 2026) appears to be suppressing the price below what the pipeline's own analyst ratings would imply.",
-            "citations": [{"title": "CRISPR Therapeutics vs. Viking Therapeutics: Which Healthcare Stock Is a Better Buy in 2026?", "url": "https://finance.yahoo.com/healthcare/articles/crispr-therapeutics-vs-viking-therapeutics-115501174.html"}]
+            "citations": [
+              {
+                "title": "CRISPR Therapeutics vs. Viking Therapeutics: Which Healthcare Stock Is a Better Buy in 2026?",
+                "url": "https://finance.yahoo.com/healthcare/articles/crispr-therapeutics-vs-viking-therapeutics-115501174.html",
+                "date": "2026"
+              }
+            ]
           }
         ],
         "private": [
@@ -579,14 +943,26 @@
             "appeal": "Strategic pharma investor, differentiated modality reduces direct competition risk",
             "thesis": "Eli Lilly itself participated in Moonwalk's $70M Series B for RNAi (RNA interference) obesity drugs - a differentiated modality from the GLP-1 mainstream that gives it a distinct competitive lane, plus the unusual signal of a category leader (Lilly) directly backing a potential future competitor/partner rather than only competing against it.",
             "investors": "Alpha Wave, YK Bioventures, Eli Lilly, ARCH Venture Partners, Khosla Ventures.",
-            "citations": [{"title": "Moonwalk Biosciences Raises $70M Series B for RNAi Obesity Drugs", "url": "https://fundraiseinsider.com/blog/moonwalk-biosciences-raises-70m-series-b-for-rnai-obesity-drugs/"}]
+            "citations": [
+              {
+                "title": "Moonwalk Biosciences Raises $70M Series B for RNAi Obesity Drugs",
+                "url": "https://fundraiseinsider.com/blog/moonwalk-biosciences-raises-70m-series-b-for-rnai-obesity-drugs/",
+                "date": "2026"
+              }
+            ]
           },
           {
             "name": "Kailera Therapeutics",
             "appeal": "Large institutional round, de-risked late-stage asset",
             "thesis": "Raised $600M in a single Series B led by Bain Capital Private Equity to fund global late-stage testing of a Zepbound-like injectable - both the round size and the private-equity (not just venture) lead investor signal a later-stage, more de-risked bet than most Series B biotech financings, backing an asset with a known-successful mechanism rather than a novel unproven one.",
             "investors": "Bain Capital Private Equity.",
-            "citations": [{"title": "Kailera nets $600M more to advance Zepbound-like obesity drug", "url": "https://www.biopharmadive.com/news/kailera-Series-B-bain-obesity-drugs-hengrui-GLP-1-GIP/802689/"}]
+            "citations": [
+              {
+                "title": "Kailera nets $600M more to advance Zepbound-like obesity drug",
+                "url": "https://www.biopharmadive.com/news/kailera-Series-B-bain-obesity-drugs-hengrui-GLP-1-GIP/802689/",
+                "date": "2026"
+              }
+            ]
           }
         ]
       }
@@ -594,7 +970,7 @@
     {
       "id": "space-satellite",
       "name": "Space & Satellite",
-      "eyebrow": "Deep tech · commercial (launch) + early (constellations)",
+      "eyebrow": "Deep tech \u00b7 commercial (launch) + early (constellations)",
       "how_it_works": "Reusable launch vehicles have collapsed the cost of reaching orbit (down ~95% over the past decade), which in turn made large satellite constellations economically viable for the first time - broadband internet (Starlink), direct-to-cell connectivity (AST SpaceMobile), and earth observation (Planet Labs) are all downstream businesses that exist because launch got cheap, not because the satellite technology itself is new.",
       "maturity": "Bifurcated: launch and broadband connectivity are genuinely commercial and profitable at scale (SpaceX/Starlink); newer satellite business models (direct-to-cell, dense earth-observation constellations) are earlier-stage with real revenue but not yet consistent profitability. The global space economy hit $470B in January 2026, commercial activity now 78% of total revenue - a mature-enough market that January 2026 marked the first time commercial fully eclipsed government spending as the primary driver.",
       "applications": [
@@ -613,7 +989,13 @@
           "description": "Launch and satellite-broadband leader (Falcon 9, Starship, Starlink); completed the largest US IPO on record in 2026.",
           "investors": "Public markets since its June 12, 2026 IPO (previously backed by a long roster of venture and sovereign funds pre-IPO).",
           "performance": "IPO raised ~$85.7B at a $2.3T post-IPO valuation. Starlink alone did $11.4B revenue in 2025 (+48% y/y, 61% of total SpaceX revenue) with $4.4B operating profit - the company's core profit center. 2026 full-year revenue estimated to approach $25B; Starlink subscribers reached 12 million by Q2 2026 across 160 countries.",
-          "citations": [{"title": "SpaceX: $800.00B valuation [2026]", "url": "https://sacra.com/c/spacex/valuation/"}]
+          "citations": [
+            {
+              "title": "SpaceX: $800.00B valuation [2026]",
+              "url": "https://sacra.com/c/spacex/valuation/",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Rocket Lab",
@@ -622,7 +1004,13 @@
           "description": "Second-largest US launch provider by cadence, dominant in the small-satellite launch niche (Electron rocket) with its larger Neutron rocket debuting in 2026.",
           "investors": "Public markets (Nasdaq-listed).",
           "performance": "Q1 2026 revenue $200.35M (+64% y/y), record $2.2B backlog, 16 Electron launches completed by September 2026 (95th Electron launch overall). Stock +46% in H1 2026 but has since pulled back - 9.2% below its 20-day moving average and ~30% below its 100-day average as of mid-September, part of the broader space-stock summer selloff.",
-          "citations": [{"title": "Rocket Lab Has a $1.1 Billion Backlog, 50+ Successful Launches, and Neutron Due in 2026", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261948979-rocket-lab-1-1-billion-backlog-50-successful-launches-neutron-2026-is-rklb-a-buy-at-117-tradingkey"}]
+          "citations": [
+            {
+              "title": "Rocket Lab Has a $1.1 Billion Backlog, 50+ Successful Launches, and Neutron Due in 2026",
+              "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261948979-rocket-lab-1-1-billion-backlog-50-successful-launches-neutron-2026-is-rklb-a-buy-at-117-tradingkey",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Blue Origin",
@@ -630,7 +1018,13 @@
           "description": "Jeff Bezos's heavy-lift launch (New Glenn), lunar lander (Blue Moon), and planned satellite network (TeraWave) company - SpaceX's most direct heavy-lift competitor, but far behind on launch cadence and operational track record.",
           "investors": "Coatue (~$4B), Jeff Bezos (~$2B), other investors in its first-ever external funding round (July 2026).",
           "performance": "Valued at $130B on $10B raised - a valuation the reporting explicitly frames as 'a significant speculative premium... rather than a proven operational track record.' A New Glenn rocket exploded during a May 2026 static engine test, destroying the company's only operational launchpad; management targets returning to flight by end of 2026.",
-          "citations": [{"title": "Blue Origin's $130 Billion Valuation: A High-Stakes Bet on Future Potential, Not Current Performance", "url": "https://www.kavout.com/market-lens/blue-origin-s-130-billion-valuation-a-high-stakes-bet-on-future-potential-not-current-performance"}]
+          "citations": [
+            {
+              "title": "Blue Origin's $130 Billion Valuation: A High-Stakes Bet on Future Potential, Not Current Performance",
+              "url": "https://www.kavout.com/market-lens/blue-origin-s-130-billion-valuation-a-high-stakes-bet-on-future-potential-not-current-performance",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "AST SpaceMobile",
@@ -639,7 +1033,13 @@
           "description": "Direct-to-cell satellite connectivity - lets ordinary smartphones connect via satellite with no special hardware, partnering with mobile carriers rather than selling directly to consumers.",
           "investors": "Public markets (Nasdaq-listed); backed by nearly 60 global mobile network operator partners covering 3 billion subscribers.",
           "performance": "Up 324% over the trailing year despite a summer pullback (-50%+ from its high). FY2026 revenue guidance of $150-200M. A Berenberg $92 price target (September 2026) drove a 12% single-day pop, illustrating how sentiment-sensitive the stock remains.",
-          "citations": [{"title": "AST SpaceMobile Soars 12% on Berenberg's $92 Price Target, Planet Labs Climbs 5%", "url": "https://247wallst.com/investing/2026/09/02/ast-spacemobile-soars-12-on-berenbergs-92-price-target-planet-labs-climbs-5/"}]
+          "citations": [
+            {
+              "title": "AST SpaceMobile Soars 12% on Berenberg's $92 Price Target, Planet Labs Climbs 5%",
+              "url": "https://247wallst.com/investing/2026/09/02/ast-spacemobile-soars-12-on-berenbergs-92-price-target-planet-labs-climbs-5/",
+              "date": "2026-09-02"
+            }
+          ]
         },
         {
           "name": "Planet Labs",
@@ -648,7 +1048,13 @@
           "description": "Daily-refresh earth observation satellite constellation - imagery used by defense, intelligence, agriculture, and climate-monitoring customers.",
           "investors": "Public markets (NYSE-listed).",
           "performance": "Remaining performance obligations jumped 361% to $672.47M, driven by defense/intelligence contracts (NGA, NRO, NASA, U.S. Navy, NATO). Stock hit ~$52 in late May 2026, then fell over 60% to around $20 - despite the pullback, still up 201% over the trailing year (the entire 12-month gain predates 2026, i.e., it round-tripped a huge rally within this year alone).",
-          "citations": [{"title": "Planet Labs Sinks 8% Despite New Defense Contract, Intuitive Machines Pulls Back, AST SpaceMobile Sits Out Broad-Market Rally", "url": "https://finance.yahoo.com/markets/stocks/articles/planet-labs-sinks-8-despite-150706793.html"}]
+          "citations": [
+            {
+              "title": "Planet Labs Sinks 8% Despite New Defense Contract, Intuitive Machines Pulls Back, AST SpaceMobile Sits Out Broad-Market Rally",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/planet-labs-sinks-8-despite-150706793.html",
+              "date": "2026"
+            }
+          ]
         }
       ],
       "adjacent_companies": [
@@ -659,7 +1065,13 @@
           "relationship": "Building a direct Starlink competitor (Project Kuiper LEO broadband constellation) under an FCC license requiring half the constellation in orbit by July 2026 and the full build by 2029 - the clearest evidence that satellite broadband is now considered strategically necessary infrastructure, not a SpaceX-only bet.",
           "investors": "Public markets - already extensively covered in the Equities Desk (Point 3) and this report's Humanoid Robotics and Autonomous Vehicles sections, not duplicated here.",
           "performance": "First operational satellite batches launched from April 2025; deployment deadline pressure through 2026 is a real execution risk given how far behind Starlink's live subscriber base Kuiper currently is.",
-          "citations": [{"title": "Project Kuiper - eoPortal", "url": "https://www.eoportal.org/satellite-missions/projectkuiper"}]
+          "citations": [
+            {
+              "title": "Project Kuiper - eoPortal",
+              "url": "https://www.eoportal.org/satellite-missions/projectkuiper",
+              "date": "n/d"
+            }
+          ]
         },
         {
           "name": "L3Harris Technologies",
@@ -668,20 +1080,42 @@
           "relationship": "Traditional defense contractor with a substantial space business (satellite payloads, sensors, GPS navigation, missile-warning/tracking, laser communications) that has partnered directly with Amazon's Kuiper Government Solutions - a bridge between legacy defense primes and the new commercial constellation operators, benefiting regardless of which commercial constellation wins since it supplies the government-facing layer either way.",
           "investors": "Public markets - not otherwise covered in this dashboard's equities coverage to date.",
           "performance": "2023 acquisition of Aerojet Rocketdyne added rocket and in-space propulsion to its portfolio, broadening its space exposure beyond payloads/sensors into propulsion - a diversified, lower-volatility way to play the sector versus the pure-play commercial names above.",
-          "citations": [{"title": "Amazon's Project Kuiper partners with L3Harris to develop military communication solutions", "url": "https://spacenews.com/amazons-project-kuiper-partners-with-l3harris-to-develop-military-communication-solutions/"}]
+          "citations": [
+            {
+              "title": "Amazon's Project Kuiper partners with L3Harris to develop military communication solutions",
+              "url": "https://spacenews.com/amazons-project-kuiper-partners-with-l3harris-to-develop-military-communication-solutions/",
+              "date": "2026"
+            }
+          ]
         }
       ],
       "investment_potential": {
         "public": [
           {
-            "name": "Planet Labs", "ticker": "PL", "bucket": "pullback",
+            "name": "Planet Labs",
+            "ticker": "PL",
+            "bucket": "pullback",
             "thesis": "Fell over 60% from its late-May 2026 high even as remaining performance obligations jumped 361% to $672.47M on real defense/intelligence contracts (NGA, NRO, NASA, U.S. Navy, NATO) - a stark disconnect between a genuinely strengthening order book and a price move that looks driven more by basket-wide space-sector sentiment than by anything specific to Planet.",
-            "citations": [{"title": "Planet Labs Sinks 8% Despite New Defense Contract, Intuitive Machines Pulls Back, AST SpaceMobile Sits Out Broad-Market Rally", "url": "https://finance.yahoo.com/markets/stocks/articles/planet-labs-sinks-8-despite-150706793.html"}]
+            "citations": [
+              {
+                "title": "Planet Labs Sinks 8% Despite New Defense Contract, Intuitive Machines Pulls Back, AST SpaceMobile Sits Out Broad-Market Rally",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/planet-labs-sinks-8-despite-150706793.html",
+                "date": "2026"
+              }
+            ]
           },
           {
-            "name": "Rocket Lab", "ticker": "RKLB", "bucket": "undervalued",
+            "name": "Rocket Lab",
+            "ticker": "RKLB",
+            "bucket": "undervalued",
             "thesis": "Q1 2026 revenue +64% y/y with a record $2.2B backlog and a full commercial launch cadence (16 Electron missions by September), yet the stock sits 9.2% below its 20-day and ~30% below its 100-day moving average - fundamentals accelerating while price momentum lags, the textbook setup for a value case rather than a growth-momentum one.",
-            "citations": [{"title": "Rocket Lab Has a $1.1 Billion Backlog, 50+ Successful Launches, and Neutron Due in 2026", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261948979-rocket-lab-1-1-billion-backlog-50-successful-launches-neutron-2026-is-rklb-a-buy-at-117-tradingkey"}]
+            "citations": [
+              {
+                "title": "Rocket Lab Has a $1.1 Billion Backlog, 50+ Successful Launches, and Neutron Due in 2026",
+                "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261948979-rocket-lab-1-1-billion-backlog-50-successful-launches-neutron-2026-is-rklb-a-buy-at-117-tradingkey",
+                "date": "2026"
+              }
+            ]
           }
         ],
         "private": [
@@ -690,14 +1124,26 @@
             "appeal": "Founder-level patient capital reduces near-term dilution urgency",
             "thesis": "Jeff Bezos personally committing $2B of the $10B first-ever external round signals a willingness to fund the company through operational setbacks (the May 2026 New Glenn launchpad explosion among them) without needing to lean on external capital markets on their timeline - a different risk profile than a purely venture-funded competitor facing the same setback.",
             "investors": "Coatue (~$4B), Jeff Bezos (~$2B).",
-            "citations": [{"title": "Blue Origin's $130 Billion Valuation: A High-Stakes Bet on Future Potential, Not Current Performance", "url": "https://www.kavout.com/market-lens/blue-origin-s-130-billion-valuation-a-high-stakes-bet-on-future-potential-not-current-performance"}]
+            "citations": [
+              {
+                "title": "Blue Origin's $130 Billion Valuation: A High-Stakes Bet on Future Potential, Not Current Performance",
+                "url": "https://www.kavout.com/market-lens/blue-origin-s-130-billion-valuation-a-high-stakes-bet-on-future-potential-not-current-performance",
+                "date": "2026"
+              }
+            ]
           },
           {
             "name": "Varda Space Industries",
             "appeal": "Differentiated niche (in-space manufacturing) with a lower valuation entry point than the mega-cap names",
             "thesis": "At a $1.58B valuation (February 2026 Series D), Varda offers exposure to a genuinely different part of the space value chain - in-space manufacturing rather than launch or connectivity - at a fraction of the capital commitment required to access Blue Origin or SpaceX at this stage.",
             "investors": "Not fully disclosed; $578M raised in total funding to date.",
-            "citations": [{"title": "Varda Space Industries 2026 Company Profile: Valuation, Funding & Investors", "url": "https://pitchbook.com/profiles/company/454881-61"}]
+            "citations": [
+              {
+                "title": "Varda Space Industries 2026 Company Profile: Valuation, Funding & Investors",
+                "url": "https://pitchbook.com/profiles/company/454881-61",
+                "date": "n/d"
+              }
+            ]
           }
         ]
       }
@@ -705,7 +1151,7 @@
     {
       "id": "fusion-energy",
       "name": "Fusion Energy",
-      "eyebrow": "Deep tech · pre-commercial, capital-intensive",
+      "eyebrow": "Deep tech \u00b7 pre-commercial, capital-intensive",
       "how_it_works": "Fuses light atomic nuclei (typically hydrogen isotopes) together under extreme heat and pressure to release energy - the same reaction that powers the sun - rather than splitting heavy atoms like conventional fission. Competing confinement approaches: magnetic confinement using high-temperature superconducting (HTS) magnets to contain plasma in a tokamak (Commonwealth Fusion, Tokamak Energy), field-reversed configuration using pulsed magnetic compression (Helion), and other proprietary approaches (TAE's hydrogen-boron aneutronic fuel cycle).",
       "maturity": "Pre-commercial but moving faster than historical fusion timelines suggested - global private investment surged past $13B in 2026, driven substantially by Big Tech's AI-data-center power demand rather than climate policy alone. Commonwealth Fusion installed the first of 18 planned HTS magnets in its SPARC reactor in January 2026 (each magnet: 24 tons, 20-tesla field). Multiple companies claim to be within 18-24 months of demonstrating net energy gain, though under specific experimental definitions, not continuous grid electricity. First commercial plants are projected 2030-2035; Japan has moved its national commercialization target up to the 2030s from the 2040s.",
       "applications": [
@@ -723,7 +1169,13 @@
           "description": "Tokamak (magnetic confinement) developer using HTS magnets; the most heavily capitalized private fusion company globally.",
           "investors": "Nvidia (first-time fusion investor), Google, Khosla Ventures, Bill Gates's Breakthrough Energy Ventures, among others.",
           "performance": "Closed a $3.85B round in May 2026, bringing total funding to ~$6.85B since 2018 - more than any other private fusion company. Installed the first of 18 planned HTS magnets in its SPARC reactor (Devens, MA) in January 2026.",
-          "citations": [{"title": "Commercial Fusion Energy Funding Status: Mid-Year 2026", "url": "https://thefusionreport.substack.com/p/commercial-fusion-energy-funding"}]
+          "citations": [
+            {
+              "title": "Commercial Fusion Energy Funding Status: Mid-Year 2026",
+              "url": "https://thefusionreport.substack.com/p/commercial-fusion-energy-funding",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Helion Energy",
@@ -731,7 +1183,13 @@
           "description": "Field-reversed-configuration (pulsed magnetic compression) approach; has the most concrete near-term commercial offtake commitment in the sector.",
           "investors": "Thrive Capital (led the $465M Series G), OpenAI CEO Sam Altman (personally led an earlier $425M round) - an unusually direct AI-industry-to-fusion capital pipeline.",
           "performance": "Raised $465M in June 2026 at a $15.5B post-money valuation - nearly 3x its January 2025 valuation and now the single most valuable private fusion company. Began construction of its Orion plant in Washington state, targeting 50MW delivered to Microsoft data centers by 2028 (a timeline widely viewed as aggressive even by sympathetic observers).",
-          "citations": [{"title": "Helion hits $15.5B valuation with $465M in new cash as it aims to commercialize fusion this decade", "url": "https://www.geekwire.com/2026/helion-hits-15-5b-valuation-with-465m-in-new-cash-to-commercialize-fusion-this-decade/"}]
+          "citations": [
+            {
+              "title": "Helion hits $15.5B valuation with $465M in new cash as it aims to commercialize fusion this decade",
+              "url": "https://www.geekwire.com/2026/helion-hits-15-5b-valuation-with-465m-in-new-cash-to-commercialize-fusion-this-decade/",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "TAE Technologies",
@@ -739,7 +1197,13 @@
           "description": "Hydrogen-boron aneutronic fusion approach (avoids producing damaging neutrons, a materials-science advantage over deuterium-tritium designs) - now the sector's one path to public-market trading.",
           "investors": "Chevron, Google, NEA, among others; total private funding of $1.32B over 11 rounds.",
           "performance": "Announced an all-stock merger with Trump Media & Technology Group (December 2025) valued above $6B - the first mechanism for public investors to gain direct fusion-sector exposure. Separately raised $150M+ in its latest round and began U.S. site visits for its first fusion power plant in March 2026; its UK joint venture with the Atomic Energy Authority became fully funded and formally established in May 2026.",
-          "citations": [{"title": "Top 10 Fusion Energy Startups to Watch in 2026", "url": "https://www.naturetechmemos.com/p/top-10-fusion-energy-startups-to-watch-in-2026"}]
+          "citations": [
+            {
+              "title": "Top 10 Fusion Energy Startups to Watch in 2026",
+              "url": "https://www.naturetechmemos.com/p/top-10-fusion-energy-startups-to-watch-in-2026",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Tokamak Energy",
@@ -747,7 +1211,13 @@
           "description": "UK-based spherical tokamak developer - a more compact magnetic-confinement design than Commonwealth Fusion's conventional tokamak geometry.",
           "investors": "Undisclosed round backers; $335M total funding since 2009 (most recently a $125M round).",
           "performance": "Smallest-funded of the four primary names tracked here by total capital raised, reflecting a lower-profile, UK-centered funding base versus the US Big Tech-heavy rounds at Commonwealth Fusion and Helion.",
-          "citations": [{"title": "Tokamak Energy Nabs $125M, Total New Fusion Energy Funding Over $1.5B in 2024", "url": "https://thefusionreport.substack.com/p/tokamak-energy-nabs-125m-total-new"}]
+          "citations": [
+            {
+              "title": "Tokamak Energy Nabs $125M, Total New Fusion Energy Funding Over $1.5B in 2024",
+              "url": "https://thefusionreport.substack.com/p/tokamak-energy-nabs-125m-total-new",
+              "date": "2026"
+            }
+          ]
         }
       ],
       "adjacent_companies": [
@@ -758,7 +1228,13 @@
           "relationship": "The only U.S.-listed pure-play high-temperature-superconductor (HTS) stock - the direct 'picks and shovels' way to invest in the magnet technology every major magnetic-confinement fusion company (Commonwealth Fusion, Tokamak Energy) depends on, without taking single-company fusion-timeline risk. Also supplies HTS technology to the U.S. Navy (ship protection) and has exposure to a second growth vector: HTS cables for zero-resistive-loss power transmission inside AI data centers.",
           "investors": "Public markets (Nasdaq-listed).",
           "performance": "Global HTS wire market valued at ~$815M in 2026, projected to reach $1.6B by 2034 - a forecast that predates and likely understates fusion-specific demand acceleration given Commonwealth Fusion's SPARC magnet installation alone required ~$3B in associated funding.",
-          "citations": [{"title": "What Is a High-Temperature Superconducting Magnet? The $3B Tech Inside Every Fusion Reactor That Investors Keep Missing", "url": "https://techticker.fyi/what-is-a-high-temperature-superconducting-magnet-the-3b-tech-inside-every-fusion-reactor-that-investors-keep-missing/"}]
+          "citations": [
+            {
+              "title": "What Is a High-Temperature Superconducting Magnet? The $3B Tech Inside Every Fusion Reactor That Investors Keep Missing",
+              "url": "https://techticker.fyi/what-is-a-high-temperature-superconducting-magnet-the-3b-tech-inside-every-fusion-reactor-that-investors-keep-missing/",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Microsoft",
@@ -767,21 +1243,43 @@
           "relationship": "The first hyperscaler with a concrete fusion power-purchase commitment (Helion's Orion plant, targeting 50MW by 2028) - demand-side validation that a Big Tech company is willing to underwrite fusion timeline risk directly, similar to its role as a demand driver in this report's Nuclear SMR section.",
           "investors": "Public markets - already extensively covered in the Equities Desk (Point 3) and this report's Nuclear SMR section, not duplicated here.",
           "performance": "Fusion offtake is a small, forward-looking commitment relative to Microsoft's total power procurement, but strategically notable as the most concrete fusion-specific customer commitment in the sector to date.",
-          "citations": [{"title": "State of Fusion Energy: 2026 Report", "url": "https://grandpasai.com/research/state-of-fusion-energy-2026.html"}]
+          "citations": [
+            {
+              "title": "State of Fusion Energy: 2026 Report",
+              "url": "https://grandpasai.com/research/state-of-fusion-energy-2026.html",
+              "date": "2026"
+            }
+          ]
         }
       ],
       "investment_potential": {
         "note": "Honest gap: fusion has no established public pure-play with a real trading history yet - unlike every other sector in this report, there's no clean 'stock that pulled back' or 'stock that's undervalued' to point to, because the primary names are all still private. The two public entries below are the closest real fits: one pre-listing, one an indirect infrastructure play.",
         "public": [
           {
-            "name": "General Fusion", "ticker": "GFUZ (pending)", "bucket": "undervalued",
+            "name": "General Fusion",
+            "ticker": "GFUZ (pending)",
+            "bucket": "undervalued",
             "thesis": "Set to become the first pure-play fusion company on a major exchange (Nasdaq, mid-2026 SPAC combination with Spring Valley Acquisition Corp. III) at an implied ~$1B pro-forma equity value - a fraction of Helion's $15.5B or Commonwealth Fusion's implied value off its funding history, for a company whose Lawson Machine 26 has already achieved first plasma and first plasma compression. Worth watching once it actually starts trading rather than treating as a live pick today.",
-            "citations": [{"title": "GENERAL FUSION TO BECOME FIRST PUBLICLY TRADED PURE-PLAY FUSION COMPANY", "url": "https://generalfusion.com/post/general-fusion-business-combination-announcement/"}]
+            "citations": [
+              {
+                "title": "GENERAL FUSION TO BECOME FIRST PUBLICLY TRADED PURE-PLAY FUSION COMPANY",
+                "url": "https://generalfusion.com/post/general-fusion-business-combination-announcement/",
+                "date": "2026"
+              }
+            ]
           },
           {
-            "name": "American Superconductor (AMSC)", "ticker": "AMSC", "bucket": "undervalued",
+            "name": "American Superconductor (AMSC)",
+            "ticker": "AMSC",
+            "bucket": "undervalued",
             "thesis": "Reused from this sector's adjacent-companies list: the only U.S.-listed pure-play HTS magnet stock, direct exposure to the technology every major magnetic-confinement fusion company depends on, in a global HTS wire market (~$815M in 2026) that predates and likely understates fusion-specific demand given Commonwealth Fusion's SPARC magnet program alone required ~$3B in associated funding - an indirect but genuine way to size fusion exposure through an already-profitable, diversified business (also serving the US Navy and AI-data-center power transmission) rather than a single-fusion-company bet.",
-            "citations": [{"title": "What Is a High-Temperature Superconducting Magnet? The $3B Tech Inside Every Fusion Reactor That Investors Keep Missing", "url": "https://techticker.fyi/what-is-a-high-temperature-superconducting-magnet-the-3b-tech-inside-every-fusion-reactor-that-investors-keep-missing/"}]
+            "citations": [
+              {
+                "title": "What Is a High-Temperature Superconducting Magnet? The $3B Tech Inside Every Fusion Reactor That Investors Keep Missing",
+                "url": "https://techticker.fyi/what-is-a-high-temperature-superconducting-magnet-the-3b-tech-inside-every-fusion-reactor-that-investors-keep-missing/",
+                "date": "2026"
+              }
+            ]
           }
         ],
         "private": [
@@ -790,14 +1288,26 @@
             "appeal": "Most institutional capital of any private fusion company, Nvidia's first-ever fusion investment",
             "thesis": "Raised more total capital ($6.85B) than any other private fusion company, with Nvidia joining as a first-time fusion investor alongside Google and Bill Gates's Breakthrough Energy Ventures in its $863M Series B2 - the depth and quality of the cap table is itself a signal, distinct from and in addition to its technical lead (first HTS magnet installed in SPARC, January 2026).",
             "investors": "Nvidia, Google, Khosla Ventures, Bill Gates's Breakthrough Energy Ventures.",
-            "citations": [{"title": "Commercial Fusion Energy Funding Status: Mid-Year 2026", "url": "https://thefusionreport.substack.com/p/commercial-fusion-energy-funding"}]
+            "citations": [
+              {
+                "title": "Commercial Fusion Energy Funding Status: Mid-Year 2026",
+                "url": "https://thefusionreport.substack.com/p/commercial-fusion-energy-funding",
+                "date": "2026"
+              }
+            ]
           },
           {
             "name": "Helion Energy",
             "appeal": "Concrete near-term revenue catalyst via signed offtake, rapidly rising valuation",
             "thesis": "The only fusion company with a specific, named commercial customer commitment (Microsoft, 50MW by 2028) rather than a purely technical roadmap - and its valuation nearly tripled in a year ($5.4B to $15.5B) on that offtake plus continued AI-industry capital (Sam Altman personally led an earlier round), though the 2028 timeline is explicitly described as aggressive even by sympathetic observers.",
             "investors": "Thrive Capital, Sam Altman (OpenAI CEO, personal investment).",
-            "citations": [{"title": "Helion hits $15.5B valuation with $465M in new cash as it aims to commercialize fusion this decade", "url": "https://www.geekwire.com/2026/helion-hits-15-5b-valuation-with-465m-in-new-cash-to-commercialize-fusion-this-decade/"}]
+            "citations": [
+              {
+                "title": "Helion hits $15.5B valuation with $465M in new cash as it aims to commercialize fusion this decade",
+                "url": "https://www.geekwire.com/2026/helion-hits-15-5b-valuation-with-465m-in-new-cash-to-commercialize-fusion-this-decade/",
+                "date": "2026"
+              }
+            ]
           }
         ]
       }
@@ -805,7 +1315,7 @@
     {
       "id": "brain-computer-interfaces",
       "name": "Brain-Computer Interfaces",
-      "eyebrow": "Medtech · early commercial, regulatory-gated",
+      "eyebrow": "Medtech \u00b7 early commercial, regulatory-gated",
       "how_it_works": "Implanted or surface electrodes read electrical signals from neurons and translate them into digital commands, letting the brain directly control a computer, robotic limb, or communication device - bypassing damaged nerve/muscle pathways in people with paralysis, ALS, or other motor/speech impairment. Approaches vary by invasiveness: fully implanted penetrating electrode arrays (Neuralink, Blackrock, Paradromics) offer the highest signal resolution but the most surgical risk; surface/epidural arrays (Precision Neuroscience) trade some resolution for a less invasive procedure; endovascular stent-electrodes threaded through blood vessels (Synchron) avoid open brain surgery entirely.",
       "maturity": "Genuinely early commercial, gated hard by regulation rather than technology. The global BCI market is estimated at $1.4B in 2026, growing to $15.04B by 2035 (16.7% CAGR) - real but still a small market. Crucially, the FDA has not granted full commercial (PMA) approval to any implantable motor-control BCI as of mid-2026; every permanently implanted device aimed at restoring movement or speech remains investigational. The one exception is Precision Neuroscience, which took the less invasive 510(k) regulatory pathway (cleared April 2025) allowing limited commercialization today within a 30-day implant constraint - a meaningfully different (and faster) route to market than Neuralink's or Synchron's.",
       "applications": [
@@ -824,7 +1334,13 @@
           "description": "Fully implanted, high-channel-count electrode array (highest signal resolution of the group); the most publicly visible name in the sector.",
           "investors": "Existing venture backers across multiple rounds; total primary funding ~$1.85B since 2016.",
           "performance": "Raised $650M Series E in April 2026 (disclosed valuation $9-9.7B; unconfirmed secondary reports suggest ~$40B implied by early 2026). 5+ patients implanted by early 2026, using the device for computer control, video editing, CAD design, and robotic-arm operation. Musk announced plans for high-volume, largely automated implant production starting 2026.",
-          "citations": [{"title": "Neuralink Valuation, Share Price Estimates & Funding History", "url": "https://public.com/company/neuralink-neul"}]
+          "citations": [
+            {
+              "title": "Neuralink Valuation, Share Price Estimates & Funding History",
+              "url": "https://public.com/company/neuralink-neul",
+              "date": "n/d"
+            }
+          ]
         },
         {
           "name": "Synchron",
@@ -832,7 +1348,13 @@
           "description": "Endovascular stent-electrode (Stentrode) threaded through blood vessels to the brain - avoids open brain surgery, the least invasive of the high-resolution approaches.",
           "investors": "Double Point Ventures (led Series D), ARCH Ventures, Khosla Ventures, Bezos Expeditions, Qatar Investment Authority, Australia's National Reconstruction Fund, among others.",
           "performance": "Raised $200M Series D (total funding $345M) to fund a 2026 pivotal trial under COMMAND - the first FDA Investigational Device Exemption granted for a permanently implanted BCI, positioning Synchron as the most regulatory-advanced traditional-implant competitor to Neuralink.",
-          "citations": [{"title": "Synchron raises $200M to prepare for brain computer interface launch", "url": "https://www.medtechdive.com/news/synchron-funding-bci-200m/804977/"}]
+          "citations": [
+            {
+              "title": "Synchron raises $200M to prepare for brain computer interface launch",
+              "url": "https://www.medtechdive.com/news/synchron-funding-bci-200m/804977/",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Precision Neuroscience",
@@ -840,7 +1362,13 @@
           "description": "Thin-film surface electrode array taking the 510(k) regulatory pathway rather than the slower PMA route - trading some signal resolution for a faster, already-cleared path to limited commercialization.",
           "investors": "Part of the >$1B wave of 2024-2025 BCI investment alongside Blackrock and Neuralink; specific round investors not disclosed in available sources.",
           "performance": "510(k) clearance achieved April 2025, allowing commercialization today within a 30-day implant constraint - the only company in this roster with an active, non-investigational commercial pathway rather than a purely trial-based one.",
-          "citations": [{"title": "BCI Funding Reaches A New Scale In 2026", "url": "https://www.neurofounders.co/articles/bci-enters-a-new-funding-stage"}]
+          "citations": [
+            {
+              "title": "BCI Funding Reaches A New Scale In 2026",
+              "url": "https://www.neurofounders.co/articles/bci-enters-a-new-funding-stage",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Blackrock Neurotech",
@@ -848,7 +1376,13 @@
           "description": "Long-established penetrating-electrode-array maker (its Utah Array is a research-standard BCI electrode used across academic neuroscience); notable for its acquirer more than its technology roadmap.",
           "investors": "Tether (the USDT stablecoin issuer) acquired the company outright - a striking example of crypto-industry capital diversifying directly into implantable medtech.",
           "performance": "~$250M raised prior to the Tether acquisition; now backed by a non-traditional strategic owner whose capital depth and long-term intent differ meaningfully from venture-backed peers.",
-          "citations": [{"title": "Investment in brain-computer interface (BCI) startup firms, Blackrock Neurotech, Neuralink, Synchron, Paradromics", "url": "https://www.neurotechreports.com/pages/Investment-BCI-startups.html"}]
+          "citations": [
+            {
+              "title": "Investment in brain-computer interface (BCI) startup firms, Blackrock Neurotech, Neuralink, Synchron, Paradromics",
+              "url": "https://www.neurotechreports.com/pages/Investment-BCI-startups.html",
+              "date": "n/d"
+            }
+          ]
         },
         {
           "name": "Medtronic",
@@ -857,7 +1391,13 @@
           "description": "Legacy medical-device giant already running what this report's sourcing describes as 'one of the largest commercial deployments of brain-computer interface technology to date,' via BCI-adjacent deep brain stimulation (DBS) rather than a Neuralink-style motor/communication implant.",
           "investors": "Public markets - not otherwise covered in this dashboard's equities coverage to date.",
           "performance": "FDA-approved Adaptive DBS (aDBS) with BrainSense sensing technology for Parkinson's (February 2025), which reads and classifies brain signals in real time to auto-adjust stimulation - a decade of R&D culminating in a real, reimbursed, at-scale commercial BCI-adjacent product, in contrast to the still-investigational pure-plays above.",
-          "citations": [{"title": "Medtronic earns U.S. FDA approval for the world's first Adaptive deep brain stimulation system", "url": "https://news.medtronic.com/2025-02-24-Medtronic-earns-U-S-FDA-approval-for-the-worlds-first-Adaptive-deep-brain-stimulation-system-for-people-with-Parkinsons"}]
+          "citations": [
+            {
+              "title": "Medtronic earns U.S. FDA approval for the world's first Adaptive deep brain stimulation system",
+              "url": "https://news.medtronic.com/2025-02-24-Medtronic-earns-U-S-FDA-approval-for-the-worlds-first-Adaptive-deep-brain-stimulation-system-for-people-with-Parkinsons",
+              "date": "2025-02-24"
+            }
+          ]
         }
       ],
       "adjacent_companies": [
@@ -867,7 +1407,13 @@
           "relationship": "Stablecoin issuer that acquired Blackrock Neurotech outright - an unusual and notable capital source diversifying crypto-industry profits directly into implantable medtech, worth watching as a signal of where non-traditional capital is rotating.",
           "investors": "N/A (Tether is itself the investor/acquirer here, not a funded company).",
           "performance": "Not a publicly traded or independently valued entity in the traditional sense; included here for the capital-flow signal its acquisition of Blackrock represents, not a performance metric.",
-          "citations": [{"title": "Blackrock Neurotech LLC", "url": "https://www.bioworld.com/keywords/30332-blackrock-neurotech-llc"}]
+          "citations": [
+            {
+              "title": "Blackrock Neurotech LLC",
+              "url": "https://www.bioworld.com/keywords/30332-blackrock-neurotech-llc",
+              "date": "n/d"
+            }
+          ]
         },
         {
           "name": "NVIDIA",
@@ -883,14 +1429,30 @@
         "note": "Honest gap: neither Neuralink, Synchron, Precision Neuroscience, Blackrock Neurotech, Paradromics, nor Emotiv are publicly listed - this is the earliest-stage sector in the report by that measure, and no true implanted-BCI public pure-play exists to screen for a pullback or value case. The two public entries below are the closest real fits.",
         "public": [
           {
-            "name": "Medtronic", "ticker": "MDT", "bucket": "undervalued",
+            "name": "Medtronic",
+            "ticker": "MDT",
+            "bucket": "undervalued",
             "thesis": "Already running what this report's sourcing calls 'one of the largest commercial deployments of brain-computer interface technology to date' via its FDA-approved Adaptive DBS/BrainSense system - a real, reimbursed, at-scale BCI-adjacent product folded into a large diversified medtech company's stock, arguably underappreciated as a BCI holding specifically because it's such a small piece of a much bigger business.",
-            "citations": [{"title": "Medtronic earns U.S. FDA approval for the world's first Adaptive deep brain stimulation system", "url": "https://news.medtronic.com/2025-02-24-Medtronic-earns-U-S-FDA-approval-for-the-worlds-first-Adaptive-deep-brain-stimulation-system-for-people-with-Parkinsons"}]
+            "citations": [
+              {
+                "title": "Medtronic earns U.S. FDA approval for the world's first Adaptive deep brain stimulation system",
+                "url": "https://news.medtronic.com/2025-02-24-Medtronic-earns-U-S-FDA-approval-for-the-worlds-first-Adaptive-deep-brain-stimulation-system-for-people-with-Parkinsons",
+                "date": "2025-02-24"
+              }
+            ]
           },
           {
-            "name": "iRhythm Technologies", "ticker": "IRTC", "bucket": "pullback",
+            "name": "iRhythm Technologies",
+            "ticker": "IRTC",
+            "bucket": "pullback",
             "thesis": "Not a BCI company itself (it's a cardiac-monitoring wearable-biosensor maker) but the closest public proxy for the neuro-adjacent wearable-biosensor category - down 26.9% YTD despite guiding to $870-880M FY2026 revenue, included here as the most honest available pullback candidate rather than forcing a weaker BCI-specific fit.",
-            "citations": [{"title": "iRhythm Holdings (Nasdaq:IRTC) - Stock Analysis", "url": "https://simplywall.st/stocks/us/healthcare/nasdaq-irtc/irhythm-holdings"}]
+            "citations": [
+              {
+                "title": "iRhythm Holdings (Nasdaq:IRTC) - Stock Analysis",
+                "url": "https://simplywall.st/stocks/us/healthcare/nasdaq-irtc/irhythm-holdings",
+                "date": "n/d"
+              }
+            ]
           }
         ],
         "private": [
@@ -899,14 +1461,26 @@
             "appeal": "Highest-profile name, largest disclosed patient cohort",
             "thesis": "Most patients implanted and using the device for real tasks (computer control, video editing, CAD, robotic-arm operation) of any BCI company tracked here, with plans for high-volume automated-surgery production starting 2026 - the clearest evidence of near-term scaling intent, even as the wide gap between its $9-9.7B disclosed valuation and ~$40B rumored secondary pricing shows how unsettled the actual number is.",
             "investors": "Multiple venture rounds; ~$1.85B total primary funding since 2016.",
-            "citations": [{"title": "Neuralink Valuation, Share Price Estimates & Funding History", "url": "https://public.com/company/neuralink-neul"}]
+            "citations": [
+              {
+                "title": "Neuralink Valuation, Share Price Estimates & Funding History",
+                "url": "https://public.com/company/neuralink-neul",
+                "date": "n/d"
+              }
+            ]
           },
           {
             "name": "Synchron",
             "appeal": "Most regulatory-advanced traditional implant, sovereign and strategic institutional backing",
             "thesis": "Holds the first FDA Investigational Device Exemption ever granted for a permanently implanted BCI - a genuine regulatory lead over Neuralink on the traditional-implant pathway - backed by a notably institutional-heavy cap table including a sovereign wealth fund and a national government fund, less purely venture-dependent than most peers at this stage.",
             "investors": "Double Point Ventures, ARCH Ventures, Khosla Ventures, Bezos Expeditions, Qatar Investment Authority, Australia's National Reconstruction Fund.",
-            "citations": [{"title": "Synchron raises $200M to prepare for brain computer interface launch", "url": "https://www.medtechdive.com/news/synchron-funding-bci-200m/804977/"}]
+            "citations": [
+              {
+                "title": "Synchron raises $200M to prepare for brain computer interface launch",
+                "url": "https://www.medtechdive.com/news/synchron-funding-bci-200m/804977/",
+                "date": "2026"
+              }
+            ]
           }
         ]
       }
@@ -914,7 +1488,7 @@
     {
       "id": "next-gen-batteries",
       "name": "Next-Gen Batteries & Energy Storage",
-      "eyebrow": "Materials/energy · commercial (grid) + pre-commercial (solid-state)",
+      "eyebrow": "Materials/energy \u00b7 commercial (grid) + pre-commercial (solid-state)",
       "how_it_works": "Two distinct threads. Solid-state batteries replace a lithium-ion cell's liquid electrolyte with a solid one, promising higher energy density, faster charging, and better safety (no flammable liquid) for EVs - but solid-solid material interfaces degrade mechanically in ways liquid interfaces don't, which is the core unsolved manufacturing problem. Separately, grid-scale storage increasingly uses sodium-ion chemistry (no lithium, cheaper, longer cycle life - CATL cites 15,000 cycles) or lithium-ion in large integrated systems (Fluence), sited behind-the-meter alongside data centers and renewables to solve grid-congestion and interconnection-delay problems that transmission lines can't fix fast enough.",
       "maturity": "Sharply bifurcated, similar to fusion. Solid-state EV batteries remain in pilot-scale purgatory - BYD's sulfide-based pilot plant (Feb 2026, 2GWh) runs below 70% assembly yield versus the 95%+ needed for viability, and true all-solid-state volume production isn't expected before 2028-2030 even by the most aggressive automaker timelines (Toyota 2028, BYD 2030). Grid-scale storage, by contrast, is fully commercial and scaling fast: US utilities plan 24GW of new battery storage in 2026 alone, and CATL's sodium-ion is explicitly declared 'mainstream-ready' with a 60GWh supply agreement already signed.",
       "applications": [
@@ -934,7 +1508,13 @@
           "description": "Solid-state lithium-metal EV battery developer; the most closely watched (and most disappointing, by stock performance) pure-play in the space.",
           "investors": "Public markets (NYSE-listed); Volkswagen is a key strategic partner/investor.",
           "performance": "Down 44% YTD as of July 2026, trading around $6 versus a $24.80 opening price. Q2 2026 net loss ~$98M; reaffirmed full-year adjusted EBITDA loss guidance of $250-275M. First-ever ecosystem-partner billings reached just $11M in the quarter - a real but still trivial revenue signal after years of pre-revenue development.",
-          "citations": [{"title": "QuantumScape Has Promised a Battery Breakthrough for Years. Is 2026 Finally The Year?", "url": "https://www.fool.com/investing/2026/08/11/quantumscape-has-promised-a-battery-breakthrough-f/"}]
+          "citations": [
+            {
+              "title": "QuantumScape Has Promised a Battery Breakthrough for Years. Is 2026 Finally The Year?",
+              "url": "https://www.fool.com/investing/2026/08/11/quantumscape-has-promised-a-battery-breakthrough-f/",
+              "date": "2026-08-11"
+            }
+          ]
         },
         {
           "name": "CATL",
@@ -943,7 +1523,13 @@
           "description": "The world's dominant battery maker by volume, now leading the sodium-ion pivot for grid storage while also co-leading China's national solid-state EV battery push.",
           "investors": "Public markets (Shenzhen/Hong Kong-listed).",
           "performance": "Signed a 60GWh sodium-ion supply agreement with HyperStrong (April 2026) - the largest sodium order ever placed - and secured 5.4GWh in storage orders in just the first two weeks of June 2026. Also founding member of China's CASIP solid-state battery collaborative platform alongside BYD, CALB, Nio, and SAIC, formed January 2026 under government direction.",
-          "citations": [{"title": "CATL's 30-year sodium-ion battery takes over grid storage", "url": "https://electrek.co/2026/07/16/catl-sodium-ion-15000-cycle-grid-storage/"}]
+          "citations": [
+            {
+              "title": "CATL's 30-year sodium-ion battery takes over grid storage",
+              "url": "https://electrek.co/2026/07/16/catl-sodium-ion-15000-cycle-grid-storage/",
+              "date": "2026-07-16"
+            }
+          ]
         },
         {
           "name": "Solid Power",
@@ -952,7 +1538,13 @@
           "description": "Solid-state sulfide-electrolyte developer, automaker-backed (BMW, Ford, Hyundai relationships) rather than pursuing its own vehicle integration.",
           "investors": "Public markets (Nasdaq-listed); strategic automaker partners.",
           "performance": "Sector-wide solid-state stock weakness (QuantumScape, Solid Power, and SES AI have moved together on negative sentiment days) suggests the market treats these names as a correlated basket rather than differentiating much on individual execution progress at this stage.",
-          "citations": [{"title": "QuantumScape Sinks 14%, Solid Power and SES AI Fall as Solid-State Battery Stocks Slide", "url": "https://finance.yahoo.com/markets/stocks/articles/quantumscape-sinks-14-solid-power-153732477.html"}]
+          "citations": [
+            {
+              "title": "QuantumScape Sinks 14%, Solid Power and SES AI Fall as Solid-State Battery Stocks Slide",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/quantumscape-sinks-14-solid-power-153732477.html",
+              "date": "2026"
+            }
+          ]
         },
         {
           "name": "Fluence Energy",
@@ -961,7 +1553,13 @@
           "description": "Global leader in grid-scale battery storage integration (not a cell manufacturer - designs and deploys full storage systems); born from a Siemens/AES joint venture, now independent.",
           "investors": "Public markets (Nasdaq-listed); Siemens and AES remain major shareholders post-spinoff.",
           "performance": "FY2025 revenue $2.3B, guiding $3.2-3.6B for FY2026 with ~85% already in backlog; $30B project pipeline growing 30% per quarter. Shares jumped 29.5% in a single session (June 1, 2026) on improving margins and successful project execution easing earlier profitability concerns. Signed a 300MW/1,200MWh storage deal with BrightNight/Cordelio Power in Arizona.",
-          "citations": [{"title": "Fluence Energy Shares Surge 29% to $24.44 as Battery Storage Demand Fuels Strong Investor Optimism", "url": "https://www.ibtimes.com.au/fluence-energy-shares-surge-battery-storage-demand-1869890"}]
+          "citations": [
+            {
+              "title": "Fluence Energy Shares Surge 29% to $24.44 as Battery Storage Demand Fuels Strong Investor Optimism",
+              "url": "https://www.ibtimes.com.au/fluence-energy-shares-surge-battery-storage-demand-1869890",
+              "date": "2026"
+            }
+          ]
         }
       ],
       "adjacent_companies": [
@@ -981,20 +1579,42 @@
           "relationship": "The largest utility deployer of battery storage in the US - demand-side validation at massive scale (6,168MW operating as of end-2025, plans for 32-42GW more through 2032, $5.5B earmarked for 2025-2029 storage buildout) driven explicitly by AI-data-center electricity demand.",
           "investors": "Public markets - not otherwise covered in this dashboard's equities coverage to date.",
           "performance": "EPS consensus implies 8.09% growth in 2026 and 8.7% in 2027; management guides to 8%+ adjusted EPS CAGR through 2032, with battery storage explicitly cited as a growth driver supporting that trajectory rather than a speculative side bet.",
-          "citations": [{"title": "Can NextEra's Battery Storage Boost the Clean Energy Transition?", "url": "https://finance.yahoo.com/energy/articles/nexteras-battery-storage-boost-clean-145600264.html"}]
+          "citations": [
+            {
+              "title": "Can NextEra's Battery Storage Boost the Clean Energy Transition?",
+              "url": "https://finance.yahoo.com/energy/articles/nexteras-battery-storage-boost-clean-145600264.html",
+              "date": "2026"
+            }
+          ]
         }
       ],
       "investment_potential": {
         "public": [
           {
-            "name": "QuantumScape", "ticker": "QS", "bucket": "pullback",
+            "name": "QuantumScape",
+            "ticker": "QS",
+            "bucket": "pullback",
             "thesis": "Down 44% YTD as of July 2026, trading around $6 versus a $24.80 opening price - but first-ever ecosystem-partner billings ($11M this quarter) and a reaffirmed (not widened) full-year loss guide suggest the company is still executing to its own plan even as the stock has been repriced hard on the broader solid-state timeline disappointment across the category.",
-            "citations": [{"title": "QuantumScape Has Promised a Battery Breakthrough for Years. Is 2026 Finally The Year?", "url": "https://www.fool.com/investing/2026/08/11/quantumscape-has-promised-a-battery-breakthrough-f/"}]
+            "citations": [
+              {
+                "title": "QuantumScape Has Promised a Battery Breakthrough for Years. Is 2026 Finally The Year?",
+                "url": "https://www.fool.com/investing/2026/08/11/quantumscape-has-promised-a-battery-breakthrough-f/",
+                "date": "2026-08-11"
+              }
+            ]
           },
           {
-            "name": "Solid Power", "ticker": "SLDP", "bucket": "undervalued",
+            "name": "Solid Power",
+            "ticker": "SLDP",
+            "bucket": "undervalued",
             "thesis": "Moves in near-lockstep with QuantumScape and SES AI on negative sentiment days despite a different (and arguably de-risked) strategy: automaker-backed partnerships (BMW, Ford, Hyundai) rather than building its own vehicle integration - the market appears to be pricing the whole solid-state basket as one correlated trade rather than crediting Solid Power's lower-execution-risk model specifically.",
-            "citations": [{"title": "QuantumScape Sinks 14%, Solid Power and SES AI Fall as Solid-State Battery Stocks Slide", "url": "https://finance.yahoo.com/markets/stocks/articles/quantumscape-sinks-14-solid-power-153732477.html"}]
+            "citations": [
+              {
+                "title": "QuantumScape Sinks 14%, Solid Power and SES AI Fall as Solid-State Battery Stocks Slide",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/quantumscape-sinks-14-solid-power-153732477.html",
+                "date": "2026"
+              }
+            ]
           }
         ],
         "private": [
@@ -1003,14 +1623,26 @@
             "appeal": "Sticky contracted revenue, blue-chip institutional round, clear path to liquidity",
             "thesis": "Google and Crusoe have already ordered 42GWh against an 80GWh total pipeline - real contracted demand, not speculative interest - and its $750M Series G was led by T. Rowe Price with Sequoia, Janus Henderson, and Franklin Templeton joining, a public-market-grade investor roster for a still-private company that's explicitly planning a 2027 IPO after one more late-2026 round.",
             "investors": "T. Rowe Price, Sequoia Capital, Janus Henderson, Franklin Templeton, PEAK6, Google (customer).",
-            "citations": [{"title": "Form Energy Secures $750M in Series G Financing to Scale Iron-Air Battery Manufacturing", "url": "https://formenergy.com/form-energy-secures-750m-in-series-g-financing/"}]
+            "citations": [
+              {
+                "title": "Form Energy Secures $750M in Series G Financing to Scale Iron-Air Battery Manufacturing",
+                "url": "https://formenergy.com/form-energy-secures-750m-in-series-g-financing/",
+                "date": "2026"
+              }
+            ]
           },
           {
             "name": "Redwood Materials",
             "appeal": "Founder pedigree, diversifying revenue base, strong strategic-plus-financial investor mix",
             "thesis": "Founded by Tesla co-founder JB Straubel; crossed a $6B valuation on a $425M round that added Nvidia's venture arm (NVentures) and Google as new investors alongside existing backers Capricorn and Goldman Sachs Alternatives - and the business itself is diversifying beyond pure recycling into cathode manufacturing and energy storage, reducing single-revenue-line dependency as it scales toward its own eventual public listing.",
             "investors": "Eclipse (led), Capricorn, Goldman Sachs Alternatives, Nvidia (NVentures), Google.",
-            "citations": [{"title": "Redwood Materials Tops $6 Billion Valuation in Funding Round", "url": "https://www.bloomberg.com/news/articles/2025-10-23/redwood-materials-tops-6-billion-valuation-in-new-funding-round"}]
+            "citations": [
+              {
+                "title": "Redwood Materials Tops $6 Billion Valuation in Funding Round",
+                "url": "https://www.bloomberg.com/news/articles/2025-10-23/redwood-materials-tops-6-billion-valuation-in-new-funding-round",
+                "date": "2025-10-23"
+              }
+            ]
           }
         ]
       }

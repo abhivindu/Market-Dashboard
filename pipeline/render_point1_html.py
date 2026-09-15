@@ -98,8 +98,10 @@ section{{margin-bottom:32px;}}
 .event-body p{{font-size:0.88rem; line-height:1.55; color:var(--ink-soft); margin:14px 0 10px;}}
 .assessment{{display:inline-block; font-size:0.7rem; padding:3px 10px; border-radius:999px; background:var(--accent-soft); color:var(--accent); font-weight:600; margin-bottom:10px; margin-top:12px;}}
 .citations{{display:flex; flex-direction:column; gap:6px; margin-top:10px;}}
+.citations .cite-row{{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;}}
 .citations a{{color:var(--ink); font-size:0.8rem; text-decoration:none; border-bottom:1px solid var(--line-strong); width:fit-content;}}
 .citations a:hover{{color:var(--accent); border-color:var(--accent);}}
+.citations .cite-date{{font-family:'IBM Plex Mono',monospace; font-size:0.7rem; color:var(--ink-faint);}}
 summary::-webkit-details-marker{{display:none;}}
 summary{{list-style:none;}}
 summary::marker{{content:"";}}
@@ -314,7 +316,8 @@ def render_event(flag):
         metric_class = "up" if flag["value"] > 0 else "down"
 
     citation_links = "\n".join(
-        f'<a href="{c["url"]}" target="_blank" rel="noopener">{c["title"]}</a>'
+        f'<div class="cite-row"><a href="{c["url"]}" target="_blank" rel="noopener">{c["title"]}</a>'
+        f'<span class="cite-date">{c.get("date", "n/d")}</span></div>'
         for c in flag.get("citations", [])
     ) or '<span style="color:var(--ink-faint); font-size:0.82rem;">No sources attached yet.</span>'
 

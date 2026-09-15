@@ -135,6 +135,10 @@ def main():
 
     point3_payload = {
         "as_of": indices["as_of"],
+        "freshness_note": overrides.get(
+            "point3_freshness_note",
+            "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp.",
+        ),
         "indices": indices["indices"],
         "sector_rollup": aggregates["sector_rollup"],
         "top_gainers": aggregates["top_gainers"],

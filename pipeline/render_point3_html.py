@@ -44,6 +44,7 @@ h1,h2,h3{font-family:'Fraunces',Georgia,serif; text-wrap:balance; margin:0;}
 .masthead::after{content:""; position:absolute; left:0; right:0; bottom:0; height:3px; background:linear-gradient(90deg, var(--ink) 0%, var(--ink) 60%, var(--accent) 100%);}
 .masthead h1{font-size:2.15rem; font-weight:600; letter-spacing:-0.015em;}
 .masthead .meta{color:var(--ink-faint); font-size:0.78rem; text-align:right; line-height:1.5;}
+.freshness{border-left:3px solid var(--line-strong); background:var(--surface-2); border-radius:0 10px 10px 0; padding:12px 16px; margin-bottom:24px; font-size:0.82rem; line-height:1.55; color:var(--ink-faint);}
 nav.tabs{display:flex; gap:2px; margin-bottom:26px; border-bottom:1px solid var(--line); flex-wrap:wrap; overflow-x:auto;}
 nav.tabs button{background:none; border:none; font:inherit; font-weight:600; font-size:0.85rem; color:var(--ink-faint); padding:11px 16px; cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-1px; white-space:nowrap; transition:color 0.12s ease;}
 nav.tabs button:hover{color:var(--ink);}
@@ -101,8 +102,10 @@ tbody tr.clickable:hover{background:var(--surface-2);}
 .verdict.aligned{background:var(--positive-soft); color:var(--positive);}
 .verdict.counter{background:var(--negative-soft); color:var(--negative);}
 .verdict.pending{background:var(--surface-2); color:var(--ink-faint);}
-.citations a{display:block; color:var(--ink); font-size:0.8rem; text-decoration:none; border-bottom:1px solid var(--line-strong); margin-top:6px; width:fit-content;}
+.citations .cite-row{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; margin-top:6px;}
+.citations a{display:block; color:var(--ink); font-size:0.8rem; text-decoration:none; border-bottom:1px solid var(--line-strong); width:fit-content;}
 .citations a:hover{color:var(--accent); border-color:var(--accent);}
+.citations .cite-date{font-family:'IBM Plex Mono',monospace; font-size:0.7rem; color:var(--ink-faint);}
 .bucket-title{font-size:0.9rem; font-weight:600; margin:20px 0 10px; display:flex; align-items:center; gap:8px;}
 .bucket-badge{font-size:0.65rem; padding:2px 9px; border-radius:999px; background:var(--accent-soft); color:var(--accent); text-transform:uppercase; letter-spacing:0.04em;}
 .pf-btn{font:inherit; font-size:0.72rem; font-weight:600; padding:4px 10px; border-radius:6px; border:1px solid var(--line-strong); background:var(--surface); color:var(--ink); cursor:pointer;}
@@ -127,6 +130,8 @@ HTML_SHELL = """<!doctype html>
     <h1>Equities Desk</h1>
     <div class="meta">Indices &middot; sectors &middot; movers &middot; ideas<br>As of {as_of_display}</div>
   </div>
+
+  <div class="freshness">{freshness_note}</div>
 
   <div class="index-strip">{index_cells}</div>
   <div id="index-detail" style="margin-bottom:28px;"></div>
@@ -281,7 +286,7 @@ document.querySelectorAll('.sector-tile').forEach(tile => {{
 // ---- Mover drill-down ----
 function renderMoverDetail(m) {{
   const verdictClass = m.verdict === 'aligned' ? 'aligned' : (m.verdict === 'counter' ? 'counter' : 'pending');
-  const citations = (m.citations || []).map(c => `<a href="${{c.url}}" target="_blank" rel="noopener">${{c.title}}</a>`).join('') || '<span style="color:var(--ink-faint);font-size:0.8rem;">No sources attached yet.</span>';
+  const citations = (m.citations || []).map(c => `<div class="cite-row"><a href="${{c.url}}" target="_blank" rel="noopener">${{c.title}}</a><span class="cite-date">${{c.date || 'n/d'}}</span></div>`).join('') || '<span style="color:var(--ink-faint);font-size:0.8rem;">No sources attached yet.</span>';
   document.getElementById('mover-detail').innerHTML = `
     <div class="card">
       <h3 style="font-size:0.95rem;">${{m.ticker}} &mdash; ${{m.name || ''}}</h3>
@@ -312,7 +317,7 @@ document.querySelectorAll('#tab-movers tr.clickable').forEach(row => {{
     const m = DATA.volume_outliers.find(x => x.ticker === ticker);
     if (!m) return;
     const verdictClass = m.verdict === 'aligned' ? 'aligned' : (m.verdict === 'counter' ? 'counter' : 'pending');
-    const citations = (m.citations || []).map(c => `<a href="${{c.url}}" target="_blank" rel="noopener">${{c.title}}</a>`).join('') || '<span style="color:var(--ink-faint);font-size:0.8rem;">No sources attached yet.</span>';
+    const citations = (m.citations || []).map(c => `<div class="cite-row"><a href="${{c.url}}" target="_blank" rel="noopener">${{c.title}}</a><span class="cite-date">${{c.date || 'n/d'}}</span></div>`).join('') || '<span style="color:var(--ink-faint);font-size:0.8rem;">No sources attached yet.</span>';
     document.getElementById('vol-outlier-detail').innerHTML = `
       <div class="card" style="margin-top:14px;">
         <h3 style="font-size:0.95rem;">${{m.ticker}} &mdash; ${{m.name || ''}}</h3>
@@ -534,7 +539,9 @@ def recommendation_card(r, bucket_label):
     verdict = r.get("verdict", "not yet assessed")
     vclass = "aligned" if verdict == "aligned" else ("counter" if verdict == "counter" else "pending")
     citations = "".join(
-        f'<a href="{c["url"]}" target="_blank" rel="noopener">{c["title"]}</a>' for c in r.get("citations", [])
+        f'<div class="cite-row"><a href="{c["url"]}" target="_blank" rel="noopener">{c["title"]}</a>'
+        f'<span class="cite-date">{c.get("date", "n/d")}</span></div>'
+        for c in r.get("citations", [])
     ) or '<span style="color:var(--ink-faint); font-size:0.8rem;">No sources attached yet.</span>'
     return f"""<div class="card expandable">
       <div class="rec-card-head" style="display:flex; justify-content:space-between; align-items:baseline; gap:12px;">
@@ -590,6 +597,7 @@ def main():
     html = HTML_SHELL.format(
         css=CSS,
         as_of_display=as_of,
+        freshness_note=payload.get("freshness_note", ""),
         index_cells=index_cells,
         min_cap_b=payload["min_market_cap_filter"] / 1e9,
         breadth_advancers=breadth["advancers"],
