@@ -1,34 +1,89 @@
 {
-  "as_of": "2026-09-14T04:16:06.771402+00:00",
-  "synthesis": "Markets this week are being driven by one interlocking story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from roughly 70% to 90%, sending the 10-year Treasury yield up 12bp to 4.95% \u2014 its highest level since 2023 and closing in on 2007 highs. Middle East tensions, including Iran's attacks on commercial and U.S. Navy vessels, are compounding the inflation picture by pushing WTI crude up 3.2% to $97. Credit markets aren't stressed \u2014 both IG and HY spreads tightened slightly on the week \u2014 and the VIX term structure remains in contango, meaning options markets aren't pricing panic despite small-caps (Russell 2000, -2.2% over 5 days) and the Dow (-2.1%) underperforming a Nasdaq held up by AI-infrastructure capex names. The FOMC decision on Sept 16 is the next clear catalyst for all of the above.",
+  "as_of": "2026-09-17T03:54:16.417486+00:00",
+  "synthesis": "UPDATE (this pull, 2026-09-17): The catalyst this file was waiting on has now happened. The FOMC voted 12-0 on Sept 16 to hike the fed funds rate 25bp to 3.75%-4% \u2014 the first hike since 2023 \u2014 citing inflation still 'elevated' even as growth stays solid; the statement gave no explicit signal on further moves, but the Fed's own dot plot points to at least one more 2026 hike, and markets are now pricing a second. The 10-year yield pushed through 5% on the decision (5.02% intraday) as Chair Warsh's press-conference remarks doubled down on inflation risk. Equities fell into the announcement and stayed down: the Dow lost 631pts (-1.21%) to 51,461.90, the S&P 500 slipped 0.45% to 7,551.81, and bank stocks had their worst day since February (KBE -2.6%) on fears the hiking cycle isn't over. Oil has pushed above $100/bbl on the still-live Middle East supply story. None of this overturns last pull's framing \u2014 it's the resolution of the exact mechanism already described below \u2014 so the original synthesis is kept intact underneath rather than rewritten. Markets this week are being driven by one interlocking story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from roughly 70% to 90%, sending the 10-year Treasury yield up 12bp to 4.95% \u2014 its highest level since 2023 and closing in on 2007 highs. Middle East tensions, including Iran's attacks on commercial and U.S. Navy vessels, are compounding the inflation picture by pushing WTI crude up 3.2% to $97. Credit markets aren't stressed \u2014 both IG and HY spreads tightened slightly on the week \u2014 and the VIX term structure remains in contango, meaning options markets aren't pricing panic despite small-caps (Russell 2000, -2.2% over 5 days) and the Dow (-2.1%) underperforming a Nasdaq held up by AI-infrastructure capex names. The FOMC decision on Sept 16 is the next clear catalyst for all of the above.",
   "since_last_pull": {
     "has_previous": true,
     "previous_as_of": "2026-09-14T04:16:06.771402+00:00",
-    "newly_flagged": [],
-    "resolved": [],
-    "blurb": "No new material events since the last pull - today's read is materially the same as last time."
+    "newly_flagged": [
+      {
+        "type": "index_day_move",
+        "series": "DOW",
+        "value": -1.212,
+        "detail": "DOW moved -1.21% intraday (threshold: >1%)",
+        "narrative": "UPDATE (this pull, 2026-09-17): This flag now trips on the day-move threshold rather than the 5-day one, because the FOMC's Sept 16 hike hit in a single session: the Fed hiked 25bp as anticipated, and the Dow fell 631pts (-1.21%) to 51,461.90 on the day \u2014 banks led the damage (KBE -2.6%, worst day since February) on fears the hiking cycle continues into 2027. Prior framing: broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
+        "citations": [
+          {
+            "title": "Stock market today: Dow sinks 600 points, S&P 500 and Nasdaq fall as Fed hikes rates, bond yields rise",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-16-dow-sp-500-nasdaq-fed-meeting-decision-080356525.html",
+            "date": "2026-09-16"
+          },
+          {
+            "title": "Global Bond Selloff Sends 10-Year Treasury Yields to Cusp of 5%",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-11/global-bond-selloff-sends-10-year-treasury-yields-to-cusp-of-5",
+            "date": "2026-09-11"
+          },
+          {
+            "title": "Markets Begin Cautiously as Rising Crude and Geopolitical Tensions Persist",
+            "url": "https://businessnewsthisweek.com/business/markets-begin-cautiously-as-rising-crude-and-geopolitical-tensions-persist/",
+            "date": "2026-09"
+          }
+        ],
+        "reaction_assessment": "proportionate - move is consistent with the rate/inflation/oil narrative, not a surprise dislocation"
+      }
+    ],
+    "resolved": [
+      {
+        "type": "index_5day_move",
+        "series": "DOW",
+        "value": -2.073,
+        "detail": "DOW moved -2.07% over 5 days (threshold: >2%)",
+        "narrative": "Broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
+        "citations": [
+          {
+            "title": "Global Bond Selloff Sends 10-Year Treasury Yields to Cusp of 5%",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-11/global-bond-selloff-sends-10-year-treasury-yields-to-cusp-of-5",
+            "date": "2026-09-11"
+          },
+          {
+            "title": "Markets Begin Cautiously as Rising Crude and Geopolitical Tensions Persist",
+            "url": "https://businessnewsthisweek.com/business/markets-begin-cautiously-as-rising-crude-and-geopolitical-tensions-persist/",
+            "date": "2026-09"
+          }
+        ],
+        "reaction_assessment": "proportionate - move is consistent with the rate/inflation/oil narrative, not a surprise dislocation"
+      },
+      {
+        "type": "yield_move",
+        "series": "DGS10",
+        "value": 0.12,
+        "detail": "10yr yield moved +12bps day/day (threshold: >10bps)",
+        "narrative": "The 10-year Treasury yield's 12bp jump is the mechanical center of this week's story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from ~70% to ~90%, and a global bond selloff (fiscal deficit concerns, heavy Treasury issuance) is compounding the move. Yields are now at their highest level since 2023, approaching the highest since 2007.",
+        "citations": [
+          {
+            "title": "Global Bond Selloff Sends 10-Year Treasury Yields to Cusp of 5%",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-11/global-bond-selloff-sends-10-year-treasury-yields-to-cusp-of-5",
+            "date": "2026-09-11"
+          },
+          {
+            "title": "10 year treasury yield leaps to 3 week high on promising economic data",
+            "url": "https://www.tipranks.com/news/10-year-treasury-yield-leaps-to-3-week-high-on-promising-economic-data",
+            "date": "2026-09"
+          }
+        ],
+        "reaction_assessment": "proportionate but notable - this is the single biggest macro driver of the week, with a live FOMC meeting (Sept 15-16) as the next catalyst"
+      }
+    ],
+    "blurb": "New: DOW moved -1.21% intraday (threshold: >1%) Faded below threshold: DOW moved -2.07% over 5 days (threshold: >2%); 10yr yield moved +12bps day/day (threshold: >10bps)"
   },
   "macro_series": {
     "DGS3MO": {
       "series_id": "DGS3MO",
       "label": "3-Month Treasury Yield",
-      "last_value": 4.0,
-      "last_date": "2026-09-10",
-      "day_chg": 0.05,
-      "month_chg": 0.11,
+      "last_value": 4.11,
+      "last_date": "2026-09-15",
+      "day_chg": 0.0,
+      "month_chg": 0.25,
       "history": [
-        {
-          "date": "2026-06-16",
-          "value": 3.79
-        },
-        {
-          "date": "2026-06-17",
-          "value": 3.83
-        },
-        {
-          "date": "2026-06-18",
-          "value": 3.83
-        },
         {
           "date": "2026-06-22",
           "value": 3.85
@@ -256,29 +311,29 @@
         {
           "date": "2026-09-10",
           "value": 4.0
+        },
+        {
+          "date": "2026-09-11",
+          "value": 4.07
+        },
+        {
+          "date": "2026-09-14",
+          "value": 4.11
+        },
+        {
+          "date": "2026-09-15",
+          "value": 4.11
         }
       ]
     },
     "DGS2": {
       "series_id": "DGS2",
       "label": "2-Year Treasury Yield",
-      "last_value": 4.56,
-      "last_date": "2026-09-10",
-      "day_chg": 0.13,
-      "month_chg": 0.34,
+      "last_value": 4.67,
+      "last_date": "2026-09-15",
+      "day_chg": 0.02,
+      "month_chg": 0.5,
       "history": [
-        {
-          "date": "2026-06-16",
-          "value": 4.05
-        },
-        {
-          "date": "2026-06-17",
-          "value": 4.2
-        },
-        {
-          "date": "2026-06-18",
-          "value": 4.19
-        },
         {
           "date": "2026-06-22",
           "value": 4.24
@@ -506,29 +561,29 @@
         {
           "date": "2026-09-10",
           "value": 4.56
+        },
+        {
+          "date": "2026-09-11",
+          "value": 4.63
+        },
+        {
+          "date": "2026-09-14",
+          "value": 4.65
+        },
+        {
+          "date": "2026-09-15",
+          "value": 4.67
         }
       ]
     },
     "DGS10": {
       "series_id": "DGS10",
       "label": "10-Year Treasury Yield",
-      "last_value": 4.95,
-      "last_date": "2026-09-10",
-      "day_chg": 0.12,
-      "month_chg": 0.25,
+      "last_value": 5.0,
+      "last_date": "2026-09-15",
+      "day_chg": 0.03,
+      "month_chg": 0.32,
       "history": [
-        {
-          "date": "2026-06-16",
-          "value": 4.43
-        },
-        {
-          "date": "2026-06-17",
-          "value": 4.49
-        },
-        {
-          "date": "2026-06-18",
-          "value": 4.46
-        },
         {
           "date": "2026-06-22",
           "value": 4.51
@@ -756,29 +811,29 @@
         {
           "date": "2026-09-10",
           "value": 4.95
+        },
+        {
+          "date": "2026-09-11",
+          "value": 4.96
+        },
+        {
+          "date": "2026-09-14",
+          "value": 4.97
+        },
+        {
+          "date": "2026-09-15",
+          "value": 5.0
         }
       ]
     },
     "DGS30": {
       "series_id": "DGS30",
       "label": "30-Year Treasury Yield",
-      "last_value": 5.37,
-      "last_date": "2026-09-10",
-      "day_chg": 0.09,
-      "month_chg": 0.13,
+      "last_value": 5.36,
+      "last_date": "2026-09-15",
+      "day_chg": 0.02,
+      "month_chg": 0.11,
       "history": [
-        {
-          "date": "2026-06-16",
-          "value": 4.93
-        },
-        {
-          "date": "2026-06-17",
-          "value": 4.93
-        },
-        {
-          "date": "2026-06-18",
-          "value": 4.9
-        },
         {
           "date": "2026-06-22",
           "value": 4.95
@@ -1006,6 +1061,18 @@
         {
           "date": "2026-09-10",
           "value": 5.37
+        },
+        {
+          "date": "2026-09-11",
+          "value": 5.35
+        },
+        {
+          "date": "2026-09-14",
+          "value": 5.34
+        },
+        {
+          "date": "2026-09-15",
+          "value": 5.36
         }
       ]
     },
@@ -1013,30 +1080,10 @@
       "series_id": "DFF",
       "label": "Effective Federal Funds Rate",
       "last_value": 3.63,
-      "last_date": "2026-09-10",
+      "last_date": "2026-09-15",
       "day_chg": 0.0,
       "month_chg": 0.0,
       "history": [
-        {
-          "date": "2026-07-13",
-          "value": 3.62
-        },
-        {
-          "date": "2026-07-14",
-          "value": 3.63
-        },
-        {
-          "date": "2026-07-15",
-          "value": 3.63
-        },
-        {
-          "date": "2026-07-16",
-          "value": 3.63
-        },
-        {
-          "date": "2026-07-17",
-          "value": 3.63
-        },
         {
           "date": "2026-07-18",
           "value": 3.63
@@ -1256,29 +1303,37 @@
         {
           "date": "2026-09-10",
           "value": 3.63
+        },
+        {
+          "date": "2026-09-11",
+          "value": 3.63
+        },
+        {
+          "date": "2026-09-12",
+          "value": 3.63
+        },
+        {
+          "date": "2026-09-13",
+          "value": 3.63
+        },
+        {
+          "date": "2026-09-14",
+          "value": 3.63
+        },
+        {
+          "date": "2026-09-15",
+          "value": 3.63
         }
       ]
     },
     "SOFR": {
       "series_id": "SOFR",
       "label": "Secured Overnight Financing Rate",
-      "last_value": 3.62,
-      "last_date": "2026-09-10",
-      "day_chg": -0.02,
-      "month_chg": -0.02,
+      "last_value": 3.64,
+      "last_date": "2026-09-15",
+      "day_chg": 0.02,
+      "month_chg": 0.02,
       "history": [
-        {
-          "date": "2026-06-16",
-          "value": 3.63
-        },
-        {
-          "date": "2026-06-17",
-          "value": 3.63
-        },
-        {
-          "date": "2026-06-18",
-          "value": 3.62
-        },
         {
           "date": "2026-06-22",
           "value": 3.61
@@ -1506,29 +1561,29 @@
         {
           "date": "2026-09-10",
           "value": 3.62
+        },
+        {
+          "date": "2026-09-11",
+          "value": 3.62
+        },
+        {
+          "date": "2026-09-14",
+          "value": 3.62
+        },
+        {
+          "date": "2026-09-15",
+          "value": 3.64
         }
       ]
     },
     "T10Y2Y": {
       "series_id": "T10Y2Y",
       "label": "10Y-2Y Treasury Spread",
-      "last_value": 0.33,
-      "last_date": "2026-09-11",
+      "last_value": 0.27,
+      "last_date": "2026-09-16",
       "day_chg": -0.06,
-      "month_chg": -0.15,
+      "month_chg": -0.26,
       "history": [
-        {
-          "date": "2026-06-17",
-          "value": 0.29
-        },
-        {
-          "date": "2026-06-18",
-          "value": 0.27
-        },
-        {
-          "date": "2026-06-22",
-          "value": 0.27
-        },
         {
           "date": "2026-06-23",
           "value": 0.34
@@ -1756,29 +1811,29 @@
         {
           "date": "2026-09-11",
           "value": 0.33
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0.32
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0.33
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0.27
         }
       ]
     },
     "T10Y3M": {
       "series_id": "T10Y3M",
       "label": "10Y-3M Treasury Spread",
-      "last_value": 0.89,
-      "last_date": "2026-09-11",
-      "day_chg": -0.06,
-      "month_chg": 0.08,
+      "last_value": 0.87,
+      "last_date": "2026-09-16",
+      "day_chg": -0.02,
+      "month_chg": 0.02,
       "history": [
-        {
-          "date": "2026-06-17",
-          "value": 0.66
-        },
-        {
-          "date": "2026-06-18",
-          "value": 0.63
-        },
-        {
-          "date": "2026-06-22",
-          "value": 0.66
-        },
         {
           "date": "2026-06-23",
           "value": 0.65
@@ -2006,6 +2061,18 @@
         {
           "date": "2026-09-11",
           "value": 0.89
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0.86
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0.89
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0.87
         }
       ]
     },
@@ -2013,22 +2080,10 @@
       "series_id": "BAMLC0A0CM",
       "label": "ICE BofA US Corporate Index OAS (IG credit spread)",
       "last_value": 0.8,
-      "last_date": "2026-09-10",
-      "day_chg": -0.01,
-      "month_chg": 0.01,
+      "last_date": "2026-09-15",
+      "day_chg": 0.0,
+      "month_chg": -0.01,
       "history": [
-        {
-          "date": "2026-06-19",
-          "value": 0.74
-        },
-        {
-          "date": "2026-06-22",
-          "value": 0.74
-        },
-        {
-          "date": "2026-06-23",
-          "value": 0.74
-        },
         {
           "date": "2026-06-24",
           "value": 0.75
@@ -2255,6 +2310,18 @@
         },
         {
           "date": "2026-09-10",
+          "value": 0.8
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0.8
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0.8
+        },
+        {
+          "date": "2026-09-15",
           "value": 0.8
         }
       ]
@@ -2263,22 +2330,10 @@
       "series_id": "BAMLC0A4CBBB",
       "label": "ICE BofA BBB US Corporate Index OAS (credit spread)",
       "last_value": 0.98,
-      "last_date": "2026-09-10",
-      "day_chg": -0.01,
-      "month_chg": 0.0,
+      "last_date": "2026-09-15",
+      "day_chg": 0.0,
+      "month_chg": -0.01,
       "history": [
-        {
-          "date": "2026-06-19",
-          "value": 0.93
-        },
-        {
-          "date": "2026-06-22",
-          "value": 0.93
-        },
-        {
-          "date": "2026-06-23",
-          "value": 0.93
-        },
         {
           "date": "2026-06-24",
           "value": 0.94
@@ -2506,29 +2561,29 @@
         {
           "date": "2026-09-10",
           "value": 0.98
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0.97
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0.98
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0.98
         }
       ]
     },
     "BAMLH0A0HYM2": {
       "series_id": "BAMLH0A0HYM2",
       "label": "ICE BofA US High Yield Index OAS (credit spread)",
-      "last_value": 2.7,
-      "last_date": "2026-09-10",
-      "day_chg": -0.01,
-      "month_chg": -0.01,
+      "last_value": 2.76,
+      "last_date": "2026-09-15",
+      "day_chg": 0.05,
+      "month_chg": 0.06,
       "history": [
-        {
-          "date": "2026-06-19",
-          "value": 2.66
-        },
-        {
-          "date": "2026-06-22",
-          "value": 2.65
-        },
-        {
-          "date": "2026-06-23",
-          "value": 2.71
-        },
         {
           "date": "2026-06-24",
           "value": 2.76
@@ -2756,33 +2811,29 @@
         {
           "date": "2026-09-10",
           "value": 2.7
+        },
+        {
+          "date": "2026-09-11",
+          "value": 2.65
+        },
+        {
+          "date": "2026-09-14",
+          "value": 2.71
+        },
+        {
+          "date": "2026-09-15",
+          "value": 2.76
         }
       ]
     },
     "DCOILWTICO": {
       "series_id": "DCOILWTICO",
       "label": "WTI Crude Oil Price",
-      "last_value": 97.26,
-      "last_date": "2026-09-09",
-      "day_chg": 3.05,
-      "month_chg": 13.5,
+      "last_value": 107.02,
+      "last_date": "2026-09-15",
+      "day_chg": 4.6,
+      "month_chg": 23.03,
       "history": [
-        {
-          "date": "2026-06-15",
-          "value": 84.65
-        },
-        {
-          "date": "2026-06-16",
-          "value": 79.8
-        },
-        {
-          "date": "2026-06-17",
-          "value": 80.65
-        },
-        {
-          "date": "2026-06-18",
-          "value": 80.35
-        },
         {
           "date": "2026-06-22",
           "value": 78.94
@@ -3006,33 +3057,33 @@
         {
           "date": "2026-09-09",
           "value": 97.26
+        },
+        {
+          "date": "2026-09-10",
+          "value": 103.57
+        },
+        {
+          "date": "2026-09-11",
+          "value": 101.27
+        },
+        {
+          "date": "2026-09-14",
+          "value": 102.42
+        },
+        {
+          "date": "2026-09-15",
+          "value": 107.02
         }
       ]
     },
     "DTWEXBGS": {
       "series_id": "DTWEXBGS",
       "label": "Trade-Weighted US Dollar Index",
-      "last_value": 118.0732,
-      "last_date": "2026-09-04",
-      "day_chg": -0.0538,
-      "month_chg": -1.4381,
+      "last_value": 118.2126,
+      "last_date": "2026-09-11",
+      "day_chg": 0.1339,
+      "month_chg": -0.9053,
       "history": [
-        {
-          "date": "2026-06-11",
-          "value": 120.1174
-        },
-        {
-          "date": "2026-06-12",
-          "value": 119.5073
-        },
-        {
-          "date": "2026-06-15",
-          "value": 119.3158
-        },
-        {
-          "date": "2026-06-16",
-          "value": 119.256
-        },
         {
           "date": "2026-06-17",
           "value": 119.3871
@@ -3256,128 +3307,136 @@
         {
           "date": "2026-09-04",
           "value": 118.0732
+        },
+        {
+          "date": "2026-09-08",
+          "value": 117.9127
+        },
+        {
+          "date": "2026-09-09",
+          "value": 117.8834
+        },
+        {
+          "date": "2026-09-10",
+          "value": 118.0787
+        },
+        {
+          "date": "2026-09-11",
+          "value": 118.2126
         }
       ]
     },
     "GOLD": {
       "series_id": "GC=F",
       "label": "Gold (COMEX front-month)",
-      "last_value": 4371.1,
-      "last_date": "2026-09-14",
-      "day_chg": 4.9,
-      "month_chg": 7.5,
+      "last_value": 4334.3,
+      "last_date": "2026-09-16",
+      "day_chg": 1.5,
+      "month_chg": -139.4,
       "history": [
         {
-          "date": "2026-06-18",
-          "value": 4224.1
-        },
-        {
-          "date": "2026-06-22",
-          "value": 4181.9
-        },
-        {
           "date": "2026-06-23",
-          "value": 4129.9
+          "value": 4149.4
         },
         {
           "date": "2026-06-24",
-          "value": 3990.3
+          "value": 4008.8
         },
         {
           "date": "2026-06-25",
-          "value": 4030.5
+          "value": 4047.6
         },
         {
           "date": "2026-06-26",
-          "value": 4078.7
+          "value": 4096.3
         },
         {
           "date": "2026-06-29",
-          "value": 4022.3
+          "value": 4038.9
         },
         {
           "date": "2026-06-30",
-          "value": 4022.9
+          "value": 4038.5
         },
         {
           "date": "2026-07-01",
-          "value": 4068.3
+          "value": 4082.4
         },
         {
           "date": "2026-07-02",
-          "value": 4112.7
+          "value": 4125.7
         },
         {
           "date": "2026-07-06",
-          "value": 4155.1
+          "value": 4167.5
         },
         {
           "date": "2026-07-07",
-          "value": 4145.3
+          "value": 4157.4
         },
         {
           "date": "2026-07-08",
-          "value": 4070.9
+          "value": 4082.4
         },
         {
           "date": "2026-07-09",
-          "value": 4130.6
+          "value": 4140.8
         },
         {
           "date": "2026-07-10",
-          "value": 4104.1
+          "value": 4113.7
         },
         {
           "date": "2026-07-13",
-          "value": 3997.0
+          "value": 4005.7
         },
         {
           "date": "2026-07-14",
-          "value": 4061.1
+          "value": 4069.7
         },
         {
           "date": "2026-07-15",
-          "value": 4044.0
+          "value": 4051.8
         },
         {
           "date": "2026-07-16",
-          "value": 3985.6
+          "value": 3992.1
         },
         {
           "date": "2026-07-17",
-          "value": 4012.7
+          "value": 4018.8
         },
         {
           "date": "2026-07-20",
-          "value": 4010.3
+          "value": 4015.9
         },
         {
           "date": "2026-07-21",
-          "value": 4071.1
+          "value": 4076.4
         },
         {
           "date": "2026-07-22",
-          "value": 4146.9
+          "value": 4151.9
         },
         {
           "date": "2026-07-23",
-          "value": 4046.6
+          "value": 4050.2
         },
         {
           "date": "2026-07-24",
-          "value": 4067.6
+          "value": 4070.8
         },
         {
           "date": "2026-07-27",
-          "value": 4074.5
+          "value": 4077.0
         },
         {
           "date": "2026-07-28",
-          "value": 4036.3
+          "value": 4038.7
         },
         {
           "date": "2026-07-29",
-          "value": 4034.7
+          "value": 4036.3
         },
         {
           "date": "2026-07-30",
@@ -3385,146 +3444,146 @@
         },
         {
           "date": "2026-07-31",
-          "value": 4049.1
+          "value": 4107.0
         },
         {
           "date": "2026-08-03",
-          "value": 4033.7
+          "value": 4090.5
         },
         {
           "date": "2026-08-04",
-          "value": 4095.4
+          "value": 4152.6
         },
         {
           "date": "2026-08-05",
-          "value": 4245.8
+          "value": 4305.2
         },
         {
           "date": "2026-08-06",
-          "value": 4242.0
+          "value": 4299.6
         },
         {
           "date": "2026-08-07",
-          "value": 4340.7
+          "value": 4399.7
         },
         {
           "date": "2026-08-10",
-          "value": 4361.8
+          "value": 4419.7
         },
         {
           "date": "2026-08-11",
-          "value": 4383.0
+          "value": 4441.1
         },
         {
           "date": "2026-08-12",
-          "value": 4408.9
+          "value": 4467.5
         },
         {
           "date": "2026-08-13",
-          "value": 4363.6
+          "value": 4420.4
         },
         {
           "date": "2026-08-14",
-          "value": 4380.4
+          "value": 4437.3
         },
         {
           "date": "2026-08-17",
-          "value": 4417.8
+          "value": 4473.7
         },
         {
           "date": "2026-08-18",
-          "value": 4366.0
+          "value": 4420.6
         },
         {
           "date": "2026-08-19",
-          "value": 4489.4
+          "value": 4545.3
         },
         {
           "date": "2026-08-20",
-          "value": 4516.3
+          "value": 4571.4
         },
         {
           "date": "2026-08-21",
-          "value": 4624.1
+          "value": 4680.6
         },
         {
           "date": "2026-08-24",
-          "value": 4640.8
+          "value": 4697.8
         },
         {
           "date": "2026-08-25",
-          "value": 4638.1
+          "value": 4694.5
         },
         {
           "date": "2026-08-26",
-          "value": 4598.2
+          "value": 4653.3
         },
         {
           "date": "2026-08-27",
-          "value": 4609.7
+          "value": 4664.0
         },
         {
           "date": "2026-08-28",
-          "value": 4478.1
+          "value": 4529.9
         },
         {
           "date": "2026-08-31",
-          "value": 4431.1
+          "value": 4481.5
         },
         {
           "date": "2026-09-01",
-          "value": 4348.0
+          "value": 4396.4
         },
         {
           "date": "2026-09-02",
-          "value": 4366.3
+          "value": 4414.6
         },
         {
           "date": "2026-09-03",
-          "value": 4491.7
+          "value": 4539.9
         },
         {
           "date": "2026-09-04",
-          "value": 4429.8
+          "value": 4476.6
         },
         {
           "date": "2026-09-08",
-          "value": 4393.9
+          "value": 4439.0
         },
         {
           "date": "2026-09-09",
-          "value": 4416.0
+          "value": 4460.7
         },
         {
           "date": "2026-09-10",
-          "value": 4364.5
+          "value": 4407.3
         },
         {
           "date": "2026-09-11",
-          "value": 4366.2
+          "value": 4408.9
         },
         {
           "date": "2026-09-14",
-          "value": 4371.1
+          "value": 4351.9
+        },
+        {
+          "date": "2026-09-15",
+          "value": 4332.8
+        },
+        {
+          "date": "2026-09-16",
+          "value": 4334.3
         }
       ]
     },
     "SILVER": {
       "series_id": "SI=F",
       "label": "Silver (COMEX front-month)",
-      "last_value": 64.42,
-      "last_date": "2026-09-14",
-      "day_chg": -0.14,
-      "month_chg": -0.46,
+      "last_value": 64.16,
+      "last_date": "2026-09-16",
+      "day_chg": 0.92,
+      "month_chg": -1.96,
       "history": [
-        {
-          "date": "2026-06-18",
-          "value": 66.25
-        },
-        {
-          "date": "2026-06-22",
-          "value": 65.53
-        },
         {
           "date": "2026-06-23",
           "value": 62.02
@@ -3755,27 +3814,23 @@
         },
         {
           "date": "2026-09-14",
-          "value": 64.42
+          "value": 63.51
+        },
+        {
+          "date": "2026-09-15",
+          "value": 63.24
+        },
+        {
+          "date": "2026-09-16",
+          "value": 64.16
         }
       ]
     }
   },
   "vol_term_structure": {
     "VIX": {
-      "last_value": 15.84,
+      "last_value": 17.71,
       "history": [
-        {
-          "date": "2026-06-18",
-          "value": 16.4
-        },
-        {
-          "date": "2026-06-22",
-          "value": 17.28
-        },
-        {
-          "date": "2026-06-23",
-          "value": 19.49
-        },
         {
           "date": "2026-06-24",
           "value": 18.63
@@ -4003,222 +4058,55 @@
         {
           "date": "2026-09-11",
           "value": 15.84
+        },
+        {
+          "date": "2026-09-14",
+          "value": 17.1
+        },
+        {
+          "date": "2026-09-15",
+          "value": 17.2
+        },
+        {
+          "date": "2026-09-16",
+          "value": 17.71
         }
       ]
     },
     "VIX9D": {
-      "last_value": 16.85,
+      "last_value": 17.4,
       "history": [
         {
-          "date": "2026-06-12",
-          "value": 17.26
-        },
-        {
-          "date": "2026-06-15",
-          "value": 15.58
-        },
-        {
-          "date": "2026-06-16",
-          "value": 15.77
-        },
-        {
-          "date": "2026-06-17",
-          "value": 18.63
-        },
-        {
-          "date": "2026-06-18",
-          "value": 13.93
-        },
-        {
-          "date": "2026-06-22",
-          "value": 16.29
-        },
-        {
-          "date": "2026-06-23",
-          "value": 19.47
-        },
-        {
-          "date": "2026-06-24",
-          "value": 18.07
-        },
-        {
-          "date": "2026-06-25",
-          "value": 17.92
-        },
-        {
-          "date": "2026-06-26",
-          "value": 16.8
-        },
-        {
-          "date": "2026-06-29",
-          "value": 15.51
-        },
-        {
-          "date": "2026-06-30",
-          "value": 13.73
-        },
-        {
-          "date": "2026-07-01",
-          "value": 13.14
-        },
-        {
-          "date": "2026-07-02",
-          "value": 12.37
-        },
-        {
-          "date": "2026-07-06",
-          "value": 12.32
-        },
-        {
-          "date": "2026-07-07",
-          "value": 13.42
-        },
-        {
-          "date": "2026-07-08",
-          "value": 14.41
-        },
-        {
-          "date": "2026-07-09",
-          "value": 12.5
-        },
-        {
-          "date": "2026-07-10",
-          "value": 11.15
-        },
-        {
-          "date": "2026-07-13",
-          "value": 15.13
-        },
-        {
-          "date": "2026-07-14",
-          "value": 13.46
-        },
-        {
-          "date": "2026-07-15",
-          "value": 12.06
-        },
-        {
-          "date": "2026-07-16",
-          "value": 13.98
-        },
-        {
-          "date": "2026-07-17",
-          "value": 16.85
+          "date": "2026-09-16",
+          "value": 17.4
         }
       ]
     },
     "VIX3M": {
-      "last_value": 20.54,
+      "last_value": 19.73,
       "history": [
         {
-          "date": "2026-06-12",
-          "value": 20.51
-        },
-        {
-          "date": "2026-06-15",
-          "value": 19.36
-        },
-        {
-          "date": "2026-06-16",
-          "value": 19.53
-        },
-        {
-          "date": "2026-06-17",
-          "value": 20.62
-        },
-        {
-          "date": "2026-06-18",
-          "value": 19.57
-        },
-        {
-          "date": "2026-06-22",
-          "value": 19.76
-        },
-        {
-          "date": "2026-06-23",
-          "value": 21.06
-        },
-        {
-          "date": "2026-06-24",
-          "value": 20.37
-        },
-        {
-          "date": "2026-06-25",
-          "value": 20.33
-        },
-        {
-          "date": "2026-06-26",
-          "value": 20.13
-        },
-        {
-          "date": "2026-06-29",
-          "value": 19.53
-        },
-        {
-          "date": "2026-06-30",
-          "value": 19.0
-        },
-        {
-          "date": "2026-07-01",
-          "value": 19.16
-        },
-        {
-          "date": "2026-07-02",
-          "value": 19.04
-        },
-        {
-          "date": "2026-07-06",
-          "value": 18.78
-        },
-        {
-          "date": "2026-07-07",
-          "value": 19.01
-        },
-        {
-          "date": "2026-07-08",
-          "value": 19.46
-        },
-        {
-          "date": "2026-07-09",
-          "value": 18.99
-        },
-        {
-          "date": "2026-07-10",
-          "value": 18.57
-        },
-        {
-          "date": "2026-07-13",
-          "value": 19.64
-        },
-        {
-          "date": "2026-07-14",
-          "value": 19.3
-        },
-        {
-          "date": "2026-07-15",
-          "value": 18.91
-        },
-        {
-          "date": "2026-07-16",
-          "value": 19.5
-        },
-        {
-          "date": "2026-07-17",
-          "value": 20.54
+          "date": "2026-09-16",
+          "value": 19.73
         }
       ]
     },
     "structure": "contango (calm)",
-    "vix_minus_vix3m": -4.7
+    "vix_minus_vix3m": -2.02
   },
   "material_events": [
     {
-      "type": "index_5day_move",
+      "type": "index_day_move",
       "series": "DOW",
-      "value": -2.073,
-      "detail": "DOW moved -2.07% over 5 days (threshold: >2%)",
-      "narrative": "Broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
+      "value": -1.212,
+      "detail": "DOW moved -1.21% intraday (threshold: >1%)",
+      "narrative": "UPDATE (this pull, 2026-09-17): This flag now trips on the day-move threshold rather than the 5-day one, because the FOMC's Sept 16 hike hit in a single session: the Fed hiked 25bp as anticipated, and the Dow fell 631pts (-1.21%) to 51,461.90 on the day \u2014 banks led the damage (KBE -2.6%, worst day since February) on fears the hiking cycle continues into 2027. Prior framing: broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
       "citations": [
+        {
+          "title": "Stock market today: Dow sinks 600 points, S&P 500 and Nasdaq fall as Fed hikes rates, bond yields rise",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-16-dow-sp-500-nasdaq-fed-meeting-decision-080356525.html",
+          "date": "2026-09-16"
+        },
         {
           "title": "Global Bond Selloff Sends 10-Year Treasury Yields to Cusp of 5%",
           "url": "https://www.bloomberg.com/news/articles/2026-09-11/global-bond-selloff-sends-10-year-treasury-yields-to-cusp-of-5",
@@ -4235,10 +4123,15 @@
     {
       "type": "index_5day_move",
       "series": "RUSSELL2000",
-      "value": -2.167,
-      "detail": "RUSSELL2000 moved -2.17% over 5 days (threshold: >2%)",
-      "narrative": "Small caps are more rate-sensitive than large caps (higher average leverage, more floating-rate debt), so the run-up in the 10yr yield toward 5% on hot inflation data and hawkish Fed signaling has hit the Russell 2000 harder than large-cap indices over the past week. The same Middle East-driven oil spike also raises input costs disproportionately for smaller, less diversified companies.",
+      "value": -2.137,
+      "detail": "RUSSELL2000 moved -2.14% over 5 days (threshold: >2%)",
+      "narrative": "UPDATE (this pull, 2026-09-17): The FOMC's Sept 16 hike (to 3.75%-4%, first since 2023) is the realization of the rate risk this flag was already tracking, and small-caps' higher rate sensitivity means they remain the most exposed index to it as the 10-year sits above 5%. Prior framing: small caps are more rate-sensitive than large caps (higher average leverage, more floating-rate debt), so the run-up in the 10yr yield toward 5% on hot inflation data and hawkish Fed signaling has hit the Russell 2000 harder than large-cap indices over the past week. The same Middle East-driven oil spike also raises input costs disproportionately for smaller, less diversified companies.",
       "citations": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "date": "2026-09-16"
+        },
         {
           "title": "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets",
           "url": "https://www.cnbc.com/2026/09/07/us-treasury-yields-markets-scott-bessent.html",
@@ -4248,32 +4141,17 @@
       "reaction_assessment": "proportionate - small-cap rate sensitivity is a well-known mechanism, not an anomaly"
     },
     {
-      "type": "yield_move",
-      "series": "DGS10",
-      "value": 0.12,
-      "detail": "10yr yield moved +12bps day/day (threshold: >10bps)",
-      "narrative": "The 10-year Treasury yield's 12bp jump is the mechanical center of this week's story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from ~70% to ~90%, and a global bond selloff (fiscal deficit concerns, heavy Treasury issuance) is compounding the move. Yields are now at their highest level since 2023, approaching the highest since 2007.",
-      "citations": [
-        {
-          "title": "Global Bond Selloff Sends 10-Year Treasury Yields to Cusp of 5%",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-11/global-bond-selloff-sends-10-year-treasury-yields-to-cusp-of-5",
-          "date": "2026-09-11"
-        },
-        {
-          "title": "10 year treasury yield leaps to 3 week high on promising economic data",
-          "url": "https://www.tipranks.com/news/10-year-treasury-yield-leaps-to-3-week-high-on-promising-economic-data",
-          "date": "2026-09"
-        }
-      ],
-      "reaction_assessment": "proportionate but notable - this is the single biggest macro driver of the week, with a live FOMC meeting (Sept 15-16) as the next catalyst"
-    },
-    {
       "type": "oil_move",
       "series": "DCOILWTICO",
-      "value": 3.2374482539008564,
-      "detail": "WTI crude moved +3.24% (threshold: >3%)",
-      "narrative": "WTI crude's jump reflects Middle East supply fears after Iran's attacks on commercial and U.S. Navy vessels, which the Iranian Foreign Ministry has framed as retaliatory. Brent has held above $90/bbl. Higher oil adds to the inflation picture the Fed is already responding to, reinforcing (not just coinciding with) this week's yield move.",
+      "value": 4.491310290958792,
+      "detail": "WTI crude moved +4.49% (threshold: >3%)",
+      "narrative": "UPDATE (this pull, 2026-09-17): WTI has kept climbing since last pull, trading near $102-104/bbl into and through the Sept 16 FOMC decision (Brent briefly above $108 before easing) as Iran-backed Houthi militants advance toward the Bab el-Mandeb Strait and intensify attacks on Saudi targets and shipping routes, reportedly prompting Saudi Aramco to delay some European deliveries. The Fed's own statement cited Middle East tension as a factor in its decision, directly linking this flag to the yield-move flag above. Prior framing: WTI crude's jump reflects Middle East supply fears after Iran's attacks on commercial and U.S. Navy vessels, which the Iranian Foreign Ministry has framed as retaliatory. Brent has held above $90/bbl. Higher oil adds to the inflation picture the Fed is already responding to, reinforcing (not just coinciding with) this week's yield move.",
       "citations": [
+        {
+          "title": "Wall Street Futures Edge Higher Ahead of Fed Rate Decision as Oil Prices Ease",
+          "url": "https://www.analyticsinsight.net/stocks/wall-street-futures-edge-higher-ahead-of-fed-rate-decision-as-oil-prices-ease",
+          "date": "2026-09-16"
+        },
         {
           "title": "Markets Begin Cautiously as Rising Crude and Geopolitical Tensions Persist",
           "url": "https://businessnewsthisweek.com/business/markets-begin-cautiously-as-rising-crude-and-geopolitical-tensions-persist/",
