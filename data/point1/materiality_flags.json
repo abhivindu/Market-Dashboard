@@ -1,28 +1,22 @@
 {
   "flags": [
     {
-      "type": "index_5day_move",
+      "type": "index_day_move",
       "series": "DOW",
-      "value": -2.073,
-      "detail": "DOW moved -2.07% over 5 days (threshold: >2%)"
+      "value": -1.212,
+      "detail": "DOW moved -1.21% intraday (threshold: >1%)"
     },
     {
       "type": "index_5day_move",
       "series": "RUSSELL2000",
-      "value": -2.167,
-      "detail": "RUSSELL2000 moved -2.17% over 5 days (threshold: >2%)"
-    },
-    {
-      "type": "yield_move",
-      "series": "DGS10",
-      "value": 0.12,
-      "detail": "10yr yield moved +12bps day/day (threshold: >10bps)"
+      "value": -2.137,
+      "detail": "RUSSELL2000 moved -2.14% over 5 days (threshold: >2%)"
     },
     {
       "type": "oil_move",
       "series": "DCOILWTICO",
-      "value": 3.2374482539008564,
-      "detail": "WTI crude moved +3.24% (threshold: >3%)"
+      "value": 4.491310290958792,
+      "detail": "WTI crude moved +4.49% (threshold: >3%)"
     }
   ]
 }

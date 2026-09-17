@@ -1,15 +1,6 @@
 {
-  "as_of": "2026-09-13T20:46:43.543259",
+  "as_of": "2026-09-17T03:23:32.739500",
   "entries": [
-    {
-      "date": "2026-09-16",
-      "ticker": "LEN",
-      "company": "Lennar Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.30",
-      "last_year_eps": "$2",
-      "market_cap": "$18,765,731,800"
-    },
     {
       "date": "2026-09-17",
       "ticker": "HUBG",
@@ -17,7 +8,7 @@
       "time": "time-not-supplied",
       "eps_forecast": "$0.52",
       "last_year_eps": "$0.45",
-      "market_cap": "$2,181,345,790"
+      "market_cap": "$2,045,584,900"
     },
     {
       "date": "2026-09-22",
@@ -26,7 +17,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$54.97",
       "last_year_eps": "$48.71",
-      "market_cap": "$47,041,020,000"
+      "market_cap": "$46,694,597,000"
     },
     {
       "date": "2026-09-22",
@@ -35,7 +26,7 @@
       "time": "time-not-supplied",
       "eps_forecast": "",
       "last_year_eps": "$1.08",
-      "market_cap": "$5,011,017,700"
+      "market_cap": "$4,666,804,700"
     },
     {
       "date": "2026-09-22",
@@ -44,7 +35,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$0.95",
       "last_year_eps": "N/A",
-      "market_cap": "$3,748,651,520"
+      "market_cap": "$3,712,731,900"
     },
     {
       "date": "2026-09-22",
@@ -53,7 +44,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.88",
       "last_year_eps": "N/A",
-      "market_cap": "$2,927,539,460"
+      "market_cap": "$3,036,057,860"
     },
     {
       "date": "2026-09-22",
@@ -62,7 +53,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.76",
       "last_year_eps": "$0.74",
-      "market_cap": "$2,818,672,130"
+      "market_cap": "$2,659,660,030"
     },
     {
       "date": "2026-09-22",
@@ -71,7 +62,88 @@
       "time": "time-pre-market",
       "eps_forecast": "$0.35",
       "last_year_eps": "$0.45",
-      "market_cap": "$1,429,647,740"
+      "market_cap": "$1,439,270,400"
+    },
+    {
+      "date": "2026-09-23",
+      "ticker": "CTAS",
+      "company": "Cintas Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.35",
+      "last_year_eps": "N/A",
+      "market_cap": "$79,613,731,000"
+    },
+    {
+      "date": "2026-09-23",
+      "ticker": "PAYX",
+      "company": "Paychex, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.33",
+      "last_year_eps": "$1.22",
+      "market_cap": "$42,112,492,000"
+    },
+    {
+      "date": "2026-09-23",
+      "ticker": "GIS",
+      "company": "General Mills, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.72",
+      "last_year_eps": "$0.86",
+      "market_cap": "$19,556,745,200"
+    },
+    {
+      "date": "2026-09-23",
+      "ticker": "FUL",
+      "company": "H. B. Fuller Company",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.46",
+      "last_year_eps": "N/A",
+      "market_cap": "$2,737,241,340"
+    },
+    {
+      "date": "2026-09-23",
+      "ticker": "CBRL",
+      "company": "Cracker Barrel Old Country Store, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.20",
+      "last_year_eps": "$0.74",
+      "market_cap": "$1,009,168,450"
+    },
+    {
+      "date": "2026-09-24",
+      "ticker": "COST",
+      "company": "Costco Wholesale Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$6.48",
+      "last_year_eps": "$5.87",
+      "market_cap": "$399,729,623,000"
+    },
+    {
+      "date": "2026-09-24",
+      "ticker": "DRI",
+      "company": "Darden Restaurants, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.05",
+      "last_year_eps": "$1.97",
+      "market_cap": "$23,855,984,600"
+    },
+    {
+      "date": "2026-09-24",
+      "ticker": "SNX",
+      "company": "TD SYNNEX Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$4.38",
+      "last_year_eps": "$3.47",
+      "market_cap": "$20,987,572,200"
+    },
+    {
+      "date": "2026-09-24",
+      "ticker": "SCHL",
+      "company": "Scholastic Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "($3.42)",
+      "last_year_eps": "($2.52)",
+      "market_cap": "$664,715,010"
     }
   ]
 }
