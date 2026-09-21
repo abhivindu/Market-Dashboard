@@ -38,8 +38,12 @@ YAHOO_COMMODITIES = {
 
 
 def fetch_fred_series(series_id):
+    # FRED's edge silently black-holes requests carrying a generic browser
+    # User-Agent (any "Mozilla/5.0..." string) - connections hang until
+    # timeout instead of erroring. Omit the header here; FRED serves the
+    # plain requests default UA immediately.
     url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}"
-    r = requests.get(url, headers=HEADERS, timeout=30)
+    r = requests.get(url, timeout=30)
     r.raise_for_status()
     df = pd.read_csv(io.StringIO(r.text))
     df.columns = ["date", "value"]

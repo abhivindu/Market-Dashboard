@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-09-14",
+  "as_of": "2026-09-17",
   "radar": "Defense tech is the clearest candidate for a 10th sector: over $14.6B has been deployed into military/national-security startups in 2026 already, surpassing all of 2025's $9.6B before mid-year. Anduril doubled its valuation to $61B in a $5B round (Thrive Capital, Andreessen Horowitz) and is reportedly in talks targeting $100B; Palantir's market cap crossed $325B; Shield AI ($12.7B) and Saronic ($4B) round out a group of 60+ funded startups totaling $33B+ raised. UPDATE (this pull, early September 2026): the Army moved its TITAN targeting system from prototyping to production with a $192M award split between Palantir ($127M) and Anduril, alongside partners L3Harris, Sierra Nevada, and World Wide Technology - a concrete production contract, not just funding-round valuation talk, cementing Palantir-Anduril as the Army's preferred AI-sensor-fusion team. Geopolitical tension has made this sector 'fundable almost overnight' per one VC assessment - worth adding once there's room to research it properly.",
-  "freshness_note": "Every citation below carries the actual publish date of its source, separate from this page's pull date above. On refresh, a sector or company is only rewritten if genuinely newer reporting was found for it (marked \"UPDATE (this pull)\") - otherwise the existing entry stands as-is rather than being re-presented under a fresher-looking timestamp. This pull (2026-09-14) spot-checked the fastest-moving names (quantum pure-plays, defense tech) and found real updates in both; the remaining 8 sectors' entries were reviewed and, aside from the date retrofit itself, had no material developments to report beyond what was already captured.",
+  "freshness_note": "Every citation below carries the actual publish date of its source, separate from this page's pull date above. On refresh, a sector or company is only rewritten if genuinely newer reporting was found for it (marked \"UPDATE (this pull)\") - otherwise the existing entry stands as-is rather than being re-presented under a fresher-looking timestamp. This pull (2026-09-17) spot-checked Nuclear SMRs, Humanoid & Industrial Robotics, and Fusion Energy (the FOMC's Sept 16 rate hike made rate/financing-sensitive names the natural place to look). Nuclear SMRs had genuine news - Piper Sandler split the sector (Buy on Oklo, Sell on X-energy) on Sept 10, UBS cut NuScale to Sell on Sept 11, and Oklo opened a new $1B ATM offering the same day. Humanoid robotics and fusion were checked and had nothing genuinely newer than what's already captured (the most-cited Figure AI/BMW commercial contract predates the last pull; Helion's 150M°C D-T fusion milestone is from February 2026). The prior pull (2026-09-14) had covered quantum pure-plays and defense tech.",
   "sectors": [
     {
       "id": "quantum-computing",
@@ -413,7 +413,7 @@
       ],
       "investors_lenders": "Every major US hyperscaler has signed at least one nuclear offtake deal (Microsoft's 837MW deal among them); the pipeline of conditional offtake agreements grew from 25GW (end of 2024) to 45GW (April 2026). The U.S. DOE is a direct funder (X-energy received an additional $1B in cost-shared funding on top of prior support; TerraPower and others have federal backing too). Private capital includes Bill Gates (TerraPower founder/backer) and specialist energy-transition funds.",
       "roadblocks": "Cost is the central problem: Lux Research estimates first-of-a-kind SMRs could run ~$331/MWh versus $124/MWh for natural gas once overruns and delays are factored in. Regulatory/licensing delays are real (an X-energy Texas project recently faced formal opposition on financial-qualification grounds before the NRC's licensing board). HALEU fuel supply is a bottleneck - only one Western producer currently licensed (see Centrus Energy, adjacent). The timeline mismatch is stark: hyperscalers need power now, but even optimistic SMR projections don't see broad deployment before the early 2030s.",
-      "sentiment": "Split between public-market skepticism and continued private/strategic conviction. Oklo and NuScale - the two most-followed public pure-plays - have shed a combined 85.3% in 2026 as investors confront the reality that neither has a revenue-generating project yet, and Bank of America doesn't see real-world adoption meaningfully picking up until 2035-2040. Yet Oklo separately pursued a public listing targeting a $10B+ valuation in February 2026, and hyperscaler offtake commitments keep growing - suggesting strategic/infrastructure investors are underwriting a much longer timeline than public equity holders are currently willing to.",
+      "sentiment": "UPDATE (this pull, 2026-09-17): Wall Street itself is now split, not just retail sentiment - Piper Sandler initiated coverage Sept 10 with a Buy on Oklo ($55 target) but a Sell on X-energy ($9 target, ~53% downside), citing Oklo's build-own-operate model versus X-energy's more asset-light approach that leaves customers holding more technology/project risk; UBS separately cut NuScale to Sell on Sept 11 on timeline and cash-burn concerns. Oklo also opened a new $1B at-the-market equity offering on Sept 11 (replacing a prior $1B program that was already fully sold), and shares dipped 3.5-5% on the dilution news even as the company's financing capacity and 14GW customer pipeline both keep growing. The split-the-sector pattern reinforces rather than resolves the divide described below. Prior framing: split between public-market skepticism and continued private/strategic conviction. Oklo and NuScale - the two most-followed public pure-plays - have shed a combined 85.3% in 2026 as investors confront the reality that neither has a revenue-generating project yet, and Bank of America doesn't see real-world adoption meaningfully picking up until 2035-2040. Yet Oklo separately pursued a public listing targeting a $10B+ valuation in February 2026, and hyperscaler offtake commitments keep growing - suggesting strategic/infrastructure investors are underwriting a much longer timeline than public equity holders are currently willing to.",
       "primary_companies": [
         {
           "name": "NuScale Power",
@@ -421,8 +421,13 @@
           "ticker": "SMR",
           "description": "Light-water SMR designer, the most established of the Western public pure-plays by regulatory track record.",
           "investors": "Public markets (NYSE-listed).",
-          "performance": "Down nearly 27% in 2026 as of May, with losses deepening later in the year (combined with Oklo, down 85.3% by late August). $766.5M cash vs $824.4M total debt as of Q2 2026 - a tighter balance sheet than Oklo's, per analyst comparisons.",
+          "performance": "UPDATE (this pull, 2026-09-17): UBS cut NuScale to Sell on Sept 11, 2026 on timeline and cash-burn concerns, a fresh sell-side headwind on top of the year's losses. Prior framing: down nearly 27% in 2026 as of May, with losses deepening later in the year (combined with Oklo, down 85.3% by late August). $766.5M cash vs $824.4M total debt as of Q2 2026 - a tighter balance sheet than Oklo's, per analyst comparisons.",
           "citations": [
+            {
+              "title": "NuScale Power Drops 5% as UBS Cuts to Sell on Timeline and Cash Burn, Oklo Slips",
+              "url": "https://247wallst.com/investing/2026/09/11/nuscale-power-drops-5-as-ubs-cuts-to-sell-on-timeline-and-cash-burn-oklo-slips/",
+              "date": "2026-09-11"
+            },
             {
               "title": "Oklo and NuScale Power Have Shed a Combined 85.3% This Year. Why Are Nuclear Stocks Falling?",
               "url": "https://www.fool.com/investing/2026/08/27/oklo-and-nuscale-power-have-shed-a-combined-853-th/",
@@ -436,8 +441,18 @@
           "ticker": "OKLO",
           "description": "Fast-reactor (Aurora powerhouse) designer targeting smaller, distributed deployments; has a signed fuel-supply agreement with Centrus Energy for HALEU delivery starting 2029.",
           "investors": "Public markets (NYSE-listed); backed earlier by Sam Altman as chairman.",
-          "performance": "Down about 11% on the year as of May 2026, worsening alongside NuScale later in the year. Filed for an IPO-adjacent public listing in February 2026 targeting a $10B+ valuation. Analysts see a stronger financial position than NuScale, with less near-term dilution risk.",
+          "performance": "UPDATE (this pull, 2026-09-17): Piper Sandler initiated coverage Sept 10 with a Buy and $55 target, crediting Oklo's build-own-operate model over X-energy's more asset-light approach - but Oklo also opened a new $1B at-the-market equity offering on Sept 11 (replacing a prior $1B program already fully sold), and shares dipped 3.5-5% on the dilution news despite the bullish rating. Prior framing: down about 11% on the year as of May 2026, worsening alongside NuScale later in the year. Filed for an IPO-adjacent public listing in February 2026 targeting a $10B+ valuation. Analysts see a stronger financial position than NuScale, with less near-term dilution risk.",
           "citations": [
+            {
+              "title": "Nuclear Stocks Slide as Piper Sandler Splits the Sector: Oklo, NuScale Power and X-Energy All Drop 5%",
+              "url": "https://247wallst.com/investing/2026/09/10/nuclear-stocks-slide-as-piper-sandler-splits-the-sector-oklo-nuscale-power-and-x-energy-all-drop-5/",
+              "date": "2026-09-10"
+            },
+            {
+              "title": "Oklo Shares Fall 3.5% After Launch of Up to $1 Billion Stock Offering Program",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-shares-fall-3-5-133240602.html",
+              "date": "2026-09-11"
+            },
             {
               "title": "Oklo vs. NuScale Power: Both Are Falling in 2026, but Only One Is Worth Buying Now",
               "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-vs-nuscale-power-both-082500055.html",

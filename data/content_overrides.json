@@ -1,9 +1,14 @@
 {
-  "point1_synthesis": "Markets this week are being driven by one interlocking story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from roughly 70% to 90%, sending the 10-year Treasury yield up 12bp to 4.95% \u2014 its highest level since 2023 and closing in on 2007 highs. Middle East tensions, including Iran's attacks on commercial and U.S. Navy vessels, are compounding the inflation picture by pushing WTI crude up 3.2% to $97. Credit markets aren't stressed \u2014 both IG and HY spreads tightened slightly on the week \u2014 and the VIX term structure remains in contango, meaning options markets aren't pricing panic despite small-caps (Russell 2000, -2.2% over 5 days) and the Dow (-2.1%) underperforming a Nasdaq held up by AI-infrastructure capex names. The FOMC decision on Sept 16 is the next clear catalyst for all of the above.",
+  "point1_synthesis": "UPDATE (this pull, 2026-09-17): The catalyst this file was waiting on has now happened. The FOMC voted 12-0 on Sept 16 to hike the fed funds rate 25bp to 3.75%-4% \u2014 the first hike since 2023 \u2014 citing inflation still 'elevated' even as growth stays solid; the statement gave no explicit signal on further moves, but the Fed's own dot plot points to at least one more 2026 hike, and markets are now pricing a second. The 10-year yield pushed through 5% on the decision (5.02% intraday) as Chair Warsh's press-conference remarks doubled down on inflation risk. Equities fell into the announcement and stayed down: the Dow lost 631pts (-1.21%) to 51,461.90, the S&P 500 slipped 0.45% to 7,551.81, and bank stocks had their worst day since February (KBE -2.6%) on fears the hiking cycle isn't over. Oil has pushed above $100/bbl on the still-live Middle East supply story. None of this overturns last pull's framing \u2014 it's the resolution of the exact mechanism already described below \u2014 so the original synthesis is kept intact underneath rather than rewritten. Markets this week are being driven by one interlocking story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from roughly 70% to 90%, sending the 10-year Treasury yield up 12bp to 4.95% \u2014 its highest level since 2023 and closing in on 2007 highs. Middle East tensions, including Iran's attacks on commercial and U.S. Navy vessels, are compounding the inflation picture by pushing WTI crude up 3.2% to $97. Credit markets aren't stressed \u2014 both IG and HY spreads tightened slightly on the week \u2014 and the VIX term structure remains in contango, meaning options markets aren't pricing panic despite small-caps (Russell 2000, -2.2% over 5 days) and the Dow (-2.1%) underperforming a Nasdaq held up by AI-infrastructure capex names. The FOMC decision on Sept 16 is the next clear catalyst for all of the above.",
   "macro_flags": {
-    "index_5day_move:DOW": {
-      "narrative": "Broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
+    "index_day_move:DOW": {
+      "narrative": "UPDATE (this pull, 2026-09-17): This flag now trips on the day-move threshold rather than the 5-day one, because the FOMC's Sept 16 hike hit in a single session: the Fed hiked 25bp as anticipated, and the Dow fell 631pts (-1.21%) to 51,461.90 on the day — banks led the damage (KBE -2.6%, worst day since February) on fears the hiking cycle continues into 2027. Prior framing: broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
       "citations": [
+        {
+          "title": "Stock market today: Dow sinks 600 points, S&P 500 and Nasdaq fall as Fed hikes rates, bond yields rise",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-16-dow-sp-500-nasdaq-fed-meeting-decision-080356525.html",
+          "date": "2026-09-16"
+        },
         {
           "title": "Global Bond Selloff Sends 10-Year Treasury Yields to Cusp of 5%",
           "url": "https://www.bloomberg.com/news/articles/2026-09-11/global-bond-selloff-sends-10-year-treasury-yields-to-cusp-of-5",
@@ -18,8 +23,13 @@
       "reaction_assessment": "proportionate - move is consistent with the rate/inflation/oil narrative, not a surprise dislocation"
     },
     "index_5day_move:RUSSELL2000": {
-      "narrative": "Small caps are more rate-sensitive than large caps (higher average leverage, more floating-rate debt), so the run-up in the 10yr yield toward 5% on hot inflation data and hawkish Fed signaling has hit the Russell 2000 harder than large-cap indices over the past week. The same Middle East-driven oil spike also raises input costs disproportionately for smaller, less diversified companies.",
+      "narrative": "UPDATE (this pull, 2026-09-17): The FOMC's Sept 16 hike (to 3.75%-4%, first since 2023) is the realization of the rate risk this flag was already tracking, and small-caps' higher rate sensitivity means they remain the most exposed index to it as the 10-year sits above 5%. Prior framing: small caps are more rate-sensitive than large caps (higher average leverage, more floating-rate debt), so the run-up in the 10yr yield toward 5% on hot inflation data and hawkish Fed signaling has hit the Russell 2000 harder than large-cap indices over the past week. The same Middle East-driven oil spike also raises input costs disproportionately for smaller, less diversified companies.",
       "citations": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "date": "2026-09-16"
+        },
         {
           "title": "Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets",
           "url": "https://www.cnbc.com/2026/09/07/us-treasury-yields-markets-scott-bessent.html",
@@ -29,8 +39,18 @@
       "reaction_assessment": "proportionate - small-cap rate sensitivity is a well-known mechanism, not an anomaly"
     },
     "yield_move:DGS10": {
-      "narrative": "The 10-year Treasury yield's 12bp jump is the mechanical center of this week's story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from ~70% to ~90%, and a global bond selloff (fiscal deficit concerns, heavy Treasury issuance) is compounding the move. Yields are now at their highest level since 2023, approaching the highest since 2007.",
+      "narrative": "UPDATE (this pull, 2026-09-17): The FOMC met and hiked — 25bp to 3.75%-4%, a 12-0 vote, the first hike since 2023 — rather than the cut markets had been pricing earlier in the year. The 10-year yield broke through 5% on the decision (5.02% intraday) as Chair Warsh's press conference reinforced that inflation is still the Fed's binding constraint; the dot plot signals at least one more hike is possible before year-end. This confirms rather than reverses the move already described below. Prior framing: the 10-year Treasury yield's 12bp jump is the mechanical center of this week's story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from ~70% to ~90%, and a global bond selloff (fiscal deficit concerns, heavy Treasury issuance) is compounding the move. Yields are now at their highest level since 2023, approaching the highest since 2007.",
       "citations": [
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "date": "2026-09-16"
+        },
+        {
+          "title": "10-year Treasury yield climbs back to 5% after Fed hikes rates, Warsh highlights inflation risks",
+          "url": "https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html",
+          "date": "2026-09-16"
+        },
         {
           "title": "Global Bond Selloff Sends 10-Year Treasury Yields to Cusp of 5%",
           "url": "https://www.bloomberg.com/news/articles/2026-09-11/global-bond-selloff-sends-10-year-treasury-yields-to-cusp-of-5",
@@ -42,11 +62,16 @@
           "date": "2026-09"
         }
       ],
-      "reaction_assessment": "proportionate but notable - this is the single biggest macro driver of the week, with a live FOMC meeting (Sept 15-16) as the next catalyst"
+      "reaction_assessment": "proportionate but notable - the FOMC hike this pull confirms this was the single biggest macro driver of the week, exactly as flagged pre-decision"
     },
     "oil_move:DCOILWTICO": {
-      "narrative": "WTI crude's jump reflects Middle East supply fears after Iran's attacks on commercial and U.S. Navy vessels, which the Iranian Foreign Ministry has framed as retaliatory. Brent has held above $90/bbl. Higher oil adds to the inflation picture the Fed is already responding to, reinforcing (not just coinciding with) this week's yield move.",
+      "narrative": "UPDATE (this pull, 2026-09-17): WTI has kept climbing since last pull, trading near $102-104/bbl into and through the Sept 16 FOMC decision (Brent briefly above $108 before easing) as Iran-backed Houthi militants advance toward the Bab el-Mandeb Strait and intensify attacks on Saudi targets and shipping routes, reportedly prompting Saudi Aramco to delay some European deliveries. The Fed's own statement cited Middle East tension as a factor in its decision, directly linking this flag to the yield-move flag above. Prior framing: WTI crude's jump reflects Middle East supply fears after Iran's attacks on commercial and U.S. Navy vessels, which the Iranian Foreign Ministry has framed as retaliatory. Brent has held above $90/bbl. Higher oil adds to the inflation picture the Fed is already responding to, reinforcing (not just coinciding with) this week's yield move.",
       "citations": [
+        {
+          "title": "Wall Street Futures Edge Higher Ahead of Fed Rate Decision as Oil Prices Ease",
+          "url": "https://www.analyticsinsight.net/stocks/wall-street-futures-edge-higher-ahead-of-fed-rate-decision-as-oil-prices-ease",
+          "date": "2026-09-16"
+        },
         {
           "title": "Markets Begin Cautiously as Rising Crude and Geopolitical Tensions Persist",
           "url": "https://businessnewsthisweek.com/business/markets-begin-cautiously-as-rising-crude-and-geopolitical-tensions-persist/",
@@ -62,6 +87,170 @@
     }
   },
   "movers": {
+    "JBHT": {
+      "narrative": "J.B. Hunt fell 13.3% - one of its worst trading days since its 1983 IPO - after warning Q3 earnings would drop 5-10% from Q2 on two cost pressures: diesel hit a record national average of $6.31/gallon, and the company flagged $25M in additional driver expenses (recruiting, training, signing bonuses). Fuel surcharges eventually pass through to customers, but with a lag, leaving J.B. Hunt to absorb the cost now. This is the freight-and-logistics-sector mirror image of this pull's oil/energy story: the same crude/refined-product price spike hurting consumers at the pump is a direct margin hit for a fuel-intensive trucker.",
+      "citations": [
+        {
+          "title": "J.B. Hunt warns of earnings drop as diesel hits record high",
+          "url": "https://finance.yahoo.com/energy/articles/j-b-hunt-warns-earnings-174618740.html",
+          "date": "2026-09-16"
+        },
+        {
+          "title": "J.B. Hunt (JBHT) Stock Plunges 11% on Q3 Earnings Warning Amid Fuel Cost Surge",
+          "url": "https://blockonomi.com/j-b-hunt-jbht-stock-plunges-11-on-q3-earnings-warning-amid-fuel-cost-surge",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "SMTC": {
+      "narrative": "Semtech jumped 11% (part of a ~39% three-week run) after record Q2 FY27 revenue of $341.9M (+33% y/y, +17% q/q) with margin expansion, driven by optical-networking and AI-data-center demand plus a planned divestiture of its lower-margin cellular module business (expected to lift gross margins ~500bp). Roth Capital, UBS, Northland and Baird all raised price targets ($182-$300 range) on the print.",
+      "citations": [
+        {
+          "title": "Semtech (SMTC) Shares Skyrocket, What You Need To Know",
+          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-16-semtech-smtc-shares-skyrocket-what-you-need-to-know",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "FANG": {
+      "narrative": "Diamondback Energy fell alongside a broad, sector-wide E&P selloff on the Fed's Sept 16 hike day: WTI itself pulled back from recent highs intraday (to ~$104) on rising US crude-inventory signals even as it remains up sharply versus a week ago, and the Fed's hawkish tone plus higher yields weighed on the whole equity market including energy. No Diamondback-specific catalyst found - this reads as a broad energy-complex move (see also OXY, MTDR, MGY, VAL, AR, RRC, CRK, GPOR, SM, NOG the same session), not a name-specific story.",
+      "citations": [
+        {
+          "title": "Latest Oil Market News and Analysis for Sept. 16",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-15/latest-oil-market-news-and-analysis-for-sept-16",
+          "date": "2026-09-16"
+        },
+        {
+          "title": "Stock market today: Dow sinks 600 points, S&P 500 and Nasdaq fall as Fed hikes rates, bond yields rise",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-16-dow-sp-500-nasdaq-fed-meeting-decision-080356525.html",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "OXY": {
+      "narrative": "Occidental fell in the same broad energy-sector selloff that hit Diamondback, Matador, Magnolia and the natural-gas E&P names the same session (Sept 16) - a Fed-hike risk-off day plus crude pulling back intraday from recent highs on rising US inventory signals, not an Occidental-specific catalyst.",
+      "citations": [
+        {
+          "title": "Latest Oil Market News and Analysis for Sept. 16",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-15/latest-oil-market-news-and-analysis-for-sept-16",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "MTDR": {
+      "narrative": "Matador Resources fell in the same broad energy-sector selloff hitting Diamondback, Occidental and peers on Sept 16 (Fed-hike risk-off, crude pulling back intraday from recent highs on rising US inventories) - no Matador-specific catalyst found.",
+      "citations": [
+        {
+          "title": "Latest Oil Market News and Analysis for Sept. 16",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-15/latest-oil-market-news-and-analysis-for-sept-16",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "MGY": {
+      "narrative": "Magnolia Oil & Gas fell in the same broad energy-sector selloff hitting Diamondback, Occidental and peers on Sept 16 (Fed-hike risk-off, crude pulling back intraday from recent highs on rising US inventories) - no Magnolia-specific catalyst found.",
+      "citations": [
+        {
+          "title": "Latest Oil Market News and Analysis for Sept. 16",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-15/latest-oil-market-news-and-analysis-for-sept-16",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "VAL": {
+      "narrative": "Valaris (offshore driller) fell in the same broad energy-sector selloff hitting the oil E&P names on Sept 16 (Fed-hike risk-off, crude pulling back intraday from recent highs) - no Valaris-specific catalyst found.",
+      "citations": [
+        {
+          "title": "Latest Oil Market News and Analysis for Sept. 16",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-15/latest-oil-market-news-and-analysis-for-sept-16",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "AR": {
+      "narrative": "Antero Resources fell alongside a sector-wide natural-gas E&P selloff on Sept 16 that also hit Range Resources and Comstock Resources - a broad Marcellus/Haynesville-complex move (Comstock alone fell 7.1% the same session) compounded by the same Fed-hike risk-off hitting equities generally. No Antero-specific catalyst found.",
+      "citations": [
+        {
+          "title": "Comstock Resources Drops 7.1% Amid Sector-Wide Selling",
+          "url": "https://news.alphastreet.com/comstock-resources-drops-7-1-amid-sector-wide-selling/",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "RRC": {
+      "narrative": "Range Resources fell alongside a sector-wide natural-gas E&P selloff on Sept 16 that also hit Antero Resources and Comstock Resources (down 7.1% the same session) - a broad Marcellus/Haynesville-complex move compounded by the same Fed-hike risk-off hitting equities generally. No Range-specific catalyst found.",
+      "citations": [
+        {
+          "title": "Comstock Resources Drops 7.1% Amid Sector-Wide Selling",
+          "url": "https://news.alphastreet.com/comstock-resources-drops-7-1-amid-sector-wide-selling/",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "CRK": {
+      "narrative": "Comstock Resources fell 7.1% in a sector-wide natural-gas E&P selloff on Sept 16 that also hit Antero Resources and Range Resources - compounded by the same Fed-hike risk-off hitting equities generally that session.",
+      "citations": [
+        {
+          "title": "Comstock Resources Drops 7.1% Amid Sector-Wide Selling",
+          "url": "https://news.alphastreet.com/comstock-resources-drops-7-1-amid-sector-wide-selling/",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "GPOR": {
+      "narrative": "Gulfport Energy fell alongside the same sector-wide natural-gas E&P selloff hitting Antero, Range and Comstock on Sept 16 - Fed-hike risk-off compounding an already-weak natural-gas-equity tape. No Gulfport-specific catalyst found.",
+      "citations": [
+        {
+          "title": "Comstock Resources Drops 7.1% Amid Sector-Wide Selling",
+          "url": "https://news.alphastreet.com/comstock-resources-drops-7-1-amid-sector-wide-selling/",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "SM": {
+      "narrative": "SM Energy fell in the same broad energy-sector selloff hitting both the oil E&P names (Diamondback, Occidental) and natural-gas E&P names (Antero, Range, Comstock) on Sept 16 - Fed-hike risk-off day. No SM Energy-specific catalyst found.",
+      "citations": [
+        {
+          "title": "Latest Oil Market News and Analysis for Sept. 16",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-15/latest-oil-market-news-and-analysis-for-sept-16",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "NOG": {
+      "narrative": "Northern Oil and Gas fell in the same broad energy-sector selloff hitting both oil and natural-gas E&P names on Sept 16 - Fed-hike risk-off day. No Northern Oil and Gas-specific catalyst found.",
+      "citations": [
+        {
+          "title": "Latest Oil Market News and Analysis for Sept. 16",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-15/latest-oil-market-news-and-analysis-for-sept-16",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "KNX": {
+      "narrative": "Knight-Swift fell alongside J.B. Hunt's 13.3% drop the same session (Sept 16) - both truckers are exposed to the same cost pressures J.B. Hunt explicitly flagged (diesel hitting a record $6.31/gallon national average, rising driver costs), even though Knight-Swift itself did not issue its own warning. Sector-wide read-through, not an independent catalyst.",
+      "citations": [
+        {
+          "title": "J.B. Hunt warns of earnings drop as diesel hits record high",
+          "url": "https://finance.yahoo.com/energy/articles/j-b-hunt-warns-earnings-174618740.html",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
     "HPE": {
       "narrative": "HPE jumped 12% after a record fiscal Q3 (revenue $12.2B, +34% y/y) and raised FY26 guidance (EPS $3.75-$3.85, revenue growth 34-37%), driven by a $3.5B hyperscaler inferencing deal and an expanded Oracle AI data center collaboration. Part of a broader enterprise-AI-infrastructure rally that also lifted DELL, NTAP, VICR and ON the same week.",
       "citations": [
@@ -458,6 +647,39 @@
     }
   },
   "recommendations": {
+    "ENVA": {
+      "thesis": "Enova crashed ~22-25% on Sept 15 after withdrawing its OCC/Fed regulatory applications for the $369M Grasshopper Bancorp acquisition, with the CEO citing a lack of clear standards for nonbanks seeking to become banks. This is a real, abandoned strategic deal, not noise - but the company reiterated Q3 and full-year 2026 guidance unchanged (revenue +25% y/y, adjusted EPS +30% y/y) the same day, meaning the core lending business's outlook wasn't cut. Bounce thesis rests on the deal's collapse being a strategic setback rather than a signal of operational trouble.",
+      "citations": [
+        {
+          "title": "Enova International (ENVA) Stock Plummets 25% After Abandoning $369M Grasshopper Bank Acquisition",
+          "url": "https://blockonomi.com/enova-international-enva-stock-plummets-25-after-abandoning-369m-grasshopper-bank-acquisition/",
+          "date": "2026-09-15"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "ARWR": {
+      "thesis": "Arrowhead fell on continued concerns about cash burn ($194.3M net loss last quarter) despite genuine clinical progress: SHASTA trial results showed a 78% reduction in acute pancreatitis events, and REDEMPLO revenue roughly doubled quarter over quarter. Piper Sandler maintained an Overweight rating through the decline. This looks like a financing/burn-rate overhang on an otherwise-advancing pipeline rather than a thesis-breaking clinical setback - the bounce case depends on that read being right.",
+      "citations": [
+        {
+          "title": "Arrowhead Pharmaceuticals (ARWR) Stock Retreats As Losses Deepen Behind Phase III Progress",
+          "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-arwr/arrowhead-pharmaceuticals/news/arrowhead-pharmaceuticals-arwr-stock-retreats-as-losses-deep",
+          "date": "2026-09"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "CENX": {
+      "thesis": "CAUTION - no single clean catalyst found for Century Aluminum's 5-day decline; analyst sentiment is genuinely split (Zacks cut to Strong Sell in July, Weiss cut to Hold in late July, while UBS initiated at Buy with a $60 target in August) rather than uniformly bearish. Down sharply from its June all-time high ($68.77) - include with reduced conviction pending a clearer catalyst.",
+      "citations": [
+        {
+          "title": "Century Aluminum (NASDAQ:CENX) Shares Down 7.5% - Here's What Happened",
+          "url": "https://www.marketbeat.com/instant-alerts/price-century-aluminum-nasdaq-cenx-shares-down-75-heres-what-happened-2026-09-10/",
+          "date": "2026-09-10"
+        }
+      ],
+      "verdict": "mixed"
+    },
     "GWRE": {
       "thesis": "Guidewire fell 20.6% on Sept 4 despite beating Q2 revenue (+15.3% y/y) and EPS estimates - the selloff was triggered by FY27 guidance implying ARR growth decelerating from 19% to ~18% and Q3 revenue guided 3.3% below consensus. A one-point deceleration in an otherwise-healthy growth story looks like an overreaction; bounce thesis rests on ARR growth staying in the high teens, not collapsing.",
       "citations": [
