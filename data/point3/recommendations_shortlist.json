@@ -2,65 +2,64 @@
   "methodology_note": "See pipeline/build_recommendations.py docstring for full criteria. Value bucket uses a 52wk-discount proxy pending real fundamentals data (WISHLIST.md).",
   "bounce": [
     {
-      "ticker": "LEU",
-      "sector": "Energy",
-      "name": "Centrus Energy Corp.",
-      "price": 139.01,
-      "day_chg_pct": -2.188,
-      "five_day_chg_pct": -23.406,
-      "market_cap": 2843186430.727722,
-      "volume": 965000,
-      "avg_volume": 735500,
-      "contribution_pct": -0.0023
-    },
-    {
       "ticker": "ENVA",
       "sector": "Financials",
       "name": "Enova International, Inc.",
-      "price": 172.14,
-      "day_chg_pct": -0.847,
-      "five_day_chg_pct": -23.162,
+      "price": 174.72,
+      "day_chg_pct": -2.424,
+      "five_day_chg_pct": -21.819,
       "market_cap": 4286005568.7432404,
-      "volume": 558200,
-      "avg_volume": 374665,
-      "contribution_pct": -0.0004
+      "volume": 449174,
+      "avg_volume": 382416,
+      "contribution_pct": -0.0011
     },
     {
       "ticker": "ARWR",
       "sector": "Health Care",
       "name": "Arrowhead Pharmaceuticals",
-      "price": 65.79,
-      "day_chg_pct": -6.905,
-      "five_day_chg_pct": -20.38,
+      "price": 66.48,
+      "day_chg_pct": -1.86,
+      "five_day_chg_pct": -19.759,
       "market_cap": 9293131513.252327,
-      "volume": 5111900,
-      "avg_volume": 2119001,
-      "contribution_pct": -0.0095,
-      "volume_vs_avg_ratio": 2.41
+      "volume": 2347182,
+      "avg_volume": 2180698,
+      "contribution_pct": -0.0025
     },
     {
-      "ticker": "CENX",
-      "sector": "Materials",
-      "name": "Century Aluminum Company",
-      "price": 39.8,
-      "day_chg_pct": 0.227,
-      "five_day_chg_pct": -16.544,
-      "market_cap": 3939933065.4741096,
-      "volume": 1711200,
-      "avg_volume": 2047663,
-      "contribution_pct": 0.0006
+      "ticker": "AN",
+      "sector": "Consumer Discretionary",
+      "name": "AutoNation",
+      "price": 168.29,
+      "day_chg_pct": -3.768,
+      "five_day_chg_pct": -17.371,
+      "market_cap": 6459089506.790283,
+      "volume": 603500,
+      "avg_volume": 471476,
+      "contribution_pct": -0.0034
     },
     {
       "ticker": "AMR",
       "sector": "Materials",
       "name": "Alpha Metallurgical Resources, Inc.",
-      "price": 189.49,
-      "day_chg_pct": 0.461,
-      "five_day_chg_pct": -16.502,
+      "price": 174.22,
+      "day_chg_pct": -5.689,
+      "five_day_chg_pct": -16.804,
       "market_cap": 2402552306.6980743,
-      "volume": 340500,
-      "avg_volume": 310121,
-      "contribution_pct": 0.0008
+      "volume": 247443,
+      "avg_volume": 315054,
+      "contribution_pct": -0.0094
+    },
+    {
+      "ticker": "SAH",
+      "sector": "Consumer Discretionary",
+      "name": "Sonic Automotive, Inc.",
+      "price": 63.66,
+      "day_chg_pct": -3.472,
+      "five_day_chg_pct": -16.126,
+      "market_cap": 2298080034.564575,
+      "volume": 362910,
+      "avg_volume": 292900,
+      "contribution_pct": -0.0011
     }
   ],
   "value": [
@@ -69,27 +68,27 @@
       "name": "CoStar Group",
       "sector": "Real Estate",
       "market_cap": 12301799018.992981,
-      "pct_off_52wk_high": -65.99,
-      "five_day_chg_pct": 2.637,
-      "price": 30.36
-    },
-    {
-      "ticker": "KTOS",
-      "name": "Kratos Defense & Security Solutions",
-      "sector": "Industrials",
-      "market_cap": 8933657980.574001,
-      "pct_off_52wk_high": -63.59,
-      "five_day_chg_pct": 1.819,
-      "price": 47.59
+      "pct_off_52wk_high": -66.3,
+      "five_day_chg_pct": -4.498,
+      "price": 29.09
     },
     {
       "ticker": "FISV",
       "name": "Fiserv",
       "sector": "Financials",
       "market_cap": 26295864759.15581,
-      "pct_off_52wk_high": -63.15,
-      "five_day_chg_pct": 1.644,
-      "price": 49.45
+      "pct_off_52wk_high": -63.86,
+      "five_day_chg_pct": -8.511,
+      "price": 47.19
+    },
+    {
+      "ticker": "KTOS",
+      "name": "Kratos Defense & Security Solutions",
+      "sector": "Industrials",
+      "market_cap": 8933657980.574001,
+      "pct_off_52wk_high": -63.69,
+      "five_day_chg_pct": 1.649,
+      "price": 47.46
     },
     {
       "ticker": "PODD",
@@ -97,71 +96,71 @@
       "sector": "Health Care",
       "market_cap": 9751200802.704437,
       "pct_off_52wk_high": -59.41,
-      "five_day_chg_pct": 1.943,
+      "five_day_chg_pct": 6.547,
       "price": 140.6
     },
     {
-      "ticker": "BSX",
-      "name": "Boston Scientific",
-      "sector": "Health Care",
-      "market_cap": 63635668265.52512,
-      "pct_off_52wk_high": -58.17,
-      "five_day_chg_pct": -2.335,
-      "price": 43.91
+      "ticker": "DUOL",
+      "name": "Duolingo",
+      "sector": "Consumer Discretionary",
+      "market_cap": 6903702060.575455,
+      "pct_off_52wk_high": -59.14,
+      "five_day_chg_pct": -1.239,
+      "price": 141.9
     }
   ],
   "speculative": [
     {
-      "ticker": "WOR",
-      "sector": "Industrials",
-      "name": "Worthington Enterprises",
-      "price": 58.84,
-      "day_chg_pct": 8.241,
-      "five_day_chg_pct": -1.572,
-      "market_cap": 2878851978.025635,
-      "volume": 830200,
-      "avg_volume": 297838,
-      "contribution_pct": 0.0036,
-      "volume_vs_avg_ratio": 2.79
-    },
-    {
-      "ticker": "AXON",
-      "sector": "Industrials",
-      "name": "Axon Enterprise",
-      "price": 468.42,
-      "day_chg_pct": 5.958,
-      "five_day_chg_pct": -4.404,
-      "market_cap": 38053231025.13443,
-      "volume": 2624600,
-      "avg_volume": 997998,
-      "contribution_pct": 0.0344,
-      "volume_vs_avg_ratio": 2.63
-    },
-    {
       "ticker": "AMRX",
       "sector": "Health Care",
       "name": "Amneal Pharmaceuticals",
-      "price": 18.08,
-      "day_chg_pct": 8.589,
-      "five_day_chg_pct": 4.812,
+      "price": 18.71,
+      "day_chg_pct": 2.352,
+      "five_day_chg_pct": 9.994,
       "market_cap": 6297192141.587122,
-      "volume": 5123500,
-      "avg_volume": 1964011,
-      "contribution_pct": 0.008,
-      "volume_vs_avg_ratio": 2.61
+      "volume": 5646243,
+      "avg_volume": 2109515,
+      "contribution_pct": 0.0022,
+      "volume_vs_avg_ratio": 2.68
     },
     {
-      "ticker": "RAMP",
-      "sector": "Information Technology",
-      "name": "LiveRamp Holdings, Inc.",
-      "price": 37.87,
-      "day_chg_pct": 0.691,
-      "five_day_chg_pct": 0.291,
-      "market_cap": 2302305903.4039536,
-      "volume": 2450400,
-      "avg_volume": 1033538,
-      "contribution_pct": 0.0001,
-      "volume_vs_avg_ratio": 2.37
+      "ticker": "SPNT",
+      "sector": "Financials",
+      "name": "SiriusPoint Ltd.",
+      "price": 24.75,
+      "day_chg_pct": 1.31,
+      "five_day_chg_pct": 2.273,
+      "market_cap": 2842557861.7558136,
+      "volume": 1917425,
+      "avg_volume": 783705,
+      "contribution_pct": 0.0004,
+      "volume_vs_avg_ratio": 2.45
+    },
+    {
+      "ticker": "AGX",
+      "sector": "Industrials",
+      "name": "Argan, Inc.",
+      "price": 389.85,
+      "day_chg_pct": 1.789,
+      "five_day_chg_pct": -5.774,
+      "market_cap": 5523829409.366272,
+      "volume": 872304,
+      "avg_volume": 365010,
+      "contribution_pct": 0.0015,
+      "volume_vs_avg_ratio": 2.39
+    },
+    {
+      "ticker": "AZO",
+      "sector": "Consumer Discretionary",
+      "name": "AutoZone",
+      "price": 2855.3101,
+      "day_chg_pct": 0.387,
+      "five_day_chg_pct": -0.745,
+      "market_cap": 46511590046.90918,
+      "volume": 604900,
+      "avg_volume": 270963,
+      "contribution_pct": 0.0025,
+      "volume_vs_avg_ratio": 2.23
     }
   ]
 }

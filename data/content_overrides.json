@@ -1,8 +1,8 @@
 {
-  "point1_synthesis": "UPDATE (this pull, 2026-09-17): The catalyst this file was waiting on has now happened. The FOMC voted 12-0 on Sept 16 to hike the fed funds rate 25bp to 3.75%-4% \u2014 the first hike since 2023 \u2014 citing inflation still 'elevated' even as growth stays solid; the statement gave no explicit signal on further moves, but the Fed's own dot plot points to at least one more 2026 hike, and markets are now pricing a second. The 10-year yield pushed through 5% on the decision (5.02% intraday) as Chair Warsh's press-conference remarks doubled down on inflation risk. Equities fell into the announcement and stayed down: the Dow lost 631pts (-1.21%) to 51,461.90, the S&P 500 slipped 0.45% to 7,551.81, and bank stocks had their worst day since February (KBE -2.6%) on fears the hiking cycle isn't over. Oil has pushed above $100/bbl on the still-live Middle East supply story. None of this overturns last pull's framing \u2014 it's the resolution of the exact mechanism already described below \u2014 so the original synthesis is kept intact underneath rather than rewritten. Markets this week are being driven by one interlocking story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from roughly 70% to 90%, sending the 10-year Treasury yield up 12bp to 4.95% \u2014 its highest level since 2023 and closing in on 2007 highs. Middle East tensions, including Iran's attacks on commercial and U.S. Navy vessels, are compounding the inflation picture by pushing WTI crude up 3.2% to $97. Credit markets aren't stressed \u2014 both IG and HY spreads tightened slightly on the week \u2014 and the VIX term structure remains in contango, meaning options markets aren't pricing panic despite small-caps (Russell 2000, -2.2% over 5 days) and the Dow (-2.1%) underperforming a Nasdaq held up by AI-infrastructure capex names. The FOMC decision on Sept 16 is the next clear catalyst for all of the above.",
+  "point1_synthesis": "UPDATE (this pull, 2026-09-17): The catalyst this file was waiting on has now happened. The FOMC voted 12-0 on Sept 16 to hike the fed funds rate 25bp to 3.75%-4% \u2014 the first hike since 2023 \u2014 citing inflation still 'elevated' even as growth stays solid; the statement gave no explicit signal on further moves, but the Fed's own dot plot points to at least one more 2026 hike, and markets are now pricing a second. The 10-year yield pushed through 5% on the decision (5.02% intraday) as Chair Warsh's press-conference remarks doubled down on inflation risk. Equities fell into the announcement and stayed down: the Dow lost 631pts (-1.21%) to 51,461.90, the S&P 500 slipped 0.45% to 7,551.81, and bank stocks had their worst day since February (KBE -2.6%) on fears the hiking cycle isn't over. Oil has pushed above $100/bbl on the still-live Middle East supply story. None of this overturns last pull's framing \u2014 it's the resolution of the exact mechanism already described below \u2014 so the original synthesis is kept intact underneath rather than rewritten. Markets this week are being driven by one interlocking story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from roughly 70% to 90%, sending the 10-year Treasury yield up 12bp to 4.95% \u2014 its highest level since 2023 and closing in on 2007 highs. Middle East tensions, including Iran's attacks on commercial and U.S. Navy vessels, are compounding the inflation picture by pushing WTI crude up 3.2% to $97. Credit markets aren't stressed \u2014 both IG and HY spreads tightened slightly on the week \u2014 and the VIX term structure remains in contango, meaning options markets aren't pricing panic despite small-caps (Russell 2000, -2.2% over 5 days) and the Dow (-2.1%) underperforming a Nasdaq held up by AI-infrastructure capex names. The FOMC decision on Sept 16 is the next clear catalyst for all of the above. UPDATE (this pull, 2026-09-22): The post-FOMC selloff reversed hard by Monday, Sept 21. The S&P 500 rose 1.49% and the Nasdaq 2.26% (a fresh record-high close, first since June) as the 10-year yield fell back under 5% and WTI crude eased from the prior week's highs - unwinding the exact two headwinds (yields, oil) that drove the Sept 16 hike-day selloff above. A chip-sector rally, sparked Sept 18 when Meta's new consumer AI agent Muse topped Apple's App Store (read as bullish for CPU-side AI-inference demand: Arm +13%, Intel +12%, AMD +9% that session), carried through the weekend into Monday, when AMD crossed a $1T market cap for the first time. Bitcoin's surge past $85,000 the same day lifted Coinbase, Robinhood, and crypto-miner stocks. None of this reverses the FOMC decision itself (still the first hike since 2023, still a hawkish dot plot) - it's markets re-pricing the odds of a second 2026 hike lower after the initial shock, not a change in the Fed's stated path.",
   "macro_flags": {
     "index_day_move:DOW": {
-      "narrative": "UPDATE (this pull, 2026-09-17): This flag now trips on the day-move threshold rather than the 5-day one, because the FOMC's Sept 16 hike hit in a single session: the Fed hiked 25bp as anticipated, and the Dow fell 631pts (-1.21%) to 51,461.90 on the day — banks led the damage (KBE -2.6%, worst day since February) on fears the hiking cycle continues into 2027. Prior framing: broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
+      "narrative": "UPDATE (this pull, 2026-09-17): This flag now trips on the day-move threshold rather than the 5-day one, because the FOMC's Sept 16 hike hit in a single session: the Fed hiked 25bp as anticipated, and the Dow fell 631pts (-1.21%) to 51,461.90 on the day \u2014 banks led the damage (KBE -2.6%, worst day since February) on fears the hiking cycle continues into 2027. Prior framing: broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
       "citations": [
         {
           "title": "Stock market today: Dow sinks 600 points, S&P 500 and Nasdaq fall as Fed hikes rates, bond yields rise",
@@ -39,7 +39,7 @@
       "reaction_assessment": "proportionate - small-cap rate sensitivity is a well-known mechanism, not an anomaly"
     },
     "yield_move:DGS10": {
-      "narrative": "UPDATE (this pull, 2026-09-17): The FOMC met and hiked — 25bp to 3.75%-4%, a 12-0 vote, the first hike since 2023 — rather than the cut markets had been pricing earlier in the year. The 10-year yield broke through 5% on the decision (5.02% intraday) as Chair Warsh's press conference reinforced that inflation is still the Fed's binding constraint; the dot plot signals at least one more hike is possible before year-end. This confirms rather than reverses the move already described below. Prior framing: the 10-year Treasury yield's 12bp jump is the mechanical center of this week's story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from ~70% to ~90%, and a global bond selloff (fiscal deficit concerns, heavy Treasury issuance) is compounding the move. Yields are now at their highest level since 2023, approaching the highest since 2007.",
+      "narrative": "UPDATE (this pull, 2026-09-17): The FOMC met and hiked \u2014 25bp to 3.75%-4%, a 12-0 vote, the first hike since 2023 \u2014 rather than the cut markets had been pricing earlier in the year. The 10-year yield broke through 5% on the decision (5.02% intraday) as Chair Warsh's press conference reinforced that inflation is still the Fed's binding constraint; the dot plot signals at least one more hike is possible before year-end. This confirms rather than reverses the move already described below. Prior framing: the 10-year Treasury yield's 12bp jump is the mechanical center of this week's story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from ~70% to ~90%, and a global bond selloff (fiscal deficit concerns, heavy Treasury issuance) is compounding the move. Yields are now at their highest level since 2023, approaching the highest since 2007.",
       "citations": [
         {
           "title": "Federal Reserve issues FOMC statement",
@@ -84,6 +84,84 @@
         }
       ],
       "reaction_assessment": "proportionate - directly tied to an active, escalating geopolitical conflict, not a one-off spike"
+    },
+    "index_day_move:SP500": {
+      "narrative": "S&P 500 rose 1.49% on Monday, Sept 21 to 7,764.70 - its strongest session in weeks - as Treasury 10-year yields fell back under 5% (traders trimmed bets on a second 2026 Fed hike) and WTI crude eased from the prior week's highs, reversing two of the exact headwinds that drove the Sept 16 FOMC-day selloff described in the synthesis above. Chip and crypto strength broadened the move: the semiconductor rally sparked Sept 18 when Meta's new Muse AI agent hit the top of Apple's App Store (read by traders as bullish for CPU-side AI-inference demand, lifting Arm +13%/Intel +12%/AMD +9% that day) carried through the weekend, with AMD crossing a $1T market cap on Monday for the first time on its 5-day rally; bitcoin's surge past $85,000 the same day lifted Coinbase, Robinhood, and crypto-miner stocks.",
+      "citations": [
+        {
+          "title": "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally, oil falls",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "AMD hits $1 trillion market cap for the first time as stock rides 5-day rally",
+          "url": "https://www.cnbc.com/2026/09/21/amd-stock-1-trillion-value.html",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "Live BTC price: Bitcoin hits $87,000 while Strategy's Saylor returns to BTC buying",
+          "url": "https://www.coindesk.com/business/2026/09/21/live-updates-bitcoin-rises-above-usd82-000-as-falling-oil-lifts-risk-assets",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "Arm Surges 13% as Meta's Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-surges-13-meta-muse-152410038.html",
+          "date": "2026-09-18"
+        }
+      ],
+      "reaction_assessment": "proportionate - a real reversal of the prior week's yield/oil headwinds plus genuine sector-specific catalysts (Meta Muse chip-demand read, bitcoin rally), not a one-off technical bounce"
+    },
+    "index_day_move:NASDAQ": {
+      "narrative": "Nasdaq rose 2.26% on Monday, Sept 21 to 27,122.09 - its first record-high close since June - outperforming the S&P 500 on the same combination of falling yields/oil and chip-sector strength described in the SP500 flag above. The semiconductor rally that Meta's Muse AI agent sparked on Sept 18 (Arm +13%, Intel +12%, AMD +9% that session, per multiple outlets) carried into Monday, when AMD crossed a $1T market cap for the first time; the Philadelphia Semiconductor Index notched its fifth straight session of gains.",
+      "citations": [
+        {
+          "title": "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally, oil falls",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "AMD hits $1 trillion market cap for the first time as stock rides 5-day rally",
+          "url": "https://www.cnbc.com/2026/09/21/amd-stock-1-trillion-value.html",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "Live BTC price: Bitcoin hits $87,000 while Strategy's Saylor returns to BTC buying",
+          "url": "https://www.coindesk.com/business/2026/09/21/live-updates-bitcoin-rises-above-usd82-000-as-falling-oil-lifts-risk-assets",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "Arm Surges 13% as Meta's Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-surges-13-meta-muse-152410038.html",
+          "date": "2026-09-18"
+        }
+      ],
+      "reaction_assessment": "proportionate - same drivers as the SP500 day-move flag, amplified by Nasdaq's heavier semiconductor weighting"
+    },
+    "index_5day_move:NASDAQ": {
+      "narrative": "Nasdaq's 5-day change (Sept 15-21) turned solidly positive (+3.57%) even though the window contains the Sept 16 FOMC-hike selloff (Nasdaq -0.01% that day per the index data) - the index round-tripped and then broke higher on the Meta-Muse-triggered chip rally that began Sept 18 (Arm +13%, Intel +12%, AMD +9%) and continued through Monday Sept 21's broad rally (falling yields/oil, bitcoin above $85,000, AMD crossing a $1T market cap), which more than offset the FOMC-day losses within the same 5-day window.",
+      "citations": [
+        {
+          "title": "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally, oil falls",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "AMD hits $1 trillion market cap for the first time as stock rides 5-day rally",
+          "url": "https://www.cnbc.com/2026/09/21/amd-stock-1-trillion-value.html",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "Live BTC price: Bitcoin hits $87,000 while Strategy's Saylor returns to BTC buying",
+          "url": "https://www.coindesk.com/business/2026/09/21/live-updates-bitcoin-rises-above-usd82-000-as-falling-oil-lifts-risk-assets",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "Arm Surges 13% as Meta's Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-surges-13-meta-muse-152410038.html",
+          "date": "2026-09-18"
+        }
+      ],
+      "reaction_assessment": "proportionate - reflects a real net shift (FOMC-day selloff more than offset by a genuine chip-sector catalyst), not measurement noise"
     }
   },
   "movers": {
@@ -559,15 +637,20 @@
       "verdict": "mixed"
     },
     "SNDK": {
-      "narrative": "Same DeepSeek V4.1 Flash AI-efficiency story hitting STX: SanDisk gave back a Citigroup-endorsement bounce as memory-sector peers (Micron, SK Hynix) also sold off pre-market. Still the best-performing S&P 500 component this year even after a ~35% pullback from its late-June highs; Citi maintained its buy rating and $2,100 target, citing an expected multi-year NAND shortage.",
+      "narrative": "Sandisk surged 11% on Friday, Sept 18 to $1,791.82 (an intraday high of $1,797, just shy of $1,800), extending a run that's up 580% in 2026, on reports of further NAND flash/SSD price increases amid a tightening global memory (DRAM/NAND) supply picture - AI data-center demand for memory keeps growing while supply lags. Intel's reported plan to raise processor prices roughly 10% in October added a second tailwind, boosting sentiment across storage and semiconductor names generally; unusually heavy call-option activity was also a factor in the size of the move.",
       "citations": [
         {
-          "title": "Storage Stocks Slide as Profit Taking Follows Big Run: Seagate Falls 4%, SanDisk Drops 3%, Micron Holds Flat",
-          "url": "https://247wallst.com/investing/2026/09/11/storage-stocks-slide-as-profit-taking-follows-big-run-seagate-falls-4-sandisk-drops-3-micron-holds-flat/",
-          "date": "2026-09-11"
+          "title": "SanDisk Stock Price Prediction: Surges 11% on Heavy Volume to Approach $1,800",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262176785-sandisk-stock-forecast-surges-sndk-tradingkey",
+          "date": "2026-09-18"
+        },
+        {
+          "title": "SNDK Stock Surges Higher as Tight Memory Supply and $31 Billion Investment Boosts Outlook",
+          "url": "https://www.fxleaders.com/news/2026/09/08/sndk-stock-surges-higher-as-tight-memory-supply-and-31-billion-investment-boosts-outlook/",
+          "date": "2026-09-08"
         }
       ],
-      "verdict": "counter"
+      "verdict": "aligned"
     },
     "KIM": {
       "narrative": "Kimco raised FY26 guidance and hiked its dividend 12% after a solid Q2 (FFO +4.5% y/y, record 96.4% occupancy), but the stock has still drifted lower as rate-sensitive REITs broadly lag amid this week's yield spike - the volume looks driven by macro rate sensitivity more than the (positive) fundamentals.",
@@ -644,6 +727,92 @@
         }
       ],
       "verdict": "mixed"
+    },
+    "COIN": {
+      "narrative": "Coinbase jumped 11.7% on Friday, Sept 18 to $194.25, becoming the S&P 500's top percentage gainer that session, as bitcoin broke through $80,000-81,000 resistance it had struggled against for weeks. The move wasn't purely a bitcoin-beta trade: the SEC's new five-year conditional 'Innovation Exemption' (letting eligible platforms trade tokenized U.S. stocks on blockchain venues without full exchange registration) and Coinbase's own filing to list the first U.S. single-stock perpetual futures both landed the same day, giving the stock company-specific catalysts on top of the crypto market-wide rally.",
+      "citations": [
+        {
+          "title": "Strategy Climbs 12%, Coinbase Jumps 10% as Bitcoin Tops $80,000",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-climbs-12-coinbase-jumps-155737829.html",
+          "date": "2026-09-18"
+        },
+        {
+          "title": "Coinbase Stock Jumped 12% Last Friday. Bitcoin's Breakout Wasn't the Only Reason.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/coinbase-stock-jumped-12-last-043449751.html",
+          "date": "2026-09-19"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "HOOD": {
+      "narrative": "Robinhood rose 9.1% on Friday, Sept 18 (surging as much as 9.6% intraday to near $120) after the SEC announced a five-year conditional 'Innovation Exemption' letting eligible platforms trade tokenized versions of U.S. stocks on blockchain venues without full traditional exchange registration - a direct regulatory tailwind for Robinhood, which already operates its own Layer-2 blockchain (Robinhood Chain) and offers tokenized equities overseas, positioning it to capture domestic tokenized-securities share ahead of less-prepared competitors. Bitcoin's break above $80,000-81,000 the same day added a second, market-wide tailwind.",
+      "citations": [
+        {
+          "title": "Robinhood share price rallies 9% after SEC greenlights tokenized stock trading",
+          "url": "https://cryptobriefing.com/robinhood-rallies-sec-tokenized-stocks/",
+          "date": "2026-09-18"
+        },
+        {
+          "title": "Strategy Climbs 12%, Coinbase Jumps 10% as Bitcoin Tops $80,000",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-climbs-12-coinbase-jumps-155737829.html",
+          "date": "2026-09-18"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "MARA": {
+      "narrative": "MARA Holdings led bitcoin-miner stocks higher (+13.7%) as bitcoin broke above $80,000-81,000 resistance on Sept 18, with Morgan Stanley nearly doubling its price target to $11 from $6 (still Underweight-rated, but a notable reassessment of downside risk) and H.C. Wainwright initiating coverage at Buy with a $20 target, explicitly citing MARA's strategic pivot from pure bitcoin mining toward AI-focused data-center infrastructure as the thesis. Consensus among 12 covering analysts is mixed (8 Buy, 1 Hold, 3 Sell, average target $18.70), reflecting real disagreement over whether the AI pivot re-rates the stock or just adds execution risk on top of bitcoin-price beta.",
+      "citations": [
+        {
+          "title": "Strategy Climbs 12%, Coinbase Jumps 10% as Bitcoin Tops $80,000",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-climbs-12-coinbase-jumps-155737829.html",
+          "date": "2026-09-18"
+        },
+        {
+          "title": "MARA Holdings (MARA) Stock Rallies 10% on Upgraded Wall Street Forecasts",
+          "url": "https://blockonomi.com/mara-holdings-mara-stock-rallies-10-on-upgraded-wall-street-forecasts",
+          "date": "2026-09-18"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "CLSK": {
+      "narrative": "CleanSpark rose 8.4% alongside the broader bitcoin-miner rally on Sept 18, as bitcoin broke above $80,000-81,000 resistance and lifted the whole mining cohort (MARA, CleanSpark, Cipher Mining, Iren all up sharply the same session) - no CleanSpark-specific catalyst found beyond the sector-wide bitcoin move; this reads as beta to the MARA/COIN story above rather than a distinct name-specific event.",
+      "citations": [
+        {
+          "title": "Strategy Climbs 12%, Coinbase Jumps 10% as Bitcoin Tops $80,000",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-climbs-12-coinbase-jumps-155737829.html",
+          "date": "2026-09-18"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "QCOM": {
+      "narrative": "Qualcomm fell 5.8% on Friday, Sept 18, closing at $177.72 - the S&P 500's session standout decliner even as the broader chip sector rallied on the Meta-Muse-driven CPU-demand story the same week. Multiple headwinds converged: positioning-driven profit-taking after a strong prior rally, a stretched valuation, specific competitive concerns (weaker Apple-modem share, Samsung Exynos gains), and a hawkish repricing of Fed rate expectations weighing on high-multiple tech names generally. No single catalyst dominates - this reads as a multi-factor reversal of Qualcomm's own recent run rather than a sector- or market-wide move (the broader market/chip sector was up the same week).",
+      "citations": [
+        {
+          "title": "Qualcomm Drops 6% as Past Month's Rally Unwinds; Skyworks and Qorvo Slip",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-drops-6-past-month-175845817.html",
+          "date": "2026-09-18"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "BTU": {
+      "narrative": "Peabody Energy fell 7.4% (touching $25.60 intraday) on Friday, Sept 18, extending a decline that has taken the stock down 29% over the trailing 90 days. The proximate driver is company-specific, not macro: a securities-fraud class action was filed on behalf of Peabody investors alleging the company misled the market about coal production problems at Centurion, its flagship premium hard-coking-coal mine, after the stock had already dropped more than 9% on the underlying production news. Not a read-through to the coal/energy sector broadly - this is a single-name legal/operational overhang.",
+      "citations": [
+        {
+          "title": "Peabody Energy (NYSE:BTU) Stock Price Down 5.8% - What's Next?",
+          "url": "https://www.marketbeat.com/instant-alerts/price-peabody-energy-nyse-btu-stock-price-down-58-whats-next-2026-09-18/",
+          "date": "2026-09-18"
+        },
+        {
+          "title": "Peabody Energy Stock Falls as Fraud Suit Cites Mine Woes",
+          "url": "https://www.basisreport.com/news/btu-peabody-energy-fraud-production-failures",
+          "date": "2026-09"
+        }
+      ],
+      "verdict": "aligned"
     }
   },
   "recommendations": {
@@ -845,5 +1014,6 @@
       ],
       "verdict": "counter"
     }
-  }
+  },
+  "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. Data note (this pull, 2026-09-22): the free Yahoo Finance bulk endpoint this dashboard uses for the full ~1,500-name universe had not yet posted Monday, Sept 21 daily bars for individual equities at pull time, even though the major index tickers (S&P 500, Nasdaq, Dow, Russell 2000, VIX - tracked separately on Point 1 and above) had already updated through Monday's close. The gainers/losers/volume tables below therefore reflect Friday, Sept 18's session (the most recent complete session with individual-equity data actually available), one trading day behind the index-level data elsewhere on this dashboard - every citation is dated accordingly rather than presented as Monday news."
 }

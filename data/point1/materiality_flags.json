@@ -2,15 +2,21 @@
   "flags": [
     {
       "type": "index_day_move",
-      "series": "DOW",
-      "value": -1.212,
-      "detail": "DOW moved -1.21% intraday (threshold: >1%)"
+      "series": "SP500",
+      "value": 1.493,
+      "detail": "SP500 moved +1.49% intraday (threshold: >1%)"
+    },
+    {
+      "type": "index_day_move",
+      "series": "NASDAQ",
+      "value": 2.261,
+      "detail": "NASDAQ moved +2.26% intraday (threshold: >1%)"
     },
     {
       "type": "index_5day_move",
-      "series": "RUSSELL2000",
-      "value": -2.137,
-      "detail": "RUSSELL2000 moved -2.14% over 5 days (threshold: >2%)"
+      "series": "NASDAQ",
+      "value": 3.573,
+      "detail": "NASDAQ moved +3.57% over 5 days (threshold: >2%)"
     },
     {
       "type": "oil_move",

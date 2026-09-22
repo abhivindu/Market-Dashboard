@@ -403,6 +403,12 @@
       "index": "SP500"
     },
     {
+      "ticker": "BE",
+      "sector": "Industrials",
+      "name": "Bloom Energy",
+      "index": "SP500"
+    },
+    {
       "ticker": "BNY",
       "sector": "Financials",
       "name": "BNY Mellon",
@@ -454,12 +460,6 @@
       "ticker": "BF-B",
       "sector": "Consumer Staples",
       "name": "Brown\u2013Forman",
-      "index": "SP500"
-    },
-    {
-      "ticker": "BLDR",
-      "sector": "Industrials",
-      "name": "Builders FirstSource",
       "index": "SP500"
     },
     {
@@ -1075,6 +1075,12 @@
       "index": "SP500"
     },
     {
+      "ticker": "P",
+      "sector": "Information Technology",
+      "name": "Everpure",
+      "index": "SP400"
+    },
+    {
       "ticker": "ES",
       "sector": "Utilities",
       "name": "Eversource Energy",
@@ -1481,6 +1487,12 @@
       "sector": "Industrials",
       "name": "Illinois Tool Works",
       "index": "SP500"
+    },
+    {
+      "ticker": "ILMN",
+      "sector": "Health Care",
+      "name": "Illumina, Inc.",
+      "index": "SP400"
     },
     {
       "ticker": "INCY",
@@ -1900,12 +1912,6 @@
       "ticker": "MRNA",
       "sector": "Health Care",
       "name": "Moderna",
-      "index": "SP500"
-    },
-    {
-      "ticker": "TAP",
-      "sector": "Consumer Staples",
-      "name": "Molson Coors Beverage Company",
       "index": "SP500"
     },
     {
@@ -2662,12 +2668,6 @@
       "ticker": "TKO",
       "sector": "Communication Services",
       "name": "TKO Group Holdings",
-      "index": "SP500"
-    },
-    {
-      "ticker": "TTD",
-      "sector": "Communication Services",
-      "name": "Trade Desk (The)",
       "index": "SP500"
     },
     {
@@ -4117,12 +4117,6 @@
       "index": "SP400"
     },
     {
-      "ticker": "ILMN",
-      "sector": "Health Care",
-      "name": "Illumina, Inc.",
-      "index": "SP400"
-    },
-    {
       "ticker": "INGR",
       "sector": "Consumer Staples",
       "name": "Ingredion",
@@ -4612,12 +4606,6 @@
       "ticker": "OZK",
       "sector": "Financials",
       "name": "Bank OZK",
-      "index": "SP400"
-    },
-    {
-      "ticker": "P",
-      "sector": "Information Technology",
-      "name": "Everpure",
       "index": "SP400"
     },
     {
