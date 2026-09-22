@@ -58,7 +58,8 @@ h1,h2,h3{{font-family:'Fraunces',Georgia,serif; text-wrap:balance; margin:0;}}
 .masthead .kicker{{font-size:0.72rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--accent); font-weight:600;}}
 .masthead .meta{{color:var(--ink-faint); font-size:0.78rem; text-align:right; line-height:1.5;}}
 
-.lede{{font-family:'Fraunces',Georgia,serif; font-size:1.15rem; font-weight:400; line-height:1.62; color:var(--ink); margin:0 0 36px; max-width:66ch;}}
+.lede{{font-family:'Fraunces',Georgia,serif; font-size:1.15rem; font-weight:400; line-height:1.62; color:var(--ink); margin:0 0 16px; max-width:66ch;}}
+.lede:last-of-type{{margin-bottom:36px;}}
 .lede strong{{font-weight:600;}}
 
 .since-pull{{border-left:3px solid var(--accent); background:var(--accent-soft); border-radius:0 10px 10px 0; padding:12px 16px; margin-bottom:24px; max-width:66ch;}}
@@ -143,7 +144,7 @@ footer{{color:var(--ink-faint); font-size:0.74rem; border-top:1px solid var(--li
     {since_pull_prev_date}
   </div>
 
-  <p class="lede">{synthesis}</p>
+  {synthesis_html}
 
   <div class="cluster-row">
     <div class="cluster">
@@ -304,6 +305,19 @@ def rate_row(label, value, unit, chg=None, chg_unit="", history=None):
     </div>"""
 
 
+def render_lede(synthesis):
+    """Splits the lede on blank lines into separate <p class="lede"> paragraphs,
+    so a leading "today's events" paragraph and a following "previous events"
+    paragraph (the convention content_overrides.json's point1_synthesis now
+    follows) render as visually distinct paragraphs instead of one long blob.
+    A synthesis with no blank line (single paragraph) still renders fine."""
+    text = synthesis or "No synthesis available for this pull."
+    paragraphs = [p.strip() for p in text.split("\n\n") if p.strip()]
+    if not paragraphs:
+        paragraphs = [text]
+    return "\n  ".join(f'<p class="lede">{p}</p>' for p in paragraphs)
+
+
 def render_event(flag):
     if "index" in flag["type"]:
         metric_display = fmt_pct(flag["value"])
@@ -396,7 +410,7 @@ def main():
 
     html = TEMPLATE.format(
         as_of_display=as_of,
-        synthesis=payload.get("synthesis") or "No synthesis available for this pull.",
+        synthesis_html=render_lede(payload.get("synthesis")),
         since_pull_quiet_class=" quiet" if is_quiet else "",
         since_pull_blurb=since_pull.get("blurb") or "No prior pull on record.",
         since_pull_prev_date=since_pull_prev_date,

@@ -55,6 +55,18 @@ Concretely, on every refresh:
 5. Never delete or fabricate a citation. An honest "no clean source found" /
    "N/A" entry (see Point 4's student-loan-ABS private pick, or Point 3's
    `"citations": []` movers) is correct and better than forcing a weak fit.
+6. Point 1's `point1_synthesis` (the lede paragraph) is two paragraphs
+   separated by a blank line (`\n\n`), not one growing blob — `pipeline/
+   render_point1_html.py`'s `render_lede()` splits on that blank line and
+   renders each half as its own `<p class="lede">`. Paragraph 1 leads with
+   this pull's own events (prepend the usual `UPDATE (this pull, <date>): ...`
+   there). Paragraph 2 holds everything older — prior UPDATE text and the
+   original framing — under a `"Previously (...): ..."` lead-in, so a reader
+   gets today's story first without wading through history to find it. When
+   a pull adds genuinely new context, prepend within paragraph 1 as usual;
+   when paragraph 1's story fully supersedes what's in paragraph 2, fold the
+   superseded bit into paragraph 2's "Previously" summary rather than
+   letting paragraph 1 grow indefinitely.
 
 ## Pipeline (run in this order)
 
