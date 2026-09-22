@@ -38,10 +38,10 @@ Concretely, on every refresh:
    publish date of the source (YYYY-MM-DD, or YYYY-MM / YYYY if the exact day
    isn't known, or `"n/d"` for an undated reference page). Never copy today's
    date onto an old source.
-2. Before rewriting any narrative field (sector sentiment, company
-   performance, mover narrative, asset-class commentary), do a real search for
-   that specific item. If nothing genuinely newer turns up, leave the existing
-   text as-is — do not reword it to look fresh.
+2. Before rewriting any narrative field (Point 2 sector sentiment, Point 3
+   sector-move rationale, company/mover performance, asset-class commentary),
+   do a real search for that specific item. If nothing genuinely newer turns
+   up, leave the existing text as-is — do not reword it to look fresh.
 3. If something genuinely newer is found, prepend `"UPDATE (this pull, <date>): ..."`
    to the field rather than deleting the prior context, and add the new dated
    citation alongside the old one(s).

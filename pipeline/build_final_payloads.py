@@ -68,8 +68,8 @@ def build_since_last_pull_blurb(diff, override_blurb):
 
 
 DEFAULT_POINT3_FRESHNESS_NOTE = (
-    "Every citation on a mover, volume outlier, or recommendation card carries the actual publish "
-    "date of its source, separate from this page's pull date above. Price/volume/index data always "
+    "Every citation on a sector, mover, volume outlier, or recommendation card carries the actual "
+    "publish date of its source, separate from this page's pull date above. Price/volume/index data always "
     "refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was "
     "found for that name - otherwise the existing writeup stands rather than being re-presented under "
     "a fresher-looking timestamp."
