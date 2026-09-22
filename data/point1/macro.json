@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-22T00:39:36.665348+00:00",
+  "as_of": "2026-09-22T02:59:46.385402+00:00",
   "series": {
     "DGS3MO": {
       "series_id": "DGS3MO",
@@ -2754,10 +2754,10 @@
     "DCOILWTICO": {
       "series_id": "DCOILWTICO",
       "label": "WTI Crude Oil Price",
-      "last_value": 107.02,
-      "last_date": "2026-09-15",
-      "day_chg": 4.6,
-      "month_chg": 23.03,
+      "last_value": 92.94,
+      "last_date": "2026-09-21",
+      "day_chg": -7.36,
+      "month_chg": 5.11,
       "history": [
         {
           "date": "2026-06-22",
@@ -2999,7 +2999,10 @@
           "date": "2026-09-15",
           "value": 107.02
         }
-      ]
+      ],
+      "price_source": "yahoo_fallback_cl=f",
+      "fred_last_date": "2026-09-15",
+      "fred_last_value": 107.02
     },
     "DTWEXBGS": {
       "series_id": "DTWEXBGS",
@@ -3254,10 +3257,10 @@
     "GOLD": {
       "series_id": "GC=F",
       "label": "Gold (COMEX front-month)",
-      "last_value": 4396.0,
+      "last_value": 4382.9,
       "last_date": "2026-09-21",
-      "day_chg": -28.9,
-      "month_chg": -175.4,
+      "day_chg": -42.0,
+      "month_chg": -188.5,
       "history": [
         {
           "date": "2026-06-26",
@@ -3497,17 +3500,17 @@
         },
         {
           "date": "2026-09-21",
-          "value": 4396.0
+          "value": 4382.9
         }
       ]
     },
     "SILVER": {
       "series_id": "SI=F",
       "label": "Silver (COMEX front-month)",
-      "last_value": 67.0,
+      "last_value": 66.63,
       "last_date": "2026-09-21",
-      "day_chg": 0.44,
-      "month_chg": -1.03,
+      "day_chg": 0.07,
+      "month_chg": -1.4,
       "history": [
         {
           "date": "2026-06-26",
@@ -3747,7 +3750,7 @@
         },
         {
           "date": "2026-09-21",
-          "value": 67.0
+          "value": 66.63
         }
       ]
     }

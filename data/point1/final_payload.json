@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-22T00:39:36.665348+00:00",
-  "synthesis": "UPDATE (this pull, 2026-09-22): The post-FOMC selloff reversed hard by Monday, Sept 21. The S&P 500 rose 1.49% and the Nasdaq 2.26% (a fresh record-high close, first since June) as the 10-year yield fell back under 5% and WTI crude eased from the prior week's highs - unwinding the exact two headwinds (yields, oil) that drove the Sept 16 FOMC hike-day selloff described below. A chip-sector rally, sparked Sept 18 when Meta's new consumer AI agent Muse topped Apple's App Store (read as bullish for CPU-side AI-inference demand: Arm +13%, Intel +12%, AMD +9% that session), carried through the weekend into Monday, when AMD crossed a $1T market cap for the first time. Bitcoin's surge past $85,000 the same day lifted Coinbase, Robinhood, and crypto-miner stocks. None of this reverses the FOMC decision itself (still the first hike since 2023, still a hawkish dot plot) - it's markets re-pricing the odds of a second 2026 hike lower after the initial shock, not a change in the Fed's stated path.\n\nPreviously (Sept 16-17): The FOMC voted 12-0 to hike the fed funds rate 25bp to 3.75%-4% - the first hike since 2023 - citing inflation still 'elevated' even as growth stays solid; the Fed's own dot plot points to at least one more 2026 hike, with markets pricing a second. The 10-year yield pushed through 5% intraday on the decision as Chair Warsh's press-conference remarks doubled down on inflation risk, and equities fell into the announcement and stayed down: the Dow lost 631pts (-1.21%) to 51,461.90, the S&P 500 slipped 0.45% to 7,551.81, and bank stocks had their worst day since February (KBE -2.6%) on fears the hiking cycle isn't over. Oil pushed above $100/bbl on the still-live Middle East supply story. That hike was itself the resolution of a story already in motion: a hotter-than-expected core CPI print (+0.3% m/m) had pushed the market-implied odds of a hike at the Sept 15-16 FOMC from roughly 70% to 90%, sending the 10-year yield up 12bp to 4.95% (its highest level since 2023) even before the decision, and Iran's attacks on commercial and U.S. Navy vessels compounded the inflation picture via a WTI crude jump to $97. Credit markets weren't stressed through any of this - both IG and HY spreads tightened slightly on the week - and the VIX term structure stayed in contango throughout, meaning options markets weren't pricing panic despite small-caps (Russell 2000, -2.2% over 5 days) and the Dow (-2.1%) underperforming a Nasdaq held up by AI-infrastructure capex names.",
+  "as_of": "2026-09-22T02:59:46.385402+00:00",
+  "synthesis": "UPDATE (this pull, 2026-09-22): The post-FOMC selloff reversed hard by Monday, Sept 21. The S&P 500 rose 1.49% and the Nasdaq 2.26% (a fresh record-high close, first since June) as the 10-year yield fell back under 5% and WTI crude fell 4.5% to a 12-day low ($95.78) on Saudi Arabia rerouting crude exports through the Strait of Hormuz plus hopes for US-Iran diplomacy around this week's UN General Assembly meeting - unwinding the exact two headwinds (yields, oil) that drove the Sept 16 FOMC hike-day selloff described below. A chip-sector rally, sparked Sept 18 when Meta's new consumer AI agent Muse topped Apple's App Store (read as bullish for CPU-side AI-inference demand: Arm +13%, Intel +12%, AMD +9% that session), carried through the weekend into Monday, when AMD crossed a $1T market cap for the first time. Bitcoin's surge past $85,000 the same day lifted Coinbase, Robinhood, and crypto-miner stocks. None of this reverses the FOMC decision itself (still the first hike since 2023, still a hawkish dot plot) - it's markets re-pricing the odds of a second 2026 hike lower after the initial shock, not a change in the Fed's stated path.\n\nPreviously (Sept 16-17): The FOMC voted 12-0 to hike the fed funds rate 25bp to 3.75%-4% - the first hike since 2023 - citing inflation still 'elevated' even as growth stays solid; the Fed's own dot plot points to at least one more 2026 hike, with markets pricing a second. The 10-year yield pushed through 5% intraday on the decision as Chair Warsh's press-conference remarks doubled down on inflation risk, and equities fell into the announcement and stayed down: the Dow lost 631pts (-1.21%) to 51,461.90, the S&P 500 slipped 0.45% to 7,551.81, and bank stocks had their worst day since February (KBE -2.6%) on fears the hiking cycle isn't over. Oil pushed above $100/bbl on the still-live Middle East supply story. That hike was itself the resolution of a story already in motion: a hotter-than-expected core CPI print (+0.3% m/m) had pushed the market-implied odds of a hike at the Sept 15-16 FOMC from roughly 70% to 90%, sending the 10-year yield up 12bp to 4.95% (its highest level since 2023) even before the decision, and Iran's attacks on commercial and U.S. Navy vessels compounded the inflation picture via a WTI crude jump to $97. Credit markets weren't stressed through any of this - both IG and HY spreads tightened slightly on the week - and the VIX term structure stayed in contango throughout, meaning options markets weren't pricing panic despite small-caps (Russell 2000, -2.2% over 5 days) and the Dow (-2.1%) underperforming a Nasdaq held up by AI-infrastructure capex names.",
   "since_last_pull": {
     "has_previous": true,
     "previous_as_of": "2026-09-22T00:39:36.665348+00:00",
@@ -2762,10 +2762,10 @@
     "DCOILWTICO": {
       "series_id": "DCOILWTICO",
       "label": "WTI Crude Oil Price",
-      "last_value": 107.02,
-      "last_date": "2026-09-15",
-      "day_chg": 4.6,
-      "month_chg": 23.03,
+      "last_value": 92.94,
+      "last_date": "2026-09-21",
+      "day_chg": -7.36,
+      "month_chg": 5.11,
       "history": [
         {
           "date": "2026-06-22",
@@ -3007,7 +3007,10 @@
           "date": "2026-09-15",
           "value": 107.02
         }
-      ]
+      ],
+      "price_source": "yahoo_fallback_cl=f",
+      "fred_last_date": "2026-09-15",
+      "fred_last_value": 107.02
     },
     "DTWEXBGS": {
       "series_id": "DTWEXBGS",
@@ -3262,10 +3265,10 @@
     "GOLD": {
       "series_id": "GC=F",
       "label": "Gold (COMEX front-month)",
-      "last_value": 4396.0,
+      "last_value": 4382.9,
       "last_date": "2026-09-21",
-      "day_chg": -28.9,
-      "month_chg": -175.4,
+      "day_chg": -42.0,
+      "month_chg": -188.5,
       "history": [
         {
           "date": "2026-06-26",
@@ -3505,17 +3508,17 @@
         },
         {
           "date": "2026-09-21",
-          "value": 4396.0
+          "value": 4382.9
         }
       ]
     },
     "SILVER": {
       "series_id": "SI=F",
       "label": "Silver (COMEX front-month)",
-      "last_value": 67.0,
+      "last_value": 66.63,
       "last_date": "2026-09-21",
-      "day_chg": 0.44,
-      "month_chg": -1.03,
+      "day_chg": 0.07,
+      "month_chg": -1.4,
       "history": [
         {
           "date": "2026-06-26",
@@ -3755,7 +3758,7 @@
         },
         {
           "date": "2026-09-21",
-          "value": 67.0
+          "value": 66.63
         }
       ]
     }
@@ -4593,10 +4596,20 @@
     {
       "type": "oil_move",
       "series": "DCOILWTICO",
-      "value": 4.491310290958792,
-      "detail": "WTI crude moved +4.49% (threshold: >3%)",
-      "narrative": "UPDATE (this pull, 2026-09-17): WTI has kept climbing since last pull, trading near $102-104/bbl into and through the Sept 16 FOMC decision (Brent briefly above $108 before easing) as Iran-backed Houthi militants advance toward the Bab el-Mandeb Strait and intensify attacks on Saudi targets and shipping routes, reportedly prompting Saudi Aramco to delay some European deliveries. The Fed's own statement cited Middle East tension as a factor in its decision, directly linking this flag to the yield-move flag above. Prior framing: WTI crude's jump reflects Middle East supply fears after Iran's attacks on commercial and U.S. Navy vessels, which the Iranian Foreign Ministry has framed as retaliatory. Brent has held above $90/bbl. Higher oil adds to the inflation picture the Fed is already responding to, reinforcing (not just coinciding with) this week's yield move.",
+      "value": -7.337986041874377,
+      "detail": "WTI crude moved -7.34% (threshold: >3%)",
+      "narrative": "UPDATE (this pull, 2026-09-22): WTI has reversed hard - the Oct contract fell $4.52 (-4.51%) to $95.78 on Monday, Sept 21 (Brent's Nov contract fell 3.4% to $100.34), a 12-day low, on two converging de-escalation signals: Saudi Arabia has rerouted crude through the Strait of Hormuz to compensate for the Houthi-damaged East-West pipeline (Saudi flows through Hormuz averaging ~2.9M b/d over the prior 6 days vs. ~700K b/d in August), and hopes for US-Iran diplomacy ahead of this week's UN General Assembly meeting (Trump said he'd be open to meeting Iran's President Pezeshkian). Data note: FRED's own DCOILWTICO series (this flag's normal source) hadn't published a new point since 2026-09-15 as of this pull - a week-long gap - so this pull's price/move figures come from Yahoo Finance's WTI futures (CL=F) instead; pipeline/fetch_macro.py now does this automatically when FRED lags (see CLAUDE.md). The practical effect: this flag had been re-firing on the exact same stale +4.49% figure pull after pull even as the real story had already moved on to a decline - this is the first pull to catch that. Prior framing: WTI has kept climbing since last pull, trading near $102-104/bbl into and through the Sept 16 FOMC decision (Brent briefly above $108 before easing) as Iran-backed Houthi militants advance toward the Bab el-Mandeb Strait and intensify attacks on Saudi targets and shipping routes, reportedly prompting Saudi Aramco to delay some European deliveries. The Fed's own statement cited Middle East tension as a factor in its decision, directly linking this flag to the yield-move flag above. Earlier framing: WTI crude's jump reflects Middle East supply fears after Iran's attacks on commercial and U.S. Navy vessels, which the Iranian Foreign Ministry has framed as retaliatory. Brent has held above $90/bbl. Higher oil adds to the inflation picture the Fed is already responding to, reinforcing (not just coinciding with) this week's yield move.",
       "citations": [
+        {
+          "title": "Oil Prices Fall to 11-Day Low as Investors Assess US-Iran Diplomacy and Saudi Exports",
+          "url": "https://finance.yahoo.com/energy/articles/oil-prices-fall-11-day-100153305.html",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "Latest Oil Market News and Analysis for Sept. 21",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-20/latest-oil-market-news-and-analysis-for-sept-21",
+          "date": "2026-09-20"
+        },
         {
           "title": "Wall Street Futures Edge Higher Ahead of Fed Rate Decision as Oil Prices Ease",
           "url": "https://www.analyticsinsight.net/stocks/wall-street-futures-edge-higher-ahead-of-fed-rate-decision-as-oil-prices-ease",
@@ -4613,7 +4626,7 @@
           "date": "2026-09"
         }
       ],
-      "reaction_assessment": "proportionate - directly tied to an active, escalating geopolitical conflict, not a one-off spike"
+      "reaction_assessment": "proportionate - a real de-escalation (Saudi export rerouting, US-Iran diplomacy hopes) reversing the same supply-fear spike this flag flagged going up two pulls ago, not a one-off dislocation"
     }
   ]
 }

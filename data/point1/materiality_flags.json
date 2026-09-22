@@ -21,8 +21,8 @@
     {
       "type": "oil_move",
       "series": "DCOILWTICO",
-      "value": 4.491310290958792,
-      "detail": "WTI crude moved +4.49% (threshold: >3%)"
+      "value": -7.337986041874377,
+      "detail": "WTI crude moved -7.34% (threshold: >3%)"
     }
   ]
 }

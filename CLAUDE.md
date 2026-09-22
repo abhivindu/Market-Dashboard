@@ -117,6 +117,24 @@ it) later in the session — Yahoo has sometimes taken a couple of hours to
 catch up — before doing the Point 3 mover research pass, so the research
 matches the tickers that actually moved instead of a stale list.
 
+### WTI (FRED DCOILWTICO) freshness self-check (added same day, worse lag)
+
+FRED's own WTI series is EIA-sourced and less reliable than the Fed-published
+Treasury/spread series — on the same 2026-09-22 pull it hadn't published a
+new point in a full week, so `oil_move` kept re-flagging the identical stale
+value pull after pull (masking that WTI had actually fallen ~13% the
+opposite direction). `fetch_macro.py` now checks `DCOILWTICO`'s staleness
+(>3 calendar days via `days_stale()`) and falls back to Yahoo Finance's WTI
+futures (`CL=F`) for `last_value`/`last_date`/`day_chg`/`month_chg` when it
+fires, tagging the series with `price_source: "yahoo_fallback_cl=f"` plus
+`fred_last_date`/`fred_last_value` — same free-data pattern gold/silver
+already use. The sparkline `history` array stays FRED's own series through
+its last published point either way. See WISHLIST.md's "Known
+data-freshness gaps" for the full incident writeup. If you see
+`price_source` on `DCOILWTICO` in `data/point1/macro.json`, FRED was
+lagging for that pull — worth a sentence in Point 1's oil-flag narrative
+saying so, same as this pull did.
+
 ## Daily routine scope
 
 A scheduled 5pm run should, in order:

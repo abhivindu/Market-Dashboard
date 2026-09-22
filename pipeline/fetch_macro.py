@@ -4,7 +4,7 @@ and CBOE put/call ratio for the options-aggregate section.
 import io
 import json
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
 import pandas as pd
 import requests
@@ -74,6 +74,14 @@ def series_summary(df, label, series_id):
             for _, r in df.iterrows()
         ],
     }
+
+
+STALE_LAG_DAYS = 3  # >3 calendar days covers a normal weekend without false-triggering
+
+
+def days_stale(date_str):
+    y, m, d = (int(p) for p in date_str.split("-"))
+    return (date.today() - date(y, m, d)).days
 
 
 def fetch_yahoo_commodity(ticker, label):
@@ -147,6 +155,45 @@ def main():
                 out["series"][series_id] = summary
         except Exception as e:
             print(f"  WARNING: {series_id} failed: {e}", file=sys.stderr)
+
+    # DCOILWTICO (WTI, EIA-sourced via FRED) has been observed to lag a full
+    # week behind "today" (2026-09-22 pull: last published point was still
+    # 2026-09-15) - unlike the Treasury/spread series, which are Fed-published
+    # and reliably ~1 day behind. When that happens, the oil_move materiality
+    # flag in build_point1_materiality.py silently re-fires on the exact same
+    # stale value pull after pull, and the narrative looks "dated" because,
+    # per the citation-date discipline, nothing genuinely new ever shows up to
+    # write about - it's the same data point, not fresh research going stale.
+    # Fall back to Yahoo's WTI futures (CL=F) for last_value/day_chg/month_chg
+    # when that happens, same free-data pattern gold/silver already use below
+    # (FRED's own gold/silver series were discontinued) - keeps the materiality
+    # flag (and Point 1's narrative) tracking a real, current price move
+    # instead of restating last week's.
+    oil = out["series"].get("DCOILWTICO")
+    if oil and days_stale(oil["last_date"]) > STALE_LAG_DAYS:
+        fred_last_date, fred_last_value = oil["last_date"], oil["last_value"]
+        print(
+            f"  WARNING: DCOILWTICO is {days_stale(oil['last_date'])}d stale "
+            f"(FRED's last published point is still {fred_last_date}) - "
+            f"falling back to Yahoo WTI futures (CL=F) for the current price/move.",
+            file=sys.stderr,
+        )
+        try:
+            fallback = fetch_yahoo_commodity("CL=F", "WTI Crude Oil")
+        except Exception as e:
+            fallback = None
+            print(f"  WARNING: CL=F fallback fetch failed: {e}", file=sys.stderr)
+        if fallback:
+            oil["last_value"] = fallback["last_value"]
+            oil["last_date"] = fallback["last_date"]
+            oil["day_chg"] = fallback["day_chg"]
+            oil["month_chg"] = fallback["month_chg"]
+            oil["price_source"] = "yahoo_fallback_cl=f"
+            oil["fred_last_date"] = fred_last_date
+            oil["fred_last_value"] = fred_last_value
+            # history stays FRED's own (Cushing spot) series through its last
+            # published point - only today's price/move figures are swapped,
+            # so the sparkline doesn't silently mix two different quote types.
 
     for key, (ticker, label) in YAHOO_COMMODITIES.items():
         print(f"Fetching {label} ({ticker}) via Yahoo...", file=sys.stderr)
