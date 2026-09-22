@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-09-17",
-  "freshness_note": "Every citation below carries the actual publish date of its source, separate from this page's pull date above. On refresh, an item is only rewritten if genuinely newer reporting was found for it — otherwise this page will say so explicitly rather than re-presenting the same information under a fresher-looking timestamp. This pull (2026-09-17) spot-checked Agency RMBS, Broadly Syndicated CLOs, and Private Credit — Opportunistic/Special Situations given the FOMC's Sept 16 rate hike. Agency RMBS had a genuine update (the hike itself, largely priced in, plus fresh mortgage-rate/spread data); BSL CLOs and opportunistic credit were checked and had nothing genuinely newer than the June/February figures already captured.",
-  "data_gap_note": "No free source publishes current CMBS/RMBS/ABS/CLO spread levels (confirmed via research — FRED's one CMBS series was discontinued in 2016; CMBX/CDX pricing is Bloomberg-only). Performance/spread commentary below is sourced from actual bank and rating-agency statements where they cite a figure, SIFMA issuance-volume trends as an explicitly-labeled proxy for demand/spread direction, and Point 1's corporate IG/HY spreads referenced only as general credit-market backdrop — never presented as this asset class's own spread reading.",
+  "as_of": "2026-09-22",
+  "freshness_note": "Every citation below carries the actual publish date of its source, separate from this page's pull date above. On refresh, an item is only rewritten if genuinely newer reporting was found for it \u2014 otherwise this page will say so explicitly rather than re-presenting the same information under a fresher-looking timestamp. This pull (2026-09-22) spot-checked CMBS Conduit/Multi-Borrower and Student Loan ABS. Both had genuine updates: a fresh September maturity-wall report (smaller dollar total than August but a higher share of sub-6%-debt-yield loans, retail weakest) for CMBS Conduit, and Navient's Sept 18 $612.5M private-education-loan securitization (its fourth of the year) for Student Loan ABS. Credit spreads (IG/BBB/HY OAS, refreshed this pull from FRED) remain near multi-year tights with only marginal day-over-day movement, so no other asset class showed a spread-driven reason to re-check today.",
+  "data_gap_note": "No free source publishes current CMBS/RMBS/ABS/CLO spread levels (confirmed via research \u2014 FRED's one CMBS series was discontinued in 2016; CMBX/CDX pricing is Bloomberg-only). Performance/spread commentary below is sourced from actual bank and rating-agency statements where they cite a figure, SIFMA issuance-volume trends as an explicitly-labeled proxy for demand/spread direction, and Point 1's corporate IG/HY spreads referenced only as general credit-market backdrop \u2014 never presented as this asset class's own spread reading.",
   "asset_classes": [
     {
       "id": "agency-rmbs",
       "name": "Agency RMBS",
-      "eyebrow": "Government-guaranteed · liquid · rate-sensitive",
+      "eyebrow": "Government-guaranteed \u00b7 liquid \u00b7 rate-sensitive",
       "how_it_works": "Pass-through securities backed by residential mortgages that carry a government or GSE guarantee (Ginnie Mae, Fannie Mae, Freddie Mac) against default risk - so unlike every other asset class in this report, credit risk is essentially not the story here. The entire investment case is interest-rate and prepayment risk: when rates fall, homeowners refinance and return principal early (reinvestment risk at lower yields); when rates rise, prepayments slow and duration extends just as rates are moving against you (negative convexity, the defining technical feature of this asset class).",
       "market_size_issuance": "MBS issuance reached $337.7B year-to-date through February 2026, up 16.2% y/y; agency MBS trading volume averaged $396.8B daily, up 7.2% y/y - both signal healthy market liquidity and demand.",
       "performance_commentary": "Mixed across 2026 so far: the Bloomberg U.S. MBS Index returned +0.07% in April (+0.24% excess return to Treasuries) but -1.42% in July, when sector option-adjusted spread (OAS) widened 7bp to +31bp - a real, sourced spread move, not a proxy. Agency MBS is coming off its best year since 2002 (+8.5% in 2025), and PIMCO's lead portfolio manager describes 2026 valuations as still 'cheap on average' even after that rally.",
@@ -16,25 +16,69 @@
       "headwinds_tailwinds": "Tailwind: the Trump administration's GSE MBS purchase program (Fannie Mae/Freddie Mac authorized to buy $200B of agency MBS, announced January 8, 2026) tightened spreads and boosted 2026 performance, though PIMCO notes conviction has 'moderated a bit' now that spreads are narrower post-rally. Headwind: continued Fed MBS runoff (holdings fell below $2 trillion by end of Q1 2026) keeps a structural seller/non-buyer in the market with banks 'comparatively inactive,' which is why spreads remain unusually wide by historical standards even with the GSE program's support.",
       "sentiment_outlook": "UPDATE (this pull, 2026-09-17): The FOMC hiked 25bp on Sept 16 (3.75%-4%, first hike since 2023) - the exact rate-path risk this asset class's fed_sensitivity note above already flags - but by the Fed's own framing the move was almost fully priced in and had no major additional impact on bonds the day it was announced. The 30-year mortgage rate still touched a one-year high (7.24%) on the decision, and the 30yr-mortgage-to-10yr-Treasury spread (193bp) is now slightly tighter than its one-year average (200bp), suggesting the sector isn't showing fresh stress beyond the already-elevated-rate backdrop. Prior framing: constructive but not uncomplicated - PIMCO's own framing captures the tension well: cheap on an absolute/relative basis and a genuine defensive anchor, but the spread-widening episode in July 2026 shows the asset class is still exposed to real volatility when technicals (Fed runoff, bank demand) turn unfavorable even without any credit-quality story at all.",
       "citations": [
-        {"title": "No, The Fed Didn't Hike Mortgage Rates Today", "url": "https://www.mortgagenewsdaily.com/markets/mortgage-rates-09162026", "date": "2026-09-16"},
-        {"title": "Mortgage rates stay near 7% with Fed, Treasury moves in focus", "url": "https://www.housingwire.com/articles/rates-near-7-fed-treasury/", "date": "2026-09"},
-        {"title": "Trends for Agency MBS Investors 2026", "url": "https://www.accio.com/business/trends-for-agency-mbs-investors-2026", "date": "2026"},
-        {"title": "Agency Mortgage-Backed Securities (MBS) Market - July 2026", "url": "https://insuranceaum.com/agency-mortgage-backed-securities-mbs-market-july-2026", "date": "2026-07"},
-        {"title": "The Fed Cuts its Reserve Management Purchases (RMPs) to Zero, Starting August 14", "url": "https://wolfstreet.com/2026/08/13/fed-cuts-reserve-management-purchases-rmps-to-zero-starting-august-14/", "date": "2026-08-13"},
-        {"title": "Three Questions on GSEs' $200 Billion Agency MBS Purchase Program", "url": "https://www.loomissayles.com/insights/three-questions-on-gses-200-billion-agency-mbs-purchase-program/", "date": "2026-01"},
-        {"title": "What Will the Fed's Balance Sheet Changes Mean for Agency MBS?", "url": "https://www.loomissayles.com/insights/what-will-the-feds-balance-sheet-changes-mean-for-agency-mbs/", "date": "2026"}
+        {
+          "title": "No, The Fed Didn't Hike Mortgage Rates Today",
+          "url": "https://www.mortgagenewsdaily.com/markets/mortgage-rates-09162026",
+          "date": "2026-09-16"
+        },
+        {
+          "title": "Mortgage rates stay near 7% with Fed, Treasury moves in focus",
+          "url": "https://www.housingwire.com/articles/rates-near-7-fed-treasury/",
+          "date": "2026-09"
+        },
+        {
+          "title": "Trends for Agency MBS Investors 2026",
+          "url": "https://www.accio.com/business/trends-for-agency-mbs-investors-2026",
+          "date": "2026"
+        },
+        {
+          "title": "Agency Mortgage-Backed Securities (MBS) Market - July 2026",
+          "url": "https://insuranceaum.com/agency-mortgage-backed-securities-mbs-market-july-2026",
+          "date": "2026-07"
+        },
+        {
+          "title": "The Fed Cuts its Reserve Management Purchases (RMPs) to Zero, Starting August 14",
+          "url": "https://wolfstreet.com/2026/08/13/fed-cuts-reserve-management-purchases-rmps-to-zero-starting-august-14/",
+          "date": "2026-08-13"
+        },
+        {
+          "title": "Three Questions on GSEs' $200 Billion Agency MBS Purchase Program",
+          "url": "https://www.loomissayles.com/insights/three-questions-on-gses-200-billion-agency-mbs-purchase-program/",
+          "date": "2026-01"
+        },
+        {
+          "title": "What Will the Fed's Balance Sheet Changes Mean for Agency MBS?",
+          "url": "https://www.loomissayles.com/insights/what-will-the-feds-balance-sheet-changes-mean-for-agency-mbs/",
+          "date": "2026"
+        }
       ],
       "investable_exposure": {
         "public": [
           {
-            "name": "PIMCO Mortgage-Backed Securities Active ETF", "ticker": "PMBS", "type": "Active ETF",
+            "name": "PIMCO Mortgage-Backed Securities Active ETF",
+            "ticker": "PMBS",
+            "type": "Active ETF",
             "performance": "$1.3B AUM with over $800M in inflows over the trailing year - the clearest signal of active-management demand specifically within agency MBS, not just passive index exposure.",
-            "citations": [{"title": "After Record-Setting Year, Rally Rolls on for MBS ETFs", "url": "https://etfdb.com/fixed-income-content-hub/after-record-setting-year-rally-rolls-on-for-mbs-etfs/", "date": "2026"}]
+            "citations": [
+              {
+                "title": "After Record-Setting Year, Rally Rolls on for MBS ETFs",
+                "url": "https://etfdb.com/fixed-income-content-hub/after-record-setting-year-rally-rolls-on-for-mbs-etfs/",
+                "date": "2026"
+              }
+            ]
           },
           {
-            "name": "AGNC Investment Corp.", "ticker": "AGNC", "type": "Mortgage REIT",
+            "name": "AGNC Investment Corp.",
+            "ticker": "AGNC",
+            "type": "Mortgage REIT",
             "performance": "34.8% total stock return in 2025 (dividends reinvested), nearly double the S&P 500. Q2 2026: net spread and dollar roll income of $0.40/share beat the $0.38 consensus, but revenue of $1.01B missed the $1.06B estimate; net interest spread compressed to 2.00% from 2.06% as asset yields fell faster than funding costs. 7.4x tangible book value leverage as of Q1 2026 - a levered way to play the same agency MBS spread, with REIT-specific leverage and book-value risk layered on top.",
-            "citations": [{"title": "AGNC Q2 2026 slides: book value rises as MBS portfolio expands", "url": "https://in.investing.com/news/company-news/agnc-q2-2026-slides-book-value-rises-as-mbs-portfolio-expands-93CH-5505997", "date": "2026-08"}]
+            "citations": [
+              {
+                "title": "AGNC Q2 2026 slides: book value rises as MBS portfolio expands",
+                "url": "https://in.investing.com/news/company-news/agnc-q2-2026-slides-book-value-rises-as-mbs-portfolio-expands-93CH-5505997",
+                "date": "2026-08"
+              }
+            ]
           }
         ],
         "private": [
@@ -42,7 +86,13 @@
             "name": "PIMCO Income Fund (Institutional share class)",
             "description": "Flagship PIMCO multi-sector bond fund carrying a large, actively-managed agency MBS allocation rather than a single-purpose vehicle - a way to access PIMCO's MBS view alongside broader fixed-income positioning in one institutional-class fund.",
             "news": "Held approximately 18% in agency MBS as of the June 30, 2026 fact sheet, alongside PIMCO's Total Return Fund at a similar allocation - both funds' portfolio managers have been publicly vocal (see institutional commentary above) about agency MBS being a preferred relative-value trade in 2026.",
-            "citations": [{"title": "Fact sheet | June 30, 2026 Vanguard® PIMCO Income Fund", "url": "https://workplace.vanguard.com/assets/corp/fund_communications/pdf_publish/us-products/fact-sheet/F3926.pdf", "date": "2026-06-30"}]
+            "citations": [
+              {
+                "title": "Fact sheet | June 30, 2026 Vanguard\u00ae PIMCO Income Fund",
+                "url": "https://workplace.vanguard.com/assets/corp/fund_communications/pdf_publish/us-products/fact-sheet/F3926.pdf",
+                "date": "2026-06-30"
+              }
+            ]
           }
         ]
       }
@@ -50,7 +100,7 @@
     {
       "id": "non-agency-rmbs",
       "name": "Non-Agency RMBS",
-      "eyebrow": "Credit-sensitive · record non-QM issuance",
+      "eyebrow": "Credit-sensitive \u00b7 record non-QM issuance",
       "how_it_works": "Residential mortgage pools without a government/GSE guarantee - real credit risk, unlike agency RMBS. Deals pool 500-2,000 mortgage loans into senior-subordinate structures, where subordination (junior tranches absorb losses first) and performance triggers insulate senior bondholders from collateral volatility. The largest growth segment is non-QM (non-Qualified Mortgage) - loans to borrowers who don't fit conventional agency underwriting boxes (self-employed, investor property, bank-statement income) but aren't necessarily lower credit quality.",
       "market_size_issuance": "Non-agency RMBS volume hit $192B through September 11, 2026, with $83B of that in non-QM - already a record for the category, beating all of 2025's $80B in just over 8 months. Non-QM has grown from a niche post-crisis product into a ~$200B market, with ~$100B of issuance expected this year, equivalent to roughly 7% of GSE gross issuance.",
       "performance_commentary": "Spreads have tightened materially: non-QM AAA tranches tightened to 123bp and AA to 140bp as of mid-September 2026 - real, sourced spread levels, not a proxy. Credit performance has also improved sharply year over year: 2026 YTD delinquency rates of 0.37% (prime) and 1.62% (non-QM) compare favorably to the stressed 2023 vintage, which saw 3.01% (prime) and 10.29% (non-QM) delinquencies surpass pre-pandemic highs.",
@@ -60,22 +110,54 @@
       "headwinds_tailwinds": "Tailwind: record investor demand has tightened non-QM spreads meaningfully while credit performance has actually improved year over year - an unusually clean combination of rising volume, tightening spreads, and better fundamentals simultaneously. Headwind: 'fragmented non-QM origination and elevated 2026 supply could strain syndication capacity' - the same record issuance that signals strength could eventually outrun dealer/investor capacity to absorb it if the pace continues.",
       "sentiment_outlook": "Constructive and credit-differentiated from consumer credit broadly - the Guggenheim thesis (better-credit-quality borrowers, less exposed to the stress hitting lower-income consumers elsewhere) is a specific, falsifiable claim worth checking against future delinquency prints rather than a generic bullish view, and the current 0.37%/1.62% delinquency data supports it for now.",
       "citations": [
-        {"title": "Non-QM RMBS reaches $78B despite rising impairments", "url": "https://www.nationalmortgagenews.com/news/non-qm-rmbs-reaches-78b-despite-rising-impairments", "date": "2026-09"},
-        {"title": "Non-Agency RMBS: Income, Convexity, and a Rebuilt Market", "url": "https://www.guggenheiminvestments.com/perspectives/sector-views/third-quarter-2026-structured-credit-outlook/", "date": "2026-Q3"},
-        {"title": "Why delinquencies from one particular year stand out", "url": "https://www.nationalmortgagenews.com/news/why-delinquencies-from-one-particular-year-stand-out", "date": "2026-09"},
-        {"title": "What 2026 may be like for non QM issuers, originators", "url": "https://www.nationalmortgagenews.com/news/what-2026-may-be-like-for-non-qm-issuers-originators", "date": "2026"}
+        {
+          "title": "Non-QM RMBS reaches $78B despite rising impairments",
+          "url": "https://www.nationalmortgagenews.com/news/non-qm-rmbs-reaches-78b-despite-rising-impairments",
+          "date": "2026-09"
+        },
+        {
+          "title": "Non-Agency RMBS: Income, Convexity, and a Rebuilt Market",
+          "url": "https://www.guggenheiminvestments.com/perspectives/sector-views/third-quarter-2026-structured-credit-outlook/",
+          "date": "2026-Q3"
+        },
+        {
+          "title": "Why delinquencies from one particular year stand out",
+          "url": "https://www.nationalmortgagenews.com/news/why-delinquencies-from-one-particular-year-stand-out",
+          "date": "2026-09"
+        },
+        {
+          "title": "What 2026 may be like for non QM issuers, originators",
+          "url": "https://www.nationalmortgagenews.com/news/what-2026-may-be-like-for-non-qm-issuers-originators",
+          "date": "2026"
+        }
       ],
       "investable_exposure": {
         "public": [
           {
-            "name": "Guggenheim Securitized Income ETF", "ticker": "GISC", "type": "Active ETF",
+            "name": "Guggenheim Securitized Income ETF",
+            "ticker": "GISC",
+            "type": "Active ETF",
             "performance": "Quarterly commentary through Q2 2026 confirms active positioning across securitized credit including non-agency RMBS, reflecting the same senior-tranche income thesis Guggenheim publishes in its institutional sector views.",
-            "citations": [{"title": "Guggenheim Securitized Income ETF (GISC) Quarterly Commentary Q2 2026", "url": "https://etfdb.com/fixed-income-content-hub/q2-2026-guggenheim-securitized-income-etf-gisc/", "date": "2026-Q2"}]
+            "citations": [
+              {
+                "title": "Guggenheim Securitized Income ETF (GISC) Quarterly Commentary Q2 2026",
+                "url": "https://etfdb.com/fixed-income-content-hub/q2-2026-guggenheim-securitized-income-etf-gisc/",
+                "date": "2026-Q2"
+              }
+            ]
           },
           {
-            "name": "Angel Oak Mortgage REIT", "ticker": "AOMR", "type": "Mortgage REIT",
+            "name": "Angel Oak Mortgage REIT",
+            "ticker": "AOMR",
+            "type": "Mortgage REIT",
             "performance": "Directly tied to Angel Oak's non-QM origination and securitization program (AOMT deals); raised $228.2M from mostly non-QM assets in one 2026 deal alone - a levered, REIT-wrapped way to access the same record non-QM volume driving this sector's growth.",
-            "citations": [{"title": "Angel Oak Mortgage raises $228.2 million from mostly non-QM assets", "url": "https://www.nationalmortgagenews.com/news/angel-oak-mortgage-raises-228-2-million-from-mostly-non-qm-assets", "date": "2026"}]
+            "citations": [
+              {
+                "title": "Angel Oak Mortgage raises $228.2 million from mostly non-QM assets",
+                "url": "https://www.nationalmortgagenews.com/news/angel-oak-mortgage-raises-228-2-million-from-mostly-non-qm-assets",
+                "date": "2026"
+              }
+            ]
           }
         ],
         "private": [
@@ -83,7 +165,13 @@
             "name": "Angel Oak Mortgage Solutions",
             "description": "The leading non-QM originator, lending through third-party channels and directly funding the securitization pipeline that's driving this sector's record 2026 issuance.",
             "news": "Targeting 50% year-over-year origination growth in 2026, and separately expanding into HELOCs to broaden its non-QM product set beyond first-lien purchase/refi loans.",
-            "citations": [{"title": "Angel Oak targets HELOCs to broaden non-QM lending", "url": "https://www.housingwire.com/articles/angel-oak-non-qm-growth/", "date": "2026"}]
+            "citations": [
+              {
+                "title": "Angel Oak targets HELOCs to broaden non-QM lending",
+                "url": "https://www.housingwire.com/articles/angel-oak-non-qm-growth/",
+                "date": "2026"
+              }
+            ]
           }
         ]
       }
@@ -91,33 +179,74 @@
     {
       "id": "cmbs-conduit",
       "name": "CMBS Conduit / Multi-Borrower",
-      "eyebrow": "Commercial real estate · tightening spreads, rising distress",
+      "eyebrow": "Commercial real estate \u00b7 tightening spreads, rising distress",
       "how_it_works": "Multiple commercial mortgage loans (office, retail, multifamily, hotel, industrial - diversified property types and sponsors) pooled into one securitization, structured into senior-subordinate tranches by credit rating. Diversification across many loans/borrowers is the core structural difference from single-asset/single-borrower (SASB) deals - a conduit deal's senior tranches are insulated as long as losses stay concentrated in a minority of the underlying loans.",
       "market_size_issuance": "YTD 2026 private-label CMBS and CRE CLO issuance totaled $103.9B, up 21% from $85.7B in the same period last year; total CMBS issuance (conduit + SASB + CRE CLO) is on track to exceed $70B by mid-year and Q1 2026 alone came in at ~$22B, +25% y/y - a clear rebound narrative on the volume side.",
       "performance_commentary": "A genuine tension worth naming directly: spreads have tightened sharply even as delinquencies hit a post-COVID high. AAA conduit spreads compressed to T+100-115bp in Q1 2026 (from T+125-140bp in late 2025), with some reporting citing spreads as tight as T+70bp more recently - real, sourced spread levels. At the same time, the overall CMBS delinquency rate reached 7.55% in May 2026, the highest since the pandemic, and the distress rate (delinquencies + specially-serviced, non-current loans) hit 12.07% in March 2026, a new cycle high. Office is the clear outlier: delinquencies there hit an all-time high of 12.34% in January before dipping only slightly to 11.4% in February.",
       "institutional_commentary": "CRE Finance Council (CREFC), the industry's primary trade association, publishes monthly loan-performance updates (cited throughout this section) that are the closest thing to an institutional consensus read on conduit CMBS health. Their data underpins the widely-cited finding that debt yields - not missed payments - are the dominant risk signal: roughly 36% of 2026's hard maturities (~$27.3B) carry debt yields of 8% or below, the threshold research identifies as the highest-risk refinancing zone, meaning many distressed loans are still current on payments even as they face near-certain maturity default.",
       "institutional_investment_activity": "Blackstone's Real Estate Debt Strategies V (BREDS V) closed at $8B in March 2026 - matching Blackstone's 2020 record - with CalPERS committing $1.5B and Illinois, New Mexico, and Ohio public pension funds also participating. The fund is explicitly targeting the $1.5 trillion wave of CRE debt maturities, providing bridge/mezzanine financing and buying distressed loan portfolios from banks/insurers reducing CRE exposure - institutional capital positioning to be the liquidity provider for exactly the maturity-wall stress described above.",
       "fed_sensitivity": "High and two-directional: CMBS loan coupons at origination and floating-rate CMBS/CRE-CLO tranches both move directly with Fed policy, while fixed-rate conduit bond prices carry meaningful duration risk (typical conduit deal duration runs roughly 4-7 years depending on tranche). The more acute Fed-linked risk in 2026 specifically is refinancing math, not duration: with ~39% of this year's $76.6-100B+ hard maturities concentrated in Q4 2026, any Fed move that keeps refinancing rates elevated directly worsens the ~$57.7B in loans already estimated likely to default at maturity simply because sponsors can't refinance cash-flowing properties at current rates against depressed appraised values (office values down 55.8% since issuance in some appraisals).",
-      "headwinds_tailwinds": "Tailwind: institutional capital (Blackstone's $8B BREDS V, tightening AAA spreads, rebounding issuance) is clearly underwriting a recovery thesis and stepping in as a liquidity provider ahead of the maturity wall. Headwind: the maturity wall itself is real and imminent - over $100B in CMBS loans mature in 2026, more than half by dollar volume ($57.7B) estimated likely to default at maturity given depressed office valuations, and nearly 39% of that maturity volume lands in Q4 2026, concentrating the risk window rather than spreading it out.",
+      "headwinds_tailwinds": "Tailwind: institutional capital (Blackstone's $8B BREDS V, tightening AAA spreads, rebounding issuance) is clearly underwriting a recovery thesis and stepping in as a liquidity provider ahead of the maturity wall. Headwind: the maturity wall itself is real and imminent - over $100B in CMBS loans mature in 2026, more than half by dollar volume ($57.7B) estimated likely to default at maturity given depressed office valuations, and nearly 39% of that maturity volume lands in Q4 2026, concentrating the risk window rather than spreading it out. UPDATE (this pull, 2026-09-22): September's private-label CMBS hard-maturity total is actually smaller in dollar terms ($2.74B, down from $5.49B in August) but riskier in composition - 26.96% of that balance carries a debt yield below 6% (up from 18.13% the prior month), and more than half sits below 8%. Retail has the weakest refinancing profile of any property type this month, with nearly 59% of its $720M balance below a 6% debt yield - a smaller wall isn't a safer one, consistent with (not a reversal of) the maturity-wall risk already described above.",
       "sentiment_outlook": "Bifurcated by property type more than by the market as a whole - broad issuance/spread technicals look genuinely healthy (rebounding volume, tightening AAA spreads, institutional capital raising at record pace), but that headline strength is coexisting with, not resolving, acute office-sector distress. Multifamily delinquencies actually improved in February even as they later ticked up 30bp in March per Trepp, underscoring how property-type-specific this cycle is rather than a uniform CMBS story.",
       "citations": [
-        {"title": "CMBS Issuance Rebounds, Spreads Tighten Amid Risk Reassessment", "url": "https://radcre.com/blog/market-updates/cmbs-issuance-rebounds-spreads-tighten-amid-risk-reassessment", "date": "2026"},
-        {"title": "CMBS Loans Face $100B Maturity Wall in 2026", "url": "https://www.credaily.com/briefs/cmbs-loans-face-100b-maturity-wall-in-2026/", "date": "2026"},
-        {"title": "CMBS Distress Rate Climbs to 12.07% in March 2026", "url": "https://cred-iq.com/blog/2026/04/03/cmbs-distress-rate-climbs-to-12-07-in-march-2026-delinquencies-hit-a-new-cycle-high/", "date": "2026-04-03"},
-        {"title": "Multifamily delinquencies jumped 30 bps in March", "url": "https://www.multifamilydive.com/news/multifamily-cmbs-delinquency-apartment-loan-default/816842/", "date": "2026-03"},
-        {"title": "CREFC Update on CMBS Loan Performance July 2026", "url": "https://assets.informz.net/cmbs/data/images/CREFC%20Update%20on%20CMBS%20Loan%20Performance_July%202026.pdf", "date": "2026-07"}
+        {
+          "title": "CMBS Issuance Rebounds, Spreads Tighten Amid Risk Reassessment",
+          "url": "https://radcre.com/blog/market-updates/cmbs-issuance-rebounds-spreads-tighten-amid-risk-reassessment",
+          "date": "2026"
+        },
+        {
+          "title": "CMBS Loans Face $100B Maturity Wall in 2026",
+          "url": "https://www.credaily.com/briefs/cmbs-loans-face-100b-maturity-wall-in-2026/",
+          "date": "2026"
+        },
+        {
+          "title": "CMBS Distress Rate Climbs to 12.07% in March 2026",
+          "url": "https://cred-iq.com/blog/2026/04/03/cmbs-distress-rate-climbs-to-12-07-in-march-2026-delinquencies-hit-a-new-cycle-high/",
+          "date": "2026-04-03"
+        },
+        {
+          "title": "Multifamily delinquencies jumped 30 bps in March",
+          "url": "https://www.multifamilydive.com/news/multifamily-cmbs-delinquency-apartment-loan-default/816842/",
+          "date": "2026-03"
+        },
+        {
+          "title": "CREFC Update on CMBS Loan Performance July 2026",
+          "url": "https://assets.informz.net/cmbs/data/images/CREFC%20Update%20on%20CMBS%20Loan%20Performance_July%202026.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "September's Smaller CMBS Maturity Wall Carries Bigger Refi Risk",
+          "url": "https://www.credaily.com/newsletters/national/issue/septembers-smaller-cmbs-maturity-wall-carries-bigger-refi-risk/",
+          "date": "2026-09"
+        }
       ],
       "investable_exposure": {
         "public": [
           {
-            "name": "First Trust AAA CMBS ETF", "ticker": "CAAA", "type": "ETF",
+            "name": "First Trust AAA CMBS ETF",
+            "ticker": "CAAA",
+            "type": "ETF",
             "performance": "+0.26% YTD through September 2026, 52-week range $19.94-$20.85 - a low-volatility, senior-tranche-only way to access the tightening-spreads side of the story without office-loan credit risk (the fund holds AAA-rated CMBS, which sit above the losses hitting specially-serviced office loans).",
-            "citations": [{"title": "First Trust AAA CMBS ETF (CAAA) Stock Price, News, Quote & History", "url": "https://finance.yahoo.com/quote/CAAA/", "date": "2026-09"}]
+            "citations": [
+              {
+                "title": "First Trust AAA CMBS ETF (CAAA) Stock Price, News, Quote & History",
+                "url": "https://finance.yahoo.com/quote/CAAA/",
+                "date": "2026-09"
+              }
+            ]
           },
           {
-            "name": "Ladder Capital Corp", "ticker": "LADR", "type": "Commercial Mortgage REIT",
+            "name": "Ladder Capital Corp",
+            "ticker": "LADR",
+            "type": "Commercial Mortgage REIT",
             "performance": "Public commercial real estate finance REIT that originates and holds CMBS-eligible conduit loans directly - a levered, credit-risk-bearing way to play the same maturity-wall refinancing opportunity Blackstone's BREDS V is targeting, at public-market liquidity.",
-            "citations": [{"title": "Ladder Capital Corp - Form 10-Q - FY2026", "url": "https://www.sec.gov/Archives/edgar/data/0001577670/000157767026000040/ladr-20260630.htm", "date": "2026-Q2"}]
+            "citations": [
+              {
+                "title": "Ladder Capital Corp - Form 10-Q - FY2026",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001577670/000157767026000040/ladr-20260630.htm",
+                "date": "2026-Q2"
+              }
+            ]
           }
         ],
         "private": [
@@ -125,7 +254,13 @@
             "name": "Blackstone Real Estate Debt Strategies (BREDS)",
             "description": "The largest alternative asset manager of real estate credit globally, with $78B of invested assets - explicitly positioned to provide bridge/mezzanine financing and buy distressed CRE debt through the 2026 maturity wall.",
             "news": "BREDS V closed at $8B in March 2026, matching Blackstone's 2020 fundraising record, with CalPERS ($1.5B) and Illinois/New Mexico/Ohio public pension funds among the backers - institutional capital explicitly underwriting the CRE-debt-distress thesis this asset class's headwinds section describes.",
-            "citations": [{"title": "Blackstone Announces $8 Billion Final Close for Latest Real Estate Debt Strategies Fund", "url": "https://www.blackstone.com/news/press/blackstone-announces-8-billion-final-close-for-latest-real-estate-debt-strategies-fund/", "date": "2026-03"}]
+            "citations": [
+              {
+                "title": "Blackstone Announces $8 Billion Final Close for Latest Real Estate Debt Strategies Fund",
+                "url": "https://www.blackstone.com/news/press/blackstone-announces-8-billion-final-close-for-latest-real-estate-debt-strategies-fund/",
+                "date": "2026-03"
+              }
+            ]
           }
         ]
       }
@@ -133,7 +268,7 @@
     {
       "id": "cmbs-sasb",
       "name": "CMBS Single-Asset/Single-Borrower (SASB)",
-      "eyebrow": "Commercial real estate · now the dominant CMBS format · data-center-driven",
+      "eyebrow": "Commercial real estate \u00b7 now the dominant CMBS format \u00b7 data-center-driven",
       "how_it_works": "A securitization backed by a single large property or portfolio under one borrower, rather than a diversified pool - investors are making a concentrated bet on one asset's cash flows and value rather than a diversified basket. This concentration is priced: SASB tranches typically require deeper credit enhancement than conduit for the same rating, but in exchange investors get full transparency into one asset rather than exposure diluted across many.",
       "market_size_issuance": "SASB has become the dominant CMBS format: it accounted for more than 75% of the $76.2B in total private-label CMBS issuance through the first seven months of 2026. Within SASB, data centers are the fastest-growing property type - $4.9B in H1 2026 issuance, ~9% of all SASB volume and ~7.5% of overall CMBS issuance, up from a $4B base for the entire data-center ABS+CMBS category as recently as 2020.",
       "performance_commentary": "Real, sourced spread compression: some prime SASB deals have priced senior tranches sub-T+100bp, tighter than benchmark conduit AAA spreads of T+125-150bp over the same period - SASB is pricing through conduit for the best assets, a genuine quality-premium signal. Within SASB itself, office is recovering selectively: 14 New York single-asset office loans accounted for 60% of $18.3B in private-label office CMBS issued through early August 2026, with SASB office debt ($15.6B, 85.4% of that total) carrying a median 9.5% debt yield at origination - well below the 15.6% median debt yield for conduit office loans, suggesting SASB lenders are underwriting materially higher-quality (lower-risk) office collateral than the conduit market overall.",
@@ -143,25 +278,60 @@
       "headwinds_tailwinds": "Tailwind: data-center SASB is riding the same AI-infrastructure capex wave covered elsewhere in this dashboard (Point 2's frontier-tech coverage, Point 3's equities desk) directly into the structured-credit market - a genuine cross-asset-class theme, not an isolated CRE story. Tailwind: SASB's underwriting quality (lower debt yields on office specifically) suggests lenders are being more selective than the conduit market broadly. Headwind: concentration risk is structural to the format - a single-tenant or single-property SASB deal has zero diversification if that hyperscaler relocates, that anchor tenant defaults, or that one asset's value is impaired, unlike a conduit pool that can absorb individual loan losses.",
       "sentiment_outlook": "Constructive and thematically connected to the strongest secular story in this entire dashboard (AI-driven data-center demand) - but concentration risk is the real, structural tradeoff for the tighter pricing and stronger current performance SASB is showing versus conduit, worth remembering precisely because the sector's growth narrative is so compelling right now.",
       "citations": [
-        {"title": "CMBS issuance passes $76 billion in the first seven months of 2026", "url": "https://www.scotsmanguide.com/news/cmbs-issuance-passes-76-billion-in-the-first-seven-months-of-2026/", "date": "2026"},
-        {"title": "New York Office CMBS Loans Drive 2026 Surge, Data Show", "url": "https://finance.yahoo.com/real-estate/articles/york-office-cmbs-loans-drive-160910865.html", "date": "2026-08"},
-        {"title": "The Shifting CMBS Landscape: SASB at the Helm", "url": "https://www.pgim.com/global/en/institutional/insights/more-insights/long-story-short-blog/the-shifting-cmbs-landscape-sasb-at-the-helm", "date": "2026"},
-        {"title": "SFA Research Corner: How Data Center ABS and CMBS Fit", "url": "https://structuredfinance.org/wp-content/uploads/2026/07/SFA-Research-Corner_How-Data-Center-ABS-and-CMBS-Fit-in-a-Broader-Financing-Ecosystem.pdf", "date": "2026-07-23"},
-        {"title": "The $3 Trillion AI Data Center Build-Out Becomes All-Consuming For Debt Markets", "url": "https://energynow.com/2026/02/the-3-trillion-ai-data-center-build-out-becomes-all-consuming-for-debt-markets/", "date": "2026-02"}
+        {
+          "title": "CMBS issuance passes $76 billion in the first seven months of 2026",
+          "url": "https://www.scotsmanguide.com/news/cmbs-issuance-passes-76-billion-in-the-first-seven-months-of-2026/",
+          "date": "2026"
+        },
+        {
+          "title": "New York Office CMBS Loans Drive 2026 Surge, Data Show",
+          "url": "https://finance.yahoo.com/real-estate/articles/york-office-cmbs-loans-drive-160910865.html",
+          "date": "2026-08"
+        },
+        {
+          "title": "The Shifting CMBS Landscape: SASB at the Helm",
+          "url": "https://www.pgim.com/global/en/institutional/insights/more-insights/long-story-short-blog/the-shifting-cmbs-landscape-sasb-at-the-helm",
+          "date": "2026"
+        },
+        {
+          "title": "SFA Research Corner: How Data Center ABS and CMBS Fit",
+          "url": "https://structuredfinance.org/wp-content/uploads/2026/07/SFA-Research-Corner_How-Data-Center-ABS-and-CMBS-Fit-in-a-Broader-Financing-Ecosystem.pdf",
+          "date": "2026-07-23"
+        },
+        {
+          "title": "The $3 Trillion AI Data Center Build-Out Becomes All-Consuming For Debt Markets",
+          "url": "https://energynow.com/2026/02/the-3-trillion-ai-data-center-build-out-becomes-all-consuming-for-debt-markets/",
+          "date": "2026-02"
+        }
       ],
       "investable_exposure": {
         "public": [
           {
-            "name": "Invesco Mortgage Capital", "ticker": "IVR", "type": "Commercial Mortgage REIT",
+            "name": "Invesco Mortgage Capital",
+            "ticker": "IVR",
+            "type": "Commercial Mortgage REIT",
             "performance": "Publicly traded mortgage REIT with CMBS/SASB-eligible commercial real estate debt exposure - the direct public-market way to access senior/mezzanine SASB-style lending economics.",
-            "citations": [{"title": "Invesco Mortgage Capital Inc. - Form 10-Q - FY2026", "url": "https://www.sec.gov/Archives/edgar/data/0001437071/000143707126000064/ivr-20260630.htm", "date": "2026-Q2"}]
+            "citations": [
+              {
+                "title": "Invesco Mortgage Capital Inc. - Form 10-Q - FY2026",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001437071/000143707126000064/ivr-20260630.htm",
+                "date": "2026-Q2"
+              }
+            ]
           }
         ],
         "private": [
           {
-            "name": "Blue Owl Digital Infrastructure Trust", "description": "Blue Owl's dedicated digital-infrastructure/data-center private credit vehicle (ODIT) - direct exposure to the data-center SASB financing wave.",
+            "name": "Blue Owl Digital Infrastructure Trust",
+            "description": "Blue Owl's dedicated digital-infrastructure/data-center private credit vehicle (ODIT) - direct exposure to the data-center SASB financing wave.",
             "news": "Blue Owl has become the largest private-credit lender in AI/data-center financing with $11B in tracked exposure, largely built on its role as lead lender backing DigitalBridge's $11B 2022 take-private of data center operator Switch - which is now reportedly planning to go public again as soon as Q4 2026, a concrete realization event for that original private-credit bet.",
-            "citations": [{"title": "These 15 Lenders Are Leading The $1.3T Data Center Debt Surge", "url": "https://www.bisnow.com/news/national/data-center-capital-markets/these-15-companies-leading-trillion-dollar-data-center-lending-boom", "date": "2026"}]
+            "citations": [
+              {
+                "title": "These 15 Lenders Are Leading The $1.3T Data Center Debt Surge",
+                "url": "https://www.bisnow.com/news/national/data-center-capital-markets/these-15-companies-leading-trillion-dollar-data-center-lending-boom",
+                "date": "2026"
+              }
+            ]
           }
         ]
       }
@@ -169,7 +339,7 @@
     {
       "id": "auto-abs",
       "name": "Auto Loan ABS",
-      "eyebrow": "Consumer credit · bifurcated by credit tier",
+      "eyebrow": "Consumer credit \u00b7 bifurcated by credit tier",
       "how_it_works": "Pools of auto loans (new/used vehicle purchase financing) securitized into rated tranches. The credit story here is unusually bifurcated by design: prime and subprime auto ABS are effectively two different risk universes bundled under one asset-class label, since subprime borrowers are far more exposed to income/employment shocks than prime borrowers with established credit.",
       "market_size_issuance": "US ABS market issuance (auto is the largest single sub-category) reached $358B YTD in 2025, +16.8% y/y. Over 80% of the US ABS market carries an A rating or higher, with 55% specifically AAA-rated - a highly senior-tranche-dominated market structurally, even within the more credit-stressed subprime segment.",
       "performance_commentary": "Sharp bifurcation, with real sourced numbers on both sides: prime AAA 3-year notes priced at T+40bp as of March 26, 2026, with prime AAA spreads narrowing 5bp year-over-year - genuine strength at the top of the credit stack. Subprime tells a very different story: 60+ day delinquencies hit ~6.9-7.0% in early 2026, the highest level since 1994 and above the peaks seen in the 2008 financial crisis; annualized net losses reached 9.81% as of the January 2026 index, up from 9.51% a year earlier. Rates did ease somewhat to 5.5% by May 2026, but Fitch still expects auto ABS delinquencies to run higher in 2026 than 2025 overall.",
@@ -179,23 +349,59 @@
       "headwinds_tailwinds": "Tailwind: prime segment spreads are tightening and represent ~75% of the market - the majority of auto ABS collateral is performing well regardless of the subprime headlines. Tailwind (paradoxical): tariff-driven new car price increases may support used-car collateral values, cushioning subprime recovery rates even as affordability worsens elsewhere. Headwind: subprime delinquency at a 32-year high is a genuine, ongoing credit event - not a one-quarter blip - and Fitch's own 2026-over-2025 higher-delinquency forecast suggests the stress isn't expected to resolve quickly.",
       "sentiment_outlook": "A genuinely two-tier market rather than one story - prime auto ABS is a quiet, tightening-spread, institutionally-favored segment, while subprime is living through its worst delinquency environment in over three decades. Any single 'auto ABS is fine' or 'auto ABS is stressed' headline is likely oversimplifying which tier it's actually describing.",
       "citations": [
-        {"title": "Looking under the hood of U.S. auto ABS", "url": "https://www.janushenderson.com/en-us/investor/article/looking-under-the-hood-of-us-auto-abs/", "date": "2026"},
-        {"title": "The Subprime Auto Market in 2026: Why ~7% Delinquency Matters", "url": "https://usedcarnews.com/auto-econ-news/the-subprime-auto-market-in-2026-why-7-delinquency-matters", "date": "2026"},
-        {"title": "Fitch sees how tariffs could lift auto ABS even as subprime softens", "url": "https://www.autoremarketing.com/subprime/fitch-sees-how-tariffs-could-lift-auto-abs-even-as-subprime-softens/", "date": "2026"},
-        {"title": "Prime AAA ABS Spreads Narrow 5 Bps YoY, Subprime Spreads Stabilize", "url": "https://www.hlc.com/en/news/prime-aaa-abs-spreads-narrow-5-bps-yoy-subprime-spreads-stabilize", "date": "2026-03-26"},
-        {"title": "Serious Delinquency Rates for Subprime & Prime Auto Loans", "url": "https://wolfstreet.com/2026/02/17/serious-delinquency-rates-for-subprime-prime-auto-loans-balances-and-debt-to-income-ratio-in-q4-2025/", "date": "2026-02-17"}
+        {
+          "title": "Looking under the hood of U.S. auto ABS",
+          "url": "https://www.janushenderson.com/en-us/investor/article/looking-under-the-hood-of-us-auto-abs/",
+          "date": "2026"
+        },
+        {
+          "title": "The Subprime Auto Market in 2026: Why ~7% Delinquency Matters",
+          "url": "https://usedcarnews.com/auto-econ-news/the-subprime-auto-market-in-2026-why-7-delinquency-matters",
+          "date": "2026"
+        },
+        {
+          "title": "Fitch sees how tariffs could lift auto ABS even as subprime softens",
+          "url": "https://www.autoremarketing.com/subprime/fitch-sees-how-tariffs-could-lift-auto-abs-even-as-subprime-softens/",
+          "date": "2026"
+        },
+        {
+          "title": "Prime AAA ABS Spreads Narrow 5 Bps YoY, Subprime Spreads Stabilize",
+          "url": "https://www.hlc.com/en/news/prime-aaa-abs-spreads-narrow-5-bps-yoy-subprime-spreads-stabilize",
+          "date": "2026-03-26"
+        },
+        {
+          "title": "Serious Delinquency Rates for Subprime & Prime Auto Loans",
+          "url": "https://wolfstreet.com/2026/02/17/serious-delinquency-rates-for-subprime-prime-auto-loans-balances-and-debt-to-income-ratio-in-q4-2025/",
+          "date": "2026-02-17"
+        }
       ],
       "investable_exposure": {
         "public": [
           {
-            "name": "Janus Henderson Asset-Backed Securities ETF", "ticker": "JABS", "type": "ETF",
+            "name": "Janus Henderson Asset-Backed Securities ETF",
+            "ticker": "JABS",
+            "type": "ETF",
             "performance": "2.94% trailing-year total return, 3.95% average annual return since 2025 inception, 4.8% SEC yield, -1% maximum observed drawdown. Overweight high-grade (single-A/AA) ABS with a ~2-year duration and minimal BBB exposure - a deliberately conservative, senior-tranche way to access the prime side of this bifurcated market.",
-            "citations": [{"title": "Janus Henderson Asset-Backed Securities ETF (JABS) Performance History", "url": "https://finance.yahoo.com/quote/JABS/performance/", "date": "2026"}]
+            "citations": [
+              {
+                "title": "Janus Henderson Asset-Backed Securities ETF (JABS) Performance History",
+                "url": "https://finance.yahoo.com/quote/JABS/performance/",
+                "date": "2026"
+              }
+            ]
           },
           {
-            "name": "Credit Acceptance Corporation", "ticker": "CACC", "type": "Subprime Auto Lender",
+            "name": "Credit Acceptance Corporation",
+            "ticker": "CACC",
+            "type": "Subprime Auto Lender",
             "performance": "Q2 2026 revenue $587.4M, net income $135.9M (+55% y/y), GAAP diluted EPS $12.66 (+71% y/y) - genuinely strong results navigating directly through the subprime stress this sector's headline delinquency numbers describe (79.2% of Q2 volume from sub-650-FICO or no-score borrowers). Unit volume returned to double-digit y/y growth in June/July 2026 after two quarters of decline - a real-time read on subprime lender risk appetite.",
-            "citations": [{"title": "Credit Acceptance Q2 2026 profit rises sharply", "url": "https://www.stocktitan.net/sec-filings/CACC/10-q-credit-acceptance-corp-quarterly-earnings-report-cf673a9031ba.html", "date": "2026-Q2"}]
+            "citations": [
+              {
+                "title": "Credit Acceptance Q2 2026 profit rises sharply",
+                "url": "https://www.stocktitan.net/sec-filings/CACC/10-q-credit-acceptance-corp-quarterly-earnings-report-cf673a9031ba.html",
+                "date": "2026-Q2"
+              }
+            ]
           }
         ],
         "private": [
@@ -203,7 +409,13 @@
             "name": "Castlelake Asset-Based Private Credit III",
             "description": "Tenured pure-play asset-based private credit manager (consumer, SME, residential/commercial mortgage, and aviation strategies) with institutional pension and sovereign-wealth-fund backing.",
             "news": "Closed its latest fund at $2.3B, exceeding a $2B target (2026); separately, Castlelake-managed funds agreed in July 2026 to purchase up to $4B in AI-underwritten consumer loans from Upstart over 24 months - one of the largest institutional bets on AI-underwritten consumer credit disclosed to date, directly relevant to how the next generation of subprime-adjacent lending gets funded.",
-            "citations": [{"title": "Upstart and Castlelake $4B AI Lending Deal", "url": "https://angelinvestorsnetwork.com/alternative-investments/upstart-castlelake-4-billion-private-credit-forward-flow", "date": "2026-07-29"}]
+            "citations": [
+              {
+                "title": "Upstart and Castlelake $4B AI Lending Deal",
+                "url": "https://angelinvestorsnetwork.com/alternative-investments/upstart-castlelake-4-billion-private-credit-forward-flow",
+                "date": "2026-07-29"
+              }
+            ]
           }
         ]
       }
@@ -211,32 +423,64 @@
     {
       "id": "credit-card-abs",
       "name": "Credit Card ABS",
-      "eyebrow": "Consumer credit · record issuance · late-stage delinquency rising",
+      "eyebrow": "Consumer credit \u00b7 record issuance \u00b7 late-stage delinquency rising",
       "how_it_works": "Securitizes credit card receivables (revolving balances) through master trusts that continuously add new receivables as old ones pay down - structurally different from auto/RMBS deals, which are static pools that amortize down to zero. This revolving structure plus typically short weighted-average life makes credit card ABS one of the most liquid, shortest-duration structured products, and issuer underwriting standards vary meaningfully (prime bank issuers like Amex/Capital One vs. private-label issuers like Synchrony, which serves more subprime-adjacent retail-card programs).",
       "market_size_issuance": "New issuance running at a record pace: $201B issued year-to-date through the end of June 2026, ahead of $171.5B over the same period in 2025.",
       "performance_commentary": "AAA credit card ABS spreads have been stable and tight - around 32bp over Treasuries, roughly flat over the prior two months, with spreads across the curve only marginally above year-end 2019 levels. But there's a real, worth-flagging divergence beneath the surface-calm headline: 30-day delinquency has actually improved for eight straight quarters (2.85% in Q2 2026), while late-stage delinquency (90+ days past due) jumped sharply to 12.8% of balances from 7.6% in the same quarter - a genuine deterioration in the tail of the distribution that a simple 30-day delinquency read would miss entirely. Senior/mezzanine tranche spreads have tightened while D/E (deep subordinate) tranche spreads remain elevated, suggesting the market itself is already pricing this tail risk more cautiously than the headline AAA spread implies.",
       "institutional_commentary": "Capital Advisors Group ('The $1.25 Trillion Credit Card Question'): frames the core tension directly - whether rising delinquencies spell trouble for ABS investors specifically, versus just for card issuers' unsecured income statements, given trust structures' credit enhancement. Their answer, echoed by trust-level data: higher card interest rates simultaneously increase receivable yields, which strengthens 'excess spread' (the trust's first line of defense) even as underlying borrower credit quality weakens - a genuine structural buffer, not just optimistic framing.",
       "institutional_investment_activity": "Issuer-level dispersion is the story: May 2026 30+ day delinquencies ranged from just 0.67% at American Express to 1.6% at Capital One (both down y/y), while private-label lender Synchrony's annualized charge-off rate ran as high as 4.17% versus 1.24-2.28% across prime bank master trusts - a roughly 2-3x gap in credit quality between the primest and most credit-sensitive major issuers. New York Fed data shows total credit card debt at $1.263 trillion (Q2 2026) with what researchers describe as a 'K-shaped divide' - some consumers managing debt better, lower-income borrowers under continued strain.",
       "fed_sensitivity": "High and fast-transmitting given the asset class's short duration and revolving structure - most credit cards carry variable APRs tied directly to the prime rate, so Fed moves show up in receivable yields almost immediately (unlike the multi-year lag in fixed-rate mortgage-backed structures). This cuts both ways for ABS investors: higher rates raise the excess-spread buffer (per the institutional commentary above) but simultaneously strain the borrowers generating that yield - a genuine two-sided sensitivity rather than a clean tailwind or headwind.",
-      "headwinds_tailwinds": "Tailwind: record issuance and stable, tight AAA spreads indicate strong institutional demand and structural confidence in senior-tranche protection. Tailwind: rising rates mechanically strengthen excess spread even during borrower stress. Headwind: the 7.6%→12.8% late-stage delinquency jump is a real, specific data point that a surface read of 'delinquency is improving' (based on the 30-day number alone) would miss - exactly the kind of divergence worth tracking each refresh rather than defaulting to the headline metric.",
+      "headwinds_tailwinds": "Tailwind: record issuance and stable, tight AAA spreads indicate strong institutional demand and structural confidence in senior-tranche protection. Tailwind: rising rates mechanically strengthen excess spread even during borrower stress. Headwind: the 7.6%\u219212.8% late-stage delinquency jump is a real, specific data point that a surface read of 'delinquency is improving' (based on the 30-day number alone) would miss - exactly the kind of divergence worth tracking each refresh rather than defaulting to the headline metric.",
       "sentiment_outlook": "Broadly calm on the surface (tight spreads, record issuance, senior-tranche protection intact) but with a real, specific crack in the data - late-stage delinquency more than doubling in one quarter is not something to dismiss just because 30-day delinquency looks fine. Worth watching whether the late-stage number continues climbing or was a one-quarter anomaly on the next refresh.",
       "citations": [
-        {"title": "The $1.25 Trillion Credit Card Question: Do Rising Delinquencies Spell Trouble for Credit Card ABS Investors?", "url": "https://www.capitaladvisors.com/research/the-1-25-trillion-credit-card-question/", "date": "2026"},
-        {"title": "NY Fed: Credit card debt hits $1.26 trillion, K-shaped divide persists", "url": "https://www.cnbc.com/2026/08/11/ny-fed-credit-card-debt-hits-1point26-trillion-k-shaped-divide-persists/", "date": "2026-08-11"},
-        {"title": "Household Debt Balances Decreased Slightly; Credit Card Delinquency Transition Rates Remained Steady", "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260811", "date": "2026-08-11"},
-        {"title": "2026 Credit Card Risk: Happy Days are Here Again (For Top Issuers)", "url": "https://javelinstrategy.com/research/2026-credit-card-risk-happy-days-are-here-again-top-issuers", "date": "2026"}
+        {
+          "title": "The $1.25 Trillion Credit Card Question: Do Rising Delinquencies Spell Trouble for Credit Card ABS Investors?",
+          "url": "https://www.capitaladvisors.com/research/the-1-25-trillion-credit-card-question/",
+          "date": "2026"
+        },
+        {
+          "title": "NY Fed: Credit card debt hits $1.26 trillion, K-shaped divide persists",
+          "url": "https://www.cnbc.com/2026/08/11/ny-fed-credit-card-debt-hits-1point26-trillion-k-shaped-divide-persists/",
+          "date": "2026-08-11"
+        },
+        {
+          "title": "Household Debt Balances Decreased Slightly; Credit Card Delinquency Transition Rates Remained Steady",
+          "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260811",
+          "date": "2026-08-11"
+        },
+        {
+          "title": "2026 Credit Card Risk: Happy Days are Here Again (For Top Issuers)",
+          "url": "https://javelinstrategy.com/research/2026-credit-card-risk-happy-days-are-here-again-top-issuers",
+          "date": "2026"
+        }
       ],
       "investable_exposure": {
         "public": [
           {
-            "name": "Capital One Financial", "ticker": "COF", "type": "Prime Card Issuer",
+            "name": "Capital One Financial",
+            "ticker": "COF",
+            "type": "Prime Card Issuer",
             "performance": "30+ day delinquency of 1.6% (May 2026, down y/y) - among the better-performing major prime issuers, though notably higher than American Express's 0.67%, illustrating real underwriting-quality dispersion even within the 'prime' issuer tier.",
-            "citations": [{"title": "The $1.25 Trillion Credit Card Question", "url": "https://www.capitaladvisors.com/research/the-1-25-trillion-credit-card-question/", "date": "2026"}]
+            "citations": [
+              {
+                "title": "The $1.25 Trillion Credit Card Question",
+                "url": "https://www.capitaladvisors.com/research/the-1-25-trillion-credit-card-question/",
+                "date": "2026"
+              }
+            ]
           },
           {
-            "name": "Synchrony Financial", "ticker": "SYF", "type": "Private-Label Card Issuer",
+            "name": "Synchrony Financial",
+            "ticker": "SYF",
+            "type": "Private-Label Card Issuer",
             "performance": "4.17% annualized charge-off rate - meaningfully higher than prime bank trusts (1.24-2.28%), reflecting its more credit-sensitive private-label retail-card book. Actively issuing in 2026 (Synchrony Card Issuance Trust Class A(2026-1) priced March 2026, Class A(2026-2) proposed August 2026) - a direct, real-time read on how the most credit-sensitive major issuer is being funded through this cycle.",
-            "citations": [{"title": "Synchrony Card Funding, LLC - Form 8-K - FY2026", "url": "https://www.sec.gov/Archives/edgar/data/0001724786/000110465926092750/tm2622401d1_ex1-1.htm", "date": "2026-08"}]
+            "citations": [
+              {
+                "title": "Synchrony Card Funding, LLC - Form 8-K - FY2026",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001724786/000110465926092750/tm2622401d1_ex1-1.htm",
+                "date": "2026-08"
+              }
+            ]
           }
         ],
         "private": [
@@ -252,32 +496,74 @@
     {
       "id": "student-loan-abs",
       "name": "Student Loan ABS",
-      "eyebrow": "Consumer credit · federal collections resumed · policy-driven growth",
+      "eyebrow": "Consumer credit \u00b7 federal collections resumed \u00b7 policy-driven growth",
       "how_it_works": "Two structurally distinct sub-markets under one label: FFELP ABS (backed by older federally-guaranteed loans made before the program ended in 2010, still carrying a government guarantee on principal) and private student loan ABS (fully credit-exposed to the borrower, typically graduate/refinance loans from lenders like SoFi and Discover). The government-guarantee difference makes FFELP behave more like agency RMBS (rate/prepayment risk, limited credit risk) while private student ABS behaves like any other consumer credit product (real default risk, income-dependent).",
       "market_size_issuance": "$63B is backed by commercially-held FFELP loans versus $56B supported by private unsecured loans - a roughly even split between the guaranteed and credit-exposed halves of the market. Issuance is poised to rise in 2026 as the broader ABS market diversifies beyond auto into data centers, aircraft, and student loans; federal graduate loan caps (new borrowing limits, elimination of Graduate PLUS loans for new borrowers) could push $10-12B a year in demand toward private lenders starting July 2026 - a direct, policy-driven tailwind for private student loan ABS issuance specifically.",
-      "performance_commentary": "FFELP credit quality has weakened: constant default rates touched 5.53% in the FFELP pool (through Q4 2024 data), raising securitization costs for that guaranteed-but-imperfect segment. Private student loan ABS shows the sector's classic bifurcation pattern seen elsewhere in this report - 'credit-worthy alumni still refinance at lower spreads, creating a bifurcated market where weaker borrowers face shrinking access,' per Structured Finance Association research.",
+      "performance_commentary": "FFELP credit quality has weakened: constant default rates touched 5.53% in the FFELP pool (through Q4 2024 data), raising securitization costs for that guaranteed-but-imperfect segment. Private student loan ABS shows the sector's classic bifurcation pattern seen elsewhere in this report - 'credit-worthy alumni still refinance at lower spreads, creating a bifurcated market where weaker borrowers face shrinking access,' per Structured Finance Association research. UPDATE (this pull, 2026-09-22): Navient closed its fourth student-loan securitization of the year on Sept 18 - a $612.5M private-education-loan deal (Navient Private Education Loan Trust 2026-A), the first Navient deal structured to also support EU/UK securitization-regulation investors. Class A notes ($448.0M, rated AAA) priced at SOFR30A+105, JPMorgan sole bookrunner - a concrete, live data point that private student loan securitization demand is real and pricing tight, consistent with (not a change to) the bifurcation/tailwind read below.",
       "institutional_commentary": "Asset Securitization Report: federal student loan debt relief programs (to the extent they materialize) would specifically 'bolster FFELP ABS' by reducing the guaranteed segment's default exposure. KBRA's 2026 sector outlook groups student loan ABS among the categories driving 'growing issuance amid diverging sector trends' - i.e., a bright spot within a broader ABS market that's otherwise showing credit-quality divergence by asset type.",
       "institutional_investment_activity": "The dominant 2026 story is actually a federal-policy event, not an investor-demand shift: the Department of Education resumed collections on defaulted federal student loans on May 5, 2026, ending a five-year pandemic-era pause. Roughly 1 million borrowers defaulted in 2025:Q4, with another 2.6 million defaulting in 2026:Q1 - a massive, policy-triggered wave. Average credit scores for defaulted borrowers fell 91 points (567 to 476) between 2024:Q3 and 2025:Q4. A 'second wave' of defaults is a live concern as roughly 7 million borrowers approach the nine-month repayment mark where default risk historically concentrates.",
       "fed_sensitivity": "Lower and more indirect than most asset classes in this report - student loan ABS Fed sensitivity runs mainly through general consumer financial stress (a tighter-for-longer Fed policy stance compounds the payment burden on borrowers already adjusting to resumed payments after the multi-year pause) rather than through duration or refinancing mechanics the way agency RMBS or CMBS react. FFELP's government guarantee further mutes direct Fed-driven credit risk for that half of the market specifically.",
       "headwinds_tailwinds": "Tailwind: federal Graduate PLUS loan elimination could funnel a genuine, quantified $10-12B/year of new demand toward private lenders and their securitization programs starting July 2026 - a rare case of a clear, dated, policy-driven catalyst for issuance growth. Headwind: the resumed-collections default wave (3.6M+ borrowers across two quarters, second wave risk building) is a real, currently-unfolding credit event for federal borrowers broadly, even where FFELP's guarantee limits the direct ABS-investor impact.",
       "sentiment_outlook": "Split cleanly along the FFELP/private line described throughout this one-pager - FFELP investors are largely insulated from the collections-resumption default wave by the government guarantee even as headline federal default numbers look alarming, while private student loan ABS is set up for a genuine, policy-driven issuance tailwind (the PLUS loan cap funding gap) that has nothing to do with the collections story at all. Treat 'student loan crisis' headlines and 'student loan ABS' as two different conversations.",
       "citations": [
-        {"title": "Federal Student Loan Defaults Return After Pandemic Pause", "url": "https://libertystreeteconomics.newyorkfed.org/2026/05/federal-student-loan-defaults-return-after-pandemic-pause/", "date": "2026-05"},
-        {"title": "Department of Education resumes student loan collections on defaulted loans", "url": "https://www.epi.org/policywatch/department-of-education-resumes-student-loan-collections-on-defaulted-loans/", "date": "2026-05"},
-        {"title": "KBRA says graduate loan caps could lift student loan ABS issuance", "url": "https://tradersunion.com/news/financial-news/show/2055121-graduate-loan-caps-boost-abs-issuance/", "date": "2026"},
-        {"title": "Federal student loan debt relief should bolster FFELP ABS", "url": "https://asreport.americanbanker.com/news/federal-student-loan-debt-relief-should-bolster-ffelp-abs", "date": "2026"}
+        {
+          "title": "Federal Student Loan Defaults Return After Pandemic Pause",
+          "url": "https://libertystreeteconomics.newyorkfed.org/2026/05/federal-student-loan-defaults-return-after-pandemic-pause/",
+          "date": "2026-05"
+        },
+        {
+          "title": "Department of Education resumes student loan collections on defaulted loans",
+          "url": "https://www.epi.org/policywatch/department-of-education-resumes-student-loan-collections-on-defaulted-loans/",
+          "date": "2026-05"
+        },
+        {
+          "title": "KBRA says graduate loan caps could lift student loan ABS issuance",
+          "url": "https://tradersunion.com/news/financial-news/show/2055121-graduate-loan-caps-boost-abs-issuance/",
+          "date": "2026"
+        },
+        {
+          "title": "Federal student loan debt relief should bolster FFELP ABS",
+          "url": "https://asreport.americanbanker.com/news/federal-student-loan-debt-relief-should-bolster-ffelp-abs",
+          "date": "2026"
+        },
+        {
+          "title": "Navient Completes $612.5 Million Securitization Backed by Private Education Loans",
+          "url": "https://www.globenewswire.com/news-release/2026/09/18/3364931/30821/en/navient-completes-612-5-million-securitization-backed-by-private-education-loans.html",
+          "date": "2026-09-18"
+        }
       ],
       "investable_exposure": {
         "public": [
           {
-            "name": "SoFi Technologies", "ticker": "SOFI", "type": "Private Student Loan Originator/Refinancer",
+            "name": "SoFi Technologies",
+            "ticker": "SOFI",
+            "type": "Private Student Loan Originator/Refinancer",
             "performance": "Major graduate/refinance private student loan originator with an active securitization program (its inaugural post-graduate loan securitization sold ~$152M of DBRS Single-A-rated senior notes to institutional investors) - directly positioned to benefit from the $10-12B/year private-lender demand shift the Graduate PLUS loan cap is expected to create.",
-            "citations": [{"title": "SoFi Completes $251MM S&P 'A' Rated Securitization", "url": "https://www.sofi.com/press/sofi-completes-251mm-sp-rated-securitization-refinanced-student-loans/", "date": "2026"}]
+            "citations": [
+              {
+                "title": "SoFi Completes $251MM S&P 'A' Rated Securitization",
+                "url": "https://www.sofi.com/press/sofi-completes-251mm-sp-rated-securitization-refinanced-student-loans/",
+                "date": "2026"
+              }
+            ]
           },
           {
-            "name": "Navient", "ticker": "NAVI", "type": "FFELP Loan Holder/Servicer",
-            "performance": "Legacy federal (FFELP) student loan holder and servicer - the direct public-market way to access the government-guaranteed half of this asset class, with earnings tied closely to FFELP portfolio runoff and servicing economics rather than private-credit risk.",
-            "citations": [{"title": "Unpacking Shifts in Student Loan ABS", "url": "https://structuredfinance.org/wp-content/uploads/2024/05/SFA-Research-Corner_Learning-Curve_Unpacking-Shifts-in-Student-Loan-ABS-1.pdf", "date": "2026"}]
+            "name": "Navient",
+            "ticker": "NAVI",
+            "type": "FFELP Loan Holder/Servicer",
+            "performance": "Legacy federal (FFELP) student loan holder and servicer - the direct public-market way to access the government-guaranteed half of this asset class, with earnings tied closely to FFELP portfolio runoff and servicing economics rather than private-credit risk. UPDATE (this pull, 2026-09-22): closed a $612.5M private-education-loan securitization (NAVSL 2026-A) on Sept 18, 2026 - its fourth student-loan ABS deal of the year, with AAA-rated Class A notes pricing at SOFR30A+105.",
+            "citations": [
+              {
+                "title": "Unpacking Shifts in Student Loan ABS",
+                "url": "https://structuredfinance.org/wp-content/uploads/2024/05/SFA-Research-Corner_Learning-Curve_Unpacking-Shifts-in-Student-Loan-ABS-1.pdf",
+                "date": "2026"
+              },
+              {
+                "title": "Navient Completes $612.5 Million Securitization Backed by Private Education Loans",
+                "url": "https://www.globenewswire.com/news-release/2026/09/18/3364931/30821/en/navient-completes-612-5-million-securitization-backed-by-private-education-loans.html",
+                "date": "2026-09-18"
+              }
+            ]
           }
         ],
         "private": [
@@ -293,7 +579,7 @@
     {
       "id": "bsl-clo",
       "name": "Broadly Syndicated CLOs",
-      "eyebrow": "Floating-rate credit · manager tiering · near-zero duration",
+      "eyebrow": "Floating-rate credit \u00b7 manager tiering \u00b7 near-zero duration",
       "how_it_works": "A CLO pools ~150-250 broadly syndicated leveraged loans (large, publicly-traded corporate loans) into a single vehicle, then issues tranches from AAA down through equity against that pool, each absorbing losses in reverse order of seniority. Both the underlying loans and the CLO's own liabilities float off SOFR and reset quarterly, so the structure carries near-zero interest-rate duration - the AAA-through-BB tranches earn a spread over SOFR that barely moves with Fed policy, while CLO equity earns the levered excess spread between loan yields and liability cost.",
       "market_size_issuance": "US CLO issuance reached $126.5B across 285 deals in Q2 2026 after a rebound from a slower April, with May marking the strongest month of the year as spreads tightened. Roughly $422B (notional) of outstanding US CLOs exit their non-call periods in 2026, $330B of which are already in-the-money to refinance or reset at a 130bp AAA spread - a large refinancing wave layered on top of new issuance.",
       "performance_commentary": "Primary AAA spreads sit near 124bp with a consensus view (BNP Paribas) for a modest ~5bp of further tightening in 2026. This is issuer commentary rather than an independent index reading - no free venue publishes a live CLO AAA spread series - but multiple dealers describe the same directional move: tighter liability spreads through the year, supporting continued reset/refi activity.",
@@ -303,31 +589,74 @@
       "headwinds_tailwinds": "Tailwind: a $422B non-call-period exit wall in 2026, most of it already in-the-money, keeps reset/refi issuance elevated and dealer desks busy regardless of new-deal formation. Headwind: manager and vintage tiering is 'set to sharpen further' per Moody's, alongside looser covenants, back-leverage structures, and PIK features creeping into newer deals - meaning average CLO performance can look fine while specific managers and equity tranches take real tail losses, as Oxford Lane's Q4 2025 NAV drop illustrates.",
       "sentiment_outlook": "Constructive on the senior stack, more selective on equity. AAA/AA CLO debt continues to behave as advertised - tight, floating-rate, rate-agnostic income that has pulled in record ETF flows via JAAA - while CLO equity is where 2026's actual risk lives, with Moody's explicitly describing a market now correctly pricing manager-level tail risk for the first time in this cycle. The gap between 'CLOs are fine' headlines and specific equity-fund NAV damage is the thing to watch, not overall issuance volume.",
       "citations": [
-        {"title": "CLO Issuance Rises as Spreads Tighten in May", "url": "https://www.credaily.com/briefs/clo-issuance-rises-in-may-as-spreads-tighten-and-confidence-grows/", "date": "2026-05"},
-        {"title": "US CLO Issuance Rebounds as Q2 Market Regains Momentum", "url": "https://www.credaily.com/briefs/us-clo-issuance-rebounds-as-q2-market-regains-momentum/", "date": "2026"},
-        {"title": "Will CLO performance and leveraged finance trends diverge or align in 2026?", "url": "https://www.moodys.com/web/en/us/creditview/blog/leveraged-finance-and-clo-2026.html", "date": "2026"},
-        {"title": "2026 Leveraged Finance Outlook: The New 90/10 Rule", "url": "https://www.pinebridge.com/en/insights/2026-leveraged-finance-outlook", "date": "2026"},
-        {"title": "What's the Fed got to do with it? The impact of rate cuts on CLO equity", "url": "https://www.wellington.com/en-us/institutional/insights/how-rate-cuts-impact-clo-equity", "date": "2026"}
+        {
+          "title": "CLO Issuance Rises as Spreads Tighten in May",
+          "url": "https://www.credaily.com/briefs/clo-issuance-rises-in-may-as-spreads-tighten-and-confidence-grows/",
+          "date": "2026-05"
+        },
+        {
+          "title": "US CLO Issuance Rebounds as Q2 Market Regains Momentum",
+          "url": "https://www.credaily.com/briefs/us-clo-issuance-rebounds-as-q2-market-regains-momentum/",
+          "date": "2026"
+        },
+        {
+          "title": "Will CLO performance and leveraged finance trends diverge or align in 2026?",
+          "url": "https://www.moodys.com/web/en/us/creditview/blog/leveraged-finance-and-clo-2026.html",
+          "date": "2026"
+        },
+        {
+          "title": "2026 Leveraged Finance Outlook: The New 90/10 Rule",
+          "url": "https://www.pinebridge.com/en/insights/2026-leveraged-finance-outlook",
+          "date": "2026"
+        },
+        {
+          "title": "What's the Fed got to do with it? The impact of rate cuts on CLO equity",
+          "url": "https://www.wellington.com/en-us/institutional/insights/how-rate-cuts-impact-clo-equity",
+          "date": "2026"
+        }
       ],
       "investable_exposure": {
         "public": [
           {
-            "name": "Janus Henderson AAA CLO ETF", "ticker": "JAAA", "type": "AAA CLO ETF",
+            "name": "Janus Henderson AAA CLO ETF",
+            "ticker": "JAAA",
+            "type": "AAA CLO ETF",
             "performance": "Largest CLO ETF by AUM (>$20B) and top-ranked for 2026 net flows among active fixed-income ETFs; 4.74% SEC yield, 0.20% expense ratio, Q1 2026 return of 0.91% roughly in line with the 1.01% JPMorgan CLO AAA benchmark - the lowest-risk, most liquid public entry point into this asset class.",
-            "citations": [{"title": "JAAA Q2 2026 Fact Sheet", "url": "https://cdn.janushenderson.com/webdocs/FactSheet_JAAA_ETF_2026_06_exp_2026_10.pdf", "date": "2026-06"}]
+            "citations": [
+              {
+                "title": "JAAA Q2 2026 Fact Sheet",
+                "url": "https://cdn.janushenderson.com/webdocs/FactSheet_JAAA_ETF_2026_06_exp_2026_10.pdf",
+                "date": "2026-06"
+              }
+            ]
           },
           {
-            "name": "Oxford Lane Capital", "ticker": "OXLC", "type": "CLO Equity/Debt Closed-End Fund",
+            "name": "Oxford Lane Capital",
+            "ticker": "OXLC",
+            "type": "CLO Equity/Debt Closed-End Fund",
             "performance": "Levered CLO equity and debt closed-end fund on the opposite end of the risk spectrum from JAAA - NAV fell from $19.19 to $15.51/share in Q4 2025 on ~$305M of unrealized depreciation even as it reports high weighted-average yields (17.3% CLO debt, 13.8% CLO equity effective), illustrating the tail risk Moody's flags for 2026.",
-            "citations": [{"title": "Oxford Lane Capital Q3 Earnings Call Highlights", "url": "https://www.marketbeat.com/instant-alerts/oxford-lane-capital-q3-earnings-call-highlights-2026-01-30/", "date": "2026-01"}]
+            "citations": [
+              {
+                "title": "Oxford Lane Capital Q3 Earnings Call Highlights",
+                "url": "https://www.marketbeat.com/instant-alerts/oxford-lane-capital-q3-earnings-call-highlights-2026-01-30/",
+                "date": "2026-01"
+              }
+            ]
           }
         ],
         "private": [
           {
-            "name": "Eagle Point Credit Management", "appeal": "CLO Equity Specialist / Strategic Stakeholder",
+            "name": "Eagle Point Credit Management",
+            "appeal": "CLO Equity Specialist / Strategic Stakeholder",
             "description": "Dedicated CLO equity and junior-debt manager (public vehicle: ECC) that took a 19.99% stake in Oxford Lane's preferred shares in May 2026 - a specialist institutional investor whose activity is itself a signal of where sophisticated capital sees value (or distress) within the CLO capital stack.",
             "news": "Disclosed 19.99% stake in Oxford Lane Capital preferred shares, filed May 8, 2026.",
-            "citations": [{"title": "Eagle Point Credit Management Discloses Investment at Oxford Lane Capital with 19.99% Stake", "url": "https://www.tradingview.com/news/tradingview:398ac7a333a0e:0-eagle-point-credit-management-discloses-investment-at-oxford-lane-capital-with-19-99-stake/", "date": "2026-05-08"}]
+            "citations": [
+              {
+                "title": "Eagle Point Credit Management Discloses Investment at Oxford Lane Capital with 19.99% Stake",
+                "url": "https://www.tradingview.com/news/tradingview:398ac7a333a0e:0-eagle-point-credit-management-discloses-investment-at-oxford-lane-capital-with-19-99-stake/",
+                "date": "2026-05-08"
+              }
+            ]
           }
         ]
       }
@@ -335,7 +664,7 @@
     {
       "id": "mm-clo",
       "name": "Middle-Market / Private Credit CLOs",
-      "eyebrow": "Fastest-growing corner of structured credit · sponsor-backed direct loans",
+      "eyebrow": "Fastest-growing corner of structured credit \u00b7 sponsor-backed direct loans",
       "how_it_works": "Structurally similar to broadly syndicated CLOs, but the collateral pool is direct-lending loans to sponsor-backed middle-market companies ($10-250M EBITDA) rather than publicly traded, widely-syndicated loans. Because these loans are privately originated and don't trade in a liquid secondary market, MM/private credit CLOs carry more manager-concentration and valuation-mark risk than BSL CLOs, and the space overlaps heavily with BDCs (business development companies), which are frequently both the loan originator and a CLO equity holder.",
       "market_size_issuance": "The private credit CLO market reached roughly $155B outstanding as of October 2025 and now represents about 20-25% of total CLO issuance, up from roughly 10% a few years ago. Combined BSL and MM/private credit CLO issuance for 2026 is projected around $145-160B by Deutsche Bank, Morgan Stanley, BofA, and Barclays; private credit and MM CLO issuance specifically totaled $17.3B through mid-June 2026, roughly matching the same period in 2025 despite a volatile year for credit markets broadly.",
       "performance_commentary": "Spread dispersion is the defining 2026 theme: senior-tranche spreads have stayed relatively stable while the rest of the capital stack has been widening, driven by credit differentiation and a growing distressed tail among underlying middle-market loans - the same manager-tiering dynamic Moody's describes for BSL CLOs, but sharper here given less liquid, less transparent collateral. Separately, the spread advantage direct-lending loans historically commanded over public leveraged loans has compressed from 300bp+ in 2017-2018 vintages to under 100bp by Q1 2026, squeezing the economics that made this asset class attractive relative to BSL in the first place.",
@@ -345,38 +674,77 @@
       "headwinds_tailwinds": "Tailwind: private credit CLOs keep taking share from BSL as a structural growth story (20-25% of issuance now vs. ~10% a few years ago), giving the segment its own demand momentum independent of the broader loan market. Headwind: a genuinely rough 2026 for BDC-adjacent capital formation - one report described a 40% year-over-year drop in BDC capital formation and retail sales, PIK (payment-in-kind, non-cash) income rising as a share of BDC investment income (Boston Fed: ~6% of loans in 2022 to ~10% by early 2026), and PD-implied BDC risk exceeding Baa-rated public corporates by the widest margin since the post-pandemic period - all signs of building stress beneath still-resilient headline issuance numbers.",
       "sentiment_outlook": "Structurally growing but showing real cracks underneath. The private credit CLO market's share gains and resilient H1 2026 issuance are genuine, but they sit alongside a documented rise in PIK income, elevated BDC risk premia, and a compressing direct-lending spread advantage - the kind of divergence between 'the market is growing' and 'the market is getting riskier' that deserves more scrutiny than the growth headline alone.",
       "citations": [
-        {"title": "Private Credit CLO Market Sees Wave of Structural Innovations Amid Explosive Growth", "url": "https://octus.com/resources/articles/private-credit-clo-market-sees-wave-of-structural-innovations-amid-explosive-growth/", "date": "2026"},
-        {"title": "A Pleasant Surprise: The U.S. CLO and ABL Markets' Resilient Mid-2026", "url": "https://www.dechert.com/knowledge/onpoint/2026/8/a-pleasant-surprise--the-u-s--clo-and-abl-markets--resilient-mid.html", "date": "2026-08"},
-        {"title": "Default rates are easing. Credit risk is fragmented and fragile across markets.", "url": "https://www.moodys.com/web/en/us/insights/credit-risk/private-credit/us-corporate-default-risk-in-2026.html", "date": "2026"},
-        {"title": "Private Credit Fundraising Hits Record as Defaults Spike", "url": "https://angelinvestorsnetwork.com/market-analysis/private-credit-fundraising-record-bdc-defaults-2026", "date": "2026"}
+        {
+          "title": "Private Credit CLO Market Sees Wave of Structural Innovations Amid Explosive Growth",
+          "url": "https://octus.com/resources/articles/private-credit-clo-market-sees-wave-of-structural-innovations-amid-explosive-growth/",
+          "date": "2026"
+        },
+        {
+          "title": "A Pleasant Surprise: The U.S. CLO and ABL Markets' Resilient Mid-2026",
+          "url": "https://www.dechert.com/knowledge/onpoint/2026/8/a-pleasant-surprise--the-u-s--clo-and-abl-markets--resilient-mid.html",
+          "date": "2026-08"
+        },
+        {
+          "title": "Default rates are easing. Credit risk is fragmented and fragile across markets.",
+          "url": "https://www.moodys.com/web/en/us/insights/credit-risk/private-credit/us-corporate-default-risk-in-2026.html",
+          "date": "2026"
+        },
+        {
+          "title": "Private Credit Fundraising Hits Record as Defaults Spike",
+          "url": "https://angelinvestorsnetwork.com/market-analysis/private-credit-fundraising-record-bdc-defaults-2026",
+          "date": "2026"
+        }
       ],
       "investable_exposure": {
         "public": [
           {
-            "name": "Ares Capital Corporation", "ticker": "ARCC", "type": "Largest Publicly Traded BDC",
+            "name": "Ares Capital Corporation",
+            "ticker": "ARCC",
+            "type": "Largest Publicly Traded BDC",
             "performance": "Q2 2026 core EPS of $0.47 in line with estimates on $768M revenue; held its dividend at $0.48/share for a 68th straight quarter and launched the BDC sector's first commercial paper program - a scale/funding-cost advantage over smaller peers as spreads compress across the space.",
-            "citations": [{"title": "Ares Capital Q2 2026 Earnings, $0.48 Dividend Declared", "url": "https://www.stocktitan.net/news/ARCC/ares-capital-corporation-announces-june-30-2026-financial-results-9qjw84tsfflm.html", "date": "2026"}]
+            "citations": [
+              {
+                "title": "Ares Capital Q2 2026 Earnings, $0.48 Dividend Declared",
+                "url": "https://www.stocktitan.net/news/ARCC/ares-capital-corporation-announces-june-30-2026-financial-results-9qjw84tsfflm.html",
+                "date": "2026"
+              }
+            ]
           },
           {
-            "name": "Golub Capital BDC", "ticker": "GBDC", "type": "Middle-Market Direct Lending BDC",
+            "name": "Golub Capital BDC",
+            "ticker": "GBDC",
+            "type": "Middle-Market Direct Lending BDC",
             "performance": "Publicly traded vehicle of Golub Capital (>$90B AUM), one of the largest dedicated sponsor-backed middle-market lenders and a frequent MM-CLO collateral manager - a direct public read on the segment's underlying loan performance.",
-            "citations": [{"title": "Home | Golub Capital BDC, Inc.", "url": "https://golubcapitalbdc.com/", "date": "2026"}]
+            "citations": [
+              {
+                "title": "Home | Golub Capital BDC, Inc.",
+                "url": "https://golubcapitalbdc.com/",
+                "date": "2026"
+              }
+            ]
           }
         ],
         "private": [
           {
-            "name": "Antares Capital Direct Lending", "appeal": "Scale Sponsor-Backed Middle-Market Lender",
+            "name": "Antares Capital Direct Lending",
+            "appeal": "Scale Sponsor-Backed Middle-Market Lender",
             "description": "~$80B AUM dedicated core middle-market direct lender with 25+ years focused exclusively on private-equity-sponsored borrowers - among the small group of managers (alongside Golub, Ares, Blackstone Credit, KKR Credit, Blue Owl, HPS) large and established enough to originate the collateral that backs most MM-CLO issuance.",
             "news": "",
-            "citations": [{"title": "Transactions - Antares Capital", "url": "https://www.antares.com/what-we-do/direct-lending/transactions", "date": "2026"}]
+            "citations": [
+              {
+                "title": "Transactions - Antares Capital",
+                "url": "https://www.antares.com/what-we-do/direct-lending/transactions",
+                "date": "2026"
+              }
+            ]
           }
         ]
       }
     },
     {
       "id": "direct-lending",
-      "name": "Private Credit — Direct Lending",
-      "eyebrow": "Unitranche · upper-middle-market · $220B+ platforms",
+      "name": "Private Credit \u2014 Direct Lending",
+      "eyebrow": "Unitranche \u00b7 upper-middle-market \u00b7 $220B+ platforms",
       "how_it_works": "Non-bank lenders (BDCs, private credit funds, insurance-affiliated platforms) originate senior secured loans directly to companies, most often to finance private-equity buyouts, frequently as a single 'unitranche' facility that combines what would otherwise be separate senior and subordinated tranches at one blended rate. Distinct from the MM/private credit CLO asset class covered separately in this report: CLOs are a financing wrapper that pools and securitizes these loans after origination, while this entry covers the underlying lending activity and fund vehicles themselves.",
       "market_size_issuance": "The platform scale in this market has consolidated sharply: Blue Owl's Credit platform alone managed $159.2B as of March 31, 2026, with $115.1B specifically in direct lending strategies, out of roughly $200B firm-wide. BlackRock's July 2025 acquisition of HPS Investment Partners pushed its private credit AUM to roughly $220B, putting it in direct competition with Apollo, Blackstone (~$350B credit platform), and Blue Owl for upper-middle-market and large-cap direct lending mandates.",
       "performance_commentary": "Yields have come down materially from the 2023 peak but stabilized in 2026: unitranche all-in yields now run roughly 9.00-9.75%, down ~250bp from ~11.5% at the late-2023 peak, with median new-issue yields falling from 11.9% in Q4 2025 to 10.6% in Q1 2026 before flattening. The yield premium over public leveraged loans has compressed alongside it - the gap between direct-lender all-in yields and B-rated syndicated loan yields narrowed from roughly 380bp (Q3 2024) to about 210bp by end of March 2026, echoing the same spread-compression theme flagged in the MM-CLO entry above.",
@@ -386,38 +754,77 @@
       "headwinds_tailwinds": "Tailwind: platform scale and fundraising remain enormous ($220B+ single-manager AUM is now common), giving the largest lenders origination advantages and diversification that smaller managers lack. Headwind: spread compression (380bp premium to syndicated loans down to ~210bp) is squeezing the return-for-risk that justified private credit's illiquidity premium in the first place, at the same moment defaults are rising to five-year highs - a genuine 'less paid to take more risk' setup that Morgan Stanley's own pivot toward asset-based finance implicitly acknowledges.",
       "sentiment_outlook": "Mixed and worth taking at face value rather than at the industry's own framing. Platform managers describe direct lending as all-weather and well-positioned; the underlying data - compressing spreads, five-year-high defaults across the largest managers, rising BDC PIK income (noted in the MM-CLO entry) - describes a market where the risk/reward has worsened even as assets under management keep growing. Both things are true simultaneously and the gap between them is the thing worth monitoring into 2027.",
       "citations": [
-        {"title": "Private Markets Trends: Q2 2026 Private Equity & Credit Update", "url": "https://www.valuationresearch.com/insights/private-markets-trends-q2-2026/", "date": "2026"},
-        {"title": "Recent trends in corporate direct lending 2H25", "url": "https://go.stepstonegroup.com/rs/664-QRQ-541/images/Recent_trends_in_corporate_direct_lending_2H25.pdf", "date": "2026-02"},
-        {"title": "BlackRock targets Apollo, Blackstone, and Blue Owl in private credit with $220B war chest", "url": "https://cryptobriefing.com/blackrock-private-credit-apollo-blackstone/", "date": "2026"},
-        {"title": "Private Credit Meltdown: Why the $265B Market Is Freezing Investors Out", "url": "https://kevincrowther.com/news/265-billion-private-credit-meltdown-blackrock-blue-owl-and-morgan-stanley-gate-redemptions/", "date": "2026"}
+        {
+          "title": "Private Markets Trends: Q2 2026 Private Equity & Credit Update",
+          "url": "https://www.valuationresearch.com/insights/private-markets-trends-q2-2026/",
+          "date": "2026"
+        },
+        {
+          "title": "Recent trends in corporate direct lending 2H25",
+          "url": "https://go.stepstonegroup.com/rs/664-QRQ-541/images/Recent_trends_in_corporate_direct_lending_2H25.pdf",
+          "date": "2026-02"
+        },
+        {
+          "title": "BlackRock targets Apollo, Blackstone, and Blue Owl in private credit with $220B war chest",
+          "url": "https://cryptobriefing.com/blackrock-private-credit-apollo-blackstone/",
+          "date": "2026"
+        },
+        {
+          "title": "Private Credit Meltdown: Why the $265B Market Is Freezing Investors Out",
+          "url": "https://kevincrowther.com/news/265-billion-private-credit-meltdown-blackrock-blue-owl-and-morgan-stanley-gate-redemptions/",
+          "date": "2026"
+        }
       ],
       "investable_exposure": {
         "public": [
           {
-            "name": "Blue Owl Capital", "ticker": "OWL", "type": "Publicly Traded Alternative Asset Manager",
+            "name": "Blue Owl Capital",
+            "ticker": "OWL",
+            "type": "Publicly Traded Alternative Asset Manager",
             "performance": "Manager-level public equity for one of the largest direct lending platforms ($159.2B credit AUM, $115.1B direct lending as of March 2026) - exposure to fee/AUM growth across the platform rather than to any single loan portfolio's credit performance.",
-            "citations": [{"title": "In Focus: Our lens on the private markets", "url": "https://www.blueowl.com/insights/focus-our-lens-private-markets", "date": "2026"}]
+            "citations": [
+              {
+                "title": "In Focus: Our lens on the private markets",
+                "url": "https://www.blueowl.com/insights/focus-our-lens-private-markets",
+                "date": "2026"
+              }
+            ]
           },
           {
-            "name": "Blue Owl Technology Finance Corp.", "ticker": "OTF", "type": "Tech-Focused BDC",
+            "name": "Blue Owl Technology Finance Corp.",
+            "ticker": "OTF",
+            "type": "Tech-Focused BDC",
             "performance": "Publicly registered BDC vehicle within the Blue Owl direct lending platform, filing active debt offerings through mid-2026 - a fund-level (not manager-level) way to access the platform's actual loan portfolio and its income/loss experience.",
-            "citations": [{"title": "Blue Owl Technology Finance Corp. - Form 424B2", "url": "https://www.sec.gov/Archives/edgar/data/0001747777/000162828026040372/otf-424b2june2026.htm", "date": "2026-06"}]
+            "citations": [
+              {
+                "title": "Blue Owl Technology Finance Corp. - Form 424B2",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001747777/000162828026040372/otf-424b2june2026.htm",
+                "date": "2026-06"
+              }
+            ]
           }
         ],
         "private": [
           {
-            "name": "HPS Investment Partners (via BlackRock Private Financing Solutions)", "appeal": "Newly Consolidated $220B Platform",
+            "name": "HPS Investment Partners (via BlackRock Private Financing Solutions)",
+            "appeal": "Newly Consolidated $220B Platform",
             "description": "Formerly independent direct lender acquired by BlackRock in July 2025, now anchoring BlackRock's ~$220B private credit push against Apollo, Blackstone, and Blue Owl - institutional access typically runs through BlackRock's private credit fund vehicles built around the combined platform.",
             "news": "BlackRock completed HPS acquisition July 2025; platform positioned as direct competitor to the three largest incumbents through 2026.",
-            "citations": [{"title": "BlackRock $220B Private Credit: HPS Deal Impact on Direct Lending", "url": "https://angelinvestorsnetwork.com/alternative-investments/blackrock-hps-220-billion-private-credit-vs-apollo-blackstone-2026", "date": "2026"}]
+            "citations": [
+              {
+                "title": "BlackRock $220B Private Credit: HPS Deal Impact on Direct Lending",
+                "url": "https://angelinvestorsnetwork.com/alternative-investments/blackrock-hps-220-billion-private-credit-vs-apollo-blackstone-2026",
+                "date": "2026"
+              }
+            ]
           }
         ]
       }
     },
     {
       "id": "opportunistic-credit",
-      "name": "Private Credit — Opportunistic / Special Situations",
-      "eyebrow": "Distressed & dislocation-focused · war-chest fundraising",
+      "name": "Private Credit \u2014 Opportunistic / Special Situations",
+      "eyebrow": "Distressed & dislocation-focused \u00b7 war-chest fundraising",
       "how_it_works": "Funds that target stressed, distressed, or complex-situation credit - rescue financing, post-default restructurings, non-standard capital solutions for companies that can't access conventional direct lending or syndicated markets - rather than plain-vanilla performing-company loans. These strategies are built to deploy capital when other credit channels seize up, so fundraising and deployment often run counter-cyclically to the direct lending market covered in the prior entry.",
       "market_size_issuance": "Opportunistic, special situations, and distressed debt funds collectively raised $100B over the past two years, with the ten largest funds currently in market targeting almost $50B combined - a genuine 'war chest' build reflecting manager expectations of coming dislocation. The broader private debt fundraising mix has shifted toward this and adjacent strategies: direct lending's share of private debt fundraising fell from 58.4% in 2024 to 31% by Q1 2026, with capital rotating into infrastructure debt, real estate credit, and special situations instead.",
       "performance_commentary": "No public spread or return index exists for this strategy (it is almost entirely privately negotiated, deal-by-deal pricing), so performance here is read through fundraising success and individual fund closes rather than a market-level yield figure. Oaktree's Special Situations Fund IV closed a record $2.4B first close in February 2026 against an original ~$4B target, and the firm now expects to raise as much as $5B by final close - a strong investor-demand signal even without a public return series.",
@@ -427,30 +834,69 @@
       "headwinds_tailwinds": "Tailwind: the same late-2025 default wave and PIK-toggle stress cited as a headwind for direct lending is a direct tailwind here, feeding the record fundraising and 'war chest' positioning described above. Headwind: capital is crowding in ahead of the dislocation it's meant to exploit - $50B targeted by just the ten largest funds in market risks bidding down returns on the eventual distressed deal flow if the anticipated wave of restructurings doesn't arrive on the timeline managers are underwriting to.",
       "sentiment_outlook": "Constructive and explicitly counter-cyclical - managers are positioning for more credit stress, not less, and record fundraising (Oaktree's $2.4B first close) suggests LPs agree with that read. The open question flagged by macfarlanes and Cleary Gottlieb alike is timing: this is capital raised in anticipation of a dislocation that, per the direct-lending entry's default data, may already be arriving - making 2026-2027 vintage funds a real test of whether the war chest gets deployed at attractive prices or sits waiting.",
       "citations": [
-        {"title": "Private Credit Outlook 2026: Market Faces First Big Test", "url": "https://www.withintelligence.com/insights/private-credit-outlook-2026/", "date": "2026"},
-        {"title": "Capitalising on dislocation and complexity - Opportunistic credit in 2026", "url": "https://www.macfarlanes.com/insights/102mqsg/capitalising-on-dislocation-and-complexity-opportunistic-credit-in-2026/", "date": "2026"},
-        {"title": "Outlook for Private Credit in 2026", "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/outlook-for-private-credit-in-2026", "date": "2026"},
-        {"title": "Oaktree Raises Record $2.4 Billion at First Close for Special Situations Fund", "url": "https://www.bloomberg.com/news/articles/2026-02-11/oaktree-raises-record-2-4-billion-for-special-situations-fund", "date": "2026-02-11"}
+        {
+          "title": "Private Credit Outlook 2026: Market Faces First Big Test",
+          "url": "https://www.withintelligence.com/insights/private-credit-outlook-2026/",
+          "date": "2026"
+        },
+        {
+          "title": "Capitalising on dislocation and complexity - Opportunistic credit in 2026",
+          "url": "https://www.macfarlanes.com/insights/102mqsg/capitalising-on-dislocation-and-complexity-opportunistic-credit-in-2026/",
+          "date": "2026"
+        },
+        {
+          "title": "Outlook for Private Credit in 2026",
+          "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/outlook-for-private-credit-in-2026",
+          "date": "2026"
+        },
+        {
+          "title": "Oaktree Raises Record $2.4 Billion at First Close for Special Situations Fund",
+          "url": "https://www.bloomberg.com/news/articles/2026-02-11/oaktree-raises-record-2-4-billion-for-special-situations-fund",
+          "date": "2026-02-11"
+        }
       ],
       "investable_exposure": {
         "public": [
           {
-            "name": "Brookfield Corporation", "ticker": "BN", "type": "Parent of Oaktree Capital Management",
+            "name": "Brookfield Corporation",
+            "ticker": "BN",
+            "type": "Parent of Oaktree Capital Management",
             "performance": "Public parent of Oaktree, the manager behind the record $2.4B Special Situations Fund IV first close - the closest public-equity proxy to this strategy's fee and carry economics, alongside Brookfield's broader alternative-asset platform.",
-            "citations": [{"title": "Oaktree Raises Record $2.4 Billion at First Close for Special Situations Fund", "url": "https://www.bloomberg.com/news/articles/2026-02-11/oaktree-raises-record-2-4-billion-for-special-situations-fund", "date": "2026-02"}]
+            "citations": [
+              {
+                "title": "Oaktree Raises Record $2.4 Billion at First Close for Special Situations Fund",
+                "url": "https://www.bloomberg.com/news/articles/2026-02-11/oaktree-raises-record-2-4-billion-for-special-situations-fund",
+                "date": "2026-02"
+              }
+            ]
           },
           {
-            "name": "Oaktree Specialty Lending Corp.", "ticker": "OCSL", "type": "Oaktree-Affiliated BDC",
+            "name": "Oaktree Specialty Lending Corp.",
+            "ticker": "OCSL",
+            "type": "Oaktree-Affiliated BDC",
             "performance": "Publicly traded BDC affiliated with Oaktree's broader credit platform - a fund-level vehicle for investors seeking listed exposure to Oaktree's credit underwriting without accessing the institutional-only Special Situations Fund IV directly.",
-            "citations": [{"title": "Oaktree Strategic Credit Fund - SEC Filing", "url": "https://www.sec.gov/Archives/edgar/data/0001872371/000119312526231657/d228029dex991.htm", "date": "2026"}]
+            "citations": [
+              {
+                "title": "Oaktree Strategic Credit Fund - SEC Filing",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001872371/000119312526231657/d228029dex991.htm",
+                "date": "2026"
+              }
+            ]
           }
         ],
         "private": [
           {
-            "name": "Oaktree Special Situations Fund IV", "appeal": "Record Fundraise / Rescue-Financing Specialist",
+            "name": "Oaktree Special Situations Fund IV",
+            "appeal": "Record Fundraise / Rescue-Financing Specialist",
             "description": "Closed a record $2.4B first close in February 2026 against a ~$4B original target and is now guiding to as much as $5B by final close - the single largest and most current institutional commitment data point in the opportunistic/distressed private credit space this year.",
             "news": "First close $2.4B, Feb 11 2026; firm now targeting up to $5B by final close.",
-            "citations": [{"title": "Oaktree raises $2.4bn for latest special situations fund", "url": "https://alternativecreditinvestor.com/2026/02/13/oaktree-raises-2-4bn-for-latest-special-situations-fund/", "date": "2026-02-13"}]
+            "citations": [
+              {
+                "title": "Oaktree raises $2.4bn for latest special situations fund",
+                "url": "https://alternativecreditinvestor.com/2026/02/13/oaktree-raises-2-4bn-for-latest-special-situations-fund/",
+                "date": "2026-02-13"
+              }
+            ]
           }
         ]
       }
@@ -458,7 +904,7 @@
     {
       "id": "esoteric-abs",
       "name": "Esoteric ABS",
-      "eyebrow": "Data centers · aircraft · music royalties · whole-business",
+      "eyebrow": "Data centers \u00b7 aircraft \u00b7 music royalties \u00b7 whole-business",
       "how_it_works": "A catch-all for asset-backed securities collateralized by cash flows outside the standard auto/card/student-loan buckets covered elsewhere in this report: data center lease/hosting revenue, aircraft/container/railcar leases, music and IP royalty streams, and 'whole-business' securitizations where an entire operating franchise's cash flows (not just a receivables pool) back the notes. The common thread is that repayment depends on operating/leasing/licensing performance of a specific asset or platform rather than a diversified pool of consumer obligations, so credit analysis looks more like corporate/real-asset underwriting than traditional consumer ABS.",
       "market_size_issuance": "Data center ABS is the fastest-growing sub-segment by far: outstanding issuance grew from $4B in 2020 to $61B year-to-date 2026, now roughly 12% of the esoteric ABS market versus 3% in 2020. JPMorgan projects annual data center securitization issuance could reach $30-40B in both 2026 and 2027 (7-10% of combined ABS issuance those years), while aircraft ABS issuance has already surpassed its prior full-year record as of July 2026, led by deals like Carlyle Aviation's $717.4M AASET 2026-1.",
       "performance_commentary": "New-issue data center ABS spreads have priced 150-200bp over Treasuries on recent single-A-rated, ~5-year weighted-average-life deals, with spread retracement in this sub-segment outpacing most other asset classes as investor demand has intensified alongside the AI buildout. This is a directly reported spread figure (unlike the RMBS/CMBS/general-ABS spread gap this report flags elsewhere) because data center ABS trades with enough recent primary volume for dealers to publish indicative levels.",
@@ -468,31 +914,74 @@
       "headwinds_tailwinds": "Tailwind: the $1.5T external-financing gap behind the AI data center buildout is a large, multi-year, well-documented demand driver for this segment specifically, reinforced by the SEC's 2026 regulatory clarification. Headwind: SFA's own research flags a real collateral-quality dispersion risk inside 'esoteric ABS' as a label - not every deal backed by royalties or licensing income has the integrated operating platform that makes whole-business structures resilient, and investors reaching for the segment's growth story risk under-pricing that dispersion the way manager tiering is now being priced into CLOs.",
       "sentiment_outlook": "Bifurcated between a genuinely strong, regulator-assisted growth story in data center ABS specifically and a more mixed picture across the rest of the esoteric bucket. Data center ABS has real tailwinds (documented financing gap, tightening spreads, SEC clarity) that the other sub-segments - aircraft, royalties, whole-business - don't uniformly share; SFA's collateral-quality warning is a useful discipline against treating 'esoteric ABS' as one trade rather than several distinct ones bundled under a shared label.",
       "citations": [
-        {"title": "SFA Research Corner: How Data Center ABS and CMBS Fit in a Broader Financing Ecosystem", "url": "https://structuredfinance.org/wp-content/uploads/2026/07/SFA-Research-Corner_How-Data-Center-ABS-and-CMBS-Fit-in-a-Broader-Financing-Ecosystem.pdf", "date": "2026-07-23"},
-        {"title": "SEC Clears Path for Data Center Securitizations Outside Exchange Act ABS Treatment", "url": "https://www.sewkis.com/insights/sec-clears-path-for-data-center-securitizations-outside-exchange-act-abs-treatment/", "date": "2026"},
-        {"title": "Data-center ABS spreads race back in", "url": "https://greenstreetnews.com/article/data-center-abs-spreads-race-back-in/", "date": "2026"},
-        {"title": "The $3 Trillion AI Data Center Build-Out Becomes All-Consuming For Debt Markets", "url": "https://energynow.com/2026/02/the-3-trillion-ai-data-center-build-out-becomes-all-consuming-for-debt-markets/", "date": "2026-02"},
-        {"title": "Aircraft delivery delays drive innovation in Carlyle's latest ABS", "url": "https://www.structuredcreditinvestor.com/news-analysis/abs/85000/aircraft-delivery-delays-drive-innovation-in-carlyle's-latest-abs", "date": "2026"}
+        {
+          "title": "SFA Research Corner: How Data Center ABS and CMBS Fit in a Broader Financing Ecosystem",
+          "url": "https://structuredfinance.org/wp-content/uploads/2026/07/SFA-Research-Corner_How-Data-Center-ABS-and-CMBS-Fit-in-a-Broader-Financing-Ecosystem.pdf",
+          "date": "2026-07-23"
+        },
+        {
+          "title": "SEC Clears Path for Data Center Securitizations Outside Exchange Act ABS Treatment",
+          "url": "https://www.sewkis.com/insights/sec-clears-path-for-data-center-securitizations-outside-exchange-act-abs-treatment/",
+          "date": "2026"
+        },
+        {
+          "title": "Data-center ABS spreads race back in",
+          "url": "https://greenstreetnews.com/article/data-center-abs-spreads-race-back-in/",
+          "date": "2026"
+        },
+        {
+          "title": "The $3 Trillion AI Data Center Build-Out Becomes All-Consuming For Debt Markets",
+          "url": "https://energynow.com/2026/02/the-3-trillion-ai-data-center-build-out-becomes-all-consuming-for-debt-markets/",
+          "date": "2026-02"
+        },
+        {
+          "title": "Aircraft delivery delays drive innovation in Carlyle's latest ABS",
+          "url": "https://www.structuredcreditinvestor.com/news-analysis/abs/85000/aircraft-delivery-delays-drive-innovation-in-carlyle's-latest-abs",
+          "date": "2026"
+        }
       ],
       "investable_exposure": {
         "public": [
           {
-            "name": "AerCap Holdings", "ticker": "AER", "type": "Aircraft Lessor / ABS Issuer",
+            "name": "AerCap Holdings",
+            "ticker": "AER",
+            "type": "Aircraft Lessor / ABS Issuer",
             "performance": "Largest publicly traded aircraft lessor and a repeat aircraft-ABS issuer - direct public exposure to the leasing/residual-value economics that back aircraft ABS deals, in a year where aviation ABS issuance has already surpassed its prior full-year record.",
-            "citations": [{"title": "Aviation Finance - Carlyle and Castlelake bring early year aircraft ABS deals", "url": "https://www.aviationfinance.aero/current_issue/articles/22205/Carlyle-and-Castlelake-bring-early-year-aircraft-ABS-deals", "date": "2026"}]
+            "citations": [
+              {
+                "title": "Aviation Finance - Carlyle and Castlelake bring early year aircraft ABS deals",
+                "url": "https://www.aviationfinance.aero/current_issue/articles/22205/Carlyle-and-Castlelake-bring-early-year-aircraft-ABS-deals",
+                "date": "2026"
+              }
+            ]
           },
           {
-            "name": "Digital Realty Trust", "ticker": "DLR", "type": "Data Center REIT",
+            "name": "Digital Realty Trust",
+            "ticker": "DLR",
+            "type": "Data Center REIT",
             "performance": "Large publicly traded data center REIT whose lease income is the same type of cash flow underpinning data center ABS deals - public-market proxy for the hyperscaler capex and leasing demand driving the $61B and growing data center ABS market.",
-            "citations": [{"title": "Data centre securitisation: navigating a fast-growing asset class", "url": "https://impaxam.com/insights-and-news/blog/data-centre-securitisation-navigating-a-fast-growing-asset-class/", "date": "2026"}]
+            "citations": [
+              {
+                "title": "Data centre securitisation: navigating a fast-growing asset class",
+                "url": "https://impaxam.com/insights-and-news/blog/data-centre-securitisation-navigating-a-fast-growing-asset-class/",
+                "date": "2026"
+              }
+            ]
           }
         ],
         "private": [
           {
-            "name": "Carlyle Aviation Partners", "appeal": "Leading Aircraft ABS Issuer / Record 2026 Volume",
+            "name": "Carlyle Aviation Partners",
+            "appeal": "Leading Aircraft ABS Issuer / Record 2026 Volume",
             "description": "Issued the $717.4M AASET 2026-1 deal and has been among the most active aircraft ABS sponsors in a record 2026 for the sub-segment - institutional access to aviation-leasing credit typically runs through Carlyle's aviation-focused private vehicles rather than the public AerCap equity above.",
             "news": "AASET 2026-1 ($717.4M) priced 2026; aviation ABS issuance surpassed prior full-year record as of July 2026.",
-            "citations": [{"title": "Carlyle Aviation issues first aircraft ABS deal since Apollo acquisition", "url": "https://asreport.americanbanker.com/news/carlyle-aviation-issues-first-aircraft-abs-deal-since-apollo-acquisition", "date": "2026"}]
+            "citations": [
+              {
+                "title": "Carlyle Aviation issues first aircraft ABS deal since Apollo acquisition",
+                "url": "https://asreport.americanbanker.com/news/carlyle-aviation-issues-first-aircraft-abs-deal-since-apollo-acquisition",
+                "date": "2026"
+              }
+            ]
           }
         ]
       }

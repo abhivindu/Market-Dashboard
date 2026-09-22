@@ -2,65 +2,40 @@
   "methodology_note": "See pipeline/build_recommendations.py docstring for full criteria. Value bucket uses a 52wk-discount proxy pending real fundamentals data (WISHLIST.md).",
   "bounce": [
     {
-      "ticker": "LEU",
-      "sector": "Energy",
-      "name": "Centrus Energy Corp.",
-      "price": 139.01,
-      "day_chg_pct": -2.188,
-      "five_day_chg_pct": -23.406,
-      "market_cap": 2843186430.727722,
-      "volume": 965000,
-      "avg_volume": 735500,
-      "contribution_pct": -0.0023
-    },
-    {
       "ticker": "ENVA",
       "sector": "Financials",
       "name": "Enova International, Inc.",
-      "price": 172.14,
-      "day_chg_pct": -0.847,
-      "five_day_chg_pct": -23.162,
+      "price": 171.36,
+      "day_chg_pct": -1.923,
+      "five_day_chg_pct": -24.418,
       "market_cap": 4286005568.7432404,
-      "volume": 558200,
-      "avg_volume": 374665,
-      "contribution_pct": -0.0004
+      "volume": 451900,
+      "avg_volume": 382461,
+      "contribution_pct": -0.0009
     },
     {
-      "ticker": "ARWR",
-      "sector": "Health Care",
-      "name": "Arrowhead Pharmaceuticals",
-      "price": 65.79,
-      "day_chg_pct": -6.905,
-      "five_day_chg_pct": -20.38,
-      "market_cap": 9293131513.252327,
-      "volume": 5111900,
-      "avg_volume": 2119001,
-      "contribution_pct": -0.0095,
-      "volume_vs_avg_ratio": 2.41
+      "ticker": "AN",
+      "sector": "Consumer Discretionary",
+      "name": "AutoNation",
+      "price": 168.76,
+      "day_chg_pct": 0.279,
+      "five_day_chg_pct": -17.914,
+      "market_cap": 6459089506.790283,
+      "volume": 624500,
+      "avg_volume": 471826,
+      "contribution_pct": 0.0003
     },
     {
-      "ticker": "CENX",
-      "sector": "Materials",
-      "name": "Century Aluminum Company",
-      "price": 39.8,
-      "day_chg_pct": 0.227,
-      "five_day_chg_pct": -16.544,
-      "market_cap": 3939933065.4741096,
-      "volume": 1711200,
-      "avg_volume": 2047663,
-      "contribution_pct": 0.0006
-    },
-    {
-      "ticker": "AMR",
-      "sector": "Materials",
-      "name": "Alpha Metallurgical Resources, Inc.",
-      "price": 189.49,
-      "day_chg_pct": 0.461,
-      "five_day_chg_pct": -16.502,
-      "market_cap": 2402552306.6980743,
-      "volume": 340500,
-      "avg_volume": 310121,
-      "contribution_pct": 0.0008
+      "ticker": "RSI",
+      "sector": "Consumer Discretionary",
+      "name": "Rush Street Interactive, Inc.",
+      "price": 21.57,
+      "day_chg_pct": -7.425,
+      "five_day_chg_pct": -17.735,
+      "market_cap": 2993566053.2572784,
+      "volume": 5150700,
+      "avg_volume": 2659691,
+      "contribution_pct": -0.0031
     }
   ],
   "value": [
@@ -69,99 +44,112 @@
       "name": "CoStar Group",
       "sector": "Real Estate",
       "market_cap": 12301799018.992981,
-      "pct_off_52wk_high": -65.99,
-      "five_day_chg_pct": 2.637,
-      "price": 30.36
-    },
-    {
-      "ticker": "KTOS",
-      "name": "Kratos Defense & Security Solutions",
-      "sector": "Industrials",
-      "market_cap": 8933657980.574001,
-      "pct_off_52wk_high": -63.59,
-      "five_day_chg_pct": 1.819,
-      "price": 47.59
+      "pct_off_52wk_high": -66.35,
+      "five_day_chg_pct": -7.868,
+      "price": 29.04
     },
     {
       "ticker": "FISV",
       "name": "Fiserv",
       "sector": "Financials",
       "market_cap": 26295864759.15581,
-      "pct_off_52wk_high": -63.15,
-      "five_day_chg_pct": 1.644,
-      "price": 49.45
+      "pct_off_52wk_high": -64.42,
+      "five_day_chg_pct": -8.864,
+      "price": 46.47
+    },
+    {
+      "ticker": "KTOS",
+      "name": "Kratos Defense & Security Solutions",
+      "sector": "Industrials",
+      "market_cap": 8933657980.574001,
+      "pct_off_52wk_high": -62.83,
+      "five_day_chg_pct": 2.123,
+      "price": 48.59
     },
     {
       "ticker": "PODD",
       "name": "Insulet Corporation",
       "sector": "Health Care",
       "market_cap": 9751200802.704437,
-      "pct_off_52wk_high": -59.41,
-      "five_day_chg_pct": 1.943,
-      "price": 140.6
+      "pct_off_52wk_high": -59.43,
+      "five_day_chg_pct": 1.981,
+      "price": 140.53
     },
     {
       "ticker": "BSX",
       "name": "Boston Scientific",
       "sector": "Health Care",
       "market_cap": 63635668265.52512,
-      "pct_off_52wk_high": -58.17,
-      "five_day_chg_pct": -2.335,
-      "price": 43.91
+      "pct_off_52wk_high": -58.35,
+      "five_day_chg_pct": -2.952,
+      "price": 43.72
     }
   ],
   "speculative": [
     {
-      "ticker": "WOR",
-      "sector": "Industrials",
-      "name": "Worthington Enterprises",
-      "price": 58.84,
-      "day_chg_pct": 8.241,
-      "five_day_chg_pct": -1.572,
-      "market_cap": 2878851978.025635,
-      "volume": 830200,
-      "avg_volume": 297838,
-      "contribution_pct": 0.0036,
-      "volume_vs_avg_ratio": 2.79
-    },
-    {
-      "ticker": "AXON",
-      "sector": "Industrials",
-      "name": "Axon Enterprise",
-      "price": 468.42,
-      "day_chg_pct": 5.958,
-      "five_day_chg_pct": -4.404,
-      "market_cap": 38053231025.13443,
-      "volume": 2624600,
-      "avg_volume": 997998,
-      "contribution_pct": 0.0344,
-      "volume_vs_avg_ratio": 2.63
+      "ticker": "WBD",
+      "sector": "Communication Services",
+      "name": "Warner Bros. Discovery",
+      "price": 30.8,
+      "day_chg_pct": 10.791,
+      "five_day_chg_pct": 9.609,
+      "market_cap": 70375326460.0226,
+      "volume": 234055000,
+      "avg_volume": 24341646,
+      "contribution_pct": 0.0642,
+      "volume_vs_avg_ratio": 9.62
     },
     {
       "ticker": "AMRX",
       "sector": "Health Care",
       "name": "Amneal Pharmaceuticals",
-      "price": 18.08,
-      "day_chg_pct": 8.589,
-      "five_day_chg_pct": 4.812,
+      "price": 20.16,
+      "day_chg_pct": 7.75,
+      "five_day_chg_pct": 17.073,
       "market_cap": 6297192141.587122,
-      "volume": 5123500,
-      "avg_volume": 1964011,
-      "contribution_pct": 0.008,
-      "volume_vs_avg_ratio": 2.61
+      "volume": 5905200,
+      "avg_volume": 2113831,
+      "contribution_pct": 0.0072,
+      "volume_vs_avg_ratio": 2.79
     },
     {
-      "ticker": "RAMP",
-      "sector": "Information Technology",
-      "name": "LiveRamp Holdings, Inc.",
-      "price": 37.87,
-      "day_chg_pct": 0.691,
-      "five_day_chg_pct": 0.291,
-      "market_cap": 2302305903.4039536,
-      "volume": 2450400,
-      "avg_volume": 1033538,
-      "contribution_pct": 0.0001,
-      "volume_vs_avg_ratio": 2.37
+      "ticker": "META",
+      "sector": "Communication Services",
+      "name": "Meta Platforms",
+      "price": 741.25,
+      "day_chg_pct": 11.341,
+      "five_day_chg_pct": 11.366,
+      "market_cap": 1715261410135.2524,
+      "volume": 48572800,
+      "avg_volume": 19046946,
+      "contribution_pct": 1.6449,
+      "volume_vs_avg_ratio": 2.55
+    },
+    {
+      "ticker": "SPNT",
+      "sector": "Financials",
+      "name": "SiriusPoint Ltd.",
+      "price": 25.17,
+      "day_chg_pct": 1.697,
+      "five_day_chg_pct": 2.234,
+      "market_cap": 2842557861.7558136,
+      "volume": 1979400,
+      "avg_volume": 784738,
+      "contribution_pct": 0.0005,
+      "volume_vs_avg_ratio": 2.52
+    },
+    {
+      "ticker": "BURL",
+      "sector": "Consumer Discretionary",
+      "name": "Burlington Stores",
+      "price": 251.8,
+      "day_chg_pct": 6.191,
+      "five_day_chg_pct": 8.422,
+      "market_cap": 14521396768.845612,
+      "volume": 2435700,
+      "avg_volume": 1122095,
+      "contribution_pct": 0.0127,
+      "volume_vs_avg_ratio": 2.17
     }
   ]
 }

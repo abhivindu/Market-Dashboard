@@ -65,6 +65,36 @@ def build_since_last_pull_blurb(diff, override_blurb):
     return " ".join(parts)
 
 
+DEFAULT_POINT3_FRESHNESS_NOTE = (
+    "Every citation on a mover, volume outlier, or recommendation card carries the actual publish "
+    "date of its source, separate from this page's pull date above. Price/volume/index data always "
+    "refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was "
+    "found for that name - otherwise the existing writeup stands rather than being re-presented under "
+    "a fresher-looking timestamp."
+)
+
+
+def build_point3_freshness_note(override_note, aggregates):
+    """Mechanical fallback if no hand-authored override is set for this pull - same pattern as
+    build_since_last_pull_blurb. A hand-written override is assumed to already account for any
+    known data-lag gap (e.g. it's how the Sept 22 pull documented catching up mid-day), so it's
+    returned as-is with no auto-appended warning; the auto-warning below only fires on the plain
+    mechanical default, so a routine day with no curator narration still surfaces the gap instead
+    of silently presenting stale equity data as current."""
+    if override_note:
+        return override_note
+    note = DEFAULT_POINT3_FRESHNESS_NOTE
+    if aggregates.get("equity_data_stale"):
+        note += (
+            f" Data note: the equity price/movers data below is as of {aggregates.get('equity_data_as_of')}, "
+            f"which lags the index-level data elsewhere on this dashboard "
+            f"({aggregates.get('equity_data_expected_date')}) - Yahoo's free bulk equity endpoint "
+            f"hadn't caught up to that date at pull time. Re-run pipeline/fetch_price_history.py "
+            f"later and rebuild data/point3/* if today's exact movers matter."
+        )
+    return note
+
+
 def main():
     overrides = load("data/content_overrides.json", {"macro_flags": {}, "movers": {}, "recommendations": {}})
 
@@ -135,10 +165,7 @@ def main():
 
     point3_payload = {
         "as_of": indices["as_of"],
-        "freshness_note": overrides.get(
-            "point3_freshness_note",
-            "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp.",
-        ),
+        "freshness_note": build_point3_freshness_note(overrides.get("point3_freshness_note"), aggregates),
         "indices": indices["indices"],
         "sector_rollup": aggregates["sector_rollup"],
         "top_gainers": aggregates["top_gainers"],
@@ -151,6 +178,8 @@ def main():
         "recommendations": recs if recs else {"bounce": [], "value": [], "speculative": []},
         "min_market_cap_filter": aggregates["min_market_cap_filter"],
         "market_cap_cache_as_of": aggregates["market_cap_cache_as_of"],
+        "equity_data_as_of": aggregates.get("equity_data_as_of"),
+        "equity_data_stale": aggregates.get("equity_data_stale", False),
     }
     with open("data/point3/final_payload.json", "w", encoding="utf-8") as f:
         json.dump(point3_payload, f, indent=2)

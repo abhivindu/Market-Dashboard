@@ -62,7 +62,7 @@ Concretely, on every refresh:
 pipeline/fetch_indices.py
 pipeline/fetch_universe.py
 pipeline/fetch_market_caps_cache.py   # weekly is enough, market cap is slow-moving
-pipeline/fetch_price_history.py
+pipeline/fetch_price_history.py       # must run after fetch_indices.py - see below
 pipeline/fetch_earnings_calendar.py
 pipeline/fetch_macro.py
 pipeline/build_point1_materiality.py
@@ -81,6 +81,29 @@ pipeline/render_point4_html.py        # -> artifacts/point4.html
 Then publish each changed `artifacts/point*.html` via the Artifact tool with
 `url=` set to the matching URL above (never omit `url` — that creates a
 duplicate artifact instead of updating).
+
+### Equity-data freshness self-check (added after the 2026-09-22 lag)
+
+Yahoo's free bulk `yf.download` endpoint (`fetch_price_history.py`) can lag a
+full trading day behind the individual index tickers `fetch_indices.py`
+pulls separately — e.g. still serving Friday's close hours after Monday's
+close for the ~1,500-name universe. `fetch_price_history.py` now detects
+this itself: it compares the most common last-bar date across tickers
+against `data/point3/indices.json`'s latest date, retries once after 90s,
+and — if still stale — writes the data anyway but sets `_meta.stale: true`
+and prints a loud stderr warning. That flag propagates through
+`aggregates.json` → `final_payload.json` (`equity_data_as_of` /
+`equity_data_stale`) and, when no hand-written `point3_freshness_note`
+override is set, `build_final_payloads.py` auto-appends a plain-language
+data-lag caveat to Point 3's freshness note instead of silently presenting
+stale movers as current.
+
+Check `data/point3/aggregates.json`'s `equity_data_stale` after running
+`fetch_price_history.py` (or just read the script's own stderr). If it's
+`true`, re-run `pipeline/fetch_price_history.py` (and the build steps after
+it) later in the session — Yahoo has sometimes taken a couple of hours to
+catch up — before doing the Point 3 mover research pass, so the research
+matches the tickers that actually moved instead of a stale list.
 
 ## Daily routine scope
 
