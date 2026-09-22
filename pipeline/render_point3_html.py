@@ -274,10 +274,19 @@ document.querySelectorAll('.sector-tile').forEach(tile => {{
         <td class="mono">${{fmtCap(m.market_cap)}}</td>
         <td class="mono ${{m.contribution_pct > 0 ? 'up' : 'down'}}">${{m.contribution_pct.toFixed(3)}}pp</td>
       </tr>`).join('');
+    const verdictClass = s.reaction_assessment === 'aligned' ? 'aligned' : (s.reaction_assessment === 'counter' ? 'counter' : 'pending');
+    const citations = (s.citations || []).map(c => `<div class="cite-row"><a href="${{c.url}}" target="_blank" rel="noopener">${{c.title}}</a><span class="cite-date">${{c.date || 'n/d'}}</span></div>`).join('') || '<span style="color:var(--ink-faint);font-size:0.8rem;">No sources attached yet.</span>';
+    const rationaleBlock = s.large_move ? `
+        <span class="verdict ${{verdictClass}}">${{s.reaction_assessment || 'not yet assessed'}}</span>
+        <p style="font-size:0.88rem;color:var(--ink-soft);line-height:1.55;">${{s.rationale || 'Research pending.'}}</p>
+        <div class="citations">${{citations}}</div>` : `
+        <p style="font-size:0.88rem;color:var(--ink-soft);line-height:1.55;">${{s.rationale || ''}}</p>`;
     document.getElementById('sector-detail').innerHTML = `
       <div class="card">
-        <h3 style="font-size:0.95rem;margin-bottom:4px;">${{sector}} &mdash; constituents ranked by contribution to the sector's move</h3>
-        <div class="section-sub" style="margin-bottom:12px;">${{s.member_count}} names, ${{fmtCap(s.total_market_cap)}} combined cap, ${{fmtPct(s.day_chg_pct_weighted)}} weighted average.</div>
+        <h3 style="font-size:0.95rem;margin-bottom:4px;">${{sector}} &mdash; ${{fmtPct(s.day_chg_pct_weighted)}} weighted average</h3>
+        <div class="section-sub" style="margin-bottom:12px;">${{s.member_count}} names, ${{fmtCap(s.total_market_cap)}} combined cap.</div>
+        ${{rationaleBlock}}
+        <h4 style="font-size:0.8rem;margin:16px 0 4px;color:var(--ink-soft);">Constituents ranked by contribution to the sector's move</h4>
         <div class="member-table-wrap"><table><thead><tr><th>Ticker</th><th>Name</th><th>Day %</th><th>Mkt Cap</th><th>Contribution</th></tr></thead><tbody>${{rows}}</tbody></table></div>
       </div>`;
   }});

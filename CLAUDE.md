@@ -68,6 +68,24 @@ Concretely, on every refresh:
    superseded bit into paragraph 2's "Previously" summary rather than
    letting paragraph 1 grow indefinitely.
 
+### Sector-move rationale (Point 3 Sectors tab)
+
+Clicking a sector tile on Point 3's Sectors tab shows a rationale for that
+sector's move, not just the constituent table. `build_final_payloads.py`'s
+`enrich_sector()` flags any sector whose market-cap-weighted day move exceeds
+`SECTOR_LARGE_MOVE_THRESHOLD` (currently 1.0%, matching Point 1's index-level
+materiality threshold) as `large_move: true` and attaches `rationale` /
+`citations` / `reaction_assessment` from `data/content_overrides.json`'s
+`sector_flags` key (keyed by sector name, same `{narrative, citations,
+reaction_assessment}` shape as `macro_flags`/`movers`). A large move with no
+override yet gets an honest "Research pending." rather than a fabricated
+reason; a sub-threshold move gets a plain "move within the normal daily
+range" note instead of a misleading "pending" (there's nothing pending — it
+just isn't a headline story that pull). `render_point3_html.py`'s sector-tile
+click handler renders the rationale/citations (reusing the existing
+`.verdict`/`.citations` CSS already used for mover cards) above the member
+table only when `large_move` is true.
+
 ## Pipeline (run in this order)
 
 ```
@@ -143,6 +161,9 @@ A scheduled 5pm run should, in order:
 2. For Point 1 and Point 3: re-check the current top movers / material-events
    list against `data/content_overrides.json`; research any ticker/flag that's
    new or whose narrative is now stale, following the citation-date discipline.
+   Also check Point 3's `sector_rollup` for any sector now flagged
+   `large_move: true` with no (or a stale) `sector_flags` entry, and research
+   it the same way — see "Sector-move rationale" above.
 3. For Point 2: spot-check the fastest-moving 2-3 sectors (quantum, robotics,
    defense-adjacent, whatever moved this week) rather than exhaustively
    re-researching all 9 every day.

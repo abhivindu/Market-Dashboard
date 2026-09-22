@@ -987,7 +987,22 @@
           "avg_volume": 4914106,
           "contribution_pct": -0.0277
         }
-      ]
+      ],
+      "large_move": true,
+      "rationale": "Communication Services' Monday, Sept 21 move was driven almost entirely by Meta, which itself rallied roughly 11-12% that session after its new consumer AI agent Muse reached #1 on Apple's US App Store - the adoption signal read through as bullish for AI-inference compute demand across the market and made Meta the single biggest sector mover by far; the Nasdaq notched its first record-high close since June the same session, with Tech and Communication Services the two leading sectors.",
+      "citations": [
+        {
+          "title": "Arm Surges 13% as Meta's Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-surges-13-meta-muse-152410038.html",
+          "date": "2026-09-18"
+        },
+        {
+          "title": "Stock Market Today (Sept. 21, 2026): Nasdaq, S&P 500 surge on best day since early August",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-21-2026",
+          "date": "2026-09-21"
+        }
+      ],
+      "reaction_assessment": "aligned"
     },
     {
       "sector": "Information Technology",
@@ -3047,7 +3062,32 @@
           "avg_volume": 13903435,
           "contribution_pct": -0.012
         }
-      ]
+      ],
+      "large_move": true,
+      "rationale": "Information Technology led the market's Monday, Sept 21 rally (extending a run that started Sept 18) after Meta's new consumer AI agent Muse reached #1 on Apple's US App Store - traders read the surge in Muse usage as evidence that live AI inference needs far more CPU capacity alongside GPUs, driving Intel +12.1%, AMD +9.95% (crossing a $1T market cap for the first time), Qualcomm +9.3% (also lifted by a joint Lumentum/Corning optical-interconnect demo at ECOC 2026 and its upcoming Snapdragon Summit) and Arm sharply higher. A parallel AI-infrastructure-spending story added further sector-wide lift the same stretch: HPE's record fiscal Q3 and expanded Oracle AI data-center deal, Dell's record $60.9B AI-server order backlog, and Supermicro's cleared internal investigation plus blowout guidance.",
+      "citations": [
+        {
+          "title": "Arm Surges 13% as Meta's Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-surges-13-meta-muse-152410038.html",
+          "date": "2026-09-18"
+        },
+        {
+          "title": "AMD hits $1 trillion market cap for the first time as stock rides 5-day rally",
+          "url": "https://www.cnbc.com/2026/09/21/amd-stock-1-trillion-value.html",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "Qualcomm stock (QCOM) jumps 8% as AI rally returns ahead of Snapdragon Summit",
+          "url": "https://invezz.com/ca/news/2026/09/21/qualcomm-stock-qcom-jumps-8percent-as-ai-rally-returns-ahead-of-snapdragon-summit/",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "HPE Surges As Record Q3 And Oracle AI Deals Reset Outlook",
+          "url": "https://www.timothysykes.com/news/hewlettpackardenterprisecompany-hpe-news-2026_09_13-2/",
+          "date": "2026-09-13"
+        }
+      ],
+      "reaction_assessment": "aligned"
     },
     {
       "sector": "Consumer Discretionary",
@@ -4956,7 +4996,22 @@
           "avg_volume": 4004421,
           "contribution_pct": -0.0395
         }
-      ]
+      ],
+      "large_move": true,
+      "rationale": "Consumer Discretionary's Monday, Sept 21 move reads as broad-market beta to that session's risk-on rally (S&P 500 +1.49%, Nasdaq +2.26%) rather than a discretionary-specific catalyst - Tesla rose about 2.6% but no sector-wide discretionary news was found; falling oil prices (on US-Iran diplomacy hopes ahead of the UN General Assembly) and the Meta-Muse-driven chip rally lifted sentiment broadly, while discretionary laggards like Hasbro (-3.6% the same session, cited to macro pressure and rising rates) show the sector wasn't uniformly participating. No discretionary-specific driver identified for this pull.",
+      "citations": [
+        {
+          "title": "Stock Market Today (Sept. 21, 2026): Nasdaq, S&P 500 surge on best day since early August",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-21-2026",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally, oil falls",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
+          "date": "2026-09-21"
+        }
+      ],
+      "reaction_assessment": "beta"
     },
     {
       "sector": "Real Estate",
@@ -6009,7 +6064,11 @@
           "avg_volume": 1000745,
           "contribution_pct": -0.0161
         }
-      ]
+      ],
+      "large_move": false,
+      "rationale": "Move within the normal daily range (+0.89%, threshold is \u00b11%) - not treated as a headline sector story this pull.",
+      "citations": [],
+      "reaction_assessment": "not applicable"
     },
     {
       "sector": "Health Care",
@@ -7616,7 +7675,11 @@
           "avg_volume": 7456670,
           "contribution_pct": -0.0242
         }
-      ]
+      ],
+      "large_move": false,
+      "rationale": "Move within the normal daily range (+0.62%, threshold is \u00b11%) - not treated as a headline sector story this pull.",
+      "citations": [],
+      "reaction_assessment": "not applicable"
     },
     {
       "sector": "Industrials",
@@ -10471,7 +10534,11 @@
           "contribution_pct": -0.0884,
           "volume_vs_avg_ratio": 2.1
         }
-      ]
+      ],
+      "large_move": false,
+      "rationale": "Move within the normal daily range (+0.29%, threshold is \u00b11%) - not treated as a headline sector story this pull.",
+      "citations": [],
+      "reaction_assessment": "not applicable"
     },
     {
       "sector": "Financials",
@@ -13157,7 +13224,11 @@
           "avg_volume": 4417625,
           "contribution_pct": -0.1822
         }
-      ]
+      ],
+      "large_move": false,
+      "rationale": "Move within the normal daily range (+0.24%, threshold is \u00b11%) - not treated as a headline sector story this pull.",
+      "citations": [],
+      "reaction_assessment": "not applicable"
     },
     {
       "sector": "Materials",
@@ -13983,7 +14054,11 @@
           "avg_volume": 1420775,
           "contribution_pct": -0.0979
         }
-      ]
+      ],
+      "large_move": false,
+      "rationale": "Move within the normal daily range (-0.20%, threshold is \u00b11%) - not treated as a headline sector story this pull.",
+      "citations": [],
+      "reaction_assessment": "not applicable"
     },
     {
       "sector": "Consumer Staples",
@@ -14771,7 +14846,11 @@
           "avg_volume": 16691616,
           "contribution_pct": -0.1334
         }
-      ]
+      ],
+      "large_move": false,
+      "rationale": "Move within the normal daily range (-0.27%, threshold is \u00b11%) - not treated as a headline sector story this pull.",
+      "citations": [],
+      "reaction_assessment": "not applicable"
     },
     {
       "sector": "Utilities",
@@ -15451,7 +15530,11 @@
           "avg_volume": 10936096,
           "contribution_pct": -0.1213
         }
-      ]
+      ],
+      "large_move": false,
+      "rationale": "Move within the normal daily range (-0.39%, threshold is \u00b11%) - not treated as a headline sector story this pull.",
+      "citations": [],
+      "reaction_assessment": "not applicable"
     },
     {
       "sector": "Energy",
@@ -16239,7 +16322,22 @@
           "avg_volume": 14856361,
           "contribution_pct": -0.8062
         }
-      ]
+      ],
+      "large_move": true,
+      "rationale": "Energy's Monday, Sept 21 decline was led by refiners: PBF Energy fell 6.1%, Valero fell nearly 5%, and Marathon Petroleum fell about 5%, even as the broader market rallied - a sector-wide pullback after refiners' 'nearly unprecedented' 2026 run on elevated crack spreads, with Bloomberg-tracked analysts expecting refiner EPS to fall roughly 18% on average in 2027 as margins normalize (GuruFocus separately flagged PBF as ~79% overvalued on its GF Value estimate). This came even as the S&P 500 rose 1.49% on falling oil prices tied to US-Iran diplomacy hopes - Energy was the only major S&P 500 sector to decline that session. A separate E&P-focused selloff (Diamondback, Occidental, Matador, Magnolia, Antero, Range, Comstock) on the prior Fed-hike day (Sept 16) compounded the sector's weakness for the week.",
+      "citations": [
+        {
+          "title": "PBF Looks 79.1% Overvalued on GF Value as Dividend Sustainability Faces Scrutiny",
+          "url": "https://www.gurufocus.com/news/9090454/pbf-looks-791-overvalued-on-gf-value-as-dividend-sustainability-faces-scrutiny",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "Latest Oil Market News and Analysis for Sept. 16",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-15/latest-oil-market-news-and-analysis-for-sept-16",
+          "date": "2026-09-16"
+        }
+      ],
+      "reaction_assessment": "aligned"
     }
   ],
   "top_gainers": [

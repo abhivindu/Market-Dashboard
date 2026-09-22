@@ -2,12 +2,14 @@
 Merges mechanical/computed data (always present, guarantees every section has
 a drill-down) with a hand-curated "content overrides" file holding real
 news-researched narrative/citations for the highest-value items (macro
-flags, top movers, recommendation picks) - see content_overrides.json.
-Mechanical-only sections (sector member tables, earnings calendar, vol
+flags, top movers, sector moves, recommendation picks) - see
+content_overrides.json. Mechanical-only sections (earnings calendar, vol
 aggregate) don't need overrides per the confirmed drill-down template.
 """
 import json
 import os
+
+SECTOR_LARGE_MOVE_THRESHOLD = 1.0  # abs %, matches Point 1's index-level >1% materiality threshold
 
 
 def load(path, default=None):
@@ -95,8 +97,39 @@ def build_point3_freshness_note(override_note, aggregates):
     return note
 
 
+def enrich_sector(s, sector_flags):
+    """Attaches a rationale for the sector's move, same pattern as
+    enrich_mover()/Point 1's macro flags. A sector moving >SECTOR_LARGE_MOVE_
+    THRESHOLD% (market-cap-weighted) gets "Research pending." until a
+    content_overrides.json["sector_flags"][sector] entry supplies the real,
+    dated research; a smaller move gets an honest "nothing to explain here"
+    note instead of a misleading "pending" (there's nothing pending - it's
+    just not a headline story that pull)."""
+    key = s["sector"]
+    ov = sector_flags.get(key)
+    large_move = abs(s["day_chg_pct_weighted"]) > SECTOR_LARGE_MOVE_THRESHOLD
+    s["large_move"] = large_move
+    if ov:
+        s["rationale"] = ov.get("narrative", "Research pending.")
+        s["citations"] = ov.get("citations", [])
+        s["reaction_assessment"] = ov.get("reaction_assessment", "not yet assessed")
+    elif large_move:
+        s["rationale"] = "Research pending."
+        s["citations"] = []
+        s["reaction_assessment"] = "not yet assessed"
+    else:
+        s["rationale"] = (
+            f"Move within the normal daily range ({s['day_chg_pct_weighted']:+.2f}%, "
+            f"threshold is ±{SECTOR_LARGE_MOVE_THRESHOLD:.0f}%) - not treated as a "
+            f"headline sector story this pull."
+        )
+        s["citations"] = []
+        s["reaction_assessment"] = "not applicable"
+    return s
+
+
 def main():
-    overrides = load("data/content_overrides.json", {"macro_flags": {}, "movers": {}, "recommendations": {}})
+    overrides = load("data/content_overrides.json", {"macro_flags": {}, "movers": {}, "recommendations": {}, "sector_flags": {}})
 
     # ---------- POINT 1 ----------
     macro = load("data/point1/macro.json")
@@ -150,6 +183,8 @@ def main():
         enrich_mover(m, "loser")
     for m in aggregates.get("volume_outliers", []):
         enrich_mover(m, "volume_outlier")
+    for s in aggregates.get("sector_rollup", []):
+        enrich_sector(s, overrides.get("sector_flags", {}))
 
     if recs:
         for bucket_name in ("bounce", "value", "speculative"):
