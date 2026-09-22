@@ -220,12 +220,17 @@
       "verdict": "mixed"
     },
     "MTDR": {
-      "narrative": "Matador Resources fell in the same broad energy-sector selloff hitting Diamondback, Occidental and peers on Sept 16 (Fed-hike risk-off, crude pulling back intraday from recent highs on rising US inventories) - no Matador-specific catalyst found.",
+      "narrative": "UPDATE (this pull, 2026-09-22): Matador fell 4.8% again on Monday, Sept 21, in the same broad energy-sector pullback hitting refiners and E&Ps alike (PBF -6.1%, Valero/Marathon ~-5%, XLE -2.5%) even as the major indices rallied - a second, separate energy-sector down day distinct from the Sept 16 FOMC-day selloff described below, still with no Matador-specific catalyst found. Prior framing: Matador Resources fell in the same broad energy-sector selloff hitting Diamondback, Occidental and peers on Sept 16 (Fed-hike risk-off, crude pulling back intraday from recent highs on rising US inventories) - no Matador-specific catalyst found.",
       "citations": [
         {
           "title": "Latest Oil Market News and Analysis for Sept. 16",
           "url": "https://www.bloomberg.com/news/articles/2026-09-15/latest-oil-market-news-and-analysis-for-sept-16",
           "date": "2026-09-16"
+        },
+        {
+          "title": "PBF Looks 79.1% Overvalued on GF Value as Dividend Sustainability Faces Scrutiny",
+          "url": "https://www.gurufocus.com/news/9090454/pbf-looks-791-overvalued-on-gf-value-as-dividend-sustainability-faces-scrutiny",
+          "date": "2026-09-21"
         }
       ],
       "verdict": "mixed"
@@ -297,23 +302,33 @@
       "verdict": "mixed"
     },
     "SM": {
-      "narrative": "SM Energy fell in the same broad energy-sector selloff hitting both the oil E&P names (Diamondback, Occidental) and natural-gas E&P names (Antero, Range, Comstock) on Sept 16 - Fed-hike risk-off day. No SM Energy-specific catalyst found.",
+      "narrative": "UPDATE (this pull, 2026-09-22): SM Energy fell 6.0% again on Monday, Sept 21, in the same broad energy-sector pullback hitting refiners (PBF -6.1%, Valero and Marathon Petroleum each ~-5%, XLE -2.5%) even as the major indices rallied - a sector-wide reversal after 2026's outsized run on elevated crack spreads/oil prices, not an SM-specific catalyst. This is a second, separate energy-sector down day for the name (see the Sept 16 FOMC-day selloff described below), not a continuation of the same single event. Prior framing: SM Energy fell in the same broad energy-sector selloff hitting both the oil E&P names (Diamondback, Occidental) and natural-gas E&P names (Antero, Range, Comstock) on Sept 16 - Fed-hike risk-off day. No SM Energy-specific catalyst found.",
       "citations": [
         {
           "title": "Latest Oil Market News and Analysis for Sept. 16",
           "url": "https://www.bloomberg.com/news/articles/2026-09-15/latest-oil-market-news-and-analysis-for-sept-16",
           "date": "2026-09-16"
+        },
+        {
+          "title": "PBF Looks 79.1% Overvalued on GF Value as Dividend Sustainability Faces Scrutiny",
+          "url": "https://www.gurufocus.com/news/9090454/pbf-looks-791-overvalued-on-gf-value-as-dividend-sustainability-faces-scrutiny",
+          "date": "2026-09-21"
         }
       ],
       "verdict": "mixed"
     },
     "NOG": {
-      "narrative": "Northern Oil and Gas fell in the same broad energy-sector selloff hitting both oil and natural-gas E&P names on Sept 16 - Fed-hike risk-off day. No Northern Oil and Gas-specific catalyst found.",
+      "narrative": "UPDATE (this pull, 2026-09-22): Northern Oil and Gas fell 5.1% again on Monday, Sept 21, in the same broad energy-sector pullback hitting refiners and E&Ps alike (PBF -6.1%, Valero/Marathon ~-5%, XLE -2.5%) even as the major indices rallied - a second, separate energy-sector down day distinct from the Sept 16 FOMC-day selloff described below, still with no NOG-specific catalyst found. Prior framing: Northern Oil and Gas fell in the same broad energy-sector selloff hitting both oil and natural-gas E&P names on Sept 16 - Fed-hike risk-off day. No Northern Oil and Gas-specific catalyst found.",
       "citations": [
         {
           "title": "Latest Oil Market News and Analysis for Sept. 16",
           "url": "https://www.bloomberg.com/news/articles/2026-09-15/latest-oil-market-news-and-analysis-for-sept-16",
           "date": "2026-09-16"
+        },
+        {
+          "title": "PBF Looks 79.1% Overvalued on GF Value as Dividend Sustainability Faces Scrutiny",
+          "url": "https://www.gurufocus.com/news/9090454/pbf-looks-791-overvalued-on-gf-value-as-dividend-sustainability-faces-scrutiny",
+          "date": "2026-09-21"
         }
       ],
       "verdict": "mixed"
@@ -418,15 +433,20 @@
       "verdict": "aligned"
     },
     "DOCN": {
-      "narrative": "DigitalOcean's decline is a valuation reset despite strong fundamentals (a 73% earnings surprise still triggered an 11% post-earnings drop) - the concerning part is $570.5M of insider selling over the past 12 months with zero insider buying, on a still cash-flow-negative business. Worth watching, not a clean bounce case.",
+      "narrative": "UPDATE (this pull, 2026-09-22): DigitalOcean jumped 12.2% on Monday, Sept 21 to ~$146 (intraday high $148.04) on a $725M equipment-financing deal (plus a $300M accordion) to fund GPU/CPU build-out through 2030, paired with reaffirmed 2026/2027 guidance signaling demand strong enough to justify the buildout while keeping leverage low and free cash flow positive; the Cloudways unit also launched a new managed-hosting product (Velocity) the same day. This supersedes the prior framing below, which described a decline - the stock has since reversed sharply higher on a genuine AI-capacity catalyst. Prior framing: DigitalOcean's decline is a valuation reset despite strong fundamentals (a 73% earnings surprise still triggered an 11% post-earnings drop) - the concerning part is $570.5M of insider selling over the past 12 months with zero insider buying, on a still cash-flow-negative business. Worth watching, not a clean bounce case.",
       "citations": [
         {
           "title": "DigitalOcean Holdings Inc (DOCN) Shares Fall 3.5% -- What GF Score of 67 Tells Investors",
           "url": "https://www.gurufocus.com/news/9050389/digitalocean-holdings-inc-docn-shares-fall-35-what-gf-score-of-67-tells-investors",
           "date": "2026-09"
+        },
+        {
+          "title": "DigitalOcean DOCN Rallies As AI Cloud Expansion Accelerates",
+          "url": "https://stockstotrade.com/news/digitalocean-holdings-inc-docn-news-2026_09_21-2/",
+          "date": "2026-09-21"
         }
       ],
-      "verdict": "mixed"
+      "verdict": "aligned"
     },
     "RCUS": {
       "narrative": "Arcus Biosciences' drop reflects genuine fundamental deterioration, not overreaction: the company scrapped its Phase 3 STAR-121 and Phase 2 EDGE-Lung trials for domvanalimab after a futility analysis showed no survival benefit, while H1 2026 revenue collapsed to $58M from $188M and net loss widened to $219M.",
@@ -788,11 +808,16 @@
       "verdict": "aligned"
     },
     "QCOM": {
-      "narrative": "Qualcomm fell 5.8% on Friday, Sept 18, closing at $177.72 - the S&P 500's session standout decliner even as the broader chip sector rallied on the Meta-Muse-driven CPU-demand story the same week. Multiple headwinds converged: positioning-driven profit-taking after a strong prior rally, a stretched valuation, specific competitive concerns (weaker Apple-modem share, Samsung Exynos gains), and a hawkish repricing of Fed rate expectations weighing on high-multiple tech names generally. No single catalyst dominates - this reads as a multi-factor reversal of Qualcomm's own recent run rather than a sector- or market-wide move (the broader market/chip sector was up the same week).",
+      "narrative": "Qualcomm rose 9.3% on Monday, Sept 21, closing at $190.94 - its strongest finish since July - rebounding sharply from Friday's 5.8% slide. The proximate catalyst was a joint demonstration by Lumentum, Qualcomm, and Corning at ECOC 2026 in Malaga, Spain, showcasing a massively parallel optical die-to-die interconnect for AI scale-up systems; that landed on top of the broader Meta-Muse-driven chip-sector rally (Intel +12%, AMD +10%) and added momentum heading into Qualcomm's Snapdragon Summit (Sept 22-24, Maui). A sharp reversal of Friday's profit-taking-driven decline rather than a change in the underlying story.",
       "citations": [
         {
-          "title": "Qualcomm Drops 6% as Past Month's Rally Unwinds; Skyworks and Qorvo Slip",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-drops-6-past-month-175845817.html",
+          "title": "Qualcomm stock (QCOM) jumps 8% as AI rally returns ahead of Snapdragon Summit",
+          "url": "https://invezz.com/ca/news/2026/09/21/qualcomm-stock-qcom-jumps-8percent-as-ai-rally-returns-ahead-of-snapdragon-summit/",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "Arm Surges 13% as Meta's Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-surges-13-meta-muse-152410038.html",
           "date": "2026-09-18"
         }
       ],
@@ -813,6 +838,88 @@
         }
       ],
       "verdict": "aligned"
+    },
+    "INTC": {
+      "narrative": "Intel jumped 12.1% on Monday, Sept 21, extending the chip-sector rally that Meta's new consumer AI agent Muse sparked on Sept 18 (Arm +13%, Intel +12%, AMD +9% that day) when it topped Apple's App Store - traders read the surge in Muse usage as evidence that answering live AI requests (inference) needs far more CPUs working alongside GPUs, a direct read-through to Intel's core business. CEO Lip-Bu Tan has separately said CPU demand is running so high the company can only meet about half of customer orders - a supply-constrained tailwind on top of the sentiment shift.",
+      "citations": [
+        {
+          "title": "Arm Surges 13% as Meta's Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-surges-13-meta-muse-152410038.html",
+          "date": "2026-09-18"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "META": {
+      "narrative": "Meta rose 11.3% on Monday, Sept 21 as its new consumer AI agent Muse reached the top of Apple's US App Store - the adoption signal was the catalyst for the whole chip-sector rally this session (Arm, Intel, AMD, Qualcomm all up sharply), and Meta itself got a direct lift as the company whose product drove the read-through. The Nasdaq notched its first record-high close since June the same day.",
+      "citations": [
+        {
+          "title": "Arm Surges 13% as Meta's Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-surges-13-meta-muse-152410038.html",
+          "date": "2026-09-18"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "AMD": {
+      "narrative": "AMD rose 9.95% on Monday, Sept 21, crossing a $1 trillion market cap for the first time (briefly peaking near $616/share) on the fifth straight day of a rally sparked Sept 18 when Meta's new AI agent Muse topped Apple's App Store, read by traders as bullish for CPU-side AI-inference demand. AMD becomes the fourth US chipmaker to cross $1T, after Nvidia, Broadcom, and Micron.",
+      "citations": [
+        {
+          "title": "Arm Surges 13% as Meta's Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-surges-13-meta-muse-152410038.html",
+          "date": "2026-09-18"
+        },
+        {
+          "title": "AMD hits $1 trillion market cap for the first time as stock rides 5-day rally",
+          "url": "https://www.cnbc.com/2026/09/21/amd-stock-1-trillion-value.html",
+          "date": "2026-09-21"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "PBF": {
+      "narrative": "PBF Energy fell 6.1% on Monday, Sept 21 to $72.48, the sharpest decline among refiners even as the S&P 500 and Nasdaq rallied - Valero and Marathon Petroleum each fell nearly 5% the same session, and the Energy Select Sector ETF (XLE) was down about 2.5%, so this is primarily a sector-wide pullback (not PBF-specific) after refiners' 'nearly unprecedented' 2026 run on elevated crack spreads. GuruFocus flagged PBF specifically as ~79% overvalued on its GF Value estimate, and Bloomberg-tracked analysts expect refiner EPS to fall ~18% on average in 2027 as the margin windfall normalizes - valuation/sustainability concerns compounding the sector-wide reversal.",
+      "citations": [
+        {
+          "title": "PBF Looks 79.1% Overvalued on GF Value as Dividend Sustainability Faces Scrutiny",
+          "url": "https://www.gurufocus.com/news/9090454/pbf-looks-791-overvalued-on-gf-value-as-dividend-sustainability-faces-scrutiny",
+          "date": "2026-09-21"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "VLO": {
+      "narrative": "Valero fell nearly 5% on Monday, Sept 21 alongside the broader refiner group (PBF -6.1%, Marathon Petroleum -5%, Energy Select Sector ETF -2.5%) even as the major indices rallied - a sector-wide pullback after a 'nearly unprecedented' 2026 run on elevated crack spreads, with Bloomberg-tracked analysts expecting refiner EPS to fall ~18% on average in 2027 as margins normalize. No Valero-specific catalyst found; this reads as beta to the PBF story.",
+      "citations": [
+        {
+          "title": "PBF Looks 79.1% Overvalued on GF Value as Dividend Sustainability Faces Scrutiny",
+          "url": "https://www.gurufocus.com/news/9090454/pbf-looks-791-overvalued-on-gf-value-as-dividend-sustainability-faces-scrutiny",
+          "date": "2026-09-21"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "MPC": {
+      "narrative": "Marathon Petroleum fell about 5% on Monday, Sept 21 alongside the broader refiner selloff (PBF -6.1%, Valero -5%, XLE -2.5%) even as the major indices rallied - a sector-wide reversal after refiners' outsized 2026 run on elevated crack spreads, with Bloomberg-tracked analysts expecting refiner EPS to fall ~18% on average in 2027 as margins normalize. No Marathon-specific catalyst found; this reads as beta to the PBF story.",
+      "citations": [
+        {
+          "title": "PBF Looks 79.1% Overvalued on GF Value as Dividend Sustainability Faces Scrutiny",
+          "url": "https://www.gurufocus.com/news/9090454/pbf-looks-791-overvalued-on-gf-value-as-dividend-sustainability-faces-scrutiny",
+          "date": "2026-09-21"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "GEO": {
+      "narrative": "GEO Group fell 4.7% on Monday, Sept 21 to around $30.28 - no clean, dated catalyst found for this specific session's move beyond the price data itself; private-prison operators GEO and CoreCivic have been a volatile, headline-sensitive pair through 2026 on ICE-detention-policy news generally, but nothing specifically dated to Sept 21 turned up in this pull's search.",
+      "citations": [
+        {
+          "title": "Geo Group (NYSE:GEO) Stock Price Down 4.7% - Time to Sell?",
+          "url": "https://www.thecerbatgem.com/2026/09/21/geo-group-nysegeo-stock-price-down-4-7-time-to-sell.html",
+          "date": "2026-09-21"
+        }
+      ],
+      "verdict": "not yet assessed"
     }
   },
   "recommendations": {
@@ -1015,5 +1122,5 @@
       "verdict": "counter"
     }
   },
-  "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. Data note (this pull, 2026-09-22): the free Yahoo Finance bulk endpoint this dashboard uses for the full ~1,500-name universe had not yet posted Monday, Sept 21 daily bars for individual equities at pull time, even though the major index tickers (S&P 500, Nasdaq, Dow, Russell 2000, VIX - tracked separately on Point 1 and above) had already updated through Monday's close. The gainers/losers/volume tables below therefore reflect Friday, Sept 18's session (the most recent complete session with individual-equity data actually available), one trading day behind the index-level data elsewhere on this dashboard - every citation is dated accordingly rather than presented as Monday news."
+  "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. Data note (this pull, 2026-09-22): earlier today the free Yahoo Finance bulk endpoint this dashboard uses for the full ~1,500-name universe hadn't yet posted Monday, Sept 21 daily bars for individual equities, so an initial version of this page reflected Friday Sept 18's session. A later re-pull the same day picked up Monday's data once Yahoo caught up, and the gainers/losers/volume tables below now reflect Monday, Sept 21's session - in step with the index-level data elsewhere on this dashboard."
 }
