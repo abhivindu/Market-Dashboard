@@ -28829,5 +28829,7 @@
     ]
   },
   "min_market_cap_filter": 2000000000,
-  "market_cap_cache_as_of": "2026-09-17T03:44:20.886934+00:00"
+  "market_cap_cache_as_of": "2026-09-17T03:44:20.886934+00:00",
+  "equity_data_as_of": "2026-09-21",
+  "equity_data_stale": false
 }

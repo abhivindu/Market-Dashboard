@@ -18,7 +18,15 @@ def main():
         prices = json.load(f)
 
     market_caps = cap_cache["market_caps"]
+    equity_meta = prices.get("_meta", {})
     print(f"Using market cap cache as of {cap_cache['as_of']}", file=sys.stderr)
+    if equity_meta.get("stale"):
+        print(
+            f"  NOTE: equity price data as_of_date ({equity_meta.get('as_of_date')}) lags the "
+            f"index data ({equity_meta.get('expected_date')}) - see fetch_price_history.py's "
+            f"warning above.",
+            file=sys.stderr,
+        )
 
     merged = []
     for u in universe:
@@ -116,6 +124,9 @@ def main():
     out = {
         "min_market_cap_filter": MIN_MARKET_CAP,
         "market_cap_cache_as_of": cap_cache["as_of"],
+        "equity_data_as_of": equity_meta.get("as_of_date"),
+        "equity_data_stale": equity_meta.get("stale", False),
+        "equity_data_expected_date": equity_meta.get("expected_date"),
         "universe_count_after_filter": len(merged),
         "sector_rollup": sector_rollup,
         "top_gainers": gainers,
