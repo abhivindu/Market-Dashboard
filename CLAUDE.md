@@ -73,7 +73,7 @@ Concretely, on every refresh:
 ```
 pipeline/fetch_indices.py
 pipeline/fetch_universe.py
-pipeline/fetch_market_caps_cache.py   # weekly is enough, market cap is slow-moving
+pipeline/fetch_market_caps_cache.py   # self-gating: no-ops if cache is <7d old, safe to always run
 pipeline/fetch_price_history.py       # must run after fetch_indices.py - see below
 pipeline/fetch_earnings_calendar.py
 pipeline/fetch_macro.py
