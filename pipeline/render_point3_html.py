@@ -543,6 +543,22 @@ def recommendation_card(r, bucket_label):
         f'<span class="cite-date">{c.get("date", "n/d")}</span></div>'
         for c in r.get("citations", [])
     ) or '<span style="color:var(--ink-faint); font-size:0.8rem;">No sources attached yet.</span>'
+    stat_row = ""
+    if r.get("bucket") == "value" and (r.get("trailing_pe") or r.get("pct_off_52wk_high") is not None):
+        pe_stat = (
+            f'<div class="stat"><div class="l">Trailing P/E</div><div class="v mono">{r["trailing_pe"]:.1f}x</div></div>'
+            if r.get("trailing_pe") else
+            '<div class="stat"><div class="l">Trailing P/E</div><div class="v mono" style="color:var(--ink-faint);">n/a</div></div>'
+        )
+        fwd_stat = (
+            f'<div class="stat"><div class="l">Forward P/E</div><div class="v mono">{r["forward_pe"]:.1f}x</div></div>'
+            if r.get("forward_pe") else ""
+        )
+        discount_stat = (
+            f'<div class="stat"><div class="l">Off 52wk high</div><div class="v mono down">{r["pct_off_52wk_high"]:.1f}%</div></div>'
+            if r.get("pct_off_52wk_high") is not None else ""
+        )
+        stat_row = f'<div class="stat-row">{pe_stat}{fwd_stat}{discount_stat}</div>'
     return f"""<div class="card expandable">
       <div class="rec-card-head" style="display:flex; justify-content:space-between; align-items:baseline; gap:12px;">
         <h3 style="font-size:0.92rem;">{r['ticker']} &mdash; {r.get('name','')}</h3>
@@ -553,6 +569,7 @@ def recommendation_card(r, bucket_label):
       </div>
       <div class="detail-panel">
         <span class="verdict {vclass}">{verdict}</span>
+        {stat_row}
         <p>{r.get('thesis', 'Research pending.')}</p>
         <div class="citations">{citations}</div>
       </div>

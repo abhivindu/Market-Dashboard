@@ -28592,7 +28592,7 @@
     }
   ],
   "recommendations": {
-    "methodology_note": "See pipeline/build_recommendations.py docstring for full criteria. Value bucket uses a 52wk-discount proxy pending real fundamentals data (WISHLIST.md).",
+    "methodology_note": "See pipeline/build_recommendations.py docstring for full criteria. Value bucket picks are ranked by real trailingPE (via yfinance .info) among a shortlist pre-screened by 52wk-discount, not the discount proxy alone.",
     "bounce": [
       {
         "ticker": "ENVA",
@@ -28651,19 +28651,26 @@
     ],
     "value": [
       {
-        "ticker": "CSGP",
-        "name": "CoStar Group",
-        "sector": "Real Estate",
-        "market_cap": 12301799018.992981,
-        "pct_off_52wk_high": -66.35,
-        "five_day_chg_pct": -7.868,
-        "price": 29.04,
-        "thesis": "CoStar is down ~68% from its 52-week high despite revenue still growing 21% with a 79% gross margin - the market has re-rated the stock hard on competitive/execution concerns (its residential push against Zillow) rather than a revenue collapse. Classic value setup if the core commercial real estate data business keeps compounding while the market has priced in near-failure of the residential bet.",
+        "ticker": "LULU",
+        "name": "Lululemon Athletica",
+        "sector": "Consumer Discretionary",
+        "market_cap": 10625948571.146202,
+        "pct_off_52wk_high": -53.08,
+        "five_day_chg_pct": 0.997,
+        "price": 101.3,
+        "trailing_pe": 8.337449,
+        "forward_pe": 11.716117,
+        "thesis": "Lululemon has fallen ~46% in 2026 (an eight-year low) after cutting FY2026 revenue guidance to a 5-7% decline (from prior flat-to-down-1%) and EPS guidance to $9.48-9.73 (from $10.95-11.15) on a fifth straight quarterly Americas comps decline and cooling China growth. Real fundamental deterioration, not pure sentiment - but at a 9.3x trailing P/E with a still-55.7% gross margin and minimal net leverage (0.19x net debt/EBITDA), this reads as a case where the market may be pricing a structural decline when the more likely outcome is a slower-growth reset. Bears note the recovery still depends on a China market that just showed how fast sentiment can turn there.",
         "citations": [
           {
-            "title": "CoStar Group (NASDAQ:CSGP) Sets New 52-Week Low - Time to Sell?",
-            "url": "https://www.marketbeat.com/instant-alerts/costar-group-nasdaqcsgp-sets-new-52-week-low-time-to-sell-2026-05-08/",
-            "date": "2026-05-08"
+            "title": "Is Lululemon Stock a Buy as It Sinks to $96 per Share? Here's My Honest Answer.",
+            "url": "https://www.fool.com/investing/2026/09/17/is-company-name-stock-a-buy-as-it-sinks-to-x-per-s/",
+            "date": "2026-09-17"
+          },
+          {
+            "title": "Lululemon Shares Fall 17% After FY2026 Guidance Cut Despite Q2 Earnings Beat",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/lululemon-shares-fall-17-fy2026-094142265.html",
+            "date": "2026-09-03"
           }
         ],
         "verdict": "aligned",
@@ -28677,6 +28684,8 @@
         "pct_off_52wk_high": -64.42,
         "five_day_chg_pct": -8.864,
         "price": 46.47,
+        "trailing_pe": 8.9023,
+        "forward_pe": 5.772162,
         "thesis": "Fiserv is down 64% over the past year after slashing 2026 guidance to roughly flat organic revenue, driven partly by Argentina inflation normalization. Real fundamental deterioration, not pure sentiment - but at 72% below one fair-value estimate ($48.65 vs $174.38 GuruFocus GF Value), this is a case where the market may have overcorrected for a genuine but bounded problem.",
         "citations": [
           {
@@ -28689,54 +28698,81 @@
         "bucket": "value"
       },
       {
-        "ticker": "KTOS",
-        "name": "Kratos Defense & Security Solutions",
+        "ticker": "ZTS",
+        "name": "Zoetis",
+        "sector": "Health Care",
+        "market_cap": 30165322946.0,
+        "pct_off_52wk_high": -51.65,
+        "five_day_chg_pct": -3.176,
+        "price": 71.33,
+        "trailing_pe": 11.636215,
+        "forward_pe": 10.921022,
+        "thesis": "Zoetis fell 20% on May 7, 2026 after Q1 earnings missed on softer U.S. pet demand (companion-animal revenue -4%, dermatology/parasiticides/OA pain all declining together), then cut full-year guidance again in Q2 on continued weak companion-animal demand and rising competition. Real, guided-down fundamentals rather than a one-off miss - but at an 11.6x trailing P/E for a business still generating positive organic growth (guided 3.5% revenue / 4% EPS growth at the midpoint) and no balance-sheet distress, this looks like a genuine multiple compression on a temporary demand air pocket rather than a broken franchise.",
+        "citations": [
+          {
+            "title": "Zoetis (ZTS) Is Down 24.1% After Cutting 2026 Guidance On Softer U.S. Pet Demand",
+            "url": "https://finance.yahoo.com/sectors/healthcare/articles/zoetis-zts-down-24-1-081729163.html",
+            "date": "2026-05-07"
+          },
+          {
+            "title": "Why Zoetis (ZTS) Cut 2026 Guidance After Weaker Pet Demand And What It Means Now",
+            "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-zts/zoetis/news/why-zoetis-zts-cut-2026-guidance-after-weaker-pet-demand-and",
+            "date": "2026-08"
+          }
+        ],
+        "verdict": "aligned",
+        "bucket": "value"
+      },
+      {
+        "ticker": "PNR",
+        "name": "Pentair",
         "sector": "Industrials",
-        "market_cap": 8933657980.574001,
-        "pct_off_52wk_high": -62.83,
-        "five_day_chg_pct": 2.123,
-        "price": 48.59,
-        "thesis": "Kratos is down 37% YTD despite a strong defense backlog and hypersonics revenue guided to ~$400M in 2026 and $700M+ in 2027 (MACH-TB program funding), plus recent $20M and $35M contract wins. Value case: the stock's multiple has compressed even as the forward revenue/earnings trajectory improved.",
+        "market_cap": 9011015853.881836,
+        "pct_off_52wk_high": -50.36,
+        "five_day_chg_pct": -0.712,
+        "price": 55.78,
+        "trailing_pe": 14.376287,
+        "forward_pe": 10.792174,
+        "thesis": "Pentair fell sharply through Q2 2026 (down ~40% YTD as of late July) after a pool-equipment destocking crisis (key customers cutting inventory on high rates/inflation, ~$170M sales hit) forced a guidance cut (2026 sales now -4% to -7%, down from +2% to +4%; adjusted EPS cut to $4.60-4.80 from $5.30-5.40) plus an abrupt CFO departure just four months into the role (July 20, 2026) - a genuine confidence-shaking combination, not just one bad print. At a 14.4x trailing P/E against a cited fair-value estimate near $82 (vs. a ~$63 close), the value case depends on the destocking cycle being cyclical (rates/inventory-driven) rather than a permanent share loss - worth tracking the next print for confirmation either way.",
         "citations": [
           {
-            "title": "Kratos Defense & Security Solutions, Inc. (KTOS) Stock Price & News - Google Finance",
-            "url": "https://www.google.com/finance/quote/KTOS:NASDAQ",
-            "date": "n/d"
+            "title": "Pentair (PNR) Is Down 12.2% After Cutting 2026 Outlook And Announcing CFO Exit",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/pentair-pnr-down-12-2-043556245.html",
+            "date": "2026-07-20"
+          },
+          {
+            "title": "Is Pentair (PNR) Cheap As Q2 Miss And Guidance Cut Reset The Story?",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/pentair-pnr-cheap-q2-miss-180758902.html",
+            "date": "2026-07"
           }
         ],
         "verdict": "aligned",
         "bucket": "value"
       },
       {
-        "ticker": "PODD",
-        "name": "Insulet Corporation",
-        "sector": "Health Care",
-        "market_cap": 9751200802.704437,
-        "pct_off_52wk_high": -59.43,
-        "five_day_chg_pct": 1.981,
-        "price": 140.53,
-        "thesis": "Research pending.",
-        "citations": [],
-        "verdict": "not yet assessed",
-        "bucket": "value"
-      },
-      {
-        "ticker": "BSX",
-        "name": "Boston Scientific",
-        "sector": "Health Care",
-        "market_cap": 63635668265.52512,
-        "pct_off_52wk_high": -58.35,
-        "five_day_chg_pct": -2.952,
-        "price": 43.72,
-        "thesis": "Boston Scientific is down ~60% from its September 2025 all-time high after a cyberattack disruption and slowing electrophysiology/WATCHMAN growth forced a guidance cut to 6.5-8% organic growth. Real operational hit, but the growth-rate cut (not a growth reversal) at a much lower valuation ahead of an Oct 28 earnings report is the value setup here.",
+        "ticker": "NKE",
+        "name": "Nike, Inc.",
+        "sector": "Consumer Discretionary",
+        "market_cap": 53079581782.4285,
+        "pct_off_52wk_high": -51.59,
+        "five_day_chg_pct": -2.564,
+        "price": 36.1,
+        "trailing_pe": 17.190475,
+        "forward_pe": 15.838751,
+        "thesis": "Nike is down ~40% in 2026 and became the Dow's worst-performing stock, roughly 78% below its November 2021 peak, on persistent margin compression, competitive share loss to adidas/Deckers, and net income down ~49% even as revenue is back near FY2022 levels. CAUTION on the trailing P/E specifically: Nike's reported FY2026 EPS of $2.10 included a $0.52/share one-time benefit from an expected tariff recovery under IEEPA - management itself disclosed EPS would have been closer to $1.58 without it, meaning the real underlying trailing P/E is meaningfully higher than the headline ~18x figure suggests. Genuine turnaround optionality (scale, brand) exists, but this is a case where the screen's trailing-P/E signal is flattered by a non-recurring item worth flagging rather than treating as a clean value read.",
         "citations": [
           {
-            "title": "Has BSX Stock Fallen Far Enough To Buy?",
-            "url": "https://www.trefis.com/articles-v3/613349/has-bsx-stock-fallen-far-enough-to-buy/2026-08-27",
-            "date": "2026-08-27"
+            "title": "Nike Price Forecast: Can NKE Recover After Becoming the Dow's Worst Stock?",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/nike-price-forecast-nke-recover-235311613.html",
+            "date": "2026-09"
+          },
+          {
+            "title": "Prediction: This Is Where Nike's Stock Will Finish 2026",
+            "url": "https://www.fool.com/investing/2026/08/19/prediction-this-is-where-nikes-stock-will-finish-2/",
+            "date": "2026-08-19"
           }
         ],
-        "verdict": "aligned",
+        "verdict": "mixed",
         "bucket": "value"
       }
     ],

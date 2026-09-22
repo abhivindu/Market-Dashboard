@@ -9,14 +9,19 @@ Methodology (documented here since it's cited on every pick in the artifact):
    overreaction - that qualitative pass happens after this numeric shortlist,
    not in this script.
 
-2. VALUE (fundamental discount) - PROXY METHODOLOGY, see WISHLIST.md: true
-   P/E-vs-history/peers requires per-ticker fundamentals data that's not
-   free at this universe size (Yahoo's .info endpoint is slow/rate-limit-
-   prone for 1500 tickers). Proxy used instead: pct_off_52wk_high <= -25%
-   (meaningfully discounted from its own highs) AND five_day_chg_pct > -10%
-   (the drop isn't this week's acute shock - already digested, more likely
-   a sustained re-rating than a bounce candidate) AND market cap in the top
-   half of its sector (established name, not a distressed micro-cap).
+2. VALUE (fundamental discount) - the pct_off_52wk_high <= -25% (meaningfully
+   discounted from its own highs) AND five_day_chg_pct > -10% (the drop isn't
+   this week's acute shock - already digested, more likely a sustained
+   re-rating than a bounce candidate) AND market-cap-top-half-of-sector proxy
+   still does the first-pass screen across the full universe (real P/E at
+   that scale is genuinely not free - Yahoo's .info endpoint is slow/rate-
+   limit-prone for 1500 tickers, see WISHLIST.md). But per WISHLIST.md's own
+   suggested fix, the TOP_N*3 most-discounted survivors of that screen (a
+   small, safe shortlist) get real trailingPE/forwardPE via yfinance .info,
+   and the final 5 are picked by lowest trailingPE among those with a valid,
+   positive one (i.e. genuinely cheap on earnings, not just off its own
+   high) - falling back to the discount-only ranking to fill any remaining
+   slots if fewer than 5 names have usable PE data.
 
 3. SPECULATIVE (momentum + attention): volume >= 2x its 3-month average AND
    day_chg_pct > 0 (buying pressure, not panic selling) - a free-data proxy
@@ -27,8 +32,26 @@ the 15 names are 15 distinct ideas, not overlapping angles on the same name.
 """
 import json
 import sys
+import time
+
+import yfinance as yf
 
 TOP_N = 5
+VALUE_SHORTLIST_SIZE = TOP_N * 3  # small, safe pool for real .info fundamentals calls
+
+
+def fetch_pe(ticker):
+    """Real trailingPE/forwardPE for one ticker via yfinance .info - only ever
+    called on the small VALUE_SHORTLIST_SIZE pool, never the full universe."""
+    try:
+        info = yf.Ticker(ticker).info
+        return {
+            "trailing_pe": info.get("trailingPE"),
+            "forward_pe": info.get("forwardPE"),
+        }
+    except Exception as e:
+        print(f"  WARNING: .info fetch failed for {ticker}: {e}", file=sys.stderr)
+        return {"trailing_pe": None, "forward_pe": None}
 
 
 def main():
@@ -88,7 +111,29 @@ def main():
                 }
             )
     value_candidates.sort(key=lambda r: r["pct_off_52wk_high"])
-    value = value_candidates[:TOP_N]
+    shortlist = value_candidates[:VALUE_SHORTLIST_SIZE]
+    print(f"Fetching real PE for {len(shortlist)} value-bucket shortlist candidates...", file=sys.stderr)
+    for r in shortlist:
+        pe = fetch_pe(r["ticker"])
+        r["trailing_pe"] = pe["trailing_pe"]
+        r["forward_pe"] = pe["forward_pe"]
+        time.sleep(0.3)
+
+    with_pe = sorted(
+        (r for r in shortlist if r.get("trailing_pe") and r["trailing_pe"] > 0),
+        key=lambda r: r["trailing_pe"],
+    )
+    value = with_pe[:TOP_N]
+    if len(value) < TOP_N:
+        # not enough names had usable PE data - fill remaining slots from the
+        # discount-only ranking (still real, just not PE-confirmed for these)
+        picked = {r["ticker"] for r in value}
+        for r in shortlist:
+            if len(value) >= TOP_N:
+                break
+            if r["ticker"] not in picked:
+                value.append(r)
+                picked.add(r["ticker"])
     for r in value:
         claimed.add(r["ticker"])
 
@@ -103,7 +148,7 @@ def main():
         claimed.add(r["ticker"])
 
     out = {
-        "methodology_note": "See pipeline/build_recommendations.py docstring for full criteria. Value bucket uses a 52wk-discount proxy pending real fundamentals data (WISHLIST.md).",
+        "methodology_note": "See pipeline/build_recommendations.py docstring for full criteria. Value bucket picks are ranked by real trailingPE (via yfinance .info) among a shortlist pre-screened by 52wk-discount, not the discount proxy alone.",
         "bounce": bounce,
         "value": value,
         "speculative": speculative,

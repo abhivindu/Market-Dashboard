@@ -1130,6 +1130,70 @@
         }
       ],
       "verdict": "counter"
+    },
+    "LULU": {
+      "thesis": "Lululemon has fallen ~46% in 2026 (an eight-year low) after cutting FY2026 revenue guidance to a 5-7% decline (from prior flat-to-down-1%) and EPS guidance to $9.48-9.73 (from $10.95-11.15) on a fifth straight quarterly Americas comps decline and cooling China growth. Real fundamental deterioration, not pure sentiment - but at a 9.3x trailing P/E with a still-55.7% gross margin and minimal net leverage (0.19x net debt/EBITDA), this reads as a case where the market may be pricing a structural decline when the more likely outcome is a slower-growth reset. Bears note the recovery still depends on a China market that just showed how fast sentiment can turn there.",
+      "citations": [
+        {
+          "title": "Is Lululemon Stock a Buy as It Sinks to $96 per Share? Here's My Honest Answer.",
+          "url": "https://www.fool.com/investing/2026/09/17/is-company-name-stock-a-buy-as-it-sinks-to-x-per-s/",
+          "date": "2026-09-17"
+        },
+        {
+          "title": "Lululemon Shares Fall 17% After FY2026 Guidance Cut Despite Q2 Earnings Beat",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lululemon-shares-fall-17-fy2026-094142265.html",
+          "date": "2026-09-03"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "ZTS": {
+      "thesis": "Zoetis fell 20% on May 7, 2026 after Q1 earnings missed on softer U.S. pet demand (companion-animal revenue -4%, dermatology/parasiticides/OA pain all declining together), then cut full-year guidance again in Q2 on continued weak companion-animal demand and rising competition. Real, guided-down fundamentals rather than a one-off miss - but at an 11.6x trailing P/E for a business still generating positive organic growth (guided 3.5% revenue / 4% EPS growth at the midpoint) and no balance-sheet distress, this looks like a genuine multiple compression on a temporary demand air pocket rather than a broken franchise.",
+      "citations": [
+        {
+          "title": "Zoetis (ZTS) Is Down 24.1% After Cutting 2026 Guidance On Softer U.S. Pet Demand",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/zoetis-zts-down-24-1-081729163.html",
+          "date": "2026-05-07"
+        },
+        {
+          "title": "Why Zoetis (ZTS) Cut 2026 Guidance After Weaker Pet Demand And What It Means Now",
+          "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-zts/zoetis/news/why-zoetis-zts-cut-2026-guidance-after-weaker-pet-demand-and",
+          "date": "2026-08"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "PNR": {
+      "thesis": "Pentair fell sharply through Q2 2026 (down ~40% YTD as of late July) after a pool-equipment destocking crisis (key customers cutting inventory on high rates/inflation, ~$170M sales hit) forced a guidance cut (2026 sales now -4% to -7%, down from +2% to +4%; adjusted EPS cut to $4.60-4.80 from $5.30-5.40) plus an abrupt CFO departure just four months into the role (July 20, 2026) - a genuine confidence-shaking combination, not just one bad print. At a 14.4x trailing P/E against a cited fair-value estimate near $82 (vs. a ~$63 close), the value case depends on the destocking cycle being cyclical (rates/inventory-driven) rather than a permanent share loss - worth tracking the next print for confirmation either way.",
+      "citations": [
+        {
+          "title": "Pentair (PNR) Is Down 12.2% After Cutting 2026 Outlook And Announcing CFO Exit",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/pentair-pnr-down-12-2-043556245.html",
+          "date": "2026-07-20"
+        },
+        {
+          "title": "Is Pentair (PNR) Cheap As Q2 Miss And Guidance Cut Reset The Story?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/pentair-pnr-cheap-q2-miss-180758902.html",
+          "date": "2026-07"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "NKE": {
+      "thesis": "Nike is down ~40% in 2026 and became the Dow's worst-performing stock, roughly 78% below its November 2021 peak, on persistent margin compression, competitive share loss to adidas/Deckers, and net income down ~49% even as revenue is back near FY2022 levels. CAUTION on the trailing P/E specifically: Nike's reported FY2026 EPS of $2.10 included a $0.52/share one-time benefit from an expected tariff recovery under IEEPA - management itself disclosed EPS would have been closer to $1.58 without it, meaning the real underlying trailing P/E is meaningfully higher than the headline ~18x figure suggests. Genuine turnaround optionality (scale, brand) exists, but this is a case where the screen's trailing-P/E signal is flattered by a non-recurring item worth flagging rather than treating as a clean value read.",
+      "citations": [
+        {
+          "title": "Nike Price Forecast: Can NKE Recover After Becoming the Dow's Worst Stock?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nike-price-forecast-nke-recover-235311613.html",
+          "date": "2026-09"
+        },
+        {
+          "title": "Prediction: This Is Where Nike's Stock Will Finish 2026",
+          "url": "https://www.fool.com/investing/2026/08/19/prediction-this-is-where-nikes-stock-will-finish-2/",
+          "date": "2026-08-19"
+        }
+      ],
+      "verdict": "mixed"
     }
   },
   "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. Data note (this pull, 2026-09-22): earlier today the free Yahoo Finance bulk endpoint this dashboard uses for the full ~1,500-name universe hadn't yet posted Monday, Sept 21 daily bars for individual equities, so an initial version of this page reflected Friday Sept 18's session. A later re-pull the same day picked up Monday's data once Yahoo caught up, and the gainers/losers/volume tables below now reflect Monday, Sept 21's session - in step with the index-level data elsewhere on this dashboard."
