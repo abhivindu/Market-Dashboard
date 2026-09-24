@@ -1,28 +1,22 @@
 {
   "flags": [
     {
-      "type": "index_day_move",
-      "series": "SP500",
-      "value": 1.493,
-      "detail": "SP500 moved +1.49% intraday (threshold: >1%)"
-    },
-    {
-      "type": "index_day_move",
-      "series": "NASDAQ",
-      "value": 2.261,
-      "detail": "NASDAQ moved +2.26% intraday (threshold: >1%)"
-    },
-    {
       "type": "index_5day_move",
       "series": "NASDAQ",
-      "value": 3.573,
-      "detail": "NASDAQ moved +3.57% over 5 days (threshold: >2%)"
+      "value": 3.674,
+      "detail": "NASDAQ moved +3.67% over 5 days (threshold: >2%)"
     },
     {
-      "type": "oil_move",
-      "series": "DCOILWTICO",
-      "value": 4.491310290958792,
-      "detail": "WTI crude moved +4.49% (threshold: >3%)"
+      "type": "index_day_move",
+      "series": "DOW",
+      "value": -1.032,
+      "detail": "DOW moved -1.03% intraday (threshold: >1%)"
+    },
+    {
+      "type": "index_day_move",
+      "series": "RUSSELL2000",
+      "value": -1.276,
+      "detail": "RUSSELL2000 moved -1.28% intraday (threshold: >1%)"
     }
   ]
 }

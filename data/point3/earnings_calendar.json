@@ -1,96 +1,6 @@
 {
-  "as_of": "2026-09-22T00:38:41.651269",
+  "as_of": "2026-09-24T02:14:31.275304",
   "entries": [
-    {
-      "date": "2026-09-22",
-      "ticker": "AZO",
-      "company": "AutoZone, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$54.78",
-      "last_year_eps": "$48.71",
-      "market_cap": "$46,613,950,000"
-    },
-    {
-      "date": "2026-09-22",
-      "ticker": "THO",
-      "company": "Thor Industries, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.95",
-      "last_year_eps": "N/A",
-      "market_cap": "$3,527,928,060"
-    },
-    {
-      "date": "2026-09-22",
-      "ticker": "KBH",
-      "company": "KB Home",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.88",
-      "last_year_eps": "N/A",
-      "market_cap": "$2,888,914,430"
-    },
-    {
-      "date": "2026-09-22",
-      "ticker": "WOR",
-      "company": "Worthington Enterprises, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.74",
-      "last_year_eps": "$0.74",
-      "market_cap": "$2,807,418,880"
-    },
-    {
-      "date": "2026-09-22",
-      "ticker": "MLKN",
-      "company": "MillerKnoll, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.35",
-      "last_year_eps": "$0.45",
-      "market_cap": "$1,420,025,090"
-    },
-    {
-      "date": "2026-09-23",
-      "ticker": "CTAS",
-      "company": "Cintas Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.35",
-      "last_year_eps": "N/A",
-      "market_cap": "$78,960,493,000"
-    },
-    {
-      "date": "2026-09-23",
-      "ticker": "PAYX",
-      "company": "Paychex, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.33",
-      "last_year_eps": "$1.22",
-      "market_cap": "$41,343,574,000"
-    },
-    {
-      "date": "2026-09-23",
-      "ticker": "GIS",
-      "company": "General Mills, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.72",
-      "last_year_eps": "$0.86",
-      "market_cap": "$19,417,743,400"
-    },
-    {
-      "date": "2026-09-23",
-      "ticker": "FUL",
-      "company": "H. B. Fuller Company",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.45",
-      "last_year_eps": "N/A",
-      "market_cap": "$2,657,636,100"
-    },
-    {
-      "date": "2026-09-23",
-      "ticker": "CBRL",
-      "company": "Cracker Barrel Old Country Store, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.20",
-      "last_year_eps": "$0.74",
-      "market_cap": "$1,007,156,800"
-    },
     {
       "date": "2026-09-24",
       "ticker": "COST",
@@ -98,7 +8,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$6.48",
       "last_year_eps": "$5.87",
-      "market_cap": "$397,051,003,000"
+      "market_cap": "$398,869,266,000"
     },
     {
       "date": "2026-09-24",
@@ -107,7 +17,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$2.06",
       "last_year_eps": "$1.97",
-      "market_cap": "$23,874,236,400"
+      "market_cap": "$24,360,210,400"
     },
     {
       "date": "2026-09-24",
@@ -116,7 +26,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$4.46",
       "last_year_eps": "$3.47",
-      "market_cap": "$21,281,820,700"
+      "market_cap": "$22,648,315,900"
     },
     {
       "date": "2026-09-24",
@@ -125,7 +35,7 @@
       "time": "time-not-supplied",
       "eps_forecast": "$0.38",
       "last_year_eps": "$0.45",
-      "market_cap": "$2,000,942,850"
+      "market_cap": "$1,960,581,500"
     },
     {
       "date": "2026-09-24",
@@ -134,7 +44,7 @@
       "time": "time-after-hours",
       "eps_forecast": "($3.42)",
       "last_year_eps": "($2.52)",
-      "market_cap": "$659,025,540"
+      "market_cap": "$668,318,270"
     },
     {
       "date": "2026-09-28",
@@ -143,16 +53,16 @@
       "time": "time-after-hours",
       "eps_forecast": "$1.04",
       "last_year_eps": "$1.05",
-      "market_cap": "$9,280,274,400"
+      "market_cap": "$9,181,465,600"
     },
     {
       "date": "2026-09-28",
       "ticker": "MTN",
       "company": "Vail Resorts, Inc.",
       "time": "time-after-hours",
-      "eps_forecast": "($5.31)",
+      "eps_forecast": "($5.37)",
       "last_year_eps": "($5.08)",
-      "market_cap": "$4,981,567,000"
+      "market_cap": "$4,952,347,600"
     },
     {
       "date": "2026-09-29",
@@ -161,7 +71,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$1.36",
       "last_year_eps": "$1.43",
-      "market_cap": "$29,913,137,200"
+      "market_cap": "$30,515,781,600"
     },
     {
       "date": "2026-09-29",
@@ -170,7 +80,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$0.66",
       "last_year_eps": "$0.64",
-      "market_cap": "$8,118,733,800"
+      "market_cap": "$8,066,226,700"
     },
     {
       "date": "2026-09-29",
@@ -179,7 +89,7 @@
       "time": "time-after-hours",
       "eps_forecast": "",
       "last_year_eps": "$1.08",
-      "market_cap": "$4,539,989,500"
+      "market_cap": "$4,740,478,500"
     },
     {
       "date": "2026-09-29",
@@ -188,7 +98,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$2.40",
       "last_year_eps": "$2.46",
-      "market_cap": "$1,700,581,380"
+      "market_cap": "$1,861,669,890"
     },
     {
       "date": "2026-09-30",
@@ -197,7 +107,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$31.24",
       "last_year_eps": "$2.86",
-      "market_cap": "$1,147,237,560,000"
+      "market_cap": "$1,237,995,620,000"
     },
     {
       "date": "2026-09-30",
@@ -206,7 +116,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$3.86",
       "last_year_eps": "$3.12",
-      "market_cap": "$31,391,068,200"
+      "market_cap": "$32,377,114,600"
     },
     {
       "date": "2026-09-30",
@@ -215,7 +125,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$4.32",
       "last_year_eps": "$4.05",
-      "market_cap": "$10,094,568,400"
+      "market_cap": "$9,831,027,700"
     },
     {
       "date": "2026-09-30",
@@ -224,7 +134,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$0.31",
       "last_year_eps": "$0.39",
-      "market_cap": "$7,263,423,000"
+      "market_cap": "$7,095,399,400"
     },
     {
       "date": "2026-09-30",
@@ -233,7 +143,7 @@
       "time": "time-pre-market",
       "eps_forecast": "",
       "last_year_eps": "$4.12",
-      "market_cap": "$3,419,699,710"
+      "market_cap": "$3,430,959,360"
     },
     {
       "date": "2026-09-30",
@@ -242,7 +152,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$1.16",
       "last_year_eps": "$1.19",
-      "market_cap": "$1,645,029,120"
+      "market_cap": "$1,665,945,730"
     },
     {
       "date": "2026-10-01",
@@ -251,7 +161,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$3.19",
       "last_year_eps": "$3.03",
-      "market_cap": "$121,012,929,000"
+      "market_cap": "$122,634,977,000"
     },
     {
       "date": "2026-10-01",
@@ -260,7 +170,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.44",
       "last_year_eps": "$0.49",
-      "market_cap": "$52,679,037,000"
+      "market_cap": "$53,554,303,000"
     },
     {
       "date": "2026-10-01",
@@ -269,7 +179,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$0.75",
       "last_year_eps": "$0.85",
-      "market_cap": "$13,098,447,900"
+      "market_cap": "$13,286,643,700"
     },
     {
       "date": "2026-10-01",
@@ -278,7 +188,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$5.32",
       "last_year_eps": "$4.94",
-      "market_cap": "$9,069,273,100"
+      "market_cap": "$9,303,069,700"
     }
   ]
 }
