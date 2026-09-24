@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-22",
-  "freshness_note": "Every citation below carries the actual publish date of its source, separate from this page's pull date above. On refresh, an item is only rewritten if genuinely newer reporting was found for it \u2014 otherwise this page will say so explicitly rather than re-presenting the same information under a fresher-looking timestamp. This pull (2026-09-22) spot-checked CMBS Conduit/Multi-Borrower and Student Loan ABS. Both had genuine updates: a fresh September maturity-wall report (smaller dollar total than August but a higher share of sub-6%-debt-yield loans, retail weakest) for CMBS Conduit, and Navient's Sept 18 $612.5M private-education-loan securitization (its fourth of the year) for Student Loan ABS. Credit spreads (IG/BBB/HY OAS, refreshed this pull from FRED) remain near multi-year tights with only marginal day-over-day movement, so no other asset class showed a spread-driven reason to re-check today.",
+  "as_of": "2026-09-24",
+  "freshness_note": "Every citation below carries the actual publish date of its source, separate from this page's pull date above. On refresh, an item is only rewritten if genuinely newer reporting was found for it \u2014 otherwise this page will say so explicitly rather than re-presenting the same information under a fresher-looking timestamp. This pull (2026-09-24) spot-checked Esoteric ABS, Private Credit \u2014 Direct Lending, and Middle-Market/Private Credit CLOs. Esoteric ABS had the clearest genuine news: Blackstone-backed QTS priced a $1.47B data-center ABS deal in the second week of September and, per September 23 reporting, is already marketing a further ~$1B deal (seven hyperscale data centers) targeting an early-October close \u2014 the sector's issuance pace is real and ongoing, not a one-off. Direct Lending and Middle-Market CLOs both got a genuine update from the same source: Fitch's trailing-12-month private credit default-rate index hit a fresh record 6.3% through August (up from 6.1% in July, reported mid-September 2026), with a size/sector breakdown (healthcare and industrial/manufacturing at 9.9%, software at just 0.6%, smallest borrowers hit hardest) that sharpens rather than reverses what both entries already said about rising defaults. Credit spreads (IG/BBB/HY OAS, refreshed this pull from FRED) remain near multi-year tights with only marginal day-over-day movement. A broader search this pull (auto ABS, credit card ABS, BSL CLOs, non-agency RMBS, CMBS SASB) turned up no dated, source-specific news genuinely newer than what's already on this page \u2014 non-QM RMBS spread/issuance figures already on this page were independently re-confirmed as current, and a Fed-rate-cut framing found in some CLO commentary contradicted this dashboard's own better-sourced Sept 16 FOMC hike record (see Agency RMBS), so it was not used.",
   "data_gap_note": "No free source publishes current CMBS/RMBS/ABS/CLO spread levels (confirmed via research \u2014 FRED's one CMBS series was discontinued in 2016; CMBX/CDX pricing is Bloomberg-only). Performance/spread commentary below is sourced from actual bank and rating-agency statements where they cite a figure, SIFMA issuance-volume trends as an explicitly-labeled proxy for demand/spread direction, and Point 1's corporate IG/HY spreads referenced only as general credit-market backdrop \u2014 never presented as this asset class's own spread reading.",
   "asset_classes": [
     {
@@ -693,6 +693,11 @@
           "title": "Private Credit Fundraising Hits Record as Defaults Spike",
           "url": "https://angelinvestorsnetwork.com/market-analysis/private-credit-fundraising-record-bdc-defaults-2026",
           "date": "2026"
+        },
+        {
+          "title": "US Private Debt Default Rate Hits Record High in August: Fitch Ratings",
+          "url": "https://cryptobriefing.com/us-private-debt-default-rate-record-fitch/",
+          "date": "2026-09-14"
         }
       ],
       "investable_exposure": {
@@ -773,6 +778,11 @@
           "title": "Private Credit Meltdown: Why the $265B Market Is Freezing Investors Out",
           "url": "https://kevincrowther.com/news/265-billion-private-credit-meltdown-blackrock-blue-owl-and-morgan-stanley-gate-redemptions/",
           "date": "2026"
+        },
+        {
+          "title": "US Private Debt Default Rate Hits Record High in August: Fitch Ratings",
+          "url": "https://cryptobriefing.com/us-private-debt-default-rate-record-fitch/",
+          "date": "2026-09-14"
         }
       ],
       "investable_exposure": {
@@ -938,6 +948,16 @@
           "title": "Aircraft delivery delays drive innovation in Carlyle's latest ABS",
           "url": "https://www.structuredcreditinvestor.com/news-analysis/abs/85000/aircraft-delivery-delays-drive-innovation-in-carlyle's-latest-abs",
           "date": "2026"
+        },
+        {
+          "title": "Data center ABS may not be easy as first thought",
+          "url": "https://www.globalcapital.com/securitization/article/2gti3ppdny6m0j0mogxz4/people-and-markets/leader/data-center-abs-may-not-be-easy-as-first-thought",
+          "date": "2026-08-28"
+        },
+        {
+          "title": "QTS Eyes $1B ABS Deal on Data Center Collection",
+          "url": "https://www.commercialsearch.com/news/qts-eyes-1b-abs-deal-on-data-center-collection/",
+          "date": "2026-09-23"
         }
       ],
       "investable_exposure": {
