@@ -1135,6 +1135,172 @@
         }
       ],
       "verdict": "counter"
+    },
+    "RSI": {
+      "thesis": "Rush Street Interactive is down ~21% over five days into Sept 23 with no single acute negative catalyst found - the decline looks driven by valuation concerns (GF Value estimates the stock as ~45% overvalued) and $359.9M of insider selling over the trailing 12 months with zero insider buying, both of which are sentiment overhangs rather than an operating setback. Citizens reiterated a Market Outperform rating and $34 price target on Sept 22, well above the $20.56 close, and no regulatory or state-market news was found. Bounce case depends on this being a richly-valued name deflating on its own weight rather than a broken thesis, but the insider-selling pattern is a real caution flag against a clean bounce read.",
+      "citations": [
+        {
+          "title": "Rush Street Interactive Inc (RSI) Shares Fall 3.1% -- GF Value Says Still Overvalued",
+          "url": "https://www.gurufocus.com/news/9094444/rush-street-interactive-inc-rsi-shares-fall-31-gf-value-says-still-overvalued",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "RSI Reiterated by Citizens -- Price Target Maintained at $34.00",
+          "url": "https://www.gurufocus.com/news/9091807/rsi-reiterated-by-citizens-price-target-maintained-at-3400",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "PLNT": {
+      "thesis": "Planet Fitness's decline reflects real fundamental deterioration, not overreaction: Q1 2026 net new member adds fell 36% year over year, management cut full-year 2026 guidance, and a securities-fraud class action (lead-plaintiff deadline Sept 14) alleges the company's 'fitness-minded' marketing campaign alienated the casual and beginner gym-goers who make up its core membership base. The stock has fallen for six straight sessions into Sept 22 and is down 56.6% YTD. GF Value flags it as ~60% undervalued on trailing metrics, but that undervaluation assumes the membership-growth problem is temporary - the marketing-strategy allegation, if accurate, points to a demand issue rather than a sentiment one.",
+      "citations": [
+        {
+          "title": "PLNT Stock Drop: Planet Fitness Faces Securities Fraud Class Action Over Low Membership Growth; BFA Law Reminds Investors of September 14 Deadline",
+          "url": "https://www.globenewswire.com/news-release/2026/09/04/3356458/0/en/plnt-stock-drop-planet-fitness-faces-securities-fraud-class-action-over-low-membership-growth-bfa-law-reminds-investors-of-september-14-deadline.html",
+          "date": "2026-09-04"
+        },
+        {
+          "title": "Is Planet Fitness Inc (PLNT) a Bargain After 4.9% Drop? GF Value Says Undervalued",
+          "url": "https://www.gurufocus.com/news/9090801/is-planet-fitness-inc-plnt-a-bargain-after-49-drop-gf-value-says-undervalued",
+          "date": "2026-09"
+        }
+      ],
+      "verdict": "counter"
+    },
+    "AN": {
+      "thesis": "AutoNation's drop follows real, management-guided near-term pressure rather than a rumor: at a Morgan Stanley conference on Sept 17, the CFO said consumers are pulling back on discretionary maintenance spending (limiting Q3 service growth) and flagged a seasonal 10% sequential drop in new-vehicle gross profit per unit from the model-year transition. Citigroup subsequently cut its price target from $290 to $255 while keeping a Buy rating. This reads as a genuine but modest soft patch - guided, not a surprise miss - and analysts have kept constructive ratings through the decline, so the bounce case rests on the affordability headwind proving cyclical rather than the start of a deeper demand problem.",
+      "citations": [
+        {
+          "title": "AutoNation tumbles 10% amid cautious conference commentary",
+          "url": "https://seekingalpha.com/news/4644083-autonation-tumbles-10-percent-amid-cautious-conference-commentary",
+          "date": "2026-09-17"
+        },
+        {
+          "title": "AutoNation stock falls as Citigroup cuts its price target",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/autonation-stock-falls-as-citigroup-cuts-its-price-target/70164167",
+          "date": "2026-09"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "MTDR": {
+      "thesis": "No Matador-specific catalyst found for this pull's decline - consistent with the same conclusion already reached for MTDR in the movers section, this reads as broad energy-sector softness rather than a company problem. Matador's own Q2 was strong (beat estimates by 17%/12.3%, near-record $303M free cash flow, debt cut below $1B, dividend maintained), and Wall Street's median price target ($68, range $56-$92) plus GF Value ($62.76) both sit well above the current ~$52-54 price. Clean bounce case: fundamentals didn't break, this is sector beta.",
+      "citations": [
+        {
+          "title": "Matador Resources Co (MTDR) Stock Down 4.8% -- Now Undervalued? GF Score: 85/100",
+          "url": "https://www.gurufocus.com/news/9090722/matador-resources-co-mtdr-stock-down-48-now-undervalued-gf-score-85100",
+          "date": "2026-09"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "CHTR": {
+      "thesis": "Charter's decline looks like the market correctly pricing in a genuine, worsening structural problem rather than overreacting: broadband subscriber losses accelerated to 172,000 in Q2 2026 from 116,000 a year earlier as fiber and fixed-wireless competition intensifies, and Wolfe Research downgraded the stock to Underperform on Sept 14 (from Peer Perform, $118 price target) citing added leverage and integration risk from the just-closed Cox acquisition plus deteriorating broadband competitive dynamics expected into 2027-2028 (expanding satellite capacity, more aggressive fiber pricing). Seven straight down sessions have taken the stock to roughly -39% YTD. This is a multi-year competitive and balance-sheet story, not a one-day shock - the bounce case here is weak.",
+      "citations": [
+        {
+          "title": "charter downgraded to underperform from peer perform at wolfe research",
+          "url": "https://www.tipranks.com/news/the-fly/charter-downgraded-to-underperform-from-peer-perform-at-wolfe-research",
+          "date": "2026-09-14"
+        },
+        {
+          "title": "A 7-Day Losing Streak Has Charter Communications Stock Down 20%",
+          "url": "https://www.trefis.com/stock/chtr/articles/616265/a-7-day-losing-streak-has-charter-communications-stock-down-20/2026-09-23",
+          "date": "2026-09-23"
+        }
+      ],
+      "verdict": "counter"
+    },
+    "PODD": {
+      "thesis": "Insulet is down over 60% from its 52-week high after an August 2026 guidance cut, but management's own explanation points to a fixable operational issue rather than collapsing core demand: about two-thirds of the cut traced to weaker type-2 diabetes customer retention and utilization in the first 90 days of therapy, with the remainder from slower new-customer starts and pricing mix - not competitive share loss. The real risk ahead is that tubeless automated-insulin-delivery competitors are expected to enter the market in 2027, which could pressure both share and pricing. Value case depends on retention tools (Omnipod Discover) fixing the 90-day drop-off before competition arrives.",
+      "citations": [
+        {
+          "title": "Insulet (PODD) Is Down 21.9% After Cutting 2026 Revenue Outlook On Weaker Type 2 Retention",
+          "url": "https://finance.yahoo.com/healthcare/articles/insulet-podd-down-21-9-011155409.html",
+          "date": "2026-08"
+        },
+        {
+          "title": "Insulet stock trades 60.9 percent below its 52-week high",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/insulet-stock-trades-60-9-percent-below-its-52-week-high/70167994",
+          "date": "2026-09"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "WOR": {
+      "thesis": "Worthington Enterprises' volume spike lines up cleanly with its Q1 FY27 earnings release on Sept 22: net sales rose 13% y/y to $343.9M (7% organic, 6% from acquisitions), net earnings grew 22%, adjusted EBITDA rose 10%, free cash flow nearly doubled to $54.0M, and the company raised its dividend. This is a straightforward earnings-beat momentum move, not speculative flow untethered from fundamentals.",
+      "citations": [
+        {
+          "title": "Worthington Enterprises Reports First Quarter Fiscal 2027 Results",
+          "url": "https://www.globenewswire.com/news-release/2026/09/22/3366887/0/en/worthington-enterprises-reports-first-quarter-fiscal-2027-results.html",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "SNX": {
+      "thesis": "TD Synnex's volume and price action look like pre-earnings positioning: the company reports Q3 FY26 results before market open on Sept 24 (the session after this pull's data), with consensus looking for EPS +31.3% y/y and revenue +20.8% y/y, and a track record of beating estimates in 88% of quarters over the past two years. GF Value flags the stock as roughly 68% above its estimated fair value heading into the print, so the setup carries real valuation risk if the beat streak breaks - this is a bet on the print landing well, not yet a settled catalyst.",
+      "citations": [
+        {
+          "title": "SNX Looks 68.1% Overvalued on GF Value™ Heading into Q3 Earnings",
+          "url": "https://www.gurufocus.com/news/9094091/snx-looks-681-overvalued-on-gf-value-heading-into-q3-earnings",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "TD SYNNEX (SNX) to Announce Earnings on Thursday",
+          "url": "https://www.marketbeat.com/instant-alerts/upcoming-td-synnex-snx-to-announce-earnings-on-thursday-2026-09-17/",
+          "date": "2026-09-17"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "FUL": {
+      "thesis": "H.B. Fuller's elevated volume coincides with two live catalysts: Q3 FY26 earnings (reported after close Sept 23, call Sept 24) and continued shareholder pressure from Ancora, which has reaffirmed its proposal for H.B. Fuller to divest its Building Adhesive Solutions segment. The combination of an earnings event and an active activist-driven breakup thesis is a reasonable explanation for the volume spike; the speculative case depends on whether the Q3 print and management's response to Ancora add up to a credible path to value realization, which isn't yet resolved.",
+      "citations": [
+        {
+          "title": "H.B. Fuller Plans Sept. 23 Q3 Results Release",
+          "url": "https://www.stocktitan.net/news/FUL/h-b-fuller-to-report-third-quarter-2026-results-on-september-23-bz8fhrqka3bb.html",
+          "date": "2026-09"
+        },
+        {
+          "title": "H.B. Fuller Company (FUL) Stock Price & Overview",
+          "url": "https://stockanalysis.com/stocks/ful/",
+          "date": "n/d"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "RRR": {
+      "thesis": "Red Rock Resorts' fundamentals look solid - Q2 EPS beat by $0.16 ($0.67 vs $0.51 consensus) on revenue of $510.3M (vs $500.1M expected), and Jefferies raised its price target to $75 (Buy) - yet the stock hit a fresh 52-week low intraday this week even as it ticked up modestly on the day, down roughly 20% over the trailing month and meaningfully underperforming the broader market over the past year. This looks like a valuation/sentiment gap opening between a beat-and-raise quarter and a still-falling share price rather than a fresh negative catalyst; GF Value pegs the stock as roughly 42% undervalued, but the disconnect between good numbers and a falling stock is itself a reason for caution rather than a clean momentum case.",
+      "citations": [
+        {
+          "title": "Red Rock Resorts (NASDAQ:RRR) Hits New 52-Week Low – What's Next?",
+          "url": "https://www.thecerbatgem.com/2026/09/23/red-rock-resorts-nasdaqrrr-hits-new-52-week-low-whats-next.html",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "Is Red Rock Resorts Inc (RRR) a Bargain After 3.1% Drop? GF Value Says Undervalued",
+          "url": "https://www.gurufocus.com/news/9092652/is-red-rock-resorts-inc-rrr-a-bargain-after-31-drop-gf-value-says-undervalued",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "ACMR": {
+      "thesis": "ACM Research's momentum is real and fundamentals-backed, not pure speculation: the stock jumped again on Sept 23 (part of a >26% five-day run) on continued Wall Street enthusiasm following a strong 2026 - Q2 revenue rose 36% y/y to $292.9M, orders were up 105% in H1 2026, and full-year revenue guidance was raised - within a broader semiconductor-equipment sector rally. The stock is also volatile and richly re-rated (GF Value estimates put it well below the current price even after accounting for the growth), so the speculative label is warranted alongside the genuine demand story; a pullback in sector sentiment could hit this name harder than peers.",
+      "citations": [
+        {
+          "title": "ACM Research (NASDAQ:ACMR) Shares Up 4.8% - What's Next?",
+          "url": "https://www.marketbeat.com/instant-alerts/price-acm-research-nasdaq-acmr-shares-up-48-whats-next-2026-09-23/",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "A Look at ACM Research Inc (ACMR) After 6.2% Gain -- GF Value $37.49 vs Price $72.77",
+          "url": "https://www.gurufocus.com/news/9090750/a-look-at-acm-research-inc-acmr-after-62-gain-gf-value-3749-vs-price-7277",
+          "date": "2026-09"
+        }
+      ],
+      "verdict": "mixed"
     }
   },
   "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. Data note (this pull, 2026-09-22): earlier today the free Yahoo Finance bulk endpoint this dashboard uses for the full ~1,500-name universe hadn't yet posted Monday, Sept 21 daily bars for individual equities, so an initial version of this page reflected Friday Sept 18's session. A later re-pull the same day picked up Monday's data once Yahoo caught up, and the gainers/losers/volume tables below now reflect Monday, Sept 21's session - in step with the index-level data elsewhere on this dashboard."
