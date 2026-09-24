@@ -8,6 +8,7 @@ rather than a stat dump - it's the one piece of hand-authored narrative per
 pull, carried in content_overrides.json under "point1_synthesis".
 """
 import json
+import re
 
 from render_common import svg_sparkline
 
@@ -58,7 +59,8 @@ h1,h2,h3{{font-family:'Fraunces',Georgia,serif; text-wrap:balance; margin:0;}}
 .masthead .kicker{{font-size:0.72rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--accent); font-weight:600;}}
 .masthead .meta{{color:var(--ink-faint); font-size:0.78rem; text-align:right; line-height:1.5;}}
 
-.lede{{font-family:'Fraunces',Georgia,serif; font-size:1.15rem; font-weight:400; line-height:1.62; color:var(--ink); margin:0 0 36px; max-width:66ch;}}
+.lede{{font-family:'Fraunces',Georgia,serif; font-size:1.15rem; font-weight:400; line-height:1.62; color:var(--ink); margin:0 0 16px; max-width:66ch;}}
+.lede:last-of-type{{margin-bottom:36px;}}
 .lede strong{{font-weight:600;}}
 
 .since-pull{{border-left:3px solid var(--accent); background:var(--accent-soft); border-radius:0 10px 10px 0; padding:12px 16px; margin-bottom:24px; max-width:66ch;}}
@@ -143,7 +145,7 @@ footer{{color:var(--ink-faint); font-size:0.74rem; border-top:1px solid var(--li
     {since_pull_prev_date}
   </div>
 
-  <p class="lede">{synthesis}</p>
+  {lede_html}
 
   <div class="cluster-row">
     <div class="cluster">
@@ -275,6 +277,23 @@ EVENT_TEMPLATE = """
 """
 
 
+def render_lede(synthesis):
+    """Split the synthesis into one <p class="lede"> per paragraph.
+
+    content_overrides.json's point1_synthesis accumulates one "UPDATE (this
+    pull, <date>): ..." block per refresh, each prepended ahead of older
+    blocks per the citation-date discipline (see CLAUDE.md) - never
+    rewritten, so the string grows long over multiple pulls. Rendering it as
+    a single run-on paragraph makes multi-pull syntheses hard to read, so
+    paragraph breaks (blank lines) in the source string become separate
+    <p class="lede"> elements.
+    """
+    paragraphs = [p.strip() for p in re.split(r"\n\s*\n", synthesis.strip()) if p.strip()]
+    if not paragraphs:
+        return '<p class="lede">No synthesis available for this pull.</p>'
+    return "\n  ".join(f'<p class="lede">{p}</p>' for p in paragraphs)
+
+
 def fmt_pct(v):
     return f"{v:+.2f}%"
 
@@ -396,7 +415,7 @@ def main():
 
     html = TEMPLATE.format(
         as_of_display=as_of,
-        synthesis=payload.get("synthesis") or "No synthesis available for this pull.",
+        lede_html=render_lede(payload.get("synthesis") or ""),
         since_pull_quiet_class=" quiet" if is_quiet else "",
         since_pull_blurb=since_pull.get("blurb") or "No prior pull on record.",
         since_pull_prev_date=since_pull_prev_date,
