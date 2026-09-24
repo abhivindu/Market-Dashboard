@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-09-22T00:35:48.447286+00:00",
+  "as_of": "2026-09-24T02:55:00.841408+00:00",
   "indices": {
     "SP500": {
       "name": "SP500",
       "ticker": "^GSPC",
-      "last": 7764.7,
-      "day_chg_pct": 1.493,
-      "five_day_chg_pct": 1.899,
-      "month_chg_pct": 1.461,
+      "last": 7706.03,
+      "day_chg_pct": -0.756,
+      "five_day_chg_pct": 1.586,
+      "month_chg_pct": 0.695,
       "history": [
         {
           "date": "2026-08-24",
@@ -88,16 +88,20 @@
         {
           "date": "2026-09-21",
           "close": 7764.7
+        },
+        {
+          "date": "2026-09-23",
+          "close": 7706.03
         }
       ]
     },
     "NASDAQ": {
       "name": "NASDAQ",
       "ticker": "^IXIC",
-      "last": 27122.09,
-      "day_chg_pct": 2.261,
-      "five_day_chg_pct": 3.573,
-      "month_chg_pct": 4.395,
+      "last": 26936.04,
+      "day_chg_pct": -0.686,
+      "five_day_chg_pct": 3.674,
+      "month_chg_pct": 3.679,
       "history": [
         {
           "date": "2026-08-24",
@@ -178,16 +182,20 @@
         {
           "date": "2026-09-21",
           "close": 27122.09
+        },
+        {
+          "date": "2026-09-23",
+          "close": 26936.04
         }
       ]
     },
     "DOW": {
       "name": "DOW",
       "ticker": "^DJI",
-      "last": 52048.83,
-      "day_chg_pct": 0.709,
-      "five_day_chg_pct": -0.71,
-      "month_chg_pct": -2.562,
+      "last": 51511.59,
+      "day_chg_pct": -1.032,
+      "five_day_chg_pct": -1.116,
+      "month_chg_pct": -3.567,
       "history": [
         {
           "date": "2026-08-24",
@@ -268,16 +276,20 @@
         {
           "date": "2026-09-21",
           "close": 52048.83
+        },
+        {
+          "date": "2026-09-23",
+          "close": 51511.59
         }
       ]
     },
     "RUSSELL2000": {
       "name": "RUSSELL2000",
       "ticker": "^RUT",
-      "last": 2875.36,
-      "day_chg_pct": 0.523,
-      "five_day_chg_pct": -0.584,
-      "month_chg_pct": -3.997,
+      "last": 2838.66,
+      "day_chg_pct": -1.276,
+      "five_day_chg_pct": -1.102,
+      "month_chg_pct": -5.223,
       "history": [
         {
           "date": "2026-08-24",
@@ -358,21 +370,21 @@
         {
           "date": "2026-09-21",
           "close": 2875.36
+        },
+        {
+          "date": "2026-09-23",
+          "close": 2838.66
         }
       ]
     },
     "VIX": {
       "name": "VIX",
       "ticker": "^VIX",
-      "last": 14.87,
-      "day_chg_pct": 0.405,
-      "five_day_chg_pct": -13.041,
-      "month_chg_pct": -1.718,
+      "last": 15.18,
+      "day_chg_pct": 2.085,
+      "five_day_chg_pct": -11.744,
+      "month_chg_pct": -4.227,
       "history": [
-        {
-          "date": "2026-08-21",
-          "close": 15.13
-        },
         {
           "date": "2026-08-24",
           "close": 15.85
@@ -456,6 +468,10 @@
         {
           "date": "2026-09-21",
           "close": 14.87
+        },
+        {
+          "date": "2026-09-23",
+          "close": 15.18
         }
       ]
     }
