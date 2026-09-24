@@ -1023,34 +1023,49 @@
       "verdict": "aligned"
     },
     "KTOS": {
-      "thesis": "Kratos is down 37% YTD despite a strong defense backlog and hypersonics revenue guided to ~$400M in 2026 and $700M+ in 2027 (MACH-TB program funding), plus recent $20M and $35M contract wins. Value case: the stock's multiple has compressed even as the forward revenue/earnings trajectory improved.",
+      "thesis": "UPDATE (this pull, 2026-09-24): Kratos and GE Aerospace achieved successful ignition of the GEK800 (now designated F143) turbofan cruise-missile propulsion system on Sept 21 at a 100% success rate, keeping the program on schedule for a long-range stand-off-strike engine and moving into the next phase of ground testing toward production - a concrete engineering milestone, not just a funding headline. Prior framing: Kratos is down 37% YTD despite a strong defense backlog and hypersonics revenue guided to ~$400M in 2026 and $700M+ in 2027 (MACH-TB program funding), plus recent $20M and $35M contract wins. Value case: the stock's multiple has compressed even as the forward revenue/earnings trajectory improved.",
       "citations": [
         {
           "title": "Kratos Defense & Security Solutions, Inc. (KTOS) Stock Price & News - Google Finance",
           "url": "https://www.google.com/finance/quote/KTOS:NASDAQ",
           "date": "n/d"
+        },
+        {
+          "title": "Kratos and GE Aerospace Achieve Significant Program Milestone with Successful Ignition of GEK800 Turbofan Cruise Missile Propulsion System",
+          "url": "https://www.globenewswire.com/news-release/2026/09/21/3365522/224/en/kratos-and-ge-aerospace-achieve-significant-program-milestone-with-successful-ignition-of-gek800-turbofan-cruise-missile-propulsion-system.html",
+          "date": "2026-09-21"
         }
       ],
       "verdict": "aligned"
     },
     "FISV": {
-      "thesis": "Fiserv is down 64% over the past year after slashing 2026 guidance to roughly flat organic revenue, driven partly by Argentina inflation normalization. Real fundamental deterioration, not pure sentiment - but at 72% below one fair-value estimate ($48.65 vs $174.38 GuruFocus GF Value), this is a case where the market may have overcorrected for a genuine but bounded problem.",
+      "thesis": "UPDATE (this pull, 2026-09-24): Refinitiv/Verus upgraded Fiserv to Buy from Hold on Sept 14, ahead of the stock's further slide to a new 52-week low ($47.04) later in the month - a genuine, dated bull-side reassessment during the drawdown rather than a change to the guidance-cut story itself, and CEO Takis Georgakopoulos's Project Elevate ($500M savings target, noncore divestitures) remains the operative turnaround plan. Prior framing: Fiserv is down 64% over the past year after slashing 2026 guidance to roughly flat organic revenue, driven partly by Argentina inflation normalization. Real fundamental deterioration, not pure sentiment - but at 72% below one fair-value estimate ($48.65 vs $174.38 GuruFocus GF Value), this is a case where the market may have overcorrected for a genuine but bounded problem.",
       "citations": [
         {
           "title": "Fiserv stock tumbles after cutting 2026 guidance",
           "url": "https://ca.investing.com/news/stock-market-news/fiserv-stock-tumbles-after-cutting-2026-guidance-93CH-4781377",
           "date": "2026-09"
+        },
+        {
+          "title": "Fiserv Inc (FISV) Stock Down 4.3% -- Now Undervalued? GF Score: 71/100",
+          "url": "https://www.gurufocus.com/news/9088656/fiserv-inc-fisv-stock-down-43-now-undervalued-gf-score-71100",
+          "date": "2026-09-18"
         }
       ],
       "verdict": "aligned"
     },
     "BSX": {
-      "thesis": "Boston Scientific is down ~60% from its September 2025 all-time high after a cyberattack disruption and slowing electrophysiology/WATCHMAN growth forced a guidance cut to 6.5-8% organic growth. Real operational hit, but the growth-rate cut (not a growth reversal) at a much lower valuation ahead of an Oct 28 earnings report is the value setup here.",
+      "thesis": "UPDATE (this pull, 2026-09-24): The deterioration has continued and broadened since the prior write-up - Citi downgraded to Neutral on Sept 17, Oppenheimer cut its price target to $65 from $85 on Sept 21, and Wells Fargo cut its target to $48, all citing the ongoing cyberattack disruption and WATCHMAN/electrophysiology pressure. This confirms rather than reverses the thesis below; the value case now depends more heavily on the Oct 28 earnings report showing the disruption is temporary. Prior framing: Boston Scientific is down ~60% from its September 2025 all-time high after a cyberattack disruption and slowing electrophysiology/WATCHMAN growth forced a guidance cut to 6.5-8% organic growth. Real operational hit, but the growth-rate cut (not a growth reversal) at a much lower valuation ahead of an Oct 28 earnings report is the value setup here.",
       "citations": [
         {
           "title": "Has BSX Stock Fallen Far Enough To Buy?",
           "url": "https://www.trefis.com/articles-v3/613349/has-bsx-stock-fallen-far-enough-to-buy/2026-08-27",
           "date": "2026-08-27"
+        },
+        {
+          "title": "Boston Scientific stock heads into the open after a 0.9% gain",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/boston-scientific-stock-heads-into-the-open-after-a-0-9-percent-gain/70149085",
+          "date": "2026-09-21"
         }
       ],
       "verdict": "aligned"
