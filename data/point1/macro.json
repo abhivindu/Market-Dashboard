@@ -1,22 +1,14 @@
 {
-  "as_of": "2026-09-22T00:39:36.665348+00:00",
+  "as_of": "2026-09-24T02:14:57.742566+00:00",
   "series": {
     "DGS3MO": {
       "series_id": "DGS3MO",
       "label": "3-Month Treasury Yield",
-      "last_value": 4.14,
-      "last_date": "2026-09-18",
-      "day_chg": 0.02,
+      "last_value": 4.16,
+      "last_date": "2026-09-22",
+      "day_chg": -0.01,
       "month_chg": 0.28,
       "history": [
-        {
-          "date": "2026-06-25",
-          "value": 3.84
-        },
-        {
-          "date": "2026-06-26",
-          "value": 3.83
-        },
         {
           "date": "2026-06-29",
           "value": 3.87
@@ -248,25 +240,25 @@
         {
           "date": "2026-09-18",
           "value": 4.14
+        },
+        {
+          "date": "2026-09-21",
+          "value": 4.17
+        },
+        {
+          "date": "2026-09-22",
+          "value": 4.16
         }
       ]
     },
     "DGS2": {
       "series_id": "DGS2",
       "label": "2-Year Treasury Yield",
-      "last_value": 4.76,
-      "last_date": "2026-09-18",
-      "day_chg": 0.09,
-      "month_chg": 0.57,
+      "last_value": 4.71,
+      "last_date": "2026-09-22",
+      "day_chg": -0.05,
+      "month_chg": 0.47,
       "history": [
-        {
-          "date": "2026-06-25",
-          "value": 4.09
-        },
-        {
-          "date": "2026-06-26",
-          "value": 4.07
-        },
         {
           "date": "2026-06-29",
           "value": 4.1
@@ -498,25 +490,25 @@
         {
           "date": "2026-09-18",
           "value": 4.76
+        },
+        {
+          "date": "2026-09-21",
+          "value": 4.76
+        },
+        {
+          "date": "2026-09-22",
+          "value": 4.71
         }
       ]
     },
     "DGS10": {
       "series_id": "DGS10",
       "label": "10-Year Treasury Yield",
-      "last_value": 5.01,
-      "last_date": "2026-09-18",
-      "day_chg": 0.07,
-      "month_chg": 0.36,
+      "last_value": 4.96,
+      "last_date": "2026-09-22",
+      "day_chg": 0.0,
+      "month_chg": 0.22,
       "history": [
-        {
-          "date": "2026-06-25",
-          "value": 4.4
-        },
-        {
-          "date": "2026-06-26",
-          "value": 4.38
-        },
         {
           "date": "2026-06-29",
           "value": 4.38
@@ -748,25 +740,25 @@
         {
           "date": "2026-09-18",
           "value": 5.01
+        },
+        {
+          "date": "2026-09-21",
+          "value": 4.96
+        },
+        {
+          "date": "2026-09-22",
+          "value": 4.96
         }
       ]
     },
     "DGS30": {
       "series_id": "DGS30",
       "label": "30-Year Treasury Yield",
-      "last_value": 5.34,
-      "last_date": "2026-09-18",
-      "day_chg": 0.05,
-      "month_chg": 0.15,
+      "last_value": 5.29,
+      "last_date": "2026-09-22",
+      "day_chg": 0.0,
+      "month_chg": 0.02,
       "history": [
-        {
-          "date": "2026-06-25",
-          "value": 4.86
-        },
-        {
-          "date": "2026-06-26",
-          "value": 4.87
-        },
         {
           "date": "2026-06-29",
           "value": 4.86
@@ -998,6 +990,14 @@
         {
           "date": "2026-09-18",
           "value": 5.34
+        },
+        {
+          "date": "2026-09-21",
+          "value": 5.29
+        },
+        {
+          "date": "2026-09-22",
+          "value": 5.29
         }
       ]
     },
@@ -1005,26 +1005,10 @@
       "series_id": "DFF",
       "label": "Effective Federal Funds Rate",
       "last_value": 3.88,
-      "last_date": "2026-09-18",
+      "last_date": "2026-09-22",
       "day_chg": 0.0,
       "month_chg": 0.25,
       "history": [
-        {
-          "date": "2026-07-21",
-          "value": 3.63
-        },
-        {
-          "date": "2026-07-22",
-          "value": 3.63
-        },
-        {
-          "date": "2026-07-23",
-          "value": 3.63
-        },
-        {
-          "date": "2026-07-24",
-          "value": 3.63
-        },
         {
           "date": "2026-07-25",
           "value": 3.63
@@ -1248,25 +1232,33 @@
         {
           "date": "2026-09-18",
           "value": 3.88
+        },
+        {
+          "date": "2026-09-19",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-20",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-21",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-22",
+          "value": 3.88
         }
       ]
     },
     "SOFR": {
       "series_id": "SOFR",
       "label": "Secured Overnight Financing Rate",
-      "last_value": 3.85,
-      "last_date": "2026-09-18",
-      "day_chg": 0.0,
-      "month_chg": 0.23,
+      "last_value": 3.87,
+      "last_date": "2026-09-22",
+      "day_chg": 0.02,
+      "month_chg": 0.22,
       "history": [
-        {
-          "date": "2026-06-25",
-          "value": 3.64
-        },
-        {
-          "date": "2026-06-26",
-          "value": 3.62
-        },
         {
           "date": "2026-06-29",
           "value": 3.62
@@ -1498,25 +1490,25 @@
         {
           "date": "2026-09-18",
           "value": 3.85
+        },
+        {
+          "date": "2026-09-21",
+          "value": 3.85
+        },
+        {
+          "date": "2026-09-22",
+          "value": 3.87
         }
       ]
     },
     "T10Y2Y": {
       "series_id": "T10Y2Y",
       "label": "10Y-2Y Treasury Spread",
-      "last_value": 0.2,
-      "last_date": "2026-09-21",
-      "day_chg": -0.05,
-      "month_chg": -0.3,
+      "last_value": 0.26,
+      "last_date": "2026-09-23",
+      "day_chg": 0.01,
+      "month_chg": -0.2,
       "history": [
-        {
-          "date": "2026-06-26",
-          "value": 0.31
-        },
-        {
-          "date": "2026-06-29",
-          "value": 0.28
-        },
         {
           "date": "2026-06-30",
           "value": 0.3
@@ -1748,25 +1740,25 @@
         {
           "date": "2026-09-21",
           "value": 0.2
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0.25
+        },
+        {
+          "date": "2026-09-23",
+          "value": 0.26
         }
       ]
     },
     "T10Y3M": {
       "series_id": "T10Y3M",
       "label": "10Y-3M Treasury Spread",
-      "last_value": 0.79,
-      "last_date": "2026-09-21",
-      "day_chg": -0.08,
-      "month_chg": -0.03,
+      "last_value": 0.92,
+      "last_date": "2026-09-23",
+      "day_chg": 0.12,
+      "month_chg": 0.09,
       "history": [
-        {
-          "date": "2026-06-26",
-          "value": 0.55
-        },
-        {
-          "date": "2026-06-29",
-          "value": 0.51
-        },
         {
           "date": "2026-06-30",
           "value": 0.57
@@ -1998,6 +1990,14 @@
         {
           "date": "2026-09-21",
           "value": 0.79
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0.8
+        },
+        {
+          "date": "2026-09-23",
+          "value": 0.92
         }
       ]
     },
@@ -2005,18 +2005,10 @@
       "series_id": "BAMLC0A0CM",
       "label": "ICE BofA US Corporate Index OAS (IG credit spread)",
       "last_value": 0.77,
-      "last_date": "2026-09-18",
-      "day_chg": -0.01,
-      "month_chg": -0.05,
+      "last_date": "2026-09-22",
+      "day_chg": 0.0,
+      "month_chg": -0.04,
       "history": [
-        {
-          "date": "2026-06-29",
-          "value": 0.76
-        },
-        {
-          "date": "2026-06-30",
-          "value": 0.76
-        },
         {
           "date": "2026-07-01",
           "value": 0.76
@@ -2247,6 +2239,14 @@
         },
         {
           "date": "2026-09-18",
+          "value": 0.77
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0.77
+        },
+        {
+          "date": "2026-09-22",
           "value": 0.77
         }
       ]
@@ -2254,19 +2254,11 @@
     "BAMLC0A4CBBB": {
       "series_id": "BAMLC0A4CBBB",
       "label": "ICE BofA BBB US Corporate Index OAS (credit spread)",
-      "last_value": 0.94,
-      "last_date": "2026-09-18",
-      "day_chg": -0.01,
-      "month_chg": -0.06,
+      "last_value": 0.95,
+      "last_date": "2026-09-22",
+      "day_chg": 0.0,
+      "month_chg": -0.05,
       "history": [
-        {
-          "date": "2026-06-29",
-          "value": 0.95
-        },
-        {
-          "date": "2026-06-30",
-          "value": 0.95
-        },
         {
           "date": "2026-07-01",
           "value": 0.94
@@ -2498,6 +2490,14 @@
         {
           "date": "2026-09-18",
           "value": 0.94
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0.95
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0.95
         }
       ]
     },
@@ -2505,18 +2505,10 @@
       "series_id": "BAMLH0A0HYM2",
       "label": "ICE BofA US High Yield Index OAS (credit spread)",
       "last_value": 2.68,
-      "last_date": "2026-09-18",
-      "day_chg": -0.02,
-      "month_chg": -0.07,
+      "last_date": "2026-09-22",
+      "day_chg": 0.02,
+      "month_chg": -0.01,
       "history": [
-        {
-          "date": "2026-06-29",
-          "value": 2.8
-        },
-        {
-          "date": "2026-06-30",
-          "value": 2.75
-        },
         {
           "date": "2026-07-01",
           "value": 2.74
@@ -2748,37 +2740,25 @@
         {
           "date": "2026-09-18",
           "value": 2.68
+        },
+        {
+          "date": "2026-09-21",
+          "value": 2.66
+        },
+        {
+          "date": "2026-09-22",
+          "value": 2.68
         }
       ]
     },
     "DCOILWTICO": {
       "series_id": "DCOILWTICO",
       "label": "WTI Crude Oil Price",
-      "last_value": 107.02,
-      "last_date": "2026-09-15",
-      "day_chg": 4.6,
-      "month_chg": 23.03,
+      "last_value": 96.41,
+      "last_date": "2026-09-22",
+      "day_chg": -0.56,
+      "month_chg": 9.2,
       "history": [
-        {
-          "date": "2026-06-22",
-          "value": 78.94
-        },
-        {
-          "date": "2026-06-23",
-          "value": 74.62
-        },
-        {
-          "date": "2026-06-24",
-          "value": 71.42
-        },
-        {
-          "date": "2026-06-25",
-          "value": 72.67
-        },
-        {
-          "date": "2026-06-26",
-          "value": 70.3
-        },
         {
           "date": "2026-06-29",
           "value": 71.87
@@ -2998,6 +2978,26 @@
         {
           "date": "2026-09-15",
           "value": 107.02
+        },
+        {
+          "date": "2026-09-16",
+          "value": 103.62
+        },
+        {
+          "date": "2026-09-17",
+          "value": 103.21
+        },
+        {
+          "date": "2026-09-18",
+          "value": 101.44
+        },
+        {
+          "date": "2026-09-21",
+          "value": 96.97
+        },
+        {
+          "date": "2026-09-22",
+          "value": 96.41
         }
       ]
     },
@@ -3254,19 +3254,11 @@
     "GOLD": {
       "series_id": "GC=F",
       "label": "Gold (COMEX front-month)",
-      "last_value": 4396.0,
-      "last_date": "2026-09-21",
-      "day_chg": -28.9,
-      "month_chg": -175.4,
+      "last_value": 4310.7,
+      "last_date": "2026-09-23",
+      "day_chg": -65.7,
+      "month_chg": -387.1,
       "history": [
-        {
-          "date": "2026-06-26",
-          "value": 4096.3
-        },
-        {
-          "date": "2026-06-29",
-          "value": 4038.9
-        },
         {
           "date": "2026-06-30",
           "value": 4038.5
@@ -3497,26 +3489,26 @@
         },
         {
           "date": "2026-09-21",
-          "value": 4396.0
+          "value": 4383.9
+        },
+        {
+          "date": "2026-09-22",
+          "value": 4376.4
+        },
+        {
+          "date": "2026-09-23",
+          "value": 4310.7
         }
       ]
     },
     "SILVER": {
       "series_id": "SI=F",
       "label": "Silver (COMEX front-month)",
-      "last_value": 67.0,
-      "last_date": "2026-09-21",
-      "day_chg": 0.44,
-      "month_chg": -1.03,
+      "last_value": 64.41,
+      "last_date": "2026-09-23",
+      "day_chg": -1.52,
+      "month_chg": -4.13,
       "history": [
-        {
-          "date": "2026-06-26",
-          "value": 59.22
-        },
-        {
-          "date": "2026-06-29",
-          "value": 58.17
-        },
         {
           "date": "2026-06-30",
           "value": 59.48
@@ -3747,19 +3739,23 @@
         },
         {
           "date": "2026-09-21",
-          "value": 67.0
+          "value": 65.82
+        },
+        {
+          "date": "2026-09-22",
+          "value": 65.93
+        },
+        {
+          "date": "2026-09-23",
+          "value": 64.41
         }
       ]
     }
   },
   "vol_term_structure": {
     "VIX": {
-      "last_value": 14.87,
+      "last_value": 15.18,
       "history": [
-        {
-          "date": "2026-06-29",
-          "value": 17.65
-        },
         {
           "date": "2026-06-30",
           "value": 16.45
@@ -3995,16 +3991,16 @@
         {
           "date": "2026-09-21",
           "value": 14.87
+        },
+        {
+          "date": "2026-09-23",
+          "value": 15.18
         }
       ]
     },
     "VIX9D": {
-      "last_value": 13.14,
+      "last_value": 13.45,
       "history": [
-        {
-          "date": "2026-06-26",
-          "value": 16.8
-        },
         {
           "date": "2026-06-29",
           "value": 15.51
@@ -4240,16 +4236,16 @@
         {
           "date": "2026-09-21",
           "value": 13.14
+        },
+        {
+          "date": "2026-09-23",
+          "value": 13.45
         }
       ]
     },
     "VIX3M": {
-      "last_value": 18.08,
+      "last_value": 18.11,
       "history": [
-        {
-          "date": "2026-06-26",
-          "value": 20.13
-        },
         {
           "date": "2026-06-29",
           "value": 19.53
@@ -4485,10 +4481,14 @@
         {
           "date": "2026-09-21",
           "value": 18.08
+        },
+        {
+          "date": "2026-09-23",
+          "value": 18.11
         }
       ]
     },
     "structure": "contango (calm)",
-    "vix_minus_vix3m": -3.21
+    "vix_minus_vix3m": -2.93
   }
 }

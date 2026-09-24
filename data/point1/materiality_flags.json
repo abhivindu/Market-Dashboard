@@ -17,12 +17,6 @@
       "series": "NASDAQ",
       "value": 3.573,
       "detail": "NASDAQ moved +3.57% over 5 days (threshold: >2%)"
-    },
-    {
-      "type": "oil_move",
-      "series": "DCOILWTICO",
-      "value": 4.491310290958792,
-      "detail": "WTI crude moved +4.49% (threshold: >3%)"
     }
   ]
 }
