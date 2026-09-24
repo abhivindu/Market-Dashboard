@@ -398,8 +398,18 @@
       "verdict": "aligned"
     },
     "VICR": {
-      "narrative": "Vicor jumped 10% after announcing a major U.S. fab capacity expansion (Merrimack + Hooksett, NH, ~1M sq ft combined) to meet AI power-delivery demand, alongside a 145% y/y backlog surge and a new $150M buyback. Real capacity commitment, not just sentiment.",
+      "narrative": "UPDATE (this pull, 2026-09-23): Vicor's move this pull (+26.5%, the day figure spans Tue Sept 22-Wed Sept 23 because of the Yahoo data gap described in the point1 synthesis) is driven by a much bigger catalyst than the fab-expansion story below: on Sept 22 Vicor raised its Q3 sequential revenue-growth guidance from roughly 10% to more than 20%, citing royalty income from a newly signed non-exclusive license of its patented Vertical Power Delivery (VPD) technology to an unnamed OEM building AI/networking processors - a high-margin royalty stream layered on top of the fab expansion already underway. One tracker had the stock up 21.2% in the week to Monday Sept 21 alone, before the guidance raise added further fuel. Prior framing: Vicor jumped 10% after announcing a major U.S. fab capacity expansion (Merrimack + Hooksett, NH, ~1M sq ft combined) to meet AI power-delivery demand, alongside a 145% y/y backlog surge and a new $150M buyback. Real capacity commitment, not just sentiment.",
       "citations": [
+        {
+          "title": "VICR Stock Surges As AI Royalties Turbocharge Growth Outlook",
+          "url": "https://www.timothysykes.com/news/vicor-corporation-vicr-news-2026_09_22/",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "Why Did Vicor Stock Jump Before It Raised Its Outlook?",
+          "url": "https://www.trefis.com/stock/vicr/articles/616132/why-did-vicor-stock-jump-before-it-raised-its-outlook/2026-09-22",
+          "date": "2026-09-22"
+        },
         {
           "title": "Vicor Stock Climbs with Backlog Up 145%, More Capacity Coming",
           "url": "https://www.benzinga.com/markets/tech/26/09/61746170/vicor-stock-climbs-with-backlog-up-145-more-capacity-coming",
@@ -628,15 +638,25 @@
       "verdict": "mixed"
     },
     "CAR": {
-      "narrative": "No September-specific news found; Avis has had a volatile 2026 (a 53.7% short-squeeze spike in April, a 6.9% earnings-driven drop in July on weak European international EBITDA and rising recall costs, leverage still around 7.4x). Today's move likely continues that leveraged, event-driven volatility pattern.",
+      "narrative": "UPDATE (this pull, 2026-09-23): Avis fell further this pull (-9.9%), now with a specific dated driver beyond the 'no clean catalyst' framing below: multiple securities class-action suits were filed in September 2026 alleging a scheme by Pentwater Capital Management LP and its CIO Matthew Halbower to manipulate the market for Avis securities, compounding the leverage/dilution overhang already flagged in prior coverage; a Kaplan Fox investor alert cites a Sept 29, 2026 lead-plaintiff deadline. Insider selling has also been heavy ($1.7B net over the past 12 months). Prior framing: No September-specific news found; Avis has had a volatile 2026 (a 53.7% short-squeeze spike in April, a 6.9% earnings-driven drop in July on weak European international EBITDA and rising recall costs, leverage still around 7.4x). Today's move likely continues that leveraged, event-driven volatility pattern.",
       "citations": [
+        {
+          "title": "Kaplan Fox Alerts Investors of Avis Budget Group, Inc. (NASDAQ: CAR) with Significant Losses to a Securities Class Action Deadline on September 29, 2026",
+          "url": "https://www.globenewswire.com/news-release/2026/09/23/3367446/1020/en/kaplan-fox-alerts-investors-of-avis-budget-group-inc-nasdaq-car-with-significant-losses-to-a-securities-class-action-deadline-on-september-29-2026.html",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "A Look at Avis Budget Group Inc (CAR) After 8.1% Decline",
+          "url": "https://www.gurufocus.com/news/9092617/a-look-at-avis-budget-group-inc-car-after-81-decline-gf-value-12739-vs-price-10773",
+          "date": "2026-09-22"
+        },
         {
           "title": "Avis Budget Group (CAR) Stock Drops As Profit Rebound Meets Debt Scrutiny",
           "url": "https://simplywall.st/stocks/us/transportation/nasdaq-car/avis-budget-group/news/avis-budget-group-car-stock-drops-as-profit-rebound-meets-de",
           "date": "2026-09"
         }
       ],
-      "verdict": "mixed"
+      "verdict": "aligned"
     },
     "AMR": {
       "narrative": "Alpha Metallurgical fell alongside a sector-wide coking-coal selloff (peers HCC -4.9%, SXC -3.9% the same session), compounded by a real earnings miss (Q2 EPS -$0.96, revenue $421M vs $522M consensus) that led analysts to cut price targets from $194 to $160.",
@@ -951,6 +971,489 @@
         }
       ],
       "verdict": "not yet assessed"
+    },
+    "ACMR": {
+      "narrative": "ACM Research rose alongside a broad Tuesday Sept 22 semiconductor-equipment sector rally that also lifted FormFactor, Kulicke & Soffa, Novanta and Benchmark Electronics the same session - the stock crossed above its 200-day moving average that day. No ACM-specific news found beyond the sector-wide move; underlying fundamentals are strong (Q2 revenue +36% y/y, orders +105% in H1 2026) but this specific session's pop reads as sector beta rather than a fresh company catalyst.",
+      "citations": [
+        {
+          "title": "A Look at ACM Research Inc (ACMR) After 6.2% Gain",
+          "url": "https://www.gurufocus.com/news/9090750/a-look-at-acm-research-inc-acmr-after-62-gain-gf-value-3749-vs-price-7277",
+          "date": "2026-09"
+        },
+        {
+          "title": "ACM Research (NASDAQ:ACMR) Stock Price Passes Above 200 Day Moving Average - Here's Why",
+          "url": "https://www.marketbeat.com/instant-alerts/price-acm-research-nasdaq-acmr-stock-price-passes-above-200-day-moving-average-heres-why-2026-09-22/",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "FORM": {
+      "narrative": "FormFactor rose 5.6% on Tuesday Sept 22 as part of the same chip-testing/semiconductor-equipment sector rally lifting ACM Research, KLIC, Novanta and Benchmark Electronics, but with more specific support underneath: Cantor Fitzgerald reiterated an Overweight rating with a $175 price target (implying ~39% upside from the Sept 22 close) on continued AI-driven semiconductor-test-equipment demand, and Q2 revenue grew 32% y/y. Stock is up 234% YTD; GuruFocus flags it as significantly overvalued on its GF Value estimate, and a CEO share sale drew some trader attention the same week.",
+      "citations": [
+        {
+          "title": "FormFactor Inc (FORM) Stock Up 5.6% but GF Value Says Overvalued",
+          "url": "https://www.gurufocus.com/news/9092520/formfactor-inc-form-stock-up-56-but-gf-value-says-overvalued-gf-score-74100",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "FormFactor (FORM) Slips Onto Trader Radar After CEO Share Sale",
+          "url": "https://stockstotrade.com/news/formfactor-inc-form-news-2026_09_23/",
+          "date": "2026-09-23"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "TWLO": {
+      "narrative": "Twilio jumped 5.8% on Sept 22 after Rosenblatt ($290 PT) and TD Cowen (raised to $300 from $260) both increased price targets, with Rosenblatt's analyst turning more constructive after management discussions on Twilio's potential to monetize AI-driven communications and expand beyond its traditional messaging/connectivity business. Shares had already gained ~15% over the prior week on growing recognition of Twilio's exposure to the consumer AI-agent trend (adjacent to the Meta Muse-driven theme lifting chip names this same week).",
+      "citations": [
+        {
+          "title": "Twilio Stock Jumps As Analysts See AI Agents Dialing Up Growth",
+          "url": "https://www.benzinga.com/markets/large-cap/26/09/61929018/twilio-stock-jumps-as-analysts-see-ai-agents-dialing-up-growth",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "Twilio (NYSE:TWLO) Stock Price Up 3.2% on Analyst Upgrade",
+          "url": "https://www.marketbeat.com/instant-alerts/price-twilio-nyse-twlo-stock-price-up-32-on-analyst-upgrade-2026-09-23/",
+          "date": "2026-09-23"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "CE": {
+      "narrative": "Celanese rose 6.9-8.3% on Sept 22 on real, company-specific news: the company announced global price increases across its acetyl products (acetic acid, vinyl acetate monomer, ethyl acetate, acetic anhydride), a meaningful revenue lever given Celanese is one of the world's largest producers of those chemicals. Coverage explicitly noted the broader market provided little help that day (S&P barely positive, Dow slightly red), underscoring this as an alpha move, not sector beta. Company has also been shoring up its balance sheet via asset sales (Nutrinova JV stake) while maintaining FY26 EPS guidance.",
+      "citations": [
+        {
+          "title": "Why is Celanese stock rallying today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-celanese-stock-rallying-today-93CH-4911095",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "Celanese Corp (CE) Shares Surge 6.9% -- What GF Score of 69 Tells Investors",
+          "url": "https://www.gurufocus.com/news/9092581/celanese-corp-ce-shares-surge-69-what-gf-score-of-69-tells-investors",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "KLIC": {
+      "narrative": "Kulicke & Soffa rose alongside the same Tuesday Sept 22 semiconductor-equipment sector rally lifting ACM Research, FormFactor, Novanta and Benchmark Electronics - stock is up 98% YTD on strong earnings/guidance and AI-related demand generally, but no fresh company-specific news was found dated to this specific session; GF Value flags it as overvalued after the rally.",
+      "citations": [
+        {
+          "title": "Is Kulicke & Soffa Industries Inc (KLIC) Overvalued After 6.5% Rally?",
+          "url": "https://www.gurufocus.com/news/9092589/is-kulicke-soffa-industries-inc-klic-overvalued-after-65-rally-gf-value-says-overvalued",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "VVV": {
+      "narrative": "Valvoline rose 7.7% on Sept 22, continuing a positive trend from its Q2 report (8.2% comp-sales growth, adjusted EBITDA +28%, network expanded to 2,409 stores) after which the company raised full-year same-store-sales guidance and narrowed EBITDA/EPS guidance upward. GF Score of 86/100 reflects strong underlying profitability and growth - a fundamentals-driven continuation rather than a one-off news event.",
+      "citations": [
+        {
+          "title": "Valvoline Inc (VVV) Shares Surge 7.7% -- What GF Score of 86 Tells Investors",
+          "url": "https://www.gurufocus.com/news/9092625/valvoline-inc-vvv-shares-surge-77-what-gf-score-of-86-tells-investors",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "AAON": {
+      "narrative": "AAON rose 3.8% on Sept 22, its strongest single session in weeks, though no single fresh catalyst dated to that session was found - the stock remains in a broader bearish trend (below its 50- and 200-day averages) after a sharp decline from its 52-week high. The real structural driver behind AAON's 2026 story is a record Q1 order backlog (+107% y/y) on a 160% surge in BASX-branded data-center liquid-cooling orders; today's move reads as a bounce within that ongoing, still-bearish technical picture rather than a new catalyst.",
+      "citations": [
+        {
+          "title": "Aaon Inc Analysis: Key Resistance Levels in September 2026",
+          "url": "https://en.cryptonomist.ch/2026/09/23/aaon-inc-surges-3-76-but-80-60-resistance-could-decide-the-next-move/",
+          "date": "2026-09-23"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "BHE": {
+      "narrative": "Benchmark Electronics rose 5.1% on Tuesday Sept 22 as part of a broader electronic-manufacturing-services sector rally (the same session lifted ACM Research, FormFactor, KLIC and Novanta). Fundamentals are genuinely strong - Q2 revenue +18% y/y and EPS +36% y/y, both above guidance, with strength across Semi-Cap, Industrial, Medical and AC&C segments - but no fresh dated catalyst specific to this session was found, so this reads primarily as sector beta on top of a solid underlying story.",
+      "citations": [
+        {
+          "title": "Benchmark Electronics Jumps 5.1% Amid Sector-Wide Rally",
+          "url": "https://news.alphastreet.com/benchmark-electronics-jumps-5-1-amid-sector-wide-rally/",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "NOVT": {
+      "narrative": "Novanta rose 7.3% on Sept 22 as part of the same semiconductor/industrial-equipment sector rally lifting ACM Research, FormFactor, KLIC and Benchmark Electronics that session - explicitly described in coverage as a broad sector move with no company-specific catalyst, reflecting general investor confidence in demand trends for companies serving medical-device, robotics and advanced-manufacturing customers rather than fresh Novanta-specific news.",
+      "citations": [
+        {
+          "title": "A Look at Novanta Inc (NOVT) After 7.3% Gain",
+          "url": "https://www.gurufocus.com/news/9092565/a-look-at-novanta-inc-novt-after-73-gain-gf-value-15635-vs-price-14417",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "Novanta Jumps 5.1% Amid Sector-Wide Rally",
+          "url": "https://news.alphastreet.com/novanta-jumps-5-1-amid-sector-wide-rally/",
+          "date": "2026-09"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "ROG": {
+      "narrative": "No clean, dated catalyst found for Rogers Corporation's move this pull - the company has an Investor Day scheduled for Sept 30, 2026 (not yet occurred), and Q2 2026 results (6.9% sales growth, margin expansion, Q3 guidance of 10% sales growth) are now a few months old. Likely reads as sector beta alongside the same industrial/electronic-materials names (AAON, BHE, NOVT) that moved the same week, possibly with some anticipatory positioning ahead of the Investor Day.",
+      "citations": [
+        {
+          "title": "Rogers Corporation (ROG) Stock Forecasts",
+          "url": "https://finance.yahoo.com/research/reports/ARGUS_4222_QuantitativeReport_1776211200000",
+          "date": "n/d"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "OKTA": {
+      "narrative": "Okta rose sharply this pull on a real, dated catalyst: the company held Oktane 2026 in Las Vegas on Sept 22, launching the Blueprint Alliance - a cross-industry effort with AWS, CrowdStrike, Google Cloud, Salesforce, ServiceNow, Zscaler and Wiz to secure AI agents and their identities - putting Okta's AI-agent-security push in front of customers and investors. Needham raised its price target to $230 from $200 (Buy) and BTIG to $219 from $187 (Buy) around the event, on top of an already-strong Q2 FY27 beat-and-raise. Stock is up over 120% YTD.",
+      "citations": [
+        {
+          "title": "Okta Stock Climbs As AI Alliance And Targets Rise",
+          "url": "https://stockstotrade.com/news/okta-inc-okta-news-2026_09_23/",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "Okta stock gains as Needham and BTIG lift price targets on AI security momentum",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/okta-stock-gains-as-needham-and-btig-lift-price-targets-on-ai-security/70146449",
+          "date": "2026-09"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "DKS": {
+      "narrative": "Dick's Sporting Goods rose 8.3% on Sept 22, a real rebound after shares had plunged roughly 29-31% in August when management slashed 2026 non-GAAP EPS guidance to $11-$12 (from $13.50-$14.50) on footwear-category margin pressure. Multiple banks (JPMorgan, BofA, Wells Fargo, UBS, BTIG, Baird) lowered price targets after that cut but mostly kept Buy/Overweight ratings, and analysts are now explicitly calling the prior selloff overdone as the company shifts toward stronger in-house brands with a better back-half launch calendar. A dated, analyst-driven oversold bounce rather than fresh negative-turned-positive news.",
+      "citations": [
+        {
+          "title": "DKS Stock Rebounds As Analysts Call Selloff Overdone",
+          "url": "https://www.timothysykes.com/news/dick-s-sporting-goods-inc-dks-news-2026_09_22-3/",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "DKS Stock Slides On Guidance Cut As Analysts See Rebound Potential",
+          "url": "https://stockstotrade.com/news/dick-s-sporting-goods-inc-dks-news-2026_09_22/",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "ILMN": {
+      "narrative": "Illumina's move this pull is capped off by a real, dated structural catalyst: the stock rejoined the S&P 500 effective Sept 21, 2026 (having been removed after spinning off GRAIL), with index-fund buying concentrated in the days before the effective date. UBS separately double-upgraded to Buy with its price target raised to $260 from $135, arguing Illumina is set up for multi-year revenue acceleration and margin expansion as China headwinds ease. Stock is up 133% over the trailing year.",
+      "citations": [
+        {
+          "title": "Illumina Stock Jumps 12% on S&P 500 Return",
+          "url": "https://pomegra.io/briefs/2026-09-18-illumina-sp500-return",
+          "date": "2026-09-18"
+        },
+        {
+          "title": "Illumina (ILMN) Stock Draws Bullish Targets As S&P 500 Inclusion Nears",
+          "url": "https://www.timothysykes.com/news/illumina-inc-ilmn-news-2026_09_15/",
+          "date": "2026-09-15"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "RMBS": {
+      "narrative": "Rambus jumped from roughly $88 (Sept 21) to over $105 (Sept 22) as part of a broader wave of semiconductor and AI-infrastructure optimism, in the same vein as the memory-chip enthusiasm lifting SanDisk and other names this month; coverage also noted an insider filing and increased Wall Street analyst engagement around the move, but no single, clean, dated company-specific catalyst (earnings, contract, guidance) was found. Fundamentals are solid (79.5% gross margin, ~36% EBIT margin, minimal debt), but this specific pop reads as sector-wide AI/semiconductor sentiment rather than a distinct Rambus-specific event.",
+      "citations": [
+        {
+          "title": "This Under-the-Radar Chip Company Could Have a Much Bigger Future",
+          "url": "https://247wallst.com/investing/2026/09/22/this-under-the-radar-chip-company-could-have-a-much-bigger-future/",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "Rambus (RMBS) Stock Climbs As Wall Street Engagement Deepens",
+          "url": "https://www.timothysykes.com/news/rambus-inc-rmbs-news-2026_09_22-2/",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "PLNT": {
+      "narrative": "Planet Fitness fell further this pull (-12.86%), a sixth straight down day, continuing the fundamental deterioration already identified: net new member adds fell 36% y/y in Q1 2026, prompting a guidance cut, and the company faces a securities-fraud class action alleging it misrepresented a marketing campaign that alienated its traditional 'casual gym-goer' base. No new catalyst found this pull - this is a continuation of the already-known story, not a fresh shock. Stock is down 56.6% YTD; GF Value estimates it as 60.2% undervalued at current levels.",
+      "citations": [
+        {
+          "title": "Planet Fitness extends losing streak, slumping another 9%",
+          "url": "https://seekingalpha.com/news/4645763-planet-fitness-extends-losing-streak-slumping-another-9",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "PLNT Looks 60.2% Undervalued on GF Value",
+          "url": "https://www.gurufocus.com/news/9092465/plnt-looks-602-undervalued-on-gf-value",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "ABNB": {
+      "narrative": "TRAVEL-SECTOR-WIDE MOVE: Airbnb fell alongside Expedia and Booking Holdings in a broad Wednesday Sept 23 online-travel/consumer-discretionary selloff - the group underperformed a market that was already down on the day's yield spike (10-year to ~5.11%), as investors priced in demand-destruction risk from high rates, elevated oil and airfare costs heading into the post-summer shoulder season. Morgan Stanley's Sept 16 initiation of OTA coverage (Overweight Booking, Equal-weight Airbnb, Underweight Expedia, favoring high-direct-booking models as AI reshapes travel search) is still weighing on sentiment. Airbnb also announced a U.S. grocery-delivery expansion via Instacart on Sept 22, read by some as a margin-dilutive diversification rather than a clear positive. See EXPE for the same sector-wide thread.",
+      "citations": [
+        {
+          "title": "ABNB Looks 15.4% Undervalued on GF Value Amid Sector Selloff",
+          "url": "https://www.gurufocus.com/news/9094318/abnb-looks-154-undervalued-on-gf-value-amid-sector-selloff",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "Airbnb stock falls 3 percent as services expansion grows",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/airbnb-stock-falls-3-percent-as-services-expansion-grows/70165183",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "Morgan Stanley sees Booking leading the OTA race over Expedia as AI transforms travel",
+          "url": "https://seekingalpha.com/news/4643337-morgan-stanley-sees-booking-leading-ota-race-over-expedia-as-ai-transforms-travel",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "GEN": {
+      "narrative": "Gen Digital fell hard this pull (Sept 18 -4.0%, Sept 22 -6.33% to a lowest close since late July) despite EPS beating consensus by $0.02 and revenue growing 6.3% y/y - a 'beat but the market sells it anyway' pattern where investors are judging valuation and growth durability rather than the headline numbers. No negative company-specific news (restatement, guidance cut, executive departure) was found; this reads as a valuation reset on an otherwise-fine print, which sits uneasily against the fundamentals rather than confirming a real deterioration.",
+      "citations": [
+        {
+          "title": "New York Times stock is slumping: here's why and what to expect",
+          "url": "https://invezz.com/news/2026/09/22/new-york-times-stock-is-slumping-heres-why-and-what-to-expect/",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "A Look at Gen Digital Inc (GEN) After 6.4% Decline",
+          "url": "https://www.gurufocus.com/news/9092461/a-look-at-gen-digital-inc-gen-after-64-decline-gf-value-3347-vs-price-2729",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "counter"
+    },
+    "RYAN": {
+      "narrative": "Ryan Specialty fell 4-5.6% on Sept 22 amid sector-wide selling across insurance brokerages, which coverage described as investors rotating out of the space broadly rather than reacting to Ryan-specific news. This compounds an already-weak 2026 for the name (down ~25% YTD) tied to earlier operating-margin compression (11.9% vs 14.5% a year prior) despite revenue/profit beats. No fresh Ryan-specific catalyst found this pull.",
+      "citations": [
+        {
+          "title": "Ryan Specialty Holdings Drops 5.6% Amid Sector-Wide Selling",
+          "url": "https://news.alphastreet.com/ryan-specialty-holdings-drops-5-6-amid-sector-wide-selling/",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "Is Ryan Specialty Holdings Inc (RYAN) a Bargain After 4.0% Drop?",
+          "url": "https://www.gurufocus.com/news/9092588/is-ryan-specialty-holdings-inc-ryan-a-bargain-after-40-drop-gf-value-says-undervalued",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "PAYX": {
+      "narrative": "Paychex fell sharply on Wednesday Sept 23 after reporting fiscal Q1 2027 results: revenue of $1.63B (+5.9% y/y) was exactly in line with estimates and adjusted EPS of $1.34 beat the $1.32 consensus, but free cash flow margin dropped sequentially to 21.9% from 32.1% the prior quarter, and investors focused on the growth-mix/valuation problem (roughly 23x earnings for sub-10% earnings growth) rather than the narrow headline beat. A real, dated earnings-day reaction to a genuine growth-deceleration and cash-flow-quality concern, not a beat-driven anomaly.",
+      "citations": [
+        {
+          "title": "Why Paychex Stock Dropped Today",
+          "url": "https://www.fool.com/investing/2026/09/23/why-paychex-stock-dropped-today/",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "Why Paychex (PAYX) Stock Is Nosediving",
+          "url": "https://stockstory.org/us/stocks/nasdaq/payx/news/why-up-down/why-paychex-payx-stock-is-nosediving",
+          "date": "2026-09-23"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "WING": {
+      "narrative": "Wingstop fell 4.6% on Sept 22, extending a brutal YTD decline (-54.5%, -62.3% over the trailing year) that includes a violently volatile Sept 15 session (open $113.78, intraday low $100.13, close $100.84). No single fresh catalyst dated to Sept 22 was found - this continues an established same-store-sales and margin-concern downtrend rather than a new shock. Loosely part of the same consumer-discretionary/leisure-adjacent softness hitting ABNB and EXPE this week, though Wingstop's collapse is a much longer-running, idiosyncratic story.",
+      "citations": [
+        {
+          "title": "Wingstop Inc (WING) Shares Fall 4.6% -- What GF Score of 82 Tells Investors",
+          "url": "https://www.gurufocus.com/news/9092668/wingstop-inc-wing-shares-fall-46-what-gf-score-of-82-tells-investors",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "Wingstop (WING) Stock Looks Cheap Following Its 61% Slide",
+          "url": "https://simplywall.st/stocks/us/consumer-services/nasdaq-wing/wingstop/news/wingstop-wing-stock-looks-cheap-following-its-61-slide",
+          "date": "2026-09"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "VIRT": {
+      "narrative": "Virtu Financial fell 6.0-6.4% on Sept 22 as part of a sector-wide selloff across capital-markets/high-frequency-trading names (Virtu's decline outpaced peers StoneX and SNEX the same session). Coverage frames synchronized declines like this as reflecting broader concerns about trading conditions, volatility expectations or regulatory shifts across the industry rather than a Virtu-specific issue - no company-specific catalyst found.",
+      "citations": [
+        {
+          "title": "Virtu Financial (NYSE:VIRT) Stock Price Down 5.2% - Here's Why",
+          "url": "https://www.marketbeat.com/instant-alerts/price-virtu-financial-nyse-virt-stock-price-down-52-heres-why-2026-09-22/",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "Virtu Financial Drops 6.4% Amid Sector-Wide Selling",
+          "url": "https://news.alphastreet.com/virtu-financial-drops-6-4-amid-sector-wide-selling/",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "TPL": {
+      "narrative": "Texas Pacific Land fell 5.5% on Wednesday Sept 23 despite a recent solid earnings report that the market largely shrugged off - coverage attributes the move to the company's sensitivity to oil prices and broader market conditions rather than a TPL-specific issue, consistent with the day's broad rate-driven, risk-off tape (10-year yield to ~5.11%). No TPL-specific catalyst found.",
+      "citations": [
+        {
+          "title": "Texas Pacific Land Shares Drop More Than 5% Intraday",
+          "url": "https://www.asktraders.com/analysis/texas-pacific-land-shares-drop-more-than-5-intraday/",
+          "date": "2026-09-23"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "SEZL": {
+      "narrative": "Sezzle fell 5.6% on Sept 22 as part of a coordinated, sector-wide selloff across buy-now-pay-later/credit-services names, with multiple peers posting similar declines the same session - coverage explicitly frames this as sector-wide weakness rather than a Sezzle-specific concern. No fresh company-specific catalyst found.",
+      "citations": [
+        {
+          "title": "A Look at Sezzle Inc (SEZL) After 5.6% Decline",
+          "url": "https://www.gurufocus.com/news/9092624/a-look-at-sezzle-inc-sezl-after-56-decline-gf-value-9403-vs-price-11000",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "BFH": {
+      "narrative": "Bread Financial fell 4.9% on Sept 22 after quarterly results combined a revenue beat (revenue $197.3M vs. $186.2M consensus) with in-line EPS ($0.07) and softer margins - a real, specific quality-of-earnings concern (investors judging the durability of the beat rather than the headline revenue number) rather than a clean beat-and-raise reaction. Stock is still up 65.8% over the trailing year.",
+      "citations": [
+        {
+          "title": "Bread Financial stock falls 4.9 percent as margins soften",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/bread-financial-stock-falls-4-9-percent-as-margins-soften/70166293",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "GDDY": {
+      "narrative": "GoDaddy continued a decline (-5.3% Sept 22, part of a longer slide from $104.77) that traces back to a Feb 24, 2026 disclosure that bookings growth decelerated sharply (to 5% from 9%) after the company shifted to promotional domain pricing to drive new-customer volume at the expense of near-term bookings/revenue. That disclosure remains the subject of an active securities-fraud class action, with new investor-alert press releases still being issued through Sept 23, 2026 (BFA Law's deadline is Oct 26). No new negative operational news found this pull - this is a continuing litigation/sentiment overhang, not a fresh shock.",
+      "citations": [
+        {
+          "title": "Robbins LLP Urges GDDY Stockholders to Contact Robbins LLP for Information About the GoDaddy Inc. Class Action",
+          "url": "https://www.globenewswire.com/news-release/2026/09/23/3367908/32719/en/robbins-llp-urges-gddy-stockholders-to-contact-robbins-llp-for-information-about-the-godaddy-inc-class-action.html",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "GoDaddy stock slips 5.3 percent ahead of the open",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/godaddy-stock-slips-5-3-percent-ahead-of-the-open/70161644",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "CARG": {
+      "narrative": "CarGurus fell 3.7% on Sept 22, continuing a -16.7% YTD downtrend, despite Q2 2026 results that were actually solid (revenue +13% y/y to $251.0M, adjusted EBITDA +7% to $84.7M). No fresh negative catalyst dated to this pull was found; insider selling has been modest ($7.4M net over the past year). Reads as continued multiple compression / consumer-internet-sector softness rather than a specific new event.",
+      "citations": [
+        {
+          "title": "A Look at CarGurus Inc (CARG) After 3.7% Decline",
+          "url": "https://www.gurufocus.com/news/9092665/a-look-at-cargurus-inc-carg-after-37-decline-gf-value-3922-vs-price-3194",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "EXPE": {
+      "narrative": "TRAVEL-SECTOR-WIDE MOVE: Expedia fell 7.4-7.7% on Wednesday Sept 23 in the same broad online-travel/consumer-discretionary selloff hitting Airbnb and Booking Holdings (see ABNB) - Expedia underperformed the sector's ~1.5% decline that day. Two Expedia-specific overlays compound the sector move: Morgan Stanley initiated coverage Sept 16 with an Underweight rating and $235 target, arguing Expedia's flat-YoY monthly active users (vs. Booking +6%, Airbnb +10%) and chain-hotel/air-travel-heavy inventory leave it more exposed to AI-search disruption than peers; and Expedia filed a WARN notice for 58 layoffs at its Seattle HQ, its third round of job cuts in 2026, highlighting ongoing margin pressure.",
+      "citations": [
+        {
+          "title": "Expedia Group Inc (EXPE) Shares Fall 7.7% -- What GF Score of 85 Tells Investors",
+          "url": "https://www.gurufocus.com/news/9094275/expedia-group-inc-expe-shares-fall-77-what-gf-score-of-85-tells-investors",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "Morgan Stanley initiates Expedia stock coverage with Underweight rating",
+          "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-initiates-expedia-stock-coverage-with-underweight-rating-93CH-4903109",
+          "date": "2026-09-16"
+        },
+        {
+          "title": "Expedia Stock Dinged by Bear Note, Competition Concerns",
+          "url": "https://www.schaeffersresearch.com/content/news/2026/09/16/expedia-stock-dinged-by-bear-note-competition-concerns",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "FTDR": {
+      "narrative": "No clean, dated catalyst found for Frontdoor's Sept 22 decline (-3.2% in one tracker); the company is 21.7% overvalued versus GF Value estimates and has seen $4.6M of net insider selling over the past 12 months with no buying, but nothing specific to this session turned up. Frontdoor is a home-warranty business, not travel-correlated, so this likely reflects the same broad Tuesday softness that hit the Dow generally rather than a sector-specific story.",
+      "citations": [
+        {
+          "title": "A Look at Frontdoor Inc (FTDR) After 3.2% Decline",
+          "url": "https://www.gurufocus.com/news/9092578/a-look-at-frontdoor-inc-ftdr-after-32-decline-gf-value-6345-vs-price-7719",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "MCD": {
+      "narrative": "McDonald's fell over 4% on Wednesday Sept 23 at its Investor Day, where management unveiled an $8.5B franchisee support plan and long-term growth targets - but investors focused on the near-term cash-flow impact of that spending and on management delaying its target of reaching 50,000 global restaurants from 2027 to 2028. UBS had already cut its price target to $320 from $340 on Sept 21. Extends a rough 2026 for the stock (-18% YTD, fresh 52-week lows in early September).",
+      "citations": [
+        {
+          "title": "McDonald's Corp Stock (MCD) Moved Down by 4.28% on Sep 23",
+          "url": "https://www.tradingkey.com/news/market-movers/262183002-market-movers-mcd-20260923",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "McDonald's shares fall as $8.5 billion franchisee plan raises spending concerns",
+          "url": "https://www.proactiveinvestors.com/companies/news/1098987/mcdonald-s-shares-fall-as-8-5-billion-franchisee-plan-raises-spending-concerns-1098987.html",
+          "date": "2026-09-23"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "KBH": {
+      "narrative": "KB Home fell after fiscal Q3 2026 results: EPS of $1.05 beat the $0.89 consensus, but revenue fell 20% y/y to $1.30B, homes delivered fell 19%, and gross margin narrowed to 16.5% from 18.2% on pricing pressure and higher land costs; full-year revenue guidance of ~$5B came in roughly 2% below analyst models. Multiple banks (BofA, Citizens, Barclays, RBC) cut price targets afterward. A genuine, dated earnings-driven decline reflecting real housing-market softness, not a beat-driven overreaction.",
+      "citations": [
+        {
+          "title": "KB Home Q3 2026 Revenue Falls 20% as Margins Narrow",
+          "url": "https://www.tradingkey.com/news/presentation/262182501-tradingkey",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "These Analysts Slash Their Forecasts On KB Home Following Q3 Results",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61945693/these-analysts-slash-their-forecasts-on-kb-home-following-q3-results",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "NYT": {
+      "narrative": "New York Times fell 7.2% on Sept 22 to a fresh multi-month low, down over 24% from its 2026 high. Coverage attributes it less to a single breaking event and more to diffuse investor caution around spending (adjusted operating cost growth guided to 8-9%) and valuation, compounded by a reported 1.5% August decline in website traffic (to 618M). No single dated catalyst found - reads as an accumulation of smaller concerns rather than one clean story.",
+      "citations": [
+        {
+          "title": "New York Times stock is slumping: here's why and what to expect",
+          "url": "https://invezz.com/news/2026/09/22/new-york-times-stock-is-slumping-heres-why-and-what-to-expect/",
+          "date": "2026-09-22"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "RSI": {
+      "narrative": "Rush Street Interactive fell 3.1% on Wednesday Sept 23, extending a rough stretch (~20.6% decline over the trailing week, including a 7.7% drop on Sept 18). Insiders have sold $359.9M in stock over the past 12 months with zero buying, a real overhang - though Citizens analyst Jordan Bender reiterated an Outperform rating with a $34 target on Sept 22, well above the ~$20.56 trading price. No single fresh negative catalyst found for this specific session; reads as continued digestion of the insider-selling overhang plus general market softness.",
+      "citations": [
+        {
+          "title": "Rush Street Interactive Inc (RSI) Shares Fall 3.1% -- GF Value Says Still Overvalued",
+          "url": "https://www.gurufocus.com/news/9094444/rush-street-interactive-inc-rsi-shares-fall-31-gf-value-says-still-overvalued",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "Brokerages Set Rush Street Interactive, Inc. (NYSE:RSI) PT at $35.22",
+          "url": "https://www.dailypolitical.com/2026/09/23/brokerages-set-rush-street-interactive-inc-nysersi-pt-at-35-22.html",
+          "date": "2026-09-23"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "RCL": {
+      "narrative": "Royal Caribbean fell 6.1% on Sept 22 on a clear, dated, company-specific catalyst: reports that it's in advanced talks to acquire a majority (~50%) stake in Sandals Resorts International for roughly $3B, valuing Sandals at $6B+ - what would be Royal Caribbean's largest acquisition ever. The market read the deal as carrying integration, capital-allocation and execution risk despite the cross-sell logic (cruise plus land-based resorts); Carnival and Norwegian Cruise Line also slid on the read-through. This followed an already-weak stretch (10 straight down days, -9.7% in early September).",
+      "citations": [
+        {
+          "title": "RCL Stock Drops To Worst Day In Six Months — Royal Caribbean Reportedly Nears $6B Deal For Sandals Resorts",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rcl-stock-drops-worst-day-232345600.html",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "Royal Caribbean Group Falls 5% on $3B Sandals Resorts Stake; Carnival and Norwegian Slide 3%",
+          "url": "https://247wallst.com/investing/2026/09/23/royal-caribbean-group-falls-5-on-3b-sandals-resorts-stake-carnival-and-norwegian-slide-3/",
+          "date": "2026-09-23"
+        }
+      ],
+      "verdict": "aligned"
     }
   },
   "recommendations": {
@@ -1334,5 +1837,5 @@
       "verdict": "mixed"
     }
   },
-  "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. Data note (this pull, 2026-09-22): earlier today the free Yahoo Finance bulk endpoint this dashboard uses for the full ~1,500-name universe hadn't yet posted Monday, Sept 21 daily bars for individual equities, so an initial version of this page reflected Friday Sept 18's session. A later re-pull the same day picked up Monday's data once Yahoo caught up, and the gainers/losers/volume tables below now reflect Monday, Sept 21's session - in step with the index-level data elsewhere on this dashboard."
+  "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. Data note (this pull, 2026-09-24, reflecting equity data through Wednesday Sept 23): Tuesday, Sept 22 is missing entirely from the free Yahoo endpoints this dashboard uses for both the headline indices and the ~1,300-name filtered universe - the data jumps straight from Monday Sept 21 to Wednesday Sept 23. This was checked this pull and confirmed to be a genuine data gap rather than a market holiday: multiple outlets published ordinary live market coverage for Tuesday Sept 22, 2026 (Nasdaq's second straight record close, a modest Dow dip, hawkish Richmond Fed comments). Practical effect: every 'day move' figure in this pull's gainers/losers/volume-outlier tables (and the DOW/RUSSELL2000 materiality flags) is actually a two-session move compressed into one by the gap, spanning both Tuesday Sept 22 and Wednesday Sept 23. Research for this pull was done with that in mind - narratives below cite the specific date(s) within that window each catalyst actually happened, rather than assuming a single 'today.' This pull found plenty that's genuinely new: fresh, dated catalysts for most of the day's top gainers and losers (VICR's AI-royalty guidance raise, CE's acetyl price hikes, OKTA's Oktane/Blueprint Alliance launch, RCL's Sandals Resorts deal talks, MCD's Investor Day, PAYX's Q1 FY27 print, a broad online-travel selloff tying ABNB and EXPE together, and a fresh securities-fraud filing behind CAR's continued slide, among others) plus a broad, rate-driven market pullback (10-year Treasury to ~5.11%, the highest since 2007, on hawkish Fed commentary and a hot PMI print) that explains the bulk of the day's breadth (495 advancers vs. 799 decliners). A meaningful minority of names (ROG, RMBS, CARG, FTDR, NYT, WING, VIRT, SEZL, TPL, RSI among them) turned up no clean company-specific catalyst despite a real search attempt - those are marked as sector-beta or general-weakness reads rather than forced into a story that doesn't fit."
 }
