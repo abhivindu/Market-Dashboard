@@ -1,30 +1,169 @@
 {
-  "as_of": "2026-09-22T00:39:36.665348+00:00",
-  "synthesis": "UPDATE (this pull, 2026-09-17): The catalyst this file was waiting on has now happened. The FOMC voted 12-0 on Sept 16 to hike the fed funds rate 25bp to 3.75%-4% \u2014 the first hike since 2023 \u2014 citing inflation still 'elevated' even as growth stays solid; the statement gave no explicit signal on further moves, but the Fed's own dot plot points to at least one more 2026 hike, and markets are now pricing a second. The 10-year yield pushed through 5% on the decision (5.02% intraday) as Chair Warsh's press-conference remarks doubled down on inflation risk. Equities fell into the announcement and stayed down: the Dow lost 631pts (-1.21%) to 51,461.90, the S&P 500 slipped 0.45% to 7,551.81, and bank stocks had their worst day since February (KBE -2.6%) on fears the hiking cycle isn't over. Oil has pushed above $100/bbl on the still-live Middle East supply story. None of this overturns last pull's framing \u2014 it's the resolution of the exact mechanism already described below \u2014 so the original synthesis is kept intact underneath rather than rewritten. Markets this week are being driven by one interlocking story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from roughly 70% to 90%, sending the 10-year Treasury yield up 12bp to 4.95% \u2014 its highest level since 2023 and closing in on 2007 highs. Middle East tensions, including Iran's attacks on commercial and U.S. Navy vessels, are compounding the inflation picture by pushing WTI crude up 3.2% to $97. Credit markets aren't stressed \u2014 both IG and HY spreads tightened slightly on the week \u2014 and the VIX term structure remains in contango, meaning options markets aren't pricing panic despite small-caps (Russell 2000, -2.2% over 5 days) and the Dow (-2.1%) underperforming a Nasdaq held up by AI-infrastructure capex names. The FOMC decision on Sept 16 is the next clear catalyst for all of the above. UPDATE (this pull, 2026-09-22): The post-FOMC selloff reversed hard by Monday, Sept 21. The S&P 500 rose 1.49% and the Nasdaq 2.26% (a fresh record-high close, first since June) as the 10-year yield fell back under 5% and WTI crude eased from the prior week's highs - unwinding the exact two headwinds (yields, oil) that drove the Sept 16 hike-day selloff above. A chip-sector rally, sparked Sept 18 when Meta's new consumer AI agent Muse topped Apple's App Store (read as bullish for CPU-side AI-inference demand: Arm +13%, Intel +12%, AMD +9% that session), carried through the weekend into Monday, when AMD crossed a $1T market cap for the first time. Bitcoin's surge past $85,000 the same day lifted Coinbase, Robinhood, and crypto-miner stocks. None of this reverses the FOMC decision itself (still the first hike since 2023, still a hawkish dot plot) - it's markets re-pricing the odds of a second 2026 hike lower after the initial shock, not a change in the Fed's stated path.",
+  "as_of": "2026-09-24T02:14:57.742566+00:00",
+  "synthesis": "UPDATE (this pull, 2026-09-23, reflecting sessions through Wednesday Sept 23 - note: Tuesday Sept 22 is missing entirely from the free Yahoo history endpoint this dashboard's index and universe data comes from, both for the headline indices and the ~1,300-name equity universe; this was confirmed via search to be a genuine data gap, not a market holiday - Sept 22, 2026 was an ordinary Tuesday trading session per multiple outlets' live market coverage, so figures described as a single 'day move' below actually span two real sessions, Tue Sept 22 and Wed Sept 23, compressed together by the gap): Markets gave back a chunk of last week's rally over these two sessions, and the story is a direct continuation/intensification of the rates-and-inflation throughline running since the Sept 16 FOMC hike, not a new independent shock. Tuesday Sept 22 was mixed - the Nasdaq notched a second straight record close (+0.4%) as Meta's Muse-driven chip-sector optimism carried over and oil initially fell ~3% on an Iranian signal it would reopen the Strait of Hormuz within a week if U.S. military pressure eased, while the Dow slipped 0.3% and Richmond Fed President Tom Barkin warned 'supply shocks aren't proving short-lived' (a hawkish signal) and oil pared its drop back after President Trump told the UN a U.S.-Iran deal wouldn't come before the November midterms. Wednesday Sept 23 reversed hard across the board: the 10-year Treasury yield surged to roughly 5.11%-5.14% - the highest since July 2007 - after Fed Governor Michael Barr said 'further policy adjustments are likely to be needed to ensure inflation comes down to target in a timely fashion,' and a much-hotter-than-expected S&P Global composite PMI (58.4 vs. 55.3 forecast) reinforced the inflation picture, pushing market-implied odds of an October hike to roughly 66-74%. All three major indices fell Wednesday (Dow -0.7%, S&P 500 -0.8%, Nasdaq -1.1%), with the Russell 2000 leading declines (-1.77% Wednesday alone) on its usual higher rate sensitivity, and breadth was lopsided across this dashboard's filtered universe (495 advancers vs. 799 decliners). No single new dominant catalyst beyond the yield/Fed-hawkishness combination - this reads as profit-taking and rate repricing after last week's rally, not a fresh shock requiring a rewrite of the underlying framing below. UPDATE (this pull, 2026-09-17): The catalyst this file was waiting on has now happened. The FOMC voted 12-0 on Sept 16 to hike the fed funds rate 25bp to 3.75%-4% \u2014 the first hike since 2023 \u2014 citing inflation still 'elevated' even as growth stays solid; the statement gave no explicit signal on further moves, but the Fed's own dot plot points to at least one more 2026 hike, and markets are now pricing a second. The 10-year yield pushed through 5% on the decision (5.02% intraday) as Chair Warsh's press-conference remarks doubled down on inflation risk. Equities fell into the announcement and stayed down: the Dow lost 631pts (-1.21%) to 51,461.90, the S&P 500 slipped 0.45% to 7,551.81, and bank stocks had their worst day since February (KBE -2.6%) on fears the hiking cycle isn't over. Oil has pushed above $100/bbl on the still-live Middle East supply story. None of this overturns last pull's framing \u2014 it's the resolution of the exact mechanism already described below \u2014 so the original synthesis is kept intact underneath rather than rewritten. Markets this week are being driven by one interlocking story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from roughly 70% to 90%, sending the 10-year Treasury yield up 12bp to 4.95% \u2014 its highest level since 2023 and closing in on 2007 highs. Middle East tensions, including Iran's attacks on commercial and U.S. Navy vessels, are compounding the inflation picture by pushing WTI crude up 3.2% to $97. Credit markets aren't stressed \u2014 both IG and HY spreads tightened slightly on the week \u2014 and the VIX term structure remains in contango, meaning options markets aren't pricing panic despite small-caps (Russell 2000, -2.2% over 5 days) and the Dow (-2.1%) underperforming a Nasdaq held up by AI-infrastructure capex names. The FOMC decision on Sept 16 is the next clear catalyst for all of the above. UPDATE (this pull, 2026-09-22): The post-FOMC selloff reversed hard by Monday, Sept 21. The S&P 500 rose 1.49% and the Nasdaq 2.26% (a fresh record-high close, first since June) as the 10-year yield fell back under 5% and WTI crude eased from the prior week's highs - unwinding the exact two headwinds (yields, oil) that drove the Sept 16 hike-day selloff above. A chip-sector rally, sparked Sept 18 when Meta's new consumer AI agent Muse topped Apple's App Store (read as bullish for CPU-side AI-inference demand: Arm +13%, Intel +12%, AMD +9% that session), carried through the weekend into Monday, when AMD crossed a $1T market cap for the first time. Bitcoin's surge past $85,000 the same day lifted Coinbase, Robinhood, and crypto-miner stocks. None of this reverses the FOMC decision itself (still the first hike since 2023, still a hawkish dot plot) - it's markets re-pricing the odds of a second 2026 hike lower after the initial shock, not a change in the Fed's stated path.",
   "since_last_pull": {
     "has_previous": true,
     "previous_as_of": "2026-09-22T00:39:36.665348+00:00",
-    "newly_flagged": [],
-    "resolved": [],
-    "blurb": "No new material events since the last pull - today's read is materially the same as last time."
+    "newly_flagged": [
+      {
+        "type": "index_day_move",
+        "series": "DOW",
+        "value": -1.032,
+        "detail": "DOW moved -1.03% intraday (threshold: >1%)",
+        "narrative": "UPDATE (this pull, 2026-09-23): The Dow's -1.03% figure this pull spans two real sessions compressed into one by the Sept 22 data gap described in the synthesis above. Tuesday Sept 22 the Dow slipped a modest 0.3% while the Nasdaq set a second straight record close - Richmond Fed President Tom Barkin struck a hawkish note ('supply shocks aren't proving short-lived'). Wednesday Sept 23 did the rest of the damage (-0.7%) as the 10-year Treasury yield jumped to roughly 5.11%-5.14% (highest since July 2007) after Fed Governor Michael Barr said 'further policy adjustments are likely to be needed,' and a hotter-than-expected S&P Global composite PMI (58.4 vs. 55.3 forecast) reinforced inflation concerns, pushing October-hike odds to ~66-74%. Same rate/inflation mechanism as the Sept 16 FOMC-day flag below, not a new independent driver. Prior framing: UPDATE (this pull, 2026-09-17): This flag now trips on the day-move threshold rather than the 5-day one, because the FOMC's Sept 16 hike hit in a single session: the Fed hiked 25bp as anticipated, and the Dow fell 631pts (-1.21%) to 51,461.90 on the day \u2014 banks led the damage (KBE -2.6%, worst day since February) on fears the hiking cycle continues into 2027. Prior framing: broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
+        "citations": [
+          {
+            "title": "Stock Market Today (Sept. 23, 2026): Nasdaq, Russell 2000 sink as 5-year Treasury hits 5% for first time since 2007",
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-23-2026",
+            "date": "2026-09-23"
+          },
+          {
+            "title": "Stock market today: Dow, S&P 500, Nasdaq tumble as 10-year Treasury yield surges to 2007 high",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-23-dow-sp-500-nasdaq-080556640.html",
+            "date": "2026-09-23"
+          },
+          {
+            "title": "Stock market today: Dow slips, Nasdaq posts fresh record with AI trade, Trump diplomacy in focus",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-22-nasdaq-dow-sp-500-080625961.html",
+            "date": "2026-09-22"
+          },
+          {
+            "title": "Stock market today: Dow sinks 600 points, S&P 500 and Nasdaq fall as Fed hikes rates, bond yields rise",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-16-dow-sp-500-nasdaq-fed-meeting-decision-080356525.html",
+            "date": "2026-09-16"
+          },
+          {
+            "title": "Global Bond Selloff Sends 10-Year Treasury Yields to Cusp of 5%",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-11/global-bond-selloff-sends-10-year-treasury-yields-to-cusp-of-5",
+            "date": "2026-09-11"
+          },
+          {
+            "title": "Markets Begin Cautiously as Rising Crude and Geopolitical Tensions Persist",
+            "url": "https://businessnewsthisweek.com/business/markets-begin-cautiously-as-rising-crude-and-geopolitical-tensions-persist/",
+            "date": "2026-09"
+          }
+        ],
+        "reaction_assessment": "proportionate - directly tied to the yield spike (10yr to ~5.11%, highest since 2007) and hawkish Fed commentary (Barr, Barkin), not a surprise dislocation"
+      },
+      {
+        "type": "index_day_move",
+        "series": "RUSSELL2000",
+        "value": -1.276,
+        "detail": "RUSSELL2000 moved -1.28% intraday (threshold: >1%)",
+        "narrative": "Russell 2000's -1.28% figure this pull spans the same two compressed sessions as the DOW day-move flag above (Sept 22 data is missing from this dashboard's free index feed). Small-caps ticked up modestly Tuesday Sept 22 with the broader tech/chip rally, then fell hard Wednesday Sept 23 (-1.77% that session alone, closing at 2,838) as the 10-year Treasury yield spiked to ~5.11% - the highest since July 2007 - on hawkish Fed Governor Barr comments and a hot PMI print. This is the same small-cap rate-sensitivity mechanism already tracked by the 5-day Russell 2000 flag below, just showing up again as a fresh day-level trigger on Wednesday's sharper yield move.",
+        "citations": [
+          {
+            "title": "US stocks close lower led by declines in the small-cap Russell 2000 and Nasdaq indices",
+            "url": "https://investinglive.com/stocks/us-stocks-close-lower-led-by-declines-in-the-small-cap-russell-2000-and-nasdaq-indices/",
+            "date": "2026-09-23"
+          },
+          {
+            "title": "Stock Market Today (Sept. 23, 2026): Nasdaq, Russell 2000 sink as 5-year Treasury hits 5% for first time since 2007",
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-23-2026",
+            "date": "2026-09-23"
+          }
+        ],
+        "reaction_assessment": "proportionate - small-cap rate sensitivity is a known, already-tracked mechanism (see the 5-day Russell 2000 flag below), amplified here by Wednesday's sharp yield spike"
+      }
+    ],
+    "resolved": [
+      {
+        "type": "index_day_move",
+        "series": "SP500",
+        "value": 1.493,
+        "detail": "SP500 moved +1.49% intraday (threshold: >1%)",
+        "narrative": "S&P 500 rose 1.49% on Monday, Sept 21 to 7,764.70 - its strongest session in weeks - as Treasury 10-year yields fell back under 5% (traders trimmed bets on a second 2026 Fed hike) and WTI crude eased from the prior week's highs, reversing two of the exact headwinds that drove the Sept 16 FOMC-day selloff described in the synthesis above. Chip and crypto strength broadened the move: the semiconductor rally sparked Sept 18 when Meta's new Muse AI agent hit the top of Apple's App Store (read by traders as bullish for CPU-side AI-inference demand, lifting Arm +13%/Intel +12%/AMD +9% that day) carried through the weekend, with AMD crossing a $1T market cap on Monday for the first time on its 5-day rally; bitcoin's surge past $85,000 the same day lifted Coinbase, Robinhood, and crypto-miner stocks.",
+        "citations": [
+          {
+            "title": "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally, oil falls",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
+            "date": "2026-09-21"
+          },
+          {
+            "title": "AMD hits $1 trillion market cap for the first time as stock rides 5-day rally",
+            "url": "https://www.cnbc.com/2026/09/21/amd-stock-1-trillion-value.html",
+            "date": "2026-09-21"
+          },
+          {
+            "title": "Live BTC price: Bitcoin hits $87,000 while Strategy's Saylor returns to BTC buying",
+            "url": "https://www.coindesk.com/business/2026/09/21/live-updates-bitcoin-rises-above-usd82-000-as-falling-oil-lifts-risk-assets",
+            "date": "2026-09-21"
+          },
+          {
+            "title": "Arm Surges 13% as Meta's Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9%",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/arm-surges-13-meta-muse-152410038.html",
+            "date": "2026-09-18"
+          }
+        ],
+        "reaction_assessment": "proportionate - a real reversal of the prior week's yield/oil headwinds plus genuine sector-specific catalysts (Meta Muse chip-demand read, bitcoin rally), not a one-off technical bounce"
+      },
+      {
+        "type": "index_day_move",
+        "series": "NASDAQ",
+        "value": 2.261,
+        "detail": "NASDAQ moved +2.26% intraday (threshold: >1%)",
+        "narrative": "Nasdaq rose 2.26% on Monday, Sept 21 to 27,122.09 - its first record-high close since June - outperforming the S&P 500 on the same combination of falling yields/oil and chip-sector strength described in the SP500 flag above. The semiconductor rally that Meta's Muse AI agent sparked on Sept 18 (Arm +13%, Intel +12%, AMD +9% that session, per multiple outlets) carried into Monday, when AMD crossed a $1T market cap for the first time; the Philadelphia Semiconductor Index notched its fifth straight session of gains.",
+        "citations": [
+          {
+            "title": "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally, oil falls",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
+            "date": "2026-09-21"
+          },
+          {
+            "title": "AMD hits $1 trillion market cap for the first time as stock rides 5-day rally",
+            "url": "https://www.cnbc.com/2026/09/21/amd-stock-1-trillion-value.html",
+            "date": "2026-09-21"
+          },
+          {
+            "title": "Live BTC price: Bitcoin hits $87,000 while Strategy's Saylor returns to BTC buying",
+            "url": "https://www.coindesk.com/business/2026/09/21/live-updates-bitcoin-rises-above-usd82-000-as-falling-oil-lifts-risk-assets",
+            "date": "2026-09-21"
+          },
+          {
+            "title": "Arm Surges 13% as Meta's Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9%",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/arm-surges-13-meta-muse-152410038.html",
+            "date": "2026-09-18"
+          }
+        ],
+        "reaction_assessment": "proportionate - same drivers as the SP500 day-move flag, amplified by Nasdaq's heavier semiconductor weighting"
+      },
+      {
+        "type": "oil_move",
+        "series": "DCOILWTICO",
+        "value": 4.491310290958792,
+        "detail": "WTI crude moved +4.49% (threshold: >3%)",
+        "narrative": "UPDATE (this pull, 2026-09-17): WTI has kept climbing since last pull, trading near $102-104/bbl into and through the Sept 16 FOMC decision (Brent briefly above $108 before easing) as Iran-backed Houthi militants advance toward the Bab el-Mandeb Strait and intensify attacks on Saudi targets and shipping routes, reportedly prompting Saudi Aramco to delay some European deliveries. The Fed's own statement cited Middle East tension as a factor in its decision, directly linking this flag to the yield-move flag above. Prior framing: WTI crude's jump reflects Middle East supply fears after Iran's attacks on commercial and U.S. Navy vessels, which the Iranian Foreign Ministry has framed as retaliatory. Brent has held above $90/bbl. Higher oil adds to the inflation picture the Fed is already responding to, reinforcing (not just coinciding with) this week's yield move.",
+        "citations": [
+          {
+            "title": "Wall Street Futures Edge Higher Ahead of Fed Rate Decision as Oil Prices Ease",
+            "url": "https://www.analyticsinsight.net/stocks/wall-street-futures-edge-higher-ahead-of-fed-rate-decision-as-oil-prices-ease",
+            "date": "2026-09-16"
+          },
+          {
+            "title": "Markets Begin Cautiously as Rising Crude and Geopolitical Tensions Persist",
+            "url": "https://businessnewsthisweek.com/business/markets-begin-cautiously-as-rising-crude-and-geopolitical-tensions-persist/",
+            "date": "2026-09"
+          },
+          {
+            "title": "Stock Market Update: Futures Flat, Oil Prices Soar Amid Geopolitical Tensions",
+            "url": "https://custommapposter.com/article/stock-market-update-futures-flat-oil-prices-soar-amid-geopolitical-tensions",
+            "date": "2026-09"
+          }
+        ],
+        "reaction_assessment": "proportionate - directly tied to an active, escalating geopolitical conflict, not a one-off spike"
+      }
+    ],
+    "blurb": "New: DOW moved -1.03% intraday (threshold: >1%); RUSSELL2000 moved -1.28% intraday (threshold: >1%) Faded below threshold: SP500 moved +1.49% intraday (threshold: >1%); NASDAQ moved +2.26% intraday (threshold: >1%); WTI crude moved +4.49% (threshold: >3%)"
   },
   "macro_series": {
     "DGS3MO": {
       "series_id": "DGS3MO",
       "label": "3-Month Treasury Yield",
-      "last_value": 4.14,
-      "last_date": "2026-09-18",
-      "day_chg": 0.02,
+      "last_value": 4.16,
+      "last_date": "2026-09-22",
+      "day_chg": -0.01,
       "month_chg": 0.28,
       "history": [
-        {
-          "date": "2026-06-25",
-          "value": 3.84
-        },
-        {
-          "date": "2026-06-26",
-          "value": 3.83
-        },
         {
           "date": "2026-06-29",
           "value": 3.87
@@ -256,25 +395,25 @@
         {
           "date": "2026-09-18",
           "value": 4.14
+        },
+        {
+          "date": "2026-09-21",
+          "value": 4.17
+        },
+        {
+          "date": "2026-09-22",
+          "value": 4.16
         }
       ]
     },
     "DGS2": {
       "series_id": "DGS2",
       "label": "2-Year Treasury Yield",
-      "last_value": 4.76,
-      "last_date": "2026-09-18",
-      "day_chg": 0.09,
-      "month_chg": 0.57,
+      "last_value": 4.71,
+      "last_date": "2026-09-22",
+      "day_chg": -0.05,
+      "month_chg": 0.47,
       "history": [
-        {
-          "date": "2026-06-25",
-          "value": 4.09
-        },
-        {
-          "date": "2026-06-26",
-          "value": 4.07
-        },
         {
           "date": "2026-06-29",
           "value": 4.1
@@ -506,25 +645,25 @@
         {
           "date": "2026-09-18",
           "value": 4.76
+        },
+        {
+          "date": "2026-09-21",
+          "value": 4.76
+        },
+        {
+          "date": "2026-09-22",
+          "value": 4.71
         }
       ]
     },
     "DGS10": {
       "series_id": "DGS10",
       "label": "10-Year Treasury Yield",
-      "last_value": 5.01,
-      "last_date": "2026-09-18",
-      "day_chg": 0.07,
-      "month_chg": 0.36,
+      "last_value": 4.96,
+      "last_date": "2026-09-22",
+      "day_chg": 0.0,
+      "month_chg": 0.22,
       "history": [
-        {
-          "date": "2026-06-25",
-          "value": 4.4
-        },
-        {
-          "date": "2026-06-26",
-          "value": 4.38
-        },
         {
           "date": "2026-06-29",
           "value": 4.38
@@ -756,25 +895,25 @@
         {
           "date": "2026-09-18",
           "value": 5.01
+        },
+        {
+          "date": "2026-09-21",
+          "value": 4.96
+        },
+        {
+          "date": "2026-09-22",
+          "value": 4.96
         }
       ]
     },
     "DGS30": {
       "series_id": "DGS30",
       "label": "30-Year Treasury Yield",
-      "last_value": 5.34,
-      "last_date": "2026-09-18",
-      "day_chg": 0.05,
-      "month_chg": 0.15,
+      "last_value": 5.29,
+      "last_date": "2026-09-22",
+      "day_chg": 0.0,
+      "month_chg": 0.02,
       "history": [
-        {
-          "date": "2026-06-25",
-          "value": 4.86
-        },
-        {
-          "date": "2026-06-26",
-          "value": 4.87
-        },
         {
           "date": "2026-06-29",
           "value": 4.86
@@ -1006,6 +1145,14 @@
         {
           "date": "2026-09-18",
           "value": 5.34
+        },
+        {
+          "date": "2026-09-21",
+          "value": 5.29
+        },
+        {
+          "date": "2026-09-22",
+          "value": 5.29
         }
       ]
     },
@@ -1013,26 +1160,10 @@
       "series_id": "DFF",
       "label": "Effective Federal Funds Rate",
       "last_value": 3.88,
-      "last_date": "2026-09-18",
+      "last_date": "2026-09-22",
       "day_chg": 0.0,
       "month_chg": 0.25,
       "history": [
-        {
-          "date": "2026-07-21",
-          "value": 3.63
-        },
-        {
-          "date": "2026-07-22",
-          "value": 3.63
-        },
-        {
-          "date": "2026-07-23",
-          "value": 3.63
-        },
-        {
-          "date": "2026-07-24",
-          "value": 3.63
-        },
         {
           "date": "2026-07-25",
           "value": 3.63
@@ -1256,25 +1387,33 @@
         {
           "date": "2026-09-18",
           "value": 3.88
+        },
+        {
+          "date": "2026-09-19",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-20",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-21",
+          "value": 3.88
+        },
+        {
+          "date": "2026-09-22",
+          "value": 3.88
         }
       ]
     },
     "SOFR": {
       "series_id": "SOFR",
       "label": "Secured Overnight Financing Rate",
-      "last_value": 3.85,
-      "last_date": "2026-09-18",
-      "day_chg": 0.0,
-      "month_chg": 0.23,
+      "last_value": 3.87,
+      "last_date": "2026-09-22",
+      "day_chg": 0.02,
+      "month_chg": 0.22,
       "history": [
-        {
-          "date": "2026-06-25",
-          "value": 3.64
-        },
-        {
-          "date": "2026-06-26",
-          "value": 3.62
-        },
         {
           "date": "2026-06-29",
           "value": 3.62
@@ -1506,25 +1645,25 @@
         {
           "date": "2026-09-18",
           "value": 3.85
+        },
+        {
+          "date": "2026-09-21",
+          "value": 3.85
+        },
+        {
+          "date": "2026-09-22",
+          "value": 3.87
         }
       ]
     },
     "T10Y2Y": {
       "series_id": "T10Y2Y",
       "label": "10Y-2Y Treasury Spread",
-      "last_value": 0.2,
-      "last_date": "2026-09-21",
-      "day_chg": -0.05,
-      "month_chg": -0.3,
+      "last_value": 0.26,
+      "last_date": "2026-09-23",
+      "day_chg": 0.01,
+      "month_chg": -0.2,
       "history": [
-        {
-          "date": "2026-06-26",
-          "value": 0.31
-        },
-        {
-          "date": "2026-06-29",
-          "value": 0.28
-        },
         {
           "date": "2026-06-30",
           "value": 0.3
@@ -1756,25 +1895,25 @@
         {
           "date": "2026-09-21",
           "value": 0.2
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0.25
+        },
+        {
+          "date": "2026-09-23",
+          "value": 0.26
         }
       ]
     },
     "T10Y3M": {
       "series_id": "T10Y3M",
       "label": "10Y-3M Treasury Spread",
-      "last_value": 0.79,
-      "last_date": "2026-09-21",
-      "day_chg": -0.08,
-      "month_chg": -0.03,
+      "last_value": 0.92,
+      "last_date": "2026-09-23",
+      "day_chg": 0.12,
+      "month_chg": 0.09,
       "history": [
-        {
-          "date": "2026-06-26",
-          "value": 0.55
-        },
-        {
-          "date": "2026-06-29",
-          "value": 0.51
-        },
         {
           "date": "2026-06-30",
           "value": 0.57
@@ -2006,6 +2145,14 @@
         {
           "date": "2026-09-21",
           "value": 0.79
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0.8
+        },
+        {
+          "date": "2026-09-23",
+          "value": 0.92
         }
       ]
     },
@@ -2013,18 +2160,10 @@
       "series_id": "BAMLC0A0CM",
       "label": "ICE BofA US Corporate Index OAS (IG credit spread)",
       "last_value": 0.77,
-      "last_date": "2026-09-18",
-      "day_chg": -0.01,
-      "month_chg": -0.05,
+      "last_date": "2026-09-22",
+      "day_chg": 0.0,
+      "month_chg": -0.04,
       "history": [
-        {
-          "date": "2026-06-29",
-          "value": 0.76
-        },
-        {
-          "date": "2026-06-30",
-          "value": 0.76
-        },
         {
           "date": "2026-07-01",
           "value": 0.76
@@ -2255,6 +2394,14 @@
         },
         {
           "date": "2026-09-18",
+          "value": 0.77
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0.77
+        },
+        {
+          "date": "2026-09-22",
           "value": 0.77
         }
       ]
@@ -2262,19 +2409,11 @@
     "BAMLC0A4CBBB": {
       "series_id": "BAMLC0A4CBBB",
       "label": "ICE BofA BBB US Corporate Index OAS (credit spread)",
-      "last_value": 0.94,
-      "last_date": "2026-09-18",
-      "day_chg": -0.01,
-      "month_chg": -0.06,
+      "last_value": 0.95,
+      "last_date": "2026-09-22",
+      "day_chg": 0.0,
+      "month_chg": -0.05,
       "history": [
-        {
-          "date": "2026-06-29",
-          "value": 0.95
-        },
-        {
-          "date": "2026-06-30",
-          "value": 0.95
-        },
         {
           "date": "2026-07-01",
           "value": 0.94
@@ -2506,6 +2645,14 @@
         {
           "date": "2026-09-18",
           "value": 0.94
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0.95
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0.95
         }
       ]
     },
@@ -2513,18 +2660,10 @@
       "series_id": "BAMLH0A0HYM2",
       "label": "ICE BofA US High Yield Index OAS (credit spread)",
       "last_value": 2.68,
-      "last_date": "2026-09-18",
-      "day_chg": -0.02,
-      "month_chg": -0.07,
+      "last_date": "2026-09-22",
+      "day_chg": 0.02,
+      "month_chg": -0.01,
       "history": [
-        {
-          "date": "2026-06-29",
-          "value": 2.8
-        },
-        {
-          "date": "2026-06-30",
-          "value": 2.75
-        },
         {
           "date": "2026-07-01",
           "value": 2.74
@@ -2756,37 +2895,25 @@
         {
           "date": "2026-09-18",
           "value": 2.68
+        },
+        {
+          "date": "2026-09-21",
+          "value": 2.66
+        },
+        {
+          "date": "2026-09-22",
+          "value": 2.68
         }
       ]
     },
     "DCOILWTICO": {
       "series_id": "DCOILWTICO",
       "label": "WTI Crude Oil Price",
-      "last_value": 107.02,
-      "last_date": "2026-09-15",
-      "day_chg": 4.6,
-      "month_chg": 23.03,
+      "last_value": 96.41,
+      "last_date": "2026-09-22",
+      "day_chg": -0.56,
+      "month_chg": 9.2,
       "history": [
-        {
-          "date": "2026-06-22",
-          "value": 78.94
-        },
-        {
-          "date": "2026-06-23",
-          "value": 74.62
-        },
-        {
-          "date": "2026-06-24",
-          "value": 71.42
-        },
-        {
-          "date": "2026-06-25",
-          "value": 72.67
-        },
-        {
-          "date": "2026-06-26",
-          "value": 70.3
-        },
         {
           "date": "2026-06-29",
           "value": 71.87
@@ -3006,6 +3133,26 @@
         {
           "date": "2026-09-15",
           "value": 107.02
+        },
+        {
+          "date": "2026-09-16",
+          "value": 103.62
+        },
+        {
+          "date": "2026-09-17",
+          "value": 103.21
+        },
+        {
+          "date": "2026-09-18",
+          "value": 101.44
+        },
+        {
+          "date": "2026-09-21",
+          "value": 96.97
+        },
+        {
+          "date": "2026-09-22",
+          "value": 96.41
         }
       ]
     },
@@ -3262,19 +3409,11 @@
     "GOLD": {
       "series_id": "GC=F",
       "label": "Gold (COMEX front-month)",
-      "last_value": 4396.0,
-      "last_date": "2026-09-21",
-      "day_chg": -28.9,
-      "month_chg": -175.4,
+      "last_value": 4310.7,
+      "last_date": "2026-09-23",
+      "day_chg": -65.7,
+      "month_chg": -387.1,
       "history": [
-        {
-          "date": "2026-06-26",
-          "value": 4096.3
-        },
-        {
-          "date": "2026-06-29",
-          "value": 4038.9
-        },
         {
           "date": "2026-06-30",
           "value": 4038.5
@@ -3505,26 +3644,26 @@
         },
         {
           "date": "2026-09-21",
-          "value": 4396.0
+          "value": 4383.9
+        },
+        {
+          "date": "2026-09-22",
+          "value": 4376.4
+        },
+        {
+          "date": "2026-09-23",
+          "value": 4310.7
         }
       ]
     },
     "SILVER": {
       "series_id": "SI=F",
       "label": "Silver (COMEX front-month)",
-      "last_value": 67.0,
-      "last_date": "2026-09-21",
-      "day_chg": 0.44,
-      "month_chg": -1.03,
+      "last_value": 64.41,
+      "last_date": "2026-09-23",
+      "day_chg": -1.52,
+      "month_chg": -4.13,
       "history": [
-        {
-          "date": "2026-06-26",
-          "value": 59.22
-        },
-        {
-          "date": "2026-06-29",
-          "value": 58.17
-        },
         {
           "date": "2026-06-30",
           "value": 59.48
@@ -3755,19 +3894,23 @@
         },
         {
           "date": "2026-09-21",
-          "value": 67.0
+          "value": 65.82
+        },
+        {
+          "date": "2026-09-22",
+          "value": 65.93
+        },
+        {
+          "date": "2026-09-23",
+          "value": 64.41
         }
       ]
     }
   },
   "vol_term_structure": {
     "VIX": {
-      "last_value": 14.87,
+      "last_value": 15.18,
       "history": [
-        {
-          "date": "2026-06-29",
-          "value": 17.65
-        },
         {
           "date": "2026-06-30",
           "value": 16.45
@@ -4003,16 +4146,16 @@
         {
           "date": "2026-09-21",
           "value": 14.87
+        },
+        {
+          "date": "2026-09-23",
+          "value": 15.18
         }
       ]
     },
     "VIX9D": {
-      "last_value": 13.14,
+      "last_value": 13.45,
       "history": [
-        {
-          "date": "2026-06-26",
-          "value": 16.8
-        },
         {
           "date": "2026-06-29",
           "value": 15.51
@@ -4248,16 +4391,16 @@
         {
           "date": "2026-09-21",
           "value": 13.14
+        },
+        {
+          "date": "2026-09-23",
+          "value": 13.45
         }
       ]
     },
     "VIX3M": {
-      "last_value": 18.08,
+      "last_value": 18.11,
       "history": [
-        {
-          "date": "2026-06-26",
-          "value": 20.13
-        },
         {
           "date": "2026-06-29",
           "value": 19.53
@@ -4493,79 +4636,23 @@
         {
           "date": "2026-09-21",
           "value": 18.08
+        },
+        {
+          "date": "2026-09-23",
+          "value": 18.11
         }
       ]
     },
     "structure": "contango (calm)",
-    "vix_minus_vix3m": -3.21
+    "vix_minus_vix3m": -2.93
   },
   "material_events": [
     {
-      "type": "index_day_move",
-      "series": "SP500",
-      "value": 1.493,
-      "detail": "SP500 moved +1.49% intraday (threshold: >1%)",
-      "narrative": "S&P 500 rose 1.49% on Monday, Sept 21 to 7,764.70 - its strongest session in weeks - as Treasury 10-year yields fell back under 5% (traders trimmed bets on a second 2026 Fed hike) and WTI crude eased from the prior week's highs, reversing two of the exact headwinds that drove the Sept 16 FOMC-day selloff described in the synthesis above. Chip and crypto strength broadened the move: the semiconductor rally sparked Sept 18 when Meta's new Muse AI agent hit the top of Apple's App Store (read by traders as bullish for CPU-side AI-inference demand, lifting Arm +13%/Intel +12%/AMD +9% that day) carried through the weekend, with AMD crossing a $1T market cap on Monday for the first time on its 5-day rally; bitcoin's surge past $85,000 the same day lifted Coinbase, Robinhood, and crypto-miner stocks.",
-      "citations": [
-        {
-          "title": "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally, oil falls",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
-          "date": "2026-09-21"
-        },
-        {
-          "title": "AMD hits $1 trillion market cap for the first time as stock rides 5-day rally",
-          "url": "https://www.cnbc.com/2026/09/21/amd-stock-1-trillion-value.html",
-          "date": "2026-09-21"
-        },
-        {
-          "title": "Live BTC price: Bitcoin hits $87,000 while Strategy's Saylor returns to BTC buying",
-          "url": "https://www.coindesk.com/business/2026/09/21/live-updates-bitcoin-rises-above-usd82-000-as-falling-oil-lifts-risk-assets",
-          "date": "2026-09-21"
-        },
-        {
-          "title": "Arm Surges 13% as Meta's Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9%",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-surges-13-meta-muse-152410038.html",
-          "date": "2026-09-18"
-        }
-      ],
-      "reaction_assessment": "proportionate - a real reversal of the prior week's yield/oil headwinds plus genuine sector-specific catalysts (Meta Muse chip-demand read, bitcoin rally), not a one-off technical bounce"
-    },
-    {
-      "type": "index_day_move",
-      "series": "NASDAQ",
-      "value": 2.261,
-      "detail": "NASDAQ moved +2.26% intraday (threshold: >1%)",
-      "narrative": "Nasdaq rose 2.26% on Monday, Sept 21 to 27,122.09 - its first record-high close since June - outperforming the S&P 500 on the same combination of falling yields/oil and chip-sector strength described in the SP500 flag above. The semiconductor rally that Meta's Muse AI agent sparked on Sept 18 (Arm +13%, Intel +12%, AMD +9% that session, per multiple outlets) carried into Monday, when AMD crossed a $1T market cap for the first time; the Philadelphia Semiconductor Index notched its fifth straight session of gains.",
-      "citations": [
-        {
-          "title": "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally, oil falls",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
-          "date": "2026-09-21"
-        },
-        {
-          "title": "AMD hits $1 trillion market cap for the first time as stock rides 5-day rally",
-          "url": "https://www.cnbc.com/2026/09/21/amd-stock-1-trillion-value.html",
-          "date": "2026-09-21"
-        },
-        {
-          "title": "Live BTC price: Bitcoin hits $87,000 while Strategy's Saylor returns to BTC buying",
-          "url": "https://www.coindesk.com/business/2026/09/21/live-updates-bitcoin-rises-above-usd82-000-as-falling-oil-lifts-risk-assets",
-          "date": "2026-09-21"
-        },
-        {
-          "title": "Arm Surges 13% as Meta's Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9%",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-surges-13-meta-muse-152410038.html",
-          "date": "2026-09-18"
-        }
-      ],
-      "reaction_assessment": "proportionate - same drivers as the SP500 day-move flag, amplified by Nasdaq's heavier semiconductor weighting"
-    },
-    {
       "type": "index_5day_move",
       "series": "NASDAQ",
-      "value": 3.573,
-      "detail": "NASDAQ moved +3.57% over 5 days (threshold: >2%)",
-      "narrative": "Nasdaq's 5-day change (Sept 15-21) turned solidly positive (+3.57%) even though the window contains the Sept 16 FOMC-hike selloff (Nasdaq -0.01% that day per the index data) - the index round-tripped and then broke higher on the Meta-Muse-triggered chip rally that began Sept 18 (Arm +13%, Intel +12%, AMD +9%) and continued through Monday Sept 21's broad rally (falling yields/oil, bitcoin above $85,000, AMD crossing a $1T market cap), which more than offset the FOMC-day losses within the same 5-day window.",
+      "value": 3.674,
+      "detail": "NASDAQ moved +3.67% over 5 days (threshold: >2%)",
+      "narrative": "UPDATE (this pull, 2026-09-23): The 5-session window has rolled forward and now includes the Sept 22-23 pullback described in the DOW/RUSSELL2000 day-move flags above: Nasdaq set a second straight record close Tuesday Sept 22 (+0.4%) before falling roughly 1.1% Wednesday Sept 23 as the 10-year Treasury yield spiked to ~5.11% (highest since 2007) on hawkish Fed commentary and a hot PMI print. Even with that pullback, the index's 5-day change is still solidly positive at +3.67% (essentially unchanged from the +3.57% at last pull), because Monday's chip-sector record rally was large enough to absorb it. There is no genuinely new story here beyond what's already below - this reads as last week's rally holding up under a fresh bout of rate-driven selling, not being extended by a new catalyst. Prior framing: Nasdaq's 5-day change (Sept 15-21) turned solidly positive (+3.57%) even though the window contains the Sept 16 FOMC-hike selloff (Nasdaq -0.01% that day per the index data) - the index round-tripped and then broke higher on the Meta-Muse-triggered chip rally that began Sept 18 (Arm +13%, Intel +12%, AMD +9%) and continued through Monday Sept 21's broad rally (falling yields/oil, bitcoin above $85,000, AMD crossing a $1T market cap), which more than offset the FOMC-day losses within the same 5-day window.",
       "citations": [
         {
           "title": "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally, oil falls",
@@ -4591,29 +4678,64 @@
       "reaction_assessment": "proportionate - reflects a real net shift (FOMC-day selloff more than offset by a genuine chip-sector catalyst), not measurement noise"
     },
     {
-      "type": "oil_move",
-      "series": "DCOILWTICO",
-      "value": 4.491310290958792,
-      "detail": "WTI crude moved +4.49% (threshold: >3%)",
-      "narrative": "UPDATE (this pull, 2026-09-17): WTI has kept climbing since last pull, trading near $102-104/bbl into and through the Sept 16 FOMC decision (Brent briefly above $108 before easing) as Iran-backed Houthi militants advance toward the Bab el-Mandeb Strait and intensify attacks on Saudi targets and shipping routes, reportedly prompting Saudi Aramco to delay some European deliveries. The Fed's own statement cited Middle East tension as a factor in its decision, directly linking this flag to the yield-move flag above. Prior framing: WTI crude's jump reflects Middle East supply fears after Iran's attacks on commercial and U.S. Navy vessels, which the Iranian Foreign Ministry has framed as retaliatory. Brent has held above $90/bbl. Higher oil adds to the inflation picture the Fed is already responding to, reinforcing (not just coinciding with) this week's yield move.",
+      "type": "index_day_move",
+      "series": "DOW",
+      "value": -1.032,
+      "detail": "DOW moved -1.03% intraday (threshold: >1%)",
+      "narrative": "UPDATE (this pull, 2026-09-23): The Dow's -1.03% figure this pull spans two real sessions compressed into one by the Sept 22 data gap described in the synthesis above. Tuesday Sept 22 the Dow slipped a modest 0.3% while the Nasdaq set a second straight record close - Richmond Fed President Tom Barkin struck a hawkish note ('supply shocks aren't proving short-lived'). Wednesday Sept 23 did the rest of the damage (-0.7%) as the 10-year Treasury yield jumped to roughly 5.11%-5.14% (highest since July 2007) after Fed Governor Michael Barr said 'further policy adjustments are likely to be needed,' and a hotter-than-expected S&P Global composite PMI (58.4 vs. 55.3 forecast) reinforced inflation concerns, pushing October-hike odds to ~66-74%. Same rate/inflation mechanism as the Sept 16 FOMC-day flag below, not a new independent driver. Prior framing: UPDATE (this pull, 2026-09-17): This flag now trips on the day-move threshold rather than the 5-day one, because the FOMC's Sept 16 hike hit in a single session: the Fed hiked 25bp as anticipated, and the Dow fell 631pts (-1.21%) to 51,461.90 on the day \u2014 banks led the damage (KBE -2.6%, worst day since February) on fears the hiking cycle continues into 2027. Prior framing: broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
       "citations": [
         {
-          "title": "Wall Street Futures Edge Higher Ahead of Fed Rate Decision as Oil Prices Ease",
-          "url": "https://www.analyticsinsight.net/stocks/wall-street-futures-edge-higher-ahead-of-fed-rate-decision-as-oil-prices-ease",
+          "title": "Stock Market Today (Sept. 23, 2026): Nasdaq, Russell 2000 sink as 5-year Treasury hits 5% for first time since 2007",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-23-2026",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "Stock market today: Dow, S&P 500, Nasdaq tumble as 10-year Treasury yield surges to 2007 high",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-23-dow-sp-500-nasdaq-080556640.html",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "Stock market today: Dow slips, Nasdaq posts fresh record with AI trade, Trump diplomacy in focus",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-22-nasdaq-dow-sp-500-080625961.html",
+          "date": "2026-09-22"
+        },
+        {
+          "title": "Stock market today: Dow sinks 600 points, S&P 500 and Nasdaq fall as Fed hikes rates, bond yields rise",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-16-dow-sp-500-nasdaq-fed-meeting-decision-080356525.html",
           "date": "2026-09-16"
+        },
+        {
+          "title": "Global Bond Selloff Sends 10-Year Treasury Yields to Cusp of 5%",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-11/global-bond-selloff-sends-10-year-treasury-yields-to-cusp-of-5",
+          "date": "2026-09-11"
         },
         {
           "title": "Markets Begin Cautiously as Rising Crude and Geopolitical Tensions Persist",
           "url": "https://businessnewsthisweek.com/business/markets-begin-cautiously-as-rising-crude-and-geopolitical-tensions-persist/",
           "date": "2026-09"
-        },
-        {
-          "title": "Stock Market Update: Futures Flat, Oil Prices Soar Amid Geopolitical Tensions",
-          "url": "https://custommapposter.com/article/stock-market-update-futures-flat-oil-prices-soar-amid-geopolitical-tensions",
-          "date": "2026-09"
         }
       ],
-      "reaction_assessment": "proportionate - directly tied to an active, escalating geopolitical conflict, not a one-off spike"
+      "reaction_assessment": "proportionate - directly tied to the yield spike (10yr to ~5.11%, highest since 2007) and hawkish Fed commentary (Barr, Barkin), not a surprise dislocation"
+    },
+    {
+      "type": "index_day_move",
+      "series": "RUSSELL2000",
+      "value": -1.276,
+      "detail": "RUSSELL2000 moved -1.28% intraday (threshold: >1%)",
+      "narrative": "Russell 2000's -1.28% figure this pull spans the same two compressed sessions as the DOW day-move flag above (Sept 22 data is missing from this dashboard's free index feed). Small-caps ticked up modestly Tuesday Sept 22 with the broader tech/chip rally, then fell hard Wednesday Sept 23 (-1.77% that session alone, closing at 2,838) as the 10-year Treasury yield spiked to ~5.11% - the highest since July 2007 - on hawkish Fed Governor Barr comments and a hot PMI print. This is the same small-cap rate-sensitivity mechanism already tracked by the 5-day Russell 2000 flag below, just showing up again as a fresh day-level trigger on Wednesday's sharper yield move.",
+      "citations": [
+        {
+          "title": "US stocks close lower led by declines in the small-cap Russell 2000 and Nasdaq indices",
+          "url": "https://investinglive.com/stocks/us-stocks-close-lower-led-by-declines-in-the-small-cap-russell-2000-and-nasdaq-indices/",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "Stock Market Today (Sept. 23, 2026): Nasdaq, Russell 2000 sink as 5-year Treasury hits 5% for first time since 2007",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-23-2026",
+          "date": "2026-09-23"
+        }
+      ],
+      "reaction_assessment": "proportionate - small-cap rate sensitivity is a known, already-tracked mechanism (see the 5-day Russell 2000 flag below), amplified here by Wednesday's sharp yield spike"
     }
   ]
 }
