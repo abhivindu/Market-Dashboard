@@ -20,4 +20,21 @@ Items below are things we'd add or improve if paid/institutional data access bec
 - **Structured credit (ABS/CMBS/CLO) dedicated data feed** — no plugin or free source found covering this; Point 4 methodology is hand-built from FRED spread series, Fed/rating-agency commentary, and news. An `lseg` subscription (see above) would be the natural upgrade.
 
 ## Known data-freshness gaps (free tier)
+- **FRED WTI crude series (DCOILWTICO) implausible day-to-day swings** (first encountered 2026-10-01
+  pull) — the daily series printed $85.23 (2026-09-25), $99.37 (2026-09-28), then $96.16 (2026-09-29),
+  swings no independent source corroborates: Investing.com's historical WTI data shows a comparatively
+  narrow $89-94 band across that same window (Sept 25 ~$92.41, Sept 28 ~$92.60-93.58, Sept 29 close
+  ~$89.38-90.54), and Robinhood's intraday WTI prediction-market data for both Sept 25 and Sept 29
+  clusters tightly around those same independently-reported levels throughout each trading day. Real
+  oil-market volatility was genuinely elevated this stretch (the Brent-WTI spread blew out to ~$12.83,
+  its widest since May, as Brent drew a geopolitical premium from stalled Hormuz reopening talks while
+  WTI weakened on US diesel-export-ban talk and rising Saudi/UAE exports) - so this isn't a quiet week
+  for oil, but FRED's specific day-over-day dollar levels over Sept 25-29 don't match that real story
+  either. Read as a data-quality issue (possibly a contract-date misalignment) in FRED's free daily
+  series rather than a genuine multi-day round-trip of that magnitude. This pull's oil_move materiality
+  flag still fires (FRED's own -3.2% day change) and happens to roughly match the real, independently-
+  reported ~3.5-3.8% WTI decline on Sept 29 - so the flag's narrative cites the real, dated news
+  driving that actual decline rather than FRED's specific (likely wrong) dollar levels. A paid
+  real-time commodities feed (or even a second free cross-check source pulled automatically rather
+  than by hand) would catch this kind of single-series anomaly before it reaches the dashboard.
 - **yfinance bulk equity-history lag** (first encountered 2026-09-22 pull) — the free Yahoo Finance `yf.download` bulk endpoint `fetch_price_history.py` uses for the ~1,500-name universe can lag a full trading day behind the individual index tickers (`^GSPC`, `^IXIC`, etc.) `fetch_indices.py` pulls separately. On the first 2026-09-22 pull, run ~4.5 hours after Monday's close, every individual-equity daily bar was still `NaN` for Monday while the index tickers already had Monday's close — so Point 3's movers/gainers/losers table initially reflected Friday's session even though Point 1's index-level flags were already Monday-fresh (a later same-day re-pull, ~2 hours on, caught up once Yahoo did). **Now mitigated in code, not just docs**: `fetch_price_history.py` compares its own data's as-of date against `indices.json`, retries once, and sets a `stale` flag (`data/point3/aggregates.json`'s `equity_data_stale`) that `build_final_payloads.py` surfaces as an automatic freshness-note caveat when no hand-written override exists — see CLAUDE.md's "Equity-data freshness self-check" section. This doesn't eliminate the underlying Yahoo lag (a paid fundamentals/price API would), just makes it visible and self-documenting instead of a silent multi-hour trap a curator has to notice by hand; still re-run `fetch_price_history.py` later in the day if `equity_data_stale` comes back `true` and today's exact movers matter.

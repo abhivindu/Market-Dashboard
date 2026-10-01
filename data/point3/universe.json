@@ -1078,7 +1078,7 @@
       "ticker": "P",
       "sector": "Information Technology",
       "name": "Everpure",
-      "index": "SP400"
+      "index": "SP500"
     },
     {
       "ticker": "ES",
@@ -1492,7 +1492,7 @@
       "ticker": "ILMN",
       "sector": "Health Care",
       "name": "Illumina, Inc.",
-      "index": "SP400"
+      "index": "SP500"
     },
     {
       "ticker": "INCY",
@@ -3073,6 +3073,12 @@
       "index": "SP400"
     },
     {
+      "ticker": "AGNC",
+      "sector": "Financials",
+      "name": "AGNC Investment",
+      "index": "SP400"
+    },
+    {
       "ticker": "AHR",
       "sector": "Real Estate",
       "name": "American Healthcare REIT",
@@ -3535,10 +3541,10 @@
       "index": "SP400"
     },
     {
-      "ticker": "CPRI",
-      "sector": "Consumer Discretionary",
-      "name": "Capri Holdings",
-      "index": "SP400"
+      "ticker": "CORT",
+      "sector": "Health Care",
+      "name": "Corcept Therapeutics Incorporated",
+      "index": "SP600"
     },
     {
       "ticker": "CR",
@@ -3695,6 +3701,12 @@
       "sector": "Industrials",
       "name": "Dycom Industries",
       "index": "SP400"
+    },
+    {
+      "ticker": "EAT",
+      "sector": "Consumer Discretionary",
+      "name": "Brinker International, Inc.",
+      "index": "SP600"
     },
     {
       "ticker": "EEFT",
@@ -4078,6 +4090,12 @@
       "ticker": "HRB",
       "sector": "Consumer Discretionary",
       "name": "H&R Block",
+      "index": "SP400"
+    },
+    {
+      "ticker": "HUBS",
+      "sector": "Information Technology",
+      "name": "HubSpot",
       "index": "SP400"
     },
     {
@@ -4858,12 +4876,6 @@
       "ticker": "SAIC",
       "sector": "Industrials",
       "name": "Science Applications Intl Corp",
-      "index": "SP400"
-    },
-    {
-      "ticker": "SAM",
-      "sector": "Consumer Staples",
-      "name": "Boston Beer Company",
       "index": "SP400"
     },
     {
@@ -6145,12 +6157,6 @@
       "index": "SP600"
     },
     {
-      "ticker": "CORT",
-      "sector": "Health Care",
-      "name": "Corcept Therapeutics Incorporated",
-      "index": "SP600"
-    },
-    {
       "ticker": "COTY",
       "sector": "Consumer Staples",
       "name": "Coty",
@@ -6424,12 +6430,6 @@
       "ticker": "DXPE",
       "sector": "Industrials",
       "name": "DXP Enterprises, Inc.",
-      "index": "SP600"
-    },
-    {
-      "ticker": "EAT",
-      "sector": "Consumer Discretionary",
-      "name": "Brinker International, Inc.",
       "index": "SP600"
     },
     {

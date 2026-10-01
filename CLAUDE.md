@@ -44,7 +44,9 @@ Concretely, on every refresh:
    text as-is — do not reword it to look fresh.
 3. If something genuinely newer is found, prepend `"UPDATE (this pull, <date>): ..."`
    to the field rather than deleting the prior context, and add the new dated
-   citation alongside the old one(s).
+   citation alongside the old one(s). **Exception: Point 1's synthesis** never
+   uses UPDATE prefixes or accumulates — it follows the two-section rotation in
+   "Point 1 synthesis format" below.
 4. Point 1 and Point 4 already carry a `freshness_note` / `since_last_pull`
    field at the top level explaining this to the reader — Point 2 and Point 3
    now have the same `freshness_note` field (see `data/point2/sectors.json`
@@ -55,6 +57,45 @@ Concretely, on every refresh:
 5. Never delete or fabricate a citation. An honest "no clean source found" /
    "N/A" entry (see Point 4's student-loan-ABS private pick, or Point 3's
    `"citations": []` movers) is correct and better than forcing a weak fit.
+
+## Point 1 synthesis format (required every pull — user's standing request)
+
+The Market Signal synthesis is always exactly two sections, rendered as
+"This pull" and "Previous pull". It must never grow back into one long
+paragraph of stacked `UPDATE (this pull, ...)` blocks. Shape in
+`data/content_overrides.json`:
+
+```json
+"point1_synthesis": {
+  "current":  {"as_of": "YYYY-MM-DD", "covers": "Week of Sept 24 - Oct 1", "paragraphs": ["...", "..."]},
+  "previous": {"as_of": "YYYY-MM-DD", "covers": "Sessions through Wed Sept 23", "paragraphs": ["...", "..."]}
+}
+```
+
+On every refresh:
+
+1. **Rotate**: copy the old `current` object into `previous` verbatim (same
+   `as_of`, `covers`, paragraphs — don't reword it). The old `previous` is
+   dropped from the page; it remains in git history.
+2. **Write a new `current`**: what this pull found, 2–4 short paragraphs
+   (roughly one theme each: rates/Fed, credit/oil/other markets, data-quality
+   notes if any). Plain text — no `UPDATE (this pull...)` prefixes; the section
+   header already carries the date. Refer back to the previous pull by name
+   ("vs. the Sept 23 pull") rather than restating it.
+3. **If genuinely nothing new turned up**, still rotate, and make `current` say
+   so plainly in one short paragraph — don't re-present the old text as new.
+4. If a pull is re-run the same day (e.g. after the equity-data lag), update
+   `current` in place — do not rotate twice.
+
+`pipeline/build_final_payloads.py` enforces this: it exits with an error if
+`point1_synthesis` is a string, has keys other than `current`/`previous`, or
+contains an `UPDATE (this pull` marker. Layout lives in
+`pipeline/render_point1_html.py` (`render_synthesis`).
+
+**Never hand-edit `artifacts/*.html`** to change layout or formatting — the next
+pipeline run regenerates the file and silently reverts it (this is how the
+two-section split was lost before). Change the render script or the data shape
+instead.
 
 ## Pipeline (run in this order)
 
@@ -113,6 +154,7 @@ A scheduled 5pm run should, in order:
 2. For Point 1 and Point 3: re-check the current top movers / material-events
    list against `data/content_overrides.json`; research any ticker/flag that's
    new or whose narrative is now stale, following the citation-date discipline.
+   Rotate and rewrite Point 1's synthesis per "Point 1 synthesis format" above.
 3. For Point 2: spot-check the fastest-moving 2-3 sectors (quantum, robotics,
    defense-adjacent, whatever moved this week) rather than exhaustively
    re-researching all 9 every day.

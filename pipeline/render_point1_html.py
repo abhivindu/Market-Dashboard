@@ -1,15 +1,31 @@
 """Render the Point 1 (macro one-pager) artifact HTML from final_payload.json.
 Pure templating - all data comes from the JSON, nothing hardcoded here.
 
-Layout: masthead -> lede synthesis paragraph -> three labeled stat clusters
+Layout: masthead -> two-section synthesis (this pull / previous pull) -> three labeled stat clusters
 (Benchmark Rates, Spreads, Commodities & FX) -> volatility read -> material
 events -> footer. The lede is the thing that makes this read as a "concise report"
 rather than a stat dump - it's the one piece of hand-authored narrative per
-pull, carried in content_overrides.json under "point1_synthesis".
+pull, carried in content_overrides.json under "point1_synthesis" as {current, previous}
+(see CLAUDE.md, "Point 1 synthesis format").
 """
+import html
 import json
 
 from render_common import svg_sparkline
+
+
+def render_synthesis(syn):
+    sections = []
+    for key, label in (("current", "This pull"), ("previous", "Previous pull")):
+        sec = syn[key]
+        covers = f'<span class="covers">{html.escape(sec["covers"])}</span>' if sec.get("covers") else ""
+        paras = "".join(f'<p class="lede">{html.escape(p)}</p>' for p in sec["paragraphs"])
+        sections.append(
+            f'<div class="synth-section {key}">'
+            f'<div class="synth-label"><span class="eyebrow">{label} &middot; {html.escape(sec["as_of"])}</span>{covers}</div>'
+            f'{paras}</div>'
+        )
+    return "\n    ".join(sections)
 
 
 TEMPLATE = """<!doctype html>
@@ -58,8 +74,15 @@ h1,h2,h3{{font-family:'Fraunces',Georgia,serif; text-wrap:balance; margin:0;}}
 .masthead .kicker{{font-size:0.72rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--accent); font-weight:600;}}
 .masthead .meta{{color:var(--ink-faint); font-size:0.78rem; text-align:right; line-height:1.5;}}
 
-.lede{{font-family:'Fraunces',Georgia,serif; font-size:1.15rem; font-weight:400; line-height:1.62; color:var(--ink); margin:0 0 36px; max-width:66ch;}}
-.lede strong{{font-weight:600;}}
+.synth{{margin:0 0 36px; max-width:66ch;}}
+.synth-section + .synth-section{{margin-top:26px; padding-top:20px; border-top:1px solid var(--line);}}
+.synth-label{{display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; margin-bottom:10px;}}
+.synth-label .eyebrow{{font-size:0.7rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--accent); font-weight:600;}}
+.synth-label .covers{{font-size:0.74rem; color:var(--ink-faint);}}
+.lede{{font-family:'Fraunces',Georgia,serif; font-size:1.12rem; font-weight:400; line-height:1.62; color:var(--ink); margin:0 0 14px;}}
+.lede:last-child{{margin-bottom:0;}}
+.synth-section.previous .eyebrow{{color:var(--ink-faint);}}
+.synth-section.previous .lede{{font-family:'Public Sans',system-ui,sans-serif; font-size:0.9rem; line-height:1.58; color:var(--ink-soft); margin-bottom:10px;}}
 
 .since-pull{{border-left:3px solid var(--accent); background:var(--accent-soft); border-radius:0 10px 10px 0; padding:12px 16px; margin-bottom:24px; max-width:66ch;}}
 .since-pull.quiet{{border-left-color:var(--line-strong); background:var(--surface-2);}}
@@ -143,7 +166,9 @@ footer{{color:var(--ink-faint); font-size:0.74rem; border-top:1px solid var(--li
     {since_pull_prev_date}
   </div>
 
-  <p class="lede">{synthesis}</p>
+  <div class="synth">
+    {synthesis_html}
+  </div>
 
   <div class="cluster-row">
     <div class="cluster">
@@ -396,7 +421,7 @@ def main():
 
     html = TEMPLATE.format(
         as_of_display=as_of,
-        synthesis=payload.get("synthesis") or "No synthesis available for this pull.",
+        synthesis_html=render_synthesis(payload["synthesis"]),
         since_pull_quiet_class=" quiet" if is_quiet else "",
         since_pull_blurb=since_pull.get("blurb") or "No prior pull on record.",
         since_pull_prev_date=since_pull_prev_date,
