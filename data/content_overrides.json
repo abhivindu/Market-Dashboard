@@ -408,22 +408,12 @@
       "verdict": "aligned"
     },
     "VICR": {
-      "narrative": "UPDATE (this pull, 2026-09-23): Vicor's move this pull (+26.5%, the day figure spans Tue Sept 22-Wed Sept 23 because of the Yahoo data gap described in the point1 synthesis) is driven by a much bigger catalyst than the fab-expansion story below: on Sept 22 Vicor raised its Q3 sequential revenue-growth guidance from roughly 10% to more than 20%, citing royalty income from a newly signed non-exclusive license of its patented Vertical Power Delivery (VPD) technology to an unnamed OEM building AI/networking processors - a high-margin royalty stream layered on top of the fab expansion already underway. One tracker had the stock up 21.2% in the week to Monday Sept 21 alone, before the guidance raise added further fuel. Prior framing: Vicor jumped 10% after announcing a major U.S. fab capacity expansion (Merrimack + Hooksett, NH, ~1M sq ft combined) to meet AI power-delivery demand, alongside a 145% y/y backlog surge and a new $150M buyback. Real capacity commitment, not just sentiment.",
+      "narrative": "UPDATE (this pull, 2026-10-01): A new, distinct catalyst from the one previously covered here - Vicor jumped 6.8-10% after raising its Q3 growth forecast to over 30% (from a prior estimate of more than 20%), driven by a surge in royalties from its inaugural non-exclusive licensing agreement for its vertical power delivery technology. Vicor now trades at roughly 312% above one GF Value estimate and a TTM P/E near 93x, both well above its own 5-year median - a strong fundamental update, but one the market may already be pricing generously. Prior framing: VICR's AI-royalty guidance raise had previously driven gains; this pull's move is a fresh, separate Q3 guidance raise on the same underlying royalty business, not a repeat of the same announcement.",
       "citations": [
         {
-          "title": "VICR Stock Surges As AI Royalties Turbocharge Growth Outlook",
-          "url": "https://www.timothysykes.com/news/vicor-corporation-vicr-news-2026_09_22/",
-          "date": "2026-09-22"
-        },
-        {
-          "title": "Why Did Vicor Stock Jump Before It Raised Its Outlook?",
-          "url": "https://www.trefis.com/stock/vicr/articles/616132/why-did-vicor-stock-jump-before-it-raised-its-outlook/2026-09-22",
-          "date": "2026-09-22"
-        },
-        {
-          "title": "Vicor Stock Climbs with Backlog Up 145%, More Capacity Coming",
-          "url": "https://www.benzinga.com/markets/tech/26/09/61746170/vicor-stock-climbs-with-backlog-up-145-more-capacity-coming",
-          "date": "2026-09"
+          "title": "Vicor Corporation (VICR) Shares Surge 10% on Upgraded Q3 Growth Forecast",
+          "url": "https://www.gurufocus.com/news/9105119/vicor-corporation-vicr-shares-surge-10-on-upgraded-q3-growth-forecast",
+          "date": "2026-10-01"
         }
       ],
       "verdict": "aligned"
@@ -939,12 +929,12 @@
       "verdict": "aligned"
     },
     "PBF": {
-      "narrative": "PBF Energy fell 6.1% on Monday, Sept 21 to $72.48, the sharpest decline among refiners even as the S&P 500 and Nasdaq rallied - Valero and Marathon Petroleum each fell nearly 5% the same session, and the Energy Select Sector ETF (XLE) was down about 2.5%, so this is primarily a sector-wide pullback (not PBF-specific) after refiners' 'nearly unprecedented' 2026 run on elevated crack spreads. GuruFocus flagged PBF specifically as ~79% overvalued on its GF Value estimate, and Bloomberg-tracked analysts expect refiner EPS to fall ~18% on average in 2027 as the margin windfall normalizes - valuation/sustainability concerns compounding the sector-wide reversal.",
+      "narrative": "UPDATE (this pull, 2026-10-01): PBF Energy's continued strength (+6.99%) reads as a continuation of an existing fundamentals-driven rally rather than a new single-day catalyst: shares trade near a 52-week high (+189% YTD) on strong refining margins since the Martinez refinery returned to full operations in May 2026, with BMO recently raising its Q3 2026 EPS estimate to $11.99 (from $9.78) and UBS reiterating a Buy on refining-outlook strength. No distinct Oct 1 headline found beyond this ongoing sector/company strength - likely benefiting incrementally from this week's refined-product and crack-spread dynamics tied to the oil-market volatility covered in Point 1's synthesis.",
       "citations": [
         {
-          "title": "PBF Looks 79.1% Overvalued on GF Value as Dividend Sustainability Faces Scrutiny",
-          "url": "https://www.gurufocus.com/news/9090454/pbf-looks-791-overvalued-on-gf-value-as-dividend-sustainability-faces-scrutiny",
-          "date": "2026-09-21"
+          "title": "BMO reiterates PBF Energy stock rating on strong Q3 outlook",
+          "url": "https://uk.investing.com/news/stock-market-news/bmo-reiterates-pbf-energy-stock-rating-on-strong-q3-outlook-93CH-4891960",
+          "date": "2026-09"
         }
       ],
       "verdict": "aligned"
@@ -1348,12 +1338,12 @@
       "verdict": "aligned"
     },
     "CARG": {
-      "narrative": "CarGurus fell 3.7% on Sept 22, continuing a -16.7% YTD downtrend, despite Q2 2026 results that were actually solid (revenue +13% y/y to $251.0M, adjusted EBITDA +7% to $84.7M). No fresh negative catalyst dated to this pull was found; insider selling has been modest ($7.4M net over the past year). Reads as continued multiple compression / consumer-internet-sector softness rather than a specific new event.",
+      "narrative": "CarGurus fell 4.59% (reported as -7.8% from an intraday high) in what's described as a broad sector-wide selloff across Internet Content & Information stocks, dragging the automotive-marketplace platform down with its peers rather than on CarGurus-specific news. No distinct company catalyst turned up despite a genuine search attempt - read this as sector-beta.",
       "citations": [
         {
-          "title": "A Look at CarGurus Inc (CARG) After 3.7% Decline",
-          "url": "https://www.gurufocus.com/news/9092665/a-look-at-cargurus-inc-carg-after-37-decline-gf-value-3922-vs-price-3194",
-          "date": "2026-09-22"
+          "title": "CarGurus Drops 7.8% Amid Sector-Wide Selling",
+          "url": "https://news.alphastreet.com/cargurus-drops-7-8-amid-sector-wide-selling/",
+          "date": "2026-10-01"
         }
       ],
       "verdict": "mixed"
@@ -1453,7 +1443,7 @@
       "narrative": "Royal Caribbean fell 6.1% on Sept 22 on a clear, dated, company-specific catalyst: reports that it's in advanced talks to acquire a majority (~50%) stake in Sandals Resorts International for roughly $3B, valuing Sandals at $6B+ - what would be Royal Caribbean's largest acquisition ever. The market read the deal as carrying integration, capital-allocation and execution risk despite the cross-sell logic (cruise plus land-based resorts); Carnival and Norwegian Cruise Line also slid on the read-through. This followed an already-weak stretch (10 straight down days, -9.7% in early September).",
       "citations": [
         {
-          "title": "RCL Stock Drops To Worst Day In Six Months — Royal Caribbean Reportedly Nears $6B Deal For Sandals Resorts",
+          "title": "RCL Stock Drops To Worst Day In Six Months \u2014 Royal Caribbean Reportedly Nears $6B Deal For Sandals Resorts",
           "url": "https://finance.yahoo.com/markets/stocks/articles/rcl-stock-drops-worst-day-232345600.html",
           "date": "2026-09-22"
         },
@@ -1464,6 +1454,410 @@
         }
       ],
       "verdict": "aligned"
+    },
+    "MAT": {
+      "narrative": "Mattel jumped 18.8% (reported as high as +23% intraday) after a report that brand-licensing firm Authentic Brands Group approached Mattel with private takeover interest valuing it at more than $20/share (~$6B+). No formal sale process is underway and there's no guarantee of a deal. The timing is notable: this comes one day after Mattel announced Cond\u00e9 Nast CEO Roger Lynch will become its next CEO - his pending arrival could complicate any transaction as he develops his own strategy, a tension the market doesn't appear to have fully priced given the scale of the pop.",
+      "citations": [
+        {
+          "title": "Mattel stock jumps on takeover interest from Authentic Brands",
+          "url": "https://www.investing.com/news/stock-market-news/mattel-stock-jumps-on-takeover-interest-from-authentic-brands-4928094",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Mattel shares rise after reports of takeover interest from Authentic Brands Group",
+          "url": "https://www.cnbc.com/2026/10/01/mattel-authentic-brands-takeover-interest.html",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "ACN": {
+      "narrative": "Accenture surged 15.8-21% (sources vary on close vs. intraday) after fiscal Q4 earnings beat expectations across the board: GAAP EPS $3.29 (beat by $0.11), revenue up 6.3% y/y to $18.7B (~$660M above forecast), record full-year bookings of $84.5B, Q4 operating margin up to 15.3% from 11.6% a year earlier, and a record $11.5B returned to shareholders. A clean, large, genuinely fundamentals-driven beat rather than a speculative move.",
+      "citations": [
+        {
+          "title": "Accenture (ACN) Shares Surge 19% Premarket After Q4 Earnings Beat Expectations",
+          "url": "https://www.gurufocus.com/news/9105323/accenture-acn-shares-surge-19-premarket-after-q4-earnings-beat-expectations",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "ACN Stock Jumps After Accenture Posts Record $84.5B Annual Bookings, Q4 Earnings Beat",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/acn-stock-jumps-accenture-posts-114431202.html",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "SNPS": {
+      "narrative": "Synopsys jumped 12.8% (to $483.59, leading the Nasdaq 100) after unveiling two Investor Day catalysts: GPT-Synopsys, an AI-powered chip-design tool built via a multiyear OpenAI partnership, and a custom-chip collaboration with Amazon valued at over $1B. Management also raised long-term revenue growth guidance to mid-teens through FY2030. Rosenblatt raised its target to $620 and HSBC moved to Buy at $700, both citing a shift toward a higher-growth, AI-driven royalty model rather than just the headline deal size.",
+      "citations": [
+        {
+          "title": "Synopsys (SNPS) Stock Surges 11% on OpenAI Partnership and Billion-Dollar Amazon Contract",
+          "url": "https://parameter.io/synopsys-snps-stock-surges-11-on-openai-partnership-and-billion-dollar-amazon-contract/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Synopsys Stock Jumps As AI Deals And Targets Impress Wall Street",
+          "url": "https://stockstotrade.com/news/synopsys-inc-snps-news-2026_10_01/",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "COHR": {
+      "narrative": "Coherent led a broad optical-networking rally (+10.9%) after launching PhotonLink, a new optics platform for AI-infrastructure data center networking. Bernstein initiated coverage of the group with an Outperform rating, calling optical names structural AI winners, and Goldman Sachs projects a further 9x TAM unlock to ~$154B for the configurations these companies supply. Part of the same move lifting Ciena (+6-7.8%) and Lumentum (+7.7%, ticker LITE) the same session - see those entries.",
+      "citations": [
+        {
+          "title": "Coherent, Lumentum, and Ciena stocks surge on bullish Wall Street call",
+          "url": "https://finance.yahoo.com/markets/stocks/article/coherent-lumentum-and-ciena-stocks-surge-on-bullish-wall-street-call-182906439.html",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "CIEN": {
+      "narrative": "Ciena rose 7.76% as part of the same Oct 1 optical-networking rally lifting Coherent (+10.9%, PhotonLink AI-optics platform launch) and Lumentum (+7.7%) - Bernstein initiated the group at Outperform calling them structural AI winners, with Goldman Sachs projecting a 9x TAM unlock (~$154B) for next-gen data center networking configurations. No distinct Ciena-specific catalyst found beyond the sector-wide re-rating; see the COHR entry for the group's shared driver.",
+      "citations": [
+        {
+          "title": "Coherent, Lumentum, and Ciena stocks surge on bullish Wall Street call",
+          "url": "https://finance.yahoo.com/markets/stocks/article/coherent-lumentum-and-ciena-stocks-surge-on-bullish-wall-street-call-182906439.html",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "LITE": {
+      "narrative": "Lumentum rose 7.67%, part of the same Oct 1 optical-networking rally as Coherent (+10.9%, launched the PhotonLink AI-optics platform) and Ciena (+7.76%) after Bernstein initiated the group at Outperform, calling them structural AI winners, and Goldman Sachs projected a 9x TAM unlock (~$154B) for next-gen data-center networking. Lumentum has been one of the group's strongest 2026 performers (+185% YTD per one tally) on repeated blowout optics earnings this year.",
+      "citations": [
+        {
+          "title": "Coherent, Lumentum, and Ciena stocks surge on bullish Wall Street call",
+          "url": "https://finance.yahoo.com/markets/stocks/article/coherent-lumentum-and-ciena-stocks-surge-on-bullish-wall-street-call-182906439.html",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "IPGP": {
+      "narrative": "IPG Photonics rose 6.87%, in line with the same Oct 1 optical-networking/AI-infrastructure rally lifting Coherent, Ciena, and Lumentum (Bernstein's structural-AI-winners call, Goldman's 9x TAM unlock thesis for next-gen data center optics) - no distinct IPG-specific news turned up in search, so this reads as the same sector-wide re-rating rather than a company-specific catalyst.",
+      "citations": [
+        {
+          "title": "Coherent, Lumentum, and Ciena stocks surge on bullish Wall Street call",
+          "url": "https://finance.yahoo.com/markets/stocks/article/coherent-lumentum-and-ciena-stocks-surge-on-bullish-wall-street-call-182906439.html",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "VIAV": {
+      "narrative": "Viavi Solutions rose 6.82%, consistent with the same Oct 1 optical-networking/AI-infrastructure rally lifting Coherent, Ciena, Lumentum, and IPG Photonics - no distinct Viavi-specific news turned up in search, so this reads as the same sector-wide re-rating (Bernstein's structural-AI-winners initiation, Goldman's TAM-expansion thesis) rather than a company-specific catalyst.",
+      "citations": [
+        {
+          "title": "Coherent, Lumentum, and Ciena stocks surge on bullish Wall Street call",
+          "url": "https://finance.yahoo.com/markets/stocks/article/coherent-lumentum-and-ciena-stocks-surge-on-bullish-wall-street-call-182906439.html",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "CTVA": {
+      "narrative": "Corteva's reported -83.81% day move is a corporate-action artifact, not a real loss: Corteva completed the spin-off of its seed business (SpinCo, trading as \"Vylor\"/VYLR on the NYSE) on Oct 1, distributing one Vylor share for every Corteva share held as of the Sept 24 record date. The post-spin \"New Corteva\" (crop protection business only) naturally opened far lower than pre-spin Corteva because a large chunk of the combined company's value now trades separately as VYLR. This dashboard's universe/price-history pull doesn't yet track VYLR as a separate line, so the economic reality (total pre-spin CTVA holder value \u2248 New Corteva price + VYLR price) isn't fully visible in this table - treat the -83.81% figure as a data/corporate-action artifact, not a trading loss, and do not read it as a market reaction to anything.",
+      "citations": [
+        {
+          "title": "Corteva, Inc. - Form 8-K (Vylor separation effective, Oct 1 2026 distribution)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001755672/000119312526401618/d181849dex991.htm",
+          "date": "2026-09-24"
+        }
+      ],
+      "verdict": "counter"
+    },
+    "PSKY": {
+      "narrative": "Paramount Skydance fell 9.58% (some sources report -3% to -10% depending on intraday timing) as pricing on its $41.4B senior secured notes plus $8.5B term loan (a combined ~$44.4B financing package, the same record September HY issuance flagged in this dashboard's Point 1/Point 4 credit-stress coverage) reached investors ahead of its Warner Bros. Discovery acquisition's Oct 6 close. Investor concern centers on borrowing costs: PSKY may face $450-600M in extra annual interest after rates on the planned bond deal rose 100-150bps since May, on top of a federal judge's merger-approval decree that sets annual theatrical-release minimums and a domestic production-spending floor - obligations that limit the options PSKY has to cut costs and service the new debt. A federal judge did clear the final legal hurdle for the merger the same stretch, so the stock fell despite good antitrust news specifically because of the financing/leverage math.",
+      "citations": [
+        {
+          "title": "Paramount Skydance Falls 5% Despite Antitrust Clearance and $41.4B Debt Pricing, Warner Bros. Discovery Holds Flat; Netflix Eases",
+          "url": "https://247wallst.com/investing/2026/10/01/paramount-skydance-falls-5-despite-antitrust-clearance-and-41-4b-debt-pricing-warner-bros-discovery-holds-flat-netflix-eases/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "PSKY Stock Slides As Warner Bros. Deal Risks Mount",
+          "url": "https://stockstotrade.com/news/paramount-skydance-corporation-psky-news-2026_10_01/",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "LQDA": {
+      "narrative": "Liquidia's five-day decline of roughly -60.55% (and this pull's bounce-candidate screen pick) is driven by a single clean catalyst: on Sept 30, the U.S. District Court in Delaware ruled that two of United Therapeutics' '327 patent claims are valid and infringed by Liquidia's inhaled treprostinil formulation (YUTREPIA, its lead pulmonary-arterial-hypertension therapy) - shares crashed more than 57% that day alone (United Therapeutics rose 6.2% on the same ruling). This followed a brief rally days earlier (+7.6% on Sept 28 on unrelated pipeline optimism), making the net 5-day move look even more dramatic. This is a genuine, severe, company-specific legal setback - not an overreaction or technical move - and the \"bounce candidate\" numeric screen flagging it should be read with that in mind rather than as an oversold buying opportunity.",
+      "citations": [
+        {
+          "title": "Liquidia (LQDA) Shares Drop 52% After Delaware Court Patent Ruling",
+          "url": "https://www.gurufocus.com/news/9104007/liquidia-lqda-shares-drop-52-after-delaware-court-patent-ruling",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "Liquidia Corp (LQDA) Shares Plunge Over 57% Following Patent Ruling on YUTREPIA",
+          "url": "https://www.gurufocus.com/news/9104147/liquidia-corp-lqda-shares-plunge-over-57-following-patent-ruling-on-yutrepia",
+          "date": "2026-09-30"
+        }
+      ],
+      "verdict": "counter"
+    },
+    "DHR": {
+      "narrative": "Danaher fell 3.9-4.5% after announcing Julie Sawyer Montgomery has assumed the roles of president and CEO and joined the board of directors. A CEO transition introduces near-term execution-risk uncertainty during a cyclical industry turn, and with biopharma capital spending still constrained and quarterly results weeks away, investors appear to have reduced exposure rather than hold through the transition - a reasonable, if cautious, reaction to a leadership change rather than new operating news.",
+      "citations": [
+        {
+          "title": "FinancialContent - Why Danaher (DHR) Shares Are Trading Lower Today",
+          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-1-why-danaher-dhr-shares-are-trading-lower-today",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "FICO": {
+      "narrative": "Fair Isaac's day move (+11.69%, a partial bounce) sits atop a brutal recent decline: shares fell as much as 26.52% in a single session in the days prior - described as FICO's worst day since 1989 - after FHFA rule changes opened the door to VantageScore as a mortgage-scoring alternative to FICO's model, with Wells Fargo, Goldman Sachs, BMO, Barclays, and Bank of America Securities all slashing price targets (one BofA cut was roughly in half) citing weaker mortgage volumes and rising competitive risk to FICO's core franchise. The Oct 1 gain reads as a relief bounce/short-covering after that selloff rather than a reversal of the underlying competitive threat - several of the same banks that cut targets stayed nominally bullish even after the cuts, underscoring how unsettled the read on FICO's moat is right now.",
+      "citations": [
+        {
+          "title": "Bank of America Cut Its Fair Isaac Price Target in Half and the Stock Still Fell Below It",
+          "url": "https://247wallst.com/investing/2026/10/01/bank-of-america-cut-its-fair-isaac-price-target-in-half-and-the-stock-still-fell-below-it/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "FICO Stock Plunges As Mortgage Rules Rattle Core Franchise",
+          "url": "https://stockstotrade.com/news/fair-isaac-corporation-fico-news-2026_10_01/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Fair Isaac Can't Win for Losing: First AI, Now Competition Crushes FICO Stock",
+          "url": "https://247wallst.com/investing/2026/09/29/fair-isaac-cant-win-for-losing-first-ai-now-competition-crushes-fico-stock/",
+          "date": "2026-09-29"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "RGEN": {
+      "narrative": "Repligen fell alongside the broader life-sciences-tools/healthcare complex on Oct 1. No distinct company-specific catalyst turned up despite a genuine search attempt - this reads as broad healthcare-sector weakness (the Health Care Select Sector SPDR ETF, XLV, fell 1.3% on Oct 1) compounding the same investor caution around biopharma/life-sciences capital spending visible in Danaher's CEO-transition selloff (see DHR entry) rather than a name-specific event.",
+      "citations": [
+        {
+          "title": "Materials and Healthcare Lead Thursday Sector Declines as XLB and XLV Slip",
+          "url": "https://www.dividendchannel.com/article/202610/materials-and-healthcare-lead-thursday-sector-declines-as-xlb-and-xlv-slip-XLB10012026spxldr.htm/",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "BIO": {
+      "narrative": "Bio-Rad Laboratories fell alongside the broader life-sciences-tools/healthcare complex on Oct 1. No distinct company-specific catalyst turned up despite a genuine search attempt - this reads as broad healthcare-sector weakness (the Health Care Select Sector SPDR ETF, XLV, fell 1.3% on Oct 1) compounding the same investor caution around biopharma/life-sciences capital spending visible in Danaher's CEO-transition selloff (see DHR entry) rather than a name-specific event.",
+      "citations": [
+        {
+          "title": "Materials and Healthcare Lead Thursday Sector Declines as XLB and XLV Slip",
+          "url": "https://www.dividendchannel.com/article/202610/materials-and-healthcare-lead-thursday-sector-declines-as-xlb-and-xlv-slip-XLB10012026spxldr.htm/",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "TMDX": {
+      "narrative": "TransMedics Group fell alongside the broader life-sciences-tools/healthcare complex on Oct 1. No distinct company-specific catalyst turned up despite a genuine search attempt - this reads as broad healthcare-sector weakness (the Health Care Select Sector SPDR ETF, XLV, fell 1.3% on Oct 1) compounding the same investor caution around biopharma/life-sciences capital spending visible in Danaher's CEO-transition selloff (see DHR entry) rather than a name-specific event.",
+      "citations": [
+        {
+          "title": "Materials and Healthcare Lead Thursday Sector Declines as XLB and XLV Slip",
+          "url": "https://www.dividendchannel.com/article/202610/materials-and-healthcare-lead-thursday-sector-declines-as-xlb-and-xlv-slip-XLB10012026spxldr.htm/",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "NEOG": {
+      "narrative": "Neogen fell alongside the broader life-sciences-tools/healthcare complex on Oct 1. No distinct company-specific catalyst turned up despite a genuine search attempt - this reads as broad healthcare-sector weakness (the Health Care Select Sector SPDR ETF, XLV, fell 1.3% on Oct 1) compounding the same investor caution around biopharma/life-sciences capital spending visible in Danaher's CEO-transition selloff (see DHR entry) rather than a name-specific event.",
+      "citations": [
+        {
+          "title": "Materials and Healthcare Lead Thursday Sector Declines as XLB and XLV Slip",
+          "url": "https://www.dividendchannel.com/article/202610/materials-and-healthcare-lead-thursday-sector-declines-as-xlb-and-xlv-slip-XLB10012026spxldr.htm/",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "BRKR": {
+      "narrative": "Bruker fell alongside the broader life-sciences-tools/healthcare complex on Oct 1. No distinct company-specific catalyst turned up despite a genuine search attempt - this reads as broad healthcare-sector weakness (the Health Care Select Sector SPDR ETF, XLV, fell 1.3% on Oct 1) compounding the same investor caution around biopharma/life-sciences capital spending visible in Danaher's CEO-transition selloff (see DHR entry) rather than a name-specific event.",
+      "citations": [
+        {
+          "title": "Materials and Healthcare Lead Thursday Sector Declines as XLB and XLV Slip",
+          "url": "https://www.dividendchannel.com/article/202610/materials-and-healthcare-lead-thursday-sector-declines-as-xlb-and-xlv-slip-XLB10012026spxldr.htm/",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "MEDP": {
+      "narrative": "Medpace fell alongside the broader life-sciences-tools/healthcare complex on Oct 1. No distinct company-specific catalyst turned up despite a genuine search attempt - this reads as broad healthcare-sector weakness (the Health Care Select Sector SPDR ETF, XLV, fell 1.3% on Oct 1) compounding the same investor caution around biopharma/life-sciences capital spending visible in Danaher's CEO-transition selloff (see DHR entry) rather than a name-specific event.",
+      "citations": [
+        {
+          "title": "Materials and Healthcare Lead Thursday Sector Declines as XLB and XLV Slip",
+          "url": "https://www.dividendchannel.com/article/202610/materials-and-healthcare-lead-thursday-sector-declines-as-xlb-and-xlv-slip-XLB10012026spxldr.htm/",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "MOH": {
+      "narrative": "Molina Healthcare fell 4.36%, consistent with a broader healthcare-sector pullback on Oct 1 (XLV -1.3%) layered on top of an already-known, longer-running worry: medical-cost trend and ACA/Obamacare-subsidy uncertainty that has pressured managed-care names for much of 2026. No distinct new Oct 1 headline found specific to Molina beyond that broader, already-known overhang.",
+      "citations": [
+        {
+          "title": "Molina Healthcare stock falls as medical costs spike, Obamacare worries mount",
+          "url": "https://finance.yahoo.com/news/molina-healthcare-stock-falls-as-medical-costs-spike-obamacare-worries-mount-171521043.html",
+          "date": "2026"
+        },
+        {
+          "title": "Materials and Healthcare Lead Thursday Sector Declines as XLB and XLV Slip",
+          "url": "https://www.dividendchannel.com/article/202610/materials-and-healthcare-lead-thursday-sector-declines-as-xlb-and-xlv-slip-XLB10012026spxldr.htm/",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "MKC": {
+      "narrative": "No clean, dated, company-specific catalyst found for McCormick & Company's move this pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "PPC": {
+      "narrative": "No clean, dated, company-specific catalyst found for Pilgrim's Pride's move this pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "GWRE": {
+      "narrative": "No clean, dated, company-specific catalyst found for Guidewire Software's move this pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "KD": {
+      "narrative": "No clean, dated, company-specific catalyst found for Kyndryl's move this pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "EXPO": {
+      "narrative": "No clean, dated, company-specific catalyst found for Exponent, Inc.'s move this pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "GPI": {
+      "narrative": "No clean, dated, company-specific catalyst found for Group 1 Automotive's move this pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "SPHR": {
+      "narrative": "No clean, dated, company-specific catalyst found for Sphere Entertainment's move this pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "AIR": {
+      "narrative": "No clean, dated, company-specific catalyst found for AAR Corp.'s move this pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "CSGP": {
+      "narrative": "No clean, dated, company-specific catalyst found for CoStar Group's move this pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "FISV": {
+      "narrative": "No clean, dated, company-specific catalyst found for Fiserv's move this pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "APP": {
+      "narrative": "No clean, dated, company-specific catalyst found for AppLovin's move this pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "CHTR": {
+      "narrative": "No clean, dated, company-specific catalyst found for Charter Communications's move this pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "BSX": {
+      "narrative": "No clean, dated, company-specific catalyst found for Boston Scientific's move this pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "MDT": {
+      "narrative": "No clean, dated, company-specific catalyst found for Medtronic's move this pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "NMIH": {
+      "narrative": "No clean, dated, company-specific catalyst found for NMI Holdings's move this pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "NKE": {
+      "narrative": "Nike's elevated volume (3.4x average) ahead of its fiscal Q1 earnings release after Thursday's close reflects pre-earnings positioning rather than a reaction to news yet - the stock carries record short interest (87M shares) and deeply negative sentiment heading into the print, down more than 41% YTD on continued sales weakness, with Wall Street mostly expecting another revenue decline. The modest -0.71% day move is consistent with a market bracing for the actual results rather than having reacted to them.",
+      "citations": [
+        {
+          "title": "Here Are Thursday's Top Wall Street Analyst Research Calls",
+          "url": "https://247wallst.com/investing/2026/10/01/here-are-thursdays-top-wall-street-analyst-research-calls-bp-dollar-tree-exxon-mobil-lennar-occidental-petroleum-rocket-lab-teva-pharmaceuticals-united-therapeutics-and-more/",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "not yet assessed"
+    },
+    "UTHR": {
+      "narrative": "United Therapeutics rose 5.44% after the same Sept 30 Delaware court ruling that crushed Liquidia (see LQDA entry) - the court found two of United Therapeutics' '327 patent claims valid and infringed by Liquidia's competing YUTREPIA formulation, a meaningful competitive-moat win. BTIG separately upgraded United Therapeutics to Buy from Neutral with a $728 price target the same day. A clean, well-sourced, directly-linked positive catalyst.",
+      "citations": [
+        {
+          "title": "Liquidia Corp (LQDA) Shares Plunge Over 57% Following Patent Ruling on YUTREPIA",
+          "url": "https://www.gurufocus.com/news/9104147/liquidia-corp-lqda-shares-plunge-over-57-following-patent-ruling-on-yutrepia",
+          "date": "2026-09-30"
+        },
+        {
+          "title": "Here Are Thursday's Top Wall Street Analyst Research Calls",
+          "url": "https://247wallst.com/investing/2026/10/01/here-are-thursdays-top-wall-street-analyst-research-calls-bp-dollar-tree-exxon-mobil-lennar-occidental-petroleum-rocket-lab-teva-pharmaceuticals-united-therapeutics-and-more/",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "LEN": {
+      "narrative": "Lennar's elevated volume (2.63x average) coincides with Morgan Stanley initiating coverage at Underweight with a $65 price target on Oct 1 - a negative signal, though the stock's own day move was only modestly positive (+0.64%), suggesting the market isn't fully agreeing with the bearish call or is reacting to offsetting homebuilder-sector news not captured in this search.",
+      "citations": [
+        {
+          "title": "Here Are Thursday's Top Wall Street Analyst Research Calls",
+          "url": "https://247wallst.com/investing/2026/10/01/here-are-thursdays-top-wall-street-analyst-research-calls-bp-dollar-tree-exxon-mobil-lennar-occidental-petroleum-rocket-lab-teva-pharmaceuticals-united-therapeutics-and-more/",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "AYI": {
+      "narrative": "Acuity Brands fell 3.4-4.1% after fiscal Q4 2026 results: adjusted diluted EPS of $5.77 beat the $5.66 consensus, but revenue of $1.24B fell just short of the $1.25B forecast - a mixed print where the revenue miss, not the EPS beat, appears to be driving the reaction.",
+      "citations": [
+        {
+          "title": "Acuity Brands Q4 FY2026 slides: EPS beats, revenue misses",
+          "url": "https://in.investing.com/news/stock-market-news/acuity-brands-q4-fy2026-slides-eps-beats-revenue-misses-93CH-5615040",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "SDGR": {
+      "narrative": "No clean, dated, company-specific catalyst found for Schrodinger's elevated-volume move this pull despite a genuine search attempt - general market/sector-beta read rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "NLY": {
+      "narrative": "No clean, dated, company-specific catalyst found for Annaly Capital Management's elevated-volume move this pull despite a genuine search attempt - general market/sector-beta read rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "MRP": {
+      "narrative": "No clean, dated, company-specific catalyst found for Millrose Properties's elevated-volume move this pull despite a genuine search attempt - general market/sector-beta read rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "FOUR": {
+      "narrative": "No clean, dated, company-specific catalyst found for Shift4 Payments's elevated-volume move this pull despite a genuine search attempt - general market/sector-beta read rather than a forced narrative.",
+      "citations": [],
+      "verdict": "not yet assessed"
     }
   },
   "recommendations": {
@@ -1556,15 +1950,9 @@
       "verdict": "aligned"
     },
     "CSGP": {
-      "thesis": "CoStar is down ~68% from its 52-week high despite revenue still growing 21% with a 79% gross margin - the market has re-rated the stock hard on competitive/execution concerns (its residential push against Zillow) rather than a revenue collapse. Classic value setup if the core commercial real estate data business keeps compounding while the market has priced in near-failure of the residential bet.",
-      "citations": [
-        {
-          "title": "CoStar Group (NASDAQ:CSGP) Sets New 52-Week Low - Time to Sell?",
-          "url": "https://www.marketbeat.com/instant-alerts/costar-group-nasdaqcsgp-sets-new-52-week-low-time-to-sell-2026-05-08/",
-          "date": "2026-05-08"
-        }
-      ],
-      "verdict": "aligned"
+      "thesis": "CoStar Group screens as a value candidate on the 52-week-discount proxy (trading well off its $97.43 high, within a $39.18-$97.43 52-week range), but no distinct, dated company catalyst explaining the discount turned up in search - this looks like a longer-running de-rating rather than a single event, so treat the proxy screen's \"discount\" framing with appropriate caution pending real fundamentals research (see WISHLIST.md on this dashboard's value-bucket methodology limits).",
+      "citations": [],
+      "verdict": "not yet assessed"
     },
     "KTOS": {
       "thesis": "UPDATE (this pull, 2026-09-24): Kratos and GE Aerospace achieved successful ignition of the GEK800 (now designated F143) turbofan cruise-missile propulsion system on Sept 21 at a 100% success rate, keeping the program on schedule for a long-range stand-off-strike engine and moving into the next phase of ground testing toward production - a concrete engineering milestone, not just a funding headline. Prior framing: Kratos is down 37% YTD despite a strong defense backlog and hypersonics revenue guided to ~$400M in 2026 and $700M+ in 2027 (MACH-TB program funding), plus recent $20M and $35M contract wins. Value case: the stock's multiple has compressed even as the forward revenue/earnings trajectory improved.",
@@ -1583,36 +1971,14 @@
       "verdict": "aligned"
     },
     "FISV": {
-      "thesis": "UPDATE (this pull, 2026-09-24): Refinitiv/Verus upgraded Fiserv to Buy from Hold on Sept 14, ahead of the stock's further slide to a new 52-week low ($47.04) later in the month - a genuine, dated bull-side reassessment during the drawdown rather than a change to the guidance-cut story itself, and CEO Takis Georgakopoulos's Project Elevate ($500M savings target, noncore divestitures) remains the operative turnaround plan. Prior framing: Fiserv is down 64% over the past year after slashing 2026 guidance to roughly flat organic revenue, driven partly by Argentina inflation normalization. Real fundamental deterioration, not pure sentiment - but at 72% below one fair-value estimate ($48.65 vs $174.38 GuruFocus GF Value), this is a case where the market may have overcorrected for a genuine but bounded problem.",
-      "citations": [
-        {
-          "title": "Fiserv stock tumbles after cutting 2026 guidance",
-          "url": "https://ca.investing.com/news/stock-market-news/fiserv-stock-tumbles-after-cutting-2026-guidance-93CH-4781377",
-          "date": "2026-09"
-        },
-        {
-          "title": "Fiserv Inc (FISV) Stock Down 4.3% -- Now Undervalued? GF Score: 71/100",
-          "url": "https://www.gurufocus.com/news/9088656/fiserv-inc-fisv-stock-down-43-now-undervalued-gf-score-71100",
-          "date": "2026-09-18"
-        }
-      ],
-      "verdict": "aligned"
+      "thesis": "Fiserv screens as a value candidate on the 52-week-discount proxy; no distinct, dated company catalyst explaining the discount turned up in search despite a genuine attempt. Treat the proxy screen's \"discount\" framing with appropriate caution pending real fundamentals research (see WISHLIST.md on this dashboard's value-bucket methodology limits).",
+      "citations": [],
+      "verdict": "not yet assessed"
     },
     "BSX": {
-      "thesis": "UPDATE (this pull, 2026-09-24): The deterioration has continued and broadened since the prior write-up - Citi downgraded to Neutral on Sept 17, Oppenheimer cut its price target to $65 from $85 on Sept 21, and Wells Fargo cut its target to $48, all citing the ongoing cyberattack disruption and WATCHMAN/electrophysiology pressure. This confirms rather than reverses the thesis below; the value case now depends more heavily on the Oct 28 earnings report showing the disruption is temporary. Prior framing: Boston Scientific is down ~60% from its September 2025 all-time high after a cyberattack disruption and slowing electrophysiology/WATCHMAN growth forced a guidance cut to 6.5-8% organic growth. Real operational hit, but the growth-rate cut (not a growth reversal) at a much lower valuation ahead of an Oct 28 earnings report is the value setup here.",
-      "citations": [
-        {
-          "title": "Has BSX Stock Fallen Far Enough To Buy?",
-          "url": "https://www.trefis.com/articles-v3/613349/has-bsx-stock-fallen-far-enough-to-buy/2026-08-27",
-          "date": "2026-08-27"
-        },
-        {
-          "title": "Boston Scientific stock heads into the open after a 0.9% gain",
-          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/boston-scientific-stock-heads-into-the-open-after-a-0-9-percent-gain/70149085",
-          "date": "2026-09-21"
-        }
-      ],
-      "verdict": "aligned"
+      "thesis": "Boston Scientific screens as a value candidate on the 52-week-discount proxy; no distinct, dated company catalyst explaining the discount turned up in search despite a genuine attempt. Treat the proxy screen's \"discount\" framing with appropriate caution pending real fundamentals research (see WISHLIST.md on this dashboard's value-bucket methodology limits).",
+      "citations": [],
+      "verdict": "not yet assessed"
     },
     "DUOL": {
       "thesis": "Duolingo is down 41% YTD after management deliberately chose user growth over near-term monetization (guiding 2026 bookings growth to ~11% vs the ~20% it could have delivered under the old approach). This is a valuation reset (14.6x forward P/E vs a 3-year average of 88x), not a demand problem - the growth-first bet either pays off in re-accelerated bookings later, or it doesn't.",
@@ -1740,20 +2106,20 @@
       "verdict": "aligned"
     },
     "CHTR": {
-      "thesis": "Charter's decline looks like the market correctly pricing in a genuine, worsening structural problem rather than overreacting: broadband subscriber losses accelerated to 172,000 in Q2 2026 from 116,000 a year earlier as fiber and fixed-wireless competition intensifies, and Wolfe Research downgraded the stock to Underperform on Sept 14 (from Peer Perform, $118 price target) citing added leverage and integration risk from the just-closed Cox acquisition plus deteriorating broadband competitive dynamics expected into 2027-2028 (expanding satellite capacity, more aggressive fiber pricing). Seven straight down sessions have taken the stock to roughly -39% YTD. This is a multi-year competitive and balance-sheet story, not a one-day shock - the bounce case here is weak.",
+      "thesis": "Charter Communications' discount has a clear, ongoing driver: the stock has repeatedly hit fresh 52-week lows through September 2026 (most recently after a Goldman Sachs price-target cut to $110 from $120), part of an 8-day losing streak that took the stock down roughly 20% - consistent with the broader cable/broadband sector's cord-cutting and competitive (fixed-wireless, fiber overbuild) pressures rather than a one-off event. This is a real, structural industry headwind, not a technical dislocation - the value case here depends on a broadband-industry thesis holding up, not just mean reversion.",
       "citations": [
         {
-          "title": "charter downgraded to underperform from peer perform at wolfe research",
-          "url": "https://www.tipranks.com/news/the-fly/charter-downgraded-to-underperform-from-peer-perform-at-wolfe-research",
-          "date": "2026-09-14"
+          "title": "Charter Communications (NASDAQ:CHTR) Sets New 52-Week Low After Analyst Downgrade",
+          "url": "https://www.marketbeat.com/instant-alerts/price-charter-communications-nasdaq-chtr-sets-new-52-week-low-after-analyst-downgrade-2026-09-28/",
+          "date": "2026-09-28"
         },
         {
-          "title": "A 7-Day Losing Streak Has Charter Communications Stock Down 20%",
-          "url": "https://www.trefis.com/stock/chtr/articles/616265/a-7-day-losing-streak-has-charter-communications-stock-down-20/2026-09-23",
-          "date": "2026-09-23"
+          "title": "An 8-Day Losing Streak Has Charter Communications Stock Down 20%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/8-day-losing-streak-charter-162028409.html",
+          "date": "2026-09"
         }
       ],
-      "verdict": "counter"
+      "verdict": "aligned"
     },
     "PODD": {
       "thesis": "Insulet is down over 60% from its 52-week high after an August 2026 guidance cut, but management's own explanation points to a fixable operational issue rather than collapsing core demand: about two-thirds of the cut traced to weaker type-2 diabetes customer retention and utilization in the first 90 days of therapy, with the remainder from slower new-customer starts and pricing mix - not competitive share loss. The real risk ahead is that tubeless automated-insulin-delivery competitors are expected to enter the market in 2027, which could pressure both share and pricing. Value case depends on retention tools (Omnipod Discover) fixing the 90-day drop-off before competition arrives.",
@@ -1786,7 +2152,7 @@
       "thesis": "TD Synnex's volume and price action look like pre-earnings positioning: the company reports Q3 FY26 results before market open on Sept 24 (the session after this pull's data), with consensus looking for EPS +31.3% y/y and revenue +20.8% y/y, and a track record of beating estimates in 88% of quarters over the past two years. GF Value flags the stock as roughly 68% above its estimated fair value heading into the print, so the setup carries real valuation risk if the beat streak breaks - this is a bet on the print landing well, not yet a settled catalyst.",
       "citations": [
         {
-          "title": "SNX Looks 68.1% Overvalued on GF Value™ Heading into Q3 Earnings",
+          "title": "SNX Looks 68.1% Overvalued on GF Value\u2122 Heading into Q3 Earnings",
           "url": "https://www.gurufocus.com/news/9094091/snx-looks-681-overvalued-on-gf-value-heading-into-q3-earnings",
           "date": "2026-09-23"
         },
@@ -1818,7 +2184,7 @@
       "thesis": "Red Rock Resorts' fundamentals look solid - Q2 EPS beat by $0.16 ($0.67 vs $0.51 consensus) on revenue of $510.3M (vs $500.1M expected), and Jefferies raised its price target to $75 (Buy) - yet the stock hit a fresh 52-week low intraday this week even as it ticked up modestly on the day, down roughly 20% over the trailing month and meaningfully underperforming the broader market over the past year. This looks like a valuation/sentiment gap opening between a beat-and-raise quarter and a still-falling share price rather than a fresh negative catalyst; GF Value pegs the stock as roughly 42% undervalued, but the disconnect between good numbers and a falling stock is itself a reason for caution rather than a clean momentum case.",
       "citations": [
         {
-          "title": "Red Rock Resorts (NASDAQ:RRR) Hits New 52-Week Low – What's Next?",
+          "title": "Red Rock Resorts (NASDAQ:RRR) Hits New 52-Week Low \u2013 What's Next?",
           "url": "https://www.thecerbatgem.com/2026/09/23/red-rock-resorts-nasdaqrrr-hits-new-52-week-low-whats-next.html",
           "date": "2026-09-23"
         },
@@ -1845,7 +2211,130 @@
         }
       ],
       "verdict": "mixed"
+    },
+    "CTVA": {
+      "thesis": "This bounce-candidate flag is a false positive: Corteva's apparent -84% five-day move is a corporate-action artifact from the Oct 1 spin-off of its seed business (SpinCo/\"Vylor\", NYSE: VYLR) - see the CTVA entry in top losers for the full explanation. This is not a real oversold opportunity; the screen simply hasn't adjusted for the spin-off's effect on the historical price series.",
+      "citations": [
+        {
+          "title": "Corteva, Inc. - Form 8-K (Vylor separation effective, Oct 1 2026 distribution)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001755672/000119312526401618/d181849dex991.htm",
+          "date": "2026-09-24"
+        }
+      ],
+      "verdict": "counter"
+    },
+    "LQDA": {
+      "thesis": "Liquidia's -60.55% five-day move is a genuine, severe legal setback, not an overreaction: a Delaware federal court ruled Sept 30 that Liquidia's YUTREPIA formulation infringes two of United Therapeutics' '327 patent claims (United Therapeutics rose 6.2% on the same ruling). This followed a brief unrelated rally days earlier. The scale of the drop reflects a real threat to Liquidia's lead commercial product, not a technical dislocation - this is not a clean bounce candidate without more clarity on Liquidia's appeal options and whether an injunction follows.",
+      "citations": [
+        {
+          "title": "Liquidia Corp (LQDA) Shares Plunge Over 57% Following Patent Ruling on YUTREPIA",
+          "url": "https://www.gurufocus.com/news/9104147/liquidia-corp-lqda-shares-plunge-over-57-following-patent-ruling-on-yutrepia",
+          "date": "2026-09-30"
+        }
+      ],
+      "verdict": "counter"
+    },
+    "FICO": {
+      "thesis": "Fair Isaac's -22.74% five-day move followed a genuine competitive threat (FHFA rule changes opening mortgage scoring to VantageScore, prompting across-the-board price-target cuts from Wells Fargo, Goldman, BMO, Barclays, and BofA) rather than a technical overreaction - see the FICO top-gainer entry for detail on the Oct 1 partial bounce. Whether this is a genuine buying opportunity depends on how much of FICO's mortgage-scoring moat is actually at risk, which remains unsettled even among the banks that cut targets; this is a real, not yet resolved, competitive-threat situation rather than a clean oversold bounce.",
+      "citations": [
+        {
+          "title": "Bank of America Cut Its Fair Isaac Price Target in Half and the Stock Still Fell Below It",
+          "url": "https://247wallst.com/investing/2026/10/01/bank-of-america-cut-its-fair-isaac-price-target-in-half-and-the-stock-still-fell-below-it/",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "AIR": {
+      "thesis": "AAR Corp's -17.14% five-day decline came despite strong fiscal Q1 FY27 results and raised full-year sales guidance (to \"low teens\" from \"low double digits\") - the market instead reacted to AAR's separately-announced $4.0B acquisition of a 65% controlling stake in MRO Holdings, financed with new debt plus ~$780M of stock to MRO's owners and a ~$230M PIPE raise, pushing net leverage to roughly 3.6x at closing. This reads as a genuine, reasoned market reaction to meaningfully higher leverage and dilution risk on an otherwise fundamentally strong quarter - a real bounce candidate only if the MRO deal's strategic logic and deleveraging path hold up, not a pure overreaction.",
+      "citations": [
+        {
+          "title": "Here's Why AAR Corp Stock Slumped Today Despite Excellent Earnings",
+          "url": "https://www.fool.com/investing/2026/09/29/heres-why-aar-corp-slumped-today-despite-excellent/",
+          "date": "2026-09-29"
+        },
+        {
+          "title": "AAR Corp. Drops 7.25% Over $4B MRO Acquisition",
+          "url": "https://koalagains.com/daily-top-movers/top-losers/details/579edfc9-4090-42a0-bb3e-32a900d71532",
+          "date": "2026-09-29"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "APP": {
+      "thesis": "AppLovin's discount is well-explained, not a mystery: shares are down roughly 54% in 2026 after a narrow Q2 revenue miss ($1.92B vs. $1.94B consensus) triggered analyst downgrades, followed by a mid-September securities class action alleging AppLovin overstated its AI model progress and didn't fully disclose delays to a planned generative-AI video tool. Competitive pressure from Meta's new Horizon Create/Studio AI game-creation tools adds to the overhang. A high starting valuation (~80x earnings at 2025's end) left little room for error. This is a real, multi-pronged credibility/fundamentals problem, not a clean technical discount - the 52-week-high proxy is correctly flagging a story that needs real resolution (the lawsuit, AI-roadmap credibility) before being read as undervalued.",
+      "citations": [
+        {
+          "title": "AppLovin Stock Is Down 54% in 2026 and Facing a Class Action. Here's Where It Could Go",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-stock-down-54-2026-114303125.html",
+          "date": "2026-09"
+        },
+        {
+          "title": "APP Stock Drop Alert: AppLovin Stock Plummets 20% after AI Progress Issues Revealed",
+          "url": "https://www.globenewswire.com/news-release/2026/09/25/3369014/0/en/app-stock-drop-alert-applovin-stock-plummets-20-after-ai-progress-issues-revealed-bfa-law-notifies-investors-of-the-imminent-november-16-deadline.html",
+          "date": "2026-09-25"
+        }
+      ],
+      "verdict": "counter"
+    },
+    "MAT": {
+      "thesis": "Mattel jumped 18.8% (reported as high as +23% intraday) after a report that brand-licensing firm Authentic Brands Group approached Mattel with private takeover interest valuing it at more than $20/share (~$6B+). No formal sale process is underway and there's no guarantee of a deal. The timing is notable: this comes one day after Mattel announced Cond\u00e9 Nast CEO Roger Lynch will become its next CEO - his pending arrival could complicate any transaction as he develops his own strategy, a tension the market doesn't appear to have fully priced given the scale of the pop.",
+      "citations": [
+        {
+          "title": "Mattel stock jumps on takeover interest from Authentic Brands",
+          "url": "https://www.investing.com/news/stock-market-news/mattel-stock-jumps-on-takeover-interest-from-authentic-brands-4928094",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Mattel shares rise after reports of takeover interest from Authentic Brands Group",
+          "url": "https://www.cnbc.com/2026/10/01/mattel-authentic-brands-takeover-interest.html",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "ACN": {
+      "thesis": "Accenture surged 15.8-21% (sources vary on close vs. intraday) after fiscal Q4 earnings beat expectations across the board: GAAP EPS $3.29 (beat by $0.11), revenue up 6.3% y/y to $18.7B (~$660M above forecast), record full-year bookings of $84.5B, Q4 operating margin up to 15.3% from 11.6% a year earlier, and a record $11.5B returned to shareholders. A clean, large, genuinely fundamentals-driven beat rather than a speculative move.",
+      "citations": [
+        {
+          "title": "Accenture (ACN) Shares Surge 19% Premarket After Q4 Earnings Beat Expectations",
+          "url": "https://www.gurufocus.com/news/9105323/accenture-acn-shares-surge-19-premarket-after-q4-earnings-beat-expectations",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "ACN Stock Jumps After Accenture Posts Record $84.5B Annual Bookings, Q4 Earnings Beat",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/acn-stock-jumps-accenture-posts-114431202.html",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "SNPS": {
+      "thesis": "Synopsys jumped 12.8% (to $483.59, leading the Nasdaq 100) after unveiling two Investor Day catalysts: GPT-Synopsys, an AI-powered chip-design tool built via a multiyear OpenAI partnership, and a custom-chip collaboration with Amazon valued at over $1B. Management also raised long-term revenue growth guidance to mid-teens through FY2030. Rosenblatt raised its target to $620 and HSBC moved to Buy at $700, both citing a shift toward a higher-growth, AI-driven royalty model rather than just the headline deal size.",
+      "citations": [
+        {
+          "title": "Synopsys (SNPS) Stock Surges 11% on OpenAI Partnership and Billion-Dollar Amazon Contract",
+          "url": "https://parameter.io/synopsys-snps-stock-surges-11-on-openai-partnership-and-billion-dollar-amazon-contract/",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Synopsys Stock Jumps As AI Deals And Targets Impress Wall Street",
+          "url": "https://stockstotrade.com/news/synopsys-inc-snps-news-2026_10_01/",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "MDT": {
+      "thesis": "Medtronic's appearance in the speculative/volume screen (elevated volume, positive day move) has no distinct, dated company catalyst found in search despite a genuine attempt - treat as a volume-driven technical signal rather than a researched catalyst pending further confirmation.",
+      "citations": [],
+      "verdict": "not yet assessed"
+    },
+    "NMIH": {
+      "thesis": "NMI Holdings' appearance in the speculative/volume screen has no distinct, dated company catalyst found in search despite a genuine attempt - treat as a volume-driven technical signal rather than a researched catalyst pending further confirmation.",
+      "citations": [],
+      "verdict": "not yet assessed"
     }
   },
-  "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. Data note (this pull, 2026-09-24, reflecting equity data through Wednesday Sept 23): Tuesday, Sept 22 is missing entirely from the free Yahoo endpoints this dashboard uses for both the headline indices and the ~1,300-name filtered universe - the data jumps straight from Monday Sept 21 to Wednesday Sept 23. This was checked this pull and confirmed to be a genuine data gap rather than a market holiday: multiple outlets published ordinary live market coverage for Tuesday Sept 22, 2026 (Nasdaq's second straight record close, a modest Dow dip, hawkish Richmond Fed comments). Practical effect: every 'day move' figure in this pull's gainers/losers/volume-outlier tables (and the DOW/RUSSELL2000 materiality flags) is actually a two-session move compressed into one by the gap, spanning both Tuesday Sept 22 and Wednesday Sept 23. Research for this pull was done with that in mind - narratives below cite the specific date(s) within that window each catalyst actually happened, rather than assuming a single 'today.' This pull found plenty that's genuinely new: fresh, dated catalysts for most of the day's top gainers and losers (VICR's AI-royalty guidance raise, CE's acetyl price hikes, OKTA's Oktane/Blueprint Alliance launch, RCL's Sandals Resorts deal talks, MCD's Investor Day, PAYX's Q1 FY27 print, a broad online-travel selloff tying ABNB and EXPE together, and a fresh securities-fraud filing behind CAR's continued slide, among others) plus a broad, rate-driven market pullback (10-year Treasury to ~5.11%, the highest since 2007, on hawkish Fed commentary and a hot PMI print) that explains the bulk of the day's breadth (495 advancers vs. 799 decliners). A meaningful minority of names (ROG, RMBS, CARG, FTDR, NYT, WING, VIRT, SEZL, TPL, RSI among them) turned up no clean company-specific catalyst despite a real search attempt - those are marked as sector-beta or general-weakness reads rather than forced into a story that doesn't fit."
+  "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. This pull (2026-10-01) reflects a genuinely quiet index-level day (S&P 500 +0.19%, Nasdaq +0.04%, Dow +0.04%) but real single-name dispersion underneath: Accenture (+15.8%, Q4 earnings beat) and Synopsys (+12.8%, OpenAI/Amazon deals at Investor Day) led a broad earnings/guidance-driven rally that also included an optical-networking cluster (Coherent, Ciena, Lumentum, and to a lesser extent IPG Photonics and Viavi) on a bullish Wall Street AI-infrastructure call, plus Mattel on takeover-interest reports. On the loser side, Corteva's reported -83.81% move is a corporate-action artifact from its Oct 1 seed-business spin-off (Vylor/VYLR), not a real loss - flagged explicitly rather than presented as a crash. Paramount Skydance fell on investor concern over the $44.4B debt financing for its Warner Bros. Discovery deal (the same issuance flagged in this pull's Point 1/Point 4 credit-stress coverage), Liquidia crashed on a genuine adverse patent ruling, Danaher fell on a CEO transition, and several life-sciences-tools names (Repligen, Bio-Rad, TransMedics, Neogen, Bruker, Medpace) moved with a broader 1.3% healthcare-sector (XLV) pullback rather than on distinct news. A meaningful minority of names (Guidewire, Kyndryl, Exponent, Group 1 Automotive, Sphere Entertainment, CoStar Group, Fiserv, Boston Scientific, Medtronic, NMI Holdings, McCormick, Pilgrim's Pride) turned up no clean company-specific catalyst despite a genuine search attempt and are marked as general-market/sector-beta reads rather than forced into a story that doesn't fit."
 }
