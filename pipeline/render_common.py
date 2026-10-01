@@ -1,4 +1,4 @@
-"""Shared rendering helpers used by both render_point1_html.py and render_point3_html.py."""
+"""Shared rendering helpers used by the render_point*_html.py scripts."""
 
 
 def svg_sparkline(values, width=72, height=26, color="var(--accent)", stroke_width=1.6):
@@ -23,3 +23,26 @@ def svg_sparkline(values, width=72, height=26, color="var(--accent)", stroke_wid
         f'<circle cx="{last_x}" cy="{last_y}" r="2.1" fill="{color}"/>'
         f"</svg>"
     )
+
+
+HUB_URL = "https://claude.ai/code/artifact/984f7869-6d78-4b90-bf73-86d17366b757"
+
+HUB_LINK_HTML = (
+    f'<a class="hub-back" href="{HUB_URL}" target="_blank" rel="noopener" '
+    'style="display:inline-flex; align-items:center; gap:6px; margin-bottom:18px; padding:6px 12px; '
+    'border:1px solid var(--line-strong); border-radius:999px; background:var(--surface); '
+    "color:var(--ink-soft); font-family:'Public Sans',system-ui,sans-serif; font-size:0.78rem; "
+    'font-weight:600; text-decoration:none;" '
+    "onmouseover=\"this.style.color='var(--accent)';this.style.borderColor='var(--accent)'\" "
+    "onmouseout=\"this.style.color='var(--ink-soft)';this.style.borderColor='var(--line-strong)'\">"
+    '&larr; Market Dashboard</a>'
+)
+
+
+def add_hub_link(page_html):
+    """Prepend the back-to-hub link inside the page's .wrap container. Opens in a new tab,
+    matching how the hub opens each point (target=_blank works inside the artifact frame)."""
+    marker = '<div class="wrap">'
+    if marker not in page_html:
+        raise SystemExit('add_hub_link: <div class="wrap"> not found - template changed?')
+    return page_html.replace(marker, marker + "\n  " + HUB_LINK_HTML, 1)

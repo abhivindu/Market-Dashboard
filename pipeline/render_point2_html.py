@@ -6,7 +6,7 @@ primary and adjacent company profiles with investors/performance/citations.
 """
 import json
 
-from render_common import svg_sparkline  # noqa: F401 (kept for parity with other renderers; unused here)
+from render_common import add_hub_link
 
 
 TEMPLATE = """<!doctype html>
@@ -283,7 +283,7 @@ def main():
     )
 
     with open("artifacts/point2.html", "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(add_hub_link(html))
     print(f"Wrote artifacts/point2.html ({len(data['sectors'])} sectors)")
 
 

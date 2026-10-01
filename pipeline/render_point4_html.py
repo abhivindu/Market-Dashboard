@@ -11,6 +11,8 @@ freshness_note in the data file.
 """
 import json
 
+from render_common import add_hub_link
+
 
 TEMPLATE = """<!doctype html>
 <title>Credit Desk</title>
@@ -214,7 +216,7 @@ def main():
     )
 
     with open("artifacts/point4.html", "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(add_hub_link(html))
     print(f"Wrote artifacts/point4.html ({len(data['asset_classes'])} asset classes)")
 
 

@@ -6,7 +6,7 @@ checks whether the collection is already populated before seeding).
 """
 import json
 
-from render_common import svg_sparkline
+from render_common import add_hub_link, svg_sparkline
 
 CSS = """
 :root{
@@ -622,7 +622,7 @@ def main():
     )
 
     with open("artifacts/point3.html", "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(add_hub_link(html))
     print("Wrote artifacts/point3.html")
 
 

@@ -11,7 +11,7 @@ pull, carried in content_overrides.json under "point1_synthesis" as {current, pr
 import html
 import json
 
-from render_common import svg_sparkline
+from render_common import add_hub_link, svg_sparkline
 
 
 def render_synthesis(syn):
@@ -440,7 +440,7 @@ def main():
     )
 
     with open("artifacts/point1.html", "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(add_hub_link(html))
     print("Wrote artifacts/point1.html")
 
 

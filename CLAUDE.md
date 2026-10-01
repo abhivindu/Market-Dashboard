@@ -13,6 +13,9 @@ before touching anything.
 - Point 3, Equities Desk (indices/movers/earnings/portfolio): https://claude.ai/code/artifact/e1f164db-5c0e-4f08-b0c0-09099ef51017
 - Point 4, Credit Desk (structured credit / private credit): https://claude.ai/code/artifact/e9fca780-0efa-4261-a995-79ad28386593
 
+Every point page renders a "← Market Dashboard" back link to the hub, added by
+`add_hub_link()` in `pipeline/render_common.py` (hub URL lives in `HUB_URL` there).
+
 ## Standing constraints (do not violate)
 
 - Free-tier data only — no paid Bloomberg/FactSet/LSEG access. See WISHLIST.md
