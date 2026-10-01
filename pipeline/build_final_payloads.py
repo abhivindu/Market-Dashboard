@@ -95,6 +95,29 @@ def build_point3_freshness_note(override_note, aggregates):
     return note
 
 
+def validate_point1_synthesis(syn):
+    """Point 1's synthesis is always exactly two sections - this pull and the previous pull -
+    so it can't drift back into one ever-growing paragraph. See CLAUDE.md's
+    "Point 1 synthesis format" section for the per-pull rotation rule."""
+    if not isinstance(syn, dict) or set(syn) != {"current", "previous"}:
+        raise SystemExit(
+            "content_overrides.json 'point1_synthesis' must be an object with exactly two keys, "
+            "'current' and 'previous' (see CLAUDE.md, 'Point 1 synthesis format'). "
+            "Do not write it as a single string or append extra UPDATE blocks."
+        )
+    for key in ("current", "previous"):
+        section = syn[key]
+        paras = section.get("paragraphs")
+        if not section.get("as_of") or not isinstance(paras, list) or not paras:
+            raise SystemExit(f"point1_synthesis.{key} needs an 'as_of' date and a non-empty 'paragraphs' list.")
+        if any("UPDATE (this pull" in p for p in paras):
+            raise SystemExit(
+                f"point1_synthesis.{key} contains an 'UPDATE (this pull...' marker - the section header "
+                "already carries the date, so write plain paragraphs instead."
+            )
+    return syn
+
+
 def main():
     overrides = load("data/content_overrides.json", {"macro_flags": {}, "movers": {}, "recommendations": {}})
 
@@ -114,7 +137,7 @@ def main():
 
     point1_payload = {
         "as_of": macro["as_of"],
-        "synthesis": overrides.get("point1_synthesis", ""),
+        "synthesis": validate_point1_synthesis(overrides.get("point1_synthesis")),
         "since_last_pull": diff,
         "macro_series": macro["series"],
         "vol_term_structure": macro.get("vol_term_structure", {}),
