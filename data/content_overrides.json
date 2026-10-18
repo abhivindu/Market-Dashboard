@@ -603,15 +603,30 @@
       "verdict": "aligned"
     },
     "VICR": {
-      "narrative": "UPDATE (this pull, 2026-10-01): A new, distinct catalyst from the one previously covered here - Vicor jumped 6.8-10% after raising its Q3 growth forecast to over 30% (from a prior estimate of more than 20%), driven by a surge in royalties from its inaugural non-exclusive licensing agreement for its vertical power delivery technology. Vicor now trades at roughly 312% above one GF Value estimate and a TTM P/E near 93x, both well above its own 5-year median - a strong fundamental update, but one the market may already be pricing generously. Prior framing: VICR's AI-royalty guidance raise had previously driven gains; this pull's move is a fresh, separate Q3 guidance raise on the same underlying royalty business, not a repeat of the same announcement.",
+      "narrative": "UPDATE (this pull, 2026-10-18): Vicor fell 12.9% on Oct 16 to $191.50 (-28% over five sessions), its third straight down day, giving back the Oct 1 guidance-raise pop and more. No new company announcement turned up; GuruFocus tied the Oct 15 ~12% drop to investor worry over the rising cost of financing the AI-infrastructure buildout after hotter CPI/PPI prints, with power/data-center peers Vertiv and nVent also falling - i.e. this is the AI-infra financing selloff hitting a richly valued AI-power name (GuruFocus still flags a P/E ~61x and $424M of insider selling over 12 months). Q3 results are due Oct 20 at 7:00 a.m. ET - the royalty-driven >30% growth guide from Oct 1 will be tested within days. Prior framing: UPDATE (this pull, 2026-10-01): A new, distinct catalyst from the one previously covered here - Vicor jumped 6.8-10% after raising its Q3 growth forecast to over 30% (from a prior estimate of more than 20%), driven by a surge in royalties from its inaugural non-exclusive licensing agreement for its vertical power delivery technology. Vicor now trades at roughly 312% above one GF Value estimate and a TTM P/E near 93x, both well above its own 5-year median - a strong fundamental update, but one the market may already be pricing generously. Prior framing: VICR's AI-royalty guidance raise had previously driven gains; this pull's move is a fresh, separate Q3 guidance raise on the same underlying royalty business, not a repeat of the same announcement.",
       "citations": [
         {
           "title": "Vicor Corporation (VICR) Shares Surge 10% on Upgraded Q3 Growth Forecast",
           "url": "https://www.gurufocus.com/news/9105119/vicor-corporation-vicr-shares-surge-10-on-upgraded-q3-growth-forecast",
           "date": "2026-10-01"
+        },
+        {
+          "title": "Vicor (VICR) Shares Drop 12% Amid Rising AI Infrastructure Financing Costs",
+          "url": "https://www.gurufocus.com/news/9126319/vicor-vicr-shares-drop-12-amid-rising-ai-infrastructure-financing-costs",
+          "date": "2026-10-15"
+        },
+        {
+          "title": "Vicor Corp (VICR) Shares Fall 12.9% -- GF Value Says Still Overvalued",
+          "url": "https://www.gurufocus.com/news/9128485/vicor-corp-vicr-shares-fall-129-gf-value-says-still-overvalued",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Vicor stock fell 5.52 percent before its October 20 results",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/vicor-stock-fell-5-52-percent-before-its-october-20-results/70260210",
+          "date": "2026-10-08"
         }
       ],
-      "verdict": "aligned"
+      "verdict": "mixed"
     },
     "NTAP": {
       "narrative": "NetApp's strongest Q1 in company history: revenue $2.03B (+30% y/y) vs ~$1.84B expected, EPS $2.58 vs $2.12 consensus, billings +36%. All-flash arrays (+47%) and Public Cloud (+28%) both accelerating on AI workload adoption. Argus raised its price target to $225.",
@@ -636,15 +651,25 @@
       "verdict": "aligned"
     },
     "LEU": {
-      "narrative": "Centrus Energy's drop is technical, not thesis-breaking: the company priced a $500M stock-and-warrants offering, and new-share dilution mechanically pressures price. Third straight down day (-8.6% Friday alone). Nuclear-fuel demand thesis is unaffected by this financing event.",
+      "narrative": "UPDATE (this pull, 2026-10-18): Another, later leg down: Centrus fell 9.5% on Oct 16 to $114.94 (-19.3% on the week), after a 10.6% drop on Oct 14 that MarketBeat reported with no stated cause (despite a recent EPS beat), and a sector-wide nuclear pullback on Oct 12 (NuScale -7%, Oklo -6%, Centrus -4%, per 24/7 Wall St). No new offering or company-specific news turned up for this week, so the September offering explanation above does not cover this move. This reads as nuclear-theme de-risking inside the broader growth/AI-adjacent selloff, which is weaker sourcing than the prior framing. Prior framing: Centrus Energy's drop is technical, not thesis-breaking: the company priced a $500M stock-and-warrants offering, and new-share dilution mechanically pressures price. Third straight down day (-8.6% Friday alone). Nuclear-fuel demand thesis is unaffected by this financing event.",
       "citations": [
         {
           "title": "Centrus Energy (LEU) Stock Trades Down, Here Is Why",
           "url": "https://ca.finance.yahoo.com/news/centrus-energy-leu-stock-trades-024904901.html",
           "date": "2026-09-11"
+        },
+        {
+          "title": "NuScale Power Sinks 7% as Nuclear Names Give Back a Month of Ground; Oklo Falls 6%, Centrus Energy Drops 4%",
+          "url": "https://247wallst.com/investing/2026/10/12/nuscale-power-sinks-7-as-nuclear-names-give-back-a-month-of-ground-oklo-falls-6-centrus-energy-drops-4/",
+          "date": "2026-10-12"
+        },
+        {
+          "title": "Centrus Energy (NYSE:LEU) Shares Down 10.6% - Here's What Happened",
+          "url": "https://www.marketbeat.com/instant-alerts/price-centrus-energy-nyse-leu-shares-down-106-heres-what-happened-2026-10-14/",
+          "date": "2026-10-14"
         }
       ],
-      "verdict": "aligned"
+      "verdict": "mixed"
     },
     "QLYS": {
       "narrative": "Qualys fell alongside a sector-wide cybersecurity selloff (profit-taking after a late-August rally, some insider-sale disclosures) rather than new company-specific bad news. Q2 beat estimates; Q3 guidance of 9-10% revenue growth is healthy but didn't support the post-earnings valuation run-up.",
@@ -669,7 +694,7 @@
       "verdict": "aligned"
     },
     "DOCN": {
-      "narrative": "UPDATE (this pull, 2026-09-22): DigitalOcean jumped 12.2% on Monday, Sept 21 to ~$146 (intraday high $148.04) on a $725M equipment-financing deal (plus a $300M accordion) to fund GPU/CPU build-out through 2030, paired with reaffirmed 2026/2027 guidance signaling demand strong enough to justify the buildout while keeping leverage low and free cash flow positive; the Cloudways unit also launched a new managed-hosting product (Velocity) the same day. This supersedes the prior framing below, which described a decline - the stock has since reversed sharply higher on a genuine AI-capacity catalyst. Prior framing: DigitalOcean's decline is a valuation reset despite strong fundamentals (a 73% earnings surprise still triggered an 11% post-earnings drop) - the concerning part is $570.5M of insider selling over the past 12 months with zero insider buying, on a still cash-flow-negative business. Worth watching, not a clean bounce case.",
+      "narrative": "UPDATE (this pull, 2026-10-18): The rally has reversed: DigitalOcean fell 9.8% on Oct 16 to $98.69, after a 14.8% drop on Oct 14 (-26.8% over five sessions, well below the ~$146 post-financing level). SiliconANGLE names DigitalOcean among 'neoclouds' that fell >10% on Oct 14 when CoreWeave's bonds traded to ~15% yields and debt-funded AI-cloud buildouts were repriced; the selling continued Friday. No DigitalOcean-specific negative news found - but the same $725M debt-financed GPU build-out that drove the September rally is exactly what this selloff is punishing. Prior framing: UPDATE (this pull, 2026-09-22): DigitalOcean jumped 12.2% on Monday, Sept 21 to ~$146 (intraday high $148.04) on a $725M equipment-financing deal (plus a $300M accordion) to fund GPU/CPU build-out through 2030, paired with reaffirmed 2026/2027 guidance signaling demand strong enough to justify the buildout while keeping leverage low and free cash flow positive; the Cloudways unit also launched a new managed-hosting product (Velocity) the same day. This supersedes the prior framing below, which described a decline - the stock has since reversed sharply higher on a genuine AI-capacity catalyst. Prior framing: DigitalOcean's decline is a valuation reset despite strong fundamentals (a 73% earnings surprise still triggered an 11% post-earnings drop) - the concerning part is $570.5M of insider selling over the past 12 months with zero insider buying, on a still cash-flow-negative business. Worth watching, not a clean bounce case.",
       "citations": [
         {
           "title": "DigitalOcean Holdings Inc (DOCN) Shares Fall 3.5% -- What GF Score of 67 Tells Investors",
@@ -680,6 +705,21 @@
           "title": "DigitalOcean DOCN Rallies As AI Cloud Expansion Accelerates",
           "url": "https://stockstotrade.com/news/digitalocean-holdings-inc-docn-news-2026_09_21-2/",
           "date": "2026-09-21"
+        },
+        {
+          "title": "Shares of Oracle, neoclouds drop on CoreWeave debt concerns",
+          "url": "https://siliconangle.com/2026/10/14/shares-of-oracle-neoclouds-drop-on-coreweave-debt-concerns/",
+          "date": "2026-10-14"
+        },
+        {
+          "title": "DigitalOcean Holdings Inc (DOCN) Shares Fall 14.8% -- GF Value Says Still Overvalued",
+          "url": "https://www.gurufocus.com/news/9124268/digitalocean-holdings-inc-docn-shares-fall-148-gf-value-says-still-overvalued",
+          "date": "2026-10-14"
+        },
+        {
+          "title": "DigitalOcean Holdings Inc (DOCN) Shares Fall 9.8% -- GF Value Says Still Overvalued",
+          "url": "https://www.gurufocus.com/news/9128464/digitalocean-holdings-inc-docn-shares-fall-98-gf-value-says-still-overvalued",
+          "date": "2026-10-16"
         }
       ],
       "verdict": "aligned"
@@ -761,23 +801,43 @@
       "verdict": "aligned"
     },
     "MXL": {
-      "narrative": "MaxLinear continues riding AI-data-center and 5G-backhaul chip demand after a 43% y/y Q1 revenue jump, though the stock is well off its June all-time high ($128 vs ~$63 now) - today's move is a partial recovery within an already-volatile, hype-sensitive name.",
+      "narrative": "UPDATE (this pull, 2026-10-18): Now a sharp decline: MaxLinear fell 8.8% on Oct 16 to $71.32 (-25.8% over five sessions), extending an October slide that began with a ~13% drop on Oct 8, which GuruFocus attributed to profit-taking after a 45%+ one-month run ahead of Q3 results. No company-specific negative news turned up for the Oct 16 move (GuruFocus cites only volatility); it fell with the chip sector. Q3 report Oct 22. Prior framing: MaxLinear continues riding AI-data-center and 5G-backhaul chip demand after a 43% y/y Q1 revenue jump, though the stock is well off its June all-time high ($128 vs ~$63 now) - today's move is a partial recovery within an already-volatile, hype-sensitive name.",
       "citations": [
         {
           "title": "MaxLinear (MXL) Valuation Check After Q1 2026 AI Surge And Strong Revenue Growth",
           "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mxl/maxlinear/news/maxlinear-mxl-valuation-check-after-q1-2026-ai-surge-and-str",
           "date": "2026-09"
+        },
+        {
+          "title": "MaxLinear (MXL) Shares Drop 13% After Strong Rally Ahead of Q3 Earnings",
+          "url": "https://www.gurufocus.com/news/9116343/maxlinear-mxl-shares-drop-13-after-strong-rally-ahead-of-q3-earnings",
+          "date": "2026-10-08"
+        },
+        {
+          "title": "MaxLinear Inc (MXL) Shares Fall 8.8% -- What GF Score of 59 Tells Investors",
+          "url": "https://www.gurufocus.com/news/9128519/maxlinear-inc-mxl-shares-fall-88-what-gf-score-of-59-tells-investors",
+          "date": "2026-10-16"
         }
       ],
-      "verdict": "aligned"
+      "verdict": "mixed"
     },
     "SMCI": {
-      "narrative": "Supermicro is riding through-August momentum (Q4 revenue +91.7% y/y, margins nearly doubled to 17.5%, FY guidance of $65-72B vs $53B consensus) plus a cleared internal investigation into server diversion to China, and joined DELL/HPE in an AI-server-stock rally on Sept 11.",
+      "narrative": "UPDATE (this pull, 2026-10-18): A different, later move: Supermicro fell 9.9% on Oct 16 to $31.63 (-24.4% on the week). MarketBeat attributes it to renewed pressure across AI-hardware stocks (Dell and HPE also fell) on AI-infrastructure financing worries, plus governance concern around the long-delayed exit of CFO David Weigand. Separately, on Oct 8-9 a Super Micro-linked contractor pleaded guilty in the ~$2.5B scheme to divert Nvidia-equipped servers to China (co-founder Wally Liaw is also charged; the company says it was not named and cut ties) - which revisits the diversion question the prior framing described as cleared. Prior framing: Supermicro is riding through-August momentum (Q4 revenue +91.7% y/y, margins nearly doubled to 17.5%, FY guidance of $65-72B vs $53B consensus) plus a cleared internal investigation into server diversion to China, and joined DELL/HPE in an AI-server-stock rally on Sept 11.",
       "citations": [
         {
           "title": "Super Micro Computer (NASDAQ: SMCI) Stock Surges 31% As Margins Soar And Investigation Clears Management",
           "url": "https://www.foreignpolicyjournal.com/2026/09/03/super-micro-computer-nasdaq-smci-stock-surges-31-as-margins-soar-and-investigation-clears-management/",
           "date": "2026-09-03"
+        },
+        {
+          "title": "Super Micro Computer (NASDAQ:SMCI) Stock Falls 9.9% - Here's What Happened",
+          "url": "https://www.marketbeat.com/instant-alerts/price-super-micro-computer-nasdaq-smci-stock-falls-99-heres-what-happened-2026-10-16/",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China",
+          "url": "https://gvwire.com/2026/10/10/super-micro-contractor-pleads-guilty-in-scheme-to-divert-ai-servers-with-nvidia-chips-to-china/",
+          "date": "2026-10-10"
         }
       ],
       "verdict": "aligned"
@@ -1037,7 +1097,7 @@
       "verdict": "aligned"
     },
     "MARA": {
-      "narrative": "MARA Holdings led bitcoin-miner stocks higher (+13.7%) as bitcoin broke above $80,000-81,000 resistance on Sept 18, with Morgan Stanley nearly doubling its price target to $11 from $6 (still Underweight-rated, but a notable reassessment of downside risk) and H.C. Wainwright initiating coverage at Buy with a $20 target, explicitly citing MARA's strategic pivot from pure bitcoin mining toward AI-focused data-center infrastructure as the thesis. Consensus among 12 covering analysts is mixed (8 Buy, 1 Hold, 3 Sell, average target $18.70), reflecting real disagreement over whether the AI pivot re-rates the stock or just adds execution risk on top of bitcoin-price beta.",
+      "narrative": "UPDATE (this pull, 2026-10-18): Now a decline: MARA fell 9.6% on Oct 16 to $7.53 (-22% on the week), with bitcoin roughly flat near $81,000. Trefis tied the Oct 6-13 drop (-17%) to a reported ~$81M bitcoin sale plus heavy leverage (54% of holdings pledged as collateral), and AI-pivoting miners fell >12% on Oct 14 after the hot CPI print raised rate-hike and data-center-debt fears. That is the opposite of the September story above. Prior framing: MARA Holdings led bitcoin-miner stocks higher (+13.7%) as bitcoin broke above $80,000-81,000 resistance on Sept 18, with Morgan Stanley nearly doubling its price target to $11 from $6 (still Underweight-rated, but a notable reassessment of downside risk) and H.C. Wainwright initiating coverage at Buy with a $20 target, explicitly citing MARA's strategic pivot from pure bitcoin mining toward AI-focused data-center infrastructure as the thesis. Consensus among 12 covering analysts is mixed (8 Buy, 1 Hold, 3 Sell, average target $18.70), reflecting real disagreement over whether the AI pivot re-rates the stock or just adds execution risk on top of bitcoin-price beta.",
       "citations": [
         {
           "title": "Strategy Climbs 12%, Coinbase Jumps 10% as Bitcoin Tops $80,000",
@@ -1048,17 +1108,37 @@
           "title": "MARA Holdings (MARA) Stock Rallies 10% on Upgraded Wall Street Forecasts",
           "url": "https://blockonomi.com/mara-holdings-mara-stock-rallies-10-on-upgraded-wall-street-forecasts",
           "date": "2026-09-18"
+        },
+        {
+          "title": "Why Did MARA Stock Fall?",
+          "url": "https://www.trefis.com/stock/mara/articles/618694/why-did-mara-stock-fall/2026-10-14",
+          "date": "2026-10-14"
+        },
+        {
+          "title": "Bitcoin Miners Expanding Into AI Plunge More Than 12% After U.S. Inflation Shock",
+          "url": "https://en.bloomingbit.io/feed/news/122254",
+          "date": "2026-10-14"
         }
       ],
       "verdict": "aligned"
     },
     "CLSK": {
-      "narrative": "CleanSpark rose 8.4% alongside the broader bitcoin-miner rally on Sept 18, as bitcoin broke above $80,000-81,000 resistance and lifted the whole mining cohort (MARA, CleanSpark, Cipher Mining, Iren all up sharply the same session) - no CleanSpark-specific catalyst found beyond the sector-wide bitcoin move; this reads as beta to the MARA/COIN story above rather than a distinct name-specific event.",
+      "narrative": "UPDATE (this pull, 2026-10-18): Now a decline: CleanSpark fell 10.2% on Oct 16 to $8.40 (-20% on the week). Bitcoin itself was roughly flat (~$81,000-81,600), so this was not a crypto-price selloff - CoinDesk's Oct 16 live coverage lumps CleanSpark, Hut 8, IREN and Cipher in with the AI 'neocloud' names falling roughly 6% intraday as AI-linked high-yield spreads widened (Goldman). That followed a >12% plunge across AI-pivoting miners on Oct 14 after a hot CPI print revived rate-hike fears on debt-funded data-center buildouts; CleanSpark has a recent ~$2.3B notes offering. Prior framing: CleanSpark rose 8.4% alongside the broader bitcoin-miner rally on Sept 18, as bitcoin broke above $80,000-81,000 resistance and lifted the whole mining cohort (MARA, CleanSpark, Cipher Mining, Iren all up sharply the same session) - no CleanSpark-specific catalyst found beyond the sector-wide bitcoin move; this reads as beta to the MARA/COIN story above rather than a distinct name-specific event.",
       "citations": [
         {
           "title": "Strategy Climbs 12%, Coinbase Jumps 10% as Bitcoin Tops $80,000",
           "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-climbs-12-coinbase-jumps-155737829.html",
           "date": "2026-09-18"
+        },
+        {
+          "title": "Bitcoin Miners Expanding Into AI Plunge More Than 12% After U.S. Inflation Shock",
+          "url": "https://en.bloomingbit.io/feed/news/122254",
+          "date": "2026-10-14"
+        },
+        {
+          "title": "Live updates: Bitcoin dips to $81,000 as stocks slide, VIX soars ahead of Black Monday anniversary",
+          "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+          "date": "2026-10-16"
         }
       ],
       "verdict": "aligned"
@@ -1178,7 +1258,7 @@
       "verdict": "not yet assessed"
     },
     "ACMR": {
-      "narrative": "ACM Research rose alongside a broad Tuesday Sept 22 semiconductor-equipment sector rally that also lifted FormFactor, Kulicke & Soffa, Novanta and Benchmark Electronics the same session - the stock crossed above its 200-day moving average that day. No ACM-specific news found beyond the sector-wide move; underlying fundamentals are strong (Q2 revenue +36% y/y, orders +105% in H1 2026) but this specific session's pop reads as sector beta rather than a fresh company catalyst.",
+      "narrative": "UPDATE (this pull, 2026-10-18): Now a decline: ACM Research fell ~8.6% on Oct 16 (-25.6% over five sessions). No ACM-specific announcement found. The move matches this week's semiconductor-equipment sell-off: AMAT fell ~7% during its Oct 13 investor day, and TipRanks described equipment names selling off on Oct 15 after TSMC's earnings amid AI-capex-durability doubts. Sector beta, as with the September rally. Prior framing: ACM Research rose alongside a broad Tuesday Sept 22 semiconductor-equipment sector rally that also lifted FormFactor, Kulicke & Soffa, Novanta and Benchmark Electronics the same session - the stock crossed above its 200-day moving average that day. No ACM-specific news found beyond the sector-wide move; underlying fundamentals are strong (Q2 revenue +36% y/y, orders +105% in H1 2026) but this specific session's pop reads as sector beta rather than a fresh company catalyst.",
       "citations": [
         {
           "title": "A Look at ACM Research Inc (ACMR) After 6.2% Gain",
@@ -1189,6 +1269,16 @@
           "title": "ACM Research (NASDAQ:ACMR) Stock Price Passes Above 200 Day Moving Average - Here's Why",
           "url": "https://www.marketbeat.com/instant-alerts/price-acm-research-nasdaq-acmr-stock-price-passes-above-200-day-moving-average-heres-why-2026-09-22/",
           "date": "2026-09-22"
+        },
+        {
+          "title": "Applied Materials (AMAT) Shares Drop 7% Amid Investor Day Despite AI-Driven Semiconductor Demand",
+          "url": "https://www.gurufocus.com/news/9121358/applied-materials-amat-shares-drop-7-amid-investor-day-despite-aidriven-semiconductor-demand",
+          "date": "2026-10-13"
+        },
+        {
+          "title": "Ultra Clean Plunges As Chip Sell-Off Hits Equipment",
+          "url": "https://www.tipranks.com/news/catalyst/ultra-clean-plunges-as-chip-sell-off-hits-equipment",
+          "date": "2026-10-15"
         }
       ],
       "verdict": "mixed"
@@ -1210,7 +1300,7 @@
       "verdict": "aligned"
     },
     "TWLO": {
-      "narrative": "Twilio jumped 5.8% on Sept 22 after Rosenblatt ($290 PT) and TD Cowen (raised to $300 from $260) both increased price targets, with Rosenblatt's analyst turning more constructive after management discussions on Twilio's potential to monetize AI-driven communications and expand beyond its traditional messaging/connectivity business. Shares had already gained ~15% over the prior week on growing recognition of Twilio's exposure to the consumer AI-agent trend (adjacent to the Meta Muse-driven theme lifting chip names this same week).",
+      "narrative": "UPDATE (this pull, 2026-10-18): A different, later move in the opposite direction: Twilio fell ~10.6% on Oct 16 to $244.37 (-15.6% on the week), giving back much of the September AI-agent rerating. No company-specific announcement was found; GuruFocus tied it to the broad tech selloff (tech sector ETF -3%, QQQ -2.5%) plus worries about profit growth, hyperscaler competition and AI disruption, and the same session saw a wide software sell-down (Okta -10%, Datadog and Palantir -7%, per Yahoo/StockStory) on AI-funding and rate fears. Q3 results Oct 29 are the next real test. Prior framing: Twilio jumped 5.8% on Sept 22 after Rosenblatt ($290 PT) and TD Cowen (raised to $300 from $260) both increased price targets, with Rosenblatt's analyst turning more constructive after management discussions on Twilio's potential to monetize AI-driven communications and expand beyond its traditional messaging/connectivity business. Shares had already gained ~15% over the prior week on growing recognition of Twilio's exposure to the consumer AI-agent trend (adjacent to the Meta Muse-driven theme lifting chip names this same week).",
       "citations": [
         {
           "title": "Twilio Stock Jumps As Analysts See AI Agents Dialing Up Growth",
@@ -1221,9 +1311,19 @@
           "title": "Twilio (NYSE:TWLO) Stock Price Up 3.2% on Analyst Upgrade",
           "url": "https://www.marketbeat.com/instant-alerts/price-twilio-nyse-twlo-stock-price-up-32-on-analyst-upgrade-2026-09-23/",
           "date": "2026-09-23"
+        },
+        {
+          "title": "Twilio (TWLO) Shares Drop Nearly 11% Amid Tech Sell-Off on October 16, 2026",
+          "url": "https://www.gurufocus.com/news/9128405/twilio-twlo-shares-drop-nearly-11-amid-tech-selloff-on-october-16-2026",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Okta, Datadog, Palantir Technologies, Zscaler, and Elastic Shares Are Falling, What You Need To Know",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/okta-datadog-palantir-technologies-zscaler-195539415.html",
+          "date": "2026-10-16"
         }
       ],
-      "verdict": "aligned"
+      "verdict": "mixed"
     },
     "CE": {
       "narrative": "Celanese rose 6.9-8.3% on Sept 22 on real, company-specific news: the company announced global price increases across its acetyl products (acetic acid, vinyl acetate monomer, ethyl acetate, acetic anhydride), a meaningful revenue lever given Celanese is one of the world's largest producers of those chemicals. Coverage explicitly noted the broader market provided little help that day (S&P barely positive, Dow slightly red), underscoring this as an alpha move, not sector beta. Company has also been shoring up its balance sheet via asset sales (Nutrinova JV stake) while maintaining FY26 EPS guidance.",
@@ -1313,7 +1413,7 @@
       "verdict": "mixed"
     },
     "OKTA": {
-      "narrative": "Okta rose sharply this pull on a real, dated catalyst: the company held Oktane 2026 in Las Vegas on Sept 22, launching the Blueprint Alliance - a cross-industry effort with AWS, CrowdStrike, Google Cloud, Salesforce, ServiceNow, Zscaler and Wiz to secure AI agents and their identities - putting Okta's AI-agent-security push in front of customers and investors. Needham raised its price target to $230 from $200 (Buy) and BTIG to $219 from $187 (Buy) around the event, on top of an already-strong Q2 FY27 beat-and-raise. Stock is up over 120% YTD.",
+      "narrative": "UPDATE (this pull, 2026-10-18): A later, opposite move: Okta fell 10.2% on Oct 16 to $187.26, its fifth straight losing session (-19.3% over five days), unwinding part of the Oktane-driven September rally. No Okta-specific negative news found; Yahoo/StockStory lists it with Datadog, Palantir, Zscaler and Elastic all falling the same day as investors shifted from AI upside to AI-financing worry and high rates, and GuruFocus reads it as profit-taking/valuation pressure after a 120%+ YTD run. Sector-driven, not thesis news. Prior framing: Okta rose sharply this pull on a real, dated catalyst: the company held Oktane 2026 in Las Vegas on Sept 22, launching the Blueprint Alliance - a cross-industry effort with AWS, CrowdStrike, Google Cloud, Salesforce, ServiceNow, Zscaler and Wiz to secure AI agents and their identities - putting Okta's AI-agent-security push in front of customers and investors. Needham raised its price target to $230 from $200 (Buy) and BTIG to $219 from $187 (Buy) around the event, on top of an already-strong Q2 FY27 beat-and-raise. Stock is up over 120% YTD.",
       "citations": [
         {
           "title": "Okta Stock Climbs As AI Alliance And Targets Rise",
@@ -1324,9 +1424,19 @@
           "title": "Okta stock gains as Needham and BTIG lift price targets on AI security momentum",
           "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/okta-stock-gains-as-needham-and-btig-lift-price-targets-on-ai-security/70146449",
           "date": "2026-09"
+        },
+        {
+          "title": "Okta, Datadog, Palantir Technologies, Zscaler, and Elastic Shares Are Falling, What You Need To Know",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/okta-datadog-palantir-technologies-zscaler-195539415.html",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Okta (OKTA) Shares Drop 10.20% Amid Five-Day Losing Streak",
+          "url": "https://www.gurufocus.com/news/9128402/okta-okta-shares-drop-1020-amid-fiveday-losing-streak",
+          "date": "2026-10-16"
         }
       ],
-      "verdict": "aligned"
+      "verdict": "mixed"
     },
     "DKS": {
       "narrative": "Dick's Sporting Goods rose 8.3% on Sept 22, a real rebound after shares had plunged roughly 29-31% in August when management slashed 2026 non-GAAP EPS guidance to $11-$12 (from $13.50-$14.50) on footwear-category margin pressure. Multiple banks (JPMorgan, BofA, Wells Fargo, UBS, BTIG, Baird) lowered price targets after that cut but mostly kept Buy/Overweight ratings, and analysts are now explicitly calling the prior selloff overdone as the company shifts toward stronger in-house brands with a better back-half launch calendar. A dated, analyst-driven oversold bounce rather than fresh negative-turned-positive news.",
@@ -1753,12 +1863,22 @@
       "verdict": "mixed"
     },
     "VIAV": {
-      "narrative": "Viavi Solutions rose 6.82%, consistent with the same Oct 1 optical-networking/AI-infrastructure rally lifting Coherent, Ciena, Lumentum, and IPG Photonics - no distinct Viavi-specific news turned up in search, so this reads as the same sector-wide re-rating (Bernstein's structural-AI-winners initiation, Goldman's TAM-expansion thesis) rather than a company-specific catalyst.",
+      "narrative": "UPDATE (this pull, 2026-10-18): The Oct 1 optical rally has reversed: Viavi fell 9.3% on Oct 16 to $33.38 (-26.6% over five sessions), after a ~7.9% drop on Oct 12 (MarketBeat, no stated cause). No Viavi-specific news found; GuruFocus gives only 'market volatility'. Read: the same AI-infrastructure/optical names that re-rated in early October gave it back in this week's AI-capex/financing selloff - sector beta. Prior framing: Viavi Solutions rose 6.82%, consistent with the same Oct 1 optical-networking/AI-infrastructure rally lifting Coherent, Ciena, Lumentum, and IPG Photonics - no distinct Viavi-specific news turned up in search, so this reads as the same sector-wide re-rating (Bernstein's structural-AI-winners initiation, Goldman's TAM-expansion thesis) rather than a company-specific catalyst.",
       "citations": [
         {
           "title": "Coherent, Lumentum, and Ciena stocks surge on bullish Wall Street call",
           "url": "https://finance.yahoo.com/markets/stocks/article/coherent-lumentum-and-ciena-stocks-surge-on-bullish-wall-street-call-182906439.html",
           "date": "2026-10-01"
+        },
+        {
+          "title": "Viavi Solutions (NASDAQ:VIAV) Stock Falls 7.9% - Time to Sell?",
+          "url": "https://www.marketbeat.com/instant-alerts/price-viavi-solutions-nasdaq-viav-stock-falls-79-time-to-sell-2026-10-12/",
+          "date": "2026-10-12"
+        },
+        {
+          "title": "Viavi Solutions Inc (VIAV) Stock Down 9.3% but Still Overvalued -- GF Score: 66/100",
+          "url": "https://www.gurufocus.com/news/9128493/viavi-solutions-inc-viav-stock-down-93-but-still-overvalued-gf-score-66100",
+          "date": "2026-10-16"
         }
       ],
       "verdict": "mixed"
@@ -2045,9 +2165,15 @@
       "verdict": "aligned"
     },
     "SDGR": {
-      "narrative": "No clean, dated, company-specific catalyst found for Schrodinger's elevated-volume move this pull despite a genuine search attempt - general market/sector-beta read rather than a forced narrative.",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "narrative": "UPDATE (this pull, 2026-10-18): Schrodinger fell 11.3% on Oct 16 to $22.60 (-17% over five days), its latest leg in a choppy October slide (it also dropped sharply Oct 6 and Oct 12). Searched again: MarketBeat's Oct 16 move alert gives no company news, earnings, or analyst action behind the drop, and nothing else turned up. It coincided with the Oct 16 Nasdaq/AI selloff, but Schrodinger is a health-care / computational-drug-discovery name, so tying it to that is a guess rather than a sourced catalyst. Next scheduled catalyst: Q3 results Nov 11. Prior framing: No clean, dated, company-specific catalyst found for Schrodinger's elevated-volume move this pull despite a genuine search attempt - general market/sector-beta read rather than a forced narrative.",
+      "citations": [
+        {
+          "title": "Schrodinger (NASDAQ:SDGR) Stock Price Down 7.4% - Here's What Happened",
+          "url": "https://www.marketbeat.com/instant-alerts/price-schrodinger-nasdaq-sdgr-stock-price-down-74-heres-what-happened-2026-10-16/",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "no clean catalyst"
     },
     "NLY": {
       "narrative": "No clean, dated, company-specific catalyst found for Annaly Capital Management's elevated-volume move this pull despite a genuine search attempt - general market/sector-beta read rather than a forced narrative.",
@@ -2308,6 +2434,59 @@
         }
       ],
       "verdict": "aligned"
+    },
+    "ICHR": {
+      "narrative": "Ichor fell 9.7% on Oct 16 to $42.11 (-29.7% over five sessions), on roughly double normal volume. No Ichor-specific news (no guidance cut or downgrade) turned up. The drop lines up with a week-long semiconductor-equipment sell-off: Applied Materials fell ~7% during its Oct 13 investor day, and TipRanks described equipment suppliers selling off together on Oct 15 as a 'sell-the-news' reaction to TSMC's earnings and doubts about how long AI capex lasts. Read: sector beta, magnified by Ichor's small cap. Q3 results Nov 2.",
+      "citations": [
+        {
+          "title": "Applied Materials (AMAT) Shares Drop 7% Amid Investor Day Despite AI-Driven Semiconductor Demand",
+          "url": "https://www.gurufocus.com/news/9121358/applied-materials-amat-shares-drop-7-amid-investor-day-despite-aidriven-semiconductor-demand",
+          "date": "2026-10-13"
+        },
+        {
+          "title": "Ultra Clean Plunges As Chip Sell-Off Hits Equipment",
+          "url": "https://www.tipranks.com/news/catalyst/ultra-clean-plunges-as-chip-sell-off-hits-equipment",
+          "date": "2026-10-15"
+        },
+        {
+          "title": "Ichor Holdings stock fell 9.73 percent on October 16, 2026",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/ichor-holdings-stock-fell-9-73-percent-on-october-16-2026/70351399",
+          "date": "2026-10-17"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "UCTT": {
+      "narrative": "Ultra Clean fell 8.7% on Oct 16 (-25.6% over five sessions). TipRanks (Oct 15) says the whole semiconductor-equipment group sold off together as a 'sell-the-news' reaction to TSMC's earnings and rising doubt about how long the AI spending boom lasts, rather than on any Ultra Clean-specific disappointment. That came after Applied Materials fell ~7% during its Oct 13 investor day. Sector-driven.",
+      "citations": [
+        {
+          "title": "Ultra Clean Plunges As Chip Sell-Off Hits Equipment",
+          "url": "https://www.tipranks.com/news/catalyst/ultra-clean-plunges-as-chip-sell-off-hits-equipment",
+          "date": "2026-10-15"
+        },
+        {
+          "title": "Applied Materials (AMAT) Shares Drop 7% Amid Investor Day Despite AI-Driven Semiconductor Demand",
+          "url": "https://www.gurufocus.com/news/9121358/applied-materials-amat-shares-drop-7-amid-investor-day-despite-aidriven-semiconductor-demand",
+          "date": "2026-10-13"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "FIVN": {
+      "narrative": "Five9 fell 8.2% on Oct 16 (-11.5% over five sessions). MarketBeat's Oct 16 alert gives no company-specific cause, and nothing else turned up. The drop came the same day as a broad software sell-off (Okta -10%, Datadog and Palantir -7%, Zscaler -6.8%), which Yahoo/StockStory ties to AI-financing fears and high interest rates. Read: software-sector beta on a stock already down sharply in 2026. Next earnings ~Nov 9.",
+      "citations": [
+        {
+          "title": "Five9 (NASDAQ:FIVN) Stock Falls 7.9% - What's Next?",
+          "url": "https://www.marketbeat.com/instant-alerts/price-five9-nasdaq-fivn-stock-falls-79-whats-next-2026-10-16/",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Okta, Datadog, Palantir Technologies, Zscaler, and Elastic Shares Are Falling, What You Need To Know",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/okta-datadog-palantir-technologies-zscaler-195539415.html",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "mixed"
     }
   },
   "recommendations": {
@@ -2400,9 +2579,15 @@
       "verdict": "aligned"
     },
     "CSGP": {
-      "thesis": "CoStar Group screens as a value candidate on the 52-week-discount proxy (trading well off its $97.43 high, within a $39.18-$97.43 52-week range), but no distinct, dated company catalyst explaining the discount turned up in search - this looks like a longer-running de-rating rather than a single event, so treat the proxy screen's \"discount\" framing with appropriate caution pending real fundamentals research (see WISHLIST.md on this dashboard's value-bucket methodology limits).",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "thesis": "UPDATE (this pull, 2026-10-18): CoStar rose ~6% on Oct 15 (+8.9% on the week). TipRanks attributes this to positioning ahead of Q3 results on Oct 27, a reported profitability turning point in its residential business, and the closing of the Zonda acquisition; other outlets saw it as a sector-wide real-estate rally (Zillow +7.4%). The stock is still down ~56% YTD. This is a rebound inside a longer de-rating, not resolution of it - Oct 27 earnings are the real test. Prior framing: CoStar Group screens as a value candidate on the 52-week-discount proxy (trading well off its $97.43 high, within a $39.18-$97.43 52-week range), but no distinct, dated company catalyst explaining the discount turned up in search - this looks like a longer-running de-rating rather than a single event, so treat the proxy screen's \"discount\" framing with appropriate caution pending real fundamentals research (see WISHLIST.md on this dashboard's value-bucket methodology limits).",
+      "citations": [
+        {
+          "title": "Why CoStar Group Is Surging Ahead of Earnings",
+          "url": "https://www.tipranks.com/news/catalyst/why-costar-group-is-surging-ahead-of-earnings",
+          "date": "2026-10-15"
+        }
+      ],
+      "verdict": "mixed"
     },
     "KTOS": {
       "thesis": "UPDATE (this pull, 2026-09-24): Kratos and GE Aerospace achieved successful ignition of the GEK800 (now designated F143) turbofan cruise-missile propulsion system on Sept 21 at a 100% success rate, keeping the program on schedule for a long-range stand-off-strike engine and moving into the next phase of ground testing toward production - a concrete engineering milestone, not just a funding headline. Prior framing: Kratos is down 37% YTD despite a strong defense backlog and hypersonics revenue guided to ~$400M in 2026 and $700M+ in 2027 (MACH-TB program funding), plus recent $20M and $35M contract wins. Value case: the stock's multiple has compressed even as the forward revenue/earnings trajectory improved.",
@@ -2421,14 +2606,36 @@
       "verdict": "aligned"
     },
     "FISV": {
-      "thesis": "Fiserv screens as a value candidate on the 52-week-discount proxy; no distinct, dated company catalyst explaining the discount turned up in search despite a genuine attempt. Treat the proxy screen's \"discount\" framing with appropriate caution pending real fundamentals research (see WISHLIST.md on this dashboard's value-bucket methodology limits).",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "thesis": "UPDATE (this pull, 2026-10-18): A dated reason for caution now exists: on Oct 15 Bank of America resumed coverage at Underperform with a $48 target (about where the stock trades, ~$47.55), citing an extended recovery timeline and doubts that Fiserv's hybrid processing-plus-acquiring model will deliver its expected synergies; GuruFocus explicitly labels it a possible value trap. Q3 results Nov 3. This supports treating the 52-week-discount screen with skepticism rather than as a bargain signal. Prior framing: Fiserv screens as a value candidate on the 52-week-discount proxy; no distinct, dated company catalyst explaining the discount turned up in search despite a genuine attempt. Treat the proxy screen's \"discount\" framing with appropriate caution pending real fundamentals research (see WISHLIST.md on this dashboard's value-bucket methodology limits).",
+      "citations": [
+        {
+          "title": "BofA Resumes Coverage on Fiserv (FISV) with Underperform Rating and $48 Price Target",
+          "url": "https://www.gurufocus.com/news/9125231/bofa-resumes-coverage-on-fiserv-fisv-with-underperform-rating-and-48-price-target",
+          "date": "2026-10-15"
+        }
+      ],
+      "verdict": "counter"
     },
     "BSX": {
-      "thesis": "Boston Scientific screens as a value candidate on the 52-week-discount proxy; no distinct, dated company catalyst explaining the discount turned up in search despite a genuine attempt. Treat the proxy screen's \"discount\" framing with appropriate caution pending real fundamentals research (see WISHLIST.md on this dashboard's value-bucket methodology limits).",
-      "citations": [],
-      "verdict": "not yet assessed"
+      "thesis": "UPDATE (this pull, 2026-10-18): The discount has a dated, identifiable cause that the prior pass missed. It is not new news: on Sept 8, 2026, Boston Scientific said a cyberattack first detected Aug 25 had disrupted manufacturing and order shipping worldwide and that it no longer expects to meet its 2026 sales and profit guidance. New since Oct 1: Simply Wall St (Oct 16) notes a worldwide Class I recall of its Imager II angiographic catheters, a 2027 reorganisation targeting ~$500M in run-rate savings, and execution risk on the $14.5B Penumbra deal. Zacks (Oct 9) has it at Rank #4 (Sell) on falling estimates, at ~12.9x forward earnings. The updated outlook comes with Q3 results Oct 28. A known, quantifiable-soon problem rather than a mystery discount, but not yet a clean value call. Prior framing: Boston Scientific screens as a value candidate on the 52-week-discount proxy; no distinct, dated company catalyst explaining the discount turned up in search despite a genuine attempt. Treat the proxy screen's \"discount\" framing with appropriate caution pending real fundamentals research (see WISHLIST.md on this dashboard's value-bucket methodology limits).",
+      "citations": [
+        {
+          "title": "Boston Scientific Shares Slide After Cyberattack Forces 2026 Guidance Cut",
+          "url": "https://www.asktraders.com/analysis/boston-scientific-shares-slide-after-cyberattack-forces-2026-guidance-cut",
+          "date": "2026-09-08"
+        },
+        {
+          "title": "Why Boston Scientific (BSX) Outpaced the Stock Market Today",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-boston-scientific-bsx-outpaced-210004848.html",
+          "date": "2026-10-09"
+        },
+        {
+          "title": "Boston Scientific (BSX) Shares Just Moved, So What Is Drawing Attention Now?",
+          "url": "https://simplywall.st/stocks/us/healthcare/nyse-bsx/boston-scientific/news/boston-scientific-bsx-shares-just-moved-so-what-is-drawing-a",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "mixed"
     },
     "DUOL": {
       "thesis": "Duolingo is down 41% YTD after management deliberately chose user growth over near-term monetization (guiding 2026 bookings growth to ~11% vs the ~20% it could have delivered under the old approach). This is a valuation reset (14.6x forward P/E vs a 3-year average of 88x), not a demand problem - the growth-first bet either pays off in re-accelerated bookings later, or it doesn't.",
@@ -2685,12 +2892,22 @@
       "verdict": "counter"
     },
     "FICO": {
-      "thesis": "Fair Isaac's -22.74% five-day move followed a genuine competitive threat (FHFA rule changes opening mortgage scoring to VantageScore, prompting across-the-board price-target cuts from Wells Fargo, Goldman, BMO, Barclays, and BofA) rather than a technical overreaction - see the FICO top-gainer entry for detail on the Oct 1 partial bounce. Whether this is a genuine buying opportunity depends on how much of FICO's mortgage-scoring moat is actually at risk, which remains unsettled even among the banks that cut targets; this is a real, not yet resolved, competitive-threat situation rather than a clean oversold bounce.",
+      "thesis": "UPDATE (this pull, 2026-10-18): The partial bounce continued: FICO rose ~10% on Oct 12 (StocksToTrade cites United Wholesale Mortgage saying it will keep using FICO Scores and add FICO 10T, plus dip-buying) and another ~7% on Oct 15 to ~$770 (+15.5% on the week). The FHFA/VantageScore competitive question is still unresolved, and banks cut targets while mostly keeping Buy-type ratings, so this is a sentiment repair, not a settled moat. Prior framing: Fair Isaac's -22.74% five-day move followed a genuine competitive threat (FHFA rule changes opening mortgage scoring to VantageScore, prompting across-the-board price-target cuts from Wells Fargo, Goldman, BMO, Barclays, and BofA) rather than a technical overreaction - see the FICO top-gainer entry for detail on the Oct 1 partial bounce. Whether this is a genuine buying opportunity depends on how much of FICO's mortgage-scoring moat is actually at risk, which remains unsettled even among the banks that cut targets; this is a real, not yet resolved, competitive-threat situation rather than a clean oversold bounce.",
       "citations": [
         {
           "title": "Bank of America Cut Its Fair Isaac Price Target in Half and the Stock Still Fell Below It",
           "url": "https://247wallst.com/investing/2026/10/01/bank-of-america-cut-its-fair-isaac-price-target-in-half-and-the-stock-still-fell-below-it/",
           "date": "2026-10-01"
+        },
+        {
+          "title": "FICO Stock Whipsaws As Targets Cut But Core Franchise Holds",
+          "url": "https://stockstotrade.com/news/fair-isaac-corporation-fico-news-2026_10_12/",
+          "date": "2026-10-12"
+        },
+        {
+          "title": "A Look at Fair Isaac Corp (FICO) After 7.0% Gain -- GF Value $2340.36 vs Price $769.93",
+          "url": "https://www.gurufocus.com/news/9126765/a-look-at-fair-isaac-corp-fico-after-70-gain-gf-value-234036-vs-price-76993",
+          "date": "2026-10-15"
         }
       ],
       "verdict": "mixed"
@@ -2712,7 +2929,7 @@
       "verdict": "mixed"
     },
     "APP": {
-      "thesis": "AppLovin's discount is well-explained, not a mystery: shares are down roughly 54% in 2026 after a narrow Q2 revenue miss ($1.92B vs. $1.94B consensus) triggered analyst downgrades, followed by a mid-September securities class action alleging AppLovin overstated its AI model progress and didn't fully disclose delays to a planned generative-AI video tool. Competitive pressure from Meta's new Horizon Create/Studio AI game-creation tools adds to the overhang. A high starting valuation (~80x earnings at 2025's end) left little room for error. This is a real, multi-pronged credibility/fundamentals problem, not a clean technical discount - the 52-week-high proxy is correctly flagging a story that needs real resolution (the lawsuit, AI-roadmap credibility) before being read as undervalued.",
+      "thesis": "UPDATE (this pull, 2026-10-18): The overhang deepened: Goldman Sachs cut its price target to $400 from $465 (Neutral) on Oct 14, and Benzinga/Defense World report shares hit a new 52-week low that week (~$258-263) amid the tech selloff and the pending class actions (lead-plaintiff deadline Nov 16). Trailing P/E has compressed to ~20x per GuruFocus. Q3 results Nov 4 are the next resolution point. No change to the 'explained discount, not a mystery' read. Prior framing: AppLovin's discount is well-explained, not a mystery: shares are down roughly 54% in 2026 after a narrow Q2 revenue miss ($1.92B vs. $1.94B consensus) triggered analyst downgrades, followed by a mid-September securities class action alleging AppLovin overstated its AI model progress and didn't fully disclose delays to a planned generative-AI video tool. Competitive pressure from Meta's new Horizon Create/Studio AI game-creation tools adds to the overhang. A high starting valuation (~80x earnings at 2025's end) left little room for error. This is a real, multi-pronged credibility/fundamentals problem, not a clean technical discount - the 52-week-high proxy is correctly flagging a story that needs real resolution (the lawsuit, AI-roadmap credibility) before being read as undervalued.",
       "citations": [
         {
           "title": "AppLovin Stock Is Down 54% in 2026 and Facing a Class Action. Here's Where It Could Go",
@@ -2723,6 +2940,11 @@
           "title": "APP Stock Drop Alert: AppLovin Stock Plummets 20% after AI Progress Issues Revealed",
           "url": "https://www.globenewswire.com/news-release/2026/09/25/3369014/0/en/app-stock-drop-alert-applovin-stock-plummets-20-after-ai-progress-issues-revealed-bfa-law-notifies-investors-of-the-imminent-november-16-deadline.html",
           "date": "2026-09-25"
+        },
+        {
+          "title": "APP Maintained by Goldman Sachs -- Price Target Lowered to $400",
+          "url": "https://www.gurufocus.com/news/9123851/app-maintained-by-goldman-sachs-price-target-lowered-to-400",
+          "date": "2026-10-14"
         }
       ],
       "verdict": "counter"
@@ -2784,8 +3006,181 @@
       "thesis": "NMI Holdings' appearance in the speculative/volume screen has no distinct, dated company catalyst found in search despite a genuine attempt - treat as a volume-driven technical signal rather than a researched catalyst pending further confirmation.",
       "citations": [],
       "verdict": "not yet assessed"
+    },
+    "ICHR": {
+      "thesis": "Bounce case: Ichor is down ~30% in five sessions (to $42.11, ~63% below its 52-week high) with no company-specific bad news found - no guidance cut, no downgrade. The selling tracks a sector-wide equipment de-rating (AMAT's Oct 13 investor day, the 'sell-the-news' reaction to TSMC on Oct 15) more than anything Ichor-specific, and TSMC itself beat and guided Q4 above consensus. Caveats: small-cap equipment suppliers are high-beta to wafer-fab-equipment spending sentiment, which is exactly what is in question; volume was ~2x normal (real selling, not a thin-tape blip); and Q3 results Nov 2 could confirm or refute the fear. A sentiment bounce, not a value call.",
+      "citations": [
+        {
+          "title": "Applied Materials (AMAT) Shares Drop 7% Amid Investor Day Despite AI-Driven Semiconductor Demand",
+          "url": "https://www.gurufocus.com/news/9121358/applied-materials-amat-shares-drop-7-amid-investor-day-despite-aidriven-semiconductor-demand",
+          "date": "2026-10-13"
+        },
+        {
+          "title": "Ultra Clean Plunges As Chip Sell-Off Hits Equipment",
+          "url": "https://www.tipranks.com/news/catalyst/ultra-clean-plunges-as-chip-sell-off-hits-equipment",
+          "date": "2026-10-15"
+        },
+        {
+          "title": "TSMC Just Posted Record Profit for the Sixth Straight Quarter. Why Did the Stock Fall?",
+          "url": "https://www.fool.com/investing/2026/10/15/tsmc-just-posted-record-profit-for-the-sixth-straight-quarter-why-did-the-stock-fall/",
+          "date": "2026-10-15"
+        },
+        {
+          "title": "Ichor Holdings stock fell 9.73 percent on October 16, 2026",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/ichor-holdings-stock-fell-9-73-percent-on-october-16-2026/70351399",
+          "date": "2026-10-17"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "VICR": {
+      "thesis": "Bounce case: Vicor is down ~28% in five sessions (to $191.50) with no company-specific negative news found. The Oct 15-16 drops were tied to AI-infrastructure financing fears that also hit Vertiv and nVent, and the Oct 1 guidance raise (Q3 growth >30% on vertical-power-delivery royalties) has not been withdrawn. Caveats: the stock still trades at ~61x trailing earnings (GuruFocus), insiders sold ~$424M over 12 months, and Q3 results come Oct 20 - a binary event that will either confirm the royalty thesis or extend the slide. Treat this as a speculative pre-earnings bounce, not a margin-of-safety buy.",
+      "citations": [
+        {
+          "title": "Vicor (VICR) Shares Drop 12% Amid Rising AI Infrastructure Financing Costs",
+          "url": "https://www.gurufocus.com/news/9126319/vicor-vicr-shares-drop-12-amid-rising-ai-infrastructure-financing-costs",
+          "date": "2026-10-15"
+        },
+        {
+          "title": "Vicor Corp (VICR) Shares Fall 12.9% -- GF Value Says Still Overvalued",
+          "url": "https://www.gurufocus.com/news/9128485/vicor-corp-vicr-shares-fall-129-gf-value-says-still-overvalued",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Vicor stock fell 5.52 percent before its October 20 results",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/vicor-stock-fell-5-52-percent-before-its-october-20-results/70260210",
+          "date": "2026-10-08"
+        },
+        {
+          "title": "Vicor Corporation (VICR) Shares Surge 10% on Upgraded Q3 Growth Forecast",
+          "url": "https://www.gurufocus.com/news/9105119/vicor-corporation-vicr-shares-surge-10-on-upgraded-q3-growth-forecast",
+          "date": "2026-10-01"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "PDFS": {
+      "thesis": "Bounce case: PDF Solutions fell ~28% over five sessions (to ~$39), far more than the semiconductor ETF (SMH ~-6%) or the software ETF (IGV ~-4%) over the same stretch. DA Davidson (Oct 15) reiterated Buy with a $74 target, saying the selloff reflects worry about AI-buildout economics and negative read-throughs from AMAT's investor day that it disagrees with, and still sees durable 20%+ revenue growth. Caveats: a 1.66 beta, a single bullish note is not independent confirmation, and no company-specific reason for the outsized drop was found - so the market may know something not yet public. Q3 report ~Nov 5.",
+      "citations": [
+        {
+          "title": "DA Davidson reiterates Buy on PDF Solutions stock amid pullback",
+          "url": "https://www.investing.com/news/analyst-ratings/da-davidson-reiterates-buy-on-pdf-solutions-stock-amid-pullback-93CH-4952205",
+          "date": "2026-10-15"
+        },
+        {
+          "title": "Applied Materials (AMAT) Shares Drop 7% Amid Investor Day Despite AI-Driven Semiconductor Demand",
+          "url": "https://www.gurufocus.com/news/9121358/applied-materials-amat-shares-drop-7-amid-investor-day-despite-aidriven-semiconductor-demand",
+          "date": "2026-10-13"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "SMTC": {
+      "thesis": "CAUTION - Semtech's ~27% five-day drop has company-specific causes, not just sector beta: Northland downgraded it to Market Perform on valuation (Oct 9; the stock fell ~8-10% on Oct 12 alongside an insider 10b5-1 sale), and on Oct 15 it fell nearly 17% after its Data Center Analyst Day, where a $3.2B fiscal-2030 revenue target came in below what the market had priced (trailing P/E was ~93x vs. a ~36x five-year median, per GuruFocus). Fundamentals are still strong (record Q2 FY27 revenue in September), but the long-term growth expectations were reset by the company itself. That makes this a re-rating rather than an obvious overreaction.",
+      "citations": [
+        {
+          "title": "Semtech (NASDAQ:SMTC) Stock Falls 7.8% Following Insider Selling",
+          "url": "https://www.marketbeat.com/instant-alerts/price-semtech-nasdaq-smtc-stock-falls-78-following-insider-selling-2026-10-12/",
+          "date": "2026-10-12"
+        },
+        {
+          "title": "Semtech (SMTC) Shares Plunge Nearly 17% After Revenue Forecast Disappoints",
+          "url": "https://www.gurufocus.com/news/9126271/semtech-smtc-shares-plunge-nearly-17-after-revenue-forecast-disappoints",
+          "date": "2026-10-15"
+        },
+        {
+          "title": "Semtech (SMTC) Shares Skyrocket, What You Need To Know",
+          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-9-16-semtech-smtc-shares-skyrocket-what-you-need-to-know",
+          "date": "2026-09-16"
+        }
+      ],
+      "verdict": "counter"
+    },
+    "DOCN": {
+      "thesis": "CAUTION - DigitalOcean's ~27% five-day drop is part of a selloff aimed squarely at its own model: debt-financed AI-cloud ('neocloud') capacity. On Oct 14 CoreWeave's bonds traded to ~15% yields and DigitalOcean fell more than 10% with TeraWulf and Hut 8 (SiliconANGLE), and it fell another 9.8% on Oct 16. Its September rally was built on a $725M equipment-financing deal for GPU build-out, so this is a direct repricing of that thesis. Insiders sold ~$574M over 12 months with no buying (GuruFocus). No DigitalOcean-specific bad news was found and guidance has not changed, so a relief bounce is possible if credit fears ease. But the drop is a rational response to the sector's financing risk, not a clean overreaction.",
+      "citations": [
+        {
+          "title": "Shares of Oracle, neoclouds drop on CoreWeave debt concerns",
+          "url": "https://siliconangle.com/2026/10/14/shares-of-oracle-neoclouds-drop-on-coreweave-debt-concerns/",
+          "date": "2026-10-14"
+        },
+        {
+          "title": "DigitalOcean Holdings Inc (DOCN) Shares Fall 14.8% -- GF Value Says Still Overvalued",
+          "url": "https://www.gurufocus.com/news/9124268/digitalocean-holdings-inc-docn-shares-fall-148-gf-value-says-still-overvalued",
+          "date": "2026-10-14"
+        },
+        {
+          "title": "DigitalOcean Holdings Inc (DOCN) Shares Fall 9.8% -- GF Value Says Still Overvalued",
+          "url": "https://www.gurufocus.com/news/9128464/digitalocean-holdings-inc-docn-shares-fall-98-gf-value-says-still-overvalued",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "DigitalOcean DOCN Rallies As AI Cloud Expansion Accelerates",
+          "url": "https://stockstotrade.com/news/digitalocean-holdings-inc-docn-news-2026_09_21-2/",
+          "date": "2026-09-21"
+        }
+      ],
+      "verdict": "counter"
+    },
+    "UE": {
+      "thesis": "CAUTION - speculative/unusual-volume pick with no clean catalyst found; treat as a watch item, not a thesis. Urban Edge Properties traded ~3.9x its average volume on Oct 16 with a +0.7% move; Q3 results are scheduled for Oct 28. No dated company-specific news found for Oct 16 in this pull. Oct 16 was the monthly options-expiration Friday, which commonly inflates volume, but that is an unconfirmed explanation - no clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst"
+    },
+    "AVTR": {
+      "thesis": "CAUTION - speculative/unusual-volume pick with no clean catalyst found; treat as a watch item, not a thesis. Avantor traded ~3.1x its average volume on Oct 16 with a +2.1% move; Q3 results are expected Oct 28. No dated company-specific news found for Oct 16 in this pull. Oct 16 was the monthly options-expiration Friday, which commonly inflates volume, but that is an unconfirmed explanation - no clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst"
+    },
+    "GPOR": {
+      "thesis": "CAUTION - speculative/unusual-volume pick with no clean catalyst found; treat as a watch item, not a thesis. UPDATE (this pull, 2026-10-18): Gulfport traded ~3.1x its average volume on Oct 16 but rose only 1.4%, lagging the oil-led energy rally on a day Henry Hub gas futures fell ~3.4-4% on mild weather forecasts. No Gulfport-specific news found to explain the heavy volume. Prior framing: Gulfport Energy fell alongside the same sector-wide natural-gas E&P selloff hitting Antero, Range and Comstock on Sept 16 - Fed-hike risk-off compounding an already-weak natural-gas-equity tape. No Gulfport-specific catalyst found.",
+      "citations": [
+        {
+          "title": "Comstock Resources Drops 7.1% Amid Sector-Wide Selling",
+          "url": "https://news.alphastreet.com/comstock-resources-drops-7-1-amid-sector-wide-selling/",
+          "date": "2026-09-16"
+        },
+        {
+          "title": "Natural Gas - Futures (NATGAS-F) Is down 3.40% on Oct 16: What You Need to Watch",
+          "url": "https://www.tradingkey.com/news/market-movers/262221064-market-movers-natgas-f-20261016",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "no clean catalyst"
+    },
+    "CRGY": {
+      "thesis": "Crescent Energy jumped 10.1% on ~3x average volume on Oct 16, the biggest gain in a sector-wide oil rally: Brent settled at $109.86 (+3.7%, highest settle since May 19, briefly touching $110) and WTI Nov at $101.41 (+3.5%) on Fri Oct 16 on renewed Middle East supply fears, Russian-diesel uncertainty and an 8.6M-bbl US crude draw (week to Oct 9), while the broader tape fell (S&P -1.1%, Nasdaq -2.1%) on AI-spending worries - energy was the day's best sector. Coverage of the move ties it to the crude/energy-stock advance and gives no new Crescent-specific catalyst that day. Context: on Oct 8 Crescent agreed to buy Devon's Eagle Ford assets (~$3.85B net) and priced an 80M-share offering at $12.50 (plus a 12M-share option exercise) to fund it; Friday's close ($13.77) put the stock back above that offering price, which may have amplified the move (our read, not sourced). Q3 results are due Nov 3.",
+      "citations": [
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Crescent Energy Gains About 10%; Oil Futures Rise on Supply Concerns",
+          "url": "https://www.tokenpost.com/news/investing/33833",
+          "date": "2026-10-17"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "AA": {
+      "thesis": "Alcoa rose 2.5% on ~3x volume on Oct 16, the session after Q3 2026 results (Oct 15 after close): adjusted EPS $1.82 beat (~$1.52 consensus), net income $483M, free cash flow $472M; revenue $3.70B was down 7% q/q and slightly below estimates, and management flagged Q4 Aluminum-segment cost headwinds (lower aluminum prices, higher raw-material costs, maintenance). Beat-driven gain, tempered by the soft Q4 outlook.",
+      "citations": [
+        {
+          "title": "Alcoa posts higher net income, sets sights on AliGroup completion",
+          "url": "https://www.fool.com.au/2026/10/16/alcoa-posts-higher-net-income-sets-sights-on-aligroup-completion/",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Market Review: October 16, 2026",
+          "url": "https://investrade.com/market-review-october-16-2026/",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "aligned"
     }
   },
-  "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. This pull (2026-10-01) reflects a genuinely quiet index-level day (S&P 500 +0.19%, Nasdaq +0.04%, Dow +0.04%) but real single-name dispersion underneath: Accenture (+15.8%, Q4 earnings beat) and Synopsys (+12.8%, OpenAI/Amazon deals at Investor Day) led a broad earnings/guidance-driven rally that also included an optical-networking cluster (Coherent, Ciena, Lumentum, and to a lesser extent IPG Photonics and Viavi) on a bullish Wall Street AI-infrastructure call, plus Mattel on takeover-interest reports. On the loser side, Corteva's reported -83.81% move is a corporate-action artifact from its Oct 1 seed-business spin-off (Vylor/VYLR), not a real loss - flagged explicitly rather than presented as a crash. Paramount Skydance fell on investor concern over the $44.4B debt financing for its Warner Bros. Discovery deal (the same issuance flagged in this pull's Point 1/Point 4 credit-stress coverage), Liquidia crashed on a genuine adverse patent ruling, Danaher fell on a CEO transition, and several life-sciences-tools names (Repligen, Bio-Rad, TransMedics, Neogen, Bruker, Medpace) moved with a broader 1.3% healthcare-sector (XLV) pullback rather than on distinct news. A meaningful minority of names (Guidewire, Kyndryl, Exponent, Group 1 Automotive, Sphere Entertainment, CoStar Group, Fiserv, Boston Scientific, Medtronic, NMI Holdings, McCormick, Pilgrim's Pride) turned up no clean company-specific catalyst despite a genuine search attempt and are marked as general-market/sector-beta reads rather than forced into a story that doesn't fit.",
+  "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. This pull (2026-10-18, a Sunday) reflects the Friday Oct 16 session - equity data is current through that close, with no data lag. It was a sharp two-way day: the Nasdaq fell 2.15% (-4.5% on the week, its worst since late June) as an eight-session chip losing streak, a software selloff and stress in AI-linked debt (CoreWeave -12%) hit semis, semicap, AI-infrastructure, AI-pivoting bitcoin miners and software names - so this pull's losers (Vicor, Supermicro, Ichor, Ultra Clean, ACM Research, MaxLinear, Viavi, DigitalOcean, Twilio, Okta, Five9, MARA, CleanSpark, Centrus) are mostly one sector-wide story, not 15 separate ones. Several of these names already had September writeups about earlier, opposite-direction moves; those are kept as 'Prior framing' under a dated UPDATE rather than overwritten. Supermicro is the main name with genuinely new company-specific news (an Oct 8-9 guilty plea in a server-diversion case that reopens a question the prior writeup called cleared). Gainers were almost entirely oil and gas: Brent settled near $110 (highest since May) and WTI near $101 on Iran's escalating Hormuz attacks and a large US crude draw, lifting E&Ps and midstream together. Most of those names had no company-specific catalyst and are marked as sector-beta reads; natural-gas futures actually fell that day, so gas-weighted names (Antero, Range) are marked divergent from their own commodity. Several volume outliers (Regions, Citizens, Alcoa, First Financial, Cohen & Steers) are earnings-driven; ten others (Schneider National, Sunstone, Urban Edge, DXP, Ormat, Avantor, Ecolab, Watts, Central Garden, Northern Trust) turned up no clean catalyst despite a genuine search - Oct 16 was a monthly options expiration, which commonly inflates volume, but that is stated as an unconfirmed explanation, not a sourced one. Note: the $2B market-cap filter uses the 2026-10-01 market-cap cache (refreshed roughly weekly; market cap is slow-moving).",
   "point1_since_last_pull": "Since the Oct 1 pull: a weak September jobs report (Oct 2) and then a hot September CPI (Oct 14) whipsawed October Fed-hike odds (to ~54% and back to ~15% after Chair Warsh declined to signal on Oct 16). The S&P 500 and Nasdaq hit records on Oct 6, then an eight-session chip selloff left the Nasdaq -4.5% for the week. AI-linked credit stress widened HY spreads, and Brent touched $110 on Oct 16 as Iran escalated Hormuz attacks."
 }
