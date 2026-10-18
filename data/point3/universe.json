@@ -769,12 +769,6 @@
       "index": "SP500"
     },
     {
-      "ticker": "CTVA",
-      "sector": "Materials",
-      "name": "Corteva",
-      "index": "SP500"
-    },
-    {
       "ticker": "CSGP",
       "sector": "Real Estate",
       "name": "CoStar Group",
@@ -1845,7 +1839,7 @@
     {
       "ticker": "MCK",
       "sector": "Health Care",
-      "name": "McKesson Corporation",
+      "name": "McKesson",
       "index": "SP500"
     },
     {
@@ -2146,12 +2140,6 @@
       "ticker": "PANW",
       "sector": "Information Technology",
       "name": "Palo Alto Networks",
-      "index": "SP500"
-    },
-    {
-      "ticker": "PSKY",
-      "sector": "Communication Services",
-      "name": "Paramount Skydance Corporation",
       "index": "SP500"
     },
     {
@@ -2473,6 +2461,12 @@
       "index": "SP500"
     },
     {
+      "ticker": "SKYD",
+      "sector": "Communication Services",
+      "name": "Skydance Corporation",
+      "index": "SP500"
+    },
+    {
       "ticker": "SWKS",
       "sector": "Information Technology",
       "name": "Skyworks Solutions",
@@ -2707,6 +2701,12 @@
       "index": "SP500"
     },
     {
+      "ticker": "TWLO",
+      "sector": "Information Technology",
+      "name": "Twilio",
+      "index": "SP500"
+    },
+    {
       "ticker": "TYL",
       "sector": "Information Technology",
       "name": "Tyler Technologies",
@@ -2869,6 +2869,12 @@
       "index": "SP500"
     },
     {
+      "ticker": "VYLR",
+      "sector": "Consumer Staples",
+      "name": "Vylor",
+      "index": "SP500"
+    },
+    {
       "ticker": "WRB",
       "sector": "Financials",
       "name": "W. R. Berkley Corporation",
@@ -2896,12 +2902,6 @@
       "ticker": "DIS",
       "sector": "Communication Services",
       "name": "Walt Disney Company (The)",
-      "index": "SP500"
-    },
-    {
-      "ticker": "WBD",
-      "sector": "Communication Services",
-      "name": "Warner Bros. Discovery",
       "index": "SP500"
     },
     {
@@ -3589,6 +3589,12 @@
       "index": "SP400"
     },
     {
+      "ticker": "CTVA",
+      "sector": "Materials",
+      "name": "Corteva",
+      "index": "SP400"
+    },
+    {
       "ticker": "CUBE",
       "sector": "Real Estate",
       "name": "CubeSmart",
@@ -3911,6 +3917,12 @@
       "sector": "Financials",
       "name": "Fidelity National Financial",
       "index": "SP400"
+    },
+    {
+      "ticker": "FORM",
+      "sector": "Information Technology",
+      "name": "FormFactor, Inc.",
+      "index": "SP600"
     },
     {
       "ticker": "FOUR",
@@ -4573,12 +4585,6 @@
       "index": "SP400"
     },
     {
-      "ticker": "OLN",
-      "sector": "Materials",
-      "name": "Olin Corporation",
-      "index": "SP400"
-    },
-    {
       "ticker": "ONB",
       "sector": "Financials",
       "name": "Old National Bank",
@@ -5158,12 +5164,6 @@
       "ticker": "TTMI",
       "sector": "Information Technology",
       "name": "TTM Technologies",
-      "index": "SP400"
-    },
-    {
-      "ticker": "TWLO",
-      "sector": "Information Technology",
-      "name": "Twilio",
       "index": "SP400"
     },
     {
@@ -6664,12 +6664,6 @@
       "ticker": "FMC",
       "sector": "Materials",
       "name": "FMC Corporation",
-      "index": "SP600"
-    },
-    {
-      "ticker": "FORM",
-      "sector": "Information Technology",
-      "name": "FormFactor, Inc.",
       "index": "SP600"
     },
     {

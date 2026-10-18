@@ -100,7 +100,7 @@ instead.
 ## Pipeline (run in this order)
 
 ```
-pipeline/fetch_indices.py
+pipeline/fetch_indices.py > data/point3/indices.json   # prints to stdout - must redirect
 pipeline/fetch_universe.py
 pipeline/fetch_market_caps_cache.py   # weekly is enough, market cap is slow-moving
 pipeline/fetch_price_history.py       # must run after fetch_indices.py - see below
