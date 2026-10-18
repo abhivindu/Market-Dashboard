@@ -6,7 +6,7 @@ checks whether the collection is already populated before seeding).
 """
 import json
 
-from render_common import add_hub_back_link, svg_sparkline
+from render_common import finalize_page, is_updated, load_pull_date, normalize_obj, svg_sparkline, update_badge, update_panel
 
 CSS = """
 :root{
@@ -130,6 +130,8 @@ HTML_SHELL = """<!doctype html>
     <h1>Equities Desk</h1>
     <div class="meta">Indices &middot; sectors &middot; movers &middot; ideas<br>As of {as_of_display}</div>
   </div>
+
+  {update_panel}
 
   <div class="freshness">{freshness_note}</div>
 
@@ -477,19 +479,19 @@ def sector_tile(s):
     </div>"""
 
 
-def mover_row(m, bucket):
+def mover_row(m, bucket, pull_date):
     cls = "up" if m["day_chg_pct"] > 0 else "down"
     return f"""<div class="mover-row" data-ticker="{m['ticker']}" data-bucket="{bucket}">
       <span class="tk mono">{m['ticker']}</span>
-      <span class="nm">{m.get('name','')}</span>
+      <span class="nm">{m.get('name','')} {update_badge(is_updated(m, pull_date), pull_date, short=True)}</span>
       <span class="pc mono {cls}">{fmt_pct_py(m['day_chg_pct'])}</span>
     </div>"""
 
 
-def vol_outlier_row(m):
+def vol_outlier_row(m, pull_date):
     cls = "up" if m["day_chg_pct"] > 0 else "down"
     return f"""<tr class="clickable" data-ticker="{m['ticker']}">
-      <td class="mono">{m['ticker']}</td><td>{m.get('name','')}</td>
+      <td class="mono">{m['ticker']}</td><td>{m.get('name','')} {update_badge(is_updated(m, pull_date), pull_date, short=True)}</td>
       <td class="mono {cls}">{fmt_pct_py(m['day_chg_pct'])}</td>
       <td class="mono">{m['volume_vs_avg_ratio']:.1f}x</td>
     </tr>"""
@@ -535,7 +537,7 @@ def earnings_card(e):
     </div>"""
 
 
-def recommendation_card(r, bucket_label):
+def recommendation_card(r, bucket_label, pull_date):
     verdict = r.get("verdict", "not yet assessed")
     vclass = "aligned" if verdict == "aligned" else ("counter" if verdict == "counter" else "pending")
     citations = "".join(
@@ -545,7 +547,7 @@ def recommendation_card(r, bucket_label):
     ) or '<span style="color:var(--ink-faint); font-size:0.8rem;">No sources attached yet.</span>'
     return f"""<div class="card expandable">
       <div class="rec-card-head" style="display:flex; justify-content:space-between; align-items:baseline; gap:12px;">
-        <h3 style="font-size:0.92rem;">{r['ticker']} &mdash; {r.get('name','')}</h3>
+        <h3 style="font-size:0.92rem;">{r['ticker']} &mdash; {r.get('name','')} {update_badge(is_updated(r, pull_date), pull_date, short=True)}</h3>
         <div style="display:flex; align-items:center; gap:10px;">
           <span class="mono" style="font-size:0.85rem;">{r.get('sector','')}</span>
           <span class="card-chevron">&#9656;</span>
@@ -562,15 +564,17 @@ def recommendation_card(r, bucket_label):
 def main():
     with open("data/point3/final_payload.json", encoding="utf-8") as f:
         payload = json.load(f)
+    pull_date = load_pull_date()
+    payload = normalize_obj(payload, pull_date)
 
     as_of = payload["as_of"][:16].replace("T", " ") + " UTC"
 
     index_cells = "\n".join(idx_cell(name, idx) for name, idx in payload["indices"].items())
 
     sector_tiles = "\n".join(sector_tile(s) for s in payload["sector_rollup"])
-    gainer_rows = "\n".join(mover_row(m, "gainer") for m in payload["top_gainers"])
-    loser_rows = "\n".join(mover_row(m, "loser") for m in payload["top_losers"])
-    vol_outlier_rows = "\n".join(vol_outlier_row(m) for m in payload["volume_outliers"]) or '<tr><td colspan="4" style="color:var(--ink-faint);">None found above 2x average volume.</td></tr>'
+    gainer_rows = "\n".join(mover_row(m, "gainer", pull_date) for m in payload["top_gainers"])
+    loser_rows = "\n".join(mover_row(m, "loser", pull_date) for m in payload["top_losers"])
+    vol_outlier_rows = "\n".join(vol_outlier_row(m, pull_date) for m in payload["volume_outliers"]) or '<tr><td colspan="4" style="color:var(--ink-faint);">None found above 2x average volume.</td></tr>'
     earnings_cards = "\n".join(earnings_card(e) for e in payload["earnings_calendar"]) or '<div class="empty-state">No in-universe earnings in the next 10 days.</div>'
 
     rec_html_parts = []
@@ -581,7 +585,7 @@ def main():
     }
     for bucket_key, (label, desc) in bucket_meta.items():
         items = payload["recommendations"].get(bucket_key, [])
-        cards = "".join(recommendation_card(r, label) for r in items) or '<div class="empty-state">No names cleared this screen today.</div>'
+        cards = "".join(recommendation_card(r, label, pull_date) for r in items) or '<div class="empty-state">No names cleared this screen today.</div>'
         rec_html_parts.append(f"""<div class="bucket-title"><span class="bucket-badge">{label}</span><span style="color:var(--ink-faint); font-weight:400; font-size:0.8rem;">{desc}</span></div>{cards}""")
     recommendation_buckets = "\n".join(rec_html_parts)
 
@@ -616,13 +620,20 @@ def main():
         vix3m_val=vol.get("VIX3M", {}).get("last_value", "n/a"),
         methodology_note=payload["recommendations"].get("methodology_note", ""),
         recommendation_buckets=recommendation_buckets,
+        update_panel=update_panel(pull_date, [
+            (label, [(f"{m['ticker']}", is_updated(m, pull_date), "") for m in payload[key]])
+            for key, label in (("top_gainers", "Gainers"), ("top_losers", "Losers"), ("volume_outliers", "Volume outliers"))
+        ] + [
+            ("Recommendations", [(r["ticker"], is_updated(r, pull_date), "")
+                                 for b in ("bounce", "value", "speculative") for r in payload["recommendations"].get(b, [])]),
+        ]),
         cap_cache_as_of=payload["market_cap_cache_as_of"][:10],
         equity_data_as_of=payload.get("equity_data_as_of") or "n/a",
         data_json=json.dumps(payload),
     )
 
     with open("artifacts/point3.html", "w", encoding="utf-8") as f:
-        f.write(add_hub_back_link(html))
+        f.write(finalize_page(html, pull_date))
     print("Wrote artifacts/point3.html")
 
 

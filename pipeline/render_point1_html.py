@@ -1,7 +1,7 @@
 """Render the Point 1 (macro one-pager) artifact HTML from final_payload.json.
 Pure templating - all data comes from the JSON, nothing hardcoded here.
 
-Layout: masthead -> two-section synthesis (this pull / previous pull) -> three labeled stat clusters
+Layout: masthead -> "What changed" panel -> two-section synthesis (latest / previous) -> three labeled stat clusters
 (Benchmark Rates, Spreads, Commodities & FX) -> volatility read -> material
 events -> footer. The lede is the thing that makes this read as a "concise report"
 rather than a stat dump - it's the one piece of hand-authored narrative per
@@ -11,18 +11,18 @@ pull, carried in content_overrides.json under "point1_synthesis" as {current, pr
 import html
 import json
 
-from render_common import add_hub_back_link, svg_sparkline
+from render_common import finalize_page, is_updated, load_pull_date, mdy, normalize_obj, svg_sparkline, update_badge, update_panel
 
 
 def render_synthesis(syn):
     sections = []
-    for key, label in (("current", "This pull"), ("previous", "Previous pull")):
+    for key, label in (("current", "Latest"), ("previous", "Previous")):
         sec = syn[key]
         covers = f'<span class="covers">{html.escape(sec["covers"])}</span>' if sec.get("covers") else ""
         paras = "".join(f'<p class="lede">{html.escape(p)}</p>' for p in sec["paragraphs"])
         sections.append(
             f'<div class="synth-section {key}">'
-            f'<div class="synth-label"><span class="eyebrow">{label} &middot; {html.escape(sec["as_of"])}</span>{covers}</div>'
+            f'<div class="synth-label"><span class="eyebrow">{label} &middot; {mdy(sec["as_of"])}</span>{covers}</div>'
             f'{paras}</div>'
         )
     return "\n    ".join(sections)
@@ -160,6 +160,8 @@ footer{{color:var(--ink-faint); font-size:0.74rem; border-top:1px solid var(--li
     <div class="meta">{event_count} material event{event_plural} flagged<br>As of {as_of_display}</div>
   </div>
 
+  {update_panel}
+
   <div class="since-pull{since_pull_quiet_class}">
     <span class="eyebrow">Since last pull</span>
     <p>{since_pull_blurb}</p>
@@ -288,6 +290,7 @@ EVENT_TEMPLATE = """
 <details class="event">
   <summary class="event-head">
     <span class="headline">{detail}</span>
+    {badge}
     <span class="metric mono {metric_class}">{metric_display}</span>
     <span class="chevron">&#9656;</span>
   </summary>
@@ -329,7 +332,7 @@ def rate_row(label, value, unit, chg=None, chg_unit="", history=None):
     </div>"""
 
 
-def render_event(flag):
+def render_event(flag, pull_date):
     if "index" in flag["type"]:
         metric_display = fmt_pct(flag["value"])
         metric_class = "up" if flag["value"] > 0 else "down"
@@ -348,6 +351,7 @@ def render_event(flag):
 
     return EVENT_TEMPLATE.format(
         detail=flag["detail"],
+        badge=update_badge(is_updated(flag, pull_date), pull_date),
         metric_display=metric_display,
         metric_class=metric_class,
         reaction_assessment=flag.get("reaction_assessment", "not yet assessed"),
@@ -359,6 +363,8 @@ def render_event(flag):
 def main():
     with open("data/point1/final_payload.json", encoding="utf-8") as f:
         payload = json.load(f)
+    pull_date = load_pull_date()
+    payload = normalize_obj(payload, pull_date)
 
     series = payload["macro_series"]
     as_of = payload["as_of"][:16].replace("T", " ") + " UTC"
@@ -404,7 +410,12 @@ def main():
     }
 
     events = payload["material_events"]
-    events_html = "\n".join(render_event(e) for e in events) if events else '<div class="section-sub">No material moves cleared threshold on this pull.</div>'
+    events_html = "\n".join(render_event(e, pull_date) for e in events) if events else f'<div class="section-sub">No material moves cleared threshold on {mdy(pull_date)}.</div>'
+    synthesis = payload["synthesis"]
+    panel_html = update_panel(pull_date, [
+        ("Synthesis", [("Market synthesis", synthesis["current"]["as_of"] == pull_date, synthesis["current"].get("covers", ""))]),
+        ("Material events", [(e["detail"], is_updated(e, pull_date), "") for e in events]),
+    ])
 
     vol = payload.get("vol_term_structure", {})
     vol_structure = vol.get("structure", "n/a")
@@ -421,7 +432,8 @@ def main():
 
     html = TEMPLATE.format(
         as_of_display=as_of,
-        synthesis_html=render_synthesis(payload["synthesis"]),
+        synthesis_html=render_synthesis(synthesis),
+        update_panel=panel_html,
         since_pull_quiet_class=" quiet" if is_quiet else "",
         since_pull_blurb=since_pull.get("blurb") or "No prior pull on record.",
         since_pull_prev_date=since_pull_prev_date,
@@ -440,7 +452,7 @@ def main():
     )
 
     with open("artifacts/point1.html", "w", encoding="utf-8") as f:
-        f.write(add_hub_back_link(html))
+        f.write(finalize_page(html, pull_date))
     print("Wrote artifacts/point1.html")
 
 

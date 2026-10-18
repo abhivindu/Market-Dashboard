@@ -6,7 +6,7 @@ primary and adjacent company profiles with investors/performance/citations.
 """
 import json
 
-from render_common import add_hub_back_link, svg_sparkline  # noqa: F401 (kept for parity with other renderers; unused here)
+from render_common import finalize_page, has_current_tag, is_updated, load_pull_date, mdy, normalize_obj, update_badge, update_panel
 
 
 TEMPLATE = """<!doctype html>
@@ -123,6 +123,8 @@ footer{{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--li
     <div class="meta">Emerging tech &amp; sector trend monitor<br>As of {as_of_display}</div>
   </div>
 
+  {update_panel}
+
   <div class="freshness">{freshness_note}</div>
 
   <div class="radar{radar_quiet_class}">
@@ -140,9 +142,18 @@ footer{{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--li
 </div>
 """
 
+SECTOR_FIELDS = [
+    ("how_it_works", "How it works"),
+    ("maturity", "Maturity"),
+    ("applications", "Applications"),
+    ("investors_lenders", "Major investors &amp; lenders"),
+    ("roadblocks", "Roadblocks &amp; competing tech"),
+    ("sentiment", "Market sentiment"),
+]
+
 COMPANY_CARD = """<div class="company-card">
   <div class="chead">
-    <h3>{name}{ticker_suffix}</h3>
+    <h3>{name}{ticker_suffix}{upd}</h3>
     <span class="type-tag {type_class}">{type_label}</span>
   </div>
   {desc_html}
@@ -152,21 +163,35 @@ COMPANY_CARD = """<div class="company-card">
 </div>"""
 
 
-def field(label, content, full=False):
+def field(label, content, full=False, updated=False):
     cls = "field field-full" if full else "field"
-    return f'<div class="{cls}"><div class="flabel">{label}</div>{content}</div>'
+    upd = ' <span class="upd-badge on">Updated</span>' if updated else ""
+    return f'<div class="{cls}"><div class="flabel">{label}{upd}</div>{content}</div>'
 
 
-def field_p(label, text, full=False):
-    return field(label, f"<p>{text}</p>", full=full)
+def field_p(label, text, full=False, updated=False):
+    return field(label, f"<p>{text}</p>", full=full, updated=updated)
 
 
-def field_ul(label, items):
+def field_ul(label, items, updated=False):
     lis = "".join(f"<li>{i}</li>" for i in items)
-    return field(f"{label}", f"<ul>{lis}</ul>")
+    return field(f"{label}", f"<ul>{lis}</ul>", updated=updated)
 
 
-def company_card(c):
+def updated_parts(s, pull_date):
+    """Names of the fields / companies / picks inside a sector that carry this pull's tag."""
+    parts = [label.replace("&amp;", "&") for key, label in SECTOR_FIELDS if has_current_tag(s.get(key), pull_date)]
+    for c in s.get("primary_companies", []) + s.get("adjacent_companies", []):
+        if is_updated(c, pull_date):
+            parts.append(c["name"])
+    ip = s.get("investment_potential") or {}
+    for pick in ip.get("public", []) + ip.get("private", []):
+        if is_updated(pick, pull_date):
+            parts.append(f"{pick['name']} (investment pick)")
+    return parts
+
+
+def company_card(c, pull_date):
     is_public = c["type"].startswith("public")
     type_class = "public" if is_public else "private"
     ticker_suffix = f' <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">{c["ticker"]}</span>' if c.get("ticker") else ""
@@ -188,6 +213,7 @@ def company_card(c):
         investors=c.get("investors", "n/a"),
         performance=c.get("performance", "n/a"),
         citation_link=citation_link,
+        upd=' <span class="upd-badge on">Updated</span>' if is_updated(c, pull_date) else "",
     )
 
 
@@ -234,17 +260,18 @@ def investment_potential_section(ip):
     <div class="company-grid">{private_cards}</div>"""
 
 
-def sector_card(s):
+def sector_card(s, pull_date):
+    upd = lambda key: has_current_tag(s.get(key), pull_date)  # noqa: E731
     fields_html = "".join([
-        field_p("How it works", s["how_it_works"], full=True),
-        field_p("Maturity", s["maturity"]),
-        field_ul("Applications", s["applications"]),
-        field_p("Major investors &amp; lenders", s["investors_lenders"]),
-        field_p("Roadblocks &amp; competing tech", s["roadblocks"]),
-        field_p("Market sentiment", s["sentiment"], full=True),
+        field_p("How it works", s["how_it_works"], full=True, updated=upd("how_it_works")),
+        field_p("Maturity", s["maturity"], updated=upd("maturity")),
+        field_ul("Applications", s["applications"], updated=upd("applications")),
+        field_p("Major investors &amp; lenders", s["investors_lenders"], updated=upd("investors_lenders")),
+        field_p("Roadblocks &amp; competing tech", s["roadblocks"], updated=upd("roadblocks")),
+        field_p("Market sentiment", s["sentiment"], full=True, updated=upd("sentiment")),
     ])
-    primary_cards = "".join(company_card(c) for c in s["primary_companies"])
-    adjacent_cards = "".join(company_card(c) for c in s["adjacent_companies"])
+    primary_cards = "".join(company_card(c, pull_date) for c in s["primary_companies"])
+    adjacent_cards = "".join(company_card(c, pull_date) for c in s["adjacent_companies"])
     invest_html = investment_potential_section(s.get("investment_potential"))
     return f"""<details class="sector">
   <summary class="sector-head">
@@ -252,6 +279,7 @@ def sector_card(s):
       <span class="eyebrow">{s['eyebrow']}</span>
       <h2>{s['name']}</h2>
     </div>
+    {update_badge(is_updated(s, pull_date), pull_date)}
     <span class="sector-chevron">&#9656;</span>
   </summary>
   <div class="sector-body">
@@ -268,9 +296,15 @@ def sector_card(s):
 def main():
     with open("data/point2/sectors.json", encoding="utf-8") as f:
         data = json.load(f)
+    pull_date = load_pull_date()
+    data = normalize_obj(data, pull_date)
 
-    sector_cards = "\n".join(sector_card(s) for s in data["sectors"])
-    radar_text = data.get("radar") or "Nothing new stands out this pull."
+    sector_cards = "\n".join(sector_card(s, pull_date) for s in data["sectors"])
+    radar_text = data.get("radar") or f"Nothing new stands out as of {mdy(pull_date)}."
+    panel_html = update_panel(pull_date, [
+        ("Radar", [("Defense tech radar", has_current_tag(data.get("radar"), pull_date), "")]),
+        ("Sectors", [(s["name"], is_updated(s, pull_date), ", ".join(updated_parts(s, pull_date))) for s in data["sectors"]]),
+    ])
     is_quiet = not data.get("radar")
 
     html = TEMPLATE.format(
@@ -280,10 +314,11 @@ def main():
         radar_text=radar_text,
         sector_count=len(data["sectors"]),
         sector_cards=sector_cards,
+        update_panel=panel_html,
     )
 
     with open("artifacts/point2.html", "w", encoding="utf-8") as f:
-        f.write(add_hub_back_link(html))
+        f.write(finalize_page(html, pull_date))
     print(f"Wrote artifacts/point2.html ({len(data['sectors'])} sectors)")
 
 

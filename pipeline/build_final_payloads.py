@@ -9,6 +9,8 @@ aggregate) don't need overrides per the confirmed drill-down template.
 import json
 import os
 
+from render_common import TAG_RE
+
 
 def load(path, default=None):
     if os.path.exists(path):
@@ -96,7 +98,7 @@ def build_point3_freshness_note(override_note, aggregates):
 
 
 def validate_point1_synthesis(syn):
-    """Point 1's synthesis is always exactly two sections - this pull and the previous pull -
+    """Point 1's synthesis is always exactly two sections - the latest pull and the previous one -
     so it can't drift back into one ever-growing paragraph. See CLAUDE.md's
     "Point 1 synthesis format" section for the per-pull rotation rule."""
     if not isinstance(syn, dict) or set(syn) != {"current", "previous"}:
@@ -110,9 +112,9 @@ def validate_point1_synthesis(syn):
         paras = section.get("paragraphs")
         if not section.get("as_of") or not isinstance(paras, list) or not paras:
             raise SystemExit(f"point1_synthesis.{key} needs an 'as_of' date and a non-empty 'paragraphs' list.")
-        if any("UPDATE (this pull" in p for p in paras):
+        if any(TAG_RE.search(p) for p in paras):
             raise SystemExit(
-                f"point1_synthesis.{key} contains an 'UPDATE (this pull...' marker - the section header "
+                f"point1_synthesis.{key} contains an 'UPDATE (...)' marker - the section header "
                 "already carries the date, so write plain paragraphs instead."
             )
     return syn
@@ -130,6 +132,7 @@ def main():
         flag["narrative"] = ov.get("narrative", "Research pending - mechanical flag only.")
         flag["citations"] = ov.get("citations", [])
         flag["reaction_assessment"] = ov.get("reaction_assessment", "not yet assessed")
+        flag["last_updated"] = ov.get("last_updated")
 
     previous_point1 = load("data/point1/final_payload.json")  # still holds last pull's data at this point
     diff = diff_point1(previous_point1, materiality["flags"])
@@ -161,10 +164,12 @@ def main():
             # some tickers were researched under recommendations (thesis) rather than
             # movers (narrative) - same underlying research, different field name
             rec_ov = overrides["recommendations"].get(key)
-            ov = {"narrative": rec_ov["thesis"], "citations": rec_ov["citations"], "verdict": rec_ov["verdict"]} if rec_ov else {}
+            ov = {"narrative": rec_ov["thesis"], "citations": rec_ov["citations"], "verdict": rec_ov["verdict"],
+                  "last_updated": rec_ov.get("last_updated")} if rec_ov else {}
         m["narrative"] = ov.get("narrative", "Research pending.")
         m["citations"] = ov.get("citations", [])
         m["verdict"] = ov.get("verdict", "not yet assessed")
+        m["last_updated"] = ov.get("last_updated")
         return m
 
     for m in aggregates.get("top_gainers", []):
@@ -182,6 +187,7 @@ def main():
                 r["thesis"] = ov.get("thesis", "Research pending.")
                 r["citations"] = ov.get("citations", [])
                 r["verdict"] = ov.get("verdict", "not yet assessed")
+                r["last_updated"] = ov.get("last_updated")
                 r["bucket"] = bucket_name
 
     macro_for_vol = load("data/point1/macro.json", {})
