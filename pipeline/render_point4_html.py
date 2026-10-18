@@ -11,7 +11,7 @@ freshness_note in the data file.
 """
 import json
 
-from render_common import add_hub_back_link
+from render_common import finalize_page, has_current_tag, is_updated, load_pull_date, normalize_obj, update_badge, update_panel
 
 
 TEMPLATE = """<!doctype html>
@@ -108,6 +108,8 @@ footer{{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--li
     <div class="meta">Fixed income &amp; structured credit commentary<br>As of {as_of_display}</div>
   </div>
 
+  {update_panel}
+
   <div class="freshness">
     <p>{freshness_note}</p>
   </div>
@@ -126,9 +128,31 @@ footer{{color:var(--ink-faint); font-size:0.75rem; border-top:1px solid var(--li
 """
 
 
-def field(label, text, full=False):
+AC_FIELDS = [
+    ("how_it_works", "How it works"),
+    ("market_size_issuance", "Market size &amp; issuance"),
+    ("performance_commentary", "Performance &amp; spread commentary"),
+    ("institutional_commentary", "Institutional commentary"),
+    ("institutional_investment_activity", "Institutional investment activity"),
+    ("fed_sensitivity", "Fed-decision sensitivity"),
+    ("headwinds_tailwinds", "Headwinds &amp; tailwinds"),
+    ("sentiment_outlook", "Sentiment &amp; outlook"),
+]
+FULL_WIDTH = {"how_it_works", "sentiment_outlook"}
+
+
+def field(label, text, full=False, updated=False):
     cls = "field field-full" if full else "field"
-    return f'<div class="{cls}"><div class="flabel">{label}</div><p>{text}</p></div>'
+    upd = ' <span class="upd-badge on">Updated</span>' if updated else ""
+    return f'<div class="{cls}"><div class="flabel">{label}{upd}</div><p>{text}</p></div>'
+
+
+def updated_parts(ac, pull_date):
+    """Names of the fields / exposure cards inside an asset class that carry this pull's tag."""
+    parts = [label.replace("&amp;", "&") for key, label in AC_FIELDS if has_current_tag(ac.get(key), pull_date)]
+    ie = ac.get("investable_exposure") or {}
+    parts += [item["name"] for item in ie.get("public", []) + ie.get("private", []) if is_updated(item, pull_date)]
+    return parts
 
 
 def citation_list(citations):
@@ -141,17 +165,18 @@ def citation_list(citations):
     return f'<div class="cite-list">{rows}</div>'
 
 
-def exposure_card(item, is_public):
+def exposure_card(item, is_public, pull_date):
     ticker_suffix = f' <span class="mono" style="font-size:0.78rem;color:var(--ink-faint);">{item["ticker"]}</span>' if item.get("ticker") else ""
     type_tag = f'<span class="type-tag">{item["type"]}</span>' if item.get("type") else ""
     desc = item.get("performance") or item.get("news") or item.get("description") or ""
     desc2 = ""
+    upd = ' <span class="upd-badge on">Updated</span>' if is_updated(item, pull_date) else ""
     if item.get("description") and item.get("news"):
         desc2 = f'<p class="cdesc">{item["news"]}</p>'
         desc = item["description"]
     return f"""<div class="invest-card">
       <div class="chead">
-        <h3>{item['name']}{ticker_suffix}</h3>
+        <h3>{item['name']}{ticker_suffix}{upd}</h3>
         {type_tag}
       </div>
       <p class="cdesc">{desc}</p>
@@ -160,11 +185,11 @@ def exposure_card(item, is_public):
     </div>"""
 
 
-def investable_exposure_section(ie):
+def investable_exposure_section(ie, pull_date):
     if not ie:
         return ""
-    public_cards = "".join(exposure_card(p, True) for p in ie.get("public", []))
-    private_cards = "".join(exposure_card(p, False) for p in ie.get("private", []))
+    public_cards = "".join(exposure_card(p, True, pull_date) for p in ie.get("public", []))
+    private_cards = "".join(exposure_card(p, False, pull_date) for p in ie.get("private", []))
     return f"""<div class="invest-section-title">Investable exposure</div>
     <div class="invest-subhead">Public (ETF / REIT / BDC / CEF)</div>
     <div class="company-grid">{public_cards}</div>
@@ -172,24 +197,19 @@ def investable_exposure_section(ie):
     <div class="company-grid">{private_cards}</div>"""
 
 
-def asset_class_card(ac):
-    fields_html = "".join([
-        field("How it works", ac["how_it_works"], full=True),
-        field("Market size &amp; issuance", ac["market_size_issuance"]),
-        field("Performance &amp; spread commentary", ac["performance_commentary"]),
-        field("Institutional commentary", ac["institutional_commentary"]),
-        field("Institutional investment activity", ac["institutional_investment_activity"]),
-        field("Fed-decision sensitivity", ac["fed_sensitivity"]),
-        field("Headwinds &amp; tailwinds", ac["headwinds_tailwinds"]),
-        field("Sentiment &amp; outlook", ac["sentiment_outlook"], full=True),
-    ])
-    invest_html = investable_exposure_section(ac.get("investable_exposure"))
+def asset_class_card(ac, pull_date):
+    fields_html = "".join(
+        field(label, ac[key], full=key in FULL_WIDTH, updated=has_current_tag(ac.get(key), pull_date))
+        for key, label in AC_FIELDS
+    )
+    invest_html = investable_exposure_section(ac.get("investable_exposure"), pull_date)
     return f"""<details class="assetclass">
   <summary class="ac-head">
     <div class="ac-head-left">
       <span class="eyebrow">{ac['eyebrow']}</span>
       <h2>{ac['name']}</h2>
     </div>
+    {update_badge(is_updated(ac, pull_date), pull_date)}
     <span class="ac-chevron">&#9656;</span>
   </summary>
   <div class="ac-body">
@@ -204,8 +224,13 @@ def asset_class_card(ac):
 def main():
     with open("data/point4/asset_classes.json", encoding="utf-8") as f:
         data = json.load(f)
+    pull_date = load_pull_date()
+    data = normalize_obj(data, pull_date)
 
-    ac_cards = "\n".join(asset_class_card(ac) for ac in data["asset_classes"])
+    ac_cards = "\n".join(asset_class_card(ac, pull_date) for ac in data["asset_classes"])
+    panel_html = update_panel(pull_date, [
+        ("Asset classes", [(ac["name"], is_updated(ac, pull_date), ", ".join(updated_parts(ac, pull_date))) for ac in data["asset_classes"]]),
+    ])
 
     html = TEMPLATE.format(
         as_of_display=data["as_of"],
@@ -213,10 +238,11 @@ def main():
         data_gap_note=data.get("data_gap_note", ""),
         ac_count=len(data["asset_classes"]),
         ac_cards=ac_cards,
+        update_panel=panel_html,
     )
 
     with open("artifacts/point4.html", "w", encoding="utf-8") as f:
-        f.write(add_hub_back_link(html))
+        f.write(finalize_page(html, pull_date))
     print(f"Wrote artifacts/point4.html ({len(data['asset_classes'])} asset classes)")
 
 

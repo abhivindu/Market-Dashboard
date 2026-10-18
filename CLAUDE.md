@@ -42,11 +42,13 @@ Concretely, on every refresh:
    performance, mover narrative, asset-class commentary), do a real search for
    that specific item. If nothing genuinely newer turns up, leave the existing
    text as-is — do not reword it to look fresh.
-3. If something genuinely newer is found, prepend `"UPDATE (this pull, <date>): ..."`
-   to the field rather than deleting the prior context, and add the new dated
-   citation alongside the old one(s). **Exception: Point 1's synthesis** never
-   uses UPDATE prefixes or accumulates — it follows the two-section rotation in
-   "Point 1 synthesis format" below.
+3. If something genuinely newer is found, prepend `"UPDATE (mm/dd/yy): ..."`
+   (the pull date, e.g. `UPDATE (10/18/26): ...`) and end the new text with
+   `Prior framing: ` followed by the existing text, rather than deleting the
+   prior context; add the new dated citation alongside the old one(s). See
+   "Update tags" below for the full rules. **Exception: Point 1's synthesis**
+   never uses UPDATE prefixes or accumulates — it follows the two-section
+   rotation in "Point 1 synthesis format" below.
 4. Point 1 and Point 4 already carry a `freshness_note` / `since_last_pull`
    field at the top level explaining this to the reader — Point 2 and Point 3
    now have the same `freshness_note` field (see `data/point2/sectors.json`
@@ -58,11 +60,44 @@ Concretely, on every refresh:
    "N/A" entry (see Point 4's student-loan-ABS private pick, or Point 3's
    `"citations": []` movers) is correct and better than forcing a weak fit.
 
+## Update tags (user's standing convention, set 10/18/26 — applies to every pull)
+
+The user's instruction: never say "this pull" in an update tag; always use the
+date as mm/dd/yy; make it clear up front which sections were and weren't
+updated; and prune every callout that wasn't updated in the current pull,
+because an old callout reads as an update when it isn't one.
+
+1. **Tag format**: `UPDATE (mm/dd/yy): ...` (or `CORRECTION (mm/dd/yy): ...`),
+   using this pull's date. Never write "this pull" anywhere in narrative or
+   notes; write the date ("on 10/18/26", "the 10/18/26 pull").
+2. **Only the current pull's tags survive.** Tags from any earlier pull are
+   pruned: the label (and the "Prior framing:" connectors between older
+   versions) is removed and the text stays as ordinary carried-forward
+   content. This is mechanical: `pipeline/normalize_update_tags.py` rewrites
+   the data files, and every renderer re-applies the same rule at render time
+   (`render_common.normalize_obj`), so a stale callout can never reach a page.
+3. **Up-front status**: every page renders a "What changed · mm/dd/yy" panel
+   listing which items were updated (and, for Points 2 and 4, which fields /
+   companies inside them) and which had no update, plus an "Updated" / "No
+   update" badge on every collapsed sector, asset class, material event,
+   mover row, volume-outlier row and recommendation card. These come from
+   `render_common.update_panel` / `update_badge`; nothing is hand-written.
+4. **How "updated" is decided**: an item counts as updated if it carries a tag
+   dated this pull, or (Point 1 macro flags, Point 3 movers/recommendations in
+   `content_overrides.json`) its `"last_updated"` equals the pull date. When you
+   write a brand-new entry without a tag (e.g. a first-time mover), set
+   `"last_updated": "YYYY-MM-DD"` on it yourself; the normalize script stamps it
+   automatically on entries that carry a current tag.
+5. **Republish all four artifacts every pull**, even a point with no new
+   research: its badges and pruning depend on the pull date, so an
+   unrepublished page would keep showing the previous pull's callouts as if
+   they were current.
+
 ## Point 1 synthesis format (required every pull — user's standing request)
 
 The Market Signal synthesis is always exactly two sections, rendered as
-"This pull" and "Previous pull". It must never grow back into one long
-paragraph of stacked `UPDATE (this pull, ...)` blocks. Shape in
+"Latest · mm/dd/yy" and "Previous · mm/dd/yy". It must never grow back into one
+long paragraph of stacked `UPDATE (...)` blocks. Shape in
 `data/content_overrides.json`:
 
 ```json
@@ -79,7 +114,7 @@ On every refresh:
    dropped from the page; it remains in git history.
 2. **Write a new `current`**: what this pull found, 2–4 short paragraphs
    (roughly one theme each: rates/Fed, credit/oil/other markets, data-quality
-   notes if any). Plain text — no `UPDATE (this pull...)` prefixes; the section
+   notes if any). Plain text — no `UPDATE (...)` prefixes; the section
    header already carries the date. Refer back to the previous pull by name
    ("vs. the Sept 23 pull") rather than restating it.
 3. **If genuinely nothing new turned up**, still rotate, and make `current` say
@@ -89,7 +124,7 @@ On every refresh:
 
 `pipeline/build_final_payloads.py` enforces this: it exits with an error if
 `point1_synthesis` is a string, has keys other than `current`/`previous`, or
-contains an `UPDATE (this pull` marker. Layout lives in
+contains any `UPDATE (...)` / `CORRECTION (...)` marker. Layout lives in
 `pipeline/render_point1_html.py` (`render_synthesis`).
 
 **Never hand-edit `artifacts/*.html`** to change layout or formatting — the next
@@ -112,6 +147,7 @@ pipeline/build_recommendations.py
 # --- manual/research step happens here: update data/content_overrides.json
 #     (Point 1 + Point 3 narrative/citations) and data/point2/sectors.json
 #     and data/point4/asset_classes.json following the discipline above ---
+pipeline/normalize_update_tags.py     # sets pull_date, prunes stale tags (see "Update tags")
 pipeline/build_final_payloads.py      # assembles data/point1 + data/point3 final_payload.json
 pipeline/render_point1_html.py        # -> artifacts/point1.html
 pipeline/render_point2_html.py        # -> artifacts/point2.html
@@ -167,11 +203,14 @@ A scheduled 5pm run should, in order:
    re-researching all 9 every day.
 4. For Point 4: spot-check 2-3 asset classes likely to have moved (Fed
    decision days, CLO/ABS issuance reports, etc.).
-5. Render + publish every artifact that actually changed. Skip publishing
-   an artifact with zero substantive changes.
+5. Run `pipeline/normalize_update_tags.py`, then build, render and publish
+   all four artifacts (see "Update tags" rule 5 — badges and pruning are
+   pull-date dependent, so every page changes each pull even with no new
+   research; a point with nothing new shows "No update mm/dd/yy" throughout).
 6. Commit and push with a commit message summarizing what was actually
    updated (not "daily refresh" boilerplate).
-7. If truly nothing changed anywhere, it's fine to skip publishing entirely —
-   just say so in the commit-adjacent notes; don't force a no-op publish.
+7. If truly nothing changed anywhere, still publish (so the pages say
+   "No update" instead of showing the previous pull's callouts), and say so
+   plainly in the freshness notes and the commit message.
 
 See WISHLIST.md for known data gaps and their reasoning.
