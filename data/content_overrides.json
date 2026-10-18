@@ -359,7 +359,7 @@
       "verdict": "aligned"
     },
     "FANG": {
-      "narrative": "Diamondback Energy fell alongside a broad, sector-wide E&P selloff on the Fed's Sept 16 hike day: WTI itself pulled back from recent highs intraday (to ~$104) on rising US crude-inventory signals even as it remains up sharply versus a week ago, and the Fed's hawkish tone plus higher yields weighed on the whole equity market including energy. No Diamondback-specific catalyst found - this reads as a broad energy-complex move (see also OXY, MTDR, MGY, VAL, AR, RRC, CRK, GPOR, SM, NOG the same session), not a name-specific story.",
+      "narrative": "UPDATE (this pull, 2026-10-18): Diamondback rose 4.3% to ~$203.91 on Fri Oct 16, among the session's top S&P gainers, as crude rallied: Brent settled at $109.86 (+3.7%, highest settle since May 19, briefly touching $110) and WTI Nov at $101.41 (+3.5%) on Fri Oct 16 on renewed Middle East supply fears, Russian-diesel uncertainty and an 8.6M-bbl US crude draw (week to Oct 9), while the broader tape fell (S&P -1.1%, Nasdaq -2.1%) on AI-spending worries - energy was the day's best sector. Name-specific support: a wave of price-target increases reported in Oct 16 coverage (BMO $224, Roth $223, Morgan Stanley $222, Jefferies $215, JPMorgan $253; Scotiabank initiated Outperform, $250) - individual note dates not given in the source. Prior framing: Diamondback Energy fell alongside a broad, sector-wide E&P selloff on the Fed's Sept 16 hike day: WTI itself pulled back from recent highs intraday (to ~$104) on rising US crude-inventory signals even as it remains up sharply versus a week ago, and the Fed's hawkish tone plus higher yields weighed on the whole equity market including energy. No Diamondback-specific catalyst found - this reads as a broad energy-complex move (see also OXY, MTDR, MGY, VAL, AR, RRC, CRK, GPOR, SM, NOG the same session), not a name-specific story.",
       "citations": [
         {
           "title": "Latest Oil Market News and Analysis for Sept. 16",
@@ -370,9 +370,24 @@
           "title": "Stock market today: Dow sinks 600 points, S&P 500 and Nasdaq fall as Fed hikes rates, bond yields rise",
           "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-16-dow-sp-500-nasdaq-fed-meeting-decision-080356525.html",
           "date": "2026-09-16"
+        },
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "AI Data Center Stocks Lead Friday's Losers as Energy Names Surge",
+          "url": "https://247wallst.com/cards/every-one-of-the-five-worst-names-at-friday-s-close-was-an-a-crwv-session-movers-01m535ede53hb8apcw33aryrax",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "FANG Stock Draws Target Hikes As Traders Eye 2027 Plans",
+          "url": "https://www.timothysykes.com/news/diamondback-energy-inc-fang-news-2026_10_16-2/",
+          "date": "2026-10-16"
         }
       ],
-      "verdict": "mixed"
+      "verdict": "aligned"
     },
     "OXY": {
       "narrative": "Occidental fell in the same broad energy-sector selloff that hit Diamondback, Matador, Magnolia and the natural-gas E&P names the same session (Sept 16) - a Fed-hike risk-off day plus crude pulling back intraday from recent highs on rising US inventory signals, not an Occidental-specific catalyst.",
@@ -386,7 +401,7 @@
       "verdict": "mixed"
     },
     "MTDR": {
-      "narrative": "UPDATE (this pull, 2026-09-22): Matador fell 4.8% again on Monday, Sept 21, in the same broad energy-sector pullback hitting refiners and E&Ps alike (PBF -6.1%, Valero/Marathon ~-5%, XLE -2.5%) even as the major indices rallied - a second, separate energy-sector down day distinct from the Sept 16 FOMC-day selloff described below, still with no Matador-specific catalyst found. Prior framing: Matador Resources fell in the same broad energy-sector selloff hitting Diamondback, Occidental and peers on Sept 16 (Fed-hike risk-off, crude pulling back intraday from recent highs on rising US inventories) - no Matador-specific catalyst found.",
+      "narrative": "UPDATE (this pull, 2026-10-18): Matador reversed sharply higher, +7.0% on Fri Oct 16, as part of a sector-wide oil-producer rally: Brent settled at $109.86 (+3.7%, highest settle since May 19, briefly touching $110) and WTI Nov at $101.41 (+3.5%) on Fri Oct 16 on renewed Middle East supply fears, Russian-diesel uncertainty and an 8.6M-bbl US crude draw (week to Oct 9), while the broader tape fell (S&P -1.1%, Nasdaq -2.1%) on AI-spending worries - energy was the day's best sector. No Matador-specific catalyst found - this is a separate, opposite-direction move from the September selloffs described below. Prior framing: UPDATE (this pull, 2026-09-22): Matador fell 4.8% again on Monday, Sept 21, in the same broad energy-sector pullback hitting refiners and E&Ps alike (PBF -6.1%, Valero/Marathon ~-5%, XLE -2.5%) even as the major indices rallied - a second, separate energy-sector down day distinct from the Sept 16 FOMC-day selloff described below, still with no Matador-specific catalyst found. Prior framing: Matador Resources fell in the same broad energy-sector selloff hitting Diamondback, Occidental and peers on Sept 16 (Fed-hike risk-off, crude pulling back intraday from recent highs on rising US inventories) - no Matador-specific catalyst found.",
       "citations": [
         {
           "title": "Latest Oil Market News and Analysis for Sept. 16",
@@ -397,6 +412,16 @@
           "title": "PBF Looks 79.1% Overvalued on GF Value as Dividend Sustainability Faces Scrutiny",
           "url": "https://www.gurufocus.com/news/9090454/pbf-looks-791-overvalued-on-gf-value-as-dividend-sustainability-faces-scrutiny",
           "date": "2026-09-21"
+        },
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "AI Data Center Stocks Lead Friday's Losers as Energy Names Surge",
+          "url": "https://247wallst.com/cards/every-one-of-the-five-worst-names-at-friday-s-close-was-an-a-crwv-session-movers-01m535ede53hb8apcw33aryrax",
+          "date": "2026-10-16"
         }
       ],
       "verdict": "mixed"
@@ -424,26 +449,46 @@
       "verdict": "mixed"
     },
     "AR": {
-      "narrative": "Antero Resources fell alongside a sector-wide natural-gas E&P selloff on Sept 16 that also hit Range Resources and Comstock Resources - a broad Marcellus/Haynesville-complex move (Comstock alone fell 7.1% the same session) compounded by the same Fed-hike risk-off hitting equities generally. No Antero-specific catalyst found.",
+      "narrative": "UPDATE (this pull, 2026-10-18): Antero Resources rose 6.1% on Fri Oct 16 alongside the oil-led energy rally even though Henry Hub gas futures FELL ~3.4-4% that day (mild late-October weather forecasts, ample storage) - so the gas commodity does not explain the move; it reads as energy-sector beta/rotation out of tech on a day Brent settled at $109.86 (+3.7%). No Antero Resources-specific catalyst found. Prior framing: Antero Resources fell alongside a sector-wide natural-gas E&P selloff on Sept 16 that also hit Range Resources and Comstock Resources - a broad Marcellus/Haynesville-complex move (Comstock alone fell 7.1% the same session) compounded by the same Fed-hike risk-off hitting equities generally. No Antero-specific catalyst found.",
       "citations": [
         {
           "title": "Comstock Resources Drops 7.1% Amid Sector-Wide Selling",
           "url": "https://news.alphastreet.com/comstock-resources-drops-7-1-amid-sector-wide-selling/",
           "date": "2026-09-16"
+        },
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Natural Gas - Futures (NATGAS-F) Is down 3.40% on Oct 16: What You Need to Watch",
+          "url": "https://www.tradingkey.com/news/market-movers/262221064-market-movers-natgas-f-20261016",
+          "date": "2026-10-16"
         }
       ],
-      "verdict": "mixed"
+      "verdict": "divergent"
     },
     "RRC": {
-      "narrative": "Range Resources fell alongside a sector-wide natural-gas E&P selloff on Sept 16 that also hit Antero Resources and Comstock Resources (down 7.1% the same session) - a broad Marcellus/Haynesville-complex move compounded by the same Fed-hike risk-off hitting equities generally. No Range-specific catalyst found.",
+      "narrative": "UPDATE (this pull, 2026-10-18): Range Resources rose 4.3% on Fri Oct 16 alongside the oil-led energy rally even though Henry Hub gas futures FELL ~3.4-4% that day (mild late-October weather forecasts, ample storage) - so the gas commodity does not explain the move; it reads as energy-sector beta/rotation out of tech on a day Brent settled at $109.86 (+3.7%). No Range Resources-specific catalyst found. Prior framing: Range Resources fell alongside a sector-wide natural-gas E&P selloff on Sept 16 that also hit Antero Resources and Comstock Resources (down 7.1% the same session) - a broad Marcellus/Haynesville-complex move compounded by the same Fed-hike risk-off hitting equities generally. No Range-specific catalyst found.",
       "citations": [
         {
           "title": "Comstock Resources Drops 7.1% Amid Sector-Wide Selling",
           "url": "https://news.alphastreet.com/comstock-resources-drops-7-1-amid-sector-wide-selling/",
           "date": "2026-09-16"
+        },
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Natural Gas - Futures (NATGAS-F) Is down 3.40% on Oct 16: What You Need to Watch",
+          "url": "https://www.tradingkey.com/news/market-movers/262221064-market-movers-natgas-f-20261016",
+          "date": "2026-10-16"
         }
       ],
-      "verdict": "mixed"
+      "verdict": "divergent"
     },
     "CRK": {
       "narrative": "Comstock Resources fell 7.1% in a sector-wide natural-gas E&P selloff on Sept 16 that also hit Antero Resources and Range Resources - compounded by the same Fed-hike risk-off hitting equities generally that session.",
@@ -457,18 +502,23 @@
       "verdict": "aligned"
     },
     "GPOR": {
-      "narrative": "Gulfport Energy fell alongside the same sector-wide natural-gas E&P selloff hitting Antero, Range and Comstock on Sept 16 - Fed-hike risk-off compounding an already-weak natural-gas-equity tape. No Gulfport-specific catalyst found.",
+      "narrative": "UPDATE (this pull, 2026-10-18): Gulfport traded ~3.1x its average volume on Oct 16 but rose only 1.4%, lagging the oil-led energy rally on a day Henry Hub gas futures fell ~3.4-4% on mild weather forecasts. No Gulfport-specific news found to explain the heavy volume. Prior framing: Gulfport Energy fell alongside the same sector-wide natural-gas E&P selloff hitting Antero, Range and Comstock on Sept 16 - Fed-hike risk-off compounding an already-weak natural-gas-equity tape. No Gulfport-specific catalyst found.",
       "citations": [
         {
           "title": "Comstock Resources Drops 7.1% Amid Sector-Wide Selling",
           "url": "https://news.alphastreet.com/comstock-resources-drops-7-1-amid-sector-wide-selling/",
           "date": "2026-09-16"
+        },
+        {
+          "title": "Natural Gas - Futures (NATGAS-F) Is down 3.40% on Oct 16: What You Need to Watch",
+          "url": "https://www.tradingkey.com/news/market-movers/262221064-market-movers-natgas-f-20261016",
+          "date": "2026-10-16"
         }
       ],
-      "verdict": "mixed"
+      "verdict": "no clean catalyst"
     },
     "SM": {
-      "narrative": "UPDATE (this pull, 2026-09-22): SM Energy fell 6.0% again on Monday, Sept 21, in the same broad energy-sector pullback hitting refiners (PBF -6.1%, Valero and Marathon Petroleum each ~-5%, XLE -2.5%) even as the major indices rallied - a sector-wide reversal after 2026's outsized run on elevated crack spreads/oil prices, not an SM-specific catalyst. This is a second, separate energy-sector down day for the name (see the Sept 16 FOMC-day selloff described below), not a continuation of the same single event. Prior framing: SM Energy fell in the same broad energy-sector selloff hitting both the oil E&P names (Diamondback, Occidental) and natural-gas E&P names (Antero, Range, Comstock) on Sept 16 - Fed-hike risk-off day. No SM Energy-specific catalyst found.",
+      "narrative": "UPDATE (this pull, 2026-10-18): SM Energy rose 5.3% on Fri Oct 16 in a sector-wide oil-producer rally: Brent settled at $109.86 (+3.7%, highest settle since May 19, briefly touching $110) and WTI Nov at $101.41 (+3.5%) on Fri Oct 16 on renewed Middle East supply fears, Russian-diesel uncertainty and an 8.6M-bbl US crude draw (week to Oct 9), while the broader tape fell (S&P -1.1%, Nasdaq -2.1%) on AI-spending worries - energy was the day's best sector. No SM-specific catalyst found - a separate, opposite-direction move from the September selloffs below. Prior framing: UPDATE (this pull, 2026-09-22): SM Energy fell 6.0% again on Monday, Sept 21, in the same broad energy-sector pullback hitting refiners (PBF -6.1%, Valero and Marathon Petroleum each ~-5%, XLE -2.5%) even as the major indices rallied - a sector-wide reversal after 2026's outsized run on elevated crack spreads/oil prices, not an SM-specific catalyst. This is a second, separate energy-sector down day for the name (see the Sept 16 FOMC-day selloff described below), not a continuation of the same single event. Prior framing: SM Energy fell in the same broad energy-sector selloff hitting both the oil E&P names (Diamondback, Occidental) and natural-gas E&P names (Antero, Range, Comstock) on Sept 16 - Fed-hike risk-off day. No SM Energy-specific catalyst found.",
       "citations": [
         {
           "title": "Latest Oil Market News and Analysis for Sept. 16",
@@ -479,12 +529,22 @@
           "title": "PBF Looks 79.1% Overvalued on GF Value as Dividend Sustainability Faces Scrutiny",
           "url": "https://www.gurufocus.com/news/9090454/pbf-looks-791-overvalued-on-gf-value-as-dividend-sustainability-faces-scrutiny",
           "date": "2026-09-21"
+        },
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "AI Data Center Stocks Lead Friday's Losers as Energy Names Surge",
+          "url": "https://247wallst.com/cards/every-one-of-the-five-worst-names-at-friday-s-close-was-an-a-crwv-session-movers-01m535ede53hb8apcw33aryrax",
+          "date": "2026-10-16"
         }
       ],
       "verdict": "mixed"
     },
     "NOG": {
-      "narrative": "UPDATE (this pull, 2026-09-22): Northern Oil and Gas fell 5.1% again on Monday, Sept 21, in the same broad energy-sector pullback hitting refiners and E&Ps alike (PBF -6.1%, Valero/Marathon ~-5%, XLE -2.5%) even as the major indices rallied - a second, separate energy-sector down day distinct from the Sept 16 FOMC-day selloff described below, still with no NOG-specific catalyst found. Prior framing: Northern Oil and Gas fell in the same broad energy-sector selloff hitting both oil and natural-gas E&P names on Sept 16 - Fed-hike risk-off day. No Northern Oil and Gas-specific catalyst found.",
+      "narrative": "UPDATE (this pull, 2026-10-18): Northern Oil and Gas rose 5.5% on Fri Oct 16 (+9.7% on the week) in a sector-wide oil-producer rally: Brent settled at $109.86 (+3.7%, highest settle since May 19, briefly touching $110) and WTI Nov at $101.41 (+3.5%) on Fri Oct 16 on renewed Middle East supply fears, Russian-diesel uncertainty and an 8.6M-bbl US crude draw (week to Oct 9), while the broader tape fell (S&P -1.1%, Nasdaq -2.1%) on AI-spending worries - energy was the day's best sector. No NOG-specific catalyst found - a separate, opposite-direction move from the September selloffs below. Prior framing: UPDATE (this pull, 2026-09-22): Northern Oil and Gas fell 5.1% again on Monday, Sept 21, in the same broad energy-sector pullback hitting refiners and E&Ps alike (PBF -6.1%, Valero/Marathon ~-5%, XLE -2.5%) even as the major indices rallied - a second, separate energy-sector down day distinct from the Sept 16 FOMC-day selloff described below, still with no NOG-specific catalyst found. Prior framing: Northern Oil and Gas fell in the same broad energy-sector selloff hitting both oil and natural-gas E&P names on Sept 16 - Fed-hike risk-off day. No Northern Oil and Gas-specific catalyst found.",
       "citations": [
         {
           "title": "Latest Oil Market News and Analysis for Sept. 16",
@@ -495,6 +555,16 @@
           "title": "PBF Looks 79.1% Overvalued on GF Value as Dividend Sustainability Faces Scrutiny",
           "url": "https://www.gurufocus.com/news/9090454/pbf-looks-791-overvalued-on-gf-value-as-dividend-sustainability-faces-scrutiny",
           "date": "2026-09-21"
+        },
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "AI Data Center Stocks Lead Friday's Losers as Energy Names Surge",
+          "url": "https://247wallst.com/cards/every-one-of-the-five-worst-names-at-friday-s-close-was-an-a-crwv-session-movers-01m535ede53hb8apcw33aryrax",
+          "date": "2026-10-16"
         }
       ],
       "verdict": "mixed"
@@ -637,15 +707,25 @@
       "verdict": "aligned"
     },
     "IESC": {
-      "narrative": "IES Holdings surged after a blowout fiscal Q3: EPS beat estimates by $2.19, backlog hit $4.5B (+91% since FY2025 end) on data-center electrical demand, and data-center operations now drive 92% of segment profit with margins expanding to 20.8% from 17.2%. Debt-free with $310.6M in marketable securities.",
+      "narrative": "UPDATE (this pull, 2026-10-18): IES Holdings fell 4.0% on ~3.3x average volume on Fri Oct 16 - no IESC-specific news found, but the day saw a sharp AI/data-center selloff (CoreWeave -12.3%, Applied Digital -11.9%, IREN -11.3%; S&P tech -3%+) on AI-spending/financing worries, and data-center work drives the bulk of IES's profit (see prior framing). Reads as AI-infrastructure sentiment, not a company event. Prior framing: IES Holdings surged after a blowout fiscal Q3: EPS beat estimates by $2.19, backlog hit $4.5B (+91% since FY2025 end) on data-center electrical demand, and data-center operations now drive 92% of segment profit with margins expanding to 20.8% from 17.2%. Debt-free with $310.6M in marketable securities.",
       "citations": [
         {
           "title": "IES Holdings Stock Moves 30% as Q3 Earnings Crush Analyst Estimates",
           "url": "https://www.tikr.com/blog/ies-holdings-stock-q3-earnings-beat-stock-split-2026",
           "date": "2026-09"
+        },
+        {
+          "title": "AI Data Center Stocks Lead Friday's Losers as Energy Names Surge",
+          "url": "https://247wallst.com/cards/every-one-of-the-five-worst-names-at-friday-s-close-was-an-a-crwv-session-movers-01m535ede53hb8apcw33aryrax",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Stock Market Today (Oct. 16, 2026): AI 'bubble' worries mount as Nasdaq, Russell 2000 sink on tech declines",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-16-2026",
+          "date": "2026-10-16"
         }
       ],
-      "verdict": "aligned"
+      "verdict": "mixed"
     },
     "SYNA": {
       "narrative": "Synaptics rode a broad semiconductor sector rally (peers up 3.6-5.2%, Synaptics outpaced all of them at 6.3%), with added speculative fuel from a Bloomberg report that Synaptics rejected a takeover bid at a 70% premium from a Chinese state-owned investment group.",
@@ -1983,6 +2063,251 @@
       "narrative": "No clean, dated, company-specific catalyst found for Shift4 Payments's elevated-volume move this pull despite a genuine search attempt - general market/sector-beta read rather than a forced narrative.",
       "citations": [],
       "verdict": "not yet assessed"
+    },
+    "CRGY": {
+      "narrative": "Crescent Energy jumped 10.1% on ~3x average volume on Oct 16, the biggest gain in a sector-wide oil rally: Brent settled at $109.86 (+3.7%, highest settle since May 19, briefly touching $110) and WTI Nov at $101.41 (+3.5%) on Fri Oct 16 on renewed Middle East supply fears, Russian-diesel uncertainty and an 8.6M-bbl US crude draw (week to Oct 9), while the broader tape fell (S&P -1.1%, Nasdaq -2.1%) on AI-spending worries - energy was the day's best sector. Coverage of the move ties it to the crude/energy-stock advance and gives no new Crescent-specific catalyst that day. Context: on Oct 8 Crescent agreed to buy Devon's Eagle Ford assets (~$3.85B net) and priced an 80M-share offering at $12.50 (plus a 12M-share option exercise) to fund it; Friday's close ($13.77) put the stock back above that offering price, which may have amplified the move (our read, not sourced). Q3 results are due Nov 3.",
+      "citations": [
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Crescent Energy Gains About 10%; Oil Futures Rise on Supply Concerns",
+          "url": "https://www.tokenpost.com/news/investing/33833",
+          "date": "2026-10-17"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "OVV": {
+      "narrative": "Ovintiv rose 4.8% on Fri Oct 16 with the sector-wide oil rally: Brent settled at $109.86 (+3.7%, highest settle since May 19, briefly touching $110) and WTI Nov at $101.41 (+3.5%) on Fri Oct 16 on renewed Middle East supply fears, Russian-diesel uncertainty and an 8.6M-bbl US crude draw (week to Oct 9), while the broader tape fell (S&P -1.1%, Nasdaq -2.1%) on AI-spending worries - energy was the day's best sector. No Ovintiv-specific catalyst found - reads as crude beta.",
+      "citations": [
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "MUR": {
+      "narrative": "Murphy Oil rose 4.7% on Fri Oct 16 with the sector-wide oil rally: Brent settled at $109.86 (+3.7%, highest settle since May 19, briefly touching $110) and WTI Nov at $101.41 (+3.5%) on Fri Oct 16 on renewed Middle East supply fears, Russian-diesel uncertainty and an 8.6M-bbl US crude draw (week to Oct 9), while the broader tape fell (S&P -1.1%, Nasdaq -2.1%) on AI-spending worries - energy was the day's best sector. No Murphy Oil-specific catalyst found - reads as crude beta.",
+      "citations": [
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "CHRD": {
+      "narrative": "Chord Energy rose 4.2% on Fri Oct 16 with the sector-wide oil rally: Brent settled at $109.86 (+3.7%, highest settle since May 19, briefly touching $110) and WTI Nov at $101.41 (+3.5%) on Fri Oct 16 on renewed Middle East supply fears, Russian-diesel uncertainty and an 8.6M-bbl US crude draw (week to Oct 9), while the broader tape fell (S&P -1.1%, Nasdaq -2.1%) on AI-spending worries - energy was the day's best sector. No Chord Energy-specific catalyst found - reads as crude beta.",
+      "citations": [
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "PR": {
+      "narrative": "Permian Resources rose 4.2% on Fri Oct 16 with the sector-wide oil rally: Brent settled at $109.86 (+3.7%, highest settle since May 19, briefly touching $110) and WTI Nov at $101.41 (+3.5%) on Fri Oct 16 on renewed Middle East supply fears, Russian-diesel uncertainty and an 8.6M-bbl US crude draw (week to Oct 9), while the broader tape fell (S&P -1.1%, Nasdaq -2.1%) on AI-spending worries - energy was the day's best sector. No Permian Resources-specific catalyst found - reads as crude beta.",
+      "citations": [
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "TALO": {
+      "narrative": "Talos Energy rose 4.7% on ~2.65x average volume on Fri Oct 16 with the sector-wide oil rally: Brent settled at $109.86 (+3.7%, highest settle since May 19, briefly touching $110) and WTI Nov at $101.41 (+3.5%) on Fri Oct 16 on renewed Middle East supply fears, Russian-diesel uncertainty and an 8.6M-bbl US crude draw (week to Oct 9), while the broader tape fell (S&P -1.1%, Nasdaq -2.1%) on AI-spending worries - energy was the day's best sector. As a Gulf of Mexico oil-weighted producer it has high crude beta; no Talos-specific catalyst found (Q3 results due early Nov).",
+      "citations": [
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "DNOW": {
+      "narrative": "DNOW (energy-equipment distributor) rose 4.4% on Fri Oct 16 alongside the oil rally: Brent settled at $109.86 (+3.7%, highest settle since May 19, briefly touching $110) and WTI Nov at $101.41 (+3.5%) on Fri Oct 16 on renewed Middle East supply fears, Russian-diesel uncertainty and an 8.6M-bbl US crude draw (week to Oct 9), while the broader tape fell (S&P -1.1%, Nasdaq -2.1%) on AI-spending worries - energy was the day's best sector. No DNOW-specific news found this pull - reads as oilfield-activity sentiment riding crude, not a company event.",
+      "citations": [
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "KMI": {
+      "narrative": "Kinder Morgan rose ~4.2-4.3% to ~$34.22 on Fri Oct 16, listed among the session's top S&P gainers in the energy rotation: Brent settled at $109.86 (+3.7%, highest settle since May 19, briefly touching $110) and WTI Nov at $101.41 (+3.5%) on Fri Oct 16 on renewed Middle East supply fears, Russian-diesel uncertainty and an 8.6M-bbl US crude draw (week to Oct 9), while the broader tape fell (S&P -1.1%, Nasdaq -2.1%) on AI-spending worries - energy was the day's best sector. Not an earnings move - KMI's Q3 report is scheduled after the close on Oct 21. No KMI-specific catalyst found on the day.",
+      "citations": [
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "AI Data Center Stocks Lead Friday's Losers as Energy Names Surge",
+          "url": "https://247wallst.com/cards/every-one-of-the-five-worst-names-at-friday-s-close-was-an-a-crwv-session-movers-01m535ede53hb8apcw33aryrax",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "TRGP": {
+      "narrative": "Targa Resources rose ~4.1-4.4% to ~$294 on Fri Oct 16, listed among the session's top S&P gainers in the energy rotation: Brent settled at $109.86 (+3.7%, highest settle since May 19, briefly touching $110) and WTI Nov at $101.41 (+3.5%) on Fri Oct 16 on renewed Middle East supply fears, Russian-diesel uncertainty and an 8.6M-bbl US crude draw (week to Oct 9), while the broader tape fell (S&P -1.1%, Nasdaq -2.1%) on AI-spending worries - energy was the day's best sector. No Targa-specific catalyst found; reads as midstream beta to the crude/NGL complex.",
+      "citations": [
+        {
+          "title": "Brent Crude Settles at $109.86 as WTI Closes Above $100",
+          "url": "https://www.tokenpost.com/news/investing/33503",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "AI Data Center Stocks Lead Friday's Losers as Energy Names Surge",
+          "url": "https://247wallst.com/cards/every-one-of-the-five-worst-names-at-friday-s-close-was-an-a-crwv-session-movers-01m535ede53hb8apcw33aryrax",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "SNDR": {
+      "narrative": "Schneider National traded ~4.3x its average volume on Oct 16 with essentially no price change (-0.1%); next catalyst is Q3 results Oct 29. No dated company-specific news found for Oct 16 in this pull. Oct 16 was the monthly options-expiration Friday, which commonly inflates volume, but that is an unconfirmed explanation - no clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst"
+    },
+    "SHO": {
+      "narrative": "Sunstone Hotel Investors traded ~4.2x its average volume on Oct 16 with a small -0.3% move. No dated company-specific news found for Oct 16 in this pull. Oct 16 was the monthly options-expiration Friday, which commonly inflates volume, but that is an unconfirmed explanation - no clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst"
+    },
+    "UE": {
+      "narrative": "Urban Edge Properties traded ~3.9x its average volume on Oct 16 with a +0.7% move; Q3 results are scheduled for Oct 28. No dated company-specific news found for Oct 16 in this pull. Oct 16 was the monthly options-expiration Friday, which commonly inflates volume, but that is an unconfirmed explanation - no clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst"
+    },
+    "DXPE": {
+      "narrative": "DXP Enterprises traded ~3.4x its average volume on Oct 16 with a -1.1% move. No dated company-specific news found for Oct 16 in this pull. Oct 16 was the monthly options-expiration Friday, which commonly inflates volume, but that is an unconfirmed explanation - no clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst"
+    },
+    "ORA": {
+      "narrative": "Ormat Technologies traded ~3.2x its average volume on Oct 16 with a -0.3% move. No dated company-specific news found for Oct 16 in this pull. Oct 16 was the monthly options-expiration Friday, which commonly inflates volume, but that is an unconfirmed explanation - no clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst"
+    },
+    "AVTR": {
+      "narrative": "Avantor traded ~3.1x its average volume on Oct 16 with a +2.1% move; Q3 results are expected Oct 28. No dated company-specific news found for Oct 16 in this pull. Oct 16 was the monthly options-expiration Friday, which commonly inflates volume, but that is an unconfirmed explanation - no clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst"
+    },
+    "ECL": {
+      "narrative": "Ecolab traded ~2.5x its average volume on Oct 16 with a -0.7% move. No dated company-specific news found for Oct 16 in this pull. Oct 16 was the monthly options-expiration Friday, which commonly inflates volume, but that is an unconfirmed explanation - no clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst"
+    },
+    "WTS": {
+      "narrative": "Watts Water Technologies traded ~2.4x its average volume on Oct 16 with a +0.5% move. No dated company-specific news found for Oct 16 in this pull. Oct 16 was the monthly options-expiration Friday, which commonly inflates volume, but that is an unconfirmed explanation - no clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst"
+    },
+    "CENT": {
+      "narrative": "Central Garden & Pet traded ~2.4x its average volume on Oct 16 with a +0.2% move. No dated company-specific news found for Oct 16 in this pull. Oct 16 was the monthly options-expiration Friday, which commonly inflates volume, but that is an unconfirmed explanation - no clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst"
+    },
+    "NTRS": {
+      "narrative": "Northern Trust traded ~2.4x its average volume on Oct 16 but was flat (+0.1%). It had not yet reported - Q3 results are expected around Oct 21-22 - so this is not an earnings reaction; likely sympathy positioning during the regional/trust-bank earnings run (RF, CFG reported Oct 16), but no NTRS-specific news found.",
+      "citations": [],
+      "verdict": "no clean catalyst"
+    },
+    "CZR": {
+      "narrative": "Caesars traded ~3.8x its average volume on Oct 16 while slipping 1.5%. It now trades as a merger-arbitrage stock: stockholders approved the $31/share cash Fertitta Entertainment buyout on Sept 22-23 and the deal awaits federal antitrust clearance. No Oct-dated deal news found to explain Friday's volume - no clean catalyst found; the cited source is dated context, not this pull's driver.",
+      "citations": [
+        {
+          "title": "Caesars stockholders approve $17.6 billion Fertitta buyout",
+          "url": "https://www.fox5vegas.com/2026/09/23/caesars-stockholders-approve-merger-with-fertitta-gaming/",
+          "date": "2026-09-23"
+        }
+      ],
+      "verdict": "no clean catalyst"
+    },
+    "FFIN": {
+      "narrative": "First Financial Bankshares fell 3.5% on ~3.5x average volume on Oct 16, the session after reporting Q3 2026 (Oct 15 after close): record net income of $74.3M, diluted EPS $0.52 (vs $0.36 a year ago; in line with consensus), NIM 3.91%; revenue was reported short of projections. An in-line print against a richly valued regional-bank stock - selling reads as 'no upside surprise', on a weak overall tape.",
+      "citations": [
+        {
+          "title": "FIRST FINANCIAL BANKSHARES ANNOUNCES THIRD QUARTER 2026 EARNINGS",
+          "url": "https://www.placera.se/pressmeddelanden/first-financial-bankshares-first-financial-bankshares-announces-third-quarter-2026-earnings-20261015",
+          "date": "2026-10-15"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "RF": {
+      "narrative": "Regions Financial reported Q3 2026 before the open on Oct 16: adjusted EPS $0.73 vs $0.66 consensus (reported $0.71, earnings $611M), record capital-markets income (+27%), NIM 3.68%, lower credit provisions; revenue $1.97B slightly below the $1.99B estimate. Shares were +2.3% premarket but closed only +0.5% on ~2.9x volume as the broader market sold off - earnings-day volume.",
+      "citations": [
+        {
+          "title": "Regions Financial Shares Rise 2.27% as Third-Quarter Earnings Beat Estimates Despite Revenue Shortfall",
+          "url": "https://finviz.com/news/403491/regions-financial-shares-rise-227-as-third-quarter-earnings-beat-estimates-despite-revenue-shortfall",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Market Review: October 16, 2026",
+          "url": "https://investrade.com/market-review-october-16-2026/",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "CFG": {
+      "narrative": "Citizens Financial reported Q3 2026 on Oct 16: EPS $1.41 (vs ~$1.38-1.39 consensus), net income $636M (+29% y/y), NII +13%; revenue $2.32B a hair below estimates; dividend raised 13% to $0.52 and buyback capacity lifted to $1.95B. Despite the beat and capital return, shares closed flat (-0.1%) on ~2.5x volume in a down market - earnings-day volume, muted reaction.",
+      "citations": [
+        {
+          "title": "Market Review: October 16, 2026",
+          "url": "https://investrade.com/market-review-october-16-2026/",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Citizens Financial, NII +13% e utile netto +29% nel terzo trimestre",
+          "url": "https://www.teleborsa.it/News/2026/10/16/citizens-financial-nii-13percent-e-utile-netto-29percent-nel-terzo-trimestre-99.html",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "AA": {
+      "narrative": "Alcoa rose 2.5% on ~3x volume on Oct 16, the session after Q3 2026 results (Oct 15 after close): adjusted EPS $1.82 beat (~$1.52 consensus), net income $483M, free cash flow $472M; revenue $3.70B was down 7% q/q and slightly below estimates, and management flagged Q4 Aluminum-segment cost headwinds (lower aluminum prices, higher raw-material costs, maintenance). Beat-driven gain, tempered by the soft Q4 outlook.",
+      "citations": [
+        {
+          "title": "Alcoa posts higher net income, sets sights on AliGroup completion",
+          "url": "https://www.fool.com.au/2026/10/16/alcoa-posts-higher-net-income-sets-sights-on-aligroup-completion/",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Market Review: October 16, 2026",
+          "url": "https://investrade.com/market-review-october-16-2026/",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "aligned"
+    },
+    "CNS": {
+      "narrative": "Cohen & Steers rose 0.9% on ~2.4x volume on Oct 16, the session after Q3 2026 results (Oct 15 after close; call Oct 16): adjusted EPS $0.89 vs ~$0.87 consensus, AUM $95.9B, net inflows $1.6B - strongest since Q4 2021 and a fifth straight quarter of organic growth. Earnings-day volume with a modest positive reaction.",
+      "citations": [
+        {
+          "title": "Cohen & Steers, Inc. Form 8-K - Q3 2026 earnings release",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001284812/000128481226000195/cns-earningsreleasex93026e.htm",
+          "date": "2026-10-15"
+        }
+      ],
+      "verdict": "aligned"
     }
   },
   "recommendations": {
