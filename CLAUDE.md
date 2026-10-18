@@ -119,6 +119,13 @@ pipeline/render_point3_html.py        # -> artifacts/point3.html
 pipeline/render_point4_html.py        # -> artifacts/point4.html
 ```
 
+Re-running `build_final_payloads.py` a second time in the same pull (e.g. after
+a late market-cap or price refresh that only affects Point 3) recomputes Point
+1's "since last pull" diff against the payload it just wrote, so it reports
+0 new / 0 resolved. Restore `data/point1/final_payload.json` from the earlier
+build of this pull (`git checkout` it if already committed) before re-rendering
+Point 1.
+
 Then publish each changed `artifacts/point*.html` via the Artifact tool with
 `url=` set to the matching URL above (never omit `url` — that creates a
 duplicate artifact instead of updating).

@@ -843,15 +843,35 @@
       "verdict": "aligned"
     },
     "FLEX": {
-      "narrative": "Flex beat Q4 estimates (EPS $0.93 vs $0.87, revenue $7.48B vs $6.95B) and announced a $4.4B acquisition of EPC Power targeting AI data centers, grid support, and energy storage - guiding to 65-75% CPI revenue growth for FY27. A real, capital-committed bet on the AI-power buildout, not just sentiment.",
+      "narrative": "UPDATE (this pull, 2026-10-18): Flex closed at $90.46 on Oct 16 (-8.2% day; -17.8% month to date, October high $121.84). The slide began after Flex announced on Oct 5 a $2.0B convertible preferred investment (General Catalyst / Koch Equity Development) into Axiom Solutions, its Cloud & Power Infrastructure unit, at a $37.5B enterprise value, carrying a 10% cash dividend pre-separation - and, per the 8-K, a Flex-guaranteed redemption at 115% (cash) or 125% (Flex shares) if the Q1-2027 spin-off is not done by Dec 31, 2027. TradingKey tied the Oct 13 drop (-7.2%) to investor worry over those preferred/guarantee terms and whether Axiom's multiple is justified, amplified by profit-taking; Oct 16 itself had no stock-specific news (AAII cites none) and coincided with the broad AI-infrastructure/AI-debt selloff. Q4 earnings due Oct 28. Prior framing: Flex beat Q4 estimates (EPS $0.93 vs $0.87, revenue $7.48B vs $6.95B) and announced a $4.4B acquisition of EPC Power targeting AI data centers, grid support, and energy storage - guiding to 65-75% CPI revenue growth for FY27. A real, capital-committed bet on the AI-power buildout, not just sentiment.",
       "citations": [
         {
           "title": "FLEX Jumps As Flex Ltd. Bets $4.4B On AI Power Spin-Off",
           "url": "https://www.timothysykes.com/news/flexltd-flex-news-2026_09_11/",
           "date": "2026-09-11"
+        },
+        {
+          "title": "Flex Announces $2.0 Billion Convertible Preferred Investment into Axiom Led by General Catalyst with Koch Equity Development (Form 8-K, Ex. 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000866374/000119312526413173/d123485dex991.htm",
+          "date": "2026-10-05"
+        },
+        {
+          "title": "Flex Ltd. Form 8-K (Axiom preferred investment agreement, redemption terms)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000866374/000119312526413173/d123485d8k.htm",
+          "date": "2026-10-05"
+        },
+        {
+          "title": "Flex Ltd Stock (FLEX) Moved Down by 7.23% on Oct 13: What Signal Does It Send?",
+          "url": "https://www.tradingkey.com/news/market-movers/262214580-market-movers-flex-20261013",
+          "date": "2026-10-13"
+        },
+        {
+          "title": "Why Flex Ltd.'s (FLEX) Stock Is Down 6.27%",
+          "url": "https://www.aaii.com/investingideas/article/552676-why-flex-ltd8217s-flex-stock-is-down-627",
+          "date": "2026-10-18"
         }
       ],
-      "verdict": "aligned"
+      "verdict": "mixed"
     },
     "AVT": {
       "narrative": "Avnet's Q3 FY26 EPS beat by 13%, revenue beat by 11% ($7.1B, +34% y/y) with record Asia sales (7th straight quarter of regional growth), plus a 5.7% dividend hike. Clean earnings-driven move.",
@@ -2487,6 +2507,22 @@
         }
       ],
       "verdict": "mixed"
+    },
+    "PI": {
+      "narrative": "Impinj fell 8.13% on Oct 16 to $175.37 (from $190.88), with no company-specific news found - the only dated coverage of the move (ad-hoc-news, Oct 17) gives no cause and frames it as positioning ahead of Q3 results, scheduled for after the close on Wed Oct 28 (announced Oct 1). RFID peers moved far less (Zebra -2.25%, Avery Dennison -0.32%), and Barclays had just raised its target to $200 from $176 on Oct 12. Read: semiconductor-beta selling during the eight-session chip losing streak, plus pre-earnings de-risking; no fundamental catalyst identified.",
+      "citations": [
+        {
+          "title": "Impinj to Announce Third-Quarter 2026 Financial Results",
+          "url": "https://finviz.com/news/398060/impinj-to-announce-third-quarter-2026-financial-results",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Impinj stock falls 8.13 percent to USD 175.37 on October 16, 2026",
+          "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/impinj-stock-falls-8-13-percent-to-usd-175-37-on-october-16-2026/70349933",
+          "date": "2026-10-17"
+        }
+      ],
+      "verdict": "no clean catalyst"
     }
   },
   "recommendations": {
@@ -2779,7 +2815,7 @@
       "verdict": "aligned"
     },
     "PODD": {
-      "thesis": "Insulet is down over 60% from its 52-week high after an August 2026 guidance cut, but management's own explanation points to a fixable operational issue rather than collapsing core demand: about two-thirds of the cut traced to weaker type-2 diabetes customer retention and utilization in the first 90 days of therapy, with the remainder from slower new-customer starts and pricing mix - not competitive share loss. The real risk ahead is that tubeless automated-insulin-delivery competitors are expected to enter the market in 2027, which could pressure both share and pricing. Value case depends on retention tools (Omnipod Discover) fixing the 90-day drop-off before competition arrives.",
+      "thesis": "UPDATE (this pull, 2026-10-18): Two dated items since Oct 1. (1) Oct 12: Jefferies kept Buy but cut its target to $190 from $275, reportedly on competition concerns (Quiver Quant, AI-generated summary citing Investing.com) - consistent with the 2027 tubeless-AID competition risk below; the stock still rose ~3.3% that day. (2) Oct 17: Simply Wall St reports Omnipod Discover is now in full U.S. market release after a pre-launch with 15,000+ Omnipod 5 users and 1,800+ HCPs - the retention tool this value case depends on is live, though it calls the rollout incremental and says the real test is type-2 utilization stabilizing. Next print expected early November. Prior framing: Insulet is down over 60% from its 52-week high after an August 2026 guidance cut, but management's own explanation points to a fixable operational issue rather than collapsing core demand: about two-thirds of the cut traced to weaker type-2 diabetes customer retention and utilization in the first 90 days of therapy, with the remainder from slower new-customer starts and pricing mix - not competitive share loss. The real risk ahead is that tubeless automated-insulin-delivery competitors are expected to enter the market in 2027, which could pressure both share and pricing. Value case depends on retention tools (Omnipod Discover) fixing the 90-day drop-off before competition arrives.",
       "citations": [
         {
           "title": "Insulet (PODD) Is Down 21.9% After Cutting 2026 Revenue Outlook On Weaker Type 2 Retention",
@@ -2790,6 +2826,16 @@
           "title": "Insulet stock trades 60.9 percent below its 52-week high",
           "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/insulet-stock-trades-60-9-percent-below-its-52-week-high/70167994",
           "date": "2026-09"
+        },
+        {
+          "title": "Insulet Stock Gains as Traders Weigh Bullish Analyst Stance Against a Depressed Share Price",
+          "url": "https://www.quiverquant.com/news/Insulet+Stock+Gains+as+Traders+Weigh+Bullish+Analyst+Stance+Against+a+Depressed+Share+Price",
+          "date": "2026-10-12"
+        },
+        {
+          "title": "Platform Launch Might Change The Case For Investing In Insulet Stock (PODD)",
+          "url": "https://simplywall.st/stocks/us/healthcare/nasdaq-podd/insulet/news/platform-launch-might-change-the-case-for-investing-in-insul",
+          "date": "2026-10-17"
         }
       ],
       "verdict": "mixed"
@@ -3179,8 +3225,50 @@
         }
       ],
       "verdict": "aligned"
+    },
+    "CIEN": {
+      "thesis": "Ciena closed at $332.73 on Oct 16 (-6.7%), giving back the entire Oct 1 optical re-rating (Bernstein Outperform initiation) and more: it fell 10.1% on Oct 12 on what MarketBeat described as cautious AI-spending commentary and valuation concern across optical names, and the Oct 16 leg carried no Ciena-specific news. Bounce case: nothing company-level has broken - the last print (Sept 3) beat on EPS ($2.11 vs $1.73) and revenue ($1.67B, +37% y/y), the Street consensus remains Moderate Buy with a ~$506 average target (Evercore upgraded to Outperform at $550 on Sept 21), and the stock is now well below its 50-day (~$378) and 200-day (~$441) averages, i.e. this looks like sector de-rating in the AI-capex/AI-debt selloff rather than a Ciena miss. Honest caveats: valuation is still rich (P/E ~74 per MarketBeat), the Sept 3 guide only matched consensus and margin guidance slipped, the drop is sector beta that can keep running if AI-capex financing fears (CoreWeave) deepen, and insiders sold ~$12M over 90 days under plans. Treat as a high-beta mean-reversion trade, not a value call.",
+      "citations": [
+        {
+          "title": "Coherent, Lumentum, and Ciena stocks surge on bullish Wall Street call",
+          "url": "https://finance.yahoo.com/markets/stocks/article/coherent-lumentum-and-ciena-stocks-surge-on-bullish-wall-street-call-182906439.html",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Ciena (NYSE:CIEN) Stock Price Down 10.1% - Time to Sell?",
+          "url": "https://www.marketbeat.com/instant-alerts/price-ciena-nyse-cien-stock-price-down-101-time-to-sell-2026-10-12/",
+          "date": "2026-10-12"
+        },
+        {
+          "title": "Ciena (NYSE:CIEN) Stock Falls 7% - What's Next?",
+          "url": "https://www.marketbeat.com/instant-alerts/price-ciena-nyse-cien-stock-falls-7-whats-next-2026-10-16/",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "mixed"
+    },
+    "VIAV": {
+      "thesis": "Bounce candidate on the optical-networking reversal described here, with low conviction: no Viavi-specific catalyst was found for the drop, so the bounce case rests on it being sector de-rating rather than a company problem. UPDATE (this pull, 2026-10-18): The Oct 1 optical rally has reversed: Viavi fell 9.3% on Oct 16 to $33.38 (-26.6% over five sessions), after a ~7.9% drop on Oct 12 (MarketBeat, no stated cause). No Viavi-specific news found; GuruFocus gives only 'market volatility'. Read: the same AI-infrastructure/optical names that re-rated in early October gave it back in this week's AI-capex/financing selloff - sector beta. Prior framing: Viavi Solutions rose 6.82%, consistent with the same Oct 1 optical-networking/AI-infrastructure rally lifting Coherent, Ciena, Lumentum, and IPG Photonics - no distinct Viavi-specific news turned up in search, so this reads as the same sector-wide re-rating (Bernstein's structural-AI-winners initiation, Goldman's TAM-expansion thesis) rather than a company-specific catalyst.",
+      "citations": [
+        {
+          "title": "Coherent, Lumentum, and Ciena stocks surge on bullish Wall Street call",
+          "url": "https://finance.yahoo.com/markets/stocks/article/coherent-lumentum-and-ciena-stocks-surge-on-bullish-wall-street-call-182906439.html",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Viavi Solutions (NASDAQ:VIAV) Stock Falls 7.9% - Time to Sell?",
+          "url": "https://www.marketbeat.com/instant-alerts/price-viavi-solutions-nasdaq-viav-stock-falls-79-time-to-sell-2026-10-12/",
+          "date": "2026-10-12"
+        },
+        {
+          "title": "Viavi Solutions Inc (VIAV) Stock Down 9.3% but Still Overvalued -- GF Score: 66/100",
+          "url": "https://www.gurufocus.com/news/9128493/viavi-solutions-inc-viav-stock-down-93-but-still-overvalued-gf-score-66100",
+          "date": "2026-10-16"
+        }
+      ],
+      "verdict": "mixed"
     }
   },
-  "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. This pull (2026-10-18, a Sunday) reflects the Friday Oct 16 session - equity data is current through that close, with no data lag. It was a sharp two-way day: the Nasdaq fell 2.15% (-4.5% on the week, its worst since late June) as an eight-session chip losing streak, a software selloff and stress in AI-linked debt (CoreWeave -12%) hit semis, semicap, AI-infrastructure, AI-pivoting bitcoin miners and software names - so this pull's losers (Vicor, Supermicro, Ichor, Ultra Clean, ACM Research, MaxLinear, Viavi, DigitalOcean, Twilio, Okta, Five9, MARA, CleanSpark, Centrus) are mostly one sector-wide story, not 15 separate ones. Several of these names already had September writeups about earlier, opposite-direction moves; those are kept as 'Prior framing' under a dated UPDATE rather than overwritten. Supermicro is the main name with genuinely new company-specific news (an Oct 8-9 guilty plea in a server-diversion case that reopens a question the prior writeup called cleared). Gainers were almost entirely oil and gas: Brent settled near $110 (highest since May) and WTI near $101 on Iran's escalating Hormuz attacks and a large US crude draw, lifting E&Ps and midstream together. Most of those names had no company-specific catalyst and are marked as sector-beta reads; natural-gas futures actually fell that day, so gas-weighted names (Antero, Range) are marked divergent from their own commodity. Several volume outliers (Regions, Citizens, Alcoa, First Financial, Cohen & Steers) are earnings-driven; ten others (Schneider National, Sunstone, Urban Edge, DXP, Ormat, Avantor, Ecolab, Watts, Central Garden, Northern Trust) turned up no clean catalyst despite a genuine search - Oct 16 was a monthly options expiration, which commonly inflates volume, but that is stated as an unconfirmed explanation, not a sourced one. Note: the $2B market-cap filter uses the 2026-10-01 market-cap cache (refreshed roughly weekly; market cap is slow-moving).",
+  "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. This pull (2026-10-18, a Sunday) reflects the Friday Oct 16 session - equity data is current through that close, with no data lag. It was a sharp two-way day: the Nasdaq fell 2.15% (-4.5% on the week, its worst since late June) as an eight-session chip losing streak, a software selloff and stress in AI-linked debt (CoreWeave -12%) hit semis, semicap, AI-infrastructure, AI-pivoting bitcoin miners and software names - so this pull's losers (Vicor, Supermicro, Flex, Impinj, Ultra Clean, ACM Research, MaxLinear, Viavi, DigitalOcean, Twilio, Okta, Five9, MARA, CleanSpark, Centrus) are mostly one sector-wide story, not 15 separate ones. Several of these names already had September writeups about earlier, opposite-direction moves; those are kept as 'Prior framing' under a dated UPDATE rather than overwritten. Supermicro is the main name with genuinely new company-specific news (an Oct 8-9 guilty plea in a server-diversion case that reopens a question the prior writeup called cleared). Gainers were almost entirely oil and gas: Brent settled near $110 (highest since May) and WTI near $101 on Iran's escalating Hormuz attacks and a large US crude draw, lifting E&Ps and midstream together. Most of those names had no company-specific catalyst and are marked as sector-beta reads; natural-gas futures actually fell that day, so gas-weighted names (Antero, Range) are marked divergent from their own commodity. Several volume outliers (Regions, Citizens, Alcoa, First Financial, Cohen & Steers) are earnings-driven; ten others (Schneider National, Sunstone, Urban Edge, DXP, Ormat, Avantor, Ecolab, Watts, Central Garden, Northern Trust) turned up no clean catalyst despite a genuine search - Oct 16 was a monthly options expiration, which commonly inflates volume, but that is stated as an unconfirmed explanation, not a sourced one. The $2B market-cap filter was refreshed this pull (2026-10-18 cache), which moved Ichor and Schrodinger below the line and brought Flex and Impinj into the losers list; Flex's slide traces to the Oct 5 terms of a $2B convertible-preferred deal in its Axiom unit, while Impinj had no clean catalyst ahead of its Oct 28 earnings. Ciena joins the bounce list (sector de-rating after the Oct 1 optical rally reversed).",
   "point1_since_last_pull": "Since the Oct 1 pull: a weak September jobs report (Oct 2) and then a hot September CPI (Oct 14) whipsawed October Fed-hike odds (to ~54% and back to ~15% after Chair Warsh declined to signal on Oct 16). The S&P 500 and Nasdaq hit records on Oct 6, then an eight-session chip selloff left the Nasdaq -4.5% for the week. AI-linked credit stress widened HY spreads, and Brent touched $110 on Oct 16 as Iran escalated Hormuz attacks."
 }
