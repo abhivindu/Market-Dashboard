@@ -2,29 +2,16 @@
   "methodology_note": "See pipeline/build_recommendations.py docstring for full criteria. Value bucket uses a 52wk-discount proxy pending real fundamentals data (WISHLIST.md).",
   "bounce": [
     {
-      "ticker": "KALU",
-      "sector": "Materials",
-      "name": "Kaiser Aluminum Corporation",
-      "price": 107.28,
-      "day_chg_pct": -6.705,
-      "five_day_chg_pct": -27.144,
-      "market_cap": 2407403797.0,
-      "volume": 813500,
-      "avg_volume": 241220,
-      "contribution_pct": -0.0114,
-      "volume_vs_avg_ratio": 3.37
-    },
-    {
       "ticker": "CRS",
       "sector": "Industrials",
       "name": "Carpenter Technology",
       "price": 284.66,
       "day_chg_pct": -2.6,
       "five_day_chg_pct": -24.511,
-      "market_cap": 18688039471.45111,
+      "market_cap": 14102265237.203583,
       "volume": 2206500,
       "avg_volume": 777710,
-      "contribution_pct": -0.0074,
+      "contribution_pct": -0.0056,
       "volume_vs_avg_ratio": 2.84
     },
     {
@@ -34,10 +21,10 @@
       "price": 85.86,
       "day_chg_pct": -20.13,
       "five_day_chg_pct": -22.059,
-      "market_cap": 11908119809.388153,
+      "market_cap": 9281328432.398026,
       "volume": 3097300,
       "avg_volume": 1170345,
-      "contribution_pct": -0.0336,
+      "contribution_pct": -0.0258,
       "volume_vs_avg_ratio": 2.65
     },
     {
@@ -47,10 +34,10 @@
       "price": 17.42,
       "day_chg_pct": -22.474,
       "five_day_chg_pct": -21.637,
-      "market_cap": 5624236255.964836,
+      "market_cap": 4407296357.422527,
       "volume": 23397400,
       "avg_volume": 3704075,
-      "contribution_pct": -0.0176,
+      "contribution_pct": -0.0137,
       "volume_vs_avg_ratio": 6.32
     },
     {
@@ -60,11 +47,24 @@
       "price": 172.75,
       "day_chg_pct": -6.51,
       "five_day_chg_pct": -19.748,
-      "market_cap": 9336213429.751587,
+      "market_cap": 7492478450.0,
       "volume": 1505800,
       "avg_volume": 416670,
-      "contribution_pct": -0.0066,
+      "contribution_pct": -0.0052,
       "volume_vs_avg_ratio": 3.61
+    },
+    {
+      "ticker": "FIX",
+      "sector": "Industrials",
+      "name": "Comfort Systems USA",
+      "price": 1160.86,
+      "day_chg_pct": -9.263,
+      "five_day_chg_pct": -19.333,
+      "market_cap": 40855688247.39807,
+      "volume": 1367300,
+      "avg_volume": 392320,
+      "contribution_pct": -0.0583,
+      "volume_vs_avg_ratio": 3.49
     }
   ],
   "value": [
@@ -72,7 +72,7 @@
       "ticker": "APP",
       "name": "AppLovin",
       "sector": "Communication Services",
-      "market_cap": 89403586364.0597,
+      "market_cap": 87428260340.25,
       "pct_off_52wk_high": -64.52,
       "five_day_chg_pct": -2.209,
       "price": 260.25
@@ -81,7 +81,7 @@
       "ticker": "FISV",
       "name": "Fiserv",
       "sector": "Financials",
-      "market_cap": 25285507177.84419,
+      "market_cap": 26513889033.62465,
       "pct_off_52wk_high": -60.6,
       "five_day_chg_pct": 4.858,
       "price": 49.86
@@ -90,7 +90,7 @@
       "ticker": "AMKR",
       "name": "Amkor Technology",
       "sector": "Information Technology",
-      "market_cap": 10390282303.218323,
+      "market_cap": 9764181960.045807,
       "pct_off_52wk_high": -57.99,
       "five_day_chg_pct": -6.026,
       "price": 39.3
@@ -99,7 +99,7 @@
       "ticker": "PODD",
       "name": "Insulet Corporation",
       "sector": "Health Care",
-      "market_cap": 9785877902.204437,
+      "market_cap": 10334468812.016006,
       "pct_off_52wk_high": -56.98,
       "five_day_chg_pct": 5.606,
       "price": 149.01
@@ -108,7 +108,7 @@
       "ticker": "CSGP",
       "name": "CoStar Group",
       "sector": "Real Estate",
-      "market_cap": 13091934624.734207,
+      "market_cap": 13744301443.021057,
       "pct_off_52wk_high": -56.64,
       "five_day_chg_pct": 4.983,
       "price": 33.92
@@ -122,10 +122,10 @@
       "price": 85.97,
       "day_chg_pct": 9.057,
       "five_day_chg_pct": 4.51,
-      "market_cap": 34997965321.01087,
+      "market_cap": 36576404610.184784,
       "volume": 17322100,
       "avg_volume": 4087196,
-      "contribution_pct": 0.2101,
+      "contribution_pct": 0.2174,
       "volume_vs_avg_ratio": 4.24
     },
     {
@@ -135,10 +135,10 @@
       "price": 56.44,
       "day_chg_pct": 9.211,
       "five_day_chg_pct": 13.265,
-      "market_cap": 11826323756.570435,
+      "market_cap": 13395096770.072174,
       "volume": 16087500,
       "avg_volume": 4112818,
-      "contribution_pct": 0.0277,
+      "contribution_pct": 0.0313,
       "volume_vs_avg_ratio": 3.91
     },
     {
@@ -148,10 +148,10 @@
       "price": 96.61,
       "day_chg_pct": 5.308,
       "five_day_chg_pct": 8.356,
-      "market_cap": 5311182868.188629,
+      "market_cap": 5754972622.948105,
       "volume": 1738900,
       "avg_volume": 456943,
-      "contribution_pct": 0.0031,
+      "contribution_pct": 0.0033,
       "volume_vs_avg_ratio": 3.81
     },
     {
@@ -161,10 +161,10 @@
       "price": 84.54,
       "day_chg_pct": 7.38,
       "five_day_chg_pct": 13.052,
-      "market_cap": 2526352447.980011,
+      "market_cap": 2856082398.3899918,
       "volume": 1047700,
       "avg_volume": 280040,
-      "contribution_pct": 0.002,
+      "contribution_pct": 0.0023,
       "volume_vs_avg_ratio": 3.74
     },
     {
@@ -174,10 +174,10 @@
       "price": 45.87,
       "day_chg_pct": 21.736,
       "five_day_chg_pct": 37.706,
-      "market_cap": 3409672631.2525787,
+      "market_cap": 4695336941.025772,
       "volume": 6894100,
       "avg_volume": 1939106,
-      "contribution_pct": 0.0112,
+      "contribution_pct": 0.0157,
       "volume_vs_avg_ratio": 3.56
     }
   ]
