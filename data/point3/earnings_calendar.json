@@ -1,1851 +1,6 @@
 {
-  "as_of": "2026-10-18T22:45:14.399547",
+  "as_of": "2026-10-24T15:10:27.012388",
   "entries": [
-    {
-      "date": "2026-10-19",
-      "ticker": "FITB",
-      "company": "Fifth Third Bancorp",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.09",
-      "last_year_eps": "$0.93",
-      "market_cap": "$45,662,040,000"
-    },
-    {
-      "date": "2026-10-19",
-      "ticker": "STLD",
-      "company": "Steel Dynamics, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$5.42",
-      "last_year_eps": "$2.74",
-      "market_cap": "$34,507,670,000"
-    },
-    {
-      "date": "2026-10-19",
-      "ticker": "WRB",
-      "company": "W.R. Berkley Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.14",
-      "last_year_eps": "$1.10",
-      "market_cap": "$27,459,700,700"
-    },
-    {
-      "date": "2026-10-19",
-      "ticker": "CCK",
-      "company": "Crown Holdings, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.25",
-      "last_year_eps": "$2.24",
-      "market_cap": "$12,363,894,800"
-    },
-    {
-      "date": "2026-10-19",
-      "ticker": "AGNC",
-      "company": "AGNC Investment Corp.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.39",
-      "last_year_eps": "$0.35",
-      "market_cap": "$10,455,946,200"
-    },
-    {
-      "date": "2026-10-19",
-      "ticker": "WTFC",
-      "company": "Wintrust Financial Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$3.29",
-      "last_year_eps": "$3.06",
-      "market_cap": "$9,684,065,300"
-    },
-    {
-      "date": "2026-10-19",
-      "ticker": "ZION",
-      "company": "Zions Bancorporation N.A.",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.64",
-      "last_year_eps": "$1.54",
-      "market_cap": "$9,196,520,400"
-    },
-    {
-      "date": "2026-10-19",
-      "ticker": "WAL",
-      "company": "Western Alliance Bancorporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.43",
-      "last_year_eps": "$2.28",
-      "market_cap": "$8,111,649,300"
-    },
-    {
-      "date": "2026-10-19",
-      "ticker": "CLF",
-      "company": "Cleveland-Cliffs Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.24",
-      "last_year_eps": "($0.45)",
-      "market_cap": "$6,932,061,700"
-    },
-    {
-      "date": "2026-10-19",
-      "ticker": "FNB",
-      "company": "F.N.B. Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.43",
-      "last_year_eps": "$0.41",
-      "market_cap": "$6,057,496,600"
-    },
-    {
-      "date": "2026-10-19",
-      "ticker": "RLI",
-      "company": "RLI Corp.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.58",
-      "last_year_eps": "$0.83",
-      "market_cap": "$5,458,656,300"
-    },
-    {
-      "date": "2026-10-19",
-      "ticker": "SFBS",
-      "company": "ServisFirst Bancshares, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.83",
-      "last_year_eps": "$0.65",
-      "market_cap": "$4,325,688,800"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "GE",
-      "company": "GE Aerospace",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.02",
-      "last_year_eps": "$1.66",
-      "market_cap": "$323,719,496,000"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "NFLX",
-      "company": "Netflix, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.82",
-      "last_year_eps": "$0.59",
-      "market_cap": "$302,343,651,000"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "RTX",
-      "company": "RTX Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.78",
-      "last_year_eps": "$1.70",
-      "market_cap": "$251,963,392,000"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "ISRG",
-      "company": "Intuitive Surgical, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.13",
-      "last_year_eps": "$1.96",
-      "market_cap": "$151,153,541,000"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "CB",
-      "company": "Chubb Limited",
-      "time": "time-after-hours",
-      "eps_forecast": "$6.53",
-      "last_year_eps": "$7.49",
-      "market_cap": "$136,106,336,000"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "COF",
-      "company": "Capital One Financial Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$5.45",
-      "last_year_eps": "$5.95",
-      "market_cap": "$121,997,591,000"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "MMM",
-      "company": "3M Company",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.41",
-      "last_year_eps": "$2.19",
-      "market_cap": "$85,264,384,000"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "GM",
-      "company": "General Motors Company",
-      "time": "time-pre-market",
-      "eps_forecast": "$3.52",
-      "last_year_eps": "$2.80",
-      "market_cap": "$73,407,594,000"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "NOC",
-      "company": "Northrop Grumman Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$7.22",
-      "last_year_eps": "$7.67",
-      "market_cap": "$70,978,953,000"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "MSCI",
-      "company": "MSCI Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$4.98",
-      "last_year_eps": "$4.47",
-      "market_cap": "$41,809,043,000"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "UAL",
-      "company": "United Airlines Holdings, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.60",
-      "last_year_eps": "$2.78",
-      "market_cap": "$32,883,580,900"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "SYF",
-      "company": "Synchrony Financial",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.48",
-      "last_year_eps": "$2.86",
-      "market_cap": "$27,547,140,100"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "HAL",
-      "company": "Halliburton Company",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.58",
-      "last_year_eps": "$0.58",
-      "market_cap": "$27,401,658,400"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "OMC",
-      "company": "Omnicom Group Inc.",
-      "time": "time-not-supplied",
-      "eps_forecast": "$2.68",
-      "last_year_eps": "$2.24",
-      "market_cap": "$22,145,206,300"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "KEY",
-      "company": "KeyCorp",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.46",
-      "last_year_eps": "$0.41",
-      "market_cap": "$21,278,543,900"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "EFX",
-      "company": "Equifax, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.20",
-      "last_year_eps": "$2.04",
-      "market_cap": "$18,945,613,800"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "GPC",
-      "company": "Genuine Parts Company",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.09",
-      "last_year_eps": "$1.98",
-      "market_cap": "$18,405,656,600"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "EWBC",
-      "company": "East West Bancorp, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.69",
-      "last_year_eps": "$2.62",
-      "market_cap": "$17,299,116,000"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "NLY",
-      "company": "Annaly Capital Management Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.78",
-      "last_year_eps": "$0.73",
-      "market_cap": "$13,890,957,300"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "HAS",
-      "company": "Hasbro, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.86",
-      "last_year_eps": "$1.68",
-      "market_cap": "$13,880,185,900"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "MLI",
-      "company": "Mueller Industries, Inc.",
-      "time": "time-not-supplied",
-      "eps_forecast": "",
-      "last_year_eps": "$0.94",
-      "market_cap": "$13,403,591,700"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "ELS",
-      "company": "Equity Lifestyle Properties, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.79",
-      "last_year_eps": "$0.75",
-      "market_cap": "$11,692,393,500"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "ALLY",
-      "company": "Ally Financial Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.32",
-      "last_year_eps": "$1.15",
-      "market_cap": "$11,477,454,800"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "VICR",
-      "company": "Vicor Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.38",
-      "last_year_eps": "$0.63",
-      "market_cap": "$10,139,792,400"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "VMI",
-      "company": "Valmont Industries, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$5.71",
-      "last_year_eps": "$4.98",
-      "market_cap": "$8,712,861,700"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "ADC",
-      "company": "Agree Realty Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.11",
-      "last_year_eps": "$1.10",
-      "market_cap": "$8,278,686,700"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "CBSH",
-      "company": "Commerce Bancshares, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.07",
-      "last_year_eps": "$1.06",
-      "market_cap": "$7,969,091,600"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "PEGA",
-      "company": "Pegasystems Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.30",
-      "last_year_eps": "$0.12",
-      "market_cap": "$5,910,358,000"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "HWC",
-      "company": "Hancock Whitney Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.65",
-      "last_year_eps": "$1.49",
-      "market_cap": "$5,858,690,000"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "AUB",
-      "company": "Atlantic Union Bankshares Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.96",
-      "last_year_eps": "$0.84",
-      "market_cap": "$5,469,810,700"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "WFRD",
-      "company": "Weatherford International plc",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.21",
-      "last_year_eps": "$1.12",
-      "market_cap": "$5,363,407,900"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "OZK",
-      "company": "Bank OZK",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.45",
-      "last_year_eps": "$1.59",
-      "market_cap": "$5,186,160,100"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "MAT",
-      "company": "Mattel, Inc.",
-      "time": "time-not-supplied",
-      "eps_forecast": "$0.99",
-      "last_year_eps": "$0.89",
-      "market_cap": "$4,948,323,800"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "UCB",
-      "company": "United Community Banks, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.77",
-      "last_year_eps": "$0.75",
-      "market_cap": "$4,105,595,900"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "ALK",
-      "company": "Alaska Air Group, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.35",
-      "last_year_eps": "$1.05",
-      "market_cap": "$4,073,513,980"
-    },
-    {
-      "date": "2026-10-20",
-      "ticker": "LRN",
-      "company": "Stride, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.30",
-      "last_year_eps": "$1.52",
-      "market_cap": "$3,456,947,970"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "META",
-      "company": "Meta Platforms, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$6.67",
-      "last_year_eps": "$7.25",
-      "market_cap": "$1,876,798,730,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "TSLA",
-      "company": "Tesla, Inc. ",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.21",
-      "last_year_eps": "$0.37",
-      "market_cap": "$1,431,474,010,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "LRCX",
-      "company": "Lam Research Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.17",
-      "last_year_eps": "$1.26",
-      "market_cap": "$347,220,214,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "PM",
-      "company": "Philip Morris International Inc",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.30",
-      "last_year_eps": "$2.24",
-      "market_cap": "$311,566,828,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "TMO",
-      "company": "Thermo Fisher Scientific Inc",
-      "time": "time-pre-market",
-      "eps_forecast": "$6.40",
-      "last_year_eps": "$5.79",
-      "market_cap": "$257,525,285,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "TXN",
-      "company": "Texas Instruments Incorporated",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.39",
-      "last_year_eps": "$1.48",
-      "market_cap": "$254,905,696,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "IBM",
-      "company": "International Business Machines Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.87",
-      "last_year_eps": "$2.65",
-      "market_cap": "$220,572,500,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "ABT",
-      "company": "Abbott Laboratories",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.42",
-      "last_year_eps": "$1.30",
-      "market_cap": "$181,136,523,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "NEE",
-      "company": "NextEra Energy, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.19",
-      "last_year_eps": "$1.13",
-      "market_cap": "$164,708,844,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "DHR",
-      "company": "Danaher Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.92",
-      "last_year_eps": "$1.89",
-      "market_cap": "$162,741,273,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "T",
-      "company": "AT&T Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.61",
-      "last_year_eps": "$0.54",
-      "market_cap": "$161,031,062,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "CME",
-      "company": "CME Group Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.98",
-      "last_year_eps": "$2.68",
-      "market_cap": "$104,083,816,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "ELV",
-      "company": "Elevance Health, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$4.66",
-      "last_year_eps": "$6.03",
-      "market_cap": "$92,913,312,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "CSX",
-      "company": "CSX Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.52",
-      "last_year_eps": "$0.44",
-      "market_cap": "$90,197,000,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "MCO",
-      "company": "Moody's Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$4.24",
-      "last_year_eps": "$3.92",
-      "market_cap": "$83,775,111,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "KMI",
-      "company": "Kinder Morgan, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.33",
-      "last_year_eps": "$0.29",
-      "market_cap": "$73,083,642,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "URI",
-      "company": "United Rentals, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$13.75",
-      "last_year_eps": "$11.70",
-      "market_cap": "$65,203,986,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "WAB",
-      "company": "Westinghouse Air Brake Technologies Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.72",
-      "last_year_eps": "$2.32",
-      "market_cap": "$48,605,786,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "CCI",
-      "company": "Crown Castle Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.16",
-      "last_year_eps": "$1.12",
-      "market_cap": "$34,036,434,900"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "NTRS",
-      "company": "Northern Trust Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.86",
-      "last_year_eps": "$2.29",
-      "market_cap": "$30,268,182,500"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "TDY",
-      "company": "Teledyne Technologies Incorporated",
-      "time": "time-pre-market",
-      "eps_forecast": "$6.15",
-      "last_year_eps": "$5.57",
-      "market_cap": "$28,736,346,100"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "LVS",
-      "company": "Las Vegas Sands Corp.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.77",
-      "last_year_eps": "$0.78",
-      "market_cap": "$24,819,908,600"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "RS",
-      "company": "Reliance, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$6.76",
-      "last_year_eps": "$3.64",
-      "market_cap": "$20,762,355,700"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "PKG",
-      "company": "Packaging Corporation of America",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.95",
-      "last_year_eps": "$2.73",
-      "market_cap": "$20,722,483,200"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "LUV",
-      "company": "Southwest Airlines Company",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.61",
-      "last_year_eps": "$0.11",
-      "market_cap": "$19,974,371,300"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "MEDP",
-      "company": "Medpace Holdings, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$4.45",
-      "last_year_eps": "$3.86",
-      "market_cap": "$17,545,267,200"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "ROL",
-      "company": "Rollins, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.34",
-      "last_year_eps": "$0.35",
-      "market_cap": "$16,306,017,300"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "PNFP",
-      "company": "Pinnacle Financial Partners, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.61",
-      "last_year_eps": "$2.27",
-      "market_cap": "$14,263,522,300"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "CACI",
-      "company": "CACI International, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$6.45",
-      "last_year_eps": "$6.85",
-      "market_cap": "$13,510,809,600"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "GGG",
-      "company": "Graco Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.82",
-      "last_year_eps": "$0.73",
-      "market_cap": "$13,244,583,900"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "GL",
-      "company": "Globe Life Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$4.87",
-      "last_year_eps": "$4.81",
-      "market_cap": "$12,879,199,200"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "SEIC",
-      "company": "SEI Investments Company",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.58",
-      "last_year_eps": "$1.30",
-      "market_cap": "$12,634,419,200"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "MOH",
-      "company": "Molina Healthcare Inc",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.72",
-      "last_year_eps": "$1.84",
-      "market_cap": "$11,092,500,500"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "KNX",
-      "company": "Knight Transportation, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.75",
-      "last_year_eps": "$0.32",
-      "market_cap": "$10,624,711,700"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "EGP",
-      "company": "EastGroup Properties, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.42",
-      "last_year_eps": "$2.27",
-      "market_cap": "$10,455,146,500"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "SF",
-      "company": "Stifel Financial Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.43",
-      "last_year_eps": "$1.30",
-      "market_cap": "$10,372,309,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "SSB",
-      "company": "SouthState Bank Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.39",
-      "last_year_eps": "$2.58",
-      "market_cap": "$9,822,551,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "ONB",
-      "company": "Old National Bancorp",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.66",
-      "last_year_eps": "$0.59",
-      "market_cap": "$9,564,250,100"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "ESI",
-      "company": "Element Solutions Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.48",
-      "last_year_eps": "$0.41",
-      "market_cap": "$8,658,337,800"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "FR",
-      "company": "First Industrial Realty Trust, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.82",
-      "last_year_eps": "$0.76",
-      "market_cap": "$7,792,638,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "HXL",
-      "company": "Hexcel Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.49",
-      "last_year_eps": "$0.37",
-      "market_cap": "$6,795,523,600"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "LAD",
-      "company": "Lithia Motors, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$9.75",
-      "last_year_eps": "$9.50",
-      "market_cap": "$6,491,833,900"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "FAF",
-      "company": "First American Corporation (The)",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.85",
-      "last_year_eps": "$1.70",
-      "market_cap": "$6,476,203,000"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "EPRT",
-      "company": "Essential Properties Realty Trust, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.50",
-      "last_year_eps": "$0.48",
-      "market_cap": "$5,614,447,100"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "WH",
-      "company": "Wyndham Hotels & Resorts, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.31",
-      "last_year_eps": "$1.46",
-      "market_cap": "$5,594,034,200"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "SON",
-      "company": "Sonoco Products Company",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.87",
-      "last_year_eps": "$1.92",
-      "market_cap": "$4,910,132,700"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "UNF",
-      "company": "Unifirst Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.09",
-      "last_year_eps": "$2.28",
-      "market_cap": "$4,789,231,600"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "OII",
-      "company": "Oceaneering International, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.58",
-      "last_year_eps": "$0.55",
-      "market_cap": "$4,284,751,100"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "FULT",
-      "company": "Fulton Financial Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.55",
-      "last_year_eps": "$0.55",
-      "market_cap": "$4,266,940,420"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "CATY",
-      "company": "Cathay General Bancorp",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.44",
-      "last_year_eps": "$1.13",
-      "market_cap": "$4,012,836,350"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "CVBF",
-      "company": "CVB Financial Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.45",
-      "last_year_eps": "$0.38",
-      "market_cap": "$3,842,023,940"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "WSBC",
-      "company": "WesBanco, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.87",
-      "last_year_eps": "$0.94",
-      "market_cap": "$3,552,354,050"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "SLG",
-      "company": "SL Green Realty Corp",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.60",
-      "last_year_eps": "$1.58",
-      "market_cap": "$3,336,322,050"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "MHO",
-      "company": "M/I Homes, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$3.05",
-      "last_year_eps": "$4.14",
-      "market_cap": "$3,186,167,550"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "BKU",
-      "company": "BankUnited, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.05",
-      "last_year_eps": "$0.95",
-      "market_cap": "$2,992,466,690"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "LBRT",
-      "company": "Liberty Energy Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.10",
-      "last_year_eps": "($0.06)",
-      "market_cap": "$2,725,296,640"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "WDFC",
-      "company": "WD-40 Company",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.11",
-      "last_year_eps": "$1.56",
-      "market_cap": "$2,698,714,110"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "BANR",
-      "company": "Banner Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.54",
-      "last_year_eps": "$1.52",
-      "market_cap": "$2,467,302,140"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "KALU",
-      "company": "Kaiser Aluminum Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.08",
-      "last_year_eps": "$1.86",
-      "market_cap": "$2,426,532,350"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "BBT",
-      "company": "Beacon Financial Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.78",
-      "last_year_eps": "$0.44",
-      "market_cap": "$2,304,104,190"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "OFG",
-      "company": "OFG Bancorp",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.25",
-      "last_year_eps": "$1.16",
-      "market_cap": "$2,203,300,100"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "NTST",
-      "company": "NetSTREIT Corp.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.33",
-      "last_year_eps": "$0.33",
-      "market_cap": "$1,756,434,300"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "GTY",
-      "company": "Getty Realty Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.61",
-      "last_year_eps": "$0.62",
-      "market_cap": "$1,752,695,420"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "STC",
-      "company": "Stewart Information Services Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "",
-      "last_year_eps": "$1.64",
-      "market_cap": "$1,586,849,150"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "CASH",
-      "company": "Pathward Financial, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.63",
-      "last_year_eps": "$1.69",
-      "market_cap": "$1,498,174,850"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "TFIN",
-      "company": "Triumph Financial, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.60",
-      "last_year_eps": "$0.19",
-      "market_cap": "$1,478,832,900"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "HCSG",
-      "company": "Healthcare Services Group, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.22",
-      "last_year_eps": "$0.23",
-      "market_cap": "$1,470,788,100"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "IART",
-      "company": "Integra LifeSciences Holdings Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.56",
-      "last_year_eps": "$0.54",
-      "market_cap": "$1,052,262,020"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "TRST",
-      "company": "TrustCo Bank Corp NY",
-      "time": "time-after-hours",
-      "eps_forecast": "",
-      "last_year_eps": "$0.86",
-      "market_cap": "$919,838,530"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "EGBN",
-      "company": "Eagle Bancorp, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.35",
-      "last_year_eps": "($2.22)",
-      "market_cap": "$854,160,900"
-    },
-    {
-      "date": "2026-10-21",
-      "ticker": "WGO",
-      "company": "Winnebago Industries, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.50",
-      "last_year_eps": "$0.71",
-      "market_cap": "$697,110,910"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "PG",
-      "company": "Procter & Gamble Company (The)",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.89",
-      "last_year_eps": "$1.99",
-      "market_cap": "$365,121,929,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "UNP",
-      "company": "Union Pacific Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$3.47",
-      "last_year_eps": "$3.08",
-      "market_cap": "$171,515,544,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "WDC",
-      "company": "Western Digital Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$3.97",
-      "last_year_eps": "$1.64",
-      "market_cap": "$133,158,306,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "VLO",
-      "company": "Valero Energy Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$21.23",
-      "last_year_eps": "$3.66",
-      "market_cap": "$127,857,066,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "LMT",
-      "company": "Lockheed Martin Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$7.49",
-      "last_year_eps": "$6.95",
-      "market_cap": "$122,928,390,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "NEM",
-      "company": "Newmont Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.96",
-      "last_year_eps": "$1.71",
-      "market_cap": "$122,007,028,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "BX",
-      "company": "Blackstone Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.31",
-      "last_year_eps": "$1.52",
-      "market_cap": "$81,968,259,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "CMCSA",
-      "company": "Comcast Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.98",
-      "last_year_eps": "$1.12",
-      "market_cap": "$77,253,820,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "NSC",
-      "company": "Norfolk Southern Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$3.51",
-      "last_year_eps": "$3.30",
-      "market_cap": "$72,959,541,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "BE",
-      "company": "Bloom Energy Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.56",
-      "last_year_eps": "($0.01)",
-      "market_cap": "$69,596,815,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "HON",
-      "company": "Honeywell International Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.17",
-      "last_year_eps": "$5.64",
-      "market_cap": "$66,715,873,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "NDAQ",
-      "company": "Nasdaq, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.02",
-      "last_year_eps": "$0.88",
-      "market_cap": "$52,264,382,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "FIX",
-      "company": "Comfort Systems USA, Inc.",
-      "time": "time-not-supplied",
-      "eps_forecast": "$12.42",
-      "last_year_eps": "$8.25",
-      "market_cap": "$52,132,303,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "CBRE",
-      "company": "CBRE Group, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.98",
-      "last_year_eps": "$1.61",
-      "market_cap": "$39,234,556,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "ROP",
-      "company": "Roper Technologies, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$5.79",
-      "last_year_eps": "$5.14",
-      "market_cap": "$37,824,639,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "PCG",
-      "company": "PG&E Corp",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.41",
-      "last_year_eps": "$0.50",
-      "market_cap": "$34,734,232,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "HBAN",
-      "company": "Huntington Bancshares Incorporated",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.38",
-      "last_year_eps": "$0.40",
-      "market_cap": "$31,013,367,800"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "VRSN",
-      "company": "VeriSign, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.42",
-      "last_year_eps": "$2.27",
-      "market_cap": "$27,459,328,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "DGX",
-      "company": "Quest Diagnostics Incorporated",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.85",
-      "last_year_eps": "$2.60",
-      "market_cap": "$26,395,789,300"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "DOV",
-      "company": "Dover Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.85",
-      "last_year_eps": "$2.62",
-      "market_cap": "$26,140,084,200"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "DOW",
-      "company": "Dow Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.65",
-      "last_year_eps": "($0.19)",
-      "market_cap": "$21,424,625,700"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "PHM",
-      "company": "PulteGroup, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.62",
-      "last_year_eps": "$2.96",
-      "market_cap": "$21,180,262,400"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "SNA",
-      "company": "Snap-On Incorporated",
-      "time": "time-pre-market",
-      "eps_forecast": "$4.91",
-      "last_year_eps": "$4.71",
-      "market_cap": "$18,927,472,600"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "CRS",
-      "company": "Carpenter Technology Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.97",
-      "last_year_eps": "$2.43",
-      "market_cap": "$18,860,007,400"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "TSCO",
-      "company": "Tractor Supply Company",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.40",
-      "last_year_eps": "$0.49",
-      "market_cap": "$17,387,108,400"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "ALLE",
-      "company": "Allegion plc",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.48",
-      "last_year_eps": "$2.30",
-      "market_cap": "$13,244,479,500"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "DECK",
-      "company": "Deckers Outdoor Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.82",
-      "last_year_eps": "$1.82",
-      "market_cap": "$11,810,743,300"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "TTMI",
-      "company": "TTM Technologies, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.11",
-      "last_year_eps": "$0.58",
-      "market_cap": "$10,678,160,400"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "FCFS",
-      "company": "FirstCash Holdings, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.64",
-      "last_year_eps": "$2.26",
-      "market_cap": "$9,399,102,500"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "ORI",
-      "company": "Old Republic International Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.76",
-      "last_year_eps": "$1.11",
-      "market_cap": "$9,336,211,500"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "R",
-      "company": "Ryder System, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$4.16",
-      "last_year_eps": "$3.57",
-      "market_cap": "$9,209,383,900"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "REXR",
-      "company": "Rexford Industrial Realty, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.60",
-      "last_year_eps": "$0.60",
-      "market_cap": "$8,230,491,600"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "KNSL",
-      "company": "Kinsale Capital Group, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$4.95",
-      "last_year_eps": "$5.21",
-      "market_cap": "$8,143,058,900"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "AAL",
-      "company": "American Airlines Group, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "($0.28)",
-      "last_year_eps": "($0.17)",
-      "market_cap": "$8,128,991,200"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "COLB",
-      "company": "Columbia Banking System, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.77",
-      "last_year_eps": "$0.85",
-      "market_cap": "$8,099,491,800"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "APPF",
-      "company": "AppFolio, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.33",
-      "last_year_eps": "$0.98",
-      "market_cap": "$7,742,508,500"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "MSM",
-      "company": "MSC Industrial Direct Company, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.39",
-      "last_year_eps": "$1.09",
-      "market_cap": "$7,299,110,900"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "MXL",
-      "company": "MaxLinear, Inc",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.32",
-      "last_year_eps": "($0.11)",
-      "market_cap": "$7,090,393,600"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "VLY",
-      "company": "Valley National Bancorp",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.33",
-      "last_year_eps": "$0.28",
-      "market_cap": "$7,045,716,500"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "RNG",
-      "company": "RingCentral, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.69",
-      "last_year_eps": "$0.41",
-      "market_cap": "$6,675,482,600"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "UBSI",
-      "company": "United Bankshares, Inc.",
-      "time": "time-not-supplied",
-      "eps_forecast": "$0.94",
-      "last_year_eps": "$0.92",
-      "market_cap": "$6,347,505,700"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "POOL",
-      "company": "Pool Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$3.36",
-      "last_year_eps": "$3.39",
-      "market_cap": "$6,145,947,100"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "GBCI",
-      "company": "Glacier Bancorp, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.79",
-      "last_year_eps": "$0.62",
-      "market_cap": "$5,698,075,100"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "ASB",
-      "company": "Associated Banc-Corp",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.76",
-      "last_year_eps": "$0.73",
-      "market_cap": "$5,446,424,100"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "ABCB",
-      "company": "Ameris Bancorp",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.68",
-      "last_year_eps": "$1.53",
-      "market_cap": "$5,351,131,100"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "SIGI",
-      "company": "Selective Insurance Group, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.91",
-      "last_year_eps": "$1.75",
-      "market_cap": "$5,200,384,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "BYD",
-      "company": "Boyd Gaming Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.67",
-      "last_year_eps": "$1.72",
-      "market_cap": "$5,156,354,600"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "EBC",
-      "company": "Eastern Bankshares, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.49",
-      "last_year_eps": "$0.37",
-      "market_cap": "$4,830,734,300"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "IRDM",
-      "company": "Iridium Communications Inc",
-      "time": "time-not-supplied",
-      "eps_forecast": "$0.29",
-      "last_year_eps": "$0.35",
-      "market_cap": "$4,767,157,800"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "ENVA",
-      "company": "Enova International, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$4.19",
-      "last_year_eps": "$3.11",
-      "market_cap": "$4,419,958,800"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "ITGR",
-      "company": "Integer Holdings Corporation",
-      "time": "time-not-supplied",
-      "eps_forecast": "$1.65",
-      "last_year_eps": "$1.79",
-      "market_cap": "$4,307,472,400"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "SLM",
-      "company": "SLM Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.12",
-      "last_year_eps": "$0.63",
-      "market_cap": "$4,176,181,500"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "FBP",
-      "company": "First BanCorp.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.58",
-      "last_year_eps": "$0.51",
-      "market_cap": "$4,151,050,240"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "KRC",
-      "company": "Kilroy Realty Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.88",
-      "last_year_eps": "$1.09",
-      "market_cap": "$4,027,780,350"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "WSFS",
-      "company": "WSFS Financial Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.61",
-      "last_year_eps": "$1.40",
-      "market_cap": "$3,895,658,750"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "BFH",
-      "company": "Bread Financial Holdings, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$3.26",
-      "last_year_eps": "$4.02",
-      "market_cap": "$3,892,256,000"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "BMI",
-      "company": "Badger Meter, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.21",
-      "last_year_eps": "$1.19",
-      "market_cap": "$3,677,851,140"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "LAZ",
-      "company": "Lazard, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.49",
-      "last_year_eps": "$0.56",
-      "market_cap": "$3,523,812,610"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "NIC",
-      "company": "Nicolet Bankshares Inc.",
-      "time": "time-not-supplied",
-      "eps_forecast": "$3.06",
-      "last_year_eps": "$2.66",
-      "market_cap": "$3,445,624,830"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "COCO",
-      "company": "The Vita Coco Company, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.51",
-      "last_year_eps": "$0.40",
-      "market_cap": "$3,384,894,460"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "FIBK",
-      "company": "First Interstate BancSystem, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.70",
-      "last_year_eps": "$0.69",
-      "market_cap": "$3,317,553,410"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "CURB",
-      "company": "Curbline Properties Corp.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.32",
-      "last_year_eps": "$0.28",
-      "market_cap": "$3,055,409,920"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "KN",
-      "company": "Knowles Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.30",
-      "last_year_eps": "$0.27",
-      "market_cap": "$2,952,634,880"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "CUBI",
-      "company": "Customers Bancorp, Inc",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.14",
-      "last_year_eps": "$2.20",
-      "market_cap": "$2,511,825,410"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "VC",
-      "company": "Visteon Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.35",
-      "last_year_eps": "$2.15",
-      "market_cap": "$2,367,083,780"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "HTH",
-      "company": "Hilltop Holdings Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.63",
-      "last_year_eps": "$0.74",
-      "market_cap": "$2,106,421,500"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "WKC",
-      "company": "World Kinect Corporation",
-      "time": "time-not-supplied",
-      "eps_forecast": "$0.96",
-      "last_year_eps": "$0.54",
-      "market_cap": "$1,880,333,570"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "DCOM",
-      "company": "Dime Commercial Bancshares, Inc.",
-      "time": "time-not-supplied",
-      "eps_forecast": "$0.87",
-      "last_year_eps": "$0.61",
-      "market_cap": "$1,712,392,700"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "STBA",
-      "company": "S&T Bancorp, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.99",
-      "last_year_eps": "$0.91",
-      "market_cap": "$1,711,434,370"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "THRM",
-      "company": "Gentherm Inc",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.67",
-      "last_year_eps": "$0.73",
-      "market_cap": "$1,622,894,460"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "LNN",
-      "company": "Lindsay Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.98",
-      "last_year_eps": "$0.99",
-      "market_cap": "$1,124,577,020"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "HFWA",
-      "company": "Heritage Financial Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.57",
-      "last_year_eps": "$0.56",
-      "market_cap": "$1,121,904,640"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "MRTN",
-      "company": "Marten Transport, Ltd.",
-      "time": "time-not-supplied",
-      "eps_forecast": "$0.08",
-      "last_year_eps": "$0.03",
-      "market_cap": "$1,052,618,940"
-    },
-    {
-      "date": "2026-10-22",
-      "ticker": "WRLD",
-      "company": "World Acceptance Corporation",
-      "time": "time-not-supplied",
-      "eps_forecast": "$0.78",
-      "last_year_eps": "($0.38)",
-      "market_cap": "$803,792,320"
-    },
-    {
-      "date": "2026-10-23",
-      "ticker": "AXP",
-      "company": "American Express Company",
-      "time": "time-pre-market",
-      "eps_forecast": "$4.47",
-      "last_year_eps": "$4.14",
-      "market_cap": "$211,959,497,000"
-    },
-    {
-      "date": "2026-10-23",
-      "ticker": "SLB",
-      "company": "SLB Limited",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.62",
-      "last_year_eps": "$0.69",
-      "market_cap": "$71,788,012,000"
-    },
-    {
-      "date": "2026-10-23",
-      "ticker": "BAH",
-      "company": "Booz Allen Hamilton Holding Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.44",
-      "last_year_eps": "$1.49",
-      "market_cap": "$8,961,230,800"
-    },
-    {
-      "date": "2026-10-23",
-      "ticker": "ALV",
-      "company": "Autoliv, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.21",
-      "last_year_eps": "$2.32",
-      "market_cap": "$8,492,587,500"
-    },
-    {
-      "date": "2026-10-23",
-      "ticker": "BCPC",
-      "company": "Balchem Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.53",
-      "last_year_eps": "$1.35",
-      "market_cap": "$5,436,159,000"
-    },
-    {
-      "date": "2026-10-23",
-      "ticker": "RITM",
-      "company": "Rithm Capital Corp.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.50",
-      "last_year_eps": "$0.54",
-      "market_cap": "$4,863,725,100"
-    },
-    {
-      "date": "2026-10-23",
-      "ticker": "FLG",
-      "company": "Flagstar Bank, N.A.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.06",
-      "last_year_eps": "($0.07)",
-      "market_cap": "$4,669,794,300"
-    },
-    {
-      "date": "2026-10-23",
-      "ticker": "GNTX",
-      "company": "Gentex Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.51",
-      "last_year_eps": "$0.46",
-      "market_cap": "$4,447,524,900"
-    },
-    {
-      "date": "2026-10-23",
-      "ticker": "FHB",
-      "company": "First Hawaiian, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.60",
-      "last_year_eps": "$0.59",
-      "market_cap": "$3,034,732,800"
-    },
-    {
-      "date": "2026-10-23",
-      "ticker": "PFBC",
-      "company": "Preferred Bank",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.69",
-      "last_year_eps": "$2.84",
-      "market_cap": "$1,487,211,650"
-    },
-    {
-      "date": "2026-10-23",
-      "ticker": "TMP",
-      "company": "Tompkins Financial Corporation",
-      "time": "time-not-supplied",
-      "eps_forecast": "$1.91",
-      "last_year_eps": "$1.65",
-      "market_cap": "$1,398,306,050"
-    },
-    {
-      "date": "2026-10-23",
-      "ticker": "SBSI",
-      "company": "Southside Bancshares, Inc.",
-      "time": "time-not-supplied",
-      "eps_forecast": "$0.79",
-      "last_year_eps": "$0.80",
-      "market_cap": "$909,143,360"
-    },
     {
       "date": "2026-10-26",
       "ticker": "VZ",
@@ -1853,7 +8,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$1.27",
       "last_year_eps": "$1.21",
-      "market_cap": "$184,472,027,000"
+      "market_cap": "$187,795,833,000"
     },
     {
       "date": "2026-10-26",
@@ -1862,16 +17,16 @@
       "time": "time-after-hours",
       "eps_forecast": "$1.64",
       "last_year_eps": "$1.34",
-      "market_cap": "$169,108,390,000"
+      "market_cap": "$171,104,846,000"
     },
     {
       "date": "2026-10-26",
       "ticker": "CDNS",
       "company": "Cadence Design Systems, Inc.",
       "time": "time-after-hours",
-      "eps_forecast": "$1.60",
+      "eps_forecast": "$1.61",
       "last_year_eps": "$1.51",
-      "market_cap": "$89,331,982,000"
+      "market_cap": "$85,275,443,000"
     },
     {
       "date": "2026-10-26",
@@ -1880,7 +35,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$5.71",
       "last_year_eps": "$2.63",
-      "market_cap": "$57,782,964,000"
+      "market_cap": "$58,547,536,000"
     },
     {
       "date": "2026-10-26",
@@ -1889,7 +44,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$4.27",
       "last_year_eps": "$4.31",
-      "market_cap": "$55,183,090,000"
+      "market_cap": "$57,761,649,000"
     },
     {
       "date": "2026-10-26",
@@ -1898,25 +53,16 @@
       "time": "time-after-hours",
       "eps_forecast": "$3.15",
       "last_year_eps": "$3.78",
-      "market_cap": "$35,974,509,000"
+      "market_cap": "$37,773,099,000"
     },
     {
       "date": "2026-10-26",
       "ticker": "CINF",
       "company": "Cincinnati Financial Corporation",
       "time": "time-after-hours",
-      "eps_forecast": "$2.01",
+      "eps_forecast": "$1.99",
       "last_year_eps": "$2.85",
-      "market_cap": "$25,664,598,000"
-    },
-    {
-      "date": "2026-10-26",
-      "ticker": "PFG",
-      "company": "Principal Financial Group Inc",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.51",
-      "last_year_eps": "$2.10",
-      "market_cap": "$23,328,841,700"
+      "market_cap": "$27,362,066,400"
     },
     {
       "date": "2026-10-26",
@@ -1925,7 +71,34 @@
       "time": "time-after-hours",
       "eps_forecast": "$1.08",
       "last_year_eps": "$1.05",
-      "market_cap": "$22,746,812,400"
+      "market_cap": "$24,925,124,600"
+    },
+    {
+      "date": "2026-10-26",
+      "ticker": "PFG",
+      "company": "Principal Financial Group Inc",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.46",
+      "last_year_eps": "$2.10",
+      "market_cap": "$23,575,062,500"
+    },
+    {
+      "date": "2026-10-26",
+      "ticker": "SUI",
+      "company": "Sun Communities, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.30",
+      "last_year_eps": "$2.28",
+      "market_cap": "$14,599,062,500"
+    },
+    {
+      "date": "2026-10-26",
+      "ticker": "BMRN",
+      "company": "BioMarin Pharmaceutical Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "$0.52",
+      "last_year_eps": "($0.08)",
+      "market_cap": "$10,962,081,800"
     },
     {
       "date": "2026-10-26",
@@ -1934,16 +107,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.79",
       "last_year_eps": "$0.51",
-      "market_cap": "$10,944,331,800"
-    },
-    {
-      "date": "2026-10-26",
-      "ticker": "BMRN",
-      "company": "BioMarin Pharmaceutical Inc.",
-      "time": "time-not-supplied",
-      "eps_forecast": "$1.13",
-      "last_year_eps": "($0.08)",
-      "market_cap": "$10,849,809,400"
+      "market_cap": "$9,702,069,200"
     },
     {
       "date": "2026-10-26",
@@ -1952,7 +116,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.65",
       "last_year_eps": "$0.44",
-      "market_cap": "$10,072,828,900"
+      "market_cap": "$9,298,413,600"
     },
     {
       "date": "2026-10-26",
@@ -1961,7 +125,16 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.59",
       "last_year_eps": "$0.56",
-      "market_cap": "$8,417,507,800"
+      "market_cap": "$8,672,212,000"
+    },
+    {
+      "date": "2026-10-26",
+      "ticker": "SSD",
+      "company": "Simpson Manufacturing Company, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.49",
+      "last_year_eps": "$2.58",
+      "market_cap": "$7,660,856,800"
     },
     {
       "date": "2026-10-26",
@@ -1970,16 +143,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$1.52",
       "last_year_eps": "$2.22",
-      "market_cap": "$7,377,642,000"
-    },
-    {
-      "date": "2026-10-26",
-      "ticker": "SSD",
-      "company": "Simpson Manufacturing Company, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.56",
-      "last_year_eps": "$2.58",
-      "market_cap": "$7,177,237,500"
+      "market_cap": "$7,550,147,100"
     },
     {
       "date": "2026-10-26",
@@ -1988,7 +152,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.20",
       "last_year_eps": "$0.19",
-      "market_cap": "$6,850,247,700"
+      "market_cap": "$7,016,275,500"
     },
     {
       "date": "2026-10-26",
@@ -1997,16 +161,16 @@
       "time": "time-after-hours",
       "eps_forecast": "",
       "last_year_eps": "$1.02",
-      "market_cap": "$5,236,105,200"
+      "market_cap": "$5,295,357,400"
     },
     {
       "date": "2026-10-26",
       "ticker": "PECO",
       "company": "Phillips Edison & Company, Inc.",
       "time": "time-after-hours",
-      "eps_forecast": "$0.70",
+      "eps_forecast": "$0.69",
       "last_year_eps": "$0.65",
-      "market_cap": "$4,885,451,800"
+      "market_cap": "$4,927,923,200"
     },
     {
       "date": "2026-10-26",
@@ -2015,16 +179,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$1.97",
       "last_year_eps": "$2.62",
-      "market_cap": "$3,668,796,670"
-    },
-    {
-      "date": "2026-10-26",
-      "ticker": "PRK",
-      "company": "Park National Corporation",
-      "time": "time-not-supplied",
-      "eps_forecast": "$3.31",
-      "last_year_eps": "$2.87",
-      "market_cap": "$3,215,962,620"
+      "market_cap": "$3,783,344,640"
     },
     {
       "date": "2026-10-26",
@@ -2033,7 +188,16 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.38",
       "last_year_eps": "$0.26",
-      "market_cap": "$3,199,100,420"
+      "market_cap": "$3,386,669,060"
+    },
+    {
+      "date": "2026-10-26",
+      "ticker": "PRK",
+      "company": "Park National Corporation",
+      "time": "time-not-supplied",
+      "eps_forecast": "$3.31",
+      "last_year_eps": "$2.87",
+      "market_cap": "$3,318,025,220"
     },
     {
       "date": "2026-10-26",
@@ -2042,7 +206,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$1.22",
       "last_year_eps": "$1.08",
-      "market_cap": "$2,751,757,820"
+      "market_cap": "$2,779,939,330"
     },
     {
       "date": "2026-10-26",
@@ -2051,16 +215,16 @@
       "time": "time-pre-market",
       "eps_forecast": "$1.52",
       "last_year_eps": "$1.20",
-      "market_cap": "$2,650,672,130"
+      "market_cap": "$2,771,784,700"
     },
     {
       "date": "2026-10-26",
       "ticker": "HTO",
       "company": "H2O America ",
       "time": "time-after-hours",
-      "eps_forecast": "",
+      "eps_forecast": "$1.06",
       "last_year_eps": "$1.27",
-      "market_cap": "$2,398,394,880"
+      "market_cap": "$2,455,320,060"
     },
     {
       "date": "2026-10-26",
@@ -2069,16 +233,16 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.35",
       "last_year_eps": "$0.29",
-      "market_cap": "$2,180,776,450"
+      "market_cap": "$2,261,328,900"
     },
     {
       "date": "2026-10-26",
       "ticker": "WHR",
       "company": "Whirlpool Corporation",
-      "time": "time-not-supplied",
-      "eps_forecast": "$1.01",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.78",
       "last_year_eps": "$2.09",
-      "market_cap": "$1,828,190,590"
+      "market_cap": "$1,877,742,080"
     },
     {
       "date": "2026-10-26",
@@ -2087,16 +251,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$1.08",
       "last_year_eps": "$1.03",
-      "market_cap": "$1,439,517,570"
-    },
-    {
-      "date": "2026-10-26",
-      "ticker": "GBX",
-      "company": "Greenbrier Companies, Inc. (The)",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.89",
-      "last_year_eps": "$1.26",
-      "market_cap": "$1,215,001,470"
+      "market_cap": "$1,476,058,500"
     },
     {
       "date": "2026-10-26",
@@ -2105,16 +260,16 @@
       "time": "time-not-supplied",
       "eps_forecast": "$0.85",
       "last_year_eps": "$0.74",
-      "market_cap": "$1,198,253,060"
+      "market_cap": "$1,245,610,500"
     },
     {
       "date": "2026-10-26",
-      "ticker": "NPK",
-      "company": "National Presto Industries, Inc.",
-      "time": "time-not-supplied",
-      "eps_forecast": "",
-      "last_year_eps": "$0.74",
-      "market_cap": "$1,051,499,460"
+      "ticker": "GBX",
+      "company": "Greenbrier Companies, Inc. (The)",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.89",
+      "last_year_eps": "$1.26",
+      "market_cap": "$1,199,841,020"
     },
     {
       "date": "2026-10-26",
@@ -2123,7 +278,16 @@
       "time": "time-pre-market",
       "eps_forecast": "$0.79",
       "last_year_eps": "$0.76",
-      "market_cap": "$1,040,602,370"
+      "market_cap": "$1,068,048,900"
+    },
+    {
+      "date": "2026-10-26",
+      "ticker": "NPK",
+      "company": "National Presto Industries, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "",
+      "last_year_eps": "$0.74",
+      "market_cap": "$1,058,992,320"
     },
     {
       "date": "2026-10-27",
@@ -2132,7 +296,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$3.43",
       "last_year_eps": "$2.98",
-      "market_cap": "$714,255,430,000"
+      "market_cap": "$740,324,150,000"
     },
     {
       "date": "2026-10-27",
@@ -2141,70 +305,52 @@
       "time": "time-pre-market",
       "eps_forecast": "$0.87",
       "last_year_eps": "$0.82",
-      "market_cap": "$395,834,524,000"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "STX",
-      "company": "Seagate Technology Holdings PLC",
-      "time": "time-after-hours",
-      "eps_forecast": "$7.11",
-      "last_year_eps": "$2.51",
-      "market_cap": "$158,001,070,000"
+      "market_cap": "$410,205,061,000"
     },
     {
       "date": "2026-10-27",
       "ticker": "BA",
       "company": "Boeing Company (The)",
       "time": "time-pre-market",
-      "eps_forecast": "($0.17)",
+      "eps_forecast": "($0.21)",
       "last_year_eps": "($7.47)",
-      "market_cap": "$149,166,539,000"
+      "market_cap": "$148,233,896,000"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "STX",
+      "company": "Seagate Technology Holdings PLC",
+      "time": "time-after-hours",
+      "eps_forecast": "$7.17",
+      "last_year_eps": "$2.51",
+      "market_cap": "$146,869,338,000"
     },
     {
       "date": "2026-10-27",
       "ticker": "SPGI",
       "company": "S&P Global Inc.",
       "time": "time-pre-market",
-      "eps_forecast": "$4.42",
+      "eps_forecast": "$4.43",
       "last_year_eps": "$4.73",
-      "market_cap": "$125,233,988,000"
+      "market_cap": "$133,573,878,000"
     },
     {
       "date": "2026-10-27",
       "ticker": "GLW",
       "company": "Corning Incorporated",
       "time": "time-pre-market",
-      "eps_forecast": "$0.88",
+      "eps_forecast": "$0.89",
       "last_year_eps": "$0.67",
-      "market_cap": "$119,241,990,000"
+      "market_cap": "$106,803,536,000"
     },
     {
       "date": "2026-10-27",
       "ticker": "HCA",
       "company": "HCA Healthcare, Inc.",
       "time": "time-pre-market",
-      "eps_forecast": "$6.75",
+      "eps_forecast": "$6.74",
       "last_year_eps": "$6.96",
-      "market_cap": "$101,430,952,000"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "FCX",
-      "company": "Freeport-McMoran, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.75",
-      "last_year_eps": "$0.50",
-      "market_cap": "$100,607,386,000"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "HOOD",
-      "company": "Robinhood Markets, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.55",
-      "last_year_eps": "$0.61",
-      "market_cap": "$93,495,566,000"
+      "market_cap": "$101,173,314,000"
     },
     {
       "date": "2026-10-27",
@@ -2213,7 +359,25 @@
       "time": "time-after-hours",
       "eps_forecast": "$2.18",
       "last_year_eps": "$1.98",
-      "market_cap": "$89,612,149,000"
+      "market_cap": "$95,571,902,000"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "FCX",
+      "company": "Freeport-McMoran, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.80",
+      "last_year_eps": "$0.50",
+      "market_cap": "$92,752,372,000"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "HOOD",
+      "company": "Robinhood Markets, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.56",
+      "last_year_eps": "$0.61",
+      "market_cap": "$86,833,365,000"
     },
     {
       "date": "2026-10-27",
@@ -2222,16 +386,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$1.58",
       "last_year_eps": "$1.26",
-      "market_cap": "$89,425,617,000"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "AMT",
-      "company": "American Tower Corporation (REIT)",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.78",
-      "last_year_eps": "$2.78",
-      "market_cap": "$84,506,518,000"
+      "market_cap": "$86,621,028,000"
     },
     {
       "date": "2026-10-27",
@@ -2240,16 +395,25 @@
       "time": "time-pre-market",
       "eps_forecast": "$1.63",
       "last_year_eps": "$1.74",
-      "market_cap": "$83,231,965,000"
+      "market_cap": "$86,371,344,000"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "AMT",
+      "company": "American Tower Corporation (REIT)",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.78",
+      "last_year_eps": "$2.78",
+      "market_cap": "$84,604,363,000"
     },
     {
       "date": "2026-10-27",
       "ticker": "SHW",
       "company": "Sherwin-Williams Company (The)",
       "time": "time-pre-market",
-      "eps_forecast": "$3.66",
+      "eps_forecast": "$3.65",
       "last_year_eps": "$3.59",
-      "market_cap": "$81,790,075,000"
+      "market_cap": "$83,904,504,000"
     },
     {
       "date": "2026-10-27",
@@ -2258,16 +422,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$2.18",
       "last_year_eps": "$2.07",
-      "market_cap": "$81,522,360,000"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "ITW",
-      "company": "Illinois Tool Works Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.99",
-      "last_year_eps": "$2.81",
-      "market_cap": "$77,234,913,000"
+      "market_cap": "$81,940,054,000"
     },
     {
       "date": "2026-10-27",
@@ -2276,25 +431,25 @@
       "time": "time-pre-market",
       "eps_forecast": "$2.35",
       "last_year_eps": "$2.11",
-      "market_cap": "$77,192,765,000"
+      "market_cap": "$80,588,988,000"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "ITW",
+      "company": "Illinois Tool Works Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.99",
+      "last_year_eps": "$2.81",
+      "market_cap": "$79,527,551,000"
     },
     {
       "date": "2026-10-27",
       "ticker": "RCL",
       "company": "Royal Caribbean Cruises Ltd.",
       "time": "time-pre-market",
-      "eps_forecast": "$6.37",
+      "eps_forecast": "$6.38",
       "last_year_eps": "$5.75",
-      "market_cap": "$74,889,257,000"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "PCAR",
-      "company": "PACCAR Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.61",
-      "last_year_eps": "$1.12",
-      "market_cap": "$58,326,499,000"
+      "market_cap": "$76,526,068,000"
     },
     {
       "date": "2026-10-27",
@@ -2303,7 +458,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$3.78",
       "last_year_eps": "$2.75",
-      "market_cap": "$58,272,621,000"
+      "market_cap": "$59,962,118,000"
     },
     {
       "date": "2026-10-27",
@@ -2312,25 +467,25 @@
       "time": "time-after-hours",
       "eps_forecast": "$1.46",
       "last_year_eps": "$1.49",
-      "market_cap": "$57,143,009,000"
+      "market_cap": "$59,191,710,000"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "PCAR",
+      "company": "PACCAR Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.61",
+      "last_year_eps": "$1.12",
+      "market_cap": "$57,684,337,000"
     },
     {
       "date": "2026-10-27",
       "ticker": "BKR",
       "company": "Baker Hughes Company",
       "time": "time-after-hours",
-      "eps_forecast": "$0.64",
+      "eps_forecast": "$0.63",
       "last_year_eps": "$0.68",
-      "market_cap": "$54,001,471,000"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "TER",
-      "company": "Teradyne, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$2.04",
-      "last_year_eps": "$0.85",
-      "market_cap": "$53,657,711,000"
+      "market_cap": "$53,227,184,000"
     },
     {
       "date": "2026-10-27",
@@ -2339,25 +494,34 @@
       "time": "time-pre-market",
       "eps_forecast": "$1.31",
       "last_year_eps": "$1.34",
-      "market_cap": "$48,898,142,000"
+      "market_cap": "$49,218,941,000"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "TER",
+      "company": "Teradyne, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.04",
+      "last_year_eps": "$0.85",
+      "market_cap": "$48,270,205,000"
     },
     {
       "date": "2026-10-27",
       "ticker": "IQV",
       "company": "IQVIA Holdings, Inc.",
       "time": "time-pre-market",
-      "eps_forecast": "$2.95",
+      "eps_forecast": "$2.94",
       "last_year_eps": "$2.73",
-      "market_cap": "$44,613,186,000"
+      "market_cap": "$45,811,470,000"
     },
     {
       "date": "2026-10-27",
       "ticker": "VTR",
       "company": "Ventas, Inc.",
       "time": "time-after-hours",
-      "eps_forecast": "$0.99",
+      "eps_forecast": "$0.98",
       "last_year_eps": "$0.88",
-      "market_cap": "$43,528,626,000"
+      "market_cap": "$44,621,206,000"
     },
     {
       "date": "2026-10-27",
@@ -2366,7 +530,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$0.07",
       "last_year_eps": "$0.50",
-      "market_cap": "$34,831,589,000"
+      "market_cap": "$35,192,205,000"
     },
     {
       "date": "2026-10-27",
@@ -2375,16 +539,16 @@
       "time": "time-after-hours",
       "eps_forecast": "$2.05",
       "last_year_eps": "$2.77",
-      "market_cap": "$33,887,465,500"
+      "market_cap": "$35,040,817,000"
     },
     {
       "date": "2026-10-27",
       "ticker": "EQT",
       "company": "EQT Corporation",
       "time": "time-after-hours",
-      "eps_forecast": "$0.39",
+      "eps_forecast": "$0.38",
       "last_year_eps": "$0.52",
-      "market_cap": "$32,808,314,900"
+      "market_cap": "$34,196,959,200"
     },
     {
       "date": "2026-10-27",
@@ -2393,16 +557,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$2.10",
       "last_year_eps": "$2.08",
-      "market_cap": "$29,089,706,000"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "FE",
-      "company": "FirstEnergy Corp.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.92",
-      "last_year_eps": "$0.83",
-      "market_cap": "$26,357,049,300"
+      "market_cap": "$30,251,687,900"
     },
     {
       "date": "2026-10-27",
@@ -2411,25 +566,16 @@
       "time": "time-pre-market",
       "eps_forecast": "$0.50",
       "last_year_eps": "$0.50",
-      "market_cap": "$26,217,066,500"
+      "market_cap": "$27,139,276,800"
     },
     {
       "date": "2026-10-27",
-      "ticker": "FFIV",
-      "company": "F5, Inc.",
+      "ticker": "FE",
+      "company": "FirstEnergy Corp.",
       "time": "time-after-hours",
-      "eps_forecast": "$3.32",
-      "last_year_eps": "$3.41",
-      "market_cap": "$25,854,838,800"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "HUBB",
-      "company": "Hubbell Inc",
-      "time": "time-pre-market",
-      "eps_forecast": "$5.77",
-      "last_year_eps": "$5.17",
-      "market_cap": "$24,551,823,400"
+      "eps_forecast": "$0.90",
+      "last_year_eps": "$0.83",
+      "market_cap": "$26,900,969,500"
     },
     {
       "date": "2026-10-27",
@@ -2438,7 +584,16 @@
       "time": "time-pre-market",
       "eps_forecast": "$1.47",
       "last_year_eps": "$1.37",
-      "market_cap": "$24,135,532,500"
+      "market_cap": "$25,510,768,600"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "FFIV",
+      "company": "F5, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$3.32",
+      "last_year_eps": "$3.41",
+      "market_cap": "$25,486,762,000"
     },
     {
       "date": "2026-10-27",
@@ -2447,7 +602,25 @@
       "time": "time-after-hours",
       "eps_forecast": "$2.13",
       "last_year_eps": "$2.13",
-      "market_cap": "$23,966,162,900"
+      "market_cap": "$25,139,906,600"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "HUBB",
+      "company": "Hubbell Inc",
+      "time": "time-pre-market",
+      "eps_forecast": "$5.77",
+      "last_year_eps": "$5.17",
+      "market_cap": "$23,552,759,800"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "CMS",
+      "company": "CMS Energy Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.30",
+      "last_year_eps": "$0.93",
+      "market_cap": "$22,047,881,200"
     },
     {
       "date": "2026-10-27",
@@ -2456,16 +629,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$1.28",
       "last_year_eps": "$0.97",
-      "market_cap": "$21,020,545,000"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "CMS",
-      "company": "CMS Energy Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.21",
-      "last_year_eps": "$0.93",
-      "market_cap": "$20,990,853,100"
+      "market_cap": "$21,520,592,900"
     },
     {
       "date": "2026-10-27",
@@ -2474,25 +638,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$4.01",
       "last_year_eps": "$3.97",
-      "market_cap": "$17,330,626,600"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "WPC",
-      "company": "W. P. Carey Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.26",
-      "last_year_eps": "$1.25",
-      "market_cap": "$14,682,798,100"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "RNR",
-      "company": "RenaissanceRe Holdings Ltd.",
-      "time": "time-after-hours",
-      "eps_forecast": "$9.28",
-      "last_year_eps": "$15.62",
-      "market_cap": "$14,300,500,000"
+      "market_cap": "$18,152,620,000"
     },
     {
       "date": "2026-10-27",
@@ -2501,25 +647,25 @@
       "time": "time-pre-market",
       "eps_forecast": "$1.06",
       "last_year_eps": "$0.95",
-      "market_cap": "$14,201,392,100"
+      "market_cap": "$15,990,935,600"
     },
     {
       "date": "2026-10-27",
-      "ticker": "LECO",
-      "company": "Lincoln Electric Holdings, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$2.82",
-      "last_year_eps": "$2.47",
-      "market_cap": "$14,184,578,000"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "MANH",
-      "company": "Manhattan Associates, Inc.",
+      "ticker": "RNR",
+      "company": "RenaissanceRe Holdings Ltd.",
       "time": "time-after-hours",
-      "eps_forecast": "$1.03",
-      "last_year_eps": "$0.96",
-      "market_cap": "$13,232,896,000"
+      "eps_forecast": "$9.28",
+      "last_year_eps": "$15.62",
+      "market_cap": "$15,066,300,400"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "WPC",
+      "company": "W. P. Carey Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.26",
+      "last_year_eps": "$1.25",
+      "market_cap": "$14,703,301,600"
     },
     {
       "date": "2026-10-27",
@@ -2528,16 +674,25 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.28",
       "last_year_eps": "$0.11",
-      "market_cap": "$12,966,323,200"
+      "market_cap": "$14,364,254,200"
     },
     {
       "date": "2026-10-27",
-      "ticker": "IVZ",
-      "company": "Invesco Plc",
+      "ticker": "MANH",
+      "company": "Manhattan Associates, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.03",
+      "last_year_eps": "$0.96",
+      "market_cap": "$14,119,714,800"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "LECO",
+      "company": "Lincoln Electric Holdings, Inc.",
       "time": "time-pre-market",
-      "eps_forecast": "$0.74",
-      "last_year_eps": "$0.61",
-      "market_cap": "$12,715,193,300"
+      "eps_forecast": "$2.81",
+      "last_year_eps": "$2.47",
+      "market_cap": "$14,006,889,500"
     },
     {
       "date": "2026-10-27",
@@ -2546,7 +701,16 @@
       "time": "time-pre-market",
       "eps_forecast": "$4.13",
       "last_year_eps": "$3.98",
-      "market_cap": "$12,471,458,800"
+      "market_cap": "$13,618,250,800"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "IVZ",
+      "company": "Invesco Plc",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.75",
+      "last_year_eps": "$0.61",
+      "market_cap": "$12,710,778,900"
     },
     {
       "date": "2026-10-27",
@@ -2555,7 +719,16 @@
       "time": "time-pre-market",
       "eps_forecast": "$2.86",
       "last_year_eps": "$2.63",
-      "market_cap": "$12,262,876,200"
+      "market_cap": "$11,732,805,600"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "UHS",
+      "company": "Universal Health Services, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$5.31",
+      "last_year_eps": "$5.69",
+      "market_cap": "$11,087,726,600"
     },
     {
       "date": "2026-10-27",
@@ -2564,25 +737,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$1.81",
       "last_year_eps": "$1.64",
-      "market_cap": "$11,891,267,600"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "SWKS",
-      "company": "Skyworks Solutions, Inc.",
-      "time": "time-not-supplied",
-      "eps_forecast": "$0.90",
-      "last_year_eps": "$1.42",
-      "market_cap": "$11,760,569,300"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "UHS",
-      "company": "Universal Health Services, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$5.33",
-      "last_year_eps": "$5.69",
-      "market_cap": "$11,042,345,000"
+      "market_cap": "$10,927,157,200"
     },
     {
       "date": "2026-10-27",
@@ -2591,7 +746,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$3.22",
       "last_year_eps": "$2.70",
-      "market_cap": "$10,006,416,400"
+      "market_cap": "$10,341,356,500"
     },
     {
       "date": "2026-10-27",
@@ -2600,7 +755,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.66",
       "last_year_eps": "$0.52",
-      "market_cap": "$9,679,005,700"
+      "market_cap": "$10,249,183,200"
     },
     {
       "date": "2026-10-27",
@@ -2609,16 +764,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$1.80",
       "last_year_eps": "$1.74",
-      "market_cap": "$9,530,198,000"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "RGEN",
-      "company": "Repligen Corporation",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.46",
-      "last_year_eps": "$0.46",
-      "market_cap": "$9,010,209,800"
+      "market_cap": "$9,817,588,700"
     },
     {
       "date": "2026-10-27",
@@ -2627,7 +773,16 @@
       "time": "time-pre-market",
       "eps_forecast": "$1.07",
       "last_year_eps": "$1.24",
-      "market_cap": "$8,532,648,400"
+      "market_cap": "$8,850,327,600"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "RGEN",
+      "company": "Repligen Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.46",
+      "last_year_eps": "$0.46",
+      "market_cap": "$8,743,089,200"
     },
     {
       "date": "2026-10-27",
@@ -2636,7 +791,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.50",
       "last_year_eps": "$0.43",
-      "market_cap": "$7,767,415,800"
+      "market_cap": "$8,070,946,800"
     },
     {
       "date": "2026-10-27",
@@ -2645,16 +800,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$2.35",
       "last_year_eps": "$2.05",
-      "market_cap": "$7,040,564,200"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "MSA",
-      "company": "MSA Safety Incorporporated",
-      "time": "time-not-supplied",
-      "eps_forecast": "$2.12",
-      "last_year_eps": "$1.94",
-      "market_cap": "$7,013,147,100"
+      "market_cap": "$7,243,425,800"
     },
     {
       "date": "2026-10-27",
@@ -2663,34 +809,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.66",
       "last_year_eps": "$0.65",
-      "market_cap": "$6,881,329,200"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "CHE",
-      "company": "Chemed Corp.",
-      "time": "time-after-hours",
-      "eps_forecast": "$5.93",
-      "last_year_eps": "$4.94",
-      "market_cap": "$6,736,780,800"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "ALKS",
-      "company": "Alkermes plc",
-      "time": "time-not-supplied",
-      "eps_forecast": "($0.08)",
-      "last_year_eps": "$0.49",
-      "market_cap": "$6,727,307,300"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "NOV",
-      "company": "NOV Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.24",
-      "last_year_eps": "$0.11",
-      "market_cap": "$6,644,752,400"
+      "market_cap": "$7,039,432,200"
     },
     {
       "date": "2026-10-27",
@@ -2699,25 +818,25 @@
       "time": "time-pre-market",
       "eps_forecast": "$0.61",
       "last_year_eps": "$0.38",
-      "market_cap": "$6,585,955,800"
+      "market_cap": "$6,954,812,400"
     },
     {
       "date": "2026-10-27",
-      "ticker": "ST",
-      "company": "Sensata Technologies Holding plc",
+      "ticker": "CHE",
+      "company": "Chemed Corp.",
       "time": "time-after-hours",
-      "eps_forecast": "$0.96",
-      "last_year_eps": "$0.89",
-      "market_cap": "$6,012,086,300"
+      "eps_forecast": "$5.93",
+      "last_year_eps": "$4.94",
+      "market_cap": "$6,798,340,100"
     },
     {
       "date": "2026-10-27",
-      "ticker": "CZR",
-      "company": "Caesars Entertainment, Inc.",
+      "ticker": "NOV",
+      "company": "NOV Inc.",
       "time": "time-after-hours",
-      "eps_forecast": "($0.07)",
-      "last_year_eps": "($0.27)",
-      "market_cap": "$5,958,820,900"
+      "eps_forecast": "$0.24",
+      "last_year_eps": "$0.11",
+      "market_cap": "$6,687,529,500"
     },
     {
       "date": "2026-10-27",
@@ -2726,7 +845,25 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.44",
       "last_year_eps": "$0.38",
-      "market_cap": "$5,928,048,600"
+      "market_cap": "$6,505,692,200"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "ST",
+      "company": "Sensata Technologies Holding plc",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.96",
+      "last_year_eps": "$0.89",
+      "market_cap": "$5,923,309,600"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "CZR",
+      "company": "Caesars Entertainment, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "($0.12)",
+      "last_year_eps": "($0.27)",
+      "market_cap": "$5,922,151,400"
     },
     {
       "date": "2026-10-27",
@@ -2735,16 +872,16 @@
       "time": "time-after-hours",
       "eps_forecast": "$1.62",
       "last_year_eps": "$1.22",
-      "market_cap": "$5,852,762,100"
+      "market_cap": "$5,748,575,700"
     },
     {
       "date": "2026-10-27",
       "ticker": "CAKE",
       "company": "The Cheesecake Factory Incorporated",
       "time": "time-after-hours",
-      "eps_forecast": "$0.89",
+      "eps_forecast": "$0.95",
       "last_year_eps": "$0.68",
-      "market_cap": "$5,801,592,300"
+      "market_cap": "$5,595,085,800"
     },
     {
       "date": "2026-10-27",
@@ -2753,7 +890,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.64",
       "last_year_eps": "$0.55",
-      "market_cap": "$5,241,193,000"
+      "market_cap": "$5,315,900,400"
     },
     {
       "date": "2026-10-27",
@@ -2762,7 +899,7 @@
       "time": "time-not-supplied",
       "eps_forecast": "$0.46",
       "last_year_eps": "$0.42",
-      "market_cap": "$5,128,642,000"
+      "market_cap": "$4,977,850,900"
     },
     {
       "date": "2026-10-27",
@@ -2771,34 +908,16 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.18",
       "last_year_eps": "$0.51",
-      "market_cap": "$4,072,698,110"
+      "market_cap": "$4,142,734,590"
     },
     {
       "date": "2026-10-27",
       "ticker": "TNL",
       "company": "Travel   Leisure Co.",
       "time": "time-pre-market",
-      "eps_forecast": "$2.05",
+      "eps_forecast": "$2.04",
       "last_year_eps": "$1.80",
-      "market_cap": "$3,996,024,320"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "MIR",
-      "company": "Mirion Technologies, Inc.",
-      "time": "time-not-supplied",
-      "eps_forecast": "$0.12",
-      "last_year_eps": "$0.11",
-      "market_cap": "$3,870,044,930"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "ITRI",
-      "company": "Itron, Inc.",
-      "time": "time-pre-market",
-      "eps_forecast": "$1.57",
-      "last_year_eps": "$1.54",
-      "market_cap": "$3,711,803,140"
+      "market_cap": "$4,120,268,800"
     },
     {
       "date": "2026-10-27",
@@ -2807,7 +926,16 @@
       "time": "time-pre-market",
       "eps_forecast": "",
       "last_year_eps": "$0.63",
-      "market_cap": "$3,689,584,900"
+      "market_cap": "$3,980,168,700"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "ITRI",
+      "company": "Itron, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.57",
+      "last_year_eps": "$1.54",
+      "market_cap": "$3,860,677,890"
     },
     {
       "date": "2026-10-27",
@@ -2816,7 +944,16 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.94",
       "last_year_eps": "$0.77",
-      "market_cap": "$3,635,155,460"
+      "market_cap": "$3,787,801,090"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "MIR",
+      "company": "Mirion Technologies, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.12",
+      "last_year_eps": "$0.11",
+      "market_cap": "$3,715,641,600"
     },
     {
       "date": "2026-10-27",
@@ -2825,7 +962,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.82",
       "last_year_eps": "$0.76",
-      "market_cap": "$3,303,293,180"
+      "market_cap": "$3,414,770,180"
     },
     {
       "date": "2026-10-27",
@@ -2834,16 +971,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.88",
       "last_year_eps": "$0.86",
-      "market_cap": "$3,222,044,420"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "SBCF",
-      "company": "Seacoast Banking Corporation of Florida",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.65",
-      "last_year_eps": "$0.52",
-      "market_cap": "$3,139,963,390"
+      "market_cap": "$3,361,030,140"
     },
     {
       "date": "2026-10-27",
@@ -2852,25 +980,16 @@
       "time": "time-pre-market",
       "eps_forecast": "$1.19",
       "last_year_eps": "$1.04",
-      "market_cap": "$3,139,591,170"
+      "market_cap": "$3,281,654,020"
     },
     {
       "date": "2026-10-27",
-      "ticker": "KAI",
-      "company": "Kadant Inc",
-      "time": "time-not-supplied",
-      "eps_forecast": "$3",
-      "last_year_eps": "$2.59",
-      "market_cap": "$3,055,254,780"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "ABG",
-      "company": "Asbury Automotive Group Inc",
-      "time": "time-pre-market",
-      "eps_forecast": "$6.49",
-      "last_year_eps": "$7.17",
-      "market_cap": "$3,049,492,220"
+      "ticker": "SBCF",
+      "company": "Seacoast Banking Corporation of Florida",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.65",
+      "last_year_eps": "$0.52",
+      "market_cap": "$3,258,087,170"
     },
     {
       "date": "2026-10-27",
@@ -2879,16 +998,25 @@
       "time": "time-pre-market",
       "eps_forecast": "$0.62",
       "last_year_eps": "$0.41",
-      "market_cap": "$3,043,769,600"
+      "market_cap": "$3,225,860,860"
     },
     {
       "date": "2026-10-27",
-      "ticker": "RCUS",
-      "company": "Arcus Biosciences, Inc.",
+      "ticker": "KAI",
+      "company": "Kadant Inc",
       "time": "time-not-supplied",
-      "eps_forecast": "($0.93)",
-      "last_year_eps": "($1.27)",
-      "market_cap": "$2,905,747,710"
+      "eps_forecast": "$3",
+      "last_year_eps": "$2.59",
+      "market_cap": "$3,158,938,880"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "ABG",
+      "company": "Asbury Automotive Group Inc",
+      "time": "time-pre-market",
+      "eps_forecast": "$6.46",
+      "last_year_eps": "$7.17",
+      "market_cap": "$3,113,401,090"
     },
     {
       "date": "2026-10-27",
@@ -2897,7 +1025,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.45",
       "last_year_eps": "$0.38",
-      "market_cap": "$2,723,067,140"
+      "market_cap": "$2,802,042,370"
     },
     {
       "date": "2026-10-27",
@@ -2906,7 +1034,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.98",
       "last_year_eps": "$1.02",
-      "market_cap": "$2,655,940,610"
+      "market_cap": "$2,788,899,840"
     },
     {
       "date": "2026-10-27",
@@ -2915,7 +1043,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$1.09",
       "last_year_eps": "$1.05",
-      "market_cap": "$2,634,894,590"
+      "market_cap": "$2,742,971,650"
     },
     {
       "date": "2026-10-27",
@@ -2924,25 +1052,7 @@
       "time": "time-after-hours",
       "eps_forecast": "$1",
       "last_year_eps": "$0.94",
-      "market_cap": "$2,605,626,880"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "UCTT",
-      "company": "Ultra Clean Holdings, Inc.",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.81",
-      "last_year_eps": "$0.20",
-      "market_cap": "$2,527,816,450"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "ROG",
-      "company": "Rogers Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$1.20",
-      "last_year_eps": "$0.90",
-      "market_cap": "$2,461,899,260"
+      "market_cap": "$2,691,571,200"
     },
     {
       "date": "2026-10-27",
@@ -2951,7 +1061,16 @@
       "time": "time-pre-market",
       "eps_forecast": "$3.34",
       "last_year_eps": "$3.29",
-      "market_cap": "$2,451,431,680"
+      "market_cap": "$2,508,285,180"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "RCUS",
+      "company": "Arcus Biosciences, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "($0.92)",
+      "last_year_eps": "($1.27)",
+      "market_cap": "$2,465,174,270"
     },
     {
       "date": "2026-10-27",
@@ -2960,16 +1079,16 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.49",
       "last_year_eps": "$0.47",
-      "market_cap": "$2,329,995,520"
+      "market_cap": "$2,350,269,950"
     },
     {
       "date": "2026-10-27",
-      "ticker": "MCRI",
-      "company": "Monarch Casino & Resort, Inc.",
+      "ticker": "ROG",
+      "company": "Rogers Corporation",
       "time": "time-after-hours",
-      "eps_forecast": "$1.91",
-      "last_year_eps": "$1.69",
-      "market_cap": "$2,070,768,130"
+      "eps_forecast": "$1.19",
+      "last_year_eps": "$0.90",
+      "market_cap": "$2,303,049,730"
     },
     {
       "date": "2026-10-27",
@@ -2978,34 +1097,43 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.46",
       "last_year_eps": "$0.39",
-      "market_cap": "$2,043,350,780"
+      "market_cap": "$2,128,237,820"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "MCRI",
+      "company": "Monarch Casino & Resort, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.91",
+      "last_year_eps": "$1.69",
+      "market_cap": "$2,034,206,080"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "UCTT",
+      "company": "Ultra Clean Holdings, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.81",
+      "last_year_eps": "$0.20",
+      "market_cap": "$2,013,016,700"
     },
     {
       "date": "2026-10-27",
       "ticker": "WERN",
       "company": "Werner Enterprises, Inc.",
       "time": "time-after-hours",
-      "eps_forecast": "$0.37",
+      "eps_forecast": "$0.16",
       "last_year_eps": "($0.03)",
-      "market_cap": "$2,002,637,180"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "HOPE",
-      "company": "Hope Bancorp, Inc.",
-      "time": "time-not-supplied",
-      "eps_forecast": "$0.30",
-      "last_year_eps": "$0.25",
-      "market_cap": "$1,711,740,540"
+      "market_cap": "$1,750,133,380"
     },
     {
       "date": "2026-10-27",
       "ticker": "NBHC",
       "company": "National Bank Holdings Corporation",
       "time": "time-after-hours",
-      "eps_forecast": "$0.59",
+      "eps_forecast": "$0.36",
       "last_year_eps": "$0.96",
-      "market_cap": "$1,680,922,500"
+      "market_cap": "$1,735,260,800"
     },
     {
       "date": "2026-10-27",
@@ -3014,7 +1142,7 @@
       "time": "time-pre-market",
       "eps_forecast": "$0.66",
       "last_year_eps": "$0.60",
-      "market_cap": "$1,578,872,060"
+      "market_cap": "$1,528,613,120"
     },
     {
       "date": "2026-10-27",
@@ -3023,34 +1151,16 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.50",
       "last_year_eps": "$0.49",
-      "market_cap": "$1,317,120,380"
+      "market_cap": "$1,307,295,740"
     },
     {
       "date": "2026-10-27",
       "ticker": "JBLU",
       "company": "JetBlue Airways Corporation",
       "time": "time-pre-market",
-      "eps_forecast": "($0.52)",
+      "eps_forecast": "($0.55)",
       "last_year_eps": "($0.40)",
-      "market_cap": "$1,188,533,380"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "SMPL",
-      "company": "The Simply Good Foods Company",
-      "time": "time-pre-market",
-      "eps_forecast": "$0.38",
-      "last_year_eps": "$0.44",
-      "market_cap": "$984,565,890"
-    },
-    {
-      "date": "2026-10-27",
-      "ticker": "HAFC",
-      "company": "Hanmi Financial Corporation",
-      "time": "time-after-hours",
-      "eps_forecast": "$0.81",
-      "last_year_eps": "$0.73",
-      "market_cap": "$917,347,970"
+      "market_cap": "$999,877,250"
     },
     {
       "date": "2026-10-27",
@@ -3059,7 +1169,25 @@
       "time": "time-after-hours",
       "eps_forecast": "$0.03",
       "last_year_eps": "$0.48",
-      "market_cap": "$909,665,730"
+      "market_cap": "$984,958,980"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "SMPL",
+      "company": "The Simply Good Foods Company",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.38",
+      "last_year_eps": "$0.44",
+      "market_cap": "$980,142,850"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "HAFC",
+      "company": "Hanmi Financial Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.81",
+      "last_year_eps": "$0.73",
+      "market_cap": "$955,891,970"
     },
     {
       "date": "2026-10-27",
@@ -3068,7 +1196,3670 @@
       "time": "time-not-supplied",
       "eps_forecast": "",
       "last_year_eps": "$0.15",
-      "market_cap": "$826,772,420"
+      "market_cap": "$849,904,130"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "GOOG",
+      "company": "Alphabet Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.94",
+      "last_year_eps": "$2.87",
+      "market_cap": "$3,965,210,590,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "GOOGL",
+      "company": "Alphabet Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.94",
+      "last_year_eps": "$2.87",
+      "market_cap": "$3,965,210,590,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "MSFT",
+      "company": "Microsoft Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$4.71",
+      "last_year_eps": "$4.13",
+      "market_cap": "$3,869,762,390,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "GEV",
+      "company": "GE Vernova Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$4.03",
+      "last_year_eps": "$1.64",
+      "market_cap": "$220,369,732,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "KLAC",
+      "company": "KLA Corporation ",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.18",
+      "last_year_eps": "$0.88",
+      "market_cap": "$192,919,110,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "APH",
+      "company": "Amphenol Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.73",
+      "last_year_eps": "$0.47",
+      "market_cap": "$180,188,201,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "TMUS",
+      "company": "T-Mobile US, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.86",
+      "last_year_eps": "$2.59",
+      "market_cap": "$170,329,522,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "NOW",
+      "company": "ServiceNow, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.56",
+      "last_year_eps": "$0.59",
+      "market_cap": "$162,337,997,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "FTNT",
+      "company": "Fortinet, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.77",
+      "last_year_eps": "$0.65",
+      "market_cap": "$126,917,788,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "ADP",
+      "company": "Automatic Data Processing, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.78",
+      "last_year_eps": "$2.49",
+      "market_cap": "$122,021,700,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "PSX",
+      "company": "Phillips 66",
+      "time": "time-pre-market",
+      "eps_forecast": "$12.02",
+      "last_year_eps": "$2.52",
+      "market_cap": "$113,573,323,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "EQIX",
+      "company": "Equinix, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$9.28",
+      "last_year_eps": "$9.83",
+      "market_cap": "$93,996,622,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "VRT",
+      "company": "Vertiv Holdings, LLC",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.82",
+      "last_year_eps": "$1.24",
+      "market_cap": "$75,299,840,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "ORLY",
+      "company": "O'Reilly Automotive, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.93",
+      "last_year_eps": "$0.85",
+      "market_cap": "$74,424,394,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "FDX",
+      "company": "FedEx Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$3.24",
+      "last_year_eps": "$3.83",
+      "market_cap": "$71,928,881,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "AEP",
+      "company": "American Electric Power Company, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.04",
+      "last_year_eps": "$1.80",
+      "market_cap": "$71,120,069,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "BSX",
+      "company": "Boston Scientific Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.76",
+      "last_year_eps": "$0.75",
+      "market_cap": "$66,679,050,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "AON",
+      "company": "Aon plc",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.34",
+      "last_year_eps": "$3.05",
+      "market_cap": "$65,080,082,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "CVNA",
+      "company": "Carvana Co.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.47",
+      "last_year_eps": "$0.21",
+      "market_cap": "$64,619,233,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "TEL",
+      "company": "TE Connectivity plc",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.08",
+      "last_year_eps": "$2.44",
+      "market_cap": "$60,340,347,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "GRMN",
+      "company": "Garmin Ltd.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.38",
+      "last_year_eps": "$1.99",
+      "market_cap": "$56,968,638,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "EBAY",
+      "company": "eBay Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.11",
+      "last_year_eps": "$1.10",
+      "market_cap": "$54,307,799,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "HONA",
+      "company": "Honeywell Aerospace Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.90",
+      "last_year_eps": "N/A",
+      "market_cap": "$51,669,635,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "F",
+      "company": "Ford Motor Company",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.39",
+      "last_year_eps": "$0.45",
+      "market_cap": "$46,765,920,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "ODFL",
+      "company": "Old Dominion Freight Line, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.61",
+      "last_year_eps": "$1.28",
+      "market_cap": "$39,374,950,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "BIIB",
+      "company": "Biogen Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.08",
+      "last_year_eps": "$4.81",
+      "market_cap": "$37,505,876,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "CMG",
+      "company": "Chipotle Mexican Grill, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.29",
+      "last_year_eps": "$0.29",
+      "market_cap": "$35,608,863,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "GEHC",
+      "company": "GE HealthCare Technologies Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.21",
+      "last_year_eps": "$1.07",
+      "market_cap": "$32,259,432,400"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "RJF",
+      "company": "Raymond James Financial, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$3.28",
+      "last_year_eps": "$3.11",
+      "market_cap": "$30,622,060,500"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "OTIS",
+      "company": "Otis Worldwide Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$1",
+      "last_year_eps": "$1.05",
+      "market_cap": "$28,778,602,500"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "AWK",
+      "company": "American Water Works",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.11",
+      "last_year_eps": "$1.94",
+      "market_cap": "$28,463,953,900"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "FLEX",
+      "company": "Flex Ltd.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.97",
+      "last_year_eps": "$0.70",
+      "market_cap": "$28,333,922,300"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "LH",
+      "company": "Labcorp Holdings Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$4.65",
+      "last_year_eps": "$4.18",
+      "market_cap": "$26,757,322,800"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "VICI",
+      "company": "VICI Properties Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.62",
+      "last_year_eps": "$0.60",
+      "market_cap": "$26,447,882,200"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "SW",
+      "company": "Smurfit WestRock plc",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.60",
+      "last_year_eps": "$0.58",
+      "market_cap": "$22,255,507,500"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "DINO",
+      "company": "HF Sinclair Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$7.95",
+      "last_year_eps": "$2.44",
+      "market_cap": "$21,746,520,100"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "NI",
+      "company": "NiSource, Inc",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.22",
+      "last_year_eps": "$0.19",
+      "market_cap": "$20,951,980,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "FTV",
+      "company": "Fortive Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.70",
+      "last_year_eps": "$0.68",
+      "market_cap": "$18,136,123,400"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "IP",
+      "company": "International Paper Company",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.30",
+      "last_year_eps": "($0.43)",
+      "market_cap": "$17,835,913,200"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "CLH",
+      "company": "Clean Harbors, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.18",
+      "last_year_eps": "$2.21",
+      "market_cap": "$16,942,595,100"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "IEX",
+      "company": "IDEX Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.23",
+      "last_year_eps": "$2.03",
+      "market_cap": "$16,725,569,500"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "CHRW",
+      "company": "C.H. Robinson Worldwide, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.72",
+      "last_year_eps": "$1.40",
+      "market_cap": "$16,629,102,600"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "INVH",
+      "company": "Invitation Homes Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.47",
+      "last_year_eps": "$0.47",
+      "market_cap": "$16,259,857,400"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "TYL",
+      "company": "Tyler Technologies, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.70",
+      "last_year_eps": "$2.32",
+      "market_cap": "$16,071,719,900"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "EG",
+      "company": "Everest Group, Ltd.",
+      "time": "time-after-hours",
+      "eps_forecast": "$9.32",
+      "last_year_eps": "$7.54",
+      "market_cap": "$15,626,965,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "MAS",
+      "company": "Masco Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.01",
+      "last_year_eps": "$0.97",
+      "market_cap": "$15,390,479,400"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "GEN",
+      "company": "Gen Digital Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.65",
+      "last_year_eps": "$0.53",
+      "market_cap": "$14,898,831,400"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "JLL",
+      "company": "Jones Lang LaSalle Incorporated",
+      "time": "time-pre-market",
+      "eps_forecast": "$6.01",
+      "last_year_eps": "$4.50",
+      "market_cap": "$14,323,141,600"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "MAA",
+      "company": "Mid-America Apartment Communities, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.10",
+      "last_year_eps": "$2.16",
+      "market_cap": "$14,058,380,300"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "CSL",
+      "company": "Carlisle Companies Incorporated",
+      "time": "time-after-hours",
+      "eps_forecast": "$5.95",
+      "last_year_eps": "$5.61",
+      "market_cap": "$14,003,203,100"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "PAG",
+      "company": "Penske Automotive Group, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.44",
+      "last_year_eps": "$3.23",
+      "market_cap": "$13,927,751,700"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "LII",
+      "company": "Lennox International, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$7.18",
+      "last_year_eps": "$6.98",
+      "market_cap": "$13,088,819,200"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "EHC",
+      "company": "Encompass Health Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.37",
+      "last_year_eps": "$1.23",
+      "market_cap": "$12,431,312,900"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "AR",
+      "company": "Antero Resources Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.91",
+      "last_year_eps": "$0.10",
+      "market_cap": "$12,002,418,700"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "NXT",
+      "company": "Nextpower Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.86",
+      "last_year_eps": "$1",
+      "market_cap": "$11,778,762,800"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "AVTR",
+      "company": "Avantor, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.21",
+      "last_year_eps": "$0.22",
+      "market_cap": "$11,599,554,600"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "SCI",
+      "company": "Service Corporation International",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.98",
+      "last_year_eps": "$0.87",
+      "market_cap": "$11,433,684,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "STRL",
+      "company": "Sterling Infrastructure, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$5.80",
+      "last_year_eps": "$3.33",
+      "market_cap": "$11,404,316,700"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "GNRC",
+      "company": "Generac Holdings Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.38",
+      "last_year_eps": "$1.83",
+      "market_cap": "$11,094,376,400"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "ALGN",
+      "company": "Align Technology, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.32",
+      "last_year_eps": "$2.07",
+      "market_cap": "$11,047,407,600"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "GKOS",
+      "company": "Glaukos Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "($0.12)",
+      "last_year_eps": "($0.16)",
+      "market_cap": "$10,421,871,600"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "OGE",
+      "company": "OGE Energy Corp",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.30",
+      "last_year_eps": "$1.14",
+      "market_cap": "$10,105,956,400"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "EVR",
+      "company": "Evercore Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.61",
+      "last_year_eps": "$3.48",
+      "market_cap": "$9,821,731,800"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "AM",
+      "company": "Antero Midstream Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.29",
+      "last_year_eps": "$0.24",
+      "market_cap": "$9,783,030,800"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "MUSA",
+      "company": "Murphy USA Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$8.42",
+      "last_year_eps": "$7.25",
+      "market_cap": "$9,780,183,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "HLI",
+      "company": "Houlihan Lokey, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.58",
+      "last_year_eps": "$1.84",
+      "market_cap": "$9,311,677,400"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "LFUS",
+      "company": "Littelfuse, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$4.95",
+      "last_year_eps": "$2.95",
+      "market_cap": "$8,896,672,800"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "FLS",
+      "company": "Flowserve Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.98",
+      "last_year_eps": "$0.90",
+      "market_cap": "$8,613,162,000"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "PB",
+      "company": "Prosperity Bancshares, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.63",
+      "last_year_eps": "$1.45",
+      "market_cap": "$8,394,347,500"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "MORN",
+      "company": "Morningstar, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "",
+      "last_year_eps": "$2.55",
+      "market_cap": "$8,377,905,700"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "THG",
+      "company": "The Hanover Insurance Group, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$4.47",
+      "last_year_eps": "$5.09",
+      "market_cap": "$8,342,576,600"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "ETSY",
+      "company": "Etsy, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.84",
+      "last_year_eps": "$0.63",
+      "market_cap": "$8,335,618,600"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "NEU",
+      "company": "NewMarket Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "",
+      "last_year_eps": "$10.67",
+      "market_cap": "$8,059,086,300"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "EAT",
+      "company": "Brinker International, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.49",
+      "last_year_eps": "$1.93",
+      "market_cap": "$7,962,046,500"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "MGM",
+      "company": "MGM Resorts International",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.15",
+      "last_year_eps": "$0.24",
+      "market_cap": "$7,620,532,700"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "FORM",
+      "company": "FormFactor, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.77",
+      "last_year_eps": "$0.21",
+      "market_cap": "$7,423,812,600"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "KEX",
+      "company": "Kirby Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.96",
+      "last_year_eps": "$1.65",
+      "market_cap": "$6,943,200,300"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "VFC",
+      "company": "V.F. Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.54",
+      "last_year_eps": "$0.52",
+      "market_cap": "$6,871,992,300"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "WEX",
+      "company": "WEX Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$4.92",
+      "last_year_eps": "$3.77",
+      "market_cap": "$6,752,930,300"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "PPC",
+      "company": "Pilgrim's Pride Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.48",
+      "last_year_eps": "$1.52",
+      "market_cap": "$6,688,468,500"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "SFM",
+      "company": "Sprouts Farmers Market, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.22",
+      "last_year_eps": "$1.22",
+      "market_cap": "$6,421,031,400"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "TEX",
+      "company": "Terex Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.42",
+      "last_year_eps": "$1.50",
+      "market_cap": "$5,956,172,800"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "CHDN",
+      "company": "Churchill Downs, Incorporated",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.24",
+      "last_year_eps": "$1.09",
+      "market_cap": "$5,886,185,500"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "PLXS",
+      "company": "Plexus Corp.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.26",
+      "last_year_eps": "$1.87",
+      "market_cap": "$5,884,250,600"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "PSN",
+      "company": "Parsons Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.70",
+      "last_year_eps": "$0.77",
+      "market_cap": "$5,105,297,900"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "PI",
+      "company": "Impinj, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.19",
+      "last_year_eps": "$0.13",
+      "market_cap": "$4,971,203,100"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "WHD",
+      "company": "Cactus, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.77",
+      "last_year_eps": "$0.67",
+      "market_cap": "$4,841,233,400"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "CHEF",
+      "company": "The Chefs' Warehouse, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.59",
+      "last_year_eps": "$0.50",
+      "market_cap": "$4,663,589,400"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "UFPI",
+      "company": "UFP Industries, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.20",
+      "last_year_eps": "$1.29",
+      "market_cap": "$4,618,120,200"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "FELE",
+      "company": "Franklin Electric Co., Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.40",
+      "last_year_eps": "$1.30",
+      "market_cap": "$4,386,219,500"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "PTEN",
+      "company": "Patterson-UTI Energy, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.04",
+      "last_year_eps": "($0.06)",
+      "market_cap": "$4,324,904,400"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "QTWO",
+      "company": "Q2 Holdings, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.46",
+      "last_year_eps": "$0.30",
+      "market_cap": "$4,323,674,600"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "EPR",
+      "company": "EPR Properties",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.43",
+      "last_year_eps": "$1.39",
+      "market_cap": "$4,317,678,600"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "MTH",
+      "company": "Meritage Homes Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.18",
+      "last_year_eps": "$1.39",
+      "market_cap": "$4,147,027,460"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "OLED",
+      "company": "Universal Display Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.14",
+      "last_year_eps": "$0.92",
+      "market_cap": "$4,019,799,810"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "MYRG",
+      "company": "MYR Group, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$3.09",
+      "last_year_eps": "$2.05",
+      "market_cap": "$3,969,691,650"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "JOE",
+      "company": "St. Joe Company (The)",
+      "time": "time-after-hours",
+      "eps_forecast": "",
+      "last_year_eps": "$0.67",
+      "market_cap": "$3,953,819,900"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "RSI",
+      "company": "Rush Street Interactive, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.10",
+      "last_year_eps": "$0.06",
+      "market_cap": "$3,791,812,100"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "BOOT",
+      "company": "Boot Barn Holdings, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.63",
+      "last_year_eps": "$1.37",
+      "market_cap": "$3,626,913,020"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "BNL",
+      "company": "Broadstone Net Lease, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.38",
+      "last_year_eps": "$0.37",
+      "market_cap": "$3,367,721,730"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "WING",
+      "company": "Wingstop Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.03",
+      "last_year_eps": "$1.09",
+      "market_cap": "$3,292,806,660"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "DAN",
+      "company": "Dana Incorporated",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.69",
+      "last_year_eps": "$0.17",
+      "market_cap": "$3,036,889,600"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "PFS",
+      "company": "Provident Financial Services, Inc",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.60",
+      "last_year_eps": "$0.55",
+      "market_cap": "$3,015,371,010"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "EXTR",
+      "company": "Extreme Networks, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.15",
+      "last_year_eps": "$0.09",
+      "market_cap": "$2,913,042,180"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "GPI",
+      "company": "Group 1 Automotive, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$9.65",
+      "last_year_eps": "$10.45",
+      "market_cap": "$2,894,597,120"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "GRBK",
+      "company": "Green Brick Partners, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "",
+      "last_year_eps": "$1.77",
+      "market_cap": "$2,793,114,620"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "TR",
+      "company": "Tootsie Roll Industries, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "",
+      "last_year_eps": "$0.48",
+      "market_cap": "$2,791,914,500"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "HAYW",
+      "company": "Hayward Holdings, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.15",
+      "last_year_eps": "$0.14",
+      "market_cap": "$2,696,039,940"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "BLKB",
+      "company": "Blackbaud, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.93",
+      "last_year_eps": "$0.76",
+      "market_cap": "$2,563,632,640"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "UE",
+      "company": "Urban Edge Properties",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.39",
+      "last_year_eps": "$0.36",
+      "market_cap": "$2,468,079,360"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "OSW",
+      "company": "OneSpaWorld Holdings Limited",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.29",
+      "last_year_eps": "$0.27",
+      "market_cap": "$2,465,403,650"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "FCPT",
+      "company": "Four Corners Property Trust, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.45",
+      "last_year_eps": "$0.45",
+      "market_cap": "$2,420,128,770"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "PBI",
+      "company": "Pitney Bowes Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.36",
+      "last_year_eps": "$0.31",
+      "market_cap": "$2,404,562,430"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "BHE",
+      "company": "Benchmark Electronics, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.63",
+      "last_year_eps": "$0.50",
+      "market_cap": "$2,381,491,460"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "DBD",
+      "company": "Diebold Nixdorf Incorporated",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.31",
+      "last_year_eps": "$1.39",
+      "market_cap": "$2,351,140,610"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "MBIN",
+      "company": "Merchants Bancorp",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.39",
+      "last_year_eps": "$0.97",
+      "market_cap": "$2,253,492,220"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "CNXN",
+      "company": "PC Connection, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.04",
+      "last_year_eps": "$0.97",
+      "market_cap": "$2,233,824,260"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "COHU",
+      "company": "Cohu, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.23",
+      "last_year_eps": "($0.16)",
+      "market_cap": "$2,189,875,970"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "NEO",
+      "company": "NeoGenomics, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "($0.01)",
+      "last_year_eps": "($0.05)",
+      "market_cap": "$2,105,712,510"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "CHCO",
+      "company": "City Holding Company",
+      "time": "time-not-supplied",
+      "eps_forecast": "$2.38",
+      "last_year_eps": "$2.41",
+      "market_cap": "$2,014,075,900"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "EPAC",
+      "company": "Enerpac Tool Group Corp.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.52",
+      "last_year_eps": "$0.52",
+      "market_cap": "$1,822,034,300"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "AIN",
+      "company": "Albany International Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.50",
+      "last_year_eps": "$0.71",
+      "market_cap": "$1,799,992,060"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "HOPE",
+      "company": "Hope Bancorp, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.30",
+      "last_year_eps": "$0.25",
+      "market_cap": "$1,794,772,740"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "EFOR",
+      "company": "Everforth, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.02",
+      "last_year_eps": "$1.31",
+      "market_cap": "$1,680,999,940"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "CCS",
+      "company": "Century Communities, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.22",
+      "last_year_eps": "$1.52",
+      "market_cap": "$1,658,775,420"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "CNMD",
+      "company": "CONMED Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$1",
+      "last_year_eps": "$1.08",
+      "market_cap": "$1,480,789,760"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "SCL",
+      "company": "Stepan Company",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.73",
+      "last_year_eps": "$0.48",
+      "market_cap": "$1,462,156,930"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "DMC",
+      "company": "Del Monte Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "",
+      "last_year_eps": "$0.69",
+      "market_cap": "$1,411,086,340"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "PRG",
+      "company": "PROG Holdings, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.06",
+      "last_year_eps": "$0.90",
+      "market_cap": "$1,267,840,900"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "CPF",
+      "company": "CPB Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.87",
+      "last_year_eps": "$0.73",
+      "market_cap": "$972,480,510"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "EIG",
+      "company": "Employers Holdings Inc",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.61",
+      "last_year_eps": "($1.10)",
+      "market_cap": "$946,877,890"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "JBSS",
+      "company": "John B. Sanfilippo & Son, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.50",
+      "last_year_eps": "$1.59",
+      "market_cap": "$798,313,920"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "ADAM",
+      "company": "Adamas Trust, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.30",
+      "last_year_eps": "$0.24",
+      "market_cap": "$698,055,680"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "SHEN",
+      "company": "Shenandoah Telecommunications Co",
+      "time": "time-pre-market",
+      "eps_forecast": "($0.20)",
+      "last_year_eps": "($0.20)",
+      "market_cap": "$549,656,190"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "FBRT",
+      "company": "Franklin BSP Realty Trust, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.22",
+      "last_year_eps": "$0.17",
+      "market_cap": "$519,033,856"
+    },
+    {
+      "date": "2026-10-28",
+      "ticker": "AMSF",
+      "company": "AMERISAFE, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.47",
+      "last_year_eps": "$0.55",
+      "market_cap": "$492,688,416"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "AMZN",
+      "company": "Amazon.com, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.01",
+      "last_year_eps": "$1.95",
+      "market_cap": "$2,700,677,220,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "LLY",
+      "company": "Eli Lilly and Company",
+      "time": "time-pre-market",
+      "eps_forecast": "$5.38",
+      "last_year_eps": "$7.02",
+      "market_cap": "$1,230,061,830,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "MA",
+      "company": "Mastercard Incorporated",
+      "time": "time-pre-market",
+      "eps_forecast": "$5.14",
+      "last_year_eps": "$4.38",
+      "market_cap": "$554,698,280,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.28",
+      "last_year_eps": "$0.11",
+      "market_cap": "$451,820,585,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "MRK",
+      "company": "Merck & Company, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.12",
+      "last_year_eps": "$2.58",
+      "market_cap": "$363,266,343,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CAT",
+      "company": "Caterpillar, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$7.12",
+      "last_year_eps": "$4.95",
+      "market_cap": "$323,634,102,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "LIN",
+      "company": "Linde plc",
+      "time": "time-pre-market",
+      "eps_forecast": "$4.52",
+      "last_year_eps": "$4.21",
+      "market_cap": "$235,265,835,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "GILD",
+      "company": "Gilead Sciences, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.17",
+      "last_year_eps": "$2.47",
+      "market_cap": "$194,908,553,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SNDK",
+      "company": "Sandisk Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$45.22",
+      "last_year_eps": "$0.90",
+      "market_cap": "$183,248,028,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "BMY",
+      "company": "Bristol-Myers Squibb Company",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.28",
+      "last_year_eps": "$1.63",
+      "market_cap": "$128,691,020,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "MO",
+      "company": "Altria Group",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.51",
+      "last_year_eps": "$1.45",
+      "market_cap": "$127,017,419,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SYK",
+      "company": "Stryker Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$3.56",
+      "last_year_eps": "$3.19",
+      "market_cap": "$117,787,607,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SBUX",
+      "company": "Starbucks Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.73",
+      "last_year_eps": "$0.52",
+      "market_cap": "$116,177,404,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "TT",
+      "company": "Trane Technologies plc",
+      "time": "time-pre-market",
+      "eps_forecast": "$4.74",
+      "last_year_eps": "$3.88",
+      "market_cap": "$98,746,401,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "ICE",
+      "company": "Intercontinental Exchange Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.97",
+      "last_year_eps": "$1.71",
+      "market_cap": "$91,978,875,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "MDLZ",
+      "company": "Mondelez International, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.72",
+      "last_year_eps": "$0.73",
+      "market_cap": "$83,202,523,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "PWR",
+      "company": "Quanta Services, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$4.68",
+      "last_year_eps": "$3.08",
+      "market_cap": "$81,390,862,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "HWM",
+      "company": "Howmet Aerospace Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.37",
+      "last_year_eps": "$0.95",
+      "market_cap": "$77,084,320,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "RSG",
+      "company": "Republic Services, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.92",
+      "last_year_eps": "$1.90",
+      "market_cap": "$74,072,916,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "AJG",
+      "company": "Arthur J. Gallagher & Co.",
+      "time": "time-after-hours",
+      "eps_forecast": "$3.01",
+      "last_year_eps": "$2.32",
+      "market_cap": "$69,452,177,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "DLR",
+      "company": "Digital Realty Trust, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.97",
+      "last_year_eps": "$1.89",
+      "market_cap": "$63,253,983,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CRH",
+      "company": "CRH PLC",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.14",
+      "last_year_eps": "$2.21",
+      "market_cap": "$57,851,007,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "MPWR",
+      "company": "Monolithic Power Systems, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$6.80",
+      "last_year_eps": "$3.72",
+      "market_cap": "$57,395,585,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "XEL",
+      "company": "Xcel Energy Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.37",
+      "last_year_eps": "$1.24",
+      "market_cap": "$49,283,645,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "LHX",
+      "company": "L3Harris Technologies, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$3",
+      "last_year_eps": "$2.70",
+      "market_cap": "$47,341,343,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CARR",
+      "company": "Carrier Global Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.81",
+      "last_year_eps": "$0.67",
+      "market_cap": "$46,557,880,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "AMP",
+      "company": "AMERIPRISE FINANCIAL SERVICES, LLC",
+      "time": "time-pre-market",
+      "eps_forecast": "$11.60",
+      "last_year_eps": "$9.92",
+      "market_cap": "$44,663,566,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "COIN",
+      "company": "Coinbase Global, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "($0.18)",
+      "last_year_eps": "$1.44",
+      "market_cap": "$44,612,186,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "DHI",
+      "company": "D.R. Horton, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.03",
+      "last_year_eps": "$3.04",
+      "market_cap": "$41,300,689,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "ARES",
+      "company": "Ares Management Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.25",
+      "last_year_eps": "$1.19",
+      "market_cap": "$40,855,294,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "ILMN",
+      "company": "Illumina, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.36",
+      "last_year_eps": "$1.34",
+      "market_cap": "$40,679,399,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "TWLO",
+      "company": "Twilio Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.74",
+      "last_year_eps": "$0.56",
+      "market_cap": "$38,951,285,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "WEC",
+      "company": "WEC Energy Group, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.95",
+      "last_year_eps": "$0.83",
+      "market_cap": "$36,544,008,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "RMD",
+      "company": "ResMed Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.67",
+      "last_year_eps": "$2.55",
+      "market_cap": "$35,590,169,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "HSY",
+      "company": "Hershey Company (The)",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.12",
+      "last_year_eps": "$1.30",
+      "market_cap": "$35,290,583,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "VMC",
+      "company": "Vulcan Materials Company",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.86",
+      "last_year_eps": "$2.84",
+      "market_cap": "$34,820,399,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CTSH",
+      "company": "Cognizant Technology Solutions Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.46",
+      "last_year_eps": "$1.39",
+      "market_cap": "$33,206,747,100"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "WTW",
+      "company": "Willis Towers Watson Public Limited Company",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.60",
+      "last_year_eps": "$3.07",
+      "market_cap": "$30,850,199,600"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "DXCM",
+      "company": "DexCom, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.66",
+      "last_year_eps": "$0.61",
+      "market_cap": "$29,554,894,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "EME",
+      "company": "EMCOR Group, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$8.33",
+      "last_year_eps": "$6.57",
+      "market_cap": "$29,130,618,900"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "RDDT",
+      "company": "Reddit, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.30",
+      "last_year_eps": "$0.80",
+      "market_cap": "$28,909,500,400"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "IR",
+      "company": "Ingersoll Rand Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.86",
+      "last_year_eps": "$0.83",
+      "market_cap": "$28,754,636,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "WST",
+      "company": "West Pharmaceutical Services, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.18",
+      "last_year_eps": "$1.96",
+      "market_cap": "$27,730,161,700"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "FTI",
+      "company": "TechnipFMC plc",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.88",
+      "last_year_eps": "$0.75",
+      "market_cap": "$26,204,424,200"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "VLTO",
+      "company": "Veralto Corp.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.10",
+      "last_year_eps": "$0.99",
+      "market_cap": "$25,573,920,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "INCY",
+      "company": "Incyte Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "($3.94)",
+      "last_year_eps": "$2.03",
+      "market_cap": "$23,701,446,700"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "EIX",
+      "company": "Edison International",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.79",
+      "last_year_eps": "$2.34",
+      "market_cap": "$22,280,728,600"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "XPO",
+      "company": "XPO, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.56",
+      "last_year_eps": "$1.07",
+      "market_cap": "$22,100,070,400"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "TROW",
+      "company": "T. Rowe Price Group, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.58",
+      "last_year_eps": "$2.81",
+      "market_cap": "$22,067,525,600"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "ATI",
+      "company": "ATI Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.36",
+      "last_year_eps": "$0.85",
+      "market_cap": "$22,037,815,300"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "THC",
+      "company": "Tenet Healthcare Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$4.60",
+      "last_year_eps": "$3.70",
+      "market_cap": "$21,790,857,200"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "BG",
+      "company": "Bunge Global SA",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.42",
+      "last_year_eps": "$2.27",
+      "market_cap": "$19,817,087,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "ENTG",
+      "company": "Entegris, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.04",
+      "last_year_eps": "$0.72",
+      "market_cap": "$19,605,768,200"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "FSLR",
+      "company": "First Solar, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$4.64",
+      "last_year_eps": "$4.24",
+      "market_cap": "$18,404,200,400"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "LNT",
+      "company": "Alliant Energy Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.23",
+      "last_year_eps": "$1.12",
+      "market_cap": "$18,227,714,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "APG",
+      "company": "APi Group Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.47",
+      "last_year_eps": "$0.41",
+      "market_cap": "$16,767,819,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "H",
+      "company": "Hyatt Hotels Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.68",
+      "last_year_eps": "($0.30)",
+      "market_cap": "$16,669,915,100"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "FDXF",
+      "company": "FedEx Freight Holding Company, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.38",
+      "last_year_eps": "N/A",
+      "market_cap": "$16,599,502,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "EXEL",
+      "company": "Exelixis, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.79",
+      "last_year_eps": "$0.67",
+      "market_cap": "$16,182,622,200"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "KIM",
+      "company": "Kimco Realty Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.46",
+      "last_year_eps": "$0.44",
+      "market_cap": "$15,823,921,200"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "WCC",
+      "company": "WESCO International, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$4.61",
+      "last_year_eps": "$3.92",
+      "market_cap": "$15,773,850,600"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "GDDY",
+      "company": "GoDaddy Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.82",
+      "last_year_eps": "$1.51",
+      "market_cap": "$14,530,290,700"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "WY",
+      "company": "Weyerhaeuser Company",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.05",
+      "last_year_eps": "$0.06",
+      "market_cap": "$14,284,987,400"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "AVY",
+      "company": "Avery Dennison Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.30",
+      "last_year_eps": "$2.37",
+      "market_cap": "$13,995,038,700"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "MTZ",
+      "company": "MasTec, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.83",
+      "last_year_eps": "$2.36",
+      "market_cap": "$13,776,313,300"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "TXT",
+      "company": "Textron Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.43",
+      "last_year_eps": "$1.55",
+      "market_cap": "$13,421,858,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "BAX",
+      "company": "Baxter International Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.51",
+      "last_year_eps": "$0.69",
+      "market_cap": "$13,260,947,500"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "PINS",
+      "company": "Pinterest, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.13",
+      "last_year_eps": "$0.14",
+      "market_cap": "$12,985,558,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "DTM",
+      "company": "DT Midstream, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.01",
+      "last_year_eps": "$1.13",
+      "market_cap": "$12,588,687,400"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "DVA",
+      "company": "DaVita Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$3.78",
+      "last_year_eps": "$2.51",
+      "market_cap": "$11,873,179,600"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "ERIE",
+      "company": "Erie Indemnity Company",
+      "time": "time-after-hours",
+      "eps_forecast": "$3.41",
+      "last_year_eps": "$3.50",
+      "market_cap": "$11,861,352,400"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "GLPI",
+      "company": "Gaming and Leisure Properties, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1",
+      "last_year_eps": "$0.97",
+      "market_cap": "$11,642,619,900"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "RYAN",
+      "company": "Ryan Specialty Holdings, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.49",
+      "last_year_eps": "$0.47",
+      "market_cap": "$11,381,199,900"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "BWA",
+      "company": "BorgWarner Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.24",
+      "last_year_eps": "$1.24",
+      "market_cap": "$11,295,336,400"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "HII",
+      "company": "Huntington Ingalls Industries, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$4.41",
+      "last_year_eps": "$3.68",
+      "market_cap": "$10,988,365,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "ARW",
+      "company": "Arrow Electronics, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "$4.98",
+      "last_year_eps": "$2.41",
+      "market_cap": "$10,659,595,300"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CFR",
+      "company": "Cullen/Frost Bankers, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.78",
+      "last_year_eps": "$2.67",
+      "market_cap": "$9,799,620,600"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "PBF",
+      "company": "PBF Energy Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$11.12",
+      "last_year_eps": "($0.52)",
+      "market_cap": "$9,394,043,900"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "LTH",
+      "company": "Life Time Group Holdings, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.41",
+      "last_year_eps": "$0.33",
+      "market_cap": "$9,383,167,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SIRI",
+      "company": "SiriusXM Holdings Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.76",
+      "last_year_eps": "$0.84",
+      "market_cap": "$9,282,822,100"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SAIA",
+      "company": "Saia, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.31",
+      "last_year_eps": "$2.81",
+      "market_cap": "$9,189,417,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CUBE",
+      "company": "CubeSmart",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.65",
+      "last_year_eps": "$0.65",
+      "market_cap": "$9,040,264,200"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "DAR",
+      "company": "Darling Ingredients Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.89",
+      "last_year_eps": "$0.12",
+      "market_cap": "$8,780,153,900"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "MHK",
+      "company": "Mohawk Industries, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.57",
+      "last_year_eps": "$2.67",
+      "market_cap": "$8,717,898,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "IDCC",
+      "company": "InterDigital, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.62",
+      "last_year_eps": "$2.39",
+      "market_cap": "$8,569,142,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "AOS",
+      "company": "A.O. Smith Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.90",
+      "last_year_eps": "$0.94",
+      "market_cap": "$8,490,208,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "OSK",
+      "company": "Oshkosh Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.01",
+      "last_year_eps": "$3.20",
+      "market_cap": "$8,291,031,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "IDA",
+      "company": "IDACORP, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.51",
+      "last_year_eps": "$2.26",
+      "market_cap": "$8,217,040,400"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "ATR",
+      "company": "AptarGroup, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.46",
+      "last_year_eps": "$1.62",
+      "market_cap": "$8,144,742,400"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SPXC",
+      "company": "SPX Technologies, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.15",
+      "last_year_eps": "$1.84",
+      "market_cap": "$8,014,238,200"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "AXTA",
+      "company": "Axalta Coating Systems Ltd.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.71",
+      "last_year_eps": "$0.67",
+      "market_cap": "$7,501,401,100"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "EMN",
+      "company": "Eastman Chemical Company",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.92",
+      "last_year_eps": "$1.14",
+      "market_cap": "$7,469,989,400"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "AGCO",
+      "company": "AGCO Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.87",
+      "last_year_eps": "$1.35",
+      "market_cap": "$7,435,268,600"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "ACA",
+      "company": "Arcosa, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "$1.56",
+      "last_year_eps": "$1.56",
+      "market_cap": "$7,324,280,300"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "NCLH",
+      "company": "Norwegian Cruise Line Holdings Ltd.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.86",
+      "last_year_eps": "$1.16",
+      "market_cap": "$7,135,779,300"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "FSS",
+      "company": "Federal Signal Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.32",
+      "last_year_eps": "$1.14",
+      "market_cap": "$7,052,747,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "HR",
+      "company": "Healthcare Realty Trust Incorporated",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.41",
+      "last_year_eps": "$0.41",
+      "market_cap": "$6,144,965,100"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "LGND",
+      "company": "Ligand Pharmaceuticals Incorporated",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.42",
+      "last_year_eps": "$5.68",
+      "market_cap": "$6,136,579,100"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "GATX",
+      "company": "GATX Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "",
+      "last_year_eps": "$2.10",
+      "market_cap": "$5,912,750,100"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "ALGM",
+      "company": "Allegro MicroSystems, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.18",
+      "last_year_eps": "$0.07",
+      "market_cap": "$5,907,080,700"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CACC",
+      "company": "Credit Acceptance Corporation",
+      "time": "time-not-supplied",
+      "eps_forecast": "$11.94",
+      "last_year_eps": "$10.28",
+      "market_cap": "$5,801,706,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CROX",
+      "company": "Crocs, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.31",
+      "last_year_eps": "$2.92",
+      "market_cap": "$5,800,874,500"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "LKQ",
+      "company": "LKQ Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.69",
+      "last_year_eps": "$0.84",
+      "market_cap": "$5,684,956,700"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "MMSI",
+      "company": "Merit Medical Systems, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.93",
+      "last_year_eps": "$0.79",
+      "market_cap": "$5,609,197,100"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SNDR",
+      "company": "Schneider National, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.29",
+      "last_year_eps": "$0.12",
+      "market_cap": "$5,455,364,100"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "LAUR",
+      "company": "Laureate Education, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.48",
+      "last_year_eps": "$0.25",
+      "market_cap": "$5,343,297,500"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CNX",
+      "company": "CNX Resources Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.61",
+      "last_year_eps": "$0.46",
+      "market_cap": "$5,286,026,200"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "POR",
+      "company": "Portland General Electric Company",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.07",
+      "last_year_eps": "$1",
+      "market_cap": "$5,280,587,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "PTCT",
+      "company": "PTC Therapeutics, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.17",
+      "last_year_eps": "$0.20",
+      "market_cap": "$5,261,368,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "AX",
+      "company": "Axos Financial, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.25",
+      "last_year_eps": "$2.07",
+      "market_cap": "$5,261,070,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CNO",
+      "company": "CNO Financial Group, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.09",
+      "last_year_eps": "$0.96",
+      "market_cap": "$5,134,936,100"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "FND",
+      "company": "Floor & Decor Holdings, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.58",
+      "last_year_eps": "$0.53",
+      "market_cap": "$5,129,621,500"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "KBR",
+      "company": "KBR, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.01",
+      "last_year_eps": "$1.02",
+      "market_cap": "$4,983,458,300"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CSW",
+      "company": "CSW Industrials, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.69",
+      "last_year_eps": "$2.96",
+      "market_cap": "$4,801,527,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CUZ",
+      "company": "Cousins Properties Incorporated",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.73",
+      "last_year_eps": "$0.69",
+      "market_cap": "$4,719,140,900"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "GVA",
+      "company": "Granite Construction Incorporated",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.21",
+      "last_year_eps": "$2.70",
+      "market_cap": "$4,702,496,800"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "OPCH",
+      "company": "Option Care Health, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "$0.44",
+      "last_year_eps": "$0.40",
+      "market_cap": "$4,686,780,400"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CVSA",
+      "company": "Covista Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.90",
+      "last_year_eps": "$1.75",
+      "market_cap": "$4,456,680,400"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "BC",
+      "company": "Brunswick Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.35",
+      "last_year_eps": "$0.97",
+      "market_cap": "$4,425,016,300"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "FCN",
+      "company": "FTI Consulting, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.65",
+      "last_year_eps": "$2.60",
+      "market_cap": "$4,351,308,300"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "FHI",
+      "company": "Federated Hermes, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.42",
+      "last_year_eps": "$1.34",
+      "market_cap": "$4,305,658,400"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CVCO",
+      "company": "Cavco Industries, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "$5.47",
+      "last_year_eps": "$6.55",
+      "market_cap": "$4,209,486,340"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SLGN",
+      "company": "Silgan Holdings Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.25",
+      "last_year_eps": "$1.22",
+      "market_cap": "$4,201,917,180"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "INDV",
+      "company": "Indivior Pharmaceuticals, Inc. ",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.93",
+      "last_year_eps": "$0.72",
+      "market_cap": "$4,170,068,220"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "BDC",
+      "company": "Belden Inc",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.30",
+      "last_year_eps": "$1.97",
+      "market_cap": "$4,043,029,760"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CDP",
+      "company": "COPT Defense Properties",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.69",
+      "last_year_eps": "$0.69",
+      "market_cap": "$3,836,675,840"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SKYW",
+      "company": "SkyWest, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$3.13",
+      "last_year_eps": "$2.81",
+      "market_cap": "$3,717,035,520"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "EXPO",
+      "company": "Exponent, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.60",
+      "last_year_eps": "$0.55",
+      "market_cap": "$3,666,278,660"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "LXP",
+      "company": "LXP Industrial Trust",
+      "time": "time-not-supplied",
+      "eps_forecast": "$0.85",
+      "last_year_eps": "$0.80",
+      "market_cap": "$3,601,699,330"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "BFAM",
+      "company": "Bright Horizons Family Solutions Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.65",
+      "last_year_eps": "$1.48",
+      "market_cap": "$3,450,188,540"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SPSC",
+      "company": "SPS Commerce, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.91",
+      "last_year_eps": "$0.85",
+      "market_cap": "$3,309,856,000"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "AAMI",
+      "company": "Acadian Asset Management Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.25",
+      "last_year_eps": "$0.76",
+      "market_cap": "$3,293,128,960"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "OSIS",
+      "company": "OSI Systems, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.64",
+      "last_year_eps": "$1.42",
+      "market_cap": "$3,196,205,060"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "COLM",
+      "company": "Columbia Sportswear Company",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.25",
+      "last_year_eps": "$1.41",
+      "market_cap": "$3,177,561,600"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "HOG",
+      "company": "Harley-Davidson, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.43",
+      "last_year_eps": "$3.10",
+      "market_cap": "$3,029,550,590"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SPNT",
+      "company": "SiriusPoint Ltd.",
+      "time": "time-not-supplied",
+      "eps_forecast": "$0.61",
+      "last_year_eps": "$0.72",
+      "market_cap": "$3,015,643,900"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SXI",
+      "company": "Standex International Corporation",
+      "time": "time-not-supplied",
+      "eps_forecast": "$2.34",
+      "last_year_eps": "$1.99",
+      "market_cap": "$2,984,396,030"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "CWT",
+      "company": "California Water  Service Group Holding",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.22",
+      "last_year_eps": "$1.03",
+      "market_cap": "$2,939,830,780"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "HGV",
+      "company": "Hilton Grand Vacations Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.01",
+      "last_year_eps": "$0.60",
+      "market_cap": "$2,882,011,390"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "KWR",
+      "company": "Quaker Houghton",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.16",
+      "last_year_eps": "$2.08",
+      "market_cap": "$2,694,037,760"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "DXC",
+      "company": "DXC Technology Company",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.55",
+      "last_year_eps": "$0.84",
+      "market_cap": "$2,569,241,340"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SUPN",
+      "company": "Supernus Pharmaceuticals, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.34",
+      "last_year_eps": "$0.46",
+      "market_cap": "$2,445,403,390"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "MD",
+      "company": "Pediatrix Medical Group, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.59",
+      "last_year_eps": "$0.64",
+      "market_cap": "$2,401,034,240"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "PEB",
+      "company": "Pebblebrook Hotel Trust",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.51",
+      "last_year_eps": "$0.51",
+      "market_cap": "$2,332,459,010"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "FTRE",
+      "company": "Fortrea Holdings Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.24",
+      "last_year_eps": "$0.12",
+      "market_cap": "$2,274,791,940"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "PATK",
+      "company": "Patrick Industries, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.99",
+      "last_year_eps": "$1.01",
+      "market_cap": "$2,256,950,530"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "PHIN",
+      "company": "PHINIA Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.74",
+      "last_year_eps": "$1.59",
+      "market_cap": "$2,093,500,290"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "TBBK",
+      "company": "The Bancorp, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.44",
+      "last_year_eps": "$1.18",
+      "market_cap": "$2,085,837,440"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "TRN",
+      "company": "Trinity Industries, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "",
+      "last_year_eps": "$0.38",
+      "market_cap": "$2,057,066,110"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "NSP",
+      "company": "Insperity, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "($0.05)",
+      "last_year_eps": "($0.63)",
+      "market_cap": "$2,042,683,010"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "PRLB",
+      "company": "Proto Labs, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.43",
+      "last_year_eps": "$0.30",
+      "market_cap": "$2,018,051,200"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SAH",
+      "company": "Sonic Automotive, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.66",
+      "last_year_eps": "$1.41",
+      "market_cap": "$1,996,158,590"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "MTX",
+      "company": "Minerals Technologies Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.45",
+      "last_year_eps": "$1.55",
+      "market_cap": "$1,994,419,840"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "INVX",
+      "company": "Innovex International, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.37",
+      "last_year_eps": "$0.18",
+      "market_cap": "$1,953,307,650"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "WKC",
+      "company": "World Kinect Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.96",
+      "last_year_eps": "$0.54",
+      "market_cap": "$1,867,034,110"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "BXMT",
+      "company": "Capital Trust, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.21",
+      "last_year_eps": "$0.19",
+      "market_cap": "$1,783,191,170"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "ALHC",
+      "company": "Alignment Healthcare, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "($0.04)",
+      "last_year_eps": "$0.02",
+      "market_cap": "$1,748,678,270"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "OMCL",
+      "company": "Omnicell, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.24",
+      "last_year_eps": "$0.32",
+      "market_cap": "$1,692,312,190"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "HUBG",
+      "company": "Hub Group, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "$0.26",
+      "last_year_eps": "$0.49",
+      "market_cap": "$1,618,733,440"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "MPT",
+      "company": "Medical Properties Trust, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.13",
+      "last_year_eps": "$0.13",
+      "market_cap": "$1,618,412,030"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "DFIN",
+      "company": "Donnelley Financial Solutions, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.74",
+      "last_year_eps": "$0.68",
+      "market_cap": "$1,376,535,550"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "RES",
+      "company": "RPC, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.09",
+      "last_year_eps": "$0.09",
+      "market_cap": "$1,334,375,170"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "MSEX",
+      "company": "Middlesex Water Company",
+      "time": "time-after-hours",
+      "eps_forecast": "",
+      "last_year_eps": "$0.77",
+      "market_cap": "$1,051,492,160"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "UPBD",
+      "company": "Upbound Group, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.94",
+      "last_year_eps": "$1",
+      "market_cap": "$1,012,660,670"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "SBSI",
+      "company": "Southside Bancshares, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.79",
+      "last_year_eps": "$0.80",
+      "market_cap": "$942,826,430"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "DFH",
+      "company": "Dream Finders Homes, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "",
+      "last_year_eps": "$0.47",
+      "market_cap": "$916,215,420"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "FMC",
+      "company": "FMC Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.08",
+      "last_year_eps": "$0.89",
+      "market_cap": "$780,872,900"
+    },
+    {
+      "date": "2026-10-29",
+      "ticker": "PMT",
+      "company": "PennyMac Mortgage Investment Trust",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.30",
+      "last_year_eps": "$0.55",
+      "market_cap": "$611,288,580"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "XOM",
+      "company": "ExxonMobil Holdings Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.96",
+      "last_year_eps": "$1.88",
+      "market_cap": "$732,866,080,000"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "ABBV",
+      "company": "AbbVie Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.76",
+      "last_year_eps": "$1.86",
+      "market_cap": "$503,964,172,000"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "CVX",
+      "company": "Chevron Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$4.78",
+      "last_year_eps": "$1.85",
+      "market_cap": "$447,867,847,000"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "GD",
+      "company": "General Dynamics Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$4.14",
+      "last_year_eps": "$3.88",
+      "market_cap": "$94,908,760,000"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "REGN",
+      "company": "Regeneron Pharmaceuticals, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$13.76",
+      "last_year_eps": "$9.63",
+      "market_cap": "$84,329,398,000"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "CL",
+      "company": "Colgate-Palmolive Company",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.92",
+      "last_year_eps": "$0.91",
+      "market_cap": "$77,636,665,000"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "D",
+      "company": "Dominion Energy, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.19",
+      "last_year_eps": "$1.06",
+      "market_cap": "$57,520,996,000"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "EXC",
+      "company": "Exelon Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.81",
+      "last_year_eps": "$0.86",
+      "market_cap": "$46,296,592,000"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "KVUE",
+      "company": "Kenvue Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.28",
+      "last_year_eps": "$0.28",
+      "market_cap": "$38,184,976,000"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "CHD",
+      "company": "Church & Dwight Company, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.90",
+      "last_year_eps": "$0.81",
+      "market_cap": "$25,822,017,500"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "LYB",
+      "company": "LyondellBasell Industries NV",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.73",
+      "last_year_eps": "$1.01",
+      "market_cap": "$21,116,991,500"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "NVT",
+      "company": "nVent Electric plc",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.40",
+      "last_year_eps": "$0.91",
+      "market_cap": "$20,664,404,000"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "RBC",
+      "company": "RBC Bearings Incorporated",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.39",
+      "last_year_eps": "$2.70",
+      "market_cap": "$15,134,068,700"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "BTSG",
+      "company": "BrightSpring Health Services, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.45",
+      "last_year_eps": "$0.30",
+      "market_cap": "$12,042,017,800"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "CBOE",
+      "company": "Cboe Global Markets, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.40",
+      "last_year_eps": "$2.67",
+      "market_cap": "$11,636,977,312"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "FRT",
+      "company": "Federal Realty Investment Trust",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.85",
+      "last_year_eps": "$1.77",
+      "market_cap": "$9,460,489,200"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "MSGS",
+      "company": "Madison Square Garden Sports Corp.",
+      "time": "time-not-supplied",
+      "eps_forecast": "($1.18)",
+      "last_year_eps": "($0.37)",
+      "market_cap": "$9,378,655,200"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "TXNM",
+      "company": "TXNM Energy, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "",
+      "last_year_eps": "$1.33",
+      "market_cap": "$6,467,685,900"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "GTES",
+      "company": "Gates Industrial Corporation Ltd.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.42",
+      "last_year_eps": "$0.37",
+      "market_cap": "$6,354,094,600"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "LEA",
+      "company": "Lear Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.32",
+      "last_year_eps": "$2.79",
+      "market_cap": "$5,850,410,500"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "SXT",
+      "company": "Sensient Technologies Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.03",
+      "last_year_eps": "$0.96",
+      "market_cap": "$5,573,174,300"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "AN",
+      "company": "AutoNation, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$5.30",
+      "last_year_eps": "$5.01",
+      "market_cap": "$5,350,560,800"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "KRG",
+      "company": "Kite Realty Group Trust",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.52",
+      "last_year_eps": "$0.52",
+      "market_cap": "$4,962,593,300"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "PIPR",
+      "company": "Piper Sandler Companies",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.93",
+      "last_year_eps": "$0.95",
+      "market_cap": "$4,631,730,700"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "WT",
+      "company": "WisdomTree, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.30",
+      "last_year_eps": "$0.23",
+      "market_cap": "$3,213,571,840"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "NWL",
+      "company": "Newell Brands Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.20",
+      "last_year_eps": "$0.17",
+      "market_cap": "$2,440,407,040"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "SMP",
+      "company": "Standard Motor Products, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.39",
+      "last_year_eps": "$1.36",
+      "market_cap": "$841,782,270"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "VRTS",
+      "company": "Virtus Investment Partners, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$5.73",
+      "last_year_eps": "$6.69",
+      "market_cap": "$810,286,140"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "ABR",
+      "company": "Arbor Realty Trust",
+      "time": "time-not-supplied",
+      "eps_forecast": "$0.04",
+      "last_year_eps": "$0.34",
+      "market_cap": "$552,211,780"
+    },
+    {
+      "date": "2026-10-30",
+      "ticker": "VRRM",
+      "company": "Verra Mobility Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.25",
+      "last_year_eps": "$0.35",
+      "market_cap": "$477,226,016"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2",
+      "last_year_eps": "$1.85",
+      "market_cap": "$5,081,985,400,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "PLTR",
+      "company": "Palantir Technologies Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.34",
+      "last_year_eps": "$0.18",
+      "market_cap": "$471,258,857,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "VRTX",
+      "company": "Vertex Pharmaceuticals Incorporated",
+      "time": "time-after-hours",
+      "eps_forecast": "$4.36",
+      "last_year_eps": "$4.22",
+      "market_cap": "$135,644,684,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "MAR",
+      "company": "Marriott International",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.86",
+      "last_year_eps": "$2.47",
+      "market_cap": "$103,472,062,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "WMB",
+      "company": "Williams Companies, Inc. (The)",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.56",
+      "last_year_eps": "$0.49",
+      "market_cap": "$86,392,316,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "FANG",
+      "company": "Diamondback Energy, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$4.80",
+      "last_year_eps": "$3.08",
+      "market_cap": "$55,204,000,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "O",
+      "company": "Realty Income Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.11",
+      "last_year_eps": "$1.08",
+      "market_cap": "$53,991,203,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "ETR",
+      "company": "Entergy Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.71",
+      "last_year_eps": "$1.53",
+      "market_cap": "$50,484,863,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "IDXX",
+      "company": "IDEXX Laboratories, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$3.71",
+      "last_year_eps": "$3.40",
+      "market_cap": "$44,649,984,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "EL",
+      "company": "Estee Lauder Companies, Inc. (The)",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.52",
+      "last_year_eps": "$0.32",
+      "market_cap": "$39,029,408,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "PEG",
+      "company": "Public Service Enterprise Group Incorporated",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.22",
+      "last_year_eps": "$1.13",
+      "market_cap": "$36,245,103,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "ON",
+      "company": "ON Semiconductor Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.88",
+      "last_year_eps": "$0.63",
+      "market_cap": "$28,509,802,500"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "FOX",
+      "company": "Fox Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.12",
+      "last_year_eps": "$1.51",
+      "market_cap": "$25,646,190,600"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "FOXA",
+      "company": "Fox Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.99",
+      "last_year_eps": "$1.51",
+      "market_cap": "$25,646,190,600"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "ROKU",
+      "company": "Roku, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.55",
+      "last_year_eps": "$0.16",
+      "market_cap": "$23,755,939,800"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "L",
+      "company": "Loews Corporation",
+      "time": "time-pre-market",
+      "eps_forecast": "",
+      "last_year_eps": "$2.43",
+      "market_cap": "$23,239,344,100"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "SBAC",
+      "company": "SBA Communications Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.89",
+      "last_year_eps": "$3.30",
+      "market_cap": "$18,925,058,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "VNOM",
+      "company": "Viper Energy, Inc. ",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.59",
+      "last_year_eps": "$0.40",
+      "market_cap": "$16,289,488,900"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "CRBG",
+      "company": "Corebridge Financial Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.22",
+      "last_year_eps": "$0.96",
+      "market_cap": "$15,865,044,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "EQH",
+      "company": "Equitable Holdings, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.87",
+      "last_year_eps": "$1.48",
+      "market_cap": "$15,027,855,400"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "NBIX",
+      "company": "Neurocrine Biosciences, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.99",
+      "last_year_eps": "$2.04",
+      "market_cap": "$14,565,311,500"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "JAZZ",
+      "company": "Jazz Pharmaceuticals plc",
+      "time": "time-after-hours",
+      "eps_forecast": "$5.66",
+      "last_year_eps": "$6.99",
+      "market_cap": "$13,933,914,100"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "LSCC",
+      "company": "Lattice Semiconductor Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.27",
+      "last_year_eps": "$0.03",
+      "market_cap": "$13,691,718,700"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "DOC",
+      "company": "Healthpeak Properties, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.43",
+      "last_year_eps": "$0.46",
+      "market_cap": "$13,335,456,800"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "BWXT",
+      "company": "BWX Technologies, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.19",
+      "last_year_eps": "$1",
+      "market_cap": "$11,663,477,800"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "UDR",
+      "company": "UDR, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.64",
+      "last_year_eps": "$0.65",
+      "market_cap": "$11,623,340,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "FN",
+      "company": "Fabrinet",
+      "time": "time-after-hours",
+      "eps_forecast": "$3.88",
+      "last_year_eps": "$2.67",
+      "market_cap": "$11,383,344,100"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "CLX",
+      "company": "Clorox Company (The)",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.98",
+      "last_year_eps": "$0.85",
+      "market_cap": "$10,722,319,400"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "MTCH",
+      "company": "Match Group, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.84",
+      "last_year_eps": "$0.65",
+      "market_cap": "$10,540,981,200"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "ENSG",
+      "company": "The Ensign Group, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "$1.75",
+      "last_year_eps": "$1.47",
+      "market_cap": "$10,394,672,100"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "AMG",
+      "company": "Affiliated Managers Group, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "$8.70",
+      "last_year_eps": "$6.10",
+      "market_cap": "$10,228,379,600"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "KRYS",
+      "company": "Krystal Biotech, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$1.88",
+      "last_year_eps": "$2.66",
+      "market_cap": "$9,475,475,500"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "RHP",
+      "company": "Ryman Hospitality Properties, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.60",
+      "last_year_eps": "$1.63",
+      "market_cap": "$9,054,754,800"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "ALSN",
+      "company": "Allison Transmission Holdings, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.47",
+      "last_year_eps": "$1.63",
+      "market_cap": "$9,048,075,300"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "VOYA",
+      "company": "Voya Financial, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.62",
+      "last_year_eps": "$2.45",
+      "market_cap": "$8,916,492,300"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "AEIS",
+      "company": "Advanced Energy Industries, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.70",
+      "last_year_eps": "$1.46",
+      "market_cap": "$8,676,528,100"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "TGTX",
+      "company": "TG Therapeutics, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "$0.37",
+      "last_year_eps": "$2.43",
+      "market_cap": "$8,137,151,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "MSA",
+      "company": "MSA Safety Incorporporated",
+      "time": "time-after-hours",
+      "eps_forecast": "$2.11",
+      "last_year_eps": "$1.94",
+      "market_cap": "$7,115,379,700"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "VNO",
+      "company": "Vornado Realty Trust",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.64",
+      "last_year_eps": "$0.57",
+      "market_cap": "$6,411,982,800"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "VAL",
+      "company": "Valaris Limited",
+      "time": "time-after-hours",
+      "eps_forecast": "$1",
+      "last_year_eps": "$2.65",
+      "market_cap": "$6,401,287,200"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "WAY",
+      "company": "Waystar Holding Corp.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.36",
+      "last_year_eps": "$0.32",
+      "market_cap": "$5,556,869,100"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "CE",
+      "company": "Celanese Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.52",
+      "last_year_eps": "$1.34",
+      "market_cap": "$5,182,344,200"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "CHH",
+      "company": "Choice Hotels International, Inc.",
+      "time": "time-pre-market",
+      "eps_forecast": "$2.26",
+      "last_year_eps": "$2.10",
+      "market_cap": "$5,059,193,900"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "SBRA",
+      "company": "Sabra Health Care REIT, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.39",
+      "last_year_eps": "$0.38",
+      "market_cap": "$5,007,070,200"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "OGS",
+      "company": "ONE Gas, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.49",
+      "last_year_eps": "$0.44",
+      "market_cap": "$4,918,502,900"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "CRC",
+      "company": "California Resources Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.93",
+      "last_year_eps": "$1.46",
+      "market_cap": "$4,703,901,700"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "CRGY",
+      "company": "Crescent Energy Company",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.53",
+      "last_year_eps": "$0.30",
+      "market_cap": "$4,404,987,900"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "KTB",
+      "company": "Kontoor Brands, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "$1.34",
+      "last_year_eps": "$1.44",
+      "market_cap": "$4,250,958,590"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "CBT",
+      "company": "Cabot Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.55",
+      "last_year_eps": "$1.70",
+      "market_cap": "$3,837,732,860"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "OTTR",
+      "company": "Otter Tail Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.57",
+      "last_year_eps": "$1.86",
+      "market_cap": "$3,811,450,880"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "IRT",
+      "company": "Independence Realty Trust, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.29",
+      "last_year_eps": "$0.29",
+      "market_cap": "$3,576,244,990"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "LQDA",
+      "company": "Liquidia Corporation",
+      "time": "time-not-supplied",
+      "eps_forecast": "$0.77",
+      "last_year_eps": "($0.04)",
+      "market_cap": "$3,552,608,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "PPLI",
+      "company": "People Incorporated",
+      "time": "time-after-hours",
+      "eps_forecast": "($0.23)",
+      "last_year_eps": "($0.27)",
+      "market_cap": "$2,947,282,180"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "BCC",
+      "company": "Boise Cascade, L.L.C.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.11",
+      "last_year_eps": "$0.58",
+      "market_cap": "$2,731,643,900"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "AKR",
+      "company": "Acadia Realty Trust",
+      "time": "time-pre-market",
+      "eps_forecast": "$0.31",
+      "last_year_eps": "$0.33",
+      "market_cap": "$2,579,108,610"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "ADEA",
+      "company": "Adeia Inc. ",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.25",
+      "last_year_eps": "$0.21",
+      "market_cap": "$2,345,658,880"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "CALX",
+      "company": "Calix, Inc",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.21",
+      "last_year_eps": "$0.23",
+      "market_cap": "$2,324,000,770"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "UFPT",
+      "company": "UFP Technologies, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "$2.63",
+      "last_year_eps": "$2.39",
+      "market_cap": "$2,303,055,620"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "VVX",
+      "company": "V2X, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.54",
+      "last_year_eps": "$1.37",
+      "market_cap": "$2,299,495,420"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "INSP",
+      "company": "Inspire Medical Systems, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.10",
+      "last_year_eps": "$0.38",
+      "market_cap": "$2,100,627,840"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "CC",
+      "company": "Chemours Company (The)",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.26",
+      "last_year_eps": "$0.20",
+      "market_cap": "$1,961,001,860"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "SAFT",
+      "company": "Safety Insurance Group, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "",
+      "last_year_eps": "$1.48",
+      "market_cap": "$1,527,210,500"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "IIPR",
+      "company": "Innovative Industrial Properties, Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.65",
+      "last_year_eps": "$1.71",
+      "market_cap": "$1,504,266,240"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "ICHR",
+      "company": "Ichor Holdings",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.34",
+      "last_year_eps": "($0.06)",
+      "market_cap": "$1,418,017,150"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "NSSC",
+      "company": "NAPCO Security Technologies, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "",
+      "last_year_eps": "$0.34",
+      "market_cap": "$1,380,661,630"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "UPWK",
+      "company": "Upwork Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "",
+      "last_year_eps": "$0.21",
+      "market_cap": "$1,172,842,620"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "TNC",
+      "company": "Tennant Company",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.93",
+      "last_year_eps": "$1.46",
+      "market_cap": "$1,127,299,970"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "HLIT",
+      "company": "Harmonic Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.13",
+      "last_year_eps": "$0.06",
+      "market_cap": "$1,100,480,380"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "AESI",
+      "company": "Atlas Energy Solutions Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "($0.26)",
+      "last_year_eps": "($0.13)",
+      "market_cap": "$1,075,029,630"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "HSTM",
+      "company": "HealthStream, Inc.",
+      "time": "time-not-supplied",
+      "eps_forecast": "$0.15",
+      "last_year_eps": "$0.20",
+      "market_cap": "$1,058,311,740"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "UTL",
+      "company": "UNITIL Corporation",
+      "time": "time-after-hours",
+      "eps_forecast": "",
+      "last_year_eps": "$0.03",
+      "market_cap": "$1,004,111,300"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "CSR",
+      "company": "D/B/A Centerspace",
+      "time": "time-after-hours",
+      "eps_forecast": "$1.13",
+      "last_year_eps": "$1.19",
+      "market_cap": "$964,824,000"
+    },
+    {
+      "date": "2026-11-02",
+      "ticker": "MTUS",
+      "company": "Metallus Inc.",
+      "time": "time-after-hours",
+      "eps_forecast": "$0.29",
+      "last_year_eps": "$0.28",
+      "market_cap": "$833,545,090"
     }
   ]
 }

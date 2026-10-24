@@ -2,33 +2,27 @@
   "flags": [
     {
       "type": "index_day_move",
-      "series": "SP500",
-      "value": -1.093,
-      "detail": "SP500 moved -1.09% intraday (threshold: >1%)"
-    },
-    {
-      "type": "index_day_move",
-      "series": "NASDAQ",
-      "value": -2.145,
-      "detail": "NASDAQ moved -2.15% intraday (threshold: >1%)"
-    },
-    {
-      "type": "index_5day_move",
-      "series": "NASDAQ",
-      "value": -4.48,
-      "detail": "NASDAQ moved -4.48% over 5 days (threshold: >2%)"
-    },
-    {
-      "type": "index_day_move",
-      "series": "RUSSELL2000",
-      "value": -1.659,
-      "detail": "RUSSELL2000 moved -1.66% intraday (threshold: >1%)"
+      "series": "DOW",
+      "value": -1.235,
+      "detail": "DOW moved -1.24% intraday (threshold: >1%)"
     },
     {
       "type": "index_5day_move",
       "series": "RUSSELL2000",
-      "value": -3.05,
-      "detail": "RUSSELL2000 moved -3.05% over 5 days (threshold: >2%)"
+      "value": 2.004,
+      "detail": "RUSSELL2000 moved +2.00% over 5 days (threshold: >2%)"
+    },
+    {
+      "type": "yield_move",
+      "series": "DGS10",
+      "value": -0.17,
+      "detail": "10yr yield moved -17bps day/day (threshold: >10bps)"
+    },
+    {
+      "type": "credit_spread_move",
+      "series": "BAMLH0A0HYM2 (HY OAS)",
+      "value": 0.13,
+      "detail": "HY credit spread moved +13bps (threshold: >8bps)"
     }
   ]
 }
