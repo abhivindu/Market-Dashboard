@@ -1,6 +1,16 @@
 {
   "point1_synthesis": {
     "current": {
+      "as_of": "2026-10-24",
+      "covers": "Sessions Mon Oct 19 - Fri Oct 23",
+      "paragraphs": [
+        "Rates fell on fear, not on data. The 10-year Treasury yield dropped about 19bp on Thu Oct 22 to ~4.95%, the biggest one-day fall since August 2025 and the first close under 5% since Sept 23, as money moved into bonds during that day's tech selloff. It ended Friday near 4.99%, down ~11bp on the week (third weekly decline) and below the ~5.10% at the Oct 18 pull. The Fed is in its blackout ahead of the Oct 27-28 FOMC. Odds of an October hike fell from ~15% to roughly 5-10%; a December hike is still priced at ~71%. The data didn't argue for a dovish turn. Jobless claims hit a three-month low (194K), Michigan's year-ahead inflation expectations rose to 4.7%, and the October flash PMI showed output prices rising at the fastest pace since August 2022. Housing is weak: the NAHB index hit 29 (lowest since 2012) and September starts fell 5.9%.",
+        "Equities: the chip losing streak ended Monday, but the AI trade broke down again Thursday. Meta fell ~7% after raising capex guidance to $135-145B, Lam Research ~9% on light guidance and Tesla ~3% after a 43% drop in Q3 net income. The SOX fell 6%+, the Nasdaq 2.6% and the S&P 500 1.21% (worst day since July), while the Dow was flat and the Russell 2000 rose. Friday the selling broadened: the Dow fell 1.23%. On the week the S&P 500 was -0.47% and the Nasdaq -0.71% (second straight weekly loss for both); the Dow was +0.41% and the Russell 2000 +2.0%, a rotation out of crowded AI names. The VIX closed at 19.45, below the Oct 16 intraday high of 22.31.",
+        "Credit and oil kept tightening the screws. HY spreads widened 13bp to 3.40% on Oct 22 (FRED), concentrated in AI-linked debt: Oracle 5-year CDS reached a record ~315bp on Oct 19, and long-dated Oracle, CoreWeave and Nvidia bonds trade well below par. Brent settled at $116.72 on Fri Oct 23 (six-month high, third weekly gain) and WTI at $103.27, after Houthi strikes on Saudi targets (including a claimed fire at Aramco's Yanbu facility) and Iranian claims of seven tankers hit in Hormuz, of which monitors confirmed two. Gold fell to ~$4,008.",
+        "Data note: FRED's WTI series is again out of line with reported settles. It shows $110.01 on Oct 19 and $107.89 on Oct 20, while reported settles were $103.66 and $101.79. The narrative above uses reported prices. Several CNBC and Bloomberg figures (Oracle/CoreWeave CDS, the PMI) were confirmed from search summaries because the pages blocked access; FRED's Oct 23 credit and yield values had not posted on 10/24/26."
+      ]
+    },
+    "previous": {
       "as_of": "2026-10-18",
       "covers": "Sessions Oct 2 - Fri Oct 16",
       "paragraphs": [
@@ -9,21 +19,27 @@
         "Credit and oil are the new pressure points. The ICE BofA high-yield OAS has widened further, to 3.23% (about +53bp over the month), with IG at 0.84%, and the stress is concentrated in AI-linked debt. CoreWeave's 5-year CDS hit distress levels (reported near ~1,195bp) on Oct 15, and Goldman flagged a 25bp widening in HY AI-debt spreads over Oct 13-14. Oil reignited on Oct 16: Brent touched $110 for the first time since May and WTI settled at $101.41 (+3.5%) as Iran escalated attacks on Hormuz shipping, at least nine vessels since Oct 11, which is why energy names dominated Friday's gainers. The dollar index is up ~3.5% over the month.",
         "Data note: FRED's WTI series (DCOILWTICO) again looks unreliable. It shows $101.91 on Oct 14, while Reuters-sourced reporting had WTI settling ~$94.14 on Oct 13 and trading ~$94-95 through Oct 14-15. WTI only reached ~$101 at Friday's Oct 16 settle. The narrative above uses independently reported prices, not FRED's levels."
       ]
-    },
-    "previous": {
-      "as_of": "2026-10-01",
-      "covers": "Week of Sept 24 - Oct 1",
-      "paragraphs": [
-        "No new independent shock this week - this is the same rates/inflation throughline from the Sept 16 FOMC continuing to grind, with a notable reversal right at the end. The 10-year Treasury yield kept climbing through Tuesday Sept 29, touching roughly 5.29% intraday (highest since 2007), while the 30-year pushed above 5.6% - its highest since June 2002 - as sticky inflation expectations (the University of Michigan's year-ahead inflation gauge jumped to 4.6% in September from 4.0% in August, the highest since June), heavy Treasury/corporate bond issuance, and a growing federal debt load (near $40 trillion) kept pressure on the long end. That pressure eased abruptly on Wednesday Sept 30 when the PCE inflation print landed below expectations and Fed officials' commentary pulled market-implied odds of an October hike down to under 40% (from the 66-74% priced in as of the Sept 23 pull) - the Nasdaq rallied to close out Q3 on the news.",
-        "Credit markets diverged from equities over the same stretch: the ICE BofA High Yield OAS widened roughly 46bps (from about 2.66% on Sept 21 to 3.12% by Sept 30), a five-month high, as a record $38.5B of September high-yield issuance - including SoftBank's $10B bond and Paramount Skydance's $44.4B financing package - tested investors' capacity to absorb new supply even as equities sat near highs; analysts flagged the resulting credit-equity divergence as a risk signal worth watching, not yet a stress event (IG spreads barely moved, and the VIX term structure stayed in calm contango). None of this tripped this dashboard's day-move materiality thresholds the way the last two pulls' sharp single/two-day swings did: over the five trading days through Oct 1 the S&P 500, Nasdaq, and Dow were all roughly flat-to-down low-single-digits (-0.5%, -0.3%, -0.8% respectively) and the Russell 2000 -1.0% - a genuinely quieter week, not the story disappearing.",
-        "Separately on data quality: this dashboard's free FRED oil-price source (DCOILWTICO) printed an implausible run this stretch ($85.23 on Sept 25, $99.37 on Sept 28, $96.16 on Sept 29) that independent sources (Investing.com, Robinhood's WTI prediction-market data) don't corroborate - real WTI traded in a comparatively narrower ~$89-94 band across the same days. Real oil-market volatility was genuinely elevated (the Brent-WTI spread blew out to ~$12.83, its widest since May, as Brent drew a geopolitical premium from stalled Hormuz reopening talks while WTI weakened on US diesel-export-ban talk and rising Saudi/UAE exports), but FRED's specific day-to-day dollar swings over Sept 25-29 look like a data-quality issue rather than a real move of that size - logged in WISHLIST.md, and the 10/01/26 pull's oil-move flag narrative cites the real, independently-reported ~3.5-3.8% WTI decline on Sept 29 rather than FRED's own likely-wrong dollar levels."
-      ]
     }
   },
   "macro_flags": {
     "index_day_move:DOW": {
-      "narrative": "The Dow's -1.03% figure on 09/23/26 spans two real sessions compressed into one by the Sept 22 data gap described in the synthesis above. Tuesday Sept 22 the Dow slipped a modest 0.3% while the Nasdaq set a second straight record close - Richmond Fed President Tom Barkin struck a hawkish note ('supply shocks aren't proving short-lived'). Wednesday Sept 23 did the rest of the damage (-0.7%) as the 10-year Treasury yield jumped to roughly 5.11%-5.14% (highest since July 2007) after Fed Governor Michael Barr said 'further policy adjustments are likely to be needed,' and a hotter-than-expected S&P Global composite PMI (58.4 vs. 55.3 forecast) reinforced inflation concerns, pushing October-hike odds to ~66-74%. Same rate/inflation mechanism as the Sept 16 FOMC-day flag below, not a new independent driver. This flag now trips on the day-move threshold rather than the 5-day one, because the FOMC's Sept 16 hike hit in a single session: the Fed hiked 25bp as anticipated, and the Dow fell 631pts (-1.21%) to 51,461.90 on the day \u2014 banks led the damage (KBE -2.6%, worst day since February) on fears the hiking cycle continues into 2027. Broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
+      "narrative": "UPDATE (10/24/26): This flag now reflects Fri Oct 23, when the Dow fell 1.23% (-653 points) to 52,215.16 after holding up all week (flat on Thu Oct 22 even as the Nasdaq fell 2.6%). Friday's selling spread beyond the AI/tech names that drove Thursday into the broader market, with oil-sensitive groups such as airlines hit as Brent settled at $116.72 (+3.1%, a six-month high) on Houthi strikes on Saudi targets and Iranian claims of tanker hits in Hormuz. Even after Friday the Dow finished the week +0.41%, the only major index up, so this is a one-day oil/risk-off hit on a week of rotation into the Dow's non-tech names, not a rate shock like the September readings below. Prior framing: The Dow's -1.03% figure on 09/23/26 spans two real sessions compressed into one by the Sept 22 data gap described in the synthesis above. Tuesday Sept 22 the Dow slipped a modest 0.3% while the Nasdaq set a second straight record close - Richmond Fed President Tom Barkin struck a hawkish note ('supply shocks aren't proving short-lived'). Wednesday Sept 23 did the rest of the damage (-0.7%) as the 10-year Treasury yield jumped to roughly 5.11%-5.14% (highest since July 2007) after Fed Governor Michael Barr said 'further policy adjustments are likely to be needed,' and a hotter-than-expected S&P Global composite PMI (58.4 vs. 55.3 forecast) reinforced inflation concerns, pushing October-hike odds to ~66-74%. Same rate/inflation mechanism as the Sept 16 FOMC-day flag below, not a new independent driver. This flag now trips on the day-move threshold rather than the 5-day one, because the FOMC's Sept 16 hike hit in a single session: the Fed hiked 25bp as anticipated, and the Dow fell 631pts (-1.21%) to 51,461.90 on the day \u2014 banks led the damage (KBE -2.6%, worst day since February) on fears the hiking cycle continues into 2027. Broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
       "citations": [
+        {
+          "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Market Review: October 23, 2026",
+          "url": "https://investrade.com/market-review-october-23-2026/",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Iran says 7 oil tankers damaged in Strait of Hormuz, and other Middle East news",
+          "url": "https://www.pbs.org/newshour/world/iran-says-7-oil-tankers-damaged-in-strait-of-hormuz-and-other-middle-east-news",
+          "date": "2026-10-22"
+        },
         {
           "title": "Stock Market Today (Sept. 23, 2026): Nasdaq, Russell 2000 sink as 5-year Treasury hits 5% for first time since 2007",
           "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-23-2026",
@@ -55,7 +71,8 @@
           "date": "2026-09"
         }
       ],
-      "reaction_assessment": "proportionate - directly tied to the yield spike (10yr to ~5.11%, highest since 2007) and hawkish Fed commentary (Barr, Barkin), not a surprise dislocation"
+      "reaction_assessment": "proportionate - a single-day oil/risk-off hit that left the Dow up on the week; watch whether oil above $115 keeps pressuring cyclicals into the Oct 27-28 FOMC",
+      "last_updated": "2026-10-24"
     },
     "index_day_move:RUSSELL2000": {
       "narrative": "UPDATE (10/18/26): This flag now fires on Friday Oct 16: the Russell 2000 fell 1.66% to ~2,721 (per this dashboard's own index data), giving back most of Thursday Oct 15's +1.38% bounce (to 2,767.27). We did not find small-cap-specific reporting for Friday's session; the move coincides with the broad chip/software/AI-infra selloff and the VIX spike described in the SP500/NASDAQ flags (small-cap semicap, crypto-miner and software names - e.g. ICHR, UCTT, ACMR, MXL, MARA, CLSK - were among this dashboard's biggest losers), only partly offset by small-cap energy producers that led the gainers list as Brent touched $110. Rates were not the driver this time: the 10-year yield sat near 5.10%, down from ~5.2% earlier in the week. Prior framing: Russell 2000's -1.28% figure in an earlier pull spans the same two compressed sessions as the DOW day-move flag above (Sept 22 data is missing from this dashboard's free index feed). Small-caps ticked up modestly Tuesday Sept 22 with the broader tech/chip rally, then fell hard Wednesday Sept 23 (-1.77% that session alone, closing at 2,838) as the 10-year Treasury yield spiked to ~5.11% - the highest since July 2007 - on hawkish Fed Governor Barr comments and a hot PMI print. This is the same small-cap rate-sensitivity mechanism already tracked by the 5-day Russell 2000 flag below, just showing up again as a fresh day-level trigger on Wednesday's sharper yield move.",
@@ -90,8 +107,33 @@
       "last_updated": "2026-10-18"
     },
     "index_5day_move:RUSSELL2000": {
-      "narrative": "UPDATE (10/18/26): The 5-day window through Fri Oct 16 is -3.05%. The rate-sensitivity mechanism below did show up on Wed Oct 14, when the hotter-than-expected September CPI (3.7% headline, 2.6% core) pushed the 10-year yield to ~5.28% intraday and briefly lifted CME odds of an Oct 27-28 hike to ~54%, sending the Russell 2000 down ~2% that day. Thursday's +1.38% bounce came as yields fell back to 5.10%, and Friday's -1.66% was driven more by the tech/AI-infra selloff than by rates. The Fed did not move this window (fed funds unchanged at 3.75%-4.00%); October-hike odds ended the week ~15% after Fed Chair Warsh declined to signal a move, though futures still price roughly one more quarter-point hike by December. Prior framing: The FOMC's Sept 16 hike (to 3.75%-4%, first since 2023) is the realization of the rate risk this flag was already tracking, and small-caps' higher rate sensitivity means they remain the most exposed index to it as the 10-year sits above 5%. Small caps are more rate-sensitive than large caps (higher average leverage, more floating-rate debt), so the run-up in the 10yr yield toward 5% on hot inflation data and hawkish Fed signaling has hit the Russell 2000 harder than large-cap indices over the past week. The same Middle East-driven oil spike also raises input costs disproportionately for smaller, less diversified companies.",
+      "narrative": "UPDATE (10/24/26): The 5-day window through Fri Oct 23 has flipped to +2.00% (2,721.37 on Oct 16 to 2,775.90), so the flag now trips on small-cap strength rather than weakness. The rate mechanism below ran in reverse: the Russell 2000 rose 1.65% on Tue Oct 20 as defensives and health care rallied, and it edged up 0.1% on Thu Oct 22 while the Nasdaq fell 2.6%, as the 10-year yield dropped ~19bp to ~4.95% and October-hike odds fell to ~10% (Bloomberg data put them near 5% by Oct 23). Most stocks rose on Thursday; the damage was concentrated in AI/semis. Friday's -0.29% was modest next to the Dow's -1.23%. Read: a rotation out of crowded AI trades into rate-sensitive small caps helped by lower yields, not a new small-cap-specific catalyst. Prior framing: UPDATE (10/18/26): The 5-day window through Fri Oct 16 is -3.05%. The rate-sensitivity mechanism below did show up on Wed Oct 14, when the hotter-than-expected September CPI (3.7% headline, 2.6% core) pushed the 10-year yield to ~5.28% intraday and briefly lifted CME odds of an Oct 27-28 hike to ~54%, sending the Russell 2000 down ~2% that day. Thursday's +1.38% bounce came as yields fell back to 5.10%, and Friday's -1.66% was driven more by the tech/AI-infra selloff than by rates. The Fed did not move this window (fed funds unchanged at 3.75%-4.00%); October-hike odds ended the week ~15% after Fed Chair Warsh declined to signal a move, though futures still price roughly one more quarter-point hike by December. Prior framing: The FOMC's Sept 16 hike (to 3.75%-4%, first since 2023) is the realization of the rate risk this flag was already tracking, and small-caps' higher rate sensitivity means they remain the most exposed index to it as the 10-year sits above 5%. Small caps are more rate-sensitive than large caps (higher average leverage, more floating-rate debt), so the run-up in the 10yr yield toward 5% on hot inflation data and hawkish Fed signaling has hit the Russell 2000 harder than large-cap indices over the past week. The same Middle East-driven oil spike also raises input costs disproportionately for smaller, less diversified companies.",
       "citations": [
+        {
+          "title": "Market Review: October 20, 2026",
+          "url": "https://investrade.com/market-review-october-20-2026/",
+          "date": "2026-10-20"
+        },
+        {
+          "title": "How major US stock indexes fared Thursday 10/22/2026",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-202801299.html",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Stock market today: S&P 500, Nasdaq tanks as tech stocks sink amid AI trade worries, Meta shares plummet",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Market Review: October 22, 2026",
+          "url": "https://investrade.com/market-review-october-22-2026/",
+          "date": "2026-10-22"
+        },
         {
           "title": "Stock Market Today (Oct. 14, 2026): Russell 2000, Nasdaq fall 2% on hot inflation data",
           "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-14-135249729.html",
@@ -123,12 +165,42 @@
           "date": "2026-09-07"
         }
       ],
-      "reaction_assessment": "proportionate - a mix of the known small-cap rate sensitivity (CPI day) and high-beta participation in Friday's tech selloff; not a new small-cap-specific shock",
-      "last_updated": "2026-10-18"
+      "reaction_assessment": "proportionate - small caps behaving as their rate sensitivity predicts, now in the favorable direction; reverses if yields go back above 5%",
+      "last_updated": "2026-10-24"
     },
     "yield_move:DGS10": {
-      "narrative": "The FOMC met and hiked \u2014 25bp to 3.75%-4%, a 12-0 vote, the first hike since 2023 \u2014 rather than the cut markets had been pricing earlier in the year. The 10-year yield broke through 5% on the decision (5.02% intraday) as Chair Warsh's press conference reinforced that inflation is still the Fed's binding constraint; the dot plot signals at least one more hike is possible before year-end. This confirms rather than reverses the move already described below. The 10-year Treasury yield's 12bp jump is the mechanical center of this week's story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from ~70% to ~90%, and a global bond selloff (fiscal deficit concerns, heavy Treasury issuance) is compounding the move. Yields are now at their highest level since 2023, approaching the highest since 2007.",
+      "narrative": "UPDATE (10/24/26): This flag now reflects Thu Oct 22, when the 10-year fell about 17bp on FRED's daily series (5.13% to 4.96%; Investrade's close is 4.953%, -19.3bp), the biggest one-day drop since August 2025 and the first close below 5% since Sept 23. The driver was a flight into bonds during that day's AI/tech selloff (Meta -7% on higher capex guidance, Lam Research -9%, the SOX -6%), not a data surprise: jobless claims that morning were a low 194K. The 5-year fell ~20bp and the 30-year ~15bp. October-hike odds fell to ~10.5%, and Bloomberg data put them near 5% on Oct 23 (from ~15% earlier in the week), with a December hike still priced at ~71%. Yields rose back to ~4.99% on Fri Oct 23 after an S&P Global flash PMI showed output prices rising at the fastest pace since August 2022. The 10-year was down ~11bp on the week, its third straight weekly decline. The Fed is in its pre-meeting blackout ahead of the Oct 27-28 FOMC. Prior framing: The FOMC met and hiked \u2014 25bp to 3.75%-4%, a 12-0 vote, the first hike since 2023 \u2014 rather than the cut markets had been pricing earlier in the year. The 10-year yield broke through 5% on the decision (5.02% intraday) as Chair Warsh's press conference reinforced that inflation is still the Fed's binding constraint; the dot plot signals at least one more hike is possible before year-end. This confirms rather than reverses the move already described below. The 10-year Treasury yield's 12bp jump is the mechanical center of this week's story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from ~70% to ~90%, and a global bond selloff (fiscal deficit concerns, heavy Treasury issuance) is compounding the move. Yields are now at their highest level since 2023, approaching the highest since 2007.",
       "citations": [
+        {
+          "title": "Market Review: October 22, 2026",
+          "url": "https://investrade.com/market-review-october-22-2026/",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Market Review: October 23, 2026",
+          "url": "https://investrade.com/market-review-october-23-2026/",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "US 10-year Treasury yield fell below 5% \u2014 CNBC",
+          "url": "https://ua.news/en/finansi/dokhidnist-10-richnikh-obligatsii-ssha-opuskalasia-nizhche-5-cnbc",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Stock market today: S&P 500, Nasdaq tanks as tech stocks sink amid AI trade worries, Meta shares plummet",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "US Business Activity Expands, Prices Surge Most Since 2022",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/us-business-activity-expands-prices-surge-by-most-since-2022",
+          "date": "2026-10-23"
+        },
         {
           "title": "Federal Reserve issues FOMC statement",
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
@@ -150,7 +222,8 @@
           "date": "2026-09"
         }
       ],
-      "reaction_assessment": "proportionate but notable - the FOMC hike in an earlier pull confirms this was the single biggest macro driver of the week, exactly as flagged pre-decision"
+      "reaction_assessment": "proportionate to the equity shock, but a risk-off bid rather than a change in the inflation picture - Friday's PMI price gauge argues against reading it as a dovish turn",
+      "last_updated": "2026-10-24"
     },
     "oil_move:DCOILWTICO": {
       "narrative": "This flag trips on FRED's own -3.2% day-change figure (from an implausible $99.37 print on Sept 28 to $96.16 on Sept 29 - see the 10/01/26 pull's synthesis and WISHLIST.md for why those specific FRED dollar levels look like a data-quality issue), but the direction and rough magnitude are genuinely real: independent sources put WTI's actual Sept 29 close around $89.38-90.54, down roughly 3.5-3.8% on the day from a comparatively stable ~$92-93 the prior several sessions. The real driver was a combination of a much wider Brent-WTI spread (blown out to ~$12.83, its widest since May) and broad bearish fundamentals: Brent held a geopolitical premium (above $103-107) as U.S. President Trump rejected Iran's conditional offer to reopen the Strait of Hormuz within seven days on Sept 26, while WTI specifically weakened on US diesel-export-ban talk, higher freight costs, rising Saudi/UAE exports (Gulf crude exports hit their highest level since February, ~12.8M bbl/day), and sharply cut 2026 demand forecasts from OPEC and the IEA alongside a large US inventory build - a bearish-fundamentals move for the US benchmark specifically, not a resolution of the still-live Middle East supply risk that keeps Brent elevated. WTI has kept climbing since last pull, trading near $102-104/bbl into and through the Sept 16 FOMC decision (Brent briefly above $108 before easing) as Iran-backed Houthi militants advance toward the Bab el-Mandeb Strait and intensify attacks on Saudi targets and shipping routes, reportedly prompting Saudi Aramco to delay some European deliveries. The Fed's own statement cited Middle East tension as a factor in its decision, directly linking this flag to the yield-move flag above. WTI crude's jump reflects Middle East supply fears after Iran's attacks on commercial and U.S. Navy vessels, which the Iranian Foreign Ministry has framed as retaliatory. Brent has held above $90/bbl. Higher oil adds to the inflation picture the Fed is already responding to, reinforcing (not just coinciding with) this week's yield move.",
@@ -333,6 +406,43 @@
       ],
       "reaction_assessment": "proportionate - a multi-session, multi-driver drawdown concentrated in the most AI-exposed names after a record high on Oct 6; consistent with a positioning unwind plus real rate/credit pressure rather than a measurement artifact",
       "last_updated": "2026-10-18"
+    },
+    "credit_spread_move:BAMLH0A0HYM2 (HY OAS)": {
+      "narrative": "The ICE BofA high-yield OAS widened 13bp on Thu Oct 22, to 3.40% from 3.27% (FRED; Oct 23 not yet posted), as the AI/tech selloff hit the same names at the center of the AI-debt stress described in the Oct 18 synthesis. That is up from 3.31% on Oct 16 and 3.23% on Oct 15. Credit signals around it during the week: Oracle's 5-year CDS reached a record ~315bp on Oct 19 (CNBC, seen via search summary); CoreWeave's 5-year CDS was ~1,081bp around Oct 20 (CNBC, search summary), below its ~1,195bp Oct 15 peak, with its 2032 bonds yielding ~14.9%; CoreWeave shares fell ~10% on Oct 22. On Oct 23 the Motley Fool reported Oracle's 2065 notes near 70 cents, CoreWeave's 2031 notes below 80 cents and Nvidia's 2060 notes below 63 cents. IG spreads moved much less (0.88% to 0.89%). Read: the HY widening is concentrated in AI-linked issuers and coincided with Treasury yields falling, a credit-specific risk premium rather than a rates move.",
+      "citations": [
+        {
+          "title": "ICE BofA US High Yield Index Option-Adjusted Spread (BAMLH0A0HYM2)",
+          "url": "https://fred.stlouisfed.org/series/bamlh0a0hym2",
+          "date": "n/d"
+        },
+        {
+          "title": "CoreWeave bond yields stay near 15% as AI stocks rebound",
+          "url": "https://www.cnbc.com/2026/10/19/coreweave-oracle-ai-credit-stress.html",
+          "date": "2026-10-19"
+        },
+        {
+          "title": "CoreWeave debt (Janus Henderson commentary)",
+          "url": "https://www.cnbc.com/2026/10/20/coreweave-debt-janus-henderson-lloyd.html",
+          "date": "2026-10-20"
+        },
+        {
+          "title": "Stock market today: S&P 500, Nasdaq tanks as tech stocks sink amid AI trade worries, Meta shares plummet",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "The Bond Market Is Sending a Dire Warning to Wall Street About the AI Infrastructure Build-Out, but Is Anyone Paying Attention?",
+          "url": "https://fool.com/investing/2026/10/23/bond-market-sending-dire-warning-to-wall-street-about-ai-infrastructure-build-out",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Falling Treasury yields may be hiding a darker story about the AI boom",
+          "url": "https://investinglive.com/education/falling-treasury-yields-may-be-hiding-a-darker-story-about-the-ai-boom",
+          "date": "2026-10-23"
+        }
+      ],
+      "reaction_assessment": "notable - first time this flag has tripped on a single day; spreads widening while Treasuries rally is a classic risk-off signal, but IG barely moved, so the stress stays concentrated in AI-linked HY rather than broad",
+      "last_updated": "2026-10-24"
     }
   },
   "movers": {
@@ -3343,6 +3453,6 @@
     }
   },
   "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. The 10/18/26 pull (a Sunday) reflects the Friday Oct 16 session - equity data is current through that close, with no data lag. It was a sharp two-way day: the Nasdaq fell 2.15% (-4.5% on the week, its worst since late June) as an eight-session chip losing streak, a software selloff and stress in AI-linked debt (CoreWeave -12%) hit semis, semicap, AI-infrastructure, AI-pivoting bitcoin miners and software names - so the 10/18/26 pull's losers (Vicor, Supermicro, Flex, Impinj, Ultra Clean, ACM Research, MaxLinear, Viavi, DigitalOcean, Twilio, Okta, Five9, MARA, CleanSpark, Centrus) are mostly one sector-wide story, not 15 separate ones. Several of these names already had September writeups about earlier, opposite-direction moves; those are kept as 'Prior framing' under a dated UPDATE rather than overwritten. Supermicro is the main name with genuinely new company-specific news (an Oct 8-9 guilty plea in a server-diversion case that reopens a question the prior writeup called cleared). Gainers were almost entirely oil and gas: Brent settled near $110 (highest since May) and WTI near $101 on Iran's escalating Hormuz attacks and a large US crude draw, lifting E&Ps and midstream together. Most of those names had no company-specific catalyst and are marked as sector-beta reads; natural-gas futures actually fell that day, so gas-weighted names (Antero, Range) are marked divergent from their own commodity. Several volume outliers (Regions, Citizens, Alcoa, First Financial, Cohen & Steers) are earnings-driven; ten others (Schneider National, Sunstone, Urban Edge, DXP, Ormat, Avantor, Ecolab, Watts, Central Garden, Northern Trust) turned up no clean catalyst despite a genuine search - Oct 16 was a monthly options expiration, which commonly inflates volume, but that is stated as an unconfirmed explanation, not a sourced one. The $2B market-cap filter was refreshed on 10/18/26 (2026-10-18 cache), which moved Ichor and Schrodinger below the line and brought Flex and Impinj into the losers list; Flex's slide traces to the Oct 5 terms of a $2B convertible-preferred deal in its Axiom unit, while Impinj had no clean catalyst ahead of its Oct 28 earnings. Ciena joins the bounce list (sector de-rating after the Oct 1 optical rally reversed).",
-  "point1_since_last_pull": "Since the Oct 1 pull: a weak September jobs report (Oct 2) and then a hot September CPI (Oct 14) whipsawed October Fed-hike odds (to ~54% and back to ~15% after Chair Warsh declined to signal on Oct 16). The S&P 500 and Nasdaq hit records on Oct 6, then an eight-session chip selloff left the Nasdaq -4.5% for the week. AI-linked credit stress widened HY spreads, and Brent touched $110 on Oct 16 as Iran escalated Hormuz attacks.",
+  "point1_since_last_pull": "Since the Oct 18 pull: the 10-year fell below 5% (~19bp on Thu Oct 22, biggest drop since Aug 2025) as an AI/chip selloff (Meta, Lam Research) sent money into bonds; October Fed-hike odds fell to ~5-10% ahead of the Oct 27-28 FOMC. HY spreads widened to 3.40% on AI-debt stress, Brent rose to $116.72 on Houthi strikes on Saudi Arabia and Hormuz tanker attacks, and the Dow fell 1.23% Friday. Small caps rose 2% on the week.",
   "pull_date": "2026-10-18"
 }
