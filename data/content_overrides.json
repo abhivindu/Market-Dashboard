@@ -2066,8 +2066,18 @@
       "verdict": "aligned"
     },
     "LQDA": {
-      "narrative": "Liquidia's five-day decline of roughly -60.55% (and an earlier pull's bounce-candidate screen pick) is driven by a single clean catalyst: on Sept 30, the U.S. District Court in Delaware ruled that two of United Therapeutics' '327 patent claims are valid and infringed by Liquidia's inhaled treprostinil formulation (YUTREPIA, its lead pulmonary-arterial-hypertension therapy) - shares crashed more than 57% that day alone (United Therapeutics rose 6.2% on the same ruling). This followed a brief rally days earlier (+7.6% on Sept 28 on unrelated pipeline optimism), making the net 5-day move look even more dramatic. This is a genuine, severe, company-specific legal setback - not an overreaction or technical move - and the \"bounce candidate\" numeric screen flagging it should be read with that in mind rather than as an oversold buying opportunity.",
+      "narrative": "UPDATE (10/24/26): The Sept 30 legal overhang was largely resolved on Oct 13, when Liquidia reached a global settlement with United Therapeutics ending all six pending lawsuits: Liquidia pays a net $380.7M ($175M within 30 business days, then $72.7M installments due Jan 31 and Apr 30, 2027), drops the PH-ILD indication from YUTREPIA's label and won't appeal, while keeping uninterrupted PAH sales. Shares jumped ~40% after hours on the news, and kept recovering (+6.9% on Oct 21; +7.5% on Oct 23, +24.2% over five sessions) with no further company-specific catalyst found for Friday. The stock is still well below where it traded before the Sept 30 ruling. Prior framing: Liquidia's five-day decline of roughly -60.55% (and an earlier pull's bounce-candidate screen pick) is driven by a single clean catalyst: on Sept 30, the U.S. District Court in Delaware ruled that two of United Therapeutics' '327 patent claims are valid and infringed by Liquidia's inhaled treprostinil formulation (YUTREPIA, its lead pulmonary-arterial-hypertension therapy) - shares crashed more than 57% that day alone (United Therapeutics rose 6.2% on the same ruling). This followed a brief rally days earlier (+7.6% on Sept 28 on unrelated pipeline optimism), making the net 5-day move look even more dramatic. This is a genuine, severe, company-specific legal setback - not an overreaction or technical move - and the \"bounce candidate\" numeric screen flagging it should be read with that in mind rather than as an oversold buying opportunity.",
       "citations": [
+        {
+          "title": "Liquidia stock surges 40% on $380.7M litigation settlement with UTHR",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/liquidia-stock-surges-40-380-222658498.html",
+          "date": "2026-10-13"
+        },
+        {
+          "title": "A Look at Liquidia Corp (LQDA) After 6.9% Gain -- GF Value $305.03 vs Price $38.86",
+          "url": "https://www.gurufocus.com/news/9135475/a-look-at-liquidia-corp-lqda-after-69-gain-gf-value-30503-vs-price-3886",
+          "date": "2026-10-21"
+        },
         {
           "title": "Liquidia (LQDA) Shares Drop 52% After Delaware Court Patent Ruling",
           "url": "https://www.gurufocus.com/news/9104007/liquidia-lqda-shares-drop-52-after-delaware-court-patent-ruling",
@@ -2079,7 +2089,8 @@
           "date": "2026-09-30"
         }
       ],
-      "verdict": "counter"
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
     },
     "DHR": {
       "narrative": "Danaher fell 3.9-4.5% after announcing Julie Sawyer Montgomery has assumed the roles of president and CEO and joined the board of directors. A CEO transition introduces near-term execution-risk uncertainty during a cyclical industry turn, and with biopharma capital spending still constrained and quarterly results weeks away, investors appear to have reduced exposure rather than hold through the transition - a reasonable, if cautious, reaction to a leadership change rather than new operating news.",
@@ -2656,8 +2667,18 @@
       "last_updated": "2026-10-18"
     },
     "FIVN": {
-      "narrative": "Five9 fell 8.2% on Oct 16 (-11.5% over five sessions). MarketBeat's Oct 16 alert gives no company-specific cause, and nothing else turned up. The drop came the same day as a broad software sell-off (Okta -10%, Datadog and Palantir -7%, Zscaler -6.8%), which Yahoo/StockStory ties to AI-financing fears and high interest rates. Read: software-sector beta on a stock already down sharply in 2026. Next earnings ~Nov 9.",
+      "narrative": "UPDATE (10/24/26): Five9 has reversed the Oct 16 drop, rising 16.7% over five sessions. It rose ~6.5% on Oct 20 after UBS raised its target to $48 from $36 on Oct 16 (Buy, citing large financial-services deals in the pipeline), alongside a Barclays raise to $40 and a new RBC Buy, as tech broadly rebounded. No company-specific news was found for Friday's +7.2% on Oct 23; it came the same day software/security names rallied on an Evercore ISI budget survey. Read: analyst-driven rebound plus software-sector beta; Q3 earnings ~Nov 9. Prior framing: Five9 fell 8.2% on Oct 16 (-11.5% over five sessions). MarketBeat's Oct 16 alert gives no company-specific cause, and nothing else turned up. The drop came the same day as a broad software sell-off (Okta -10%, Datadog and Palantir -7%, Zscaler -6.8%), which Yahoo/StockStory ties to AI-financing fears and high interest rates. Read: software-sector beta on a stock already down sharply in 2026. Next earnings ~Nov 9.",
       "citations": [
+        {
+          "title": "Why is Five9 stock rallying today?",
+          "url": "https://in.investing.com/news/stock-market-news/why-is-five9-stock-rallying-today-93CH-5643145",
+          "date": "2026-10-20"
+        },
+        {
+          "title": "CrowdStrike, Palo Alto Rally as Evercore Sees Firmer Budgets",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-palo-alto-rally-evercore-182853152.html",
+          "date": "2026-10-23"
+        },
         {
           "title": "Five9 (NASDAQ:FIVN) Stock Falls 7.9% - What's Next?",
           "url": "https://www.marketbeat.com/instant-alerts/price-five9-nasdaq-fivn-stock-falls-79-whats-next-2026-10-16/",
@@ -2670,7 +2691,7 @@
         }
       ],
       "verdict": "mixed",
-      "last_updated": "2026-10-18"
+      "last_updated": "2026-10-24"
     },
     "PI": {
       "narrative": "Impinj fell 8.13% on Oct 16 to $175.37 (from $190.88), with no company-specific news found - the only dated coverage of the move (ad-hoc-news, Oct 17) gives no cause and frames it as positioning ahead of Q3 results, scheduled for after the close on Wed Oct 28 (announced Oct 1). RFID peers moved far less (Zebra -2.25%, Avery Dennison -0.32%), and Barclays had just raised its target to $200 from $176 on Oct 12. Read: semiconductor-beta selling during the eight-session chip losing streak, plus pre-earnings de-risking; no fundamental catalyst identified.",
@@ -2688,19 +2709,520 @@
       ],
       "verdict": "no clean catalyst",
       "last_updated": "2026-10-18"
-    }
-  },
-  "recommendations": {
-    "ENVA": {
-      "thesis": "Enova crashed ~22-25% on Sept 15 after withdrawing its OCC/Fed regulatory applications for the $369M Grasshopper Bancorp acquisition, with the CEO citing a lack of clear standards for nonbanks seeking to become banks. This is a real, abandoned strategic deal, not noise - but the company reiterated Q3 and full-year 2026 guidance unchanged (revenue +25% y/y, adjusted EPS +30% y/y) the same day, meaning the core lending business's outlook wasn't cut. Bounce thesis rests on the deal's collapse being a strategic setback rather than a signal of operational trouble.",
+    },
+    "RHI": {
+      "narrative": "Robert Half jumped 21.7% on Fri Oct 23 (3.6x average volume) after Q3 results released Oct 22: EPS $0.49 vs. $0.47 consensus on revenue of $1.359B (in line, roughly flat y/y), and - the headline - Talent Solutions returned to adjusted y/y revenue growth (+2%) for the first time since 2022, with permanent placement +6%. Q4 EPS guidance of $0.36-$0.46 has a midpoint below consensus, but management said October trends held and Truist/BMO/Baird/JPMorgan raised targets. The bear case is explicit: Goldman (Sell, $33) says contract growth is price-driven (bill rates +3.6%) while volumes are still down y/y, and Protiviti revenue fell 3%. Company-specific; the +37.7% five-day move means it was already rallying into the print, off a stock that had lost more than half its value in 2026.",
       "citations": [
+        {
+          "title": "Robert Half Reports Third-Quarter Financial Results (Form 8-K Ex. 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000315213/000031521326000049/rhiq32026ex991.htm",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Why is Robert Half stock surging today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-robert-half-stock-surging-today-93CH-4969479",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Robert Half stock rises as analysts lift targets after Q3 results",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/robert-half-stock-rises-analysts-132109437.html",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Robert Half shares surge as staffing revenue returns to growth",
+          "url": "https://finchannel.com/robert-half-shares-surge-as-staffing-revenue-returns-to-growth/139241/american-business-trends/2026/10/",
+          "date": "2026-10-24"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "CART": {
+      "narrative": "Instacart (Maplebear) rose 9.2% to $56.44 on Oct 23 (3.9x average volume), just under its 52-week high, after The Information reported (relayed by Bloomberg) that it has hired an investment bank to explore a sale and held preliminary talks with Uber and DoorDash. Both potential buyers fell ~3.4-3.5% on the report. Talks are described as early-stage and may not produce a deal; the company has not announced anything. Market value was roughly $12B before the move. Company-specific M&A speculation, not earnings - Q3 results are due ~Nov 5.",
+      "citations": [
+        {
+          "title": "Instacart rallies on report of sale talks with Uber, DoorDash",
+          "url": "https://www.spokesman.com/stories/2026/oct/23/instacart-rallies-on-report-of-sale-talks-with-ube/",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Instacart reportedly in talks to sell itself to Uber or DoorDash in potential $17 billion deal",
+          "url": "https://techstartups.com/2026/10/23/instacart-reportedly-in-talks-to-sell-itself-to-uber-or-doordash-in-potential-17-billion-deal/",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "CCI": {
+      "narrative": "Crown Castle rose 9.1% to $85.97 on Oct 23 (4.2x average volume; intraday high ~$91) on a Bloomberg report that SpaceX is in talks to lease space on its towers as it builds a fourth nationwide wireless carrier, seeking access to at least 80,000 U.S. cell sites. No deal has been announced and SpaceX hasn't confirmed; on the Oct 21 earnings call the CEO said only that Crown Castle is talking to 'all parties.' Sector read-through: American Tower +4.1%, while AT&T (-8.0%) and T-Mobile (-7.7%) fell. The Oct 21 Q3 print itself was mixed (AFFO $1.24/share beat, revenue $995M missed, full-year EBITDA/AFFO guidance nudged up) and shares dipped after hours, which is why the five-day gain is only +4.5%.",
+      "citations": [
+        {
+          "title": "Crown Castle Stock Jumps 12% On Reports Of Potential SpaceX Tower Deal",
+          "url": "https://www.rttnews.com/story.aspx?Id=3702503",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Crown Castle (CCI) Stock Dips Despite Q3 Earnings Beat and Raised 2026 Guidance",
+          "url": "https://www.gurufocus.com/news/9135263/crown-castle-cci-stock-dips-despite-q3-earnings-beat-and-raised-2026-guidance",
+          "date": "2026-10-21"
+        },
+        {
+          "title": "Oil tops $116 to cap a rocky week, SpaceX's carrier ambitions sink AT&T and T-Mobile, and CrowdStrike jumps 8.25%",
+          "url": "https://thewallstreetrepublic.substack.com/p/oil-tops-116-to-cap-a-rocky-week",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "NE": {
+      "narrative": "Noble rose 8.5% on Oct 23 with no company-specific news found - its Q3 results aren't due until after the close Mon Oct 26 (call Oct 27). The move lines up with the oil spike: Brent settled at $116.72 (+3.1%, highest since April 29) after Houthi attacks on Saudi targets, Aramco's Dhahran evacuation and a tanker spill off the UAE, and the energy sector hit a record high. Read: offshore-driller beta to oil heading into its own earnings; the +8.2% five-day move is essentially all Friday.",
+      "citations": [
+        {
+          "title": "Oil prices jump $3 on Houthi attacks, oil spill, highest settlement since April",
+          "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-supply-concerns-052617190.html",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Noble Corporation plc to announce third quarter 2026 results",
+          "url": "https://finviz.com/news/401383/noble-corporation-plc-to-announce-third-quarter-2026-results",
+          "date": "2026-10-12"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-10-24"
+    },
+    "TTMI": {
+      "narrative": "TTM Technologies bounced 8.4% to ~$80 on Oct 23 (2.9x volume) after a ~28% collapse on Oct 22, which is why it is still -14.7% over five sessions. The Oct 22 drop came despite a record Q3 that beat estimates: investors focused on data-center revenue landing ~10% below prior guidance (management blamed customer project timing), lengthening material lead times (24+ weeks vs. ~12), added interest cost from acquisitions, and a 2027 revenue outlook ($6.50-6.75B) some read as light even though the $8.10-8.90 EPS range was above consensus. Friday's move is a partial relief rebound, not new news; a shareholder-firm 'investigation' notice also appeared Oct 22.",
+      "citations": [
+        {
+          "title": "Why TTM Technologies Stock Plunged 30% Today",
+          "url": "https://www.fool.com/investing/2026/10/22/why-ttm-technologies-stock-jumped-plunged-30-today/",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Why Is TTM Technologies Stock Gaining Friday?",
+          "url": "https://www.benzinga.com/markets/earnings/26/10/62553584/why-is-ttm-technologies-stock-gaining-friday",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-10-24"
+    },
+    "CRWD": {
+      "narrative": "CrowdStrike rose 8.25% to $257.57 on Oct 23 after Evercore ISI's quarterly channel-partner survey described a firming cybersecurity budget outlook into year-end and named CrowdStrike and Palo Alto as the leading beneficiaries of AI-driven security spend (identity, AI governance and cloud security ranked top priorities). Evercore also cited the PHP2Shell vulnerabilities disclosed Oct 21 as adding urgency, and Mizuho raised its target to $275 from $250. A sector move (Okta +5.8%, Datadog +4.6%, PANW +7.2%) on a day the S&P fell 0.5%; the caveat is that a partner survey measures sentiment, not booked deals.",
+      "citations": [
+        {
+          "title": "CrowdStrike, Palo Alto Rally as Evercore Sees Firmer Budgets",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-palo-alto-rally-evercore-182853152.html",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Oil tops $116 to cap a rocky week, SpaceX's carrier ambitions sink AT&T and T-Mobile, and CrowdStrike jumps 8.25%",
+          "url": "https://thewallstreetrepublic.substack.com/p/oil-tops-116-to-cap-a-rocky-week",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "PANW": {
+      "narrative": "Palo Alto Networks rose 7.2% to $380.55 on Oct 23 on the same Evercore ISI channel-partner survey that lifted CrowdStrike: partners reported a firming security-budget outlook into year-end and named PANW and CRWD as top beneficiaries of AI-driven security spending, with the newly disclosed PHP2Shell flaws cited as an added driver. Sector-wide move (Okta, Datadog, SailPoint also up) on a down day for the S&P 500; no PANW-specific news found.",
+      "citations": [
+        {
+          "title": "CrowdStrike, Palo Alto Rally as Evercore Sees Firmer Budgets",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-palo-alto-rally-evercore-182853152.html",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Oil tops $116 to cap a rocky week, SpaceX's carrier ambitions sink AT&T and T-Mobile, and CrowdStrike jumps 8.25%",
+          "url": "https://thewallstreetrepublic.substack.com/p/oil-tops-116-to-cap-a-rocky-week",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "RITM": {
+      "narrative": "Rithm Capital rose 8.2% on Oct 23 (2.7x volume) after Q3 results that morning: earnings available for distribution of $0.55/share beat the ~$0.50 consensus, GAAP EPS $0.38, revenue $1.76B, and the $0.25 quarterly dividend held (~10.7% yield at Thursday's ~$8.70). Newrez posted a 24% operating ROE and asset management AUM is ~$61B. The offset is mortgage origination: funded volume fell 19% sequentially and management guided to ~25% lower from September to October. Company-specific beat off a stock trading near the bottom of its $8.31-$12.15 12-month range.",
+      "citations": [
+        {
+          "title": "Rithm Capital (NYSE:RITM) Posts Earnings Results, Beats Estimates By $0.05 EPS",
+          "url": "https://www.marketbeat.com/instant-alerts/earnings-rithm-capital-nyse-ritm-posts-earnings-results-beats-estimates-by-005-eps-2026-10-23/",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "TDW": {
+      "narrative": "Tidewater rose 8.1% on Oct 23; nearly the whole +8.3% five-day gain came Friday. No company-specific news found (only auto-generated price-recap pages), and its Q3 report date hasn't been announced. The move matches the oil spike: Brent settled at $116.72 (+3.1%, highest since April 29) on Houthi strikes on Saudi targets and tanker attacks near Hormuz, with the energy sector at a record high and SLB +7.1% and Halliburton +5.2% the same day. Read: offshore-services beta to oil.",
+      "citations": [
+        {
+          "title": "Oil prices jump $3 on Houthi attacks, oil spill, highest settlement since April",
+          "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-supply-concerns-052617190.html",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Oil tops $116 to cap a rocky week, SpaceX's carrier ambitions sink AT&T and T-Mobile, and CrowdStrike jumps 8.25%",
+          "url": "https://thewallstreetrepublic.substack.com/p/oil-tops-116-to-cap-a-rocky-week",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-10-24"
+    },
+    "CUBI": {
+      "narrative": "Customers Bancorp rose 7.4% to ~$84.54 on Oct 23 (3.7x volume) after Q3 results released Oct 22: EPS $2.25 (non-GAAP $2.27, ~$0.14 above consensus), record deposits ($22.6B, +4% q/q) and loans ($18.5B, +14% y/y), NIM up to 3.19% with a ~3.25% September run-rate, and the efficiency ratio improved ~340bp to 47.2%. Management raised full-year loan growth guidance to 12%+ and NPAs were 0.29% of assets. Flagged risks: a Q4 expense step-up and rate resets into 2027. Company-specific beat-and-raise.",
+      "citations": [
+        {
+          "title": "Customers Bancorp (CUBI) Q3 2026 Earnings Call Transcript",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/10/23/customers-bancorp-cubi-q3-2026-earnings-call-transcript/",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Customers Bancorp (CUBI) Reports Q3 Earnings Beat with Strong GF Score Amid Valuation Concerns",
+          "url": "https://www.gurufocus.com/news/9138096/customers-bancorp-cubi-reports-q3-earnings-beat-with-strong-gf-score-amid-valuation-concerns",
+          "date": "2026-10-22"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "OII": {
+      "narrative": "Oceaneering rose 7.2% on Oct 23 (2.7x volume), a partial rebound after shares fell ~17% following Q3 results released Oct 21 - hence -10.3% over five sessions. The print was mixed: revenue $785M (+6%, a beat) and adjusted EBITDA $119M (highest since 2015), but EPS missed (~$0.50 vs. $0.59 expected) on a one-time $19M debt-refinancing loss, Q4 EBITDA was guided to $85-95M with lower free cash flow, and the initial 2027 EBITDA range ($430-480M) is wide. Friday's bounce coincided with Brent's surge to a six-month high, so read it as oil-services beta plus some relief after an overdone drop rather than new company news.",
+      "citations": [
+        {
+          "title": "Earnings call transcript: Oceaneering misses Q3 2026 EPS forecast as shares slide",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-oceaneering-misses-q3-2026-eps-forecast-as-shares-slide-93CH-4966994",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Oil prices jump $3 on Houthi attacks, oil spill, highest settlement since April",
+          "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-supply-concerns-052617190.html",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-10-24"
+    },
+    "SLB": {
+      "narrative": "SLB rose 7.1% to $53.06 on Oct 23 after Q3 results that morning: adjusted EPS $0.64 vs. $0.62 consensus (down 7% y/y) on revenue of $9.45B vs. $9.29B (+5.8% y/y). Middle East & Asia revenue was still down 6% y/y on conflict disruption but rose 9% sequentially as Iraq, Kuwait, Oman and Saudi activity recovered; management expects stronger international activity in 2027 and announced a ~$3.4B Kelvion acquisition. Earnings landed the same day Brent settled at a six-month high ($116.72), so the move is part company beat, part oil beta (Halliburton +5.2%).",
+      "citations": [
+        {
+          "title": "SLB Q3 Earnings & Revenues Beat Estimates on Production Systems Growth",
+          "url": "https://finance.yahoo.com/energy/articles/slb-q3-earnings-revenues-beat-134500707.html",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Oil tops $116 to cap a rocky week, SpaceX's carrier ambitions sink AT&T and T-Mobile, and CrowdStrike jumps 8.25%",
+          "url": "https://thewallstreetrepublic.substack.com/p/oil-tops-116-to-cap-a-rocky-week",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Oil prices jump $3 on Houthi attacks, oil spill, highest settlement since April",
+          "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-supply-concerns-052617190.html",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "WFRD": {
+      "narrative": "Weatherford rose 7.0% on Oct 23 with no new company news; the +14.0% five-day move also reflects its Oct 20 Q3 report (shares +8.6% on Oct 21). Q3 net income was $120M ($1.66/share vs. $1.12 a year ago, a beat) on revenue of $1.14B (-7% y/y, in line), adjusted EBITDA $254M (22.2% margin), with management talking up Venezuela (revenue could top $100M within a year). Friday's leg matches the oil-services rally as Brent hit a six-month high on Houthi strikes on Saudi targets. Read: earnings beat earlier in the week, oil beta on Friday.",
+      "citations": [
+        {
+          "title": "Weatherford International (WFRD) Shares Surge 8.6% After Strong Q3 Earnings Report",
+          "url": "https://www.gurufocus.com/news/9134813/weatherford-international-wfrd-shares-surge-86-after-strong-q3-earnings-report",
+          "date": "2026-10-21"
+        },
+        {
+          "title": "Oil prices jump $3 on Houthi attacks, oil spill, highest settlement since April",
+          "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-supply-concerns-052617190.html",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-10-24"
+    },
+    "LKQ": {
+      "narrative": "LKQ fell 22.5% on Fri Oct 23 (6.3x normal volume) after a pre-announcement, ahead of its Oct 29 report, that packed several negatives together. Preliminary Q3 revenue is about $3.32B (vs $3.50B a year ago and roughly $3.41B expected), adjusted EPS is 47-53 cents (vs 84 cents a year ago), and it now expects a GAAP net loss. It also withdrew full-year 2026 guidance. Europe drove the miss: organic parts-and-services revenue fell 9.8%, EBITDA margin dropped to 4.1-5.1% from 10%, and the German ERP rollout that already hurt Q2 is still causing disruption. CEO Justin Jude left immediately, the head of Europe is also leaving, and Alvarez & Marsal was hired to stabilize operations. Salvatore Abbate becomes CEO Dec 15. North America came in line. This is a company-specific problem, not a sector move.",
+      "citations": [
+        {
+          "title": "Why LKQ (LKQ) stock is trading lower today",
+          "url": "https://www.financialcontent.com/article/stockstory-2026-10-23-why-lkq-lkq-stock-is-trading-lower-today",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "LKQ Stock Plunges 19% as CEO Departs, Guidance Pulled and Auto Parts Giant Warns of Loss After Europe Stumbles",
+          "url": "https://www.ibtimes.com.au/lkq-shares-plunge-ceo-departure-european-loss-1877300",
+          "date": "2026-10-24"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "CORT": {
+      "narrative": "Corcept fell 20.1% on Fri Oct 23 (2.65x volume) on a competitor's trial result, not its own news. Genmab said its Phase 3 RAINFOL-02 trial of the ADC rinatabart sesutecan (Rina-S) in platinum-resistant ovarian cancer met both progression-free survival (HR 0.29) and overall survival (HR 0.43 in the ITT population). Genmab's shares rose about 9%. Corcept's Lifyorli (relacorilant plus nab-paclitaxel) won FDA approval in that same indication on Mar 25, 2026, on the ROSELLA trial: median PFS of 6.5 vs 5.5 months and OS of 16.0 vs 11.9 months. Cross-trial comparisons are not apples-to-apples, but Rina-S's effect sizes look much larger, so the market marked down Lifyorli's long-term share of ovarian cancer. Rina-S still needs regulatory filing and approval. The stock had already fallen about 9.5% in October before Friday.",
+      "citations": [
+        {
+          "title": "Corcept Therapeutics (CORT) Shares Drop 20% on Genmab's Phase 3 Success in Ovarian Cancer",
+          "url": "https://www.gurufocus.com/news/9140704/corcept-therapeutics-cort-shares-drop-20-on-genmabs-phase-3-success-in-ovarian-cancer",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Genmab Announces Rinatabart Sesutecan (Rina-S) Demonstrates Statistically Significant Improvement in Progression-Free Survival and Overall Survival in Patients with Platinum-Resistant Ovarian Cancer",
+          "url": "https://ir.genmab.com/news-releases/news-release-details/genmab-announces-rinatabart-sesutecan-rina-sr-demonstrates",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "FDA approves relacorilant with nab-paclitaxel for platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal cancer",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-relacorilant-nab-paclitaxel-platinum-resistant-epithelial-ovarian-fallopian-tube-or",
+          "date": "2026-03"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "BE": {
+      "narrative": "Bloom Energy fell 11.2% to $193.30 on Fri Oct 23, a 'sell the news' reaction to a strong Q3. Revenue hit a record $1.24B (+138% y/y) and diluted EPS was $0.78 (vs -$0.10 a year ago), but operating cash flow turned negative (-$27.1M, vs +$226.4M in Q2), which investors read as a warning. Several brokers trimmed price targets while keeping their ratings: JPMorgan to $292 from $314, BTIG to $250 from $295, Roth to $230 from $260, and Jefferies to $242 from $289, citing no update on the Oracle opportunity. At about 133x trailing earnings the stock had little room for error, and AI-power names were broadly weak. The move is mostly company-specific (cash flow, valuation), with some AI-infrastructure sector beta.",
+      "citations": [
+        {
+          "title": "Why Bloom Energy Stock Is Crashing Today",
+          "url": "https://www.fool.com/investing/2026/10/23/why-bloom-energy-stock-is-crashing-today/",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "SLM": {
+      "narrative": "Sallie Mae fell 10.8% on Fri Oct 23 (5.3x volume), extending Thursday's ~4.5% slide, after its Oct 22 Q3 report. It posted a GAAP loss of $0.19 a share (vs $0.63 a year ago; consensus about +$0.17) and cut 2026 EPS guidance to $1.95-2.05 from $3.10-3.20. The main driver is that it dropped the October whole-loan sale it had planned, giving up that gain and requiring it to reserve against the loans it keeps. It also raised 2026 net charge-off guidance to $400-420M from $365-385M. Q3 provision rose to $214M, and the company said third-party 'debt resolution' firms telling borrowers to stop paying are costing more than expected (estimated 2026 impact raised to $45M from $25M). Record originations of $3.4B (+15%) were the bright spot. This is company-specific.",
+      "citations": [
+        {
+          "title": "SLM Corp Form 8-K Exhibit 99.1 - Third Quarter 2026 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001032033/000103203326000051/slm102226ex991.htm",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Sallie Mae Stock Drops 9% After Surprise Third-Quarter Loss, Scrapped Loan Sale and Higher Charge-Off Forecast",
+          "url": "https://www.ibtimes.com.au/sallie-mae-shares-fall-quarterly-loss-profit-forecast-1877292",
+          "date": "2026-10-24"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "FLG": {
+      "narrative": "Flagstar fell 9.3% on Fri Oct 23 (4.7x volume) and touched a 52-week low after its Q3 report. EPS was $0.01 vs a ~$0.07 consensus, and management pushed its turnaround targets out a year to 2028, blaming higher-for-longer rates. Guidance cuts were steep: 2026 net income to $85-95M from $225-300M, and 2027 to $400-500M from $800-900M. 2026 loan-loss provisions were raised to $160-170M from $90-140M, partly because NYC rent regulation is pressuring its multifamily book. Buybacks are paused until 2027 after the $250M program finished in early October. Net interest income rose 5% q/q and NIM improved 4bp to 2.17%, but the market focused on the guidance cuts. This is company-specific.",
+      "citations": [
+        {
+          "title": "Blaming rates, Flagstar says turnaround will take more time",
+          "url": "https://www.americanbanker.com/news/blaming-rates-flagstar-says-turnaround-will-take-more-time",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Flagstar Bank Form 8-K - Third Quarter 2026 Earnings Release",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000910073/000091007326000080/q32026earningsrelease.htm",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "FIX": {
+      "narrative": "Comfort Systems fell 9.3% on Fri Oct 23 (3.5x volume, -19.3% over five sessions) despite beating Q3 estimates after Thursday's close. EPS was $13.91 vs about $12.81 expected, revenue $3.77B (+54%) vs $3.39B, and backlog a record $17.8B (+90% y/y). It also raised the dividend to $1.00. The stock had already fallen about 8% after hours. The company gave no forward guidance and announced that CFO Bill George will retire after the 2026 10-K, succeeded by CAO Julie Shaeff. Gross margin held at 24.8% y/y but slipped sequentially on equipment-heavy mix and purchase accounting, so there was no margin step-up to justify a crowded, data-center-levered valuation (technology is 59% of 9-month revenue). The weekly decline also reflects broader AI-infrastructure weakness this week.",
+      "citations": [
+        {
+          "title": "Earnings call transcript: Comfort Systems USA tops Q3 2026 estimates, shares fall",
+          "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-comfort-systems-usa-tops-q3-2026-estimates-shares-fall-93CH-4929256",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Comfort Systems beats estimates but falls on CFO change, no guidance",
+          "url": "https://sg.finance.yahoo.com/news/comfort-systems-beats-estimates-falls-210519908.html",
+          "date": "2026-10-22"
+        }
+      ],
+      "verdict": "counter",
+      "last_updated": "2026-10-24"
+    },
+    "GL": {
+      "narrative": "Globe Life fell 8.1% on Fri Oct 23 (3.3x volume; the insurance group fell about 2%) after its Oct 22 Q3 report. Net operating EPS was $4.84 vs $4.87-4.91 expected, and 2026 guidance was cut to $15.35-15.65 from $15.55-15.95. The drivers were a $16M underwriting loss at Evry Health, $7M of excess Medicare Supplement claims tied to CMS processing delays and higher claim severity, and actuarial assumption changes in life underwriting. Piper Sandler downgraded to Neutral (PT $200 to $165), saying GL 'can no longer be viewed as a predictable safe haven' in life insurance. This is company-specific.",
+      "citations": [
+        {
+          "title": "Globe Life Inc Stock (GL) Moved Down by 7.74% on Oct 23: Drivers Behind the Movement",
+          "url": "https://www.tradingkey.com/news/market-movers/262236391-market-movers-gl-20261023",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "T": {
+      "narrative": "AT&T fell 8.0% to $20.93 on Fri Oct 23 (2.35x volume, -10.7% over five sessions), two days after an Oct 21 Q3 beat (adj. EPS $0.65 vs $0.60, revenue $32.3B). The earnings reaction was mostly about rising net leverage after the EchoStar spectrum deal. Friday's larger leg was sector-wide: Bloomberg reported that SpaceX is negotiating access to as many as ~80,000 U.S. cell-tower sites as part of a push to become a fourth national carrier, and T-Mobile (-7.7%) and Verizon also fell. The weekly decline mixes company-specific balance-sheet worries with a new competitive threat to the whole group.",
+      "citations": [
+        {
+          "title": "AT&T (T) Shares Drop Nearly 8% After Q3 Earnings Amid Rising Leverage Concerns",
+          "url": "https://www.gurufocus.com/news/9140695/att-t-shares-drop-nearly-8-after-q3-earnings-amid-rising-leverage-concerns",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Telecom Stocks Fall as SpaceX Eyes 80,000 Cell Sites: T-Mobile Sinks 5%, AT&T Drops 4%, Verizon Slides 3%",
+          "url": "https://247wallst.com/investing/2026/10/23/telecom-stocks-fall-as-spacex-eyes-80000-cell-sites-t-mobile-sinks-5-att-drops-4-verizon-slides-3/",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-10-24"
+    },
+    "TMUS": {
+      "narrative": "T-Mobile fell 7.7% to $146.54 on Fri Oct 23 after Bloomberg reported that SpaceX is in talks to lease roughly 80,000 U.S. cell-tower sites to back up its direct-to-cell Starlink satellites and build a fourth national wireless carrier. The report followed SpaceX's ~$8B purchase of 800 MHz spectrum earlier in October. Investors worry about pricing pressure, churn and higher promotional spending. T-Mobile is the purest-play wireless carrier and is already a Starlink partner, which may explain why it fell slightly more than AT&T in the sector selloff. The move is sector-wide rather than company-specific. TMUS reports Q3 on Oct 28.",
+      "citations": [
+        {
+          "title": "Why T-Mobile US Stock Dropped Today",
+          "url": "https://www.fool.com/investing/2026/10/23/why-t-mobile-us-stock-dropped-today/",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Telecom Stocks Fall as SpaceX Eyes 80,000 Cell Sites: T-Mobile Sinks 5%, AT&T Drops 4%, Verizon Slides 3%",
+          "url": "https://247wallst.com/investing/2026/10/23/telecom-stocks-fall-as-spacex-eyes-80000-cell-sites-t-mobile-sinks-5-att-drops-4-verizon-slides-3/",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "DAVE": {
+      "narrative": "Dave fell 7.3% on Fri Oct 23 (to ~$354.60). A search found no company-specific news, filing or analyst action dated Oct 22-23. Q3 results are not due until about Nov 3. The most plausible context is weakness across consumer-credit lenders that day: Sallie Mae fell 10.8% after raising its charge-off guidance, Enova fell 6.6% and FirstCash fell 6.5%. Dave is a high-beta stock (52-week range ~$152-458) that has repeatedly moved 7-15% on little news. Without a documented driver, treat this as sector beta and volatility, not a fundamental change.",
+      "citations": [],
+      "verdict": "no clean catalyst",
+      "last_updated": "2026-10-24"
+    },
+    "KALU": {
+      "narrative": "Kaiser Aluminum fell 6.7% on Fri Oct 23 (3.4x volume), adding to Thursday's ~20% post-earnings drop for -27% over five sessions. Q3 adjusted EPS of $1.89 missed the $2.37 consensus on higher metal costs and operational disruptions, even though revenue rose 44% to about $1.21B, in line. Friday's leg came as Wells Fargo cut its target to $125 from $160 (Equal Weight unchanged). Oct 23 was also the ex-dividend date for the $0.77 quarterly payout, which explains about 0.6pt of the move. Kaiser kept its full-year 2026 outlook, expects conversion-revenue growth at the high end of 10-15%, cited stronger aerospace demand, and has a CEO handover to Fred Stephan set for Nov 1. This is company-specific.",
+      "citations": [
+        {
+          "title": "Kaiser Aluminum (NASDAQ:KALU) Shares Gap Down Following Weak Earnings",
+          "url": "https://www.marketbeat.com/instant-alerts/price-kaiser-aluminum-nasdaq-kalu-shares-gap-down-following-weak-earnings-2026-10-22/",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Kaiser Aluminum (NASDAQ:KALU) Stock Falls 6.3% Following Analyst Downgrade",
+          "url": "https://www.marketbeat.com/instant-alerts/price-kaiser-aluminum-nasdaq-kalu-stock-falls-63-following-analyst-downgrade-2026-10-23/",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "KNSL": {
+      "narrative": "Kinsale fell 6.7% on Fri Oct 23 (3.0x volume) after its Oct 22 Q3 report, with a CFO transition announced alongside results. Operating EPS of $5.70 beat (~$5.11 expected) and the combined ratio was a strong 75.4% (vs ~78.5% expected). But total revenue fell 8.6% y/y to $454.8M, 4.6% below estimates, and GAAP EPS of $4.36 was hurt by an investment-portfolio repositioning loss. With excess-and-surplus pricing softening, a shrinking top line is the main worry for a stock valued on growth. The move is company-specific with some E&S-cycle beta.",
+      "citations": [
+        {
+          "title": "Kinsale Capital Group (NYSE:KNSL) misses Q3 2026 sales expectations, stock drops",
+          "url": "https://stockstory.org/us/stocks/nyse/knsl/news/earnings/kinsale-capital-group-nyseknsl-misses-q3-2026-sales-expectations-stock-drops",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Kinsale Capital falls on CFO transition despite Q3 beat",
+          "url": "https://biztoc.com/x/ecd8caa180c823cc",
+          "date": "2026-10-22"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-10-24"
+    },
+    "VC": {
+      "narrative": "Visteon fell 6.5% on Fri Oct 23 (2.2x volume, -12.5% over five sessions) after an Oct 22 pre-market Q3 report. Sales beat at $970M (+6%, 10 points above market with customer production down 5%), but $77M of exceptional warranty charges on two instrument-cluster programs cut EPS to $0.19 (vs ~$2.33 consensus) and adjusted EBITDA to $46M. Visteon raised 2026 sales guidance to $3.80-3.85B but lowered adjusted EBITDA to $370-410M and adjusted free cash flow to $90-130M. No separate catalyst was found for Friday's further decline. It came on the same day LKQ's European collapse hit auto-parts sentiment, but no source links the two.",
+      "citations": [
+        {
+          "title": "Visteon tumbles as earnings miss offsets revenue beat",
+          "url": "https://www.investing.com/news/earnings/visteon-tumbles-as-earnings-miss-offsets-revenue-beat-93CH-4965522",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Visteon Corp Form 8-K - Third Quarter 2026 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001111335/000111133526000054/visteonq32026pr.htm",
+          "date": "2026-10-22"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-10-24"
+    },
+    "FCFS": {
+      "narrative": "FirstCash fell 6.5% on Fri Oct 23 (3.6x volume), extending a sharp Oct 22 post-earnings drop (Simply Wall St put it near 15%) for -19.7% over five sessions. The Q3 numbers themselves were records: revenue $1.10B (+18%), adjusted EPS $2.68 (+19%, roughly in line), pawn receivables a record $908M (+14%), Latin America pawn revenue +35%, and a 10% dividend increase to $0.46. The weak spot is AFF, its lease-to-own and retail-finance arm: transaction volume -15%, net revenue -20%, pre-tax income down to $33M from about $46M, with Q4 guidance for another mid-teens volume decline. Against a premium multiple and a long run-up, an in-line quarter with a shrinking AFF was enough to trigger the selloff. Consumer-credit names were broadly weak Friday (SLM, ENVA).",
+      "citations": [
+        {
+          "title": "FirstCash Holdings Form 8-K Exhibit 99.1 - Third Quarter 2026 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000840489/000084048926000097/fcfs10222026exhibit991.htm",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "FirstCash (FCFS) Stock Price Sinks After Q3 Earnings Strength",
+          "url": "https://simplywall.st/stocks/us/diversified-financials/nasdaq-fcfs/firstcash-holdings/news/firstcash-fcfs-stock-price-sinks-after-q3-earnings-strength",
+          "date": "2026-10-22"
+        }
+      ],
+      "verdict": "counter",
+      "last_updated": "2026-10-24"
+    },
+    "ENVA": {
+      "narrative": "UPDATE (10/24/26): Enova fell 6.6% to $165.07 on Fri Oct 23 after an Oct 22 Q3 report that beat on the headline numbers: revenue topped $1B for the first time ($1.01B, +26%), adjusted EPS was $4.48 (+33%, ~2% above consensus) and the net charge-off ratio improved to 8.1% from 8.5%. Coverage does not name a single cause for the drop. The likely pressures are a Q4 net revenue margin guide of 55-60% (vs 61% in Q3), 30+ day delinquencies rising to 8.0% from 7.2%, and same-day weakness in consumer-credit peers after Sallie Mae raised its charge-off guidance. On the call, management said the bank-charter withdrawal had not reduced growth prospects. It pointed to deposit-advance, secured consumer and SMB embedded-finance products instead, and said it is leaning into buybacks: October repurchases already matched Q3's $46M, with $252M of capacity remaining. Prior framing: Enova crashed ~22-25% on Sept 15 after withdrawing its OCC/Fed regulatory applications for the $369M Grasshopper Bancorp acquisition, with the CEO citing a lack of clear standards for nonbanks seeking to become banks. This is a real, abandoned strategic deal, not noise - but the company reiterated Q3 and full-year 2026 guidance unchanged (revenue +25% y/y, adjusted EPS +30% y/y) the same day, meaning the core lending business's outlook wasn't cut. Bounce thesis rests on the deal's collapse being a strategic setback rather than a signal of operational trouble.",
+      "citations": [
+        {
+          "title": "Enova stock falls after Q3 revenue tops $1 billion",
+          "url": "https://finchannel.com/enova-shares-fall-as-quarterly-revenue-tops-1-billion/139238/american-business-trends/2026/10/",
+          "date": "2026-10-24"
+        },
+        {
+          "title": "Enova (ENVA) Q3 2026 Earnings Call Transcript",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/10/22/enova-enva-q3-2026-earnings-call-transcript/",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Enova International Form 8-K Exhibit 99.1 - Third Quarter 2026 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001529864/000119312526428941/enva-ex99_1.htm",
+          "date": "2026-10-22"
+        },
         {
           "title": "Enova International (ENVA) Stock Plummets 25% After Abandoning $369M Grasshopper Bank Acquisition",
           "url": "https://blockonomi.com/enova-international-enva-stock-plummets-25-after-abandoning-369m-grasshopper-bank-acquisition/",
           "date": "2026-09-15"
         }
       ],
-      "verdict": "aligned"
+      "verdict": "mixed",
+      "last_updated": "2026-10-24"
+    }
+  },
+  "recommendations": {
+    "ENVA": {
+      "thesis": "UPDATE (10/24/26): The Oct 22 Q3 report supports the core of the bounce thesis. Results beat, Q4 guidance calls for ~25% revenue growth and 30-35% adjusted EPS growth, credit improved y/y, and management is accelerating buybacks, saying it sees 'meaningful upside' to the share price. That is consistent with the Grasshopper collapse being a strategic setback rather than operational trouble. Even so, the stock fell another 6.6% on Oct 23. The cautions are a lower Q4 margin guide, a rising delinquency rate and sector-wide consumer-credit worries (Sallie Mae's charge-off guidance raise the same day). The thesis holds, but the stock is not yet getting credit for the operating results. Prior framing: Enova crashed ~22-25% on Sept 15 after withdrawing its OCC/Fed regulatory applications for the $369M Grasshopper Bancorp acquisition, with the CEO citing a lack of clear standards for nonbanks seeking to become banks. This is a real, abandoned strategic deal, not noise - but the company reiterated Q3 and full-year 2026 guidance unchanged (revenue +25% y/y, adjusted EPS +30% y/y) the same day, meaning the core lending business's outlook wasn't cut. Bounce thesis rests on the deal's collapse being a strategic setback rather than a signal of operational trouble.",
+      "citations": [
+        {
+          "title": "Enova stock falls after Q3 revenue tops $1 billion",
+          "url": "https://finchannel.com/enova-shares-fall-as-quarterly-revenue-tops-1-billion/139238/american-business-trends/2026/10/",
+          "date": "2026-10-24"
+        },
+        {
+          "title": "Enova (ENVA) Q3 2026 Earnings Call Transcript",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/10/22/enova-enva-q3-2026-earnings-call-transcript/",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Enova International Form 8-K Exhibit 99.1 - Third Quarter 2026 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001529864/000119312526428941/enva-ex99_1.htm",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Enova International (ENVA) Stock Plummets 25% After Abandoning $369M Grasshopper Bank Acquisition",
+          "url": "https://blockonomi.com/enova-international-enva-stock-plummets-25-after-abandoning-369m-grasshopper-bank-acquisition/",
+          "date": "2026-09-15"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-10-24"
     },
     "ARWR": {
       "thesis": "Arrowhead fell on continued concerns about cash burn ($194.3M net loss last quarter) despite genuine clinical progress: SHASTA trial results showed a 78% reduction in acute pancreatitis events, and REDEMPLO revenue roughly doubled quarter over quarter. Piper Sandler maintained an Overweight rating through the decline. This looks like a financing/burn-rate overhang on an otherwise-advancing pipeline rather than a thesis-breaking clinical setback - the bounce case depends on that read being right.",
@@ -3450,6 +3972,162 @@
       ],
       "verdict": "mixed",
       "last_updated": "2026-10-18"
+    },
+    "RHI": {
+      "thesis": "Speculative case is a cyclical inflection call: the first Talent Solutions growth since 2022 plus steady October trends suggests the staffing downturn may have bottomed, and the stock was coming off a deep 2026 drawdown. The risk is that the inflection is mostly pricing, not volume (Goldman's point), Q4 EPS guidance midpoint ($0.41) is below the $0.47 consensus, and a 22% one-day pop plus ~38% in five sessions has already priced in a lot of the recovery. Sensible only as a speculative position on a hiring rebound; not a value or bounce pick after this move.",
+      "citations": [
+        {
+          "title": "Robert Half Reports Third-Quarter Financial Results (Form 8-K Ex. 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000315213/000031521326000049/rhiq32026ex991.htm",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Why is Robert Half stock surging today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-robert-half-stock-surging-today-93CH-4969479",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Robert Half stock rises as analysts lift targets after Q3 results",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/robert-half-stock-rises-analysts-132109437.html",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Robert Half shares surge as staffing revenue returns to growth",
+          "url": "https://finchannel.com/robert-half-shares-surge-as-staffing-revenue-returns-to-growth/139241/american-business-trends/2026/10/",
+          "date": "2026-10-24"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "CART": {
+      "thesis": "Speculative case is now a takeover-premium bet: if a sale to Uber or DoorDash materializes, a typical 30-40% premium on a ~$12B market cap would sit well above Friday's close. The risk is equally clear - the report is unconfirmed, talks are preliminary, and the stock already jumped 9% toward its 52-week high, so a 'no deal' headline would likely unwind the move. Sensible only as an explicitly speculative M&A position; the Nov 5 earnings are the next hard data point.",
+      "citations": [
+        {
+          "title": "Instacart rallies on report of sale talks with Uber, DoorDash",
+          "url": "https://www.spokesman.com/stories/2026/oct/23/instacart-rallies-on-report-of-sale-talks-with-ube/",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Instacart reportedly in talks to sell itself to Uber or DoorDash in potential $17 billion deal",
+          "url": "https://techstartups.com/2026/10/23/instacart-reportedly-in-talks-to-sell-itself-to-uber-or-doordash-in-potential-17-billion-deal/",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "CCI": {
+      "thesis": "Speculative case is that a new large tenant (SpaceX) would add lease demand to a tower portfolio that has just shed its fiber/small-cell businesses and been guiding modestly higher. The risk: the catalyst is an unconfirmed press report, and Friday's open near $91 already faded to $86. Q3 revenue fell y/y and analyst views are mixed (Wells Fargo Hold/$80, Citizens Buy/$120). Reasonable as a speculative pick on new-tenant optionality, but the move is headline-driven, not fundamental yet.",
+      "citations": [
+        {
+          "title": "Crown Castle Stock Jumps 12% On Reports Of Potential SpaceX Tower Deal",
+          "url": "https://www.rttnews.com/story.aspx?Id=3702503",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Crown Castle (CCI) Stock Dips Despite Q3 Earnings Beat and Raised 2026 Guidance",
+          "url": "https://www.gurufocus.com/news/9135263/crown-castle-cci-stock-dips-despite-q3-earnings-beat-and-raised-2026-guidance",
+          "date": "2026-10-21"
+        },
+        {
+          "title": "Oil tops $116 to cap a rocky week, SpaceX's carrier ambitions sink AT&T and T-Mobile, and CrowdStrike jumps 8.25%",
+          "url": "https://thewallstreetrepublic.substack.com/p/oil-tops-116-to-cap-a-rocky-week",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "CUBI": {
+      "thesis": "Speculative case rests on execution: record loan and deposit growth, a widening margin and AI-driven efficiency gains point to continued earnings momentum, and tangible book value is up 10% y/y to $65.66. The caveats: at ~$84.5 the stock trades at ~1.3x tangible book after a 13% five-session run, about $3.1B of deposits come from digital-asset clients (a concentration that has worried investors before), and management itself flagged higher Q4 expenses and 2027 rate-reset credit risk. Reasonable as a momentum/quality-growth bank pick, but much of the good news is now in the price.",
+      "citations": [
+        {
+          "title": "Customers Bancorp (CUBI) Q3 2026 Earnings Call Transcript",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/10/23/customers-bancorp-cubi-q3-2026-earnings-call-transcript/",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Customers Bancorp (CUBI) Reports Q3 Earnings Beat with Strong GF Score Amid Valuation Concerns",
+          "url": "https://www.gurufocus.com/news/9138096/customers-bancorp-cubi-reports-q3-earnings-beat-with-strong-gf-score-amid-valuation-concerns",
+          "date": "2026-10-22"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "LKQ": {
+      "thesis": "A real but early bounce candidate. In favor: North America, the larger and steadier business, came in line. The damage is concentrated in a self-inflicted European ERP and execution problem that Alvarez & Marsal and new management can, in principle, fix. And the stock is near multi-year lows after the ~22% drop. Against: guidance is withdrawn, so there is no earnings floor. The Oct 29 full report and call could bring more detail on Europe. A new CEO starting Dec 15 often 'kitchen-sinks' the next guide. The ERP problem has now spanned two quarters, which suggests it is not a one-off. Treat it as a speculative turnaround bounce, not a mean-reversion trade on noise, and wait for the Oct 29 numbers before sizing.",
+      "citations": [
+        {
+          "title": "Why LKQ (LKQ) stock is trading lower today",
+          "url": "https://www.financialcontent.com/article/stockstory-2026-10-23-why-lkq-lkq-stock-is-trading-lower-today",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "LKQ Stock Plunges 19% as CEO Departs, Guidance Pulled and Auto Parts Giant Warns of Loss After Europe Stumbles",
+          "url": "https://www.ibtimes.com.au/lkq-shares-plunge-ceo-departure-european-loss-1877300",
+          "date": "2026-10-24"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "CORT": {
+      "thesis": "Mixed bounce case. Lifyorli is already approved and on the market, while Rina-S has not been filed. Corcept therefore keeps a commercial window, likely measured in years, and its core cortisol-modulator business (Korlym in Cushing's syndrome) is unaffected by Friday's news. Against that, the Rina-S data are strong enough that oncologists may switch once it is approved, so the ovarian-cancer opportunity behind much of the 2026 rerating has a shorter shelf life. Also, the relacorilant hypercortisolism NDA got a CRL in Dec 2025. The 20% drop reprices a real competitive threat; it is not noise. Any bounce depends on Q3 results (late Oct / early Nov) showing Lifyorli launch traction.",
+      "citations": [
+        {
+          "title": "Corcept Therapeutics (CORT) Shares Drop 20% on Genmab's Phase 3 Success in Ovarian Cancer",
+          "url": "https://www.gurufocus.com/news/9140704/corcept-therapeutics-cort-shares-drop-20-on-genmabs-phase-3-success-in-ovarian-cancer",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Genmab Announces Rinatabart Sesutecan (Rina-S) Demonstrates Statistically Significant Improvement in Progression-Free Survival and Overall Survival in Patients with Platinum-Resistant Ovarian Cancer",
+          "url": "https://ir.genmab.com/news-releases/news-release-details/genmab-announces-rinatabart-sesutecan-rina-sr-demonstrates",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "FDA approves relacorilant with nab-paclitaxel for platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal cancer",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-relacorilant-nab-paclitaxel-platinum-resistant-epithelial-ovarian-fallopian-tube-or",
+          "date": "2026-03"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "KALU": {
+      "thesis": "Among the better bounce setups on this list. The stock is down about 27% in a week, but full-year guidance was maintained rather than cut. Management talked up aerospace demand and 2027 visibility. At roughly 9x earnings and with a $0.77 quarterly dividend, valuation was not stretched going in. The miss came from metal-cost timing and operational disruptions, which tend to be transitory for a conversion-priced aluminum fabricator rather than structural. Risks: the sources do not say which plants were disrupted or how long it will last, a new CEO takes over Nov 1 (a possible reset point), and one broker cut its target to $125, near the current price. A reasonable mean-reversion candidate if Q4 commentary confirms the disruption is fading.",
+      "citations": [
+        {
+          "title": "Kaiser Aluminum (NASDAQ:KALU) Shares Gap Down Following Weak Earnings",
+          "url": "https://www.marketbeat.com/instant-alerts/price-kaiser-aluminum-nasdaq-kalu-shares-gap-down-following-weak-earnings-2026-10-22/",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Kaiser Aluminum (NASDAQ:KALU) Stock Falls 6.3% Following Analyst Downgrade",
+          "url": "https://www.marketbeat.com/instant-alerts/price-kaiser-aluminum-nasdaq-kalu-stock-falls-63-following-analyst-downgrade-2026-10-23/",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "FCFS": {
+      "thesis": "A sensible bounce candidate. The selloff punishes valuation and a shrinking non-core segment, not the core business. Pawn, the large majority of profits, grew strongly in both the U.S. and Latin America, and pawn demand tends to rise when lower-income consumers are stretched, which is the same stress that hit Sallie Mae Friday. AFF credit actually improved (monthly net charge-offs 5.6% vs 5.8%). The company is buying back stock ($123M in Q3 at ~$209 average, above today's price) and raised its dividend. Risks: AFF is guided to keep shrinking through Q4, only $50M of buyback authorization is left, and part of the premium multiple may not come back. The case rests on pawn growth continuing to offset AFF.",
+      "citations": [
+        {
+          "title": "FirstCash Holdings Form 8-K Exhibit 99.1 - Third Quarter 2026 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000840489/000084048926000097/fcfs10222026exhibit991.htm",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "FirstCash (FCFS) Stock Price Sinks After Q3 Earnings Strength",
+          "url": "https://simplywall.st/stocks/us/diversified-financials/nasdaq-fcfs/firstcash-holdings/news/firstcash-fcfs-stock-price-sinks-after-q3-earnings-strength",
+          "date": "2026-10-22"
+        }
+      ],
+      "verdict": "counter",
+      "last_updated": "2026-10-24"
     }
   },
   "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. The 10/18/26 pull (a Sunday) reflects the Friday Oct 16 session - equity data is current through that close, with no data lag. It was a sharp two-way day: the Nasdaq fell 2.15% (-4.5% on the week, its worst since late June) as an eight-session chip losing streak, a software selloff and stress in AI-linked debt (CoreWeave -12%) hit semis, semicap, AI-infrastructure, AI-pivoting bitcoin miners and software names - so the 10/18/26 pull's losers (Vicor, Supermicro, Flex, Impinj, Ultra Clean, ACM Research, MaxLinear, Viavi, DigitalOcean, Twilio, Okta, Five9, MARA, CleanSpark, Centrus) are mostly one sector-wide story, not 15 separate ones. Several of these names already had September writeups about earlier, opposite-direction moves; those are kept as 'Prior framing' under a dated UPDATE rather than overwritten. Supermicro is the main name with genuinely new company-specific news (an Oct 8-9 guilty plea in a server-diversion case that reopens a question the prior writeup called cleared). Gainers were almost entirely oil and gas: Brent settled near $110 (highest since May) and WTI near $101 on Iran's escalating Hormuz attacks and a large US crude draw, lifting E&Ps and midstream together. Most of those names had no company-specific catalyst and are marked as sector-beta reads; natural-gas futures actually fell that day, so gas-weighted names (Antero, Range) are marked divergent from their own commodity. Several volume outliers (Regions, Citizens, Alcoa, First Financial, Cohen & Steers) are earnings-driven; ten others (Schneider National, Sunstone, Urban Edge, DXP, Ormat, Avantor, Ecolab, Watts, Central Garden, Northern Trust) turned up no clean catalyst despite a genuine search - Oct 16 was a monthly options expiration, which commonly inflates volume, but that is stated as an unconfirmed explanation, not a sourced one. The $2B market-cap filter was refreshed on 10/18/26 (2026-10-18 cache), which moved Ichor and Schrodinger below the line and brought Flex and Impinj into the losers list; Flex's slide traces to the Oct 5 terms of a $2B convertible-preferred deal in its Axiom unit, while Impinj had no clean catalyst ahead of its Oct 28 earnings. Ciena joins the bounce list (sector de-rating after the Oct 1 optical rally reversed).",
