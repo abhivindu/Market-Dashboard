@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-18",
+  "as_of": "2026-10-24",
   "radar": "Defense tech is the clearest candidate for a 10th sector: over $14.6B has been deployed into military/national-security startups in 2026 already, surpassing all of 2025's $9.6B before mid-year. Anduril doubled its valuation to $61B in a $5B round (Thrive Capital, Andreessen Horowitz) and is reportedly in talks targeting $100B; Palantir's market cap crossed $325B; Shield AI ($12.7B) and Saronic ($4B) round out a group of 60+ funded startups totaling $33B+ raised. The Army moved its TITAN targeting system from prototyping to production with a $192M award split between Palantir ($127M) and Anduril, alongside partners L3Harris, Sierra Nevada, and World Wide Technology - a concrete production contract, not just funding-round valuation talk, cementing Palantir-Anduril as the Army's preferred AI-sensor-fusion team. Geopolitical tension has made this sector 'fundable almost overnight' per one VC assessment - worth adding once there's room to research it properly.",
-  "freshness_note": "Every citation below carries the actual publish date of its source, separate from this page's pull date above. On refresh, a sector or company is only rewritten if genuinely newer reporting was found for it, marked inline as \"UPDATE (mm/dd/yy)\" for that pull only - otherwise the existing entry stands as-is, and callouts from earlier pulls are removed rather than left looking current. The 10/18/26 pull spot-checked Autonomous Vehicles & Robotaxis, Space & Satellite, and Fusion Energy (none re-checked on 2026-10-01), plus a quick check of Nuclear SMRs given the mid-October selloff in nuclear names. All four had genuine, dated news: Tesla (Autonomous Vehicles) says its Austin Cybercab fleet grew roughly eightfold in a month to 300+ vehicles with Dallas next (reported Oct 15), though ride counts and economics remain undisclosed; Rocket Lab (Space) delayed Neutron's first launch from Q4 2026 into 2027 on Oct 14 and shares fell more than 10%; Type One Energy (Fusion) raised a $200M Series B on Oct 6 for a TVA-sited stellarator plant licensing Commonwealth Fusion's magnet tech; and NuScale/Oklo (Nuclear SMRs) fell ~8.5%/~6.5% on Oct 14 as long-end Treasury yields rose (10-year cited at 5.26% by the source; FRED end-of-day 5.19%). No fresh, dated Waymo, Zoox, AST SpaceMobile or Helion news was confirmed on 10/18/26, so those entries stand as-is. The remaining five sectors (Quantum Computing, Humanoid & Industrial Robotics, Biotech: GLP-1 Successors & Gene Editing, Brain-Computer Interfaces, Next-Gen Batteries & Energy Storage) were not re-checked on 10/18/26: Quantum and Humanoid Robotics stand as of the 2026-10-01 pull, and Biotech, BCI and Batteries as of the 2026-09-24 pull. The Defense Tech radar note was not re-checked. The \"What changed\" box above lists exactly which sectors and fields were updated on this date.",
+  "freshness_note": "Every citation below carries the actual publish date of its source, separate from this page's pull date above. On refresh, a sector or company is only rewritten if genuinely newer reporting was found for it, marked inline as \"UPDATE (mm/dd/yy)\" for that pull only - otherwise the existing entry stands as-is, and callouts from earlier pulls are removed rather than left looking current. The 10/24/26 pull spot-checked Quantum Computing and Humanoid & Industrial Robotics (last checked 2026-10-01) and Next-Gen Batteries & Energy Storage (last checked 2026-09-24). All three had genuine, dated news: IonQ (Quantum) agreed an up-to-$1.3B all-stock Elisity acquisition on Oct 12 and priced a $2B equity offering on Oct 14, and the quantum group sold off again on Oct 22 (IonQ -24%, D-Wave -35%, Rigetti -31% over the month) with no company-specific news from Rigetti, D-Wave or Quantinuum; Tesla (Robotics) said on its Oct 21 Q3 call that early Optimus production has started in Fremont but external deliveries are targeted around end-2027, and Agility's SPAC cleared the SEC on Oct 13 with a Nov 2 vote; QuantumScape (Batteries) reported Q3 on Oct 21 (net loss $84.5M, billings $9.8M, guidance reiterated, PowerCo terms being re-aligned), and Fluence slid to ~$5.96 with a J.P. Morgan target cut on Oct 19 and securities class actions pending. No fresh, dated Figure, Unitree, Apptronik, Harmonic Drive, PsiQuantum, Solid Power, CATL, Form Energy or Redwood news was confirmed on 10/24/26, so those entries stand as-is. The remaining six sectors were not re-checked on 10/24/26: Autonomous Vehicles & Robotaxis, Space & Satellite, Fusion Energy and Nuclear SMRs stand as of the 2026-10-18 pull, and Biotech: GLP-1 Successors & Gene Editing and Brain-Computer Interfaces as of the 2026-09-24 pull. The Defense Tech radar note was briefly checked on 10/24/26 (no closed Anduril round or other major new event found) and stands as-is. The \"What changed\" box above lists exactly which sectors and fields were updated on this date.",
   "sectors": [
     {
       "id": "quantum-computing",
@@ -17,7 +17,7 @@
       ],
       "investors_lenders": "Mega-cap strategics (Nvidia's NVentures, Honeywell, Microsoft, JPMorgan, Amgen), sovereign/institutional capital (BlackRock, Temasek, Baillie Gifford), plus the U.S. Commerce Department (direct funding agreements, e.g. Quantinuum's trapped-ion program).",
       "roadblocks": "Error correction at scale is the primary unsolved technical barrier - decoherence limits computation to microseconds/milliseconds, and most systems need near-absolute-zero cooling. Real progress exists (Google's Willow chip reached 'below-threshold' error correction; AWS's Ocelot chip targets a 90% cut in error-correction overhead) but the gap between lab demonstrations and deployable systems remains wide. Prediction markets give low odds to IBM's end-2026 advantage claim.",
-      "sentiment": "The sector's company-specific news this stretch skewed positive and came almost entirely from IonQ - a sharply raised FY26 revenue guide ($280-290M to $450-460M, though mostly SkyWater-driven), a genuine technical milestone (first end-to-end real-time quantum error-correction decoder on commodity hardware), and a marquee NVIDIA Accelerated Quantum Research Center placement for its new Superion 256 platform, which together drove an 11-14% single-day pop. This doesn't resolve the sector's broader government-policy sensitivity described below - it's IonQ-specific commercial/technical progress layered on top of that same backdrop, not a sector-wide re-rating. Volatile and bifurcated, though the public pure-plays have partly rebounded since the late-July trough. Rigetti and D-Wave each secured $100M in CHIPS Act funding in early September 2026, with the U.S. government taking minority equity stakes in both - shares jumped 8% (RGTI) and 5% (QBTS) on the news, though RGTI and QBTS remain down 26% and 33% year-to-date with the government stakes adding dilution risk. IonQ closed its SkyWater acquisition and raised 2026 revenue guidance to $280-290M, with Remaining Performance Obligations reaching $485M. Private funding remains strong in parallel (PsiQuantum's $1.5B round in May 2026 at a $10.5B valuation; Quantinuum's IPO pricing above a $14B valuation) - institutional conviction hasn't left even as public-market sentiment swings on government-policy headlines as much as fundamentals now. The Department of Energy launched the $215M \"Quantum Genesis\" Q Competition on Sept 18, a milestone-based program to fund a fault-tolerant, scientifically-relevant quantum computer (100+ logical qubits, useful science by 2028) - Phase I pays up to $1.5M per awardee in fixed milestones, Phase II sets aside $100M for reaching 100 qubits with $50M bonuses at 150 and 200 qubits. IonQ, Rigetti, and D-Wave are all expected entrants; applications close Oct 19, 2026. This is a new, separate federal funding vehicle from the CHIPS Act equity-stake awards above, adding another government-demand catalyst for the pure-plays rather than resolving the sector's underlying government-policy sensitivity.",
+      "sentiment": "UPDATE (10/24/26): The early-October tone turned sharply negative on dilution and a renewed tech/AI selloff rather than on any technical setback. IonQ agreed on Oct 12 to buy cybersecurity firm Elisity in an all-stock deal worth up to $1.3B, then on Oct 14 priced a $2B equity offering (common stock plus pre-funded warrants, sold to an entity managed by Heights Capital, with seven-year warrants on another 100M shares) - two rounds of dilution in a week; IONQ fell 6% to $32.76 that day, with QBTS and RGTI down 4% in sympathy. On Oct 22 the group slid again in a chip selloff after Lam Research flagged shipment delays (IONQ -3%, RGTI -5%, QBTS -4%, Quantinuum/QNT -7%), with 24/7 Wall St. and TIKR both reporting no company-specific news from Rigetti, D-Wave or Quantinuum. Over the trailing month to Oct 22: IonQ -24% (~$30.92), D-Wave -35% (~$11.49), Rigetti -31% (~$11.38), versus QQQ -5%. IonQ's Q3 report (early November) is the next company catalyst; no outcome of the DOE Quantum Genesis applications (closed Oct 19) was found. Prior framing: The sector's company-specific news this stretch skewed positive and came almost entirely from IonQ - a sharply raised FY26 revenue guide ($280-290M to $450-460M, though mostly SkyWater-driven), a genuine technical milestone (first end-to-end real-time quantum error-correction decoder on commodity hardware), and a marquee NVIDIA Accelerated Quantum Research Center placement for its new Superion 256 platform, which together drove an 11-14% single-day pop. This doesn't resolve the sector's broader government-policy sensitivity described below - it's IonQ-specific commercial/technical progress layered on top of that same backdrop, not a sector-wide re-rating. Volatile and bifurcated, though the public pure-plays have partly rebounded since the late-July trough. Rigetti and D-Wave each secured $100M in CHIPS Act funding in early September 2026, with the U.S. government taking minority equity stakes in both - shares jumped 8% (RGTI) and 5% (QBTS) on the news, though RGTI and QBTS remain down 26% and 33% year-to-date with the government stakes adding dilution risk. IonQ closed its SkyWater acquisition and raised 2026 revenue guidance to $280-290M, with Remaining Performance Obligations reaching $485M. Private funding remains strong in parallel (PsiQuantum's $1.5B round in May 2026 at a $10.5B valuation; Quantinuum's IPO pricing above a $14B valuation) - institutional conviction hasn't left even as public-market sentiment swings on government-policy headlines as much as fundamentals now. The Department of Energy launched the $215M \"Quantum Genesis\" Q Competition on Sept 18, a milestone-based program to fund a fault-tolerant, scientifically-relevant quantum computer (100+ logical qubits, useful science by 2028) - Phase I pays up to $1.5M per awardee in fixed milestones, Phase II sets aside $100M for reaching 100 qubits with $50M bonuses at 150 and 200 qubits. IonQ, Rigetti, and D-Wave are all expected entrants; applications close Oct 19, 2026. This is a new, separate federal funding vehicle from the CHIPS Act equity-stake awards above, adding another government-demand catalyst for the pure-plays rather than resolving the sector's underlying government-policy sensitivity.",
       "primary_companies": [
         {
           "name": "IonQ",
@@ -25,7 +25,7 @@
           "ticker": "IONQ",
           "description": "Trapped-ion quantum computing, publicly listed pure-play with the strongest balance sheet in the group.",
           "investors": "Public markets (NYSE-listed); early backers included GV, Samsung Catalyst Fund, Mubadala.",
-          "performance": "Raised FY26 revenue guidance sharply again, from $280-290M to $450-460M (announced Sept 8) - though the updated outlook is the first to include SkyWater Technology (acquired July 31, 2026), and the foundry appears to account for the bulk of the increase rather than core quantum-services growth. Followed by two dated technical/commercial catalysts: on Sept 22 IonQ demonstrated the industry's first end-to-end real-time quantum error-correction decoder running on a single off-the-shelf CPU (tested on simulated circuits up to 408 logical qubits, 31.5M+ quantum operations, only 0.02% added stretch time under standard noise); on Sept 23 it announced its new Superion 256 platform (sixth-generation, first IonQ chips fabricated at SkyWater) will be the first quantum processor installed at NVIDIA's Accelerated Quantum Research Center (2027 deployment), connecting to an NVIDIA GB200 NVL72 platform via NVQLink. Shares jumped as much as 12-14% on the NVIDIA news before settling near $42.54. Q2 2026 revenue $80.1M (+287% y/y). Remaining Performance Obligations reached $485M, giving stronger multi-year revenue visibility than the two smaller pure-plays; consensus rating Strong Buy with an average price target of $69.44 (~57% implied upside at the time of that read). Adjusted EBITDA loss guided at -$310M to -$330M for the year - still deeply unprofitable despite revenue growth.",
+          "performance": "UPDATE (10/24/26): Agreed Oct 12 to acquire cybersecurity company Elisity in an all-stock deal worth up to $1.3B, then on Oct 14 priced a $2B equity offering of common stock and pre-funded warrants to an entity managed by Heights Capital Management, above the prior close, plus seven-year warrants on 100M more shares (J.P. Morgan sole underwriter); the stock fell 6% to $32.76. By Oct 22 shares were ~$30.92, down 24% over the month, as dilution concerns and an Oct 22 chip/AI selloff outweighed the September catalysts below. TIKR put forward price/sales near ~20x, close to a five-year low (19x), with consensus 2026 revenue ~$455M; Q3 results are due in early November. Prior framing: Raised FY26 revenue guidance sharply again, from $280-290M to $450-460M (announced Sept 8) - though the updated outlook is the first to include SkyWater Technology (acquired July 31, 2026), and the foundry appears to account for the bulk of the increase rather than core quantum-services growth. Followed by two dated technical/commercial catalysts: on Sept 22 IonQ demonstrated the industry's first end-to-end real-time quantum error-correction decoder running on a single off-the-shelf CPU (tested on simulated circuits up to 408 logical qubits, 31.5M+ quantum operations, only 0.02% added stretch time under standard noise); on Sept 23 it announced its new Superion 256 platform (sixth-generation, first IonQ chips fabricated at SkyWater) will be the first quantum processor installed at NVIDIA's Accelerated Quantum Research Center (2027 deployment), connecting to an NVIDIA GB200 NVL72 platform via NVQLink. Shares jumped as much as 12-14% on the NVIDIA news before settling near $42.54. Q2 2026 revenue $80.1M (+287% y/y). Remaining Performance Obligations reached $485M, giving stronger multi-year revenue visibility than the two smaller pure-plays; consensus rating Strong Buy with an average price target of $69.44 (~57% implied upside at the time of that read). Adjusted EBITDA loss guided at -$310M to -$330M for the year - still deeply unprofitable despite revenue growth.",
           "citations": [
             {
               "title": "IonQ Just Raised Its 2026 Revenue Outlook by About 60%. Most of the Raise Isn't Quantum Computing.",
@@ -56,6 +56,21 @@
               "title": "DOE Launches $215 Million Quantum Genesis Q Competition",
               "url": "https://thequantuminsider.com/2026/09/18/doe-215-million-quantum-genesis-q-competition/",
               "date": "2026-09-18"
+            },
+            {
+              "title": "IonQ Falls 6% as $2B Equity Offering Follows $1.3B Elisity Stock Deal; D-Wave and Rigetti Retreat 4%",
+              "url": "https://247wallst.com/investing/2026/10/14/ionq-falls-6-as-2b-equity-offering-follows-1-3b-elisity-stock-deal-d-wave-and-rigetti-retreat-4/",
+              "date": "2026-10-14"
+            },
+            {
+              "title": "IonQ Is Now Down 24% in a Month: Is IONQ a Toxic Stock or Ready for a Recovery?",
+              "url": "https://247wallst.com/investing/2026/10/22/ionq-is-now-down-24-in-a-month-is-ionq-a-toxic-stock-or-ready-for-a-recovery/",
+              "date": "2026-10-22"
+            },
+            {
+              "title": "IonQ Sinks 3%, Rigetti Down 5%, D-Wave Down 4% as Quantum Stocks Slide Again in Tech Selloff",
+              "url": "https://www.tikr.com/blog/ionq-sinks-3-rigetti-down-5-d-wave-down-4-as-quantum-stocks-slide-again-in-tech-selloff",
+              "date": "2026-10-22"
             }
           ]
         },
@@ -65,7 +80,7 @@
           "ticker": "RGTI",
           "description": "Superconducting-qubit pure-play, the most government-revenue-dependent of the three major public names.",
           "investors": "Public markets (Nasdaq-listed).",
-          "performance": "jumped 8% in early September 2026 after securing $100M in CHIPS Act funding, with the U.S. government taking a minority equity stake - still down 26% YTD despite the pop, with the equity stake adding dilution risk alongside the direct funding tailwind. Core business leans most heavily on government contracts of the three major pure-plays.",
+          "performance": "UPDATE (10/24/26): Down 31% over the month to ~$11.38 as of Oct 22, falling in sympathy with IonQ's dilution news on Oct 14 (-4%) and again in the Oct 22 tech selloff (-5%) - with no company-specific news of its own reported in either move. Prior framing: jumped 8% in early September 2026 after securing $100M in CHIPS Act funding, with the U.S. government taking a minority equity stake - still down 26% YTD despite the pop, with the equity stake adding dilution risk alongside the direct funding tailwind. Core business leans most heavily on government contracts of the three major pure-plays.",
           "citations": [
             {
               "title": "Quantum Stocks Rally as Commerce Department Takes Equity Stakes: Rigetti Surges 6%, D-Wave Climbs 5%",
@@ -81,6 +96,21 @@
               "title": "DOE Launches $215 Million Quantum Genesis Q Competition",
               "url": "https://thequantuminsider.com/2026/09/18/doe-215-million-quantum-genesis-q-competition/",
               "date": "2026-09-18"
+            },
+            {
+              "title": "IonQ Falls 6% as $2B Equity Offering Follows $1.3B Elisity Stock Deal; D-Wave and Rigetti Retreat 4%",
+              "url": "https://247wallst.com/investing/2026/10/14/ionq-falls-6-as-2b-equity-offering-follows-1-3b-elisity-stock-deal-d-wave-and-rigetti-retreat-4/",
+              "date": "2026-10-14"
+            },
+            {
+              "title": "IonQ Is Now Down 24% in a Month: Is IONQ a Toxic Stock or Ready for a Recovery?",
+              "url": "https://247wallst.com/investing/2026/10/22/ionq-is-now-down-24-in-a-month-is-ionq-a-toxic-stock-or-ready-for-a-recovery/",
+              "date": "2026-10-22"
+            },
+            {
+              "title": "IonQ Sinks 3%, Rigetti Down 5%, D-Wave Down 4% as Quantum Stocks Slide Again in Tech Selloff",
+              "url": "https://www.tikr.com/blog/ionq-sinks-3-rigetti-down-5-d-wave-down-4-as-quantum-stocks-slide-again-in-tech-selloff",
+              "date": "2026-10-22"
             }
           ]
         },
@@ -90,7 +120,7 @@
           "ticker": "QBTS",
           "description": "Quantum annealing specialist (a different approach than gate-model competitors), focused on optimization problems.",
           "investors": "Public markets (NYSE-listed).",
-          "performance": "rose 5% in early September 2026 on the same $100M CHIPS Act funding/government-equity-stake news lifting RGTI - still down 33% YTD, with H1 2026 bookings up 1,120% y/y and production applications now 37.3% of H1 QCaaS revenue, the strongest non-government commercial traction of the three pure-plays.",
+          "performance": "UPDATE (10/24/26): Down 35% over the month to ~$11.49 as of Oct 22, falling in sympathy with IonQ's dilution news on Oct 14 (-4%) and again in the Oct 22 tech selloff (-4%) - with no company-specific news of its own reported in either move. Prior framing: rose 5% in early September 2026 on the same $100M CHIPS Act funding/government-equity-stake news lifting RGTI - still down 33% YTD, with H1 2026 bookings up 1,120% y/y and production applications now 37.3% of H1 QCaaS revenue, the strongest non-government commercial traction of the three pure-plays.",
           "citations": [
             {
               "title": "Quantum Stocks Rally as Commerce Department Takes Equity Stakes: Rigetti Surges 6%, D-Wave Climbs 5%",
@@ -106,6 +136,21 @@
               "title": "DOE Launches $215 Million Quantum Genesis Q Competition",
               "url": "https://thequantuminsider.com/2026/09/18/doe-215-million-quantum-genesis-q-competition/",
               "date": "2026-09-18"
+            },
+            {
+              "title": "IonQ Falls 6% as $2B Equity Offering Follows $1.3B Elisity Stock Deal; D-Wave and Rigetti Retreat 4%",
+              "url": "https://247wallst.com/investing/2026/10/14/ionq-falls-6-as-2b-equity-offering-follows-1-3b-elisity-stock-deal-d-wave-and-rigetti-retreat-4/",
+              "date": "2026-10-14"
+            },
+            {
+              "title": "IonQ Is Now Down 24% in a Month: Is IONQ a Toxic Stock or Ready for a Recovery?",
+              "url": "https://247wallst.com/investing/2026/10/22/ionq-is-now-down-24-in-a-month-is-ionq-a-toxic-stock-or-ready-for-a-recovery/",
+              "date": "2026-10-22"
+            },
+            {
+              "title": "IonQ Sinks 3%, Rigetti Down 5%, D-Wave Down 4% as Quantum Stocks Slide Again in Tech Selloff",
+              "url": "https://www.tikr.com/blog/ionq-sinks-3-rigetti-down-5-d-wave-down-4-as-quantum-stocks-slide-again-in-tech-selloff",
+              "date": "2026-10-22"
             }
           ]
         },
@@ -125,17 +170,23 @@
         },
         {
           "name": "Quantinuum",
-          "type": "private (IPO pending)",
-          "description": "Trapped-ion quantum computing, majority-owned by Honeywell (~54% stake); pursuing a Nasdaq IPO under ticker 'QNT'.",
+          "type": "public",
+          "description": "Trapped-ion quantum computing, majority-owned by Honeywell (~54% stake); listed on Nasdaq under ticker 'QNT'.",
           "investors": "Honeywell (controlling stake), Nvidia (NVentures), Quanta Computer, JPMorgan Chase, Mitsui, Amgen; also a tentative $100M U.S. Commerce Department funding agreement.",
-          "performance": "Pre-money valuation doubled from $5B (Jan 2024) to $10B after an April 2026 $600M raise; IPO pricing has since pushed the potential valuation above $14B, with plans to raise up to $1.46B in the offering.",
+          "performance": "UPDATE (10/24/26): Now trading on Nasdaq as QNT (the 'IPO pending' framing below predates its listing); fell 7% on Oct 22, the biggest decliner in the quantum group that day, with no company-specific news reported. Prior framing: Pre-money valuation doubled from $5B (Jan 2024) to $10B after an April 2026 $600M raise; IPO pricing has since pushed the potential valuation above $14B, with plans to raise up to $1.46B in the offering.",
           "citations": [
             {
               "title": "Quantinuum Expands IPO as Valuation Climbs Above $14 Billion",
               "url": "https://thequantuminsider.com/2026/06/02/quantinuum-expands-ipo-as-valuation-climbs-above-14-billion/",
               "date": "2026-06-02"
+            },
+            {
+              "title": "IonQ Sinks 3%, Rigetti Down 5%, D-Wave Down 4% as Quantum Stocks Slide Again in Tech Selloff",
+              "url": "https://www.tikr.com/blog/ionq-sinks-3-rigetti-down-5-d-wave-down-4-as-quantum-stocks-slide-again-in-tech-selloff",
+              "date": "2026-10-22"
             }
-          ]
+          ],
+          "ticker": "QNT"
         }
       ],
       "adjacent_companies": [
@@ -189,12 +240,27 @@
             "name": "IonQ",
             "ticker": "IONQ",
             "bucket": "pullback",
-            "thesis": "Down ~39% over the trailing month despite raising FY26 revenue guidance to $280-290M and posting 287% y/y quarterly revenue growth - the strongest fundamentals of the three major public pure-plays, punished alongside weaker peers in an indiscriminate sector selloff rather than for company-specific news.",
+            "thesis": "UPDATE (10/24/26): The pullback deepened in October for a company-specific reason the earlier thesis didn't have: two rounds of dilution in a week (up-to-$1.3B all-stock Elisity deal on Oct 12, $2B equity offering plus 100M-share warrants on Oct 14). Shares were ~$30.92 on Oct 22, down 24% in a month, with forward price/sales near a five-year low - cheaper, but no longer a purely indiscriminate sector selloff. Prior framing: Down ~39% over the trailing month despite raising FY26 revenue guidance to $280-290M and posting 287% y/y quarterly revenue growth - the strongest fundamentals of the three major public pure-plays, punished alongside weaker peers in an indiscriminate sector selloff rather than for company-specific news.",
             "citations": [
               {
                 "title": "IonQ, Rigetti, and D-Wave Quantum Are Down 30% in a Month",
                 "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-rigetti-d-wave-quantum-190437159.html",
                 "date": "2026"
+              },
+              {
+                "title": "IonQ Falls 6% as $2B Equity Offering Follows $1.3B Elisity Stock Deal; D-Wave and Rigetti Retreat 4%",
+                "url": "https://247wallst.com/investing/2026/10/14/ionq-falls-6-as-2b-equity-offering-follows-1-3b-elisity-stock-deal-d-wave-and-rigetti-retreat-4/",
+                "date": "2026-10-14"
+              },
+              {
+                "title": "IonQ Is Now Down 24% in a Month: Is IONQ a Toxic Stock or Ready for a Recovery?",
+                "url": "https://247wallst.com/investing/2026/10/22/ionq-is-now-down-24-in-a-month-is-ionq-a-toxic-stock-or-ready-for-a-recovery/",
+                "date": "2026-10-22"
+              },
+              {
+                "title": "IonQ Sinks 3%, Rigetti Down 5%, D-Wave Down 4% as Quantum Stocks Slide Again in Tech Selloff",
+                "url": "https://www.tikr.com/blog/ionq-sinks-3-rigetti-down-5-d-wave-down-4-as-quantum-stocks-slide-again-in-tech-selloff",
+                "date": "2026-10-22"
               }
             ]
           },
@@ -256,7 +322,7 @@
       ],
       "investors_lenders": "Mega-cap strategics (Microsoft, Nvidia, Amazon's Industrial Innovation Fund), SoftBank (Masayoshi Son has called robotics the source of the next trillion-dollar company), Jeff Bezos personally, automakers (Hyundai acquired Boston Dynamics outright), and public markets increasingly via IPO/SPAC routes (Unitree's Shanghai IPO, Agility's Churchill Capital SPAC merger).",
       "roadblocks": "Investor optimism is outpacing real-world progress - Unitree listed at roughly 210x its 2025 revenue. The harder test now is proving two-legged machines do useful work reliably and cheaply at scale: intervention rates, cost-per-completed-task versus other automation, safety, regulation, and social acceptance remain open questions. Tesla itself tempered expectations in January 2026, acknowledging early Optimus units weren't yet 'doing useful work.'",
-      "sentiment": "Figure AI's Sept 17 Helix 2.5 release - 30 zero-shot home deployments, 56% task success rate with no local training - is a genuine capability datapoint (generalization beyond a single controlled factory setting) rather than hype alone, though the sub-60% success rate is itself evidence the category is still early. Doesn't change the sector's overall euphoria-vs-fundamentals framing below, but is a real, dated data point in the 'differentiation opening up between names' direction already noted. Euphoric and clearly ahead of fundamentals in places, but with real differentiation opening up between names. Unitree's Shanghai IPO debut surged as much as 629% (closing +460%) - notable partly because Unitree is actually profitable, a genuine outlier in the category. Boston Dynamics went the acquisition route (Hyundai) rather than a speculative IPO. Agility chose a SPAC at a comparatively modest $2.5B implied valuation - Forbes noted Unitree's pop makes Agility 'look super cheap' by comparison, illustrating how unsettled public-market pricing for the category still is.",
+      "sentiment": "UPDATE (10/24/26): Two dated public-market datapoints since the 10/01/26 check, both about timelines rather than new capability: Tesla said on its Oct 21 Q3 call that early Optimus production has begun on a Fremont line designed for ~1M robots/year, but Musk expects at least a year to reach ~20,000/week and external deliveries only around end-2027; and Agility's SPAC with Churchill Capital XI cleared the SEC (S-4 effective Oct 13) with a shareholder vote set for Nov 2 (ticker AGLT). No fresh, dated Figure, Unitree, Apptronik or Harmonic Drive news was confirmed on 10/24/26. Prior framing: Figure AI's Sept 17 Helix 2.5 release - 30 zero-shot home deployments, 56% task success rate with no local training - is a genuine capability datapoint (generalization beyond a single controlled factory setting) rather than hype alone, though the sub-60% success rate is itself evidence the category is still early. Doesn't change the sector's overall euphoria-vs-fundamentals framing below, but is a real, dated data point in the 'differentiation opening up between names' direction already noted. Euphoric and clearly ahead of fundamentals in places, but with real differentiation opening up between names. Unitree's Shanghai IPO debut surged as much as 629% (closing +460%) - notable partly because Unitree is actually profitable, a genuine outlier in the category. Boston Dynamics went the acquisition route (Hyundai) rather than a speculative IPO. Agility chose a SPAC at a comparatively modest $2.5B implied valuation - Forbes noted Unitree's pop makes Agility 'look super cheap' by comparison, illustrating how unsettled public-market pricing for the category still is.",
       "primary_companies": [
         {
           "name": "Figure AI",
@@ -302,12 +368,17 @@
           "type": "public (SPAC pending)",
           "description": "Maker of Digit, the bipedal warehouse robot already deployed in Amazon fulfillment centers doing tote handling; pursuing a public listing via SPAC rather than a traditional IPO.",
           "investors": "SoftBank, Amazon's Industrial Innovation Fund, DCVC, Playground Global, WP Global Partners (led the $400M Series C).",
-          "performance": "Definitive agreement (June 2026) to merge with Churchill Capital Corp XI at an implied $2.5B valuation - a step up from the ~$2.1B post-money valuation on its March 2025 Series C, but modest next to Unitree's public pop, which Forbes noted makes Agility 'look super cheap' by comparison.",
+          "performance": "UPDATE (10/24/26): The SEC declared the joint Form S-4 effective on Oct 13, 2026; Churchill Capital Corp XI's shareholder vote is set for Nov 2 with closing expected in November and a Nasdaq listing as AGLT. Expected gross proceeds of $620M+ (~$424M trust assuming no redemptions, plus a ~$200M PIPE led by Foxconn) at a $2.5B pre-money equity value. Prior framing: Definitive agreement (June 2026) to merge with Churchill Capital Corp XI at an implied $2.5B valuation - a step up from the ~$2.1B post-money valuation on its March 2025 Series C, but modest next to Unitree's public pop, which Forbes noted makes Agility 'look super cheap' by comparison.",
           "citations": [
             {
               "title": "Unitree IPO's Massive 629% Pop Makes Agility Robotics Look Super Cheap",
               "url": "https://www.forbes.com/sites/johnkoetsier/2026/08/19/unitree-ipos-massive-629-pop-makes-agility-robotics-look-super-cheap/",
               "date": "2026-08-19"
+            },
+            {
+              "title": "Churchill Capital Corp XI / Agility Robotics press release: Form S-4 declared effective, extraordinary general meeting set for Nov 2 (8-K Ex. 99.1)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0002074973/000121390026109077/ea030849601ex99-1.htm",
+              "date": "2026-10-13"
             }
           ]
         },
@@ -331,12 +402,17 @@
           "ticker": "TSLA",
           "description": "Building Optimus as an internal-manufacturing and eventually external-sale humanoid; the highest-capex bet in the category, though currently the furthest from external commercial deployment of the major players.",
           "investors": "Public markets - already extensively covered in the Equities Desk (Point 3), not duplicated here.",
-          "performance": "Cumulative Optimus production surpassed 50,000 units in early 2026; Gen 3 Optimus began production summer 2026. 2026 capex more than doubled to $20B, a significant portion directed at Optimus manufacturing buildout. Management tempered expectations in January 2026, acknowledging early units weren't yet 'doing useful work.'",
+          "performance": "UPDATE (10/24/26): On the Q3 2026 call (Oct 21, recapped Oct 22), Tesla said early production has started on a high-volume Fremont Optimus line designed for ~1M robots/year, with most equipment already on site; Musk expects at least a year to ramp to ~20,000 robots/week (design still changing, an 'S-curve' with a bumpy early slope), external deliveries to industrial customers around end-2027, and AI5 integration around April 2027. Capex guided ~$20B for 2026 and rising for several years. No cumulative unit count was disclosed. Prior framing: Cumulative Optimus production surpassed 50,000 units in early 2026; Gen 3 Optimus began production summer 2026. 2026 capex more than doubled to $20B, a significant portion directed at Optimus manufacturing buildout. Management tempered expectations in January 2026, acknowledging early units weren't yet 'doing useful work.'",
           "citations": [
             {
               "title": "Tesla Optimus Price & Availability (2026): Confirmed Facts vs Estimates",
               "url": "https://www.roboticscenter.ai/blog/tesla-optimus-price-availability",
               "date": "2026"
+            },
+            {
+              "title": "Tesla Q3 2026 Earnings Call Recap: Everything You Need to Know",
+              "url": "https://www.notateslaapp.com/news/4867/tesla-q3-2026-earnings-call-recap-everything-you-need-to-know",
+              "date": "2026-10-22"
             }
           ]
         }
@@ -1632,7 +1708,7 @@
       ],
       "investors_lenders": "Grid-storage capital has matured into a selective, execution-focused market - investors now reward de-risked, late-stage/operational projects and price speculative ones accordingly, a meaningful shift from earlier hype-driven allocation. Solid-state EV battery makers remain dependent on automaker partnerships and public-market capital (QuantumScape, Solid Power both went public via SPAC/IPO specifically to fund years of pre-revenue R&D) rather than platform-scale venture rounds like fusion or BCI see.",
       "roadblocks": "For solid-state: the mechanical interface degradation problem has proven far harder to solve at scale than lab demonstrations suggested, and the 3-5x production cost premium versus conventional lithium-ion makes near-term commercial viability difficult even once the yield problem improves. For grid storage: grid interconnection queues and congestion are now the binding constraint on deployment speed, not battery technology or cost - pushing the industry toward behind-the-meter architectures (up to 30% of planned US data center capacity now includes on-site generation/storage) precisely because waiting for traditional grid upgrades takes too long.",
-      "sentiment": "The grid-storage side of this split just took a real hit that complicates the 'strong and improving' framing below. Fluence Energy cut FY2026 revenue guidance to ~$2.4B (from ~$3.0B) and widened its projected adjusted EBITDA loss to roughly $200M on Sept 17, 2026, citing delays ramping its Houston contract-manufacturing facility and broader supply-chain problems - not weaker demand, per management. Shares gapped down roughly 20-25% on the news versus the prior $9.05 close, triggering a wave of analyst downgrades (consensus now Hold as of mid-September); the stock partly rebounded (+4.5% on Sept 23) alongside a broader bounce but remains well below its pre-cut level. This is a genuine reversal of this sector's earlier 'grid storage sentiment is strong and improving on real execution' framing for at least this one name - management still points to a large backlog and targets neutral-to-positive operating cash flow in FY2027 without external capital, but the execution story specifically (not the demand story) is now in question. Separately, QuantumScape's slide continued (down ~51% YTD as of mid-September, trading around $5, with its co-founder/CTO selling ~$611K of stock under a pre-set 10b5-1 plan on Sept 15) - a continuation of, not a change to, the existing solid-state pullback story. Split much like fusion and BCI: grid storage sentiment is strong and improving on real execution (Fluence shares jumped 29% in a single session on backlog/margin news), while solid-state EV battery sentiment has soured on repeated timeline slippage - QuantumScape is down 44% YTD as of mid-2026 and trades around $6 versus its $24.80 IPO-era price, with investors now described as watching manufacturing execution rather than revenue, since there essentially isn't any yet.",
+      "sentiment": "UPDATE (10/24/26): Since the 9/24/26 check, the grid-storage reversal at Fluence deepened while QuantumScape reported a quarter that was on-plan but small. Fluence shares were ~$5.96 on Oct 20 (vs. the $9.05 pre-cut close in mid-September), J.P. Morgan cut its target to $7 from $8 on Oct 19 (Hold), and multiple securities class actions now allege Fluence misrepresented its Houston manufacturing readiness and guidance (class period Nov 24, 2025 - Sept 16, 2026; lead-plaintiff deadlines late November). QuantumScape's Q3 (Oct 21): GAAP net loss $84.5M, adjusted EBITDA loss $60.7M, customer billings $9.8M, $819.8M liquidity, full-year guidance reiterated - and it is still re-aligning its statement of work with VW PowerCo, flagging the risk that new milestones may not be agreed. No fresh, dated Solid Power or CATL news was confirmed on 10/24/26. Prior framing: The grid-storage side of this split just took a real hit that complicates the 'strong and improving' framing below. Fluence Energy cut FY2026 revenue guidance to ~$2.4B (from ~$3.0B) and widened its projected adjusted EBITDA loss to roughly $200M on Sept 17, 2026, citing delays ramping its Houston contract-manufacturing facility and broader supply-chain problems - not weaker demand, per management. Shares gapped down roughly 20-25% on the news versus the prior $9.05 close, triggering a wave of analyst downgrades (consensus now Hold as of mid-September); the stock partly rebounded (+4.5% on Sept 23) alongside a broader bounce but remains well below its pre-cut level. This is a genuine reversal of this sector's earlier 'grid storage sentiment is strong and improving on real execution' framing for at least this one name - management still points to a large backlog and targets neutral-to-positive operating cash flow in FY2027 without external capital, but the execution story specifically (not the demand story) is now in question. Separately, QuantumScape's slide continued (down ~51% YTD as of mid-September, trading around $5, with its co-founder/CTO selling ~$611K of stock under a pre-set 10b5-1 plan on Sept 15) - a continuation of, not a change to, the existing solid-state pullback story. Split much like fusion and BCI: grid storage sentiment is strong and improving on real execution (Fluence shares jumped 29% in a single session on backlog/margin news), while solid-state EV battery sentiment has soured on repeated timeline slippage - QuantumScape is down 44% YTD as of mid-2026 and trades around $6 versus its $24.80 IPO-era price, with investors now described as watching manufacturing execution rather than revenue, since there essentially isn't any yet.",
       "primary_companies": [
         {
           "name": "QuantumScape",
@@ -1640,7 +1716,7 @@
           "ticker": "QS",
           "description": "Solid-state lithium-metal EV battery developer; the most closely watched (and most disappointing, by stock performance) pure-play in the space.",
           "investors": "Public markets (NYSE-listed); Volkswagen is a key strategic partner/investor.",
-          "performance": "Down ~51% YTD as of mid-September 2026, trading around $5 (range $4.94-$5.08 on Sept 23) - a further slide from the ~44%-down/~$6 level reported previously, with consensus price target $6.66 against 7 holds and 2 sells (no buy ratings). Co-founder and CTO Timothy Holme sold ~120,000 Class A shares (~$611K) on Sept 15, 2026 under a pre-established Rule 10b5-1 plan - a scheduled, disclosed disposal rather than a discretionary signal, but worth noting alongside the continued price decline. Down 44% YTD as of July 2026, trading around $6 versus a $24.80 opening price. Q2 2026 net loss ~$98M; reaffirmed full-year adjusted EBITDA loss guidance of $250-275M. First-ever ecosystem-partner billings reached just $11M in the quarter - a real but still trivial revenue signal after years of pre-revenue development.",
+          "performance": "UPDATE (10/24/26): Q3 2026 (reported Oct 21): GAAP net loss $84.5M (vs. ~$98M in Q2), adjusted EBITDA loss $60.7M 'in line with expectations', customer billings $9.8M (vs. $11M in Q2), capex $4.4M, liquidity $819.8M; reiterated FY26 adjusted EBITDA loss of $250-275M and capex of $27-37M. Eagle Line is fully operational and producing increased QSE-5 volumes; first billings under the June Honda agreement; an unnamed global mobility manufacturer signed on; a 100MWh line with Muehlbauer targets 2028. The company says it is aligning its statement of work with VW PowerCo and flags that updated milestones may not be agreed. Prior framing: Down ~51% YTD as of mid-September 2026, trading around $5 (range $4.94-$5.08 on Sept 23) - a further slide from the ~44%-down/~$6 level reported previously, with consensus price target $6.66 against 7 holds and 2 sells (no buy ratings). Co-founder and CTO Timothy Holme sold ~120,000 Class A shares (~$611K) on Sept 15, 2026 under a pre-established Rule 10b5-1 plan - a scheduled, disclosed disposal rather than a discretionary signal, but worth noting alongside the continued price decline. Down 44% YTD as of July 2026, trading around $6 versus a $24.80 opening price. Q2 2026 net loss ~$98M; reaffirmed full-year adjusted EBITDA loss guidance of $250-275M. First-ever ecosystem-partner billings reached just $11M in the quarter - a real but still trivial revenue signal after years of pre-revenue development.",
           "citations": [
             {
               "title": "QuantumScape Has Promised a Battery Breakthrough for Years. Is 2026 Finally The Year?",
@@ -1651,6 +1727,11 @@
               "title": "QuantumScape Is Down 51% This Year. Is QS Stock Dead Money or Due for a Bounce?",
               "url": "https://247wallst.com/investing/2026/09/15/quantumscape-is-down-51-this-year-is-qs-stock-dead-money-or-due-for-a-bounce/",
               "date": "2026-09-15"
+            },
+            {
+              "title": "QuantumScape Q3 2026 Letter to Shareholders (8-K Ex. 99.1)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0001811414/000119312526427862/qs-ex99_1.htm",
+              "date": "2026-10-21"
             }
           ]
         },
@@ -1690,7 +1771,7 @@
           "ticker": "FLNC",
           "description": "Global leader in grid-scale battery storage integration (not a cell manufacturer - designs and deploys full storage systems); born from a Siemens/AES joint venture, now independent.",
           "investors": "Public markets (Nasdaq-listed); Siemens and AES remain major shareholders post-spinoff.",
-          "performance": "Cut FY2026 revenue guidance to ~$2.4B (from ~$3.0B, itself already below the $3.2-3.6B guided earlier in the year) and widened its expected adjusted EBITDA loss to roughly $200M on Sept 17, 2026, blaming delays ramping its Houston contract-manufacturing facility and broader supply-chain issues rather than weaker demand. Shares gapped down ~20-25% versus the prior $9.05 close, and numerous analysts downgraded the stock (consensus Hold as of mid-September) - though shares partly recovered (+4.5% on Sept 23) alongside a broader market bounce. Management says it's restructuring operations around the Houston facility and targets neutral-to-positive operating cash flow in FY2027 without needing external capital, while still citing a large backlog. A real reversal of the execution narrative below, though management frames the underlying demand/backlog picture as intact. FY2025 revenue $2.3B, guiding $3.2-3.6B for FY2026 with ~85% already in backlog; $30B project pipeline growing 30% per quarter. Shares jumped 29.5% in a single session (June 1, 2026) on improving margins and successful project execution easing earlier profitability concerns. Signed a 300MW/1,200MWh storage deal with BrightNight/Cordelio Power in Arizona.",
+          "performance": "UPDATE (10/24/26): Shares kept sliding after the September guidance cut, trading ~$5.96 on Oct 20; J.P. Morgan cut its target to $7 from $8 on Oct 19, keeping a Hold. Securities class actions (e.g. Hatweek v. Fluence Energy, S.D.N.Y.) allege the company misrepresented the status of its manufacturing operations and its ability to hit revenue/EBITDA guidance, covering purchases Nov 24, 2025 - Sept 16, 2026, with law-firm notices still running on Oct 23. Prior framing: Cut FY2026 revenue guidance to ~$2.4B (from ~$3.0B, itself already below the $3.2-3.6B guided earlier in the year) and widened its expected adjusted EBITDA loss to roughly $200M on Sept 17, 2026, blaming delays ramping its Houston contract-manufacturing facility and broader supply-chain issues rather than weaker demand. Shares gapped down ~20-25% versus the prior $9.05 close, and numerous analysts downgraded the stock (consensus Hold as of mid-September) - though shares partly recovered (+4.5% on Sept 23) alongside a broader market bounce. Management says it's restructuring operations around the Houston facility and targets neutral-to-positive operating cash flow in FY2027 without needing external capital, while still citing a large backlog. A real reversal of the execution narrative below, though management frames the underlying demand/backlog picture as intact. FY2025 revenue $2.3B, guiding $3.2-3.6B for FY2026 with ~85% already in backlog; $30B project pipeline growing 30% per quarter. Shares jumped 29.5% in a single session (June 1, 2026) on improving margins and successful project execution easing earlier profitability concerns. Signed a 300MW/1,200MWh storage deal with BrightNight/Cordelio Power in Arizona.",
           "citations": [
             {
               "title": "Fluence Energy Shares Surge 29% to $24.44 as Battery Storage Demand Fuels Strong Investor Optimism",
@@ -1701,6 +1782,16 @@
               "title": "FLNC Stock Slides As Guidance Slashed And Wall Street Turns Cautious",
               "url": "https://stockstotrade.com/news/fluence-energy-inc-flnc-news-2026_09_17-4/",
               "date": "2026-09-17"
+            },
+            {
+              "title": "J.P. Morgan cuts target to USD 7 for Fluence Energy stock",
+              "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/j-p-morgan-cuts-target-to-usd-7-for-fluence-energy-stock/70378165",
+              "date": "2026-10-20"
+            },
+            {
+              "title": "Bronstein, Gewirtz & Grossman LLC Urges Fluence Energy, Inc Investors to Act: Class Action Filed Alleging Investor Harm",
+              "url": "https://www.globenewswire.com/news-release/2026/10/23/3387566/9788/en/bronstein-gewirtz-grossman-llc-urges-fluence-energy-inc-investors-to-act-class-action-filed-alleging-investor-harm.html",
+              "date": "2026-10-23"
             }
           ]
         }
@@ -1737,12 +1828,17 @@
             "name": "QuantumScape",
             "ticker": "QS",
             "bucket": "pullback",
-            "thesis": "Down 44% YTD as of July 2026, trading around $6 versus a $24.80 opening price - but first-ever ecosystem-partner billings ($11M this quarter) and a reaffirmed (not widened) full-year loss guide suggest the company is still executing to its own plan even as the stock has been repriced hard on the broader solid-state timeline disappointment across the category.",
+            "thesis": "UPDATE (10/24/26): Q3 (Oct 21) kept the 'executing to its own plan' read intact - full-year loss and capex guidance reiterated, Eagle Line fully operational, a new unnamed mobility customer - but billings dipped to $9.8M from $11M and the VW PowerCo statement of work is being renegotiated, a new open risk to the partnership the thesis leans on. Prior framing: Down 44% YTD as of July 2026, trading around $6 versus a $24.80 opening price - but first-ever ecosystem-partner billings ($11M this quarter) and a reaffirmed (not widened) full-year loss guide suggest the company is still executing to its own plan even as the stock has been repriced hard on the broader solid-state timeline disappointment across the category.",
             "citations": [
               {
                 "title": "QuantumScape Has Promised a Battery Breakthrough for Years. Is 2026 Finally The Year?",
                 "url": "https://www.fool.com/investing/2026/08/11/quantumscape-has-promised-a-battery-breakthrough-f/",
                 "date": "2026-08-11"
+              },
+              {
+                "title": "QuantumScape Q3 2026 Letter to Shareholders (8-K Ex. 99.1)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001811414/000119312526427862/qs-ex99_1.htm",
+                "date": "2026-10-21"
               }
             ]
           },
