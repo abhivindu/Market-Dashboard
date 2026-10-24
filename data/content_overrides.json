@@ -850,15 +850,31 @@
       "last_updated": "2026-10-18"
     },
     "RCUS": {
-      "narrative": "Arcus Biosciences' drop reflects genuine fundamental deterioration, not overreaction: the company scrapped its Phase 3 STAR-121 and Phase 2 EDGE-Lung trials for domvanalimab after a futility analysis showed no survival benefit, while H1 2026 revenue collapsed to $58M from $188M and net loss widened to $219M.",
+      "narrative": "UPDATE (10/24/26): New catalysts this week. On Oct 20 Arcus presented ARC-20 data for casdatifan (HIF-2a inhibitor) in clear-cell kidney cancer showing a 35-month median overall survival in late-line patients, and shares rose. On Oct 21 it announced an underwritten offering, priced that night at $17.50 for 14.3M shares (~$250M gross, plus a 2.1M-share option; closing expected Oct 23). The stock fell nearly 20% on Oct 21 to $19.10 from $23.75, and Friday's -4.2% on 3.3x volume coincided with the offering's scheduled close. The week's -16% is dilution at a discount, not a clinical setback - the casdatifan data itself was well received. Prior framing: Arcus Biosciences' drop reflects genuine fundamental deterioration, not overreaction: the company scrapped its Phase 3 STAR-121 and Phase 2 EDGE-Lung trials for domvanalimab after a futility analysis showed no survival benefit, while H1 2026 revenue collapsed to $58M from $188M and net loss widened to $219M.",
       "citations": [
+        {
+          "title": "Arcus Biosciences (RCUS) Shares Rise on Promising Kidney Cancer Data from ARC-20 Study",
+          "url": "https://www.gurufocus.com/news/9132303/arcus-biosciences-rcus-shares-rise-on-promising-kidney-cancer-data-from-arc20-study",
+          "date": "2026-10-20"
+        },
+        {
+          "title": "Arcus Biosciences (RCUS) Shares Plunge Nearly 20% Amid Clinical Data Release and Stock Offering",
+          "url": "https://www.gurufocus.com/news/9135412/arcus-biosciences-rcus-shares-plunge-nearly-20-amid-clinical-data-release-and-stock-offering",
+          "date": "2026-10-21"
+        },
+        {
+          "title": "Arcus Biosciences prices 14.3M-share offering at $17.50",
+          "url": "https://www.stocktitan.net/news/RCUS/arcus-biosciences-announces-pricing-of-250-million-public-offering-0w0o77m33187.html",
+          "date": "2026-10-21"
+        },
         {
           "title": "Arcus Biosciences Stock Stumbles After Harsh Double Blow",
           "url": "https://www.tipranks.com/news/catalyst/arcus-biosciences-stock-stumbles-after-harsh-double-blow",
           "date": "2026-09"
         }
       ],
-      "verdict": "aligned"
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
     },
     "HPQ": {
       "narrative": "HP jumped to a 52-week high after RBC initiated coverage (Sector Perform), framing HP's \"hybrid AI at the edge\" strategy (PCs + print + device management) as a credible path to 2-4% long-term revenue growth, plus a $1B annualized cost-savings program by FY28. Same AI-capex enthusiasm lifting HPE/DELL/NTAP this week, applied to the PC maker.",
@@ -872,8 +888,18 @@
       "verdict": "aligned"
     },
     "IESC": {
-      "narrative": "UPDATE (10/18/26): IES Holdings fell 4.0% on ~3.3x average volume on Fri Oct 16 - no IESC-specific news found, but the day saw a sharp AI/data-center selloff (CoreWeave -12.3%, Applied Digital -11.9%, IREN -11.3%; S&P tech -3%+) on AI-spending/financing worries, and data-center work drives the bulk of IES's profit (see prior framing). Reads as AI-infrastructure sentiment, not a company event. Prior framing: IES Holdings surged after a blowout fiscal Q3: EPS beat estimates by $2.19, backlog hit $4.5B (+91% since FY2025 end) on data-center electrical demand, and data-center operations now drive 92% of segment profit with margins expanding to 20.8% from 17.2%. Debt-free with $310.6M in marketable securities.",
+      "narrative": "UPDATE (10/24/26): IES fell another 15.2% over the week (down ~33% over a month per GuruFocus), including -3.3% to $213.54 on Oct 23. Still no IESC-specific news: the decline tracks the Oct 22 AI/data-center infrastructure selloff that also took Sterling Infrastructure down 10.8% on financing-cost, valuation and buildout-durability worries (Quiver Quant). Same read as Oct 16 - sector sentiment, not a company event. Next earnings expected around Nov 20. Prior framing: UPDATE (10/18/26): IES Holdings fell 4.0% on ~3.3x average volume on Fri Oct 16 - no IESC-specific news found, but the day saw a sharp AI/data-center selloff (CoreWeave -12.3%, Applied Digital -11.9%, IREN -11.3%; S&P tech -3%+) on AI-spending/financing worries, and data-center work drives the bulk of IES's profit (see prior framing). Reads as AI-infrastructure sentiment, not a company event. Prior framing: IES Holdings surged after a blowout fiscal Q3: EPS beat estimates by $2.19, backlog hit $4.5B (+91% since FY2025 end) on data-center electrical demand, and data-center operations now drive 92% of segment profit with margins expanding to 20.8% from 17.2%. Debt-free with $310.6M in marketable securities.",
       "citations": [
+        {
+          "title": "IES Holdings Inc (IESC) Shares Fall 3.3% -- What GF Score of 95 Tells Investors",
+          "url": "https://www.gurufocus.com/news/9140761/ies-holdings-inc-iesc-shares-fall-33-what-gf-score-of-95-tells-investors",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Sterling Infrastructure sinks as investors brace for earnings and broader AI infrastructure jitters",
+          "url": "https://www.quiverquant.com/news/Sterling+Infrastructure+sinks+as+investors+brace+for+earnings+and+broader+AI+infrastructure+jitters",
+          "date": "2026-10-22"
+        },
         {
           "title": "IES Holdings Stock Moves 30% as Q3 Earnings Crush Analyst Estimates",
           "url": "https://www.tikr.com/blog/ies-holdings-stock-q3-earnings-beat-stock-split-2026",
@@ -891,7 +917,7 @@
         }
       ],
       "verdict": "mixed",
-      "last_updated": "2026-10-18"
+      "last_updated": "2026-10-24"
     },
     "SYNA": {
       "narrative": "Synaptics rode a broad semiconductor sector rally (peers up 3.6-5.2%, Synaptics outpaced all of them at 6.3%), with added speculative fuel from a Bloomberg report that Synaptics rejected a takeover bid at a 70% premium from a Chinese state-owned investment group.",
@@ -971,8 +997,18 @@
       "last_updated": "2026-10-18"
     },
     "FLEX": {
-      "narrative": "UPDATE (10/18/26): Flex closed at $90.46 on Oct 16 (-8.2% day; -17.8% month to date, October high $121.84). The slide began after Flex announced on Oct 5 a $2.0B convertible preferred investment (General Catalyst / Koch Equity Development) into Axiom Solutions, its Cloud & Power Infrastructure unit, at a $37.5B enterprise value, carrying a 10% cash dividend pre-separation - and, per the 8-K, a Flex-guaranteed redemption at 115% (cash) or 125% (Flex shares) if the Q1-2027 spin-off is not done by Dec 31, 2027. TradingKey tied the Oct 13 drop (-7.2%) to investor worry over those preferred/guarantee terms and whether Axiom's multiple is justified, amplified by profit-taking; Oct 16 itself had no stock-specific news (AAII cites none) and coincided with the broad AI-infrastructure/AI-debt selloff. Q4 earnings due Oct 28. Prior framing: Flex beat Q4 estimates (EPS $0.93 vs $0.87, revenue $7.48B vs $6.95B) and announced a $4.4B acquisition of EPC Power targeting AI data centers, grid support, and energy storage - guiding to 65-75% CPI revenue growth for FY27. A real, capital-committed bet on the AI-power buildout, not just sentiment.",
+      "narrative": "UPDATE (10/24/26): The slide deepened: Flex closed at $76.69 on Thu Oct 22 (-11.1%), its ninth straight down day, a 36% drop over that run that erased ~$15.8B of market value (Trefis). Quiver Quant again ties it to the financing/liability structure around the Axiom spin-off - including a $1.1B bridge loan Flex drew in full on Oct 14 to close the $4.4B EPC Power deal, and the $2.0B Axiom preferred with its redemption obligation if the spin slips past 2027 - amplified by a weak session for AI/data-center infrastructure stocks. Baird cut its target to $135 from $142 on Oct 20 (Buy kept). No new company announcement explains the move; fiscal Q2 results Oct 28 are the next resolution point. Prior framing: UPDATE (10/18/26): Flex closed at $90.46 on Oct 16 (-8.2% day; -17.8% month to date, October high $121.84). The slide began after Flex announced on Oct 5 a $2.0B convertible preferred investment (General Catalyst / Koch Equity Development) into Axiom Solutions, its Cloud & Power Infrastructure unit, at a $37.5B enterprise value, carrying a 10% cash dividend pre-separation - and, per the 8-K, a Flex-guaranteed redemption at 115% (cash) or 125% (Flex shares) if the Q1-2027 spin-off is not done by Dec 31, 2027. TradingKey tied the Oct 13 drop (-7.2%) to investor worry over those preferred/guarantee terms and whether Axiom's multiple is justified, amplified by profit-taking; Oct 16 itself had no stock-specific news (AAII cites none) and coincided with the broad AI-infrastructure/AI-debt selloff. Q4 earnings due Oct 28. Prior framing: Flex beat Q4 estimates (EPS $0.93 vs $0.87, revenue $7.48B vs $6.95B) and announced a $4.4B acquisition of EPC Power targeting AI data centers, grid support, and energy storage - guiding to 65-75% CPI revenue growth for FY27. A real, capital-committed bet on the AI-power buildout, not just sentiment.",
       "citations": [
+        {
+          "title": "Flex slides as investors digest Axiom spin-off financing risks and broader AI infrastructure weakness",
+          "url": "https://www.quiverquant.com/news/Flex+slides+as+investors+digest+Axiom+spin-off+financing+risks+and+broader+AI+infrastructure+weakness",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "A 9-Day Losing Streak Has Flex Stock Down 36%",
+          "url": "https://www.trefis.com/stock/flex/articles/620092/a-9-day-losing-streak-has-flex-stock-down-36/2026-10-23",
+          "date": "2026-10-23"
+        },
         {
           "title": "FLEX Jumps As Flex Ltd. Bets $4.4B On AI Power Spin-Off",
           "url": "https://www.timothysykes.com/news/flexltd-flex-news-2026_09_11/",
@@ -1000,7 +1036,7 @@
         }
       ],
       "verdict": "mixed",
-      "last_updated": "2026-10-18"
+      "last_updated": "2026-10-24"
     },
     "AVT": {
       "narrative": "Avnet's Q3 FY26 EPS beat by 13%, revenue beat by 11% ($7.1B, +34% y/y) with record Asia sales (7th straight quarter of regional growth), plus a 5.7% dividend hike. Clean earnings-driven move.",
@@ -3194,6 +3230,220 @@
       ],
       "verdict": "mixed",
       "last_updated": "2026-10-24"
+    },
+    "CRS": {
+      "narrative": "Carpenter's -24.5% week is almost entirely Thursday Oct 22: shares fell ~20% (to ~$290, Investing.com) after fiscal Q1 2027 results. EPS was a record $3.25 vs ~$3.04 expected and operating income rose 28% to $196.4M, but net sales of $798.2M (+9% y/y) missed ~$831M consensus - management blamed planned preventive maintenance and fewer operating days, not demand - and free cash flow was -$24.8M as capex nearly doubled to $77.7M for the brownfield expansion and inventory built. FY2027 operating-income guidance ($850-880M) was only reaffirmed, not raised, which a stock priced for beats (~32x trailing earnings per Motley Fool) did not tolerate. Friday's further -2.6% on 2.84x volume is follow-through selling. Company-specific, earnings-driven; it also dragged specialty-alloy peers (see ATI, HWM).",
+      "citations": [
+        {
+          "title": "Carpenter Technology Reports First Quarter Fiscal Year 2027 Results (Form 8-K, Ex. 99)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000017843/000001784326000049/a1stqtrfy2027results.htm",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Carpenter Q1 FY27 slides: record margins, shares drop 20% on revenue miss",
+          "url": "https://www.investing.com/news/company-news/carpenter-q1-fy27-slides-record-margins-shares-drop-20-on-revenue-miss-93CH-4966871",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Why Carpenter Technology Stock Crashed After Earnings",
+          "url": "https://www.fool.com/investing/2026/10/22/why-carpenter-technology-stock-crashed-after-earnings/",
+          "date": "2026-10-22"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "GGG": {
+      "narrative": "Graco's -18.3% five days traces to its Q3 report after the close on Oct 21: Quiver Quant reports shares fell 8.4% on the release as revenue of $586.4M (+7.9% y/y) missed ~$594M estimates and EPS of $0.75 missed ~$0.82. Graco's own release frames it as record Q3 sales with growth in every segment and region, attributing the 10% operating-earnings decline mostly to a non-recurring prior-year non-cash gain (adjusted operating earnings +1%), and it announced a Transverse Flux Motor licensing deal with ABB for data-center cooling - but the market focused on the double miss and flat adjusted profit. Friday's further -3.3% extends that post-earnings de-rating; company-specific, not sector beta.",
+      "citations": [
+        {
+          "title": "Graco Inc. (GGG) Stock Falls on Q3 2026 Earnings",
+          "url": "https://www.quiverquant.com/news/Graco+Inc.+%28GGG%29+Stock+Falls+on+Q3+2026+Earnings",
+          "date": "2026-10-21"
+        },
+        {
+          "title": "Graco Reports Third Quarter Results (Form 10-Q / 8-K Ex. 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000042888/000004288826000145/ggg10212026exhibit991q3.htm",
+          "date": "2026-10-21"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "STRL": {
+      "narrative": "Sterling's -16.3% week is sentiment, not a company event: Quiver Quant (Oct 22) reports a 10.8% drop that day with no fresh company-specific announcement, attributing it to investors de-risking AI/data-center infrastructure names ahead of Sterling's Oct 28 Q3 report, amid worries over financing costs, valuations and the durability of the buildout. Data centers, semiconductor fabs and manufacturing make up the bulk of its E-Infrastructure backlog, so the stock trades as an AI-capex proxy. Oct 22 was a broad risk-off session (S&P 500 -1.21%, Nasdaq -2.60% at the close), and Friday's further -4.7% continued the slide. Earnings on Oct 28 are the next real data point; until then this reads as sector beta.",
+      "citations": [
+        {
+          "title": "Sterling Infrastructure sinks as investors brace for earnings and broader AI infrastructure jitters",
+          "url": "https://www.quiverquant.com/news/Sterling+Infrastructure+sinks+as+investors+brace+for+earnings+and+broader+AI+infrastructure+jitters",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Why is Howmet Aerospace stock tumbling today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-howmet-aerospace-stock-tumbling-today-93CH-4967185",
+          "date": "2026-10-22"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-10-24"
+    },
+    "HWM": {
+      "narrative": "Howmet fell about 4-5% on Tue Oct 20 and ~7% on Thu Oct 22 (to ~$193.5, near its 52-week low), then another 3.8% Friday, with no company-specific negative catalyst on any of those days per Quiver Quant and Investing.com. Investing.com cites profit-taking in richly valued aerospace suppliers after GE Aerospace's post-earnings trading, continuing competitive worries (SpaceX in-housing turbine-blade casting; GE's $11.75B purchase of casting rival CPP), price-target cuts from TD Cowen and RBC, a Zacks downgrade to Hold, and pre-earnings de-risking in a risk-off tape (S&P -1.45%, Nasdaq -2.76% on Oct 22). Oct 22 was also the day peer Carpenter fell ~20% on earnings. Q3 results due Oct 29. Sector/sentiment-driven, not a Howmet event.",
+      "citations": [
+        {
+          "title": "Why Howmet Aerospace (HWM) Stock Is Down Today",
+          "url": "https://www.quiverquant.com/news/Why+Howmet+Aerospace+(HWM)+Stock+Is+Down+Today",
+          "date": "2026-10-20"
+        },
+        {
+          "title": "Why is Howmet Aerospace stock tumbling today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-howmet-aerospace-stock-tumbling-today-93CH-4967185",
+          "date": "2026-10-22"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-10-24"
+    },
+    "ATI": {
+      "narrative": "ATI's -15.5% week came in three steps: -3-4% on Oct 20 (MarketBeat, no cause given), -10.4% to $161.84 on Thu Oct 22 (GuruFocus), and -3.1% Friday. No ATI-specific news surfaced; GuruFocus points only to stretched valuation (P/E ~47x vs 5-year median ~24x) and $82.6M of insider selling over 12 months. The Oct 22 drop coincided with specialty-alloy peer Carpenter's ~20% post-earnings collapse and a broad risk-off session; the read-across is our inference - no source we found explicitly linked the two. Reads as peer/sector de-rating, not a company event.",
+      "citations": [
+        {
+          "title": "ATI Inc (ATI) Shares Fall 10.4% -- What GF Score of 69 Tells Investors",
+          "url": "https://www.gurufocus.com/news/9138386/ati-inc-ati-shares-fall-104-what-gf-score-of-69-tells-investors",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "ATI (NYSE:ATI) Shares Down 4% - Time to Sell?",
+          "url": "https://www.marketbeat.com/instant-alerts/price-ati-nyse-ati-shares-down-4-time-to-sell-2026-10-20/",
+          "date": "2026-10-20"
+        },
+        {
+          "title": "Carpenter Q1 FY27 slides: record margins, shares drop 20% on revenue miss",
+          "url": "https://www.investing.com/news/company-news/carpenter-q1-fy27-slides-record-margins-shares-drop-20-on-revenue-miss-93CH-4966871",
+          "date": "2026-10-22"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-10-24"
+    },
+    "SIGI": {
+      "narrative": "Selective rose 5.3% Friday (to ~$96.6-97.4) on 3.8x volume, the first full session after Q3 results released Oct 22 after the close. Non-GAAP operating EPS was $2.37 vs $1.75 a year ago, the GAAP combined ratio improved to 96.8% from 98.6%, and - after last year's reserve problems - there was no prior-year casualty reserve development. The board raised the quarterly dividend 12% to $0.48 and authorized a new $200M buyback, and 2026 net-investment-income guidance was lifted to $490M. Offsets: net premiums written fell 7% on deliberate retention/pricing discipline, and book value per share fell 5% q/q on higher rates. Company-specific and aligned with the move.",
+      "citations": [
+        {
+          "title": "Selective Insurance Group Q3 2026 results (Form 8-K, Ex. 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000230557/000023055726000024/pressreleaseexh991q32026.htm",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Selective Insurance Group (SIGI) stock trades up, here is why",
+          "url": "https://stockstory.org/us/stocks/nasdaq/sigi/news/why-up-down/selective-insurance-group-sigi-stock-trades-up-here-is-why-2",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "A Look at Selective Insurance Group Inc (SIGI) After 5.3% Gain -- GF Value $94.85 vs Price $96.61",
+          "url": "https://www.gurufocus.com/news/9140796/a-look-at-selective-insurance-group-inc-sigi-after-53-gain-gf-value-9485-vs-price-9661",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "AMT": {
+      "narrative": "Yes, related to Crown Castle: both moved on a Bloomberg report Thursday evening (Oct 22) that SpaceX is in talks to secure at least 80,000 U.S. cell sites - roughly half of purpose-built U.S. towers - as it tries to become a fourth nationwide wireless carrier. A new tenant is nearly pure incremental revenue for tower landlords, so AMT traded ~11% higher premarket (above its 52-week high) before fading to +4.08%, while CCI, named directly in the talks, rose ~9%; carriers AT&T and T-Mobile fell ~8%. Caveats: no lease is signed, Truist says the talks fall 'far short' of master lease agreements, and any SpaceX launch is not expected before late 2027. AMT reports Q3 on Oct 27. Industry-news-driven, aligned.",
+      "citations": [
+        {
+          "title": "SpaceX Just Made Cell Towers Cool Again. Verizon, AT&T, and T-Mobile Are Paying the Price",
+          "url": "https://fool.com/investing/2026/10/23/spacex-just-made-cell-towers-cool-again-verizon-at-and-t-and-t-mobile-are-paying-the-price",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Tower stocks surge on SpaceX wireless expansion: Buy the rally?",
+          "url": "https://investing.com/news/stock-market-news/tower-stocks-surge-on-spacex-wireless-expansion-buy-the-rally-93CH-4969522",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "ALV": {
+      "narrative": "Autoliv fell 3.5% (to ~$114.70) on 3.2x volume after Q3 results released Friday morning Oct 23. Sales were $2.693B (-0.5%, organic -1.1%, though ahead of global light-vehicle production at -1.9%), adjusted EPS fell to $2.19 from $2.32 and the adjusted operating margin slipped to 9.7% from 10.0%. The bigger issue was guidance: the 2026 adjusted operating-margin outlook was narrowed to around 10.5%, the bottom of its prior 10.5-11% range, citing ~$42M of Q3 raw-material inflation (~$120M for the year, mostly to be offset), logistics costs, Thai flooding and weaker customer call-off accuracy. Organic growth (~0%) and ~$1.2B operating-cash-flow guidance were unchanged. Company-specific, aligned.",
+      "citations": [
+        {
+          "title": "Autoliv Q3 2026 Financial Report (Form 8-K, Ex. 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001034670/000119312526429404/alv-ex99_1.htm",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Autoliv Shares Fall 3.5% as Margin Outlook Narrows to 10.5%",
+          "url": "https://www.tokenpost.com/news/business/39504",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "BCPC": {
+      "narrative": "Balchem rose 2.2% on 3.1x volume on Oct 23, results day for Q3 (released that morning). Adjusted EPS of $1.57 beat the ~$1.43 consensus and sales of $290.7M (+8.6% y/y, a record) edged past ~$289M, with gross margin widening 70bp to 36.4% and all three segments growing - Human Nutrition & Health +8.1% to a record $188.2M, Animal Nutrition & Health +11.7%. Some outlets scored the quarter as in line, which fits the modest price move relative to the volume. The release gave no numerical outlook. Company-specific earnings volume, aligned.",
+      "citations": [
+        {
+          "title": "Balchem Corporation Reports Third Quarter 2026 Results (Form 8-K, Ex. 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000009326/000000932626000032/exhibit991-q32026.htm",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Balchem beats Q3 estimates on strong segment growth",
+          "url": "https://www.investing.com/news/earnings/balchem-beats-q3-estimates-on-strong-segment-growth-93CH-4969003",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "MSM": {
+      "narrative": "MSC's 3.1x Friday volume is the rebound leg of a post-earnings round trip. On Oct 22 the stock fell ~14-15% after fiscal Q4: record sales of $1.08B (+10.3%) and adjusted EPS of $1.45 (+33%) beat, but fiscal Q1 2027 adjusted-margin guidance of 9.5-10.1% stepped down from Q4's 10.9%, the CEO flagged inflationary headwinds, and the stock had run ~55% in 2026 to ~25x forward earnings (TIKR). On Oct 23 shares rose (+1.3% close in our data; GuruFocus reported +2.8% intraday) after Jefferies upgraded to Buy and Stephens to Overweight, both with $135 targets, citing margin improvement and volume growth ahead. Company-specific, aligned.",
+      "citations": [
+        {
+          "title": "MSC Industrial Sinks 14% Despite Record Sales as CEO Flags \u201cInflationary Headwinds\u201d",
+          "url": "https://www.tikr.com/blog/msc-industrial-sinks-14-despite-record-sales-as-ceo-flags-inflationary-headwinds",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "MSC Industrial Direct (MSM) Shares Rise 2.8% Following Analyst Upgrades",
+          "url": "https://www.gurufocus.com/news/9140382/msc-industrial-direct-msm-shares-rise-28-following-analyst-upgrades",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "DECK": {
+      "narrative": "Deckers fell 4.9% on 3.0x volume after fiscal Q2 results released Thursday evening (Oct 22). Sales of $1.481B (+3.5%) missed ~$1.51B consensus, and the company cut fiscal 2027 sales guidance to $5.700-5.725B from $5.86-5.91B, slowing HOKA to high-single-digit growth (from low-double) and UGG to low-single (from mid-single) on a more promotional U.S. athletic-footwear market and stretched consumers; DTC comparable sales fell 6.4%. EPS of $2.31 beat ~$1.80, but partly on $46M of IEEPA tariff refunds, which also drove the raised EPS guide ($7.80-7.95). Premarket the stock was down ~7%; the market looked through the refund-flattered EPS to the top-line cut. Company-specific, aligned.",
+      "citations": [
+        {
+          "title": "Deckers (DECK) falls 7% as Hoka, UGG outlook cut",
+          "url": "https://pomegra.io/news/deckers-deck-falls-7-as-hoka-ugg-outlook-cut",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "SNA": {
+      "narrative": "Snap-on's flat Friday (+0.16%) on 2.9x volume is the second session after a Q3 miss released Oct 22: EPS of $4.64 vs ~$4.93 expected and sales of $1.18B vs ~$1.24B, with shares down ~5% premarket that day. Organic sales fell 2.8%, driven by a 7.0% organic drop in the Tools Group, whose margin fell to 18.0% from 21.7%; CEO Nick Pinchuk blamed an 'unprecedentedly accelerated' rise in diesel prices that led mobile-van franchisees to cut inventory even though technician sell-through was slightly up, and said he could not say when franchisees would restock. Elevated volume with an unchanged price reads as post-earnings repositioning/stabilization rather than a new catalyst.",
+      "citations": [
+        {
+          "title": "Snap-on Announces Third Quarter 2026 Results (Form 8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000091440/000009144026000169/q32026pressreleaseforpress.htm",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Earnings call transcript: Snap-on misses Q3 2026 estimates as shares fall 5.3%",
+          "url": "https://za.investing.com/news/stock-market-news/earnings-call-transcript-snapon-misses-q3-2026-estimates-as-shares-fall-53-93CH-4520333",
+          "date": "2026-10-22"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-10-24"
     }
   },
   "recommendations": {
@@ -3330,16 +3580,21 @@
       "verdict": "aligned"
     },
     "FISV": {
-      "thesis": "UPDATE (10/18/26): A dated reason for caution now exists: on Oct 15 Bank of America resumed coverage at Underperform with a $48 target (about where the stock trades, ~$47.55), citing an extended recovery timeline and doubts that Fiserv's hybrid processing-plus-acquiring model will deliver its expected synergies; GuruFocus explicitly labels it a possible value trap. Q3 results Nov 3. This supports treating the 52-week-discount screen with skepticism rather than as a bargain signal. Prior framing: Fiserv screens as a value candidate on the 52-week-discount proxy; no distinct, dated company catalyst explaining the discount turned up in search despite a genuine attempt. Treat the proxy screen's \"discount\" framing with appropriate caution pending real fundamentals research (see WISHLIST.md on this dashboard's value-bucket methodology limits).",
+      "thesis": "UPDATE (10/24/26): A modest bounce, not a change in the story: Fiserv rose 4.8% on Oct 22 (Quiver Quant, AI-generated note) after an Oct 20 multi-year cybersecurity partnership with VikingCloud for merchants in North America and EMEA and renewed attention on cost cuts/portfolio review (activist Jana Partners has pushed for both) ahead of Nov 3 Q3 results. No filing or guidance change behind it. The skeptical read stands until Q3. Prior framing: UPDATE (10/18/26): A dated reason for caution now exists: on Oct 15 Bank of America resumed coverage at Underperform with a $48 target (about where the stock trades, ~$47.55), citing an extended recovery timeline and doubts that Fiserv's hybrid processing-plus-acquiring model will deliver its expected synergies; GuruFocus explicitly labels it a possible value trap. Q3 results Nov 3. This supports treating the 52-week-discount screen with skepticism rather than as a bargain signal. Prior framing: Fiserv screens as a value candidate on the 52-week-discount proxy; no distinct, dated company catalyst explaining the discount turned up in search despite a genuine attempt. Treat the proxy screen's \"discount\" framing with appropriate caution pending real fundamentals research (see WISHLIST.md on this dashboard's value-bucket methodology limits).",
       "citations": [
+        {
+          "title": "Fiserv stock climbs as partnership news and restructuring expectations support a rebound",
+          "url": "https://www.quiverquant.com/news/Fiserv+stock+climbs+as+partnership+news+and+restructuring+expectations+support+a+rebound",
+          "date": "2026-10-22"
+        },
         {
           "title": "BofA Resumes Coverage on Fiserv (FISV) with Underperform Rating and $48 Price Target",
           "url": "https://www.gurufocus.com/news/9125231/bofa-resumes-coverage-on-fiserv-fisv-with-underperform-rating-and-48-price-target",
           "date": "2026-10-15"
         }
       ],
-      "verdict": "counter",
-      "last_updated": "2026-10-18"
+      "verdict": "mixed",
+      "last_updated": "2026-10-24"
     },
     "BSX": {
       "thesis": "UPDATE (10/18/26): The discount has a dated, identifiable cause that the prior pass missed. It is not new news: on Sept 8, 2026, Boston Scientific said a cyberattack first detected Aug 25 had disrupted manufacturing and order shipping worldwide and that it no longer expects to meet its 2026 sales and profit guidance. New since Oct 1: Simply Wall St (Oct 16) notes a worldwide Class I recall of its Imager II angiographic catheters, a 2027 reorganisation targeting ~$500M in run-rate savings, and execution risk on the $14.5B Penumbra deal. Zacks (Oct 9) has it at Rank #4 (Sell) on falling estimates, at ~12.9x forward earnings. The updated outlook comes with Q3 results Oct 28. A known, quantifiable-soon problem rather than a mystery discount, but not yet a clean value call. Prior framing: Boston Scientific screens as a value candidate on the 52-week-discount proxy; no distinct, dated company catalyst explaining the discount turned up in search despite a genuine attempt. Treat the proxy screen's \"discount\" framing with appropriate caution pending real fundamentals research (see WISHLIST.md on this dashboard's value-bucket methodology limits).",
@@ -4127,6 +4382,72 @@
         }
       ],
       "verdict": "counter",
+      "last_updated": "2026-10-24"
+    },
+    "CRS": {
+      "thesis": "A defensible but not clean bounce candidate. The selloff punished a revenue/cash-flow timing miss, not a broken story: margins were record (SAO adjusted margin 37.7%), aerospace structural/distribution bookings rose 49% y/y, Q2 operating-income guidance ($192-197M) implies +24-27% y/y, FY2027 and the FY2029 $1.2-1.3B operating-income target were reaffirmed, and the company launched a new $1B buyback after repurchasing $133.9M in the quarter. Against that: full-year FCF guidance ($400-430M) now requires a big back-half catch-up after a negative Q1, the stock was richly valued before the drop, and it has been de-rating since summer (52-week high ~$626). A bounce needs evidence that the maintenance-hit volumes return in Q2; until then, treat as a high-beta mean-reversion trade rather than value.",
+      "citations": [
+        {
+          "title": "Carpenter Technology Reports First Quarter Fiscal Year 2027 Results (Form 8-K, Ex. 99)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000017843/000001784326000049/a1stqtrfy2027results.htm",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Carpenter Q1 FY27 slides: record margins, shares drop 20% on revenue miss",
+          "url": "https://www.investing.com/news/company-news/carpenter-q1-fy27-slides-record-margins-shares-drop-20-on-revenue-miss-93CH-4966871",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Why Carpenter Technology Stock Crashed After Earnings",
+          "url": "https://www.fool.com/investing/2026/10/22/why-carpenter-technology-stock-crashed-after-earnings/",
+          "date": "2026-10-22"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "SIGI": {
+      "thesis": "A reasonable speculative pick with real support behind it: Q3 showed the reserve overhang quieting (zero prior-year casualty development vs 3.3 points of adverse a year ago), underwriting improving, and management returning capital (12% dividend hike, $200M new buyback) at ~11x forward earnings per GuruFocus. The risk is the top line: NPW fell 7% as management prioritizes rate over volume (renewal pure price +5.6%), and CEO Marchioni acknowledged near-term premium growth is affected. After Friday's pop the stock sits near its 52-week high (~$100-101), so much of the good news is priced; the case rests on reserve stability holding for another few quarters.",
+      "citations": [
+        {
+          "title": "Selective Insurance Group Q3 2026 results (Form 8-K, Ex. 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000230557/000023055726000024/pressreleaseexh991q32026.htm",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Selective Insurance Group (SIGI) stock trades up, here is why",
+          "url": "https://stockstory.org/us/stocks/nasdaq/sigi/news/why-up-down/selective-insurance-group-sigi-stock-trades-up-here-is-why-2",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "A Look at Selective Insurance Group Inc (SIGI) After 5.3% Gain -- GF Value $94.85 vs Price $96.61",
+          "url": "https://www.gurufocus.com/news/9140796/a-look-at-selective-insurance-group-inc-sigi-after-53-gain-gf-value-9485-vs-price-9661",
+          "date": "2026-10-23"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-10-24"
+    },
+    "AMKR": {
+      "thesis": "The 52-week-high discount is real but explained, not a mystery. Amkor peaked near $96.68 earlier in 2026 after more than doubling on AI-packaging enthusiasm, then fell ~24% on July 28 when Q3 revenue guidance ($1.95-2.05B) came in below ~$2.11B consensus as the Communications segment (~42% of sales) faced a high-single-digit decline from memory-shortage-hit smartphone demand and a Korea-to-Vietnam production shift. It slid again in October with semis, including -10.1% on Oct 22 when Lam Research's supply-bottleneck warnings hit the equipment/packaging group, closing near $39. The value case: Computing/advanced packaging (Nvidia and TSMC partnerships) keeps growing and EPS guidance ($0.72-0.82) was above consensus. The risks: the Communications drag runs into 1H27 and the Arizona plant is a 2027-28 margin headwind. Q3 results Oct 26 after the close are the immediate test - a high-beta (~2.2) name, not a quiet bargain.",
+      "citations": [
+        {
+          "title": "Why Amkor Plunged Today",
+          "url": "https://www.fool.com/investing/2026/07/28/why-amkor-plunged-today/",
+          "date": "2026-07-28"
+        },
+        {
+          "title": "Allegro MicroSystems, Lattice Semiconductor, Amkor, Teradyne, and Entegris shares plummet, what you need to know",
+          "url": "https://stockstory.org/us/stocks/nasdaq/algm/news/why-up-down/allegro-microsystems-lattice-semiconductor-amkor-teradyne-and-entegris-shares-plummet-what-you-need-to-know",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Amkor Technology stock heads toward October 26 results",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/amkor-technology-stock-heads-toward-october-26-results/70233794",
+          "date": "2026-10-05"
+        }
+      ],
+      "verdict": "mixed",
       "last_updated": "2026-10-24"
     }
   },
