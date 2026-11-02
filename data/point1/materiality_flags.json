@@ -2,27 +2,27 @@
   "flags": [
     {
       "type": "index_day_move",
-      "series": "DOW",
-      "value": -1.235,
-      "detail": "DOW moved -1.24% intraday (threshold: >1%)"
+      "series": "NASDAQ",
+      "value": -1.072,
+      "detail": "NASDAQ moved -1.07% intraday (threshold: >1%)"
     },
     {
       "type": "index_5day_move",
-      "series": "RUSSELL2000",
-      "value": 2.004,
-      "detail": "RUSSELL2000 moved +2.00% over 5 days (threshold: >2%)"
+      "series": "NASDAQ",
+      "value": -3.841,
+      "detail": "NASDAQ moved -3.84% over 5 days (threshold: >2%)"
     },
     {
-      "type": "yield_move",
-      "series": "DGS10",
-      "value": -0.17,
-      "detail": "10yr yield moved -17bps day/day (threshold: >10bps)"
+      "type": "credit_spread_move",
+      "series": "BAMLC0A0CM (IG OAS)",
+      "value": 0.05,
+      "detail": "IG credit spread moved +5bps (threshold: >3bps)"
     },
     {
       "type": "credit_spread_move",
       "series": "BAMLH0A0HYM2 (HY OAS)",
-      "value": 0.13,
-      "detail": "HY credit spread moved +13bps (threshold: >8bps)"
+      "value": 0.18,
+      "detail": "HY credit spread moved +18bps (threshold: >8bps)"
     }
   ]
 }
