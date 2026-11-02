@@ -2251,15 +2251,15 @@
       "index": "SP500"
     },
     {
-      "ticker": "PEG",
-      "sector": "Utilities",
-      "name": "Public Service Enterprise Group",
-      "index": "SP500"
-    },
-    {
       "ticker": "PTC",
       "sector": "Information Technology",
       "name": "PTC Inc.",
+      "index": "SP500"
+    },
+    {
+      "ticker": "PEG",
+      "sector": "Utilities",
+      "name": "Public Service Enterprise Group",
       "index": "SP500"
     },
     {
@@ -2275,9 +2275,9 @@
       "index": "SP500"
     },
     {
-      "ticker": "PWR",
-      "sector": "Industrials",
-      "name": "Quanta Services",
+      "ticker": "Q",
+      "sector": "Information Technology",
+      "name": "Qnity Electronics",
       "index": "SP500"
     },
     {
@@ -2287,15 +2287,15 @@
       "index": "SP500"
     },
     {
-      "ticker": "DGX",
-      "sector": "Health Care",
-      "name": "Quest Diagnostics",
+      "ticker": "PWR",
+      "sector": "Industrials",
+      "name": "Quanta Services",
       "index": "SP500"
     },
     {
-      "ticker": "Q",
-      "sector": "Information Technology",
-      "name": "Qnity Electronics",
+      "ticker": "DGX",
+      "sector": "Health Care",
+      "name": "Quest Diagnostics",
       "index": "SP500"
     },
     {
@@ -2314,12 +2314,6 @@
       "ticker": "RDDT",
       "sector": "Communication Services",
       "name": "Reddit",
-      "index": "SP500"
-    },
-    {
-      "ticker": "RTX",
-      "sector": "Industrials",
-      "name": "RTX Corporation",
       "index": "SP500"
     },
     {
@@ -2401,6 +2395,12 @@
       "index": "SP500"
     },
     {
+      "ticker": "RTX",
+      "sector": "Industrials",
+      "name": "RTX Corporation",
+      "index": "SP500"
+    },
+    {
       "ticker": "SPGI",
       "sector": "Financials",
       "name": "S&P Global",
@@ -2463,7 +2463,7 @@
     {
       "ticker": "SKYD",
       "sector": "Communication Services",
-      "name": "Skydance Corporation",
+      "name": "Skydance",
       "index": "SP500"
     },
     {
