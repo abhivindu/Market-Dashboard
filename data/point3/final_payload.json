@@ -27344,7 +27344,7 @@
   },
   "vol_term_structure": {
     "VIX": {
-      "last_value": 24.69,
+      "last_value": 24.56,
       "history": [
         {
           "date": "2026-08-27",
@@ -27584,12 +27584,12 @@
         },
         {
           "date": "2026-11-18",
-          "value": 24.69
+          "value": 24.56
         }
       ]
     },
     "VIX9D": {
-      "last_value": 25.2,
+      "last_value": 24.0,
       "history": [
         {
           "date": "2026-08-26",
@@ -27829,12 +27829,12 @@
         },
         {
           "date": "2026-11-18",
-          "value": 25.2
+          "value": 24.0
         }
       ]
     },
     "VIX3M": {
-      "last_value": 24.71,
+      "last_value": 24.3,
       "history": [
         {
           "date": "2026-08-26",
@@ -28074,12 +28074,12 @@
         },
         {
           "date": "2026-11-18",
-          "value": 24.71
+          "value": 24.3
         }
       ]
     },
-    "structure": "contango (calm)",
-    "vix_minus_vix3m": -0.02
+    "structure": "backwardation (stress)",
+    "vix_minus_vix3m": 0.26
   },
   "earnings_calendar": [
     {

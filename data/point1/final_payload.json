@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-18T21:11:47.920571+00:00",
+  "as_of": "2026-11-18T21:29:45.989573+00:00",
   "synthesis": {
     "current": {
       "as_of": "2026-11-18",
@@ -8,7 +8,7 @@
         "Inflation data turned the Fed from 'probably' to 'almost certainly' hiking in December. October payrolls rose 165,000 (Nov 6) against ~60,000 expected, and unemployment fell to 4.1%. October CPI (Nov 10) rose 0.4% m/m with core +0.3%, both 0.1pt above forecast; Governor Waller had said hours earlier that a ~0.3% core print should put a 50bp December hike on the table. Futures went to roughly 93-96% odds of a 25bp hike at the Dec 8-9 meeting (vs. ~72-85% at the Nov 2 pull), with a small chance of 50bp. Minutes of the Oct 27-28 meeting, released Nov 18, said officials expect further hikes will be needed and flagged AI-related demand as an inflation risk.",
         "Yields gave back the flight-to-safety drop and more. The 10-year fell to ~4.84% on Nov 5 during the equity crash, then rose about 30bp in the week of Nov 9-13 to ~5.15% (FRED), back above the ~4.93% at the Nov 2 pull. The 2-year jumped further, from 4.46% on Nov 5 to 4.88% on Nov 13, so the curve flattened again (10y-2y spread 0.24-0.30 vs. 0.38 on Nov 5). The Fed funds rate is unchanged at 3.75%-4.00%.",
         "Equities: the AI selloff became a broad one. After the Nov 3 midterms, Democratic gains raised the prospect of data-center moratoriums, and on Nov 5 the S&P 500 fell 4.4% (worst day since April 2025), the Nasdaq 5.5% and the Dow 3.4%; Nvidia lost 9.3% and AMD 17.3%. Stocks rebounded on Nov 9, then Nvidia CEO Jensen Huang resigned on Thu Nov 12 after reports about his personal conduct, with CFO Colette Kress named interim CEO. The S&P 500 then fell five straight sessions through Nov 18 to 7,323.63, its lowest since late July; the Nasdaq is in a correction, more than 10% below its Oct 6 high. Nvidia's Nov 17 results beat (revenue $115.8B, outlook raised) and the stock rose ~5% after hours, but it closed down 2.9% on Nov 18. That day the Dow fell 1.11% as UnitedHealth dropped 10% on a proposed Medicare anti-fraud audit rule. The VIX closed at 24.63, up from 21.15 on Nov 2. Anthropic's IPO was set to price after the Nov 18 close.",
-        "Credit and commodities. HY spreads tightened to 3.20% on Nov 12, then widened back to 3.43% by Nov 17 (FRED), near the 3.44% Oct 30 high; IG is 0.92%. Oil kept falling on U.S.-Iran diplomacy: Brent fell nearly 9% on Nov 4, and on Nov 18 WTI dropped more than 4% to $82.19 and Brent to $90.83 (vs. $96.46 / $104.77 on Nov 2). Gold fell from ~$4,114 on Nov 9 to ~$3,758 on Nov 18 and silver to ~$45 as real yields rose. Data note: FRED's WTI series (89.53 on Nov 17) is again above reported settles, and FRED had not posted Nov 17-18 yields when this was written; the narrative uses reported settles."
+        "Credit and commodities. HY spreads tightened to 3.20% on Nov 12, then widened back to 3.43% by Nov 17 (FRED), near the 3.44% Oct 30 high; IG is 0.92%. Oil kept falling on U.S.-Iran diplomacy: Brent fell nearly 9% on Nov 4, and on Nov 18 WTI dropped more than 4% to $82.19 and Brent to $90.83 (vs. $96.46 / $104.77 on Nov 2). Gold fell from ~$4,114 on Nov 9 to ~$3,729 on Nov 18 (COMEX front-month) and silver to ~$45 as real yields rose. Data note: FRED's WTI series (89.53 on Nov 17) is again above reported settles, and FRED had not posted Nov 17-18 yields when this was written; the narrative uses reported settles."
       ]
     },
     "previous": {
@@ -356,15 +356,11 @@
     "DGS3MO": {
       "series_id": "DGS3MO",
       "label": "3-Month Treasury Yield",
-      "last_value": 4.34,
-      "last_date": "2026-11-16",
-      "day_chg": 0.02,
-      "month_chg": 0.06,
+      "last_value": 4.33,
+      "last_date": "2026-11-17",
+      "day_chg": -0.01,
+      "month_chg": 0.07,
       "history": [
-        {
-          "date": "2026-08-20",
-          "value": 3.87
-        },
         {
           "date": "2026-08-21",
           "value": 3.88
@@ -600,21 +596,21 @@
         {
           "date": "2026-11-16",
           "value": 4.34
+        },
+        {
+          "date": "2026-11-17",
+          "value": 4.33
         }
       ]
     },
     "DGS2": {
       "series_id": "DGS2",
       "label": "2-Year Treasury Yield",
-      "last_value": 4.83,
-      "last_date": "2026-11-16",
-      "day_chg": -0.05,
+      "last_value": 4.8,
+      "last_date": "2026-11-17",
+      "day_chg": -0.03,
       "month_chg": 0.06,
       "history": [
-        {
-          "date": "2026-08-20",
-          "value": 4.19
-        },
         {
           "date": "2026-08-21",
           "value": 4.24
@@ -850,21 +846,21 @@
         {
           "date": "2026-11-16",
           "value": 4.83
+        },
+        {
+          "date": "2026-11-17",
+          "value": 4.8
         }
       ]
     },
     "DGS10": {
       "series_id": "DGS10",
       "label": "10-Year Treasury Yield",
-      "last_value": 5.12,
-      "last_date": "2026-11-16",
-      "day_chg": -0.03,
-      "month_chg": 0.02,
+      "last_value": 5.1,
+      "last_date": "2026-11-17",
+      "day_chg": -0.02,
+      "month_chg": 0.01,
       "history": [
-        {
-          "date": "2026-08-20",
-          "value": 4.69
-        },
         {
           "date": "2026-08-21",
           "value": 4.74
@@ -1100,6 +1096,10 @@
         {
           "date": "2026-11-16",
           "value": 5.12
+        },
+        {
+          "date": "2026-11-17",
+          "value": 5.1
         }
       ]
     },
@@ -1107,14 +1107,10 @@
       "series_id": "DGS30",
       "label": "30-Year Treasury Yield",
       "last_value": 5.46,
-      "last_date": "2026-11-16",
-      "day_chg": -0.01,
+      "last_date": "2026-11-17",
+      "day_chg": 0.0,
       "month_chg": 0.03,
       "history": [
-        {
-          "date": "2026-08-20",
-          "value": 5.23
-        },
         {
           "date": "2026-08-21",
           "value": 5.27
@@ -1350,6 +1346,10 @@
         {
           "date": "2026-11-16",
           "value": 5.46
+        },
+        {
+          "date": "2026-11-17",
+          "value": 5.46
         }
       ]
     },
@@ -1357,14 +1357,10 @@
       "series_id": "DFF",
       "label": "Effective Federal Funds Rate",
       "last_value": 3.88,
-      "last_date": "2026-11-16",
+      "last_date": "2026-11-17",
       "day_chg": 0.0,
       "month_chg": 0.0,
       "history": [
-        {
-          "date": "2026-09-18",
-          "value": 3.88
-        },
         {
           "date": "2026-09-19",
           "value": 3.88
@@ -1599,6 +1595,10 @@
         },
         {
           "date": "2026-11-16",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-17",
           "value": 3.88
         }
       ]
@@ -3603,13 +3603,263 @@
         }
       ]
     },
+    "GOLD": {
+      "series_id": "GC=F",
+      "label": "Gold (COMEX front-month)",
+      "last_value": 3729.1,
+      "last_date": "2026-11-18",
+      "day_chg": -135.1,
+      "month_chg": -413.5,
+      "history": [
+        {
+          "date": "2026-08-26",
+          "value": 4653.3
+        },
+        {
+          "date": "2026-08-27",
+          "value": 4664.0
+        },
+        {
+          "date": "2026-08-28",
+          "value": 4529.9
+        },
+        {
+          "date": "2026-08-31",
+          "value": 4481.5
+        },
+        {
+          "date": "2026-09-01",
+          "value": 4396.4
+        },
+        {
+          "date": "2026-09-02",
+          "value": 4414.6
+        },
+        {
+          "date": "2026-09-03",
+          "value": 4539.9
+        },
+        {
+          "date": "2026-09-04",
+          "value": 4476.6
+        },
+        {
+          "date": "2026-09-08",
+          "value": 4439.0
+        },
+        {
+          "date": "2026-09-09",
+          "value": 4460.7
+        },
+        {
+          "date": "2026-09-10",
+          "value": 4407.3
+        },
+        {
+          "date": "2026-09-11",
+          "value": 4408.9
+        },
+        {
+          "date": "2026-09-14",
+          "value": 4351.9
+        },
+        {
+          "date": "2026-09-15",
+          "value": 4332.8
+        },
+        {
+          "date": "2026-09-16",
+          "value": 4387.5
+        },
+        {
+          "date": "2026-09-17",
+          "value": 4399.7
+        },
+        {
+          "date": "2026-09-18",
+          "value": 4424.9
+        },
+        {
+          "date": "2026-09-21",
+          "value": 4383.9
+        },
+        {
+          "date": "2026-09-22",
+          "value": 4376.4
+        },
+        {
+          "date": "2026-09-23",
+          "value": 4318.4
+        },
+        {
+          "date": "2026-09-24",
+          "value": 4298.0
+        },
+        {
+          "date": "2026-09-25",
+          "value": 4321.2
+        },
+        {
+          "date": "2026-09-28",
+          "value": 4168.4
+        },
+        {
+          "date": "2026-09-29",
+          "value": 4179.7
+        },
+        {
+          "date": "2026-09-30",
+          "value": 4186.7
+        },
+        {
+          "date": "2026-10-01",
+          "value": 4202.3
+        },
+        {
+          "date": "2026-10-02",
+          "value": 4162.3
+        },
+        {
+          "date": "2026-10-05",
+          "value": 4156.8
+        },
+        {
+          "date": "2026-10-06",
+          "value": 4187.1
+        },
+        {
+          "date": "2026-10-07",
+          "value": 4140.7
+        },
+        {
+          "date": "2026-10-08",
+          "value": 4157.0
+        },
+        {
+          "date": "2026-10-09",
+          "value": 4216.3
+        },
+        {
+          "date": "2026-10-12",
+          "value": 4190.6
+        },
+        {
+          "date": "2026-10-13",
+          "value": 4177.3
+        },
+        {
+          "date": "2026-10-14",
+          "value": 4107.9
+        },
+        {
+          "date": "2026-10-15",
+          "value": 4170.1
+        },
+        {
+          "date": "2026-10-16",
+          "value": 4181.1
+        },
+        {
+          "date": "2026-10-19",
+          "value": 4160.1
+        },
+        {
+          "date": "2026-10-20",
+          "value": 4142.6
+        },
+        {
+          "date": "2026-10-21",
+          "value": 4150.0
+        },
+        {
+          "date": "2026-10-22",
+          "value": 4060.4
+        },
+        {
+          "date": "2026-10-23",
+          "value": 4007.9
+        },
+        {
+          "date": "2026-10-26",
+          "value": 4038.4
+        },
+        {
+          "date": "2026-10-27",
+          "value": 4074.6
+        },
+        {
+          "date": "2026-10-28",
+          "value": 4051.6
+        },
+        {
+          "date": "2026-10-29",
+          "value": 4031.4
+        },
+        {
+          "date": "2026-10-30",
+          "value": 3898.9
+        },
+        {
+          "date": "2026-11-02",
+          "value": 3969.6
+        },
+        {
+          "date": "2026-11-03",
+          "value": 3940.4
+        },
+        {
+          "date": "2026-11-04",
+          "value": 4073.0
+        },
+        {
+          "date": "2026-11-05",
+          "value": 4113.5
+        },
+        {
+          "date": "2026-11-06",
+          "value": 4074.9
+        },
+        {
+          "date": "2026-11-09",
+          "value": 4114.5
+        },
+        {
+          "date": "2026-11-10",
+          "value": 4030.2
+        },
+        {
+          "date": "2026-11-11",
+          "value": 4000.5
+        },
+        {
+          "date": "2026-11-12",
+          "value": 3885.3
+        },
+        {
+          "date": "2026-11-13",
+          "value": 3886.3
+        },
+        {
+          "date": "2026-11-16",
+          "value": 3853.0
+        },
+        {
+          "date": "2026-11-17",
+          "value": 3864.2
+        },
+        {
+          "date": "2026-11-18",
+          "value": 3729.1
+        }
+      ]
+    },
     "SILVER": {
       "series_id": "SI=F",
       "label": "Silver (COMEX front-month)",
-      "last_value": 44.96,
+      "last_value": 45.01,
       "last_date": "2026-11-18",
-      "day_chg": -2.33,
-      "month_chg": -12.75,
+      "day_chg": -2.28,
+      "month_chg": -12.7,
       "history": [
         {
           "date": "2026-08-26",
@@ -3849,14 +4099,14 @@
         },
         {
           "date": "2026-11-18",
-          "value": 44.96
+          "value": 45.01
         }
       ]
     }
   },
   "vol_term_structure": {
     "VIX": {
-      "last_value": 24.69,
+      "last_value": 24.56,
       "history": [
         {
           "date": "2026-08-27",
@@ -4096,12 +4346,12 @@
         },
         {
           "date": "2026-11-18",
-          "value": 24.69
+          "value": 24.56
         }
       ]
     },
     "VIX9D": {
-      "last_value": 25.2,
+      "last_value": 24.0,
       "history": [
         {
           "date": "2026-08-26",
@@ -4341,12 +4591,12 @@
         },
         {
           "date": "2026-11-18",
-          "value": 25.2
+          "value": 24.0
         }
       ]
     },
     "VIX3M": {
-      "last_value": 24.71,
+      "last_value": 24.3,
       "history": [
         {
           "date": "2026-08-26",
@@ -4586,12 +4836,12 @@
         },
         {
           "date": "2026-11-18",
-          "value": 24.71
+          "value": 24.3
         }
       ]
     },
-    "structure": "contango (calm)",
-    "vix_minus_vix3m": -0.02
+    "structure": "backwardation (stress)",
+    "vix_minus_vix3m": 0.26
   },
   "material_events": [
     {
