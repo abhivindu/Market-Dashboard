@@ -1615,12 +1615,6 @@
       "index": "SP500"
     },
     {
-      "ticker": "KVUE",
-      "sector": "Consumer Staples",
-      "name": "Kenvue",
-      "index": "SP500"
-    },
-    {
       "ticker": "KDP",
       "sector": "Consumer Staples",
       "name": "Keurig Dr Pepper",
@@ -2080,6 +2074,12 @@
       "ticker": "OXY",
       "sector": "Energy",
       "name": "Occidental Petroleum",
+      "index": "SP500"
+    },
+    {
+      "ticker": "OKTA",
+      "sector": "Information Technology",
+      "name": "Okta, Inc.",
       "index": "SP500"
     },
     {
@@ -3307,9 +3307,9 @@
       "index": "SP400"
     },
     {
-      "ticker": "BKH",
+      "ticker": "HZN",
       "sector": "Utilities",
-      "name": "Black Hills Corporation",
+      "name": "Bright Horizon Energy Corporation",
       "index": "SP400"
     },
     {
@@ -3985,6 +3985,12 @@
       "index": "SP400"
     },
     {
+      "ticker": "GKOS",
+      "sector": "Health Care",
+      "name": "Glaukos Corp.",
+      "index": "SP600"
+    },
+    {
       "ticker": "GLPI",
       "sector": "Real Estate",
       "name": "Gaming and Leisure Properties",
@@ -4180,6 +4186,12 @@
       "ticker": "JEF",
       "sector": "Financials",
       "name": "Jefferies",
+      "index": "SP400"
+    },
+    {
+      "ticker": "JHX",
+      "sector": "Materials",
+      "name": "James Hardie Industries",
       "index": "SP400"
     },
     {
@@ -4567,12 +4579,6 @@
       "index": "SP400"
     },
     {
-      "ticker": "OKTA",
-      "sector": "Information Technology",
-      "name": "Okta, Inc.",
-      "index": "SP400"
-    },
-    {
       "ticker": "OLED",
       "sector": "Information Technology",
       "name": "Universal Display",
@@ -4828,12 +4834,6 @@
       "ticker": "ROIV",
       "sector": "Health Care",
       "name": "Roivant Sciences",
-      "index": "SP400"
-    },
-    {
-      "ticker": "ROKU",
-      "sector": "Communication Services",
-      "name": "Roku, Inc.",
       "index": "SP400"
     },
     {
@@ -6739,12 +6739,6 @@
       "index": "SP600"
     },
     {
-      "ticker": "GKOS",
-      "sector": "Health Care",
-      "name": "Glaukos Corp.",
-      "index": "SP600"
-    },
-    {
       "ticker": "GNL",
       "sector": "Real Estate",
       "name": "Global Net Lease, Inc.",
@@ -7525,9 +7519,9 @@
       "index": "SP600"
     },
     {
-      "ticker": "MSGS",
+      "ticker": "MSGK",
       "sector": "Communication Services",
-      "name": "Madison Square Garden Sports Corp.",
+      "name": "MSG Knickerbockers Corp.",
       "index": "SP600"
     },
     {
@@ -8475,7 +8469,7 @@
     {
       "ticker": "SUPN",
       "sector": "Health Care",
-      "name": "Supernus Pharmaceuticals, Inc.",
+      "name": "Supernus, Inc.",
       "index": "SP600"
     },
     {
