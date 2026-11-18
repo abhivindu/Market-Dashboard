@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-11-18T21:10:17.357945+00:00",
+  "as_of": "2026-11-18T21:19:06.706235+00:00",
   "indices": {
     "SP500": {
       "name": "SP500",
       "ticker": "^GSPC",
-      "last": 7303.98,
-      "day_chg_pct": -0.498,
-      "five_day_chg_pct": -4.139,
-      "month_chg_pct": -5.029,
+      "last": 7323.63,
+      "day_chg_pct": -0.23,
+      "five_day_chg_pct": -3.882,
+      "month_chg_pct": -4.773,
       "history": [
         {
           "date": "2026-10-19",
@@ -99,17 +99,17 @@
         },
         {
           "date": "2026-11-18",
-          "close": 7303.98
+          "close": 7323.63
         }
       ]
     },
     "NASDAQ": {
       "name": "NASDAQ",
       "ticker": "^IXIC",
-      "last": 24322.71,
-      "day_chg_pct": -0.023,
-      "five_day_chg_pct": -4.49,
-      "month_chg_pct": -7.976,
+      "last": 24429.88,
+      "day_chg_pct": 0.417,
+      "five_day_chg_pct": -4.069,
+      "month_chg_pct": -7.571,
       "history": [
         {
           "date": "2026-10-19",
@@ -201,17 +201,17 @@
         },
         {
           "date": "2026-11-18",
-          "close": 24322.71
+          "close": 24429.88
         }
       ]
     },
     "DOW": {
       "name": "DOW",
       "ticker": "^DJI",
-      "last": 50089.71,
-      "day_chg_pct": -1.319,
-      "five_day_chg_pct": -4.566,
-      "month_chg_pct": -3.611,
+      "last": 50198.17,
+      "day_chg_pct": -1.106,
+      "five_day_chg_pct": -4.36,
+      "month_chg_pct": -3.402,
       "history": [
         {
           "date": "2026-10-19",
@@ -303,17 +303,17 @@
         },
         {
           "date": "2026-11-18",
-          "close": 50089.71
+          "close": 50198.17
         }
       ]
     },
     "RUSSELL2000": {
       "name": "RUSSELL2000",
       "ticker": "^RUT",
-      "last": 2715.75,
-      "day_chg_pct": 0.514,
-      "five_day_chg_pct": -4.585,
-      "month_chg_pct": -0.46,
+      "last": 2714.31,
+      "day_chg_pct": 0.46,
+      "five_day_chg_pct": -4.636,
+      "month_chg_pct": -0.513,
       "history": [
         {
           "date": "2026-10-19",
@@ -405,17 +405,17 @@
         },
         {
           "date": "2026-11-18",
-          "close": 2715.75
+          "close": 2714.31
         }
       ]
     },
     "VIX": {
       "name": "VIX",
       "ticker": "^VIX",
-      "last": 24.69,
-      "day_chg_pct": -3.024,
-      "five_day_chg_pct": 41.166,
-      "month_chg_pct": 33.894,
+      "last": 24.63,
+      "day_chg_pct": -3.26,
+      "five_day_chg_pct": 40.823,
+      "month_chg_pct": 33.568,
       "history": [
         {
           "date": "2026-10-19",
@@ -507,7 +507,7 @@
         },
         {
           "date": "2026-11-18",
-          "close": 24.69
+          "close": 24.63
         }
       ]
     }

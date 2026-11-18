@@ -6,8 +6,8 @@
       "paragraphs": [
         "Inflation data turned the Fed from 'probably' to 'almost certainly' hiking in December. October payrolls rose 165,000 (Nov 6) against ~60,000 expected, and unemployment fell to 4.1%. October CPI (Nov 10) rose 0.4% m/m with core +0.3%, both 0.1pt above forecast; Governor Waller had said hours earlier that a ~0.3% core print should put a 50bp December hike on the table. Futures went to roughly 93-96% odds of a 25bp hike at the Dec 8-9 meeting (vs. ~72-85% at the Nov 2 pull), with a small chance of 50bp. Minutes of the Oct 27-28 meeting, released Nov 18, said officials expect further hikes will be needed and flagged AI-related demand as an inflation risk.",
         "Yields gave back the flight-to-safety drop and more. The 10-year fell to ~4.84% on Nov 5 during the equity crash, then rose about 30bp in the week of Nov 9-13 to ~5.15% (FRED), back above the ~4.93% at the Nov 2 pull. The 2-year jumped further, from 4.46% on Nov 5 to 4.88% on Nov 13, so the curve flattened again (10y-2y spread 0.24-0.30 vs. 0.38 on Nov 5). The Fed funds rate is unchanged at 3.75%-4.00%.",
-        "Equities: the AI selloff became a broad one. After the Nov 3 midterms, Democratic gains raised the prospect of data-center moratoriums, and on Nov 5 the S&P 500 fell 4.4% (worst day since April 2025), the Nasdaq 5.5% and the Dow 3.4%; Nvidia lost 9.3% and AMD 17.3%. Stocks rebounded on Nov 9, then Nvidia CEO Jensen Huang resigned on Thu Nov 12 after reports about his personal conduct, with CFO Colette Kress named interim CEO. The S&P 500 then fell five straight sessions through Nov 18 to 7,323.63 (CNBC close), its lowest since late July; the Nasdaq is in a correction, more than 10% below its Oct 6 high. Nvidia's Nov 17 results beat (revenue $115.8B, outlook raised) and the stock rose ~5% after hours, but it closed down 2.9% on Nov 18. That day the Dow fell 1.11% as UnitedHealth dropped 10% on a proposed Medicare anti-fraud audit rule. The VIX closed near 24.7, up from 21.15 on Nov 2. Anthropic's IPO was set to price after the Nov 18 close.",
-        "Credit and commodities. HY spreads tightened to 3.20% on Nov 12, then widened back to 3.43% by Nov 17 (FRED), near the 3.44% Oct 30 high; IG is 0.92%. Oil kept falling on U.S.-Iran diplomacy: Brent fell nearly 9% on Nov 4, and on Nov 18 WTI dropped more than 4% to $82.19 and Brent to $90.83 (vs. $96.46 / $104.77 on Nov 2). Gold fell from ~$4,114 on Nov 9 to ~$3,758 on Nov 18 and silver to ~$45 as real yields rose. Data note: FRED's WTI series (89.53 on Nov 17) is again above reported settles, and FRED had not posted Nov 17-18 yields when this was written; the narrative uses reported closes, which differ slightly from Yahoo's index figures shown on the tiles."
+        "Equities: the AI selloff became a broad one. After the Nov 3 midterms, Democratic gains raised the prospect of data-center moratoriums, and on Nov 5 the S&P 500 fell 4.4% (worst day since April 2025), the Nasdaq 5.5% and the Dow 3.4%; Nvidia lost 9.3% and AMD 17.3%. Stocks rebounded on Nov 9, then Nvidia CEO Jensen Huang resigned on Thu Nov 12 after reports about his personal conduct, with CFO Colette Kress named interim CEO. The S&P 500 then fell five straight sessions through Nov 18 to 7,323.63, its lowest since late July; the Nasdaq is in a correction, more than 10% below its Oct 6 high. Nvidia's Nov 17 results beat (revenue $115.8B, outlook raised) and the stock rose ~5% after hours, but it closed down 2.9% on Nov 18. That day the Dow fell 1.11% as UnitedHealth dropped 10% on a proposed Medicare anti-fraud audit rule. The VIX closed at 24.63, up from 21.15 on Nov 2. Anthropic's IPO was set to price after the Nov 18 close.",
+        "Credit and commodities. HY spreads tightened to 3.20% on Nov 12, then widened back to 3.43% by Nov 17 (FRED), near the 3.44% Oct 30 high; IG is 0.92%. Oil kept falling on U.S.-Iran diplomacy: Brent fell nearly 9% on Nov 4, and on Nov 18 WTI dropped more than 4% to $82.19 and Brent to $90.83 (vs. $96.46 / $104.77 on Nov 2). Gold fell from ~$4,114 on Nov 9 to ~$3,758 on Nov 18 and silver to ~$45 as real yields rose. Data note: FRED's WTI series (89.53 on Nov 17) is again above reported settles, and FRED had not posted Nov 17-18 yields when this was written; the narrative uses reported settles."
       ]
     },
     "previous": {
@@ -23,7 +23,7 @@
   },
   "macro_flags": {
     "index_day_move:DOW": {
-      "narrative": "UPDATE (11/18/26): The Dow fell 1.11% on Nov 18 (-561 points to 50,198.17, CNBC close; Yahoo's early figure was -1.32%), after -1.64% on Nov 17. Nov 18's drop was concentrated: UnitedHealth, a heavy weight in the price-weighted Dow, fell 10% on a proposed CMS Medicare anti-fraud audit rule, and Chevron and Caterpillar also fell as WTI dropped more than 4% to $82.19. On Nov 17 Home Depot (weak outlook, CEO change) and Caterpillar led. The S&P 500 slipped only 0.23% and the Nasdaq rose on Nov 18. Prior framing: This flag now reflects Fri Oct 23, when the Dow fell 1.23% (-653 points) to 52,215.16 after holding up all week (flat on Thu Oct 22 even as the Nasdaq fell 2.6%). Friday's selling spread beyond the AI/tech names that drove Thursday into the broader market, with oil-sensitive groups such as airlines hit as Brent settled at $116.72 (+3.1%, a six-month high) on Houthi strikes on Saudi targets and Iranian claims of tanker hits in Hormuz. Even after Friday the Dow finished the week +0.41%, the only major index up, so this is a one-day oil/risk-off hit on a week of rotation into the Dow's non-tech names, not a rate shock like the September readings below. The Dow's -1.03% figure on 09/23/26 spans two real sessions compressed into one by the Sept 22 data gap described in the synthesis above. Tuesday Sept 22 the Dow slipped a modest 0.3% while the Nasdaq set a second straight record close - Richmond Fed President Tom Barkin struck a hawkish note ('supply shocks aren't proving short-lived'). Wednesday Sept 23 did the rest of the damage (-0.7%) as the 10-year Treasury yield jumped to roughly 5.11%-5.14% (highest since July 2007) after Fed Governor Michael Barr said 'further policy adjustments are likely to be needed,' and a hotter-than-expected S&P Global composite PMI (58.4 vs. 55.3 forecast) reinforced inflation concerns, pushing October-hike odds to ~66-74%. Same rate/inflation mechanism as the Sept 16 FOMC-day flag below, not a new independent driver. This flag now trips on the day-move threshold rather than the 5-day one, because the FOMC's Sept 16 hike hit in a single session: the Fed hiked 25bp as anticipated, and the Dow fell 631pts (-1.21%) to 51,461.90 on the day \u2014 banks led the damage (KBE -2.6%, worst day since February) on fears the hiking cycle continues into 2027. Broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
+      "narrative": "UPDATE (11/18/26): The Dow fell 1.11% on Nov 18 (-561 points to 50,198.17), after -1.64% on Nov 17. Nov 18's drop was concentrated: UnitedHealth, a heavy weight in the price-weighted Dow, fell 10% on a proposed CMS Medicare anti-fraud audit rule, and Chevron and Caterpillar also fell as WTI dropped more than 4% to $82.19. On Nov 17 Home Depot (weak outlook, CEO change) and Caterpillar led. The S&P 500 slipped only 0.23% and the Nasdaq rose on Nov 18. Prior framing: This flag now reflects Fri Oct 23, when the Dow fell 1.23% (-653 points) to 52,215.16 after holding up all week (flat on Thu Oct 22 even as the Nasdaq fell 2.6%). Friday's selling spread beyond the AI/tech names that drove Thursday into the broader market, with oil-sensitive groups such as airlines hit as Brent settled at $116.72 (+3.1%, a six-month high) on Houthi strikes on Saudi targets and Iranian claims of tanker hits in Hormuz. Even after Friday the Dow finished the week +0.41%, the only major index up, so this is a one-day oil/risk-off hit on a week of rotation into the Dow's non-tech names, not a rate shock like the September readings below. The Dow's -1.03% figure on 09/23/26 spans two real sessions compressed into one by the Sept 22 data gap described in the synthesis above. Tuesday Sept 22 the Dow slipped a modest 0.3% while the Nasdaq set a second straight record close - Richmond Fed President Tom Barkin struck a hawkish note ('supply shocks aren't proving short-lived'). Wednesday Sept 23 did the rest of the damage (-0.7%) as the 10-year Treasury yield jumped to roughly 5.11%-5.14% (highest since July 2007) after Fed Governor Michael Barr said 'further policy adjustments are likely to be needed,' and a hotter-than-expected S&P Global composite PMI (58.4 vs. 55.3 forecast) reinforced inflation concerns, pushing October-hike odds to ~66-74%. Same rate/inflation mechanism as the Sept 16 FOMC-day flag below, not a new independent driver. This flag now trips on the day-move threshold rather than the 5-day one, because the FOMC's Sept 16 hike hit in a single session: the Fed hiked 25bp as anticipated, and the Dow fell 631pts (-1.21%) to 51,461.90 on the day \u2014 banks led the damage (KBE -2.6%, worst day since February) on fears the hiking cycle continues into 2027. Broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
       "citations": [
         {
           "title": "Dow drops more than 500 points; S&P 500 falls for fifth day as Nvidia sells off: Live updates",
@@ -396,12 +396,22 @@
       "last_updated": "2026-11-02"
     },
     "index_5day_move:NASDAQ": {
-      "narrative": "UPDATE (11/18/26): The 5-day window through Nov 18 is -4.5%. The Nasdaq fell 2.5% on Nov 16 (SOX -5.3%) after Jensen Huang's Nov 12 resignation as Nvidia CEO, putting it in a correction more than 10% below its Oct 6 high, and 0.7% on Nov 17. It rose 0.42% on Nov 18 even after Nvidia gave back its post-earnings gain (-2.9%), helped by a cybersecurity rally (Palo Alto +9.9%, CrowdStrike +7.9%) after a Nov 17 CISA alert on an AI-discovered Java flaw. Earlier, Nov 5's -5.5% was its worst day since April 2025, on post-midterm fears of data-center moratoriums. Prior framing: UPDATE (11/02/26): The 5-day window (Oct 27 - Nov 2) is now -3.84%. The week of Oct 26-30 cost the Nasdaq 2.00% (to 25,437), with most of it on Fri Oct 30 (-2.86%, its worst day since June) after Intel fell ~29% on a weak Q4 revenue forecast and the SOX dropped over 7%. That followed Alphabet's -12.6% on Thu Oct 29 (its worst day since its 2004 listing) on weaker earnings, and Amazon's heavier AI-spending plans; coverage noted Alphabet, Microsoft, Amazon and Meta spent $201.9B on capex in the quarter vs. $175.5B of operating cash flow. The Nasdaq lost about 5% in October even as the equal-weight S&P 500 rose 4.9%, a rotation rather than a broad selloff. Monday Nov 2's -1.07% (Marvell-Lumentum deal, Oracle's $20B capital raise) extended the slide. The Fed's Oct 28 hold was not a driver: stocks rose slightly during Warsh's press conference. Prior framing: The 5-day window (through Fri Oct 16) is now -4.48%, the Nasdaq's worst week since late June, snapping a monthlong winning streak. The week's path: a hot September CPI on Wed Oct 14 (headline 3.7% y/y vs 3.6% expected, core 2.6% vs 2.5%; the 10-year yield rose to ~5.28% intraday) sent the Nasdaq and Russell 2000 down ~2% that day; Thursday Oct 15 the Nasdaq was flat (+0.08%) as investors rotated out of chips into other sectors and bonds (the 10-year fell back to 5.10%); and Friday's -2.15% chip/software rout finished the week. Chips have now fallen eight straight sessions (longest since 2008), with SOXX ~16% below its Oct 6 close. Drivers cited across coverage: AI-capex-cycle repricing, AI credit stress (CoreWeave CDS at distress levels), and oil above $100 feeding rate-hike fears - partly offset late in the week by Fed Chair Warsh declining to commit to an October hike. The 5-session window has rolled forward and now includes the Sept 22-23 pullback described in the DOW/RUSSELL2000 day-move flags above: Nasdaq set a second straight record close Tuesday Sept 22 (+0.4%) before falling roughly 1.1% Wednesday Sept 23 as the 10-year Treasury yield spiked to ~5.11% (highest since 2007) on hawkish Fed commentary and a hot PMI print. Even with that pullback, the index's 5-day change is still solidly positive at +3.67% (essentially unchanged from the +3.57% at last pull), because Monday's chip-sector record rally was large enough to absorb it. There is no genuinely new story here beyond what's already below - this reads as last week's rally holding up under a fresh bout of rate-driven selling, not being extended by a new catalyst. Nasdaq's 5-day change (Sept 15-21) turned solidly positive (+3.57%) even though the window contains the Sept 16 FOMC-hike selloff (Nasdaq -0.01% that day per the index data) - the index round-tripped and then broke higher on the Meta-Muse-triggered chip rally that began Sept 18 (Arm +13%, Intel +12%, AMD +9%) and continued through Monday Sept 21's broad rally (falling yields/oil, bitcoin above $85,000, AMD crossing a $1T market cap), which more than offset the FOMC-day losses within the same 5-day window.",
+      "narrative": "UPDATE (11/18/26): The 5-day window through Nov 18 is -4.1%. The Nasdaq fell 2.5% on Nov 16 (SOX -5.3%) after Jensen Huang's Nov 12 resignation as Nvidia CEO, putting it in a correction more than 10% below its Oct 6 high, and 0.7% on Nov 17. It rose 0.42% on Nov 18 even after Nvidia gave back its post-earnings gain (-2.9%), helped by a cybersecurity rally (Palo Alto +9.9%, CrowdStrike +7.9%) after a Nov 17 CISA alert on an AI-discovered Java flaw. Earlier, Nov 5's -5.5% was its worst day since April 2025, on post-midterm fears of data-center moratoriums. Prior framing: UPDATE (11/02/26): The 5-day window (Oct 27 - Nov 2) is now -3.84%. The week of Oct 26-30 cost the Nasdaq 2.00% (to 25,437), with most of it on Fri Oct 30 (-2.86%, its worst day since June) after Intel fell ~29% on a weak Q4 revenue forecast and the SOX dropped over 7%. That followed Alphabet's -12.6% on Thu Oct 29 (its worst day since its 2004 listing) on weaker earnings, and Amazon's heavier AI-spending plans; coverage noted Alphabet, Microsoft, Amazon and Meta spent $201.9B on capex in the quarter vs. $175.5B of operating cash flow. The Nasdaq lost about 5% in October even as the equal-weight S&P 500 rose 4.9%, a rotation rather than a broad selloff. Monday Nov 2's -1.07% (Marvell-Lumentum deal, Oracle's $20B capital raise) extended the slide. The Fed's Oct 28 hold was not a driver: stocks rose slightly during Warsh's press conference. Prior framing: The 5-day window (through Fri Oct 16) is now -4.48%, the Nasdaq's worst week since late June, snapping a monthlong winning streak. The week's path: a hot September CPI on Wed Oct 14 (headline 3.7% y/y vs 3.6% expected, core 2.6% vs 2.5%; the 10-year yield rose to ~5.28% intraday) sent the Nasdaq and Russell 2000 down ~2% that day; Thursday Oct 15 the Nasdaq was flat (+0.08%) as investors rotated out of chips into other sectors and bonds (the 10-year fell back to 5.10%); and Friday's -2.15% chip/software rout finished the week. Chips have now fallen eight straight sessions (longest since 2008), with SOXX ~16% below its Oct 6 close. Drivers cited across coverage: AI-capex-cycle repricing, AI credit stress (CoreWeave CDS at distress levels), and oil above $100 feeding rate-hike fears - partly offset late in the week by Fed Chair Warsh declining to commit to an October hike. The 5-session window has rolled forward and now includes the Sept 22-23 pullback described in the DOW/RUSSELL2000 day-move flags above: Nasdaq set a second straight record close Tuesday Sept 22 (+0.4%) before falling roughly 1.1% Wednesday Sept 23 as the 10-year Treasury yield spiked to ~5.11% (highest since 2007) on hawkish Fed commentary and a hot PMI print. Even with that pullback, the index's 5-day change is still solidly positive at +3.67% (essentially unchanged from the +3.57% at last pull), because Monday's chip-sector record rally was large enough to absorb it. There is no genuinely new story here beyond what's already below - this reads as last week's rally holding up under a fresh bout of rate-driven selling, not being extended by a new catalyst. Nasdaq's 5-day change (Sept 15-21) turned solidly positive (+3.57%) even though the window contains the Sept 16 FOMC-hike selloff (Nasdaq -0.01% that day per the index data) - the index round-tripped and then broke higher on the Meta-Muse-triggered chip rally that began Sept 18 (Arm +13%, Intel +12%, AMD +9%) and continued through Monday Sept 21's broad rally (falling yields/oil, bitcoin above $85,000, AMD crossing a $1T market cap), which more than offset the FOMC-day losses within the same 5-day window.",
       "citations": [
         {
           "title": "Dow drops more than 500 points; S&P 500 falls for fifth day as Nvidia sells off: Live updates",
           "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
           "date": "2026-11-18"
+        },
+        {
+          "title": "Stocks making the biggest moves Wednesday: ExxonMobil, TJX, Take-Two Interactive, Cal-Maine & more",
+          "url": "https://cnbc.com/2026/11/18/stocks-moving-the-most-today-live-updates.html",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Critical Java Vulnerability Requires Immediate Patching",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+          "date": "2026-11-17"
         },
         {
           "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
@@ -597,7 +607,7 @@
       "last_updated": "2026-11-02"
     },
     "index_5day_move:SP500": {
-      "narrative": "The S&P 500 fell about 4.1% over the five sessions Nov 12-18 (7,619 on Nov 11 to ~7,324 on Nov 18), five straight losses and its lowest close since late July. Drivers stacked up: Nvidia CEO Jensen Huang resigned Nov 12; hot October CPI (Nov 10) and hawkish Fed speakers pushed the 10-year to ~5.15% and December-hike odds above 90%; the S&P fell 1.9% on Nov 16 as chips sold off (SOX -5.3%) and 1.03% on Nov 17 ahead of Nvidia's results. Nvidia beat on Nov 17 but still fell 2.9% on Nov 18. This came after the Nov 5 crash (-4.4%) and a Nov 9 rebound.",
+      "narrative": "The S&P 500 fell about 3.9% over the five sessions Nov 12-18 (7,619 on Nov 11 to ~7,324 on Nov 18), five straight losses and its lowest close since late July. Drivers stacked up: Nvidia CEO Jensen Huang resigned Nov 12; hot October CPI (Nov 10) and hawkish Fed speakers pushed the 10-year to ~5.15% and December-hike odds above 90%; the S&P fell 1.9% on Nov 16 as chips sold off (SOX -5.3%) and 1.03% on Nov 17 ahead of Nvidia's results. Nvidia beat on Nov 17 but still fell 2.9% on Nov 18. This came after the Nov 5 crash (-4.4%) and a Nov 9 rebound.",
       "citations": [
         {
           "title": "Dow drops more than 500 points; S&P 500 falls for fifth day as Nvidia sells off: Live updates",
@@ -629,7 +639,7 @@
       "last_updated": "2026-11-18"
     },
     "index_5day_move:DOW": {
-      "narrative": "The Dow fell about 4.6% over the five sessions through Nov 18 (from ~52,486 on Nov 11 to ~50,198). Losses came from cyclicals and heavyweights rather than tech: -1.4% Nov 16, -1.64% Nov 17 (Home Depot, Caterpillar, industrials and financials) and -1.11% Nov 18 (UnitedHealth -10% on a proposed Medicare audit rule; Chevron as oil fell). The backdrop is a 10-year back near 5.1-5.15% and a December hike almost fully priced after hot October CPI.",
+      "narrative": "The Dow fell about 4.4% over the five sessions through Nov 18 (from ~52,486 on Nov 11 to ~50,198). Losses came from cyclicals and heavyweights rather than tech: -1.4% Nov 16, -1.64% Nov 17 (Home Depot, Caterpillar, industrials and financials) and -1.11% Nov 18 (UnitedHealth -10% on a proposed Medicare audit rule; Chevron as oil fell). The backdrop is a 10-year back near 5.1-5.15% and a December hike almost fully priced after hot October CPI.",
       "citations": [
         {
           "title": "Dow drops more than 500 points; S&P 500 falls for fifth day as Nvidia sells off: Live updates",
@@ -1033,15 +1043,36 @@
       "last_updated": "2026-10-18"
     },
     "QLYS": {
-      "narrative": "Qualys fell alongside a sector-wide cybersecurity selloff (profit-taking after a late-August rally, some insider-sale disclosures) rather than new company-specific bad news. Q2 beat estimates; Q3 guidance of 9-10% revenue growth is healthy but didn't support the post-earnings valuation run-up.",
+      "narrative": "UPDATE (11/18/26): Qualys rose 12.9% to $197.24 as part of a sector-wide cybersecurity rally on Nov 18, recovering part of its roughly 13% post-earnings drop on Nov 10 (when Q4 guidance implied growth slowing to about 9.5%). The common catalysts were CISA's Nov 17 alert urging immediate patching of 'Java4Shell' (CVE-2026-114938), an AI-discovered Java remote-code-execution flaw that its finder says touches about 90% of the Fortune 500, plus DHS Secretary Markwayne Mullin's Nov 18 House testimony on AI-powered and Iran-linked attacks on US infrastructure. Qualys, a vulnerability-management vendor, published Java4Shell detection and patching guidance on Nov 17, making it a direct read-through. Prior framing: Qualys fell alongside a sector-wide cybersecurity selloff (profit-taking after a late-August rally, some insider-sale disclosures) rather than new company-specific bad news. Q2 beat estimates; Q3 guidance of 9-10% revenue growth is healthy but didn't support the post-earnings valuation run-up.",
       "citations": [
+        {
+          "title": "Critical Java Vulnerability Requires Immediate Patching",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "CISA warns of 'Java4Shell,' an AI-found Java bug touching most of the Fortune 500",
+          "url": "https://therecord.media/cisa-issues-java4shell-alert",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "How to Find, Mitigate, and Patch the Critical Java4Shell Flaw (CVE-2026-114938) Now",
+          "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/11/17/how-to-find-mitigate-and-patch-the-critical-java4shell-flaw-cve-2026-114938-now",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "Palo Alto leads cyber stocks higher after DHS secretary warns of AI-powered attacks",
+          "url": "https://seekingalpha.com/news/4674237-palo-alto-leads-cyber-stocks-higher-after-dhs-secretary-warns-of-ai-powered-attacks",
+          "date": "2026-11-18"
+        },
         {
           "title": "Qualys (NASDAQ:QLYS) Stock Price Down 3.9% - Time to Sell?",
           "url": "https://www.marketbeat.com/instant-alerts/price-qualys-nasdaq-qlys-stock-price-down-39-time-to-sell-2026-09-11/",
           "date": "2026-09-11"
         }
       ],
-      "verdict": "aligned"
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
     },
     "KAI": {
       "narrative": "Kadant's decline reflects a broader industrial-sector rotation (oil above $100, rising yields) plus a multi-year CEO succession announcement creating near-term uncertainty - not a results problem. The company just beat consensus EPS ($3.42 vs $2.94) and revenue estimates.",
@@ -1482,9 +1513,16 @@
       "last_updated": "2026-11-02"
     },
     "UNF": {
-      "narrative": "No single clear catalyst found for today's volume spike. UniFirst beat Q3 EPS estimates by 13.6% ($2.17 vs $1.91) and declared a routine dividend - likely residual attention from that beat rather than fresh news.",
-      "citations": [],
-      "verdict": "mixed"
+      "narrative": "UPDATE (11/18/26): UniFirst rose 6.4% to $240.85 on about 1.8x average volume after a Nov 18 report that it and acquirer Cintas are cautiously optimistic the FTC will clear their merger unconditionally. The cash-and-stock deal ($155 plus 0.772 Cintas shares per UniFirst share) has an FTC timing agreement to not close before Dec 11. Seeking Alpha reported the arbitrage spread narrowed to $89 from $100 on the report, though other reporting says FTC staff could still sue to block the deal. Prior framing: No single clear catalyst found for today's volume spike. UniFirst beat Q3 EPS estimates by 13.6% ($2.17 vs $1.91) and declared a routine dividend - likely residual attention from that beat rather than fresh news.",
+      "citations": [
+        {
+          "title": "UniFirst/Cintas deal spread narrows on report companies optimistic for FTC approval",
+          "url": "https://seekingalpha.com/news/4674362-unifirstcintas-deal-spread-narrows-on-report-companies-optimistic-for-ftc-approval",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
     },
     "JBTM": {
       "narrative": "JBT Marel has been trending down (down 14% over the past month, 23% YTD) after a Q2 earnings miss ($1.95 vs $2.02 consensus EPS) and a cut to full-year guidance, despite pairing that report with a new buyback program and dividend. Today's volume likely reflects continued digestion of that guidance cut rather than fresh news.",
@@ -1649,15 +1687,21 @@
       "verdict": "aligned"
     },
     "PBF": {
-      "narrative": "PBF Energy's continued strength (+6.99%) reads as a continuation of an existing fundamentals-driven rally rather than a new single-day catalyst: shares trade near a 52-week high (+189% YTD) on strong refining margins since the Martinez refinery returned to full operations in May 2026, with BMO recently raising its Q3 2026 EPS estimate to $11.99 (from $9.78) and UBS reiterating a Buy on refining-outlook strength. No distinct Oct 1 headline found beyond this ongoing sector/company strength - likely benefiting incrementally from this week's refined-product and crack-spread dynamics tied to the oil-market volatility covered in Point 1's synthesis.",
+      "narrative": "UPDATE (11/18/26): PBF Energy fell 7.1% to $62.40, down 10.5% over five days, on below-average volume. Refiners fell together on Nov 18 (CVI, DINO, PARR, PBF all down 7%+). The only dated same-day driver found is the EIA weekly report released Nov 18, which showed a 5.2M-barrel gasoline build (vs 1.6M expected) and a 1.6M-barrel distillate build, with oil futures extending losses afterward; no report found directly attributing the refiner selloff to it, and no company-specific news found. Prior framing: PBF Energy's continued strength (+6.99%) reads as a continuation of an existing fundamentals-driven rally rather than a new single-day catalyst: shares trade near a 52-week high (+189% YTD) on strong refining margins since the Martinez refinery returned to full operations in May 2026, with BMO recently raising its Q3 2026 EPS estimate to $11.99 (from $9.78) and UBS reiterating a Buy on refining-outlook strength. No distinct Oct 1 headline found beyond this ongoing sector/company strength - likely benefiting incrementally from this week's refined-product and crack-spread dynamics tied to the oil-market volatility covered in Point 1's synthesis.",
       "citations": [
+        {
+          "title": "US crude stocks, gasoline and distillate inventories rise, EIA says",
+          "url": "https://boereport.com/2026/11/18/us-crude-stocks-gasoline-and-distillate-inventories-rise-eia-says/",
+          "date": "2026-11-18"
+        },
         {
           "title": "BMO reiterates PBF Energy stock rating on strong Q3 outlook",
           "url": "https://uk.investing.com/news/stock-market-news/bmo-reiterates-pbf-energy-stock-rating-on-strong-q3-outlook-93CH-4891960",
           "date": "2026-09"
         }
       ],
-      "verdict": "aligned"
+      "verdict": "mixed",
+      "last_updated": "2026-11-18"
     },
     "VLO": {
       "narrative": "Valero fell nearly 5% on Monday, Sept 21 alongside the broader refiner group (PBF -6.1%, Marathon Petroleum -5%, Energy Select Sector ETF -2.5%) even as the major indices rallied - a sector-wide pullback after a 'nearly unprecedented' 2026 run on elevated crack spreads, with Bloomberg-tracked analysts expecting refiner EPS to fall ~18% on average in 2027 as margins normalize. No Valero-specific catalyst found; this reads as beta to the PBF story.",
@@ -1850,8 +1894,28 @@
       "verdict": "mixed"
     },
     "OKTA": {
-      "narrative": "UPDATE (11/02/26): Okta fell 11.2% on Mon Nov 2 to $184.87 (-16.0% over five days), giving back more than the after-hours bump from Friday Oct 30's announcement that it will join the S&P 500 (replacing Kenvue, effective before the Nov 4 open). It had already fallen ~6% on Fri Oct 30 in the broad tech selloff. No Okta-specific negative news found; the drop came as the AI-led tech/software selloff extended into Monday. Sector-driven. Prior framing: A later, opposite move: Okta fell 10.2% on Oct 16 to $187.26, its fifth straight losing session (-19.3% over five days), unwinding part of the Oktane-driven September rally. No Okta-specific negative news found; Yahoo/StockStory lists it with Datadog, Palantir, Zscaler and Elastic all falling the same day as investors shifted from AI upside to AI-financing worry and high rates, and GuruFocus reads it as profit-taking/valuation pressure after a 120%+ YTD run. Sector-driven, not thesis news. Okta rose sharply in an earlier pull on a real, dated catalyst: the company held Oktane 2026 in Las Vegas on Sept 22, launching the Blueprint Alliance - a cross-industry effort with AWS, CrowdStrike, Google Cloud, Salesforce, ServiceNow, Zscaler and Wiz to secure AI agents and their identities - putting Okta's AI-agent-security push in front of customers and investors. Needham raised its price target to $230 from $200 (Buy) and BTIG to $219 from $187 (Buy) around the event, on top of an already-strong Q2 FY27 beat-and-raise. Stock is up over 120% YTD.",
+      "narrative": "UPDATE (11/18/26): Okta jumped 12.1% to $195.61, the strongest of the large-cap names in a broad Nov 18 cybersecurity rally (CNBC had BUG, the cyber ETF, up 6% intraday). The sector bid followed CISA's Nov 17 'Java4Shell' emergency patch alert for an AI-found Java remote-code-execution flaw and DHS Secretary Markwayne Mullin's Nov 18 testimony on AI-powered attacks on US infrastructure, with Palo Alto Networks reporting after the close. No Okta-specific news was found; this is a group move. Prior framing: UPDATE (11/02/26): Okta fell 11.2% on Mon Nov 2 to $184.87 (-16.0% over five days), giving back more than the after-hours bump from Friday Oct 30's announcement that it will join the S&P 500 (replacing Kenvue, effective before the Nov 4 open). It had already fallen ~6% on Fri Oct 30 in the broad tech selloff. No Okta-specific negative news found; the drop came as the AI-led tech/software selloff extended into Monday. Sector-driven. Prior framing: A later, opposite move: Okta fell 10.2% on Oct 16 to $187.26, its fifth straight losing session (-19.3% over five days), unwinding part of the Oktane-driven September rally. No Okta-specific negative news found; Yahoo/StockStory lists it with Datadog, Palantir, Zscaler and Elastic all falling the same day as investors shifted from AI upside to AI-financing worry and high rates, and GuruFocus reads it as profit-taking/valuation pressure after a 120%+ YTD run. Sector-driven, not thesis news. Okta rose sharply in an earlier pull on a real, dated catalyst: the company held Oktane 2026 in Las Vegas on Sept 22, launching the Blueprint Alliance - a cross-industry effort with AWS, CrowdStrike, Google Cloud, Salesforce, ServiceNow, Zscaler and Wiz to secure AI agents and their identities - putting Okta's AI-agent-security push in front of customers and investors. Needham raised its price target to $230 from $200 (Buy) and BTIG to $219 from $187 (Buy) around the event, on top of an already-strong Q2 FY27 beat-and-raise. Stock is up over 120% YTD.",
       "citations": [
+        {
+          "title": "Stocks making the biggest moves Wednesday: ExxonMobil, TJX, Take-Two Interactive, Cal-Maine & more",
+          "url": "https://cnbc.com/2026/11/18/stocks-moving-the-most-today-live-updates.html",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Critical Java Vulnerability Requires Immediate Patching",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "Palo Alto leads cyber stocks higher after DHS secretary warns of AI-powered attacks",
+          "url": "https://seekingalpha.com/news/4674237-palo-alto-leads-cyber-stocks-higher-after-dhs-secretary-warns-of-ai-powered-attacks",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "UnitedHealth, Crowdstrike among market cap stock movers on Wednesday",
+          "url": "https://in.investing.com/news/stock-market-news/unitedhealth-crowdstrike-among-market-cap-stock-movers-on-wednesday-93CH-5713360",
+          "date": "2026-11-18"
+        },
         {
           "title": "Okta Stock Climbs As AI Alliance And Targets Rise",
           "url": "https://stockstotrade.com/news/okta-inc-okta-news-2026_09_23/",
@@ -1883,8 +1947,8 @@
           "date": "2026-11-02"
         }
       ],
-      "verdict": "mixed",
-      "last_updated": "2026-11-02"
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
     },
     "DKS": {
       "narrative": "Dick's Sporting Goods rose 8.3% on Sept 22, a real rebound after shares had plunged roughly 29-31% in August when management slashed 2026 non-GAAP EPS guidance to $11-$12 (from $13.50-$14.50) on footwear-category margin pressure. Multiple banks (JPMorgan, BofA, Wells Fargo, UBS, BTIG, Baird) lowered price targets after that cut but mostly kept Buy/Overweight ratings, and analysts are now explicitly calling the prior selloff overdone as the company shifts toward stronger in-house brands with a better back-half launch calendar. A dated, analyst-driven oversold bounce rather than fresh negative-turned-positive news.",
@@ -2457,7 +2521,7 @@
       "verdict": "mixed"
     },
     "RGEN": {
-      "narrative": "Repligen fell alongside the broader life-sciences-tools/healthcare complex on Oct 1. No distinct company-specific catalyst turned up despite a genuine search attempt - this reads as broad healthcare-sector weakness (the Health Care Select Sector SPDR ETF, XLV, fell 1.3% on Oct 1) compounding the same investor caution around biopharma/life-sciences capital spending visible in Danaher's CEO-transition selloff (see DHR entry) rather than a name-specific event.",
+      "narrative": "UPDATE (11/18/26): Repligen rose 6.5% to $172.67, roughly flat over five sessions. MarketBeat's same-day write-up names no catalyst, and the latest company news (Oct 27 earnings and a $1B convertible-note deal around Nov 6) predates the move; no life-science-tools sector catalyst turned up either. No clean catalyst found. Prior framing: Repligen fell alongside the broader life-sciences-tools/healthcare complex on Oct 1. No distinct company-specific catalyst turned up despite a genuine search attempt - this reads as broad healthcare-sector weakness (the Health Care Select Sector SPDR ETF, XLV, fell 1.3% on Oct 1) compounding the same investor caution around biopharma/life-sciences capital spending visible in Danaher's CEO-transition selloff (see DHR entry) rather than a name-specific event.",
       "citations": [
         {
           "title": "Materials and Healthcare Lead Thursday Sector Declines as XLB and XLV Slip",
@@ -2465,7 +2529,8 @@
           "date": "2026-10-01"
         }
       ],
-      "verdict": "mixed"
+      "verdict": "no clean catalyst",
+      "last_updated": "2026-11-18"
     },
     "BIO": {
       "narrative": "Bio-Rad Laboratories fell alongside the broader life-sciences-tools/healthcare complex on Oct 1. No distinct company-specific catalyst turned up despite a genuine search attempt - this reads as broad healthcare-sector weakness (the Health Care Select Sector SPDR ETF, XLV, fell 1.3% on Oct 1) compounding the same investor caution around biopharma/life-sciences capital spending visible in Danaher's CEO-transition selloff (see DHR entry) rather than a name-specific event.",
@@ -2523,8 +2588,18 @@
       "verdict": "mixed"
     },
     "MOH": {
-      "narrative": "Molina Healthcare fell 4.36%, consistent with a broader healthcare-sector pullback on Oct 1 (XLV -1.3%) layered on top of an already-known, longer-running worry: medical-cost trend and ACA/Obamacare-subsidy uncertainty that has pressured managed-care names for much of 2026. No distinct new Oct 1 headline found specific to Molina beyond that broader, already-known overhang.",
+      "narrative": "UPDATE (11/18/26): Molina Healthcare fell 6.6% to $206.60 on about 1.4x average volume. CMS on Nov 18 proposed the CRUSH anti-fraud rule (expanded Medicare Advantage audits, recovery of improper payments, more scrutiny of Medicaid insurer payments; CMS estimates ~$90B savings over 10 years), extending a managed-care selloff that began Nov 17. The added Medicaid payment scrutiny bears directly on Molina, a Medicaid-heavy insurer; it had already fallen 5.1% on Nov 17. No Molina-specific news found. Prior framing: Molina Healthcare fell 4.36%, consistent with a broader healthcare-sector pullback on Oct 1 (XLV -1.3%) layered on top of an already-known, longer-running worry: medical-cost trend and ACA/Obamacare-subsidy uncertainty that has pressured managed-care names for much of 2026. No distinct new Oct 1 headline found specific to Molina beyond that broader, already-known overhang.",
       "citations": [
+        {
+          "title": "Health insurers extend decline on proposed new rule to curb fraud",
+          "url": "https://rallies.ai/news/health-insurers-extend-decline-on-proposed-new-rule-to-curb-fraud-73c041727c3585ed",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Why Is UnitedHealth Stock Falling?",
+          "url": "https://www.trefis.com/stock/unh/articles/626290/why-is-unitedhealth-stock-falling/2026-11-18",
+          "date": "2026-11-18"
+        },
         {
           "title": "Molina Healthcare stock falls as medical costs spike, Obamacare worries mount",
           "url": "https://finance.yahoo.com/news/molina-healthcare-stock-falls-as-medical-costs-spike-obamacare-worries-mount-171521043.html",
@@ -2536,7 +2611,8 @@
           "date": "2026-10-01"
         }
       ],
-      "verdict": "mixed"
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
     },
     "MKC": {
       "narrative": "No clean, dated, company-specific catalyst found for McCormick & Company's move in an earlier pull despite a genuine search attempt - general market/sector-beta read on an otherwise quiet trading day (the S&P 500 added just 0.19%, Dow +0.04%, Nasdaq +0.04% on Oct 1) rather than a forced narrative.",
@@ -3165,8 +3241,28 @@
       "last_updated": "2026-10-24"
     },
     "CRWD": {
-      "narrative": "CrowdStrike rose 8.25% to $257.57 on Oct 23 after Evercore ISI's quarterly channel-partner survey described a firming cybersecurity budget outlook into year-end and named CrowdStrike and Palo Alto as the leading beneficiaries of AI-driven security spend (identity, AI governance and cloud security ranked top priorities). Evercore also cited the PHP2Shell vulnerabilities disclosed Oct 21 as adding urgency, and Mizuho raised its target to $275 from $250. A sector move (Okta +5.8%, Datadog +4.6%, PANW +7.2%) on a day the S&P fell 0.5%; the caveat is that a partner survey measures sentiment, not booked deals.",
+      "narrative": "UPDATE (11/18/26): CrowdStrike rose 7.9% to $237.03 as part of a broad Nov 18 cybersecurity rally (CNBC had BUG, the cyber ETF, up 6% intraday). The sector bid followed CISA's Nov 17 alert urging immediate patching of 'Java4Shell', an AI-discovered Java remote-code-execution flaw, and DHS Secretary Markwayne Mullin's Nov 18 House testimony on AI-powered attacks on US infrastructure, with peer Palo Alto Networks reporting after the close. No CrowdStrike-specific news was found. Prior framing: CrowdStrike rose 8.25% to $257.57 on Oct 23 after Evercore ISI's quarterly channel-partner survey described a firming cybersecurity budget outlook into year-end and named CrowdStrike and Palo Alto as the leading beneficiaries of AI-driven security spend (identity, AI governance and cloud security ranked top priorities). Evercore also cited the PHP2Shell vulnerabilities disclosed Oct 21 as adding urgency, and Mizuho raised its target to $275 from $250. A sector move (Okta +5.8%, Datadog +4.6%, PANW +7.2%) on a day the S&P fell 0.5%; the caveat is that a partner survey measures sentiment, not booked deals.",
       "citations": [
+        {
+          "title": "Stocks making the biggest moves Wednesday: ExxonMobil, TJX, Take-Two Interactive, Cal-Maine & more",
+          "url": "https://cnbc.com/2026/11/18/stocks-moving-the-most-today-live-updates.html",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Critical Java Vulnerability Requires Immediate Patching",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "Palo Alto leads cyber stocks higher after DHS secretary warns of AI-powered attacks",
+          "url": "https://seekingalpha.com/news/4674237-palo-alto-leads-cyber-stocks-higher-after-dhs-secretary-warns-of-ai-powered-attacks",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "UnitedHealth, Crowdstrike among market cap stock movers on Wednesday",
+          "url": "https://in.investing.com/news/stock-market-news/unitedhealth-crowdstrike-among-market-cap-stock-movers-on-wednesday-93CH-5713360",
+          "date": "2026-11-18"
+        },
         {
           "title": "CrowdStrike, Palo Alto Rally as Evercore Sees Firmer Budgets",
           "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-palo-alto-rally-evercore-182853152.html",
@@ -3179,11 +3275,31 @@
         }
       ],
       "verdict": "aligned",
-      "last_updated": "2026-10-24"
+      "last_updated": "2026-11-18"
     },
     "PANW": {
-      "narrative": "Palo Alto Networks rose 7.2% to $380.55 on Oct 23 on the same Evercore ISI channel-partner survey that lifted CrowdStrike: partners reported a firming security-budget outlook into year-end and named PANW and CRWD as top beneficiaries of AI-driven security spending, with the newly disclosed PHP2Shell flaws cited as an added driver. Sector-wide move (Okta, Datadog, SailPoint also up) on a down day for the S&P 500; no PANW-specific news found.",
+      "narrative": "UPDATE (11/18/26): Palo Alto Networks rose 9.9% to $339.92 on about 2x average volume, leading a sector-wide cybersecurity rally on Nov 18 ahead of its after-the-close earnings. Intraday drivers were CISA's Nov 17 alert urging immediate patching of the AI-discovered 'Java4Shell' Java flaw and DHS Secretary Markwayne Mullin's House testimony on AI-powered and Iran-linked attacks on US infrastructure. After the bell (4:05pm ET) PANW reported fiscal Q1 2027 revenue up 39% to $3.44B, Next-Gen Security ARR up 66% to $9.73B and non-GAAP EPS of $1.05 (above its $0.96-$0.98 guide), raised FY27 guidance to $14.52B-$14.57B revenue and $4.26-$4.30 EPS, and announced a deal to acquire Applied Compute. The regular-session move came before those results. Prior framing: Palo Alto Networks rose 7.2% to $380.55 on Oct 23 on the same Evercore ISI channel-partner survey that lifted CrowdStrike: partners reported a firming security-budget outlook into year-end and named PANW and CRWD as top beneficiaries of AI-driven security spending, with the newly disclosed PHP2Shell flaws cited as an added driver. Sector-wide move (Okta, Datadog, SailPoint also up) on a down day for the S&P 500; no PANW-specific news found.",
       "citations": [
+        {
+          "title": "Palo Alto leads cyber stocks higher after DHS secretary warns of AI-powered attacks",
+          "url": "https://seekingalpha.com/news/4674237-palo-alto-leads-cyber-stocks-higher-after-dhs-secretary-warns-of-ai-powered-attacks",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Cybersecurity Stocks Surge as U.S. Warns of AI-Powered Attacks",
+          "url": "https://www.tipranks.com/news/cybersecurity-stocks-surge-as-u-s-warns-of-ai-powered-attacks",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Critical Java Vulnerability Requires Immediate Patching",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "Palo Alto Networks Reports Fiscal First Quarter 2027 Financial Results",
+          "url": "https://www.prnewswire.com/news-releases/palo-alto-networks-reports-fiscal-first-quarter-2027-financial-results-302944393.html",
+          "date": "2026-11-18"
+        },
         {
           "title": "CrowdStrike, Palo Alto Rally as Evercore Sees Firmer Budgets",
           "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-palo-alto-rally-evercore-182853152.html",
@@ -3196,7 +3312,7 @@
         }
       ],
       "verdict": "aligned",
-      "last_updated": "2026-10-24"
+      "last_updated": "2026-11-18"
     },
     "RITM": {
       "narrative": "Rithm Capital rose 8.2% on Oct 23 (2.7x volume) after Q3 results that morning: earnings available for distribution of $0.55/share beat the ~$0.50 consensus, GAAP EPS $0.38, revenue $1.76B, and the $0.25 quarterly dividend held (~10.7% yield at Thursday's ~$8.70). Newrez posted a 24% operating ROE and asset management AUM is ~$61B. The offset is mortgage origination: funded volume fell 19% sequentially and management guided to ~25% lower from September to October. Company-specific beat off a stock trading near the bottom of its $8.31-$12.15 12-month range.",
@@ -4229,6 +4345,457 @@
       ],
       "verdict": "aligned",
       "last_updated": "2026-11-02"
+    },
+    "MFP": {
+      "narrative": "Midera Food Processing jumped 13.9% to $48.28 (from a $42.37 prior close) on nearly 2x average volume, reacting to its first quarterly report as a standalone company (released Nov 17). Q3 net sales rose 13.1% to $228.9M (organic +11.5%) against roughly $219.6M expected, adjusted EPS of $0.54 beat the $0.51 consensus, and adjusted EBITDA rose 44.9% to $42.9M. Management raised 2026 sales guidance to $953M-$973M from $935M-$965M and lifted adjusted EBITDA guidance to $168M-$178M; Baird raised its target to $43 from $40 (neutral) on Nov 18.",
+      "citations": [
+        {
+          "title": "Midera Food Processing Reports Third Quarter 2026 Results",
+          "url": "https://www.globenewswire.com/news-release/2026/11/17/3404454/0/en/midera-food-processing-reports-third-quarter-2026-results.html",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "Midera Food Processing (NASDAQ:MFP) Stock Price Up 7.1% on Better-Than-Expected Earnings",
+          "url": "https://www.marketbeat.com/instant-alerts/price-midera-food-processing-nasdaq-mfp-stock-price-up-71-on-better-than-expected-earnings-2026-11-18/",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "ATEN": {
+      "narrative": "A10 Networks rose 10.5% to $32.36 on about 1.4x average volume, moving with the Nov 18 cybersecurity/network-security rally driven by CISA's Nov 17 'Java4Shell' patch alert and DHS Secretary Mullin's testimony on AI-powered attacks. No A10-specific headline was found for the day; the stock has been recovering since its Nov 5 Q3 report (it closed near $22.60 that day), up 12.6% over five sessions. The fit to the sector catalyst is plausible but indirect.",
+      "citations": [
+        {
+          "title": "Critical Java Vulnerability Requires Immediate Patching",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "Palo Alto leads cyber stocks higher after DHS secretary warns of AI-powered attacks",
+          "url": "https://seekingalpha.com/news/4674237-palo-alto-leads-cyber-stocks-higher-after-dhs-secretary-warns-of-ai-powered-attacks",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-11-18"
+    },
+    "WRBY": {
+      "narrative": "Warby Parker rose 8.8% to $28.20 on about 1.5x average volume, rebounding from a 6.5% five-day slide on a day when consumer discretionary stocks rallied after TJX's results. No company-specific catalyst was found: MarketBeat's same-day items note only call buying (about 8,900 contracts, roughly 50% above normal) and no rating change; the Google-powered smart-glasses pre-orders that began Nov 12 are not new. No clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst",
+      "last_updated": "2026-11-18"
+    },
+    "TJX": {
+      "narrative": "TJX rose 8.1% to $140.34 on nearly 2x average volume after fiscal Q3 2027 results on Nov 18. Comparable sales grew 4% vs. a 2.9% FactSet estimate, revenue of $15.95B topped the $15.82B consensus, and adjusted EPS was $1.34 (in line). TJX raised FY27 sales guidance to $63.8B-$64.0B, comp guidance to 4% (from 3%-4%) and adjusted EPS to $5.17-$5.20 (from $5.15-$5.20), though Q4 guidance was softer than consensus and the stock remains well below its $170 June high.",
+      "citations": [
+        {
+          "title": "TJX Companies Q3 FY27 earnings press release (Form 8-K Ex. 99)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000109198/000010919826000058/tjxq3fy27earningspressrele.htm",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Off-price retailer TJX keeps its promise and the stock soars. We're satisfied, for now",
+          "url": "https://www.cnbc.com/investingclub/2026/11/18/off-price-retailer-tjx-keeps-its-promise-and-the-stock-soars-were-satisfied-for-now.html",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Stocks making the biggest moves Wednesday: ExxonMobil, TJX, Take-Two Interactive, Cal-Maine & more",
+          "url": "https://cnbc.com/2026/11/18/stocks-moving-the-most-today-live-updates.html",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "CALM": {
+      "narrative": "Cal-Maine rose 8.0% to $70.43 even though it said on Nov 18 it will cull about 1.8M birds (1.4M laying hens and 360,000 pullets, 2.7% of its flock) and halt production at a Florida facility after avian flu was detected. Shares dipped about 1.9% premarket, then reversed higher, apparently as investors priced tighter egg supply and higher prices over the modest lost capacity; none of the coverage states the reason outright. The move runs against the headline news.",
+      "citations": [
+        {
+          "title": "Cal-Maine to Cull 1.8 Million Birds, Halt Production at Florida Facility After Bird Flu Detected",
+          "url": "https://www.usnews.com/news/us/articles/2026-11-18/cal-maine-to-cull-1-8-million-birds-halt-production-at-florida-facility-after-bird-flu-detected",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Cal-Maine Foods Shares Jump 7% Despite Bird Flu Outbreak At Florida Facility",
+          "url": "https://www.rttnews.com/3715984/cal-maine-foods-shares-jump-7-despite-bird-flu-outbreak-at-florida-facility.aspx",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Stocks making the biggest moves Wednesday: ExxonMobil, TJX, Take-Two Interactive, Cal-Maine & more",
+          "url": "https://cnbc.com/2026/11/18/stocks-moving-the-most-today-live-updates.html",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "counter",
+      "last_updated": "2026-11-18"
+    },
+    "PRGO": {
+      "narrative": "Perrigo rose 7.7% to $16.97, touching a 52-week high of $17.03 on below-average volume. Same-day coverage (Investing.com's 52-week-high note) names no specific catalyst, and its Q3 2026 report (EPS beat, revenue miss) predates the move. No clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst",
+      "last_updated": "2026-11-18"
+    },
+    "SGI": {
+      "narrative": "Somnigroup rose 7.3% to $62.41, bouncing off a 52-week low set on Nov 16-17 (close of $59.85 on Nov 17) after its Nov 9 Q3 miss and cut to 2026 EPS guidance ($2.85-$2.95). The bounce came on a day when consumer discretionary stocks rallied after TJX's results, but no Somnigroup-specific news was found for Nov 18. No clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst",
+      "last_updated": "2026-11-18"
+    },
+    "CAKE": {
+      "narrative": "Cheesecake Factory rose 7.2% to $120.05 on about 1.8x average volume, an all-time high, and is up 9.5% over five sessions. Same-day coverage of the record notes only the late-October Q3 beat (core comps +15.2%, adjusted EPS $1.02 vs. $0.91) and names no new Nov 18 catalyst; the move coincided with a broad consumer discretionary rally after TJX's results. No clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst",
+      "last_updated": "2026-11-18"
+    },
+    "PVH": {
+      "narrative": "PVH rose 6.5% to $97.87 in a sector-wide apparel rally on Nov 18, the day TJX beat on comps (4% vs. 2.9% expected) and raised its full-year outlook. AlphaStreet's same-day write-up says no single headline or earnings report drove PVH's move, so this reads as sympathy buying; PVH itself next reports around Dec 2.",
+      "citations": [
+        {
+          "title": "Pvh Jumps 6.1% Amid Sector-Wide Rally",
+          "url": "https://news.alphastreet.com/pvh-jumps-6-1-amid-sector-wide-rally/",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Off-price retailer TJX keeps its promise and the stock soars. We're satisfied, for now",
+          "url": "https://www.cnbc.com/investingclub/2026/11/18/off-price-retailer-tjx-keeps-its-promise-and-the-stock-soars-were-satisfied-for-now.html",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-11-18"
+    },
+    "CVI": {
+      "narrative": "CVR Energy fell 11.2% to $33.76 on above-average volume (1.66M vs 1.48M), the worst of the refiners and down 16.9% over five days. Refiners fell together on Nov 18 (CVI, DINO, PARR, PBF all down 7%+). The only dated same-day driver found is the EIA weekly report released Nov 18, which showed a 5.2M-barrel gasoline build (vs 1.6M expected) and a 1.6M-barrel distillate build, with oil futures extending losses afterward; no report found directly attributing the refiner selloff to it, and no company-specific news found. CVI's drop was roughly double that of some peers, with no CVI-specific headline found to explain the extra weakness.",
+      "citations": [
+        {
+          "title": "US crude stocks, gasoline and distillate inventories rise, EIA says",
+          "url": "https://boereport.com/2026/11/18/us-crude-stocks-gasoline-and-distillate-inventories-rise-eia-says/",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-11-18"
+    },
+    "ACIW": {
+      "narrative": "ACI Worldwide fell 10.2% to $52.89 on 2.2x average volume after announcing on Nov 18 that CEO Thomas Warsop is leaving to become CEO of a public company in another industry. CFO Robert Leibrock was named interim president and CEO effective Nov 18 while remaining CFO; Warsop stays through Dec 18 for the transition. Shares gapped down from a $58.93 prior close to a $54.89 open and kept sliding.",
+      "citations": [
+        {
+          "title": "Why ACI Worldwide stock is nosediving",
+          "url": "https://stockstory.org/us/stocks/nasdaq/aciw/news/why-up-down/why-aci-worldwide-stock-is-nosediving",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "ACI Worldwide (NASDAQ:ACIW) Shares Gap Down - What's Next?",
+          "url": "https://www.marketbeat.com/instant-alerts/price-aci-worldwide-nasdaq-aciw-shares-gap-down-whats-next-2026-11-18/",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "UNH": {
+      "narrative": "UnitedHealth fell 10.2% to $349.90 on 2.7x average volume and was a major drag on the Dow (-1.3%). CMS on Nov 18 proposed the CRUSH anti-fraud rule (expanded Medicare Advantage audits, recovery of improper payments, more scrutiny of Medicaid insurer payments; CMS estimates ~$90B savings over 10 years), extending a managed-care selloff that began Nov 17. UNH had already dropped 5.4% to $389.68 on Nov 17 with no company announcement; Oppenheimer called the selloff, tied to the rule and renewed Medicare-for-All talk, an overreaction given likely legal challenges.",
+      "citations": [
+        {
+          "title": "UnitedHealth and other insurance stocks drag down the Dow after CMS proposes new anti-fraud rule",
+          "url": "https://finance.yahoo.com/healthcare/article/unitedhealth-and-other-insurance-stocks-drag-down-the-dow-after-cms-proposes-new-anti-fraud-rule-173851810.html",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Health insurers extend decline on proposed new rule to curb fraud",
+          "url": "https://rallies.ai/news/health-insurers-extend-decline-on-proposed-new-rule-to-curb-fraud-73c041727c3585ed",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Why Is UnitedHealth Stock Falling?",
+          "url": "https://www.trefis.com/stock/unh/articles/626290/why-is-unitedhealth-stock-falling/2026-11-18",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "FCX": {
+      "narrative": "Freeport-McMoRan fell 7.8% to about $51.00, down 17.9% over five days. LME copper fell 3.5% to $12,770/t on Nov 18, its fifth straight decline and lowest since April 13, on a near-19-month-high dollar, Fed hike expectations, AI-capex doubts and weak China data. Erste Group also cut FCX to Hold from Buy the same day, citing lower near-term Grasberg output during its ramp-up; peers Southern Copper and Teck fell 6-7%.",
+      "citations": [
+        {
+          "title": "Why is Freeport-McMoRan stock sliding today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-freeportmcmoran-stock-sliding-today-93CH-5036555",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Copper stocks fall as LME prices plunge to seven-month low",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/copper-stocks-fall-lme-prices-160100723.html",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "ELV": {
+      "narrative": "Elevance Health fell 7.6% to $401.02 as part of the Nov 18 managed-care selloff. CMS on Nov 18 proposed the CRUSH anti-fraud rule (expanded Medicare Advantage audits, recovery of improper payments, more scrutiny of Medicaid insurer payments; CMS estimates ~$90B savings over 10 years), extending a managed-care selloff that began Nov 17. Elevance has a large Medicare Advantage and Medicaid book; no Elevance-specific news found.",
+      "citations": [
+        {
+          "title": "Health insurers extend decline on proposed new rule to curb fraud",
+          "url": "https://rallies.ai/news/health-insurers-extend-decline-on-proposed-new-rule-to-curb-fraud-73c041727c3585ed",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "UnitedHealth and other insurance stocks drag down the Dow after CMS proposes new anti-fraud rule",
+          "url": "https://finance.yahoo.com/healthcare/article/unitedhealth-and-other-insurance-stocks-drag-down-the-dow-after-cms-proposes-new-anti-fraud-rule-173851810.html",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "DINO": {
+      "narrative": "HF Sinclair fell 7.2% to $90.64, down 10.9% over five days. Refiners fell together on Nov 18 (CVI, DINO, PARR, PBF all down 7%+). The only dated same-day driver found is the EIA weekly report released Nov 18, which showed a 5.2M-barrel gasoline build (vs 1.6M expected) and a 1.6M-barrel distillate build, with oil futures extending losses afterward; no report found directly attributing the refiner selloff to it, and no company-specific news found.",
+      "citations": [
+        {
+          "title": "US crude stocks, gasoline and distillate inventories rise, EIA says",
+          "url": "https://boereport.com/2026/11/18/us-crude-stocks-gasoline-and-distillate-inventories-rise-eia-says/",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-11-18"
+    },
+    "PARR": {
+      "narrative": "Par Pacific fell 7.2% to $65.31, down 8.2% over five days. Refiners fell together on Nov 18 (CVI, DINO, PARR, PBF all down 7%+). The only dated same-day driver found is the EIA weekly report released Nov 18, which showed a 5.2M-barrel gasoline build (vs 1.6M expected) and a 1.6M-barrel distillate build, with oil futures extending losses afterward; no report found directly attributing the refiner selloff to it, and no company-specific news found.",
+      "citations": [
+        {
+          "title": "US crude stocks, gasoline and distillate inventories rise, EIA says",
+          "url": "https://boereport.com/2026/11/18/us-crude-stocks-gasoline-and-distillate-inventories-rise-eia-says/",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-11-18"
+    },
+    "CDE": {
+      "narrative": "Coeur Mining fell 7.0% to $12.25 and is down 18.5% over five days, tracking precious metals. Gold and silver hit 14-month lows on Nov 18: the London 3pm gold fix was below $3,768 (down about $90 from the prior day), and silver fell toward $45, down as much as 7.5% for the week. The drivers were Fed hike bets, including Governor Waller calling for a 50bp December hike, a firm dollar and 10-year yields above 5%. The move is sector-driven; no Coeur-specific news found.",
+      "citations": [
+        {
+          "title": "Gold and Silver 'Can't Find a Floor' as Waller Calls for Fed Rate Hike",
+          "url": "https://www.bullionvault.com/gold-news/gold-price-news/gold-silver-floor-fed-rates-111820261",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Gold Falls Below $3,800 as Federal Reserve Rate Hike Expectations Pressure Precious Metals",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-below-3-800-102601874.html",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "HL": {
+      "narrative": "Hecla Mining fell 6.7% to $11.67 and is down 17.4% over five days, as silver dropped toward $45 (a 14-month low) and gold broke below $3,800 on Nov 18. The drivers were Fed hike bets (Governor Waller called for a 50bp December hike), a firm dollar and 10-year yields above 5%. The move is sector-driven; no Hecla-specific news found.",
+      "citations": [
+        {
+          "title": "Gold and Silver 'Can't Find a Floor' as Waller Calls for Fed Rate Hike",
+          "url": "https://www.bullionvault.com/gold-news/gold-price-news/gold-silver-floor-fed-rates-111820261",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Gold Falls Below $3,800 as Federal Reserve Rate Hike Expectations Pressure Precious Metals",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-below-3-800-102601874.html",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "DVA": {
+      "narrative": "DaVita fell 6.5% to $161.75 on above-average volume and is down 11.9% over five days. The drop came on the same day as the managed-care selloff over CMS's proposed anti-fraud rule, but no dated report found ties DaVita to that rule or gives any other Nov 18 catalyst. No clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst",
+      "last_updated": "2026-11-18"
+    },
+    "HUM": {
+      "narrative": "Humana fell 6.4% to $415.14 in the Nov 18 managed-care selloff; intraday reports showed much deeper losses (8% to 11%). CMS on Nov 18 proposed the CRUSH anti-fraud rule (expanded Medicare Advantage audits, recovery of improper payments, more scrutiny of Medicaid insurer payments; CMS estimates ~$90B savings over 10 years), extending a managed-care selloff that began Nov 17. As one of the most Medicare Advantage-concentrated insurers, Humana is directly exposed to the expanded MA audits. No Humana-specific news found.",
+      "citations": [
+        {
+          "title": "UnitedHealth and other insurance stocks drag down the Dow after CMS proposes new anti-fraud rule",
+          "url": "https://finance.yahoo.com/healthcare/article/unitedhealth-and-other-insurance-stocks-drag-down-the-dow-after-cms-proposes-new-anti-fraud-rule-173851810.html",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Health insurers extend decline on proposed new rule to curb fraud",
+          "url": "https://rallies.ai/news/health-insurers-extend-decline-on-proposed-new-rule-to-curb-fraud-73c041727c3585ed",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "NEM": {
+      "narrative": "Newmont fell 6.1% to $104.53 and is down 11.8% over five days. Spot gold fell as much as 2.4% to about $3,756 on Nov 18, below $3,800 for the first time in 14 months, as Fed officials, including Governor Waller (who called for a 50bp December hike), reinforced hike expectations, the dollar firmed and 10-year yields stayed above 5%. The move is sector-driven; no Newmont-specific news found.",
+      "citations": [
+        {
+          "title": "Gold and Silver 'Can't Find a Floor' as Waller Calls for Fed Rate Hike",
+          "url": "https://www.bullionvault.com/gold-news/gold-price-news/gold-silver-floor-fed-rates-111820261",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Gold Falls Below $3,800 as Federal Reserve Rate Hike Expectations Pressure Precious Metals",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-below-3-800-102601874.html",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "PEGA": {
+      "narrative": "Pegasystems fell 5.8% to $28.86, extending a 5.2% drop on Nov 17, and is down 8.1% over five days. At the RBC tech conference on Nov 18, CFO Ken Stillwell described three straight quarters of 2026 pressure (macro, AI-budget distraction, sales-execution gaps) and an ongoing sales reorganization. He called the Q4 pipeline the strongest ever but was cautious on conversion in a 'not normal' environment, and said 10% growth is needed to hit the $700M 2028 free-cash-flow target. No report found directly attributing the move to the remarks.",
+      "citations": [
+        {
+          "title": "Pegasystems at RBC conference: AI push meets sales reset",
+          "url": "https://www.investing.com/news/transcripts/pegasystems-at-rbc-conference-ai-push-meets-sales-reset-93CH-5036588",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-11-18"
+    },
+    "AES": {
+      "narrative": "AES traded about 96.2M shares, roughly 9.4x its 3-month average, while the price barely moved (+0.3% to $15.01, at the $15.00 cash deal price). After the close on Nov 17, AES said FERC had issued the final suspensory regulatory approval for its take-private by the Global Infrastructure Partners (BlackRock) / EQT-led consortium, with closing now expected Dec 2, 2026; after closing, AES stops trading on the NYSE. With the last approval in hand, the heavy volume reads as merger-arbitrage and index/passive holders repositioning ahead of a fixed delisting date, not a view on the business. Price upside is capped at the $15.00 cash consideration.",
+      "citations": [
+        {
+          "title": "AES Receives Final Regulatory Approval for Acquisition by Consortium Led by Global Infrastructure Partners and EQT; Closing Expected December 2, 2026",
+          "url": "https://www.prnewswire.com/news-releases/aes-receives-final-regulatory-approval-for-acquisition-by-consortium-led-by-global-infrastructure-partners-and-eqt-closing-expected-december-2-2026-302942908.html",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "AES wins final FERC approval for its $33 billion buyout by GIP and EQT, with closing set for Dec 2",
+          "url": "https://mlq.ai/news/aes-wins-final-ferc-approval-for-its-33-billion-buyout-by-gip-and-eqt-with-closing-set-for-dec-2/",
+          "date": "2026-11-17"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "TTWO": {
+      "narrative": "Take-Two rose 6.2% to $216.61 on about 3.7x average volume after the first Grand Theft Auto VI reviews landed on Nov 18, the eve of the Nov 19 global launch. Forbes reports a Metacritic score of 99, matching the all-time record, and Sensor Tower pre-order estimates of roughly 16M units and about $1.54B. The bounce recovers part of the pre-launch slide (still -6.4% over five days). It follows the Nov 9 fiscal Q2 report, where net bookings of $1.6B came in below guidance but the company held its annual forecast and the stock rose 8.3% on Nov 10. Launch-week sales disclosures are the next test.",
+      "citations": [
+        {
+          "title": "Grand Theft Auto 6 Launches To Rave Reviews - Publisher Take-Two Shares Up 6%",
+          "url": "https://www.forbes.com/sites/siladityaray/2026/11/18/grand-theft-auto-6-launches-to-rave-reviews-over-15-billion-in-estimated-pre-sales/",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Why Did Take-Two Stock Move?",
+          "url": "https://www.trefis.com/stock/ttwo/articles/624389/why-did-take-two-stock-move/2026-11-11",
+          "date": "2026-11-11"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "SCI": {
+      "narrative": "Service Corp fell 2.2% to $71.87 on about 3.4x average volume while presenting at the Stephens Annual Investment Conference on Nov 18. Management said same-store funeral volumes improved to -0.1% in Q3 (from -6% in Q1), but full-year 2026 guidance is still for -1.5% to -2%, and it expects flat to slightly lower volumes in the near term. It leaned on an approximately $18B pre-need backlog and an 8-12% earnings-growth algorithm that assumes flat volumes. The stock is about 7% above its $68.41 52-week low, after a late-October Q3 EPS miss and 2026 guidance cut.",
+      "citations": [
+        {
+          "title": "Service Corporation International at Stephens conference: backlog offsets soft volumes",
+          "url": "https://investing.com/news/transcripts/service-corporation-international-at-stephens-conference-backlog-offsets-soft-volumes-93CH-5036458",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "TGT": {
+      "narrative": "Target rose 4.0% to $165.96 on about 2.9x average volume after reporting fiscal Q3 before the open on Nov 18. Comparable sales rose 5.6% vs. 3.8% expected, with traffic up 5%. Net sales rose 7.1% to $27.07B vs. $26.56B expected, and EPS was $2.65 vs. $2.07 expected. CNBC calls it the best sales growth in five years. Target raised full-year EPS guidance to $10.65-$11.40 (from $9.90-$10.90) and sales growth to about 6%. Caveat: tariff refunds contribute about 1.1 points of the roughly 6.2% full-year operating margin outlook, so part of the earnings beat is one-time. Shares were up about 7% intraday before fading into the close.",
+      "citations": [
+        {
+          "title": "Target shares rise 7% as retailer posts best sales growth in five years, hikes guidance",
+          "url": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Target reports 7.1% rise in third-quarter sales as comparable sales jump 5.6%",
+          "url": "https://www.proactiveinvestors.com/companies/news/1102021/target-reports-7-1-rise-in-third-quarter-sales-as-comparable-sales-jump-5-6-1102021.html",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "DLB": {
+      "narrative": "Dolby fell 3.4% to $56.83 on about 2.4x average volume (-12.1% over five days) after its fiscal Q4 report on Nov 17 after the close. The quarter beat: revenue was $374M and non-GAAP EPS $1.25, including a one-time $0.04 tax benefit and a $6M negative licensing true-up. But the fiscal 2027 outlook is flat: revenue about $1.42B and non-GAAP EPS about $4.35. Q1 FY27 guidance of $285-305M revenue and $0.41-0.56 non-GAAP EPS is down year over year. Shares fell 5.2% after hours to $55.77 on the flat guide. It was new CEO Marc Whitten's first earnings call since joining in August.",
+      "citations": [
+        {
+          "title": "Dolby Q4 2026 slides: new CEO, revenue mix shift, flat outlook",
+          "url": "https://www.investing.com/news/company-news/dolby-q4-2026-slides-new-ceo-revenue-mix-shift-flat-outlook-93CH-5034320",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "Dolby Laboratories Reports Fourth Quarter and Fiscal Year 2026 Financial Results",
+          "url": "https://investor.dolby.com/news-events/financial-news/news-details/2026/Dolby-Laboratories-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx",
+          "date": "2026-11-17"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "WMG": {
+      "narrative": "Warner Music rose 1.6% to $32.96 on about 2.2x average volume. No company-specific news dated Nov 18 was found. The only dated item is the fiscal Q4 report due before the open on Nov 19. Consensus is EPS of $0.38 (vs. $0.21 a year ago) on roughly flat revenue of about $1.88B, and it is the first full report under an acting CFO. Shares were up about 20% since the last report as of Nov 11. The extra volume is most plausibly pre-earnings positioning, but that is an inference, not a reported catalyst.",
+      "citations": [
+        {
+          "title": "Warner Music's fiscal year-end report tests margin promise as new finance team takes the stage",
+          "url": "https://finviz.com/news/421320/warner-musics-fiscal-year-end-report-tests-margin-promise-as-new-finance-team-takes-the-stage",
+          "date": "2026-11-11"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-11-18"
+    },
+    "MGEE": {
+      "narrative": "MGE Energy rose 2.5% to $80.20 on about 2.1x its (thin) average volume. No dated company news or sector report for Nov 18 was found that explains the move: no clean catalyst found.",
+      "citations": [],
+      "verdict": "no clean catalyst",
+      "last_updated": "2026-11-18"
+    },
+    "WWW": {
+      "narrative": "Wolverine World Wide rose 4.9% to $25.87 on about 2.0x average volume, extending a +18.0% five-day run. No Nov 18-specific news was found; the run follows the Nov 12 Q3 report and raised 2026 guidance, which sent shares up about 8.8% on Nov 13 to a new 52-week high. Kalkine notes that about $0.31 of the quarter's adjusted EPS came from one-time tariff refunds. Baird raised its target to $27 from $26 (Outperform). Today's move reads as post-earnings momentum rather than a fresh catalyst.",
+      "citations": [
+        {
+          "title": "Wolverine World Wide Inc (WWW) Stock Up 8.8% but GF Value Says Overvalued",
+          "url": "https://www.gurufocus.com/news/9199016/wolverine-world-wide-inc-www-stock-up-88-but-gf-value-says-overvalued-gf-score-73100",
+          "date": "2026-11-13"
+        },
+        {
+          "title": "Wolverine World Wide (NYSE:WWW) Stock Price Expected to Rise, Robert W. Baird Analyst Says",
+          "url": "https://www.defenseworld.net/2026/11/15/wolverine-world-wide-nysewww-stock-price-expected-to-rise-robert-w-baird-analyst-says.html",
+          "date": "2026-11-15"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-11-18"
+    },
+    "NVDA": {
+      "narrative": "Nvidia fell 2.9% to $150.96 on about 2.0x average volume (-13.1% over five days), erasing an after-hours gain from its Nov 17 fiscal Q3 report. Revenue was $115.8B (+103% y/y) vs. about $109.1B expected, and Data Center was $107.6B. Non-GAAP EPS was $2.68, and Q4 guidance is $130B +/-3% vs. about $125B consensus. Shares rose about 2.4% after hours to $159.17 but reversed on Wednesday. Board chair Harvey Jones said the board does not intend to reinstate Jensen Huang as CEO. Nvidia said its outlook assumes no data-center compute revenue from China, after a new Commerce Department rule restricting Chinese firms' remote access to advanced compute overseas. The House Energy and Commerce Committee requested a briefing from interim CEO Colette Kress by Dec 2. Summit Insights downgraded the stock to Hold from Buy, citing roadmap uncertainty after Huang's exit, the Commerce rule and custom-ASIC competition in 2027. CoreWeave (-4.1%) and Iren (-3.6%) fell with it. A strong print was outweighed by leadership and policy uncertainty.",
+      "citations": [
+        {
+          "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027 (Form 8-K exhibit)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren",
+          "url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Why Nvidia Stock Is Losing Its Post-Earnings Gains - and Why Another Wall Street Analyst Just Downgraded It",
+          "url": "https://www.tipranks.com/news/why-nvidia-stock-is-losing-its-post-earnings-gains-and-why-another-wall-street-analyst-just-downgraded-it",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
     }
   },
   "recommendations": {
@@ -4545,8 +5112,18 @@
       "verdict": "aligned"
     },
     "PODD": {
-      "thesis": "Two dated items since Oct 1. (1) Oct 12: Jefferies kept Buy but cut its target to $190 from $275, reportedly on competition concerns (Quiver Quant, AI-generated summary citing Investing.com) - consistent with the 2027 tubeless-AID competition risk below; the stock still rose ~3.3% that day. (2) Oct 17: Simply Wall St reports Omnipod Discover is now in full U.S. market release after a pre-launch with 15,000+ Omnipod 5 users and 1,800+ HCPs - the retention tool this value case depends on is live, though it calls the rollout incremental and says the real test is type-2 utilization stabilizing. Next print expected early November. Insulet is down over 60% from its 52-week high after an August 2026 guidance cut, but management's own explanation points to a fixable operational issue rather than collapsing core demand: about two-thirds of the cut traced to weaker type-2 diabetes customer retention and utilization in the first 90 days of therapy, with the remainder from slower new-customer starts and pricing mix - not competitive share loss. The real risk ahead is that tubeless automated-insulin-delivery competitors are expected to enter the market in 2027, which could pressure both share and pricing. Value case depends on retention tools (Omnipod Discover) fixing the 90-day drop-off before competition arrives.",
+      "thesis": "UPDATE (11/18/26): Insulet's Nov 4 Q3 report beat: revenue was $842M (+19.2%), adjusted EPS $1.99 (+59.9%, about 25% above consensus), and 2026 guidance was raised to 21-22% constant-currency growth. But the preliminary 2027 outlook calls for growth modestly below its mid-teens framework, with U.S. growth toward the low end of 9-14%. Management said type-2 retention improved only modestly despite its action plan, while Omnipod Discover passed 35,000 users. The shares have since slid to about $140 from roughly $157 before the report. The value case is intact on margins and buybacks (about $400M planned in Q4), but the retention fix that the case depends on is not yet showing up. Prior framing: Two dated items since Oct 1. (1) Oct 12: Jefferies kept Buy but cut its target to $190 from $275, reportedly on competition concerns (Quiver Quant, AI-generated summary citing Investing.com) - consistent with the 2027 tubeless-AID competition risk below; the stock still rose ~3.3% that day. (2) Oct 17: Simply Wall St reports Omnipod Discover is now in full U.S. market release after a pre-launch with 15,000+ Omnipod 5 users and 1,800+ HCPs - the retention tool this value case depends on is live, though it calls the rollout incremental and says the real test is type-2 utilization stabilizing. Next print expected early November. Insulet is down over 60% from its 52-week high after an August 2026 guidance cut, but management's own explanation points to a fixable operational issue rather than collapsing core demand: about two-thirds of the cut traced to weaker type-2 diabetes customer retention and utilization in the first 90 days of therapy, with the remainder from slower new-customer starts and pricing mix - not competitive share loss. The real risk ahead is that tubeless automated-insulin-delivery competitors are expected to enter the market in 2027, which could pressure both share and pricing. Value case depends on retention tools (Omnipod Discover) fixing the 90-day drop-off before competition arrives.",
       "citations": [
+        {
+          "title": "Insulet Q3 2026 slides: strong beat, but 2027 outlook tempers gains",
+          "url": "https://ca.investing.com/news/stock-market-news/insulet-q3-2026-slides-strong-beat-but-2027-outlook-tempers-gains-93CH-4930639",
+          "date": "2026-11-04"
+        },
+        {
+          "title": "Insulet Reports Third Quarter 2026 Results",
+          "url": "https://investors.insulet.com/news/news-details/2026/Insulet-Reports-Third-Quarter-2026-Results/default.aspx",
+          "date": "2026-11-04"
+        },
         {
           "title": "Insulet (PODD) Is Down 21.9% After Cutting 2026 Revenue Outlook On Weaker Type 2 Retention",
           "url": "https://finance.yahoo.com/healthcare/articles/insulet-podd-down-21-9-011155409.html",
@@ -4569,7 +5146,7 @@
         }
       ],
       "verdict": "mixed",
-      "last_updated": "2026-10-18"
+      "last_updated": "2026-11-18"
     },
     "WOR": {
       "thesis": "Worthington Enterprises' volume spike lines up cleanly with its Q1 FY27 earnings release on Sept 22: net sales rose 13% y/y to $343.9M (7% organic, 6% from acquisitions), net earnings grew 22%, adjusted EBITDA rose 10%, free cash flow nearly doubled to $54.0M, and the company raised its dividend. This is a straightforward earnings-beat momentum move, not speculative flow untethered from fundamentals.",
@@ -4647,15 +5224,26 @@
       "verdict": "mixed"
     },
     "CTVA": {
-      "thesis": "This bounce-candidate flag is a false positive: Corteva's apparent -84% five-day move is a corporate-action artifact from the Oct 1 spin-off of its seed business (SpinCo/\"Vylor\", NYSE: VYLR) - see the CTVA entry in top losers for the full explanation. This is not a real oversold opportunity; the screen simply hasn't adjusted for the spin-off's effect on the historical price series.",
+      "thesis": "UPDATE (11/18/26): The earlier 'spin-off artifact' framing no longer explains the screen. Corteva's -31.2% five-day move to $8.36 comes after the Oct 1 Vylor separation and is a real fundamental drop. On Nov 11 it cut full-year adjusted pro forma operating EBITDA guidance to $1.1-1.125B from roughly $1.3B, and adjusted EPS guidance to $0.76-0.80 vs. a $1.63 analyst estimate. Q3 net sales fell 9% to $1.59B, and Latin America organic sales fell 31% on elevated Brazil channel inventory and pricing pressure. The shares had their steepest one-day drop on record on Nov 12. The CEO said Corteva does not expect meaningful improvement in Brazilian purchasing in the near term. This is a guidance-cut sell-off, not an overreaction, so the bounce flag is not supported. Prior framing: This bounce-candidate flag is a false positive: Corteva's apparent -84% five-day move is a corporate-action artifact from the Oct 1 spin-off of its seed business (SpinCo/\"Vylor\", NYSE: VYLR) - see the CTVA entry in top losers for the full explanation. This is not a real oversold opportunity; the screen simply hasn't adjusted for the spin-off's effect on the historical price series.",
       "citations": [
+        {
+          "title": "Corteva, Inc. - Form 8-K (Third Quarter 2026 results)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001755672/000175567226000031/a3q_2026xearningsxnewsxr.htm",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "Corteva shares plunge as CEO warns Brazil slump will drag on",
+          "url": "https://www.marketscreener.com/news/corteva-shares-plunge-as-ceo-warns-brazil-slump-will-drag-on-ce785ed8d08df22c",
+          "date": "2026-11-12"
+        },
         {
           "title": "Corteva, Inc. - Form 8-K (Vylor separation effective, Oct 1 2026 distribution)",
           "url": "https://www.sec.gov/Archives/edgar/data/0001755672/000119312526401618/d181849dex991.htm",
           "date": "2026-09-24"
         }
       ],
-      "verdict": "counter"
+      "verdict": "counter",
+      "last_updated": "2026-11-18"
     },
     "LQDA": {
       "thesis": "Liquidia's -60.55% five-day move is a genuine, severe legal setback, not an overreaction: a Delaware federal court ruled Sept 30 that Liquidia's YUTREPIA formulation infringes two of United Therapeutics' '327 patent claims (United Therapeutics rose 6.2% on the same ruling). This followed a brief unrelated rally days earlier. The scale of the drop reflects a real threat to Liquidia's lead commercial product, not a technical dislocation - this is not a clean bounce candidate without more clarity on Liquidia's appeal options and whether an injunction follows.",
@@ -4669,8 +5257,23 @@
       "verdict": "counter"
     },
     "FICO": {
-      "thesis": "The partial bounce continued: FICO rose ~10% on Oct 12 (StocksToTrade cites United Wholesale Mortgage saying it will keep using FICO Scores and add FICO 10T, plus dip-buying) and another ~7% on Oct 15 to ~$770 (+15.5% on the week). The FHFA/VantageScore competitive question is still unresolved, and banks cut targets while mostly keeping Buy-type ratings, so this is a sentiment repair, not a settled moat. Fair Isaac's -22.74% five-day move followed a genuine competitive threat (FHFA rule changes opening mortgage scoring to VantageScore, prompting across-the-board price-target cuts from Wells Fargo, Goldman, BMO, Barclays, and BofA) rather than a technical overreaction - see the FICO top-gainer entry for detail on the Oct 1 partial bounce. Whether this is a genuine buying opportunity depends on how much of FICO's mortgage-scoring moat is actually at risk, which remains unsettled even among the banks that cut targets; this is a real, not yet resolved, competitive-threat situation rather than a clean oversold bounce.",
+      "thesis": "UPDATE (11/18/26): Fair Isaac's Nov 4 fiscal Q4 report beat on earnings: non-GAAP EPS was $11.10, Scores revenue rose 33% to $413.8M, and Software rose 19% to $243.2M. But FICO declined to give fiscal 2027 guidance while it negotiates customer-specific 2027 mortgage-score pricing, including a FICO Preferred Program with no wholesale mortgage price increase for 2027. It also booked a $65M proposed litigation-settlement accrual. On Nov 9, RBC downgraded the stock to Sector Perform ($770 target) and Mizuho cut its target to $901 from $986 (Outperform), with shares at $704.55, about 62% below the 52-week high. Pricing power in mortgage scores, the core of the moat question, is now explicitly uncertain. Prior framing: The partial bounce continued: FICO rose ~10% on Oct 12 (StocksToTrade cites United Wholesale Mortgage saying it will keep using FICO Scores and add FICO 10T, plus dip-buying) and another ~7% on Oct 15 to ~$770 (+15.5% on the week). The FHFA/VantageScore competitive question is still unresolved, and banks cut targets while mostly keeping Buy-type ratings, so this is a sentiment repair, not a settled moat. Fair Isaac's -22.74% five-day move followed a genuine competitive threat (FHFA rule changes opening mortgage scoring to VantageScore, prompting across-the-board price-target cuts from Wells Fargo, Goldman, BMO, Barclays, and BofA) rather than a technical overreaction - see the FICO top-gainer entry for detail on the Oct 1 partial bounce. Whether this is a genuine buying opportunity depends on how much of FICO's mortgage-scoring moat is actually at risk, which remains unsettled even among the banks that cut targets; this is a real, not yet resolved, competitive-threat situation rather than a clean oversold bounce.",
       "citations": [
+        {
+          "title": "FICO Q4'26 Earnings Call Highlights Pricing Uncertainty for FY27",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/fico-q426-earnings-call-highlights-153300505.html",
+          "date": "2026-11-05"
+        },
+        {
+          "title": "Fair Isaac Corp - Form 8-K (Q4 fiscal 2026 results)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000814547/000081454726000037/exhibit991erq42026.htm",
+          "date": "2026-11-04"
+        },
+        {
+          "title": "Mizuho cuts Fair Isaac stock price target to $901 on mortgage uncertainty",
+          "url": "https://www.investing.com/news/analyst-ratings/mizuho-cuts-fair-isaac-stock-price-target-to-901-on-mortgage-uncertainty-93CH-5011458",
+          "date": "2026-11-09"
+        },
         {
           "title": "Bank of America Cut Its Fair Isaac Price Target in Half and the Stock Still Fell Below It",
           "url": "https://247wallst.com/investing/2026/10/01/bank-of-america-cut-its-fair-isaac-price-target-in-half-and-the-stock-still-fell-below-it/",
@@ -4688,7 +5291,7 @@
         }
       ],
       "verdict": "mixed",
-      "last_updated": "2026-10-18"
+      "last_updated": "2026-11-18"
     },
     "AIR": {
       "thesis": "AAR Corp's -17.14% five-day decline came despite strong fiscal Q1 FY27 results and raised full-year sales guidance (to \"low teens\" from \"low double digits\") - the market instead reacted to AAR's separately-announced $4.0B acquisition of a 65% controlling stake in MRO Holdings, financed with new debt plus ~$780M of stock to MRO's owners and a ~$230M PIPE raise, pushing net leverage to roughly 3.6x at closing. This reads as a genuine, reasoned market reaction to meaningfully higher leverage and dilution risk on an otherwise fundamentally strong quarter - a real bounce candidate only if the MRO deal's strategic logic and deleveraging path hold up, not a pure overreaction.",
@@ -5323,8 +5926,13 @@
       "last_updated": "2026-11-02"
     },
     "STRL": {
-      "thesis": "Sterling screened as value at 66% below its 52-week high, after the AI/data-center capex sell-off (see the STRL mover entry). Its Oct 28 Q3 report was strong: revenue of $1.56B (+127% y/y) against a $1.19B consensus, adjusted EPS of $7.58 vs. $6.13, and a full-year revenue guidance midpoint raised to $4.68B. The shares still fell 5.6% right after the release and were down 7.0% over five days to $335.45. Free-cash-flow margin dropped to 3.4% from 9.3%, and the stock still trades as an AI-capex proxy. Fundamentals support the value case, but sentiment on the data-center buildout is setting the price.",
+      "thesis": "UPDATE (11/18/26): Since the Oct 28 Q3 report (revenue $1.56B, +127% y/y, guidance midpoint raised to $4.68B), Sterling has fallen further. It dropped 21.5% on Nov 4 in the post-midterm AI data-center sell-off and closed at $275.26 on Nov 17, 35.1% below its Oct 16 close. Trefis (Nov 18) puts it at 15.2x trailing earnings vs. 22.0x for the S&P 500, with $217M cash against $166M debt. The caveat is that Q3 operating cash flow fell to 6.3% of revenue, which management attributes to receivables timing. Cantor cut its target to $565 from $742. The numbers support the value case, but price is still set by data-center policy sentiment. Prior framing: Sterling screened as value at 66% below its 52-week high, after the AI/data-center capex sell-off (see the STRL mover entry). Its Oct 28 Q3 report was strong: revenue of $1.56B (+127% y/y) against a $1.19B consensus, adjusted EPS of $7.58 vs. $6.13, and a full-year revenue guidance midpoint raised to $4.68B. The shares still fell 5.6% right after the release and were down 7.0% over five days to $335.45. Free-cash-flow margin dropped to 3.4% from 9.3%, and the stock still trades as an AI-capex proxy. Fundamentals support the value case, but sentiment on the data-center buildout is setting the price.",
       "citations": [
+        {
+          "title": "Sterling Infrastructure Stock Is Down 35%. Time To Buy?",
+          "url": "https://www.trefis.com/stock/strl/articles/626154/sterling-infrastructure-stock-is-down-35-time-to-buy/2026-11-18",
+          "date": "2026-11-18"
+        },
         {
           "title": "Sterling (NASDAQ:STRL) surprises with strong Q3 2026 but stock drops",
           "url": "https://stockstory.org/us/stocks/nasdaq/strl/news/earnings/sterling-nasdaqstrl-surprises-with-strong-q3-2026-but-stock-drops",
@@ -5332,7 +5940,7 @@
         }
       ],
       "verdict": "mixed",
-      "last_updated": "2026-11-02"
+      "last_updated": "2026-11-18"
     },
     "ALB": {
       "thesis": "Albemarle screened as value at 58% below its 52-week high. No reporting dated after Oct 24 was found that explains its recent drift (-3.1% over five days to $90.56). Earlier drivers were lithium-price volatility and Chile strike risk (see the ALB mover entry). Q3 results are due around Nov 3-4 per earnings-calendar listings and are the next real data point. With no fresh catalyst, the value case rests on lithium pricing, which is not yet settled.",
@@ -5410,9 +6018,170 @@
       ],
       "verdict": "counter",
       "last_updated": "2026-11-02"
+    },
+    "KRMN": {
+      "thesis": "Karman is down 23.5% over five days to $34.20, but most of that gives back the 42.1% jump on Nov 6 that followed its Q3 beat-and-raise. Q3 revenue was $202M vs. $194.8M expected (+65.6% y/y, 25% organic), adjusted EPS was $0.19 vs. about $0.15, and backlog reached $1.7B. 2026 revenue guidance was raised to $755-760M. No new company-specific negative news dated after the report was found to explain the slide. The bounce flag fits the reported fundamentals. The caveat is that the stock is volatile and has faced earlier free-cash-flow and debt questions, including a 10% drop on Nov 4 with no named catalyst.",
+      "citations": [
+        {
+          "title": "Why Did Karman Stock Jump?",
+          "url": "https://www.trefis.com/stock/krmn/articles/623717/why-did-karman-stock-jump/2026-11-09",
+          "date": "2026-11-09"
+        },
+        {
+          "title": "Karman (NYSE:KRMN) Stock Falls 10% - Time to Sell?",
+          "url": "https://www.marketbeat.com/instant-alerts/price-karman-nyse-krmn-stock-falls-10-time-to-sell-2026-11-04/",
+          "date": "2026-11-04"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "NXT": {
+      "thesis": "Nextpower is down 22.1% over five days to $78.41, near the bottom of its $75.41-$163.13 52-week range, and gave back the whole Jefferies 'Franchise Pick' rally of early November. The largest drop came Nov 17, after its Capital Markets Day: a bigger fiscal 2030 growth opportunity was offset by fiscal 2028 margin commentary that effectively lowered near-term profit expectations. BMO cut its target to $108 from $114 but kept Outperform. This is a real reset of near-term earnings expectations, not a pure overreaction, though the balance sheet (over $1B cash, no debt, as of the Oct 28 report) limits downside risk. The bounce case depends on the market reading the reset as overdone.",
+      "citations": [
+        {
+          "title": "Nextpower (NASDAQ:NXT) Stock Falls 6.8% Following Analyst Downgrade",
+          "url": "https://www.marketbeat.com/instant-alerts/price-nextpower-nasdaq-nxt-stock-falls-68-following-analyst-downgrade-2026-11-17/",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "Why Is Nextpower Stock Sinking Tuesday?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63362677/why-is-nextpower-stock-sinking-tuesday",
+          "date": "2026-11-17"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-11-18"
+    },
+    "MRNA": {
+      "thesis": "Moderna is down 20.9% over five days to $196.79, a pullback that began at its Nov 12 Analyst Day. The company outlined cash spending of about $4B a year through 2027, rising to $4-4.5B a year through 2030, vs. $2.1B in 2025. It also deferred formal 2027 revenue guidance to its Q4 call. Moderna's president sold about $11.7M of stock on Nov 15. Even after the drop, the price sits above Morgan Stanley's $200 Equalweight target and well above the $162.84 consensus target, after a large year-to-date rally. The sell-off follows real guidance news rather than an overreaction, so the bounce screen is weakly supported at best.",
+      "citations": [
+        {
+          "title": "Why Moderna Stock Dropped on Thursday",
+          "url": "https://www.fool.com/investing/2026/11/12/why-moderna-stock-dropped-on-thursday/",
+          "date": "2026-11-12"
+        },
+        {
+          "title": "Why is Moderna stock sliding today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-moderna-stock-sliding-today-93CH-5033401",
+          "date": "2026-11-17"
+        }
+      ],
+      "verdict": "counter",
+      "last_updated": "2026-11-18"
+    },
+    "SNDK": {
+      "thesis": "Sandisk is down 20.6% over five days to $776.22 but is still up more than 200% year to date. The trigger was an industry call rather than company results: on Nov 17 GF Securities cut its NAND price forecast and warned of a glut as early as 2027, pulling Micron down as well. The 8-for-1 stock split takes effect later this week. Company fundamentals are still very strong: fiscal Q1 revenue was $11.03B (+378% y/y), adjusted EPS $49.51 vs. $46.27 expected, and Q2 guidance is $12.2-12.6B. This is a cycle-timing debate, so the bounce case rests on whether the oversupply warning proves early.",
+      "citations": [
+        {
+          "title": "SanDisk Slides 4% Ahead of 8-for-1 Stock Split as NAND Glut Worries Linger; Micron Drops 3%, Seagate Edges Lower",
+          "url": "https://247wallst.com/investing/2026/11/18/sandisk-slides-4-ahead-of-8-for-1-stock-split-as-nand-glut-worries-linger-micron-drops-3-seagate-edges-lower/",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-11-18"
+    },
+    "WDC": {
+      "thesis": "Western Digital screens as value at 61% below its 52-week high ($288.19). The latest quarter was strong: EPS $4.64 vs. $4.11 expected, and revenue $4.38B (+55.5% y/y). The de-rating is about sector policy, not results: shares sold off with AI-infrastructure names on Nov 5 after leading Democrats signaled tighter federal oversight and possible caps on new data-center projects, which could delay HDD demand. The stock fell another 5% to $280.93 on Nov 16. The value case holds on reported numbers, but the discount reflects a genuine, unresolved demand-policy risk.",
+      "citations": [
+        {
+          "title": "Why Are Western Digital (WDC) Shares Falling On AI Data Center Policy Risk?",
+          "url": "https://finance.yahoo.com/economy/policy/articles/why-western-digital-wdc-shares-021912081.html",
+          "date": "2026-11-05"
+        },
+        {
+          "title": "Western Digital (NASDAQ:WDC) Stock Falls 5% - Should You Sell?",
+          "url": "https://www.marketbeat.com/instant-alerts/price-western-digital-nasdaq-wdc-stock-falls-5-should-you-sell-2026-11-16/",
+          "date": "2026-11-16"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-11-18"
+    },
+    "MTZ": {
+      "thesis": "MasTec screens as value at 60% below its 52-week high ($174.89), and it now trades at 0.77x trailing sales vs. 2.0x at end of June. Part of the drop is company-specific. Its Oct 30 Q3 report lowered 2026 adjusted EBITDA guidance to $1.56-1.60B because Pipeline projects started about 60 days late on permits, and Communications was also soft. Part is sector-driven: it fell 15.4% on Nov 4 as AI data-center names slid after the midterm results. Backlog hit a record $24.5B, and management says the late starts barely affect project profitability. But at 27.4x trailing earnings, it is not cheap on earnings yet.",
+      "citations": [
+        {
+          "title": "Does The Fall In MasTec Stock Change Anything?",
+          "url": "https://www.trefis.com/stock/mtz/articles/622874/does-the-fall-in-mastec-stock-change-anything/2026-11-05",
+          "date": "2026-11-05"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-11-18"
+    },
+    "AES": {
+      "thesis": "This speculative flag is a false positive. AES's 9.4x volume came with a flat price because the stock is pinned to a $15.00-per-share cash take-private by the GIP/EQT-led consortium. Final FERC approval came Nov 17, and closing is expected Dec 2, 2026, when AES delists from the NYSE. Holders get at most $15.00 per share, with a few cents of merger-arbitrage spread, and no momentum upside. The volume is deal-closing repositioning, not speculative buying.",
+      "citations": [
+        {
+          "title": "AES Receives Final Regulatory Approval for Acquisition by Consortium Led by Global Infrastructure Partners and EQT; Closing Expected December 2, 2026",
+          "url": "https://www.prnewswire.com/news-releases/aes-receives-final-regulatory-approval-for-acquisition-by-consortium-led-by-global-infrastructure-partners-and-eqt-closing-expected-december-2-2026-302942908.html",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "AES wins final FERC approval for its $33 billion buyout by GIP and EQT, with closing set for Dec 2",
+          "url": "https://mlq.ai/news/aes-wins-final-ferc-approval-for-its-33-billion-buyout-by-gip-and-eqt-with-closing-set-for-dec-2/",
+          "date": "2026-11-17"
+        }
+      ],
+      "verdict": "counter",
+      "last_updated": "2026-11-18"
+    },
+    "TTWO": {
+      "thesis": "The volume spike has a clear, dated catalyst: Grand Theft Auto VI reviews (Metacritic 99, tied for the all-time record) landed Nov 18, a day before the Nov 19 launch. Take-Two rose 6.2% on about 3.7x average volume. Pre-order estimates of about 16M units and about $1.54B (Sensor Tower, via Forbes) back the attention. The risk is a classic sell-the-news setup: the stock already ran up into launch and is still -6.4% over five days. The first sales disclosure is the next test, and fiscal Q2 net bookings of $1.6B missed guidance.",
+      "citations": [
+        {
+          "title": "Grand Theft Auto 6 Launches To Rave Reviews - Publisher Take-Two Shares Up 6%",
+          "url": "https://www.forbes.com/sites/siladityaray/2026/11/18/grand-theft-auto-6-launches-to-rave-reviews-over-15-billion-in-estimated-pre-sales/",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Why Did Take-Two Stock Move?",
+          "url": "https://www.trefis.com/stock/ttwo/articles/624389/why-did-take-two-stock-move/2026-11-11",
+          "date": "2026-11-11"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "TGT": {
+      "thesis": "The speculative flag rests on a real fundamental beat. On Nov 18 Target posted comparable sales of +5.6% vs. 3.8% expected, net sales +7.1% to $27.07B, and EPS of $2.65 vs. $2.07, its best sales growth in five years. It raised full-year EPS guidance to $10.65-$11.40. Shares rose 4.0% on about 2.9x average volume after being up about 7% intraday. Caveats: tariff refunds account for about 1.1 points of the full-year operating-margin outlook, and the stock was already up more than 70% year to date per CNBC.",
+      "citations": [
+        {
+          "title": "Target shares rise 7% as retailer posts best sales growth in five years, hikes guidance",
+          "url": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Target reports 7.1% rise in third-quarter sales as comparable sales jump 5.6%",
+          "url": "https://www.proactiveinvestors.com/companies/news/1102021/target-reports-7-1-rise-in-third-quarter-sales-as-comparable-sales-jump-5-6-1102021.html",
+          "date": "2026-11-18"
+        }
+      ],
+      "verdict": "aligned",
+      "last_updated": "2026-11-18"
+    },
+    "WMG": {
+      "thesis": "No company news dated Nov 18 explains Warner Music's 2.2x volume and 1.6% gain. The obvious dated event is its fiscal Q4 report before the open on Nov 19. Consensus is EPS of $0.38 on roughly flat revenue of about $1.88B, and it is the first full report under an acting CFO. Shares were already up about 20% since the prior report as of Nov 11, so the setup is pre-earnings positioning into a binary event rather than confirmed momentum.",
+      "citations": [
+        {
+          "title": "Warner Music's fiscal year-end report tests margin promise as new finance team takes the stage",
+          "url": "https://finviz.com/news/421320/warner-musics-fiscal-year-end-report-tests-margin-promise-as-new-finance-team-takes-the-stage",
+          "date": "2026-11-11"
+        }
+      ],
+      "verdict": "mixed",
+      "last_updated": "2026-11-18"
+    },
+    "MGEE": {
+      "thesis": "MGE Energy rose 2.5% on about 2.1x its thin average volume, but no dated news was found to explain the move: no clean catalyst found. For a small regulated utility, low baseline volume can make a 2x ratio easy to hit without real speculative interest.",
+      "citations": [],
+      "verdict": "no clean catalyst",
+      "last_updated": "2026-11-18"
     }
   },
-  "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. The 11/02/26 pull reflects the Mon Nov 2 session - equity data is current through that close, with no data lag (market-cap filter cache is from 10/24/26). Three cross-cutting themes drive the movers: (1) oil fell ~7% (Brent ~$105) on US-Iran diplomacy hopes, sending oil-services and E&P names (LBRT, PTEN, HP, VAL, TALO, TDW, NOG) down ~9-13% with little company-specific news; (2) Marvell agreed to buy Lumentum in an all-stock deal valued around $115B, and both fell sharply (LITE -18.6%, MRVL -12.7%) while optical/chip peers CIEN and MXL slid with the continuing tech selloff; (3) Q3 earnings beats and raises lifted IDXX (+21.8%), NWL, NXT, PHIN and EXPO. Several volume outliers are deal closings, not trading signals: LXP (Brookfield/CPP take-private) and KVUE (Kimberly-Clark acquisition) closed and delisted Nov 2, and SUPN closed its Indivior merger. Names marked \"no clean catalyst\" (e.g. ESAB, VSEC, CWK, ROAD, THO, SARO, CWEN, EW, HIMS) had no dated reporting explaining the move; FICO's existing recommendation thesis is unchanged because no newer reporting was found.",
+  "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. The 11/18/26 pull reflects the Wed Nov 18 session - equity data is current through that close, with no data lag (market-cap filter cache refreshed 11/18/26). It is the first pull since 11/02/26, so the market backdrop includes the Nov 5 post-midterm AI crash, Jensen Huang's Nov 12 resignation as Nvidia CEO and a five-day S&P 500 losing streak. Four themes drive the Nov 18 movers: (1) a cybersecurity rally (PANW, QLYS, OKTA, CRWD, ATEN) after a Nov 17 CISA alert on an AI-discovered Java flaw and DHS testimony on AI-powered attacks; (2) managed care fell (UNH -10%, ELV, HUM, MOH) after CMS proposed a Medicare Advantage/Medicaid anti-fraud audit rule on Nov 18; (3) gold, silver and copper miners (NEM, CDE, HL, FCX) fell as gold hit a 14-month low on Fed-hike bets and a strong dollar, and refiners (CVI, DINO, PARR, PBF) fell as oil dropped more than 4%; (4) retail earnings beats lifted TJX and Target. Nvidia fell 2.9% despite beating on Nov 17. AES's volume spike is merger arbitrage on its $15 take-private, not a trading signal, and its speculative card is marked a false positive. Corteva's recommendation card is rewritten: its drop is a real Nov 11 guidance cut, not the spin-off artifact described earlier. Names marked \"no clean catalyst\" (WRBY, PRGO, SGI, CAKE, RGEN, DVA, MGEE) had no dated reporting explaining the move. The refiner narratives cite only the EIA's Nov 18 inventory builds; no source tied the stocks' drop to it directly.",
   "point1_since_last_pull": "Since the Nov 2 pull: the Nov 3 midterms sparked an AI-stock crash on Nov 5 (S&P 500 -4.4%, Nasdaq -5.5%). Hot October jobs (+165K) and CPI (+0.4%, core +0.3%) pushed December-hike odds to ~93-96%, and the 10-year rose back to ~5.15%. Nvidia CEO Jensen Huang resigned Nov 12; the S&P 500 then fell five straight days to its lowest close since July. HY spreads re-widened to 3.43%, oil fell to ~$82 WTI, and gold dropped below $3,800.",
   "pull_date": "2026-11-02"
 }

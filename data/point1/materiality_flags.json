@@ -3,32 +3,32 @@
     {
       "type": "index_5day_move",
       "series": "SP500",
-      "value": -4.139,
-      "detail": "SP500 moved -4.14% over 5 days (threshold: >2%)"
+      "value": -3.882,
+      "detail": "SP500 moved -3.88% over 5 days (threshold: >2%)"
     },
     {
       "type": "index_5day_move",
       "series": "NASDAQ",
-      "value": -4.49,
-      "detail": "NASDAQ moved -4.49% over 5 days (threshold: >2%)"
+      "value": -4.069,
+      "detail": "NASDAQ moved -4.07% over 5 days (threshold: >2%)"
     },
     {
       "type": "index_day_move",
       "series": "DOW",
-      "value": -1.319,
-      "detail": "DOW moved -1.32% intraday (threshold: >1%)"
+      "value": -1.106,
+      "detail": "DOW moved -1.11% intraday (threshold: >1%)"
     },
     {
       "type": "index_5day_move",
       "series": "DOW",
-      "value": -4.566,
-      "detail": "DOW moved -4.57% over 5 days (threshold: >2%)"
+      "value": -4.36,
+      "detail": "DOW moved -4.36% over 5 days (threshold: >2%)"
     },
     {
       "type": "index_5day_move",
       "series": "RUSSELL2000",
-      "value": -4.585,
-      "detail": "RUSSELL2000 moved -4.58% over 5 days (threshold: >2%)"
+      "value": -4.636,
+      "detail": "RUSSELL2000 moved -4.64% over 5 days (threshold: >2%)"
     },
     {
       "type": "credit_spread_move",
