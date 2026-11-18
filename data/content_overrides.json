@@ -1,6 +1,16 @@
 {
   "point1_synthesis": {
     "current": {
+      "as_of": "2026-11-18",
+      "covers": "Sessions Tue Nov 3 - Wed Nov 18",
+      "paragraphs": [
+        "Inflation data turned the Fed from 'probably' to 'almost certainly' hiking in December. October payrolls rose 165,000 (Nov 6) against ~60,000 expected, and unemployment fell to 4.1%. October CPI (Nov 10) rose 0.4% m/m with core +0.3%, both 0.1pt above forecast; Governor Waller had said hours earlier that a ~0.3% core print should put a 50bp December hike on the table. Futures went to roughly 93-96% odds of a 25bp hike at the Dec 8-9 meeting (vs. ~72-85% at the Nov 2 pull), with a small chance of 50bp. Minutes of the Oct 27-28 meeting, released Nov 18, said officials expect further hikes will be needed and flagged AI-related demand as an inflation risk.",
+        "Yields gave back the flight-to-safety drop and more. The 10-year fell to ~4.84% on Nov 5 during the equity crash, then rose about 30bp in the week of Nov 9-13 to ~5.15% (FRED), back above the ~4.93% at the Nov 2 pull. The 2-year jumped further, from 4.46% on Nov 5 to 4.88% on Nov 13, so the curve flattened again (10y-2y spread 0.24-0.30 vs. 0.38 on Nov 5). The Fed funds rate is unchanged at 3.75%-4.00%.",
+        "Equities: the AI selloff became a broad one. After the Nov 3 midterms, Democratic gains raised the prospect of data-center moratoriums, and on Nov 5 the S&P 500 fell 4.4% (worst day since April 2025), the Nasdaq 5.5% and the Dow 3.4%; Nvidia lost 9.3% and AMD 17.3%. Stocks rebounded on Nov 9, then Nvidia CEO Jensen Huang resigned on Thu Nov 12 after reports about his personal conduct, with CFO Colette Kress named interim CEO. The S&P 500 then fell five straight sessions through Nov 18 to 7,323.63 (CNBC close), its lowest since late July; the Nasdaq is in a correction, more than 10% below its Oct 6 high. Nvidia's Nov 17 results beat (revenue $115.8B, outlook raised) and the stock rose ~5% after hours, but it closed down 2.9% on Nov 18. That day the Dow fell 1.11% as UnitedHealth dropped 10% on a proposed Medicare anti-fraud audit rule. The VIX closed near 24.7, up from 21.15 on Nov 2. Anthropic's IPO was set to price after the Nov 18 close.",
+        "Credit and commodities. HY spreads tightened to 3.20% on Nov 12, then widened back to 3.43% by Nov 17 (FRED), near the 3.44% Oct 30 high; IG is 0.92%. Oil kept falling on U.S.-Iran diplomacy: Brent fell nearly 9% on Nov 4, and on Nov 18 WTI dropped more than 4% to $82.19 and Brent to $90.83 (vs. $96.46 / $104.77 on Nov 2). Gold fell from ~$4,114 on Nov 9 to ~$3,758 on Nov 18 and silver to ~$45 as real yields rose. Data note: FRED's WTI series (89.53 on Nov 17) is again above reported settles, and FRED had not posted Nov 17-18 yields when this was written; the narrative uses reported closes, which differ slightly from Yahoo's index figures shown on the tiles."
+      ]
+    },
+    "previous": {
       "as_of": "2026-11-02",
       "covers": "Sessions Mon Oct 26 - Mon Nov 2",
       "paragraphs": [
@@ -9,22 +19,22 @@
         "AI earnings broke tech again, and credit followed. Alphabet fell 12.6% on Oct 29 (its worst day since listing) and Intel ~29% on Oct 30, when the Nasdaq dropped 2.86% and the SOX over 7%. The Nasdaq lost 2.0% on the week and about 5% in October, while the equal-weight S&P 500 rose 4.9% for the month. HY spreads widened to 3.44% and IG to 0.94% on Oct 30 (FRED), both the widest in this dashboard's data. On Mon Nov 2 the Nasdaq fell another 1.07% as Marvell (-13%) and Lumentum (-18%) sank on their $115B merger and Oracle (-8%) announced a $20B stock-and-bond raise; the Dow rose 0.41% and most S&P 500 stocks gained. The VIX closed at 21.15.",
         "Oil reversed hard. WTI closed Oct 30 at $104.12, its highest since mid-September, after gaining more than 15% in October. On Nov 2 Brent fell 7.6% to $104.77 and WTI 7.4% to $96.46 on U.S.-Iran peace-talk hopes and a reported Qatar-brokered plan to reopen Hormuz. That explains Monday's selloff in energy-services stocks and the rally in airlines. Gold fell to ~$3,899 on Oct 30 before recovering to ~$3,957 on Nov 2. Data note: Brent's Oct 30 close is reported as both $117.64 and $113.43, likely the expiring December vs. the January contract; Monday's 7.6% drop matches the $113.43 figure. FRED's Nov 2 yield and spread values had not posted on 11/02/26."
       ]
-    },
-    "previous": {
-      "as_of": "2026-10-24",
-      "covers": "Sessions Mon Oct 19 - Fri Oct 23",
-      "paragraphs": [
-        "Rates fell on fear, not on data. The 10-year Treasury yield dropped about 19bp on Thu Oct 22 to ~4.95%, the biggest one-day fall since August 2025 and the first close under 5% since Sept 23, as money moved into bonds during that day's tech selloff. It ended Friday near 4.99%, down ~11bp on the week (third weekly decline) and below the ~5.10% at the Oct 18 pull. The Fed is in its blackout ahead of the Oct 27-28 FOMC. Odds of an October hike fell from ~15% to roughly 5-10%; a December hike is still priced at ~71%. The data didn't argue for a dovish turn. Jobless claims hit a three-month low (194K), Michigan's year-ahead inflation expectations rose to 4.7%, and the October flash PMI showed output prices rising at the fastest pace since August 2022. Housing is weak: the NAHB index hit 29 (lowest since 2012) and September starts fell 5.9%.",
-        "Equities: the chip losing streak ended Monday, but the AI trade broke down again Thursday. Meta fell ~7% after raising capex guidance to $135-145B, Lam Research ~9% on light guidance and Tesla ~3% after a 43% drop in Q3 net income. The SOX fell 6%+, the Nasdaq 2.6% and the S&P 500 1.21% (worst day since July), while the Dow was flat and the Russell 2000 rose. Friday the selling broadened: the Dow fell 1.23%. On the week the S&P 500 was -0.47% and the Nasdaq -0.71% (second straight weekly loss for both); the Dow was +0.41% and the Russell 2000 +2.0%, a rotation out of crowded AI names. The VIX closed at 19.45, below the Oct 16 intraday high of 22.31.",
-        "Credit and oil kept tightening the screws. HY spreads widened 13bp to 3.40% on Oct 22 (FRED), concentrated in AI-linked debt: Oracle 5-year CDS reached a record ~315bp on Oct 19, and long-dated Oracle, CoreWeave and Nvidia bonds trade well below par. Brent settled at $116.72 on Fri Oct 23 (six-month high, third weekly gain) and WTI at $103.27, after Houthi strikes on Saudi targets (including a claimed fire at Aramco's Yanbu facility) and Iranian claims of seven tankers hit in Hormuz, of which monitors confirmed two. Gold fell to ~$4,008.",
-        "Data note: FRED's WTI series is again out of line with reported settles. It shows $110.01 on Oct 19 and $107.89 on Oct 20, while reported settles were $103.66 and $101.79. The narrative above uses reported prices. Several CNBC and Bloomberg figures (Oracle/CoreWeave CDS, the PMI) were confirmed from search summaries because the pages blocked access; FRED's Oct 23 credit and yield values had not posted on 10/24/26."
-      ]
     }
   },
   "macro_flags": {
     "index_day_move:DOW": {
-      "narrative": "This flag now reflects Fri Oct 23, when the Dow fell 1.23% (-653 points) to 52,215.16 after holding up all week (flat on Thu Oct 22 even as the Nasdaq fell 2.6%). Friday's selling spread beyond the AI/tech names that drove Thursday into the broader market, with oil-sensitive groups such as airlines hit as Brent settled at $116.72 (+3.1%, a six-month high) on Houthi strikes on Saudi targets and Iranian claims of tanker hits in Hormuz. Even after Friday the Dow finished the week +0.41%, the only major index up, so this is a one-day oil/risk-off hit on a week of rotation into the Dow's non-tech names, not a rate shock like the September readings below. The Dow's -1.03% figure on 09/23/26 spans two real sessions compressed into one by the Sept 22 data gap described in the synthesis above. Tuesday Sept 22 the Dow slipped a modest 0.3% while the Nasdaq set a second straight record close - Richmond Fed President Tom Barkin struck a hawkish note ('supply shocks aren't proving short-lived'). Wednesday Sept 23 did the rest of the damage (-0.7%) as the 10-year Treasury yield jumped to roughly 5.11%-5.14% (highest since July 2007) after Fed Governor Michael Barr said 'further policy adjustments are likely to be needed,' and a hotter-than-expected S&P Global composite PMI (58.4 vs. 55.3 forecast) reinforced inflation concerns, pushing October-hike odds to ~66-74%. Same rate/inflation mechanism as the Sept 16 FOMC-day flag below, not a new independent driver. This flag now trips on the day-move threshold rather than the 5-day one, because the FOMC's Sept 16 hike hit in a single session: the Fed hiked 25bp as anticipated, and the Dow fell 631pts (-1.21%) to 51,461.90 on the day \u2014 banks led the damage (KBE -2.6%, worst day since February) on fears the hiking cycle continues into 2027. Broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
+      "narrative": "UPDATE (11/18/26): The Dow fell 1.11% on Nov 18 (-561 points to 50,198.17, CNBC close; Yahoo's early figure was -1.32%), after -1.64% on Nov 17. Nov 18's drop was concentrated: UnitedHealth, a heavy weight in the price-weighted Dow, fell 10% on a proposed CMS Medicare anti-fraud audit rule, and Chevron and Caterpillar also fell as WTI dropped more than 4% to $82.19. On Nov 17 Home Depot (weak outlook, CEO change) and Caterpillar led. The S&P 500 slipped only 0.23% and the Nasdaq rose on Nov 18. Prior framing: This flag now reflects Fri Oct 23, when the Dow fell 1.23% (-653 points) to 52,215.16 after holding up all week (flat on Thu Oct 22 even as the Nasdaq fell 2.6%). Friday's selling spread beyond the AI/tech names that drove Thursday into the broader market, with oil-sensitive groups such as airlines hit as Brent settled at $116.72 (+3.1%, a six-month high) on Houthi strikes on Saudi targets and Iranian claims of tanker hits in Hormuz. Even after Friday the Dow finished the week +0.41%, the only major index up, so this is a one-day oil/risk-off hit on a week of rotation into the Dow's non-tech names, not a rate shock like the September readings below. The Dow's -1.03% figure on 09/23/26 spans two real sessions compressed into one by the Sept 22 data gap described in the synthesis above. Tuesday Sept 22 the Dow slipped a modest 0.3% while the Nasdaq set a second straight record close - Richmond Fed President Tom Barkin struck a hawkish note ('supply shocks aren't proving short-lived'). Wednesday Sept 23 did the rest of the damage (-0.7%) as the 10-year Treasury yield jumped to roughly 5.11%-5.14% (highest since July 2007) after Fed Governor Michael Barr said 'further policy adjustments are likely to be needed,' and a hotter-than-expected S&P Global composite PMI (58.4 vs. 55.3 forecast) reinforced inflation concerns, pushing October-hike odds to ~66-74%. Same rate/inflation mechanism as the Sept 16 FOMC-day flag below, not a new independent driver. This flag now trips on the day-move threshold rather than the 5-day one, because the FOMC's Sept 16 hike hit in a single session: the Fed hiked 25bp as anticipated, and the Dow fell 631pts (-1.21%) to 51,461.90 on the day \u2014 banks led the damage (KBE -2.6%, worst day since February) on fears the hiking cycle continues into 2027. Broad-market and cyclical names have lagged over the past week as rising Treasury yields and oil prices weigh on rate-sensitive and industrial stocks more than mega-cap tech. A hot core CPI print (+0.3% m/m vs +0.2% forecast) raised the odds of a Fed hike at the Sept 15-16 FOMC meeting from ~70% to ~90%, and Iran's attacks on commercial/naval vessels in the Middle East have pushed oil higher, adding an inflation and cost headwind for industrials and consumer names that make up a larger share of the Dow than the Nasdaq.",
       "citations": [
+        {
+          "title": "Dow drops more than 500 points; S&P 500 falls for fifth day as Nvidia sells off: Live updates",
+          "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Dow Jones Sinks to 50,759.42 as Home Depot and Cyclicals Weigh Before Nvidia's Earnings Beat Estimates",
+          "url": "https://www.bbntimes.com/global-economy/dow-jones-sinks-to-50-759-42-as-home-depot-and-cyclicals-weigh-before-nvidia-s-earnings-beat-estimates",
+          "date": "2026-11-17"
+        },
         {
           "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
           "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html",
@@ -71,8 +81,8 @@
           "date": "2026-09"
         }
       ],
-      "reaction_assessment": "proportionate - a single-day oil/risk-off hit that left the Dow up on the week; watch whether oil above $115 keeps pressuring cyclicals into the Oct 27-28 FOMC",
-      "last_updated": "2026-10-24"
+      "reaction_assessment": "proportionate - mostly one stock (UNH) on a sector-specific policy proposal plus oil-linked names; not a new macro shock",
+      "last_updated": "2026-11-18"
     },
     "index_day_move:RUSSELL2000": {
       "narrative": "This flag now fires on Friday Oct 16: the Russell 2000 fell 1.66% to ~2,721 (per this dashboard's own index data), giving back most of Thursday Oct 15's +1.38% bounce (to 2,767.27). We did not find small-cap-specific reporting for Friday's session; the move coincides with the broad chip/software/AI-infra selloff and the VIX spike described in the SP500/NASDAQ flags (small-cap semicap, crypto-miner and software names - e.g. ICHR, UCTT, ACMR, MXL, MARA, CLSK - were among this dashboard's biggest losers), only partly offset by small-cap energy producers that led the gainers list as Brent touched $110. Rates were not the driver this time: the 10-year yield sat near 5.10%, down from ~5.2% earlier in the week. Russell 2000's -1.28% figure in an earlier pull spans the same two compressed sessions as the DOW day-move flag above (Sept 22 data is missing from this dashboard's free index feed). Small-caps ticked up modestly Tuesday Sept 22 with the broader tech/chip rally, then fell hard Wednesday Sept 23 (-1.77% that session alone, closing at 2,838) as the 10-year Treasury yield spiked to ~5.11% - the highest since July 2007 - on hawkish Fed Governor Barr comments and a hot PMI print. This is the same small-cap rate-sensitivity mechanism already tracked by the 5-day Russell 2000 flag below, just showing up again as a fresh day-level trigger on Wednesday's sharper yield move.",
@@ -107,8 +117,23 @@
       "last_updated": "2026-10-18"
     },
     "index_5day_move:RUSSELL2000": {
-      "narrative": "The 5-day window through Fri Oct 23 has flipped to +2.00% (2,721.37 on Oct 16 to 2,775.90), so the flag now trips on small-cap strength rather than weakness. The rate mechanism below ran in reverse: the Russell 2000 rose 1.65% on Tue Oct 20 as defensives and health care rallied, and it edged up 0.1% on Thu Oct 22 while the Nasdaq fell 2.6%, as the 10-year yield dropped ~19bp to ~4.95% and October-hike odds fell to ~10% (Bloomberg data put them near 5% by Oct 23). Most stocks rose on Thursday; the damage was concentrated in AI/semis. Friday's -0.29% was modest next to the Dow's -1.23%. Read: a rotation out of crowded AI trades into rate-sensitive small caps helped by lower yields, not a new small-cap-specific catalyst. The 5-day window through Fri Oct 16 is -3.05%. The rate-sensitivity mechanism below did show up on Wed Oct 14, when the hotter-than-expected September CPI (3.7% headline, 2.6% core) pushed the 10-year yield to ~5.28% intraday and briefly lifted CME odds of an Oct 27-28 hike to ~54%, sending the Russell 2000 down ~2% that day. Thursday's +1.38% bounce came as yields fell back to 5.10%, and Friday's -1.66% was driven more by the tech/AI-infra selloff than by rates. The Fed did not move this window (fed funds unchanged at 3.75%-4.00%); October-hike odds ended the week ~15% after Fed Chair Warsh declined to signal a move, though futures still price roughly one more quarter-point hike by December. The FOMC's Sept 16 hike (to 3.75%-4%, first since 2023) is the realization of the rate risk this flag was already tracking, and small-caps' higher rate sensitivity means they remain the most exposed index to it as the 10-year sits above 5%. Small caps are more rate-sensitive than large caps (higher average leverage, more floating-rate debt), so the run-up in the 10yr yield toward 5% on hot inflation data and hawkish Fed signaling has hit the Russell 2000 harder than large-cap indices over the past week. The same Middle East-driven oil spike also raises input costs disproportionately for smaller, less diversified companies.",
+      "narrative": "UPDATE (11/18/26): The 5-day window through Nov 18 is -4.6% (2,846 on Nov 11 to ~2,716). Small caps fell with the 2-year yield's jump (4.46% on Nov 5 to 4.88% on Nov 13) after hot October CPI pushed December-hike odds above 90%, and lost 1.7% on Nov 16 in the broad selloff. They rose ~0.5% on Nov 18 while the Dow fell. Prior framing: The 5-day window through Fri Oct 23 has flipped to +2.00% (2,721.37 on Oct 16 to 2,775.90), so the flag now trips on small-cap strength rather than weakness. The rate mechanism below ran in reverse: the Russell 2000 rose 1.65% on Tue Oct 20 as defensives and health care rallied, and it edged up 0.1% on Thu Oct 22 while the Nasdaq fell 2.6%, as the 10-year yield dropped ~19bp to ~4.95% and October-hike odds fell to ~10% (Bloomberg data put them near 5% by Oct 23). Most stocks rose on Thursday; the damage was concentrated in AI/semis. Friday's -0.29% was modest next to the Dow's -1.23%. Read: a rotation out of crowded AI trades into rate-sensitive small caps helped by lower yields, not a new small-cap-specific catalyst. The 5-day window through Fri Oct 16 is -3.05%. The rate-sensitivity mechanism below did show up on Wed Oct 14, when the hotter-than-expected September CPI (3.7% headline, 2.6% core) pushed the 10-year yield to ~5.28% intraday and briefly lifted CME odds of an Oct 27-28 hike to ~54%, sending the Russell 2000 down ~2% that day. Thursday's +1.38% bounce came as yields fell back to 5.10%, and Friday's -1.66% was driven more by the tech/AI-infra selloff than by rates. The Fed did not move this window (fed funds unchanged at 3.75%-4.00%); October-hike odds ended the week ~15% after Fed Chair Warsh declined to signal a move, though futures still price roughly one more quarter-point hike by December. The FOMC's Sept 16 hike (to 3.75%-4%, first since 2023) is the realization of the rate risk this flag was already tracking, and small-caps' higher rate sensitivity means they remain the most exposed index to it as the 10-year sits above 5%. Small caps are more rate-sensitive than large caps (higher average leverage, more floating-rate debt), so the run-up in the 10yr yield toward 5% on hot inflation data and hawkish Fed signaling has hit the Russell 2000 harder than large-cap indices over the past week. The same Middle East-driven oil spike also raises input costs disproportionately for smaller, less diversified companies.",
       "citations": [
+        {
+          "title": "October CPI Rises 0.4%, Raising Odds of a December Fed Hike",
+          "url": "https://www.credaily.com/?p=225289",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "Fundies cheat sheet 2026-11-16: Fed minutes, Nvidia, bitcoin",
+          "url": "https://www.babypips.com/analysis/fundies-cheat-sheet-2026-11-16-fed-minutes-nvidia-bitcoin",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "How major US stock indexes fared Monday 11/16/2026",
+          "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-11162026-nid16112026/",
+          "date": "2026-11-16"
+        },
         {
           "title": "Market Review: October 20, 2026",
           "url": "https://investrade.com/market-review-october-20-2026/",
@@ -165,8 +190,8 @@
           "date": "2026-09-07"
         }
       ],
-      "reaction_assessment": "proportionate - small caps behaving as their rate sensitivity predicts, now in the favorable direction; reverses if yields go back above 5%",
-      "last_updated": "2026-10-24"
+      "reaction_assessment": "proportionate - the rate-sensitivity mechanism below, now in the unfavorable direction again",
+      "last_updated": "2026-11-18"
     },
     "yield_move:DGS10": {
       "narrative": "This flag now reflects Thu Oct 22, when the 10-year fell about 17bp on FRED's daily series (5.13% to 4.96%; Investrade's close is 4.953%, -19.3bp), the biggest one-day drop since August 2025 and the first close below 5% since Sept 23. The driver was a flight into bonds during that day's AI/tech selloff (Meta -7% on higher capex guidance, Lam Research -9%, the SOX -6%), not a data surprise: jobless claims that morning were a low 194K. The 5-year fell ~20bp and the 30-year ~15bp. October-hike odds fell to ~10.5%, and Bloomberg data put them near 5% on Oct 23 (from ~15% earlier in the week), with a December hike still priced at ~71%. Yields rose back to ~4.99% on Fri Oct 23 after an S&P Global flash PMI showed output prices rising at the fastest pace since August 2022. The 10-year was down ~11bp on the week, its third straight weekly decline. The Fed is in its pre-meeting blackout ahead of the Oct 27-28 FOMC. The FOMC met and hiked \u2014 25bp to 3.75%-4%, a 12-0 vote, the first hike since 2023 \u2014 rather than the cut markets had been pricing earlier in the year. The 10-year yield broke through 5% on the decision (5.02% intraday) as Chair Warsh's press conference reinforced that inflation is still the Fed's binding constraint; the dot plot signals at least one more hike is possible before year-end. This confirms rather than reverses the move already described below. The 10-year Treasury yield's 12bp jump is the mechanical center of this week's story: a hotter-than-expected core CPI print (+0.3% m/m) pushed the market-implied odds of a Fed rate hike at the Sept 15-16 FOMC from ~70% to ~90%, and a global bond selloff (fiscal deficit concerns, heavy Treasury issuance) is compounding the move. Yields are now at their highest level since 2023, approaching the highest since 2007.",
@@ -371,8 +396,28 @@
       "last_updated": "2026-11-02"
     },
     "index_5day_move:NASDAQ": {
-      "narrative": "UPDATE (11/02/26): The 5-day window (Oct 27 - Nov 2) is now -3.84%. The week of Oct 26-30 cost the Nasdaq 2.00% (to 25,437), with most of it on Fri Oct 30 (-2.86%, its worst day since June) after Intel fell ~29% on a weak Q4 revenue forecast and the SOX dropped over 7%. That followed Alphabet's -12.6% on Thu Oct 29 (its worst day since its 2004 listing) on weaker earnings, and Amazon's heavier AI-spending plans; coverage noted Alphabet, Microsoft, Amazon and Meta spent $201.9B on capex in the quarter vs. $175.5B of operating cash flow. The Nasdaq lost about 5% in October even as the equal-weight S&P 500 rose 4.9%, a rotation rather than a broad selloff. Monday Nov 2's -1.07% (Marvell-Lumentum deal, Oracle's $20B capital raise) extended the slide. The Fed's Oct 28 hold was not a driver: stocks rose slightly during Warsh's press conference. Prior framing: The 5-day window (through Fri Oct 16) is now -4.48%, the Nasdaq's worst week since late June, snapping a monthlong winning streak. The week's path: a hot September CPI on Wed Oct 14 (headline 3.7% y/y vs 3.6% expected, core 2.6% vs 2.5%; the 10-year yield rose to ~5.28% intraday) sent the Nasdaq and Russell 2000 down ~2% that day; Thursday Oct 15 the Nasdaq was flat (+0.08%) as investors rotated out of chips into other sectors and bonds (the 10-year fell back to 5.10%); and Friday's -2.15% chip/software rout finished the week. Chips have now fallen eight straight sessions (longest since 2008), with SOXX ~16% below its Oct 6 close. Drivers cited across coverage: AI-capex-cycle repricing, AI credit stress (CoreWeave CDS at distress levels), and oil above $100 feeding rate-hike fears - partly offset late in the week by Fed Chair Warsh declining to commit to an October hike. The 5-session window has rolled forward and now includes the Sept 22-23 pullback described in the DOW/RUSSELL2000 day-move flags above: Nasdaq set a second straight record close Tuesday Sept 22 (+0.4%) before falling roughly 1.1% Wednesday Sept 23 as the 10-year Treasury yield spiked to ~5.11% (highest since 2007) on hawkish Fed commentary and a hot PMI print. Even with that pullback, the index's 5-day change is still solidly positive at +3.67% (essentially unchanged from the +3.57% at last pull), because Monday's chip-sector record rally was large enough to absorb it. There is no genuinely new story here beyond what's already below - this reads as last week's rally holding up under a fresh bout of rate-driven selling, not being extended by a new catalyst. Nasdaq's 5-day change (Sept 15-21) turned solidly positive (+3.57%) even though the window contains the Sept 16 FOMC-hike selloff (Nasdaq -0.01% that day per the index data) - the index round-tripped and then broke higher on the Meta-Muse-triggered chip rally that began Sept 18 (Arm +13%, Intel +12%, AMD +9%) and continued through Monday Sept 21's broad rally (falling yields/oil, bitcoin above $85,000, AMD crossing a $1T market cap), which more than offset the FOMC-day losses within the same 5-day window.",
+      "narrative": "UPDATE (11/18/26): The 5-day window through Nov 18 is -4.5%. The Nasdaq fell 2.5% on Nov 16 (SOX -5.3%) after Jensen Huang's Nov 12 resignation as Nvidia CEO, putting it in a correction more than 10% below its Oct 6 high, and 0.7% on Nov 17. It rose 0.42% on Nov 18 even after Nvidia gave back its post-earnings gain (-2.9%), with buyers rotating into software and cybersecurity ahead of the Anthropic IPO. Earlier, Nov 5's -5.5% was its worst day since April 2025, on post-midterm fears of data-center moratoriums. Prior framing: UPDATE (11/02/26): The 5-day window (Oct 27 - Nov 2) is now -3.84%. The week of Oct 26-30 cost the Nasdaq 2.00% (to 25,437), with most of it on Fri Oct 30 (-2.86%, its worst day since June) after Intel fell ~29% on a weak Q4 revenue forecast and the SOX dropped over 7%. That followed Alphabet's -12.6% on Thu Oct 29 (its worst day since its 2004 listing) on weaker earnings, and Amazon's heavier AI-spending plans; coverage noted Alphabet, Microsoft, Amazon and Meta spent $201.9B on capex in the quarter vs. $175.5B of operating cash flow. The Nasdaq lost about 5% in October even as the equal-weight S&P 500 rose 4.9%, a rotation rather than a broad selloff. Monday Nov 2's -1.07% (Marvell-Lumentum deal, Oracle's $20B capital raise) extended the slide. The Fed's Oct 28 hold was not a driver: stocks rose slightly during Warsh's press conference. Prior framing: The 5-day window (through Fri Oct 16) is now -4.48%, the Nasdaq's worst week since late June, snapping a monthlong winning streak. The week's path: a hot September CPI on Wed Oct 14 (headline 3.7% y/y vs 3.6% expected, core 2.6% vs 2.5%; the 10-year yield rose to ~5.28% intraday) sent the Nasdaq and Russell 2000 down ~2% that day; Thursday Oct 15 the Nasdaq was flat (+0.08%) as investors rotated out of chips into other sectors and bonds (the 10-year fell back to 5.10%); and Friday's -2.15% chip/software rout finished the week. Chips have now fallen eight straight sessions (longest since 2008), with SOXX ~16% below its Oct 6 close. Drivers cited across coverage: AI-capex-cycle repricing, AI credit stress (CoreWeave CDS at distress levels), and oil above $100 feeding rate-hike fears - partly offset late in the week by Fed Chair Warsh declining to commit to an October hike. The 5-session window has rolled forward and now includes the Sept 22-23 pullback described in the DOW/RUSSELL2000 day-move flags above: Nasdaq set a second straight record close Tuesday Sept 22 (+0.4%) before falling roughly 1.1% Wednesday Sept 23 as the 10-year Treasury yield spiked to ~5.11% (highest since 2007) on hawkish Fed commentary and a hot PMI print. Even with that pullback, the index's 5-day change is still solidly positive at +3.67% (essentially unchanged from the +3.57% at last pull), because Monday's chip-sector record rally was large enough to absorb it. There is no genuinely new story here beyond what's already below - this reads as last week's rally holding up under a fresh bout of rate-driven selling, not being extended by a new catalyst. Nasdaq's 5-day change (Sept 15-21) turned solidly positive (+3.57%) even though the window contains the Sept 16 FOMC-hike selloff (Nasdaq -0.01% that day per the index data) - the index round-tripped and then broke higher on the Meta-Muse-triggered chip rally that began Sept 18 (Arm +13%, Intel +12%, AMD +9%) and continued through Monday Sept 21's broad rally (falling yields/oil, bitcoin above $85,000, AMD crossing a $1T market cap), which more than offset the FOMC-day losses within the same 5-day window.",
       "citations": [
+        {
+          "title": "Dow drops more than 500 points; S&P 500 falls for fifth day as Nvidia sells off: Live updates",
+          "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+          "url": "https://www.thestandard.com.hk/finance/article/348698/Wall-Street-ends-sharply-lower-on-AI-jitters-ahead-of-Nvidia-results-Anthropic-IPO",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "How major US stock indexes fared Monday 11/16/2026",
+          "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-11162026-nid16112026/",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "A brutal sell-off for AI stocks sends Wall Street reeling; S&P 500 sees worst day since 2025 'Liberation Day' tariffs",
+          "url": "https://www.kptv.com/2026/11/05/brutal-sell-off-ai-stocks-sends-wall-street-reeling-sp-500-sees-worst-day-since-2025-liberation-day-tariffs/",
+          "date": "2026-11-05"
+        },
         {
           "title": "Market Review: October 30, 2026",
           "url": "https://investrade.com/market-review-october-30-2026/",
@@ -444,12 +489,27 @@
           "date": "2026-09-18"
         }
       ],
-      "reaction_assessment": "proportionate - the drawdown is driven by real earnings and cash-flow news at the largest AI spenders (Alphabet, Intel, Amazon), not rates; yields fell over the same window",
-      "last_updated": "2026-11-02"
+      "reaction_assessment": "notable - tech is now in a correction; Nov 18's small gain with Nvidia down suggests rotation within tech, not a bottom yet",
+      "last_updated": "2026-11-18"
     },
     "credit_spread_move:BAMLH0A0HYM2 (HY OAS)": {
-      "narrative": "UPDATE (11/02/26): This flag now reflects Fri Oct 30: the high-yield OAS widened 18bp to 3.44% from 3.26% (FRED; Nov 2 not yet posted), its widest level in this dashboard's data and above the 3.40% Oct 22 reading below. The path was not one-way: spreads tightened to 3.14% on Oct 28 (FOMC day) before widening 12bp on Oct 29 and 18bp on Oct 30, the sessions of Alphabet's record ~12.6% drop and Intel's ~29% drop, when the Nasdaq fell 2.86% and the SOX over 7%. The Oct 30 market review said debt markets retreated alongside stocks on worries about the cost of debt-funded AI investment, and cited an FT report that Anthropic is expected to receive a 'high' junk rating. IG widened too (0.89% to 0.94%), so the stress is no longer confined to HY. The 10-year yield fell to ~4.93% on Oct 30, so this is again spreads widening while Treasuries rally. Prior framing: The ICE BofA high-yield OAS widened 13bp on Thu Oct 22, to 3.40% from 3.27% (FRED; Oct 23 not yet posted), as the AI/tech selloff hit the same names at the center of the AI-debt stress described in the Oct 18 synthesis. That is up from 3.31% on Oct 16 and 3.23% on Oct 15. Credit signals around it during the week: Oracle's 5-year CDS reached a record ~315bp on Oct 19 (CNBC, seen via search summary); CoreWeave's 5-year CDS was ~1,081bp around Oct 20 (CNBC, search summary), below its ~1,195bp Oct 15 peak, with its 2032 bonds yielding ~14.9%; CoreWeave shares fell ~10% on Oct 22. On Oct 23 the Motley Fool reported Oracle's 2065 notes near 70 cents, CoreWeave's 2031 notes below 80 cents and Nvidia's 2060 notes below 63 cents. IG spreads moved much less (0.88% to 0.89%). Read: the HY widening is concentrated in AI-linked issuers and coincided with Treasury yields falling, a credit-specific risk premium rather than a rates move.",
+      "narrative": "UPDATE (11/18/26): High-yield OAS widened 9bp to 3.43% on Nov 17 (FRED), after +11bp on Nov 16; it had tightened to 3.20% on Nov 12, its tightest since the Oct widening. That puts HY back within 1bp of the 3.44% Oct 30 high as equities fell five straight days and the 10-year rose back above 5.1%. IG widened only to 0.92%. No single credit event was found; it tracks the equity selloff and higher rates. Prior framing: UPDATE (11/02/26): This flag now reflects Fri Oct 30: the high-yield OAS widened 18bp to 3.44% from 3.26% (FRED; Nov 2 not yet posted), its widest level in this dashboard's data and above the 3.40% Oct 22 reading below. The path was not one-way: spreads tightened to 3.14% on Oct 28 (FOMC day) before widening 12bp on Oct 29 and 18bp on Oct 30, the sessions of Alphabet's record ~12.6% drop and Intel's ~29% drop, when the Nasdaq fell 2.86% and the SOX over 7%. The Oct 30 market review said debt markets retreated alongside stocks on worries about the cost of debt-funded AI investment, and cited an FT report that Anthropic is expected to receive a 'high' junk rating. IG widened too (0.89% to 0.94%), so the stress is no longer confined to HY. The 10-year yield fell to ~4.93% on Oct 30, so this is again spreads widening while Treasuries rally. Prior framing: The ICE BofA high-yield OAS widened 13bp on Thu Oct 22, to 3.40% from 3.27% (FRED; Oct 23 not yet posted), as the AI/tech selloff hit the same names at the center of the AI-debt stress described in the Oct 18 synthesis. That is up from 3.31% on Oct 16 and 3.23% on Oct 15. Credit signals around it during the week: Oracle's 5-year CDS reached a record ~315bp on Oct 19 (CNBC, seen via search summary); CoreWeave's 5-year CDS was ~1,081bp around Oct 20 (CNBC, search summary), below its ~1,195bp Oct 15 peak, with its 2032 bonds yielding ~14.9%; CoreWeave shares fell ~10% on Oct 22. On Oct 23 the Motley Fool reported Oracle's 2065 notes near 70 cents, CoreWeave's 2031 notes below 80 cents and Nvidia's 2060 notes below 63 cents. IG spreads moved much less (0.88% to 0.89%). Read: the HY widening is concentrated in AI-linked issuers and coincided with Treasury yields falling, a credit-specific risk premium rather than a rates move.",
       "citations": [
+        {
+          "title": "How major US stock indexes fared Monday 11/16/2026",
+          "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-11162026-nid16112026/",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "Dow Jones Sinks to 50,759.42 as Home Depot and Cyclicals Weigh Before Nvidia's Earnings Beat Estimates",
+          "url": "https://www.bbntimes.com/global-economy/dow-jones-sinks-to-50-759-42-as-home-depot-and-cyclicals-weigh-before-nvidia-s-earnings-beat-estimates",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "Fundies cheat sheet 2026-11-16: Fed minutes, Nvidia, bitcoin",
+          "url": "https://www.babypips.com/analysis/fundies-cheat-sheet-2026-11-16-fed-minutes-nvidia-bitcoin",
+          "date": "2026-11-16"
+        },
         {
           "title": "ICE BofA US High Yield Index Option-Adjusted Spread (BAMLH0A0HYM2)",
           "url": "https://fred.stlouisfed.org/series/bamlh0a0hym2",
@@ -501,8 +561,8 @@
           "date": "2026-10-23"
         }
       ],
-      "reaction_assessment": "notable - the second single-day trip in two pulls and the widest level on record here, now joined by IG; still a credit-specific AI-debt premium rather than a rates move, and Monday's oil drop and positive breadth argue against a broad credit event for now",
-      "last_updated": "2026-11-02"
+      "reaction_assessment": "notable - spreads have fully reversed their early-November tightening; a move above 3.44% would be a new high in this dashboard's data",
+      "last_updated": "2026-11-18"
     },
     "credit_spread_move:BAMLC0A0CM (IG OAS)": {
       "narrative": "The ICE BofA US investment-grade OAS widened 5bp on Fri Oct 30, to 0.94% from 0.89% (FRED; Nov 2 not yet posted), its widest level in this dashboard's history window and above 0.88-0.91% during the week of Oct 19-23. It had tightened to 0.86% on Oct 28 before reversing over Oct 29-30, the same two sessions as Alphabet's record one-day drop and Intel's ~29% fall, when coverage said debt markets retreated alongside stocks over the cost of debt-funded AI investment. The BBB index widened by a similar amount (1.10% to 1.16%). AI-linked IG issuers are at the center: Oracle's 2031 bonds traded 263bp over Treasuries on Oct 23, wider than the average BB junk spread, and its 5-year CDS is near 300bp vs. ~55bp for Microsoft. On Mon Nov 2 Oracle announced a $10B bond and $10B stock sale to fund its AI buildout, which adds supply to the same corner of the market. Treasury yields fell over the same days, so this is a credit risk premium, not a rates move.",
@@ -535,6 +595,65 @@
       ],
       "reaction_assessment": "modest but notable - 5bp is small in absolute terms, but IG had barely moved during earlier AI-debt stress; widening at the IG level alongside HY suggests the stress is starting to spread beyond junk-rated AI names",
       "last_updated": "2026-11-02"
+    },
+    "index_5day_move:SP500": {
+      "narrative": "The S&P 500 fell about 4.1% over the five sessions Nov 12-18 (7,619 on Nov 11 to ~7,324 on Nov 18), five straight losses and its lowest close since late July. Drivers stacked up: Nvidia CEO Jensen Huang resigned Nov 12; hot October CPI (Nov 10) and hawkish Fed speakers pushed the 10-year to ~5.15% and December-hike odds above 90%; the S&P fell 1.9% on Nov 16 as chips sold off (SOX -5.3%) and 1.03% on Nov 17 ahead of Nvidia's results. Nvidia beat on Nov 17 but still fell 2.9% on Nov 18. This came after the Nov 5 crash (-4.4%) and a Nov 9 rebound.",
+      "citations": [
+        {
+          "title": "Dow drops more than 500 points; S&P 500 falls for fifth day as Nvidia sells off: Live updates",
+          "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Dow Jones Sinks to 50,759.42 as Home Depot and Cyclicals Weigh Before Nvidia's Earnings Beat Estimates",
+          "url": "https://www.bbntimes.com/global-economy/dow-jones-sinks-to-50-759-42-as-home-depot-and-cyclicals-weigh-before-nvidia-s-earnings-beat-estimates",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+          "url": "https://www.thestandard.com.hk/finance/article/348698/Wall-Street-ends-sharply-lower-on-AI-jitters-ahead-of-Nvidia-results-Anthropic-IPO",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "How major US stock indexes fared Monday 11/16/2026",
+          "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-11162026-nid16112026/",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "A brutal sell-off for AI stocks sends Wall Street reeling; S&P 500 sees worst day since 2025 'Liberation Day' tariffs",
+          "url": "https://www.kptv.com/2026/11/05/brutal-sell-off-ai-stocks-sends-wall-street-reeling-sp-500-sees-worst-day-since-2025-liberation-day-tariffs/",
+          "date": "2026-11-05"
+        }
+      ],
+      "reaction_assessment": "notable - a rate-plus-AI double hit: the selloff is broad, not just Nvidia, and good Nvidia numbers did not stop it; watch the Anthropic IPO reception and the Dec 8-9 FOMC",
+      "last_updated": "2026-11-18"
+    },
+    "index_5day_move:DOW": {
+      "narrative": "The Dow fell about 4.6% over the five sessions through Nov 18 (from ~52,486 on Nov 11 to ~50,198). Losses came from cyclicals and heavyweights rather than tech: -1.4% Nov 16, -1.64% Nov 17 (Home Depot, Caterpillar, industrials and financials) and -1.11% Nov 18 (UnitedHealth -10% on a proposed Medicare audit rule; Chevron as oil fell). The backdrop is a 10-year back near 5.1-5.15% and a December hike almost fully priced after hot October CPI.",
+      "citations": [
+        {
+          "title": "Dow drops more than 500 points; S&P 500 falls for fifth day as Nvidia sells off: Live updates",
+          "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "Dow Jones Sinks to 50,759.42 as Home Depot and Cyclicals Weigh Before Nvidia's Earnings Beat Estimates",
+          "url": "https://www.bbntimes.com/global-economy/dow-jones-sinks-to-50-759-42-as-home-depot-and-cyclicals-weigh-before-nvidia-s-earnings-beat-estimates",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "How major US stock indexes fared Monday 11/16/2026",
+          "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-11162026-nid16112026/",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "October CPI Rises 0.4%, Raising Odds of a December Fed Hike",
+          "url": "https://www.credaily.com/?p=225289",
+          "date": "2026-11-11"
+        }
+      ],
+      "reaction_assessment": "notable - higher rates are now hitting the Dow's cyclical and defensive names, not just AI stocks",
+      "last_updated": "2026-11-18"
     }
   },
   "movers": {
@@ -5294,6 +5413,6 @@
     }
   },
   "point3_freshness_note": "Every citation on a mover, volume outlier, or recommendation card carries the actual publish date of its source, separate from this page's pull date above. Price/volume/index data always refreshes live on pull; narrative research is only rewritten when genuinely newer reporting was found for that name - otherwise the existing writeup stands rather than being re-presented under a fresher-looking timestamp. The 11/02/26 pull reflects the Mon Nov 2 session - equity data is current through that close, with no data lag (market-cap filter cache is from 10/24/26). Three cross-cutting themes drive the movers: (1) oil fell ~7% (Brent ~$105) on US-Iran diplomacy hopes, sending oil-services and E&P names (LBRT, PTEN, HP, VAL, TALO, TDW, NOG) down ~9-13% with little company-specific news; (2) Marvell agreed to buy Lumentum in an all-stock deal valued around $115B, and both fell sharply (LITE -18.6%, MRVL -12.7%) while optical/chip peers CIEN and MXL slid with the continuing tech selloff; (3) Q3 earnings beats and raises lifted IDXX (+21.8%), NWL, NXT, PHIN and EXPO. Several volume outliers are deal closings, not trading signals: LXP (Brookfield/CPP take-private) and KVUE (Kimberly-Clark acquisition) closed and delisted Nov 2, and SUPN closed its Indivior merger. Names marked \"no clean catalyst\" (e.g. ESAB, VSEC, CWK, ROAD, THO, SARO, CWEN, EW, HIMS) had no dated reporting explaining the move; FICO's existing recommendation thesis is unchanged because no newer reporting was found.",
-  "point1_since_last_pull": "Since the Oct 24 pull: the Fed held at 3.75%-4.00% on Oct 28 in a 10-2 vote (two dissents for a hike), and December-hike odds rose to ~72-85%. The 10-year still fell to ~4.93% on a flight to safety after Alphabet (-12.6%) and Intel (-29%) led a 2% weekly Nasdaq drop. HY spreads widened to 3.44% and IG to 0.94%. Brent fell 7.6% to $104.77 on Nov 2 on Iran peace-talk hopes, while the Nasdaq slid another 1.07% on the Marvell-Lumentum deal and Oracle's $20B raise.",
+  "point1_since_last_pull": "Since the Nov 2 pull: the Nov 3 midterms sparked an AI-stock crash on Nov 5 (S&P 500 -4.4%, Nasdaq -5.5%). Hot October jobs (+165K) and CPI (+0.4%, core +0.3%) pushed December-hike odds to ~93-96%, and the 10-year rose back to ~5.15%. Nvidia CEO Jensen Huang resigned Nov 12; the S&P 500 then fell five straight days to its lowest close since July. HY spreads re-widened to 3.43%, oil fell to ~$82 WTI, and gold dropped below $3,800.",
   "pull_date": "2026-11-02"
 }
